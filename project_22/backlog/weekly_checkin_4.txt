@@ -1,0 +1,17 @@
+Attemped tasks:
+- Everyone: Finding new datasets
+- Udai: Perform EDA on smaller datasets & transformed into graphs.
+- Shinu: Clean and performed EDA on large dataset
+- Wesley: Create Baselines for future model testing
+
+Completed:
+Completed all tasks
+
+Difficulties encountered:
+- Finding datasets that contained a lot of noise and were suitable
+  for our record linkage problem
+
+Tasks for this week:
+- Shinu: Transform large dataset into graph
+- Udai and Wesley: Train and evaluate  evaluate Hindroid model on the datasets
+- Everyone: Elevator Pitch

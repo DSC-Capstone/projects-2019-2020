@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html style='font-family:Arial'>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Understanding miRNA in pre-Type 1 Diabetes</title>
+
+  <style>
+      p {
+          line-height: 1.5em;
+      }
+      
+      .ref {
+          font-size: .5em;
+          position: relative;
+          top: -10px;
+      }
+  </style>
+</head>
+
+<body style='display: flex'>
+  <div style='width: 70vw; 
+                margin: auto; 
+                padding: 10px;
+                max-width: 800px;
+                min-width: 600px;
+                padding-bottom: 100px;'>
+    <h1 style="margin-bottom: 30px;">Understanding miRNA in pre-Type 1 Diabetes</h1>
+
+    <div style="display: flex; justify-content: space-between; margin-bottom: 30px;">
+      <div style="font-weight: 500; padding-right: 20px;">
+        <div>Pete Sheurpukdi & Derrick Liu</div>
+        <div style="margin-top: 5px;">5/13/2020</div>
+      </div>
+      <div style="display: fle"><div>
+          Project Link: <a href="https://github.com/Derrick56007/miRNA_preT1Diabetes">github.com/Derrick56007/miRNA_preT1Diabetes
+          </a></div>
+                <div>
+          Complete Report: <a href="https://github.com/Derrick56007/miRNA_preT1Diabetes/raw/master/report.pdf">here
+          </a></div>
+        </div>  
+
+    </div>
+
+    <div>
+      <h2 id="abstract"><a href="#abstract">1. Abstract</a></h2>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;Type 1 diabetes is an autoimmune disorder in which the body’s immune cells attack its insulin producing cells. The cause for this disease is largely unknown and there is no cure!<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;We are interested in finding what may be the cause of this disease by studying the difference in immune cells in healthy and pre-Type 1 diabetic individuals. Specifically, we will be looking at the difference in micro-RNA (miRNA) levels found in the immune cells. miRNA are small non-coding RNA that regulate whether or not messenger-RNA (mRNA) are translated into proteins. <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;With data from the Australian Red Cross, we found that there are clear differences in the immune cells’ miRNA expression levels, and that the levels of miRNA expressed in the prediabetic individuals have been found to be positively correlated with reduced insulin production, a decrease in the protein FOXP3 which is correlated with increased autoimmunity, as well as other miRNA correlated with genetic diseases that co-occur with Type-1 diabetes that lead to changes in vision possibly leading to blindness.
+       </p>
+    </div>
+    <div>
+      <h2 id="background"><a href="#background">2. Background</a></h2>
+      <p>
+&nbsp;&nbsp;&nbsp;&nbsp;Micro-RNA (miRNA) are small (~20-25 nucleotides) non-coding strands of RNA that attach themselves to messenger-RNA (mRNA) which codes for proteins. By attaching themselves to mRNA, they prevent the mRNA from being translated and thus are responsible for regulating the production of proteins. The miRNA in the dataset are specifically measured from T-cells, which are immune cells in the human body <a href="#ref1" class="ref">(1)</a>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Type 1 diabetes is an autoimmune disorder which means the immune cells attack the body itself, or cells in the body. Pre-diabetes is just a specific stage of diabetes (and can be associated with both type-1 and 2) in which the individual is asymptomatic but there exist markers (ex: high blood sugar) in the body which likely signal the onset of diabetes <a href="#ref2" class="ref">(2)</a>.
+Because of this we are interested in the different ways T-cells differ between healthy and pre-diabetic patients to understand what caused the change in function. 
+
+      </p>
+              <div style="display: flex;">
+        <div>
+          <p id="figure1" style="margin-bottom: 5px;"><a href="#figure1">Figure 1</a></p>
+          <img src="images/dataframe.png"><img>
+        </div>
+        <div style="padding-left: 20px; padding-top: 20px;">
+          <p>Columns: <br>&nbsp;&nbsp;&nbsp;&nbsp;Individual ID (healthy/pre-T1D) and the cell type (Naive / aTreg / rTreg)
+<br><br>
+              Rows: <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;the RPM counts for each Individual + Type for a specific miRNA
+</p>
+        </div>
+      </div>
+        <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;The data we obtained has values for the number of times the miRNA was read in a cell, which is how many times a sequence of base pairs in a sample of RNA are inferred to belong to a certain miRNA. The counts are separated into different types of T-cells for each individual in the dataset, and the amount of certain miRNA present in an individual’s cells can help inform what are causing immune cells to behave differently between healthy vs. pre-T1D patients. The types of T-cells we will be looking at are naive T-cells which help develop T-regulatory cells and respond to new pathogens, resting T-regulatory cells (rTreg), and activated T-regulatory cells (aTreg). rTreg cells turn into short-lived aTreg cells when stimulated, and increase FOXP3 expression. By doing this they limit/regulate the immune response and are an important factor in researching autoimmune diseases <a href="#ref3" class="ref">(3)</a>.
+        </p>
+                      <div style="display: flex;">
+        <div>
+          <p id="figure2" style="margin-bottom: 5px;"><a href="#figure2">Figure 2</a></p>
+          <img src="images/diagram.png" style="width: 35vw"><img>
+        </div>
+        <div style="padding-left: 20px; padding-top: 20px;">
+          <p>Since we will be studying the miRNA levels in these immune cells, we can see what genes are being expressed or suppressed differently by the miRNA between the groups, or if nothing is known about the miRNA found, it can lead to research about its functions. Our goal is to research what is making the immune cells attack the body’s own insulin producing cells, as well as what we can do to prevent it for pre-diabetic individuals.
+</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 id="methods"><a href="#methods">3. Methods</a></h2>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;For methods, refer to our complete <a href="https://github.com/Derrick56007/miRNA_preT1Diabetes/raw/master/report.pdf">report</a></p>
+    </div>
+    <div>
+      <h2 id="analysis"><a href="#analysis">4. Analysis</a></h2>
+<!--      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+      <div style="display: flex;">
+        <div>
+          <p id="figure3a" style="margin-bottom: 5px;"><a href="#figure3a">Figure 3a</a></p>
+          <img src="images/volcanoA.png" style="width: 35vw"><img>
+        </div>
+        <div style="padding-left: 20px; padding-top: 20px;">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;In rTreg cells, only miR-331-3p and miR-15a was significantly differentially expressed, with >95% of the miRNA having |logFC| less than 2 and F-values less than 9.6. </p>
+        </div>
+      </div>
+
+      <div style="display: flex;">
+        <div>
+          <p id="figure3b" style="margin-bottom: 5px;"><a href="#figure3b">Figure 3a</a></p>
+          <img src="images/volcanoB.png" style="width: 35vw"><img>
+        </div>
+        <div style="padding-left: 20px; padding-top: 20px;">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;In Naive cells, there exist >30 significant and differentially expressed miRNA, such as miR-375, miR-455-3p, and mir-101-1/101-2 and more. Most miRNA have decreased expression when going from healthy to pre-Type 1.
+</p>
+        </div>
+      </div>
+      <div style="display: flex;">
+        <div>
+          <p id="figure3c" style="margin-bottom: 5px;"><a href="#figure3c">Figure 3c</a></p>
+          <img src="images/volcanoC.png" style="width: 35vw"><img>
+        </div>
+        <div style="padding-left: 20px; padding-top: 20px;">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;In aTreg cells we identified 20 significantly differentially expressed miRNA. The most significant miRNA were mir-31, and mir-3615.</p>
+        </div>
+      </div>        
+              <div style="display: flex;">
+        <div>
+          <p id="figure4a" style="margin-bottom: 5px;"><a href="#figure4a">Figure 4a</a></p>
+          <img src="images/heatmapA.png" style="width: 35vw"><img>
+        </div>
+        <div style="padding-left: 20px; padding-top: 20px;">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </div>
+      </div>    
+              <div style="display: flex;">
+        <div>
+          <p id="figure4b" style="margin-bottom: 5px;"><a href="#figure4b">Figure 4b</a></p>
+          <img src="images/heatmapB.png" style="width: 35vw"><img>
+        </div>
+        <div style="padding-left: 20px; padding-top: 20px;">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;These heatmaps show differentially expressed miRNA between rTreg and aTreg within groups. The heatmaps are scaled so that the rows have a standard deviation of 1 and a mean of 0. After activation of rTreg to aTreg, red means higher levels of expression while green means lower.</p>
+        </div>
+      </div>    
+        <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;Our initial analysis was to compare the expression of miRNA between healthy and pre-diabetic groups, and found that while Naive cells and aTreg cells have miRNA that are significantly differentially expressed, the rTreg cells did not have as many miRNA expressing a large fold change between groups (Fig. 4b). This means that there may be something occurring when the resting T-regulatory cells are activated and become activated T-regulatory cells to change the miRNA expression profile (the miRNA that are being down or up-regulated), or that the Naive cells, which play a role in T-regulatory cell development, may be a cause for why the aTreg cells were expressing differently between groups. <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+We then switched to a within-group analysis to see which miRNA are normally changing when rTreg cells become aTreg cells in healthy individuals, and compared that to the pre-diabetic rTreg to aTreg miRNA expression profile (Fig. 5a-b). We found that the differing miRNA expressed in pre-diabetic individuals aTreg cells compared to healthy individuals is correlated with symptoms of diabetes. 
+
+        </p>
+        <div>
+        <h3 id="between-group"><a href="#between-group">4.1 Between-Group Methods</a></h3>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;We compared the differential expression of Naive (Fig. 4b), rTreg (Fig. 4a), and aTreg (Fig. 4c) between groups, by calculating the log fold change and plotting it along a value for statistical significance, resulting in a volcano plot. A volcano plot is a scatterplot that plots statistical significance versus a magnitude of change <a href="#ref4" class="ref">(4)</a>. <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+The log fold change (logFC), represented along the x-axes of Fig 4a-c, is a ratio between the average logRPM miRNA expressions of the healthy and pre-diabetic groups. We take the mean for each miRNA across all samples in each group then take the difference. Mathematically, it is LogFC = log2(condition1/condition2), which is identical to LogFC = log2(condition1) - log2(condition2) . In this case we have multiple samples and we need to take the mean, so our equation is LogFC = mean(log2(condition1)) - mean(log2(condition2)). This is equivalent to taking the geometric mean, resulting in Log2FC = log2(geo_mean(condition1) / geo_mean(condition2)), which equates to the original LogFC function (13).<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+To calculate the y-axis value, we used a measure defined as the absF value, an F-like statistic which compares the between-group variability to within-group for each miRNA (6). 
+
+            </p>
+        </div>
+              <div style="display: flex;">
+        <div>
+          <p id="figure5" style="margin-bottom: 5px;"><a href="#figure5">Figure 5</a></p>
+          <img src="images/absF.png" style="width: 35vw"><img>
+        </div>
+        <div style="padding-left: 20px; padding-top: 20px;">
+            <p>Where:<br><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style=" font-style: italic">Y<span style="position: relative; top: 5px; font-size: .75em;">ij</span></span> is the expression level of miRNA in sample <span style=" font-style: italic">j</span> and group <span style=" font-style: italic">i</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span style=" font-style: italic">K</span> is the number of groups being comparing  <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span style=" font-style: italic">n<span style="position: relative; top: 5px; font-size: .75em">i</span></span> is the total number of samples within group <span style=" font-style: italic">i</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span style=" font-style: italic">N</span> is the total number of samples in all groups</p>
+        </div>
+      </div>    
+                <div>
+        <h3 id="within-group"><a href="#within-group">4.2 Within-Group Methods</a></h3>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;The heatmaps in Fig. 5a-b show the miRNA expression levels between rTreg and aTreg within each group. Figure 5a shows the expression levels of 31 miRNAs and Figure 5b shows the expression levels of 43 miRNAs. Between these two heatmaps, there are only 8 overlapping miRNAs that exist in both healthy and pre-T1D. <br>&nbsp;&nbsp;&nbsp;&nbsp;
+What we take away from this is that these groups are very different (though it is hard to see) when the T-cells are activated. An important miRNA to look at is miR-31: this is seen to decrease in healthy groups when rTreg is activated (Fig. 5a), but is not decreased in pre-T1 individuals (can be seen missing from Fig. 5b). This is important because a decrease in miR-31 is tied to the production of FOXP3, which plays an important role in suppressing autoimmunity. There are other miRNA such as 23a/b which are correlated with inflammation when the expression is reduced. We can see that the healthy group has increased 23a/b expression from rTreg to aTreg, whereas the pre-T1 group is absent of a significant increase in 23a/b which can lead to inflammation.
+
+
+            </p>
+        </div>
+    </div>
+          <div>
+      <h2 id="results-and-comparisons"><a href="#results-and-comparisons">5. Results and Comparisons</a></h2>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;The significant differences we found in rTreg between groups were few; from Fig. 5a we saw only miR-15a, which is suggested to have a role in cell cycle regulation <a href="#ref5" class="ref">(5)</a>, and miR-331-3p, which regulates the VHL gene’s expression (17), generally functioning as a tumor suppressor by regulating cell division (18). The finding of miR-15a was consistent with the source publication <a href="#ref6" class="ref">(6)</a> (“MicroRNAs in CD4(+) T Cell Subsets Are Markers of Disease Risk and T Cell Dysfunction in Individuals at Risk for Type 1 Diabetes” ), but we did not find that let-7c was significant like they did (though it was in the top 20 most significant miRNA of Fig. 5a). let-7c is important because it is associated with progression to end-stage kidney disease in Type 1 diabetes <a href="#ref6" class="ref">(6)</a>. The overall conclusion that the difference in rTreg between groups is small was consistent however.<br>&nbsp;&nbsp;&nbsp;&nbsp;
+In Naive cells, there exist >30 significant and differentially expressed miRNA, such as miR-375, miR-455-3p, and mir-101-1/101-2 and more. Most miRNA are downregulated from healthy to pre-Type 1. The functions of miR-375 is associated with diabetes mellitus and lung cancer susceptibility <a href="#ref7" class="ref">(7)</a>. Up-regulation of miR-455-3p inhibits cell proliferation and suppresses the cell cycle of tumors and is a potential therapeutic choice for melanoma <a href="#ref8" class="ref">(8)</a>. mir-101-1/2 both function as tumor suppressors by targeting oncogenes and antioncogenes <a href="#ref9" class="ref">(9)</a> as well as drive differentiation of naive T-cells to become Th1 cells that respond to intracellular pathogens <a href="#ref6" class="ref">(6)</a>. By biasing naive T-cells to become Th1 cells, it also reduces the development of natural regulatory T-cells (nTreg), which is known to result in autoimmune disease in humans and mice <a href="#ref6" class="ref">(6)</a>. Our identification of mir-101 is also consistent with the source publication. Though there are some differences in exact miRNA identified, the most significant miRNA found are mutual.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;In aTreg cells, we found about 20 miRNA significantly differentially expressed, with the most significant being mir-31 and mir-3615. A significant increase in mir-31 for pre-Type 1 aTreg samples was also identified in the source publication and is associated with impaired FOXP3 expression which is necessary to the development of nTreg cells, thus leading to autoimmune disease <a href="#ref6" class="ref">(6)</a>.<br>&nbsp;&nbsp;&nbsp;&nbsp; 
+We did not see mir-3615 discussed in the source publication in our differential expression analysis in aTreg, but we have found that it is associated with the genetic diseases retinitis pigmentosa and Usher syndrome <a href="#ref10" class="ref">(10)</a>. Retinitis pigmentosa has been reported to rarely have a co-occurrence with diabetes mellitus due to recessive inheritance. This co-occurrence can result in four rare syndromes: Bardet-Biedl syndrome, Alström syndrome, Kearns-Sayre syndrome, and Wolfram syndrome <a href="#ref11" class="ref">(11)</a>. The association of this miRNA with diabetes and retinitis pigmentosa may provide further evidence for the genetic cause of Type 1 diabetes, as well as provide guidance for genetic studies to help diagnose individuals and carriers, or for genetic counseling.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Because rTreg between groups had mostly similar miRNA expression profiles, and aTreg had 20 or more significantly different miRNA, we wanted to research what is happening in the activation from rTreg to aTreg to cause similarly expressing cells to become different. There are 31 significantly differentially expressed miRNAs in the healthy group (Fig. 5a) and 43 in the pre-Type 1 group (Fig. 5b) from rTreg to aTreg. Between these two lists of differentially expressed miRNAs, there are only 8 that overlap between both healthy and pre-T1D. Our findings were very similar to that of the paper; they showed 36 differentially expressed miRNA in Pre-T1D, 21 in healthy, with only 4 overlapping. 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Some examples of differences we found were: a decrease of miR-23a/b expression in the healthy group with an absence of any significant differential expression in the pre-diabetic group. Up-regulated mir-23a/b (what we see in the pre-diabetic group) is known to be correlated with inflammation and cancer, although their roles still need to be researched <a href="#ref12" class="ref">(12)</a>. We also saw that while there was a decrease in miR-31 in the healthy group, there was not in the pre-diabetic group. mir-31 is known to negatively regulate the production of FOXP3, which is necessary in suppressing autoimmunity by developing T regulatory cells <a href="#ref6" class="ref">(6)</a>. The specific reason why rTreg is activating differently between these groups requires further research, but we would start by researching Naive cells more in depth, since do know that Naive cells play a role in developing these T regulatory cells, and we saw that the pre-diabetic Naive cells had an miRNA expression profile biased toward developing Th1 T-cells which would harm the development of the regulatory T cells. 
+</p>
+    </div>
+    <div>
+      <h2 id="conclusions"><a href="#conclusions">6. Discussion and Conclusions</a></h2>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;Our goal was to replicate some of the analysis methods from the paper “MicroRNAs in CD4(+) T Cell Subsets Are Markers of Disease Risk and T Cell Dysfunction in Individuals at Risk for Type 1 Diabetes” and compare our results using the same data. The main findings of the paper was that the miRNA expressed in pre-diabetic individuals promote an autoimmune response as well as have a miRNA expression profile that are correlated with symptoms of diabetes. Using between group and within group methods we were able to see similar miRNAs in pre-T1D indicative of possible T cell dysfunction in T1D. Profiling of miRNA expression shows differences in expression due to rTreg activation that could serve as a marker to the dysfunction of T cells in pre-T1D individuals. We were also able to discover a significant miRNA (mir-3615) that is correlated with genetic diseases that when co-occurring with diabetes, lead to four rare syndromes. Identifying this relationship can help prevent the occurrence of these syndromes by genetic counseling and identifying carriers within families. Further research would be necessary to understand the cause of the differential miRNA expression, however we believe that identifying the markers of dysfunctional T cells will be helpful in diagnosis and furthering scientific research.
+</p>
+    </div>
+    <div>
+      <h2 id="references"><a href="#references">7. References</a></h2>
+      <ol>
+          <li id="ref1"><a href="https://www.frontiersin.org/articles/10.3389/fendo.2018.00402/full">https://www.frontiersin.org/articles/10.3389/fendo.2018.00402/full</a></li>
+          <li id="ref2"><a href="https://www.canr.msu.edu/news/prediabetes_can_be_associated_with_both_type_1_and_type_2_diabetes">https://www.canr.msu.edu/news/prediabetes_can_be_associated_with_both_type_1_and_type_2_diabetes</a></li>
+          <li id="ref3"><a href="https://www.biolegend.com/en-us/treg">https://www.biolegend.com/en-us/treg</a></li>     
+          <li id="ref4"><a href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html#:~:text=A%20volcano%20plot%20is%20a,the%20most%20biologically%20significant%20genes">https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html#:~:text=A%20volcano%20plot%20is%20a,the%20most%20biologically%20significant%20genes</a></li>      
+          <li id="ref5"><a href="https://www.researchgate.net/profile/Andrea_Lauri/publication/280735892_Bianchessi_JMCC_2015_and_supp_mat/links/55c46ca308aea2d9bdc1db35.pdf">https://www.researchgate.net/profile/Andrea_Lauri/publication/280735892_Bianchessi_JMCC_2015_and_supp_mat/links/55c46ca308aea2d9bdc1db35.pdf</a></li>         
+          <li id="ref6"><a href="https://www.ncbi.nlm.nih.gov/pubmed/26786119">https://www.ncbi.nlm.nih.gov/pubmed/26786119</a></li>         
+          
+          <li id="ref7"><a href="https://www.genecards.org/cgi-bin/carddisp.pl?gene=MIR375">https://www.genecards.org/cgi-bin/carddisp.pl?gene=MIR375</a></li>             
+        <li id="ref8"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937487/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937487/</a></li>  
+        <li id="ref9"><a href="https://www.ajtr.org/files/ajtr0087112.pdf">https://www.ajtr.org/files/ajtr0087112.pdf</a></li>  
+        <li id="ref10"><a href="https://www.genecards.org/cgi-bin/carddisp.pl?gene=MIR3615">https://www.genecards.org/cgi-bin/carddisp.pl?gene=MIR3615</a></li>  
+        <li id="ref11"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2850186/#:~:text=The%20combined%20occurrence%20of%20diabetes,in%20an%20autosomal%20recessive%20fashion.">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2850186/#:~:text=The%20combined%20occurrence%20of%20diabetes,in%20an%20autosomal%20recessive%20fashion.</a></li>  
+        <li id="ref12"><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/eji.200838509">https://onlinelibrary.wiley.com/doi/full/10.1002/eji.200838509</a></li>            
+    </ol>
+    </div>
+  </div>
+</body>
+
+</html>

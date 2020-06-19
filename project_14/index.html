@@ -1,0 +1,246 @@
+<html>
+  <head>
+    <title>DSC180B Visualization</title>
+    <!-- Internal stylesheet import -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <h1 style = "font-size:150%; text-align:center" >Genetic Differences Between Glioblastoma Multiforme and Low-Grade Glioma Populations: How Does Copy Number Variation Distinguish Each Disease? </h1>
+    <p style = "text-align:center"> Presented by Noah Inada, Yifei Ning and Siqi Huang </p>
+    <p style = "text-align:center"><a href="https://docs.google.com/document/d/19qSCrG60ZkFkK8FQyJJ41oGZd7gplmR-id8LoBzQ05M/edit?usp=sharing">You can view the full report by clicking here</a></p>
+    <br></br>
+    <br></br>
+    <br></br>
+
+    <div id = 'background_and_abstract' style="float: center">
+      <h3 style = "text-align:center"> Section 1: Background, Abstract, and Data </h3>
+      <table class = "center">
+        <tr>
+          <th width = "75%"> Background </th>
+          <th width = "25%"> </th>
+        </tr>
+        <tr>
+          <td> Gliomas are a type of tumor that occurs in glial cells in the brain or the spinal cord. The glial cells that are most prone to developing gliomas are astrocytes which are specific types of brain cells whose main function is to support neurons. [2] Gliomas that occur from astrocytes are called astrocytomas. Glioblastoma Multiforme, or GBM, is a type of glioma that exhibit more genetic abnormalities than other astrocytomas and are the most aggressive and fatal of gliomas. [3] Gliomas are categorized as high-grade and low-grade. GBM is high grade, and Low-Grade Gliomas (LGG) are low-grade. The causes of GBM are largely unknown, but research suggests that approximately 5 percent of GBM cases are caused by hereditary conditions, with some of the cases being from people with Neurofibromatosis type 1 (NF1), Turcot syndrome and Li-Fraumeni syndrome all being genetic syndromes associated with increased susceptibility to cancer. [4] Because there are multiple syndromes associated with GBM and hereditary causes comprise only a small percentage of the entire affected population, it is difficult to predict whether GBM will occur in an individual or not, and how dangerous they are in those harboring mutations. [5]</td>
+          <td align = "center" style = "font-size:10pt;"><img src= "brain_tumor.jpg" width = "70%">
+            <p> Source: <a href = "url">https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084</a></p></td>
+        </tr>
+      </table>
+      <br></br>
+      <table class = "center">
+        <tr>
+          <th width = 40%> </th>
+          <th width = 60%> Abstract </th>
+        </tr>
+        <tr>
+          <td align = "center" style = "font-size:10pt;"><img src= "gbm.jpg" width = "80%">
+            <p> Source: <a href = "url">https://www.mayoclinic.org/diseases-conditions/glioblastoma/cdc-20350148#dialogId52936835</a></p></td>
+          <td> The goal of this project is to identify genetic differences between GBM and LGG populations. This is important because these genetic differences may be useful for diagnosing these diseases in people. This was done by comparing each population’s copy number variation focal scores. Our project’s question is: How does copy number variation of GBM and LGG distinguish? Our hypothesis is that the GBM population will have more copy number variation because GBM is more malignant, and so has more genetic mutations.In comparing the focal scores it was found that the GBM population had 1.5 times more duplications and deletions than the LGG population, confirming our hypothesis. And, there were specific sets of outlying genes in the GBM population that distinguish it from the LGG population - but only on a cross-case analysis level. Practically, it is not applicable to use them as markers for diagnosis. This project confirms the hypothesis that GBM has more genetic variation in its copy number variation, but does not support the approach to use copy number variation as a method of diagnosing either disease. We analyze the genetic differences by using the data from The Cancer Genome Atlas (TCGA) which is an online repository of cancer data. To understand how we analyze the genetic differences, we would introduce some important terminology that are helpful.</td>
+        </tr>
+        <tr>
+          <td><br></br></td>
+        </tr>
+        <tr>
+          <th align = "center" colspan = "2"> Terminology </th>
+        </tr>
+        <tr>
+          <th align = "center">Copy Number Variation</th>
+          <td> The variation of numbers of copies of a gene. This variation occurs from mutations and are categorized as duplications, deletions, or segmental duplication. Cancer cells are typically related to a set of multiple mutated genes, so copy number variation is a good indicator for some diseases like cancers. </td>
+        </tr>
+        <tr>
+          <th align = "center">Focal Scores</th>
+          <td> Summarize copy number variation. In our data, a score of one indicates a gene duplication, a score of zero indicates that there was no change in copy number, and a score of negative one indicates a gene deletion. </td>
+        </tr>
+      </table>
+    <br></br>
+    <br></br>
+      <table class = "center">
+        <tr>
+          <th width = "75%"> Data Overview </th>
+          <th width = "25%"> </th>
+        </tr>
+        <tr>
+          <td> Our data is from The Cancer Genome Atlas, which is an online repository of cancer data. It was started by a diverse group of researchers to consolidate and analyze cancer data.
+Their data portal is called the Genomic Data Commons Data Portal, or, GDC.
+The GDC has over 84,000 cancer cases spanning across 67 primary cancer sites such as the lung, breast, or brain.
+
+In our project we used all of their Glioblastoma Multiforme cases and all of their Low-Grade Glioma cases, which amounted to 617 and 507 cases respectively.
+In those cases they have both CNV data and clinical data. The clinical data includes gender, when they were diagnosed, and when they passed away, if they passed away.
+</td>
+          <td align = "center" style = "font-size:10pt;"><img src= "TCGA.png" width = "130%">
+            <p> Source: <a href = "url">https://portal.gdc.cancer.gov/</a></p></td>
+        </tr>
+      </table>
+
+<table class = "center">
+        <tr>
+          <th width = 40%> </th>
+          <th width = 60%> Data Ingestion </th>
+        </tr>
+        <tr>
+          <td align = "center" style = "font-size:10pt;"><img src= "TCGAbiolinks.png" width = "80%">
+            <p> Source: <a href = "url">https://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html</a></p></td>
+          <td> Our data ingestion pipeline consists of three modules: Data, Analysis, and Visualization. Under the Data Module, the filtered data will be downloaded and prepared for the model to digest. In the Analysis Module, the pre-processed data will be fit into our models. Our clinical data was ingested automatically with an R package called TCGAbiolinks. To gather the data, all we need to do is to set a query similar to a SQL query. For our Copy Number Variation, all of the data we needed was stored in one text file, which could just be downloaded directly from the GDC.</td>
+        </tr>
+      </table>
+
+    </div>
+
+    <br></br>
+    <br></br>
+    <br></br>
+
+    <div id = "eda" style = "float: left">
+      <h3 style = "text-align:center"> Section 2: Exploratory Data Analysis </h3>
+      <h4 style = "text-align:center"> 2.1 Survival Plots</h4>
+      <table class = "center">
+        <tr>
+          <td colspan = "2"><p>The survival plot presents an estimate of survival probability depending on the days since diagnosis. By using the R package TCGAbiolinks, we are able to use the fields 'days_to_death' and 'vital' of the clinical data from TCGA to create the survival plot we need, where the x-axis is the days since cancer diagnostics and y-axis is the survival probability. The survival plot has a line graph showing the proportion of surviving patients as time goes on, and a chart annotating how many people compose the proportion. The survival plots can help us recognize if there is a large lethality rate between GBM and LGG.</p></td>
+        </tr>
+        <tr>
+          <td><br></br></td>
+        </tr>
+        <tr><th colspan = "2">2.1.1 Survival Rate Analysis Across Genders<th></tr>
+        <tr>
+          <th width = 50% style = "text-align:center"> Survival Plot of LGG </th>
+          <th width = 50% style = "text-align:center"> Survival Plot of GBM</th>
+        </tr>
+        <tr>
+          <td class = "aligned_center"><img src="lgg_survival.png" width = 75%></td>
+          <td class = "aligned_center"><img src="gbm_survival.png" width = 75%></td>
+        </tr>
+        <tr>
+          <td colspan = "2">
+            <p> Within each population, the survival rates are compared across males and females. As shown above the left image is the survival analysis plot for LGG, and the right image is the analysis plot for GBM. </p>
+            <p> Comparing the graphs, numbers of  populations with GBM and LGG tend to decline at an increasing rate as time passes. Such a declining trend also holds for both males and females. For the population with LGG, their survival probability varies much more in the latter days and the declining trend is much more smooth with a larger variance. Visually, the males and females in the population develop a similar pattern: no significant differences across gender. On the other hand, the GBM survival plot shows a much more aggressive declining trend. As for different genders in the population with GBM, females tend to have a higher probability of survival than the males in the population, with respect to the whole range of days. </p>
+            <p> Conclusively, GBM appears to be more lethal - there is a much steeper decline in survival probability within just the first 1,000 days. After 1,00 days, both male and female people who have GBM have less than a .25 probability of survival, while male and female people in the LGG population have above a .75 probability at 1,000 days. Also, per the annotation chart, there are no survivors after 4000 days (11 years), but there are still 12 LGG patients living. </p>
+          </td>
+        </tr>
+        <tr>
+          <td><br></br></td>
+        </tr>
+        <tr><th colspan = "2">2.1.2 Survival Rate Analysis Across Ethnicities<th></tr>
+        <tr>
+          <th width = 50% style = "text-align:center"> Survival Plot of LGG </th>
+          <th width = 50% style = "text-align:center"> Survival Plot of GBM</th>
+        </tr>
+        <tr>
+          <td class = "aligned_center"><img src="lgg_survival_ethics.jpg" width = 75%></td>
+          <td class = "aligned_center"><img src="gbm_survival_ethics.jpg" width = 75%></td>
+        </tr>
+        <tr>
+          <td colspan = "2">
+            <p> A similar comparison across ethnicities. Three categories of ethnicities are compared: 'hispanic or latino', 'not hipanic or latino', and 'not reported'. </p>
+            <p> In the survival plot for GBM, the numbers of cases are small for the group 'hispanic or latino' (13s) and the group 'not reported' (93). Most cases belong to 'not hispanic or latino'. It is not appropriate to draw conclusions from limited numbers of cases, and thus we should only consider the general trend. The 'hispanic or latino' and 'not hipanic or latino' groups are somewhat different, their differences are not significant as the p-value equals 0.64. </p>
+            <p> In the survival plot for LGG, the number of cases are limited for the group 'hispanic and latino' and the group 'not reported'. It is not persuasive enough to draw conclusions about these two groups. The general pattern of the 'not hispanic or latino' population is the same as in the previous plot. </p>
+            <p> Conclusively, regardless of the ethnicity, the survival probability plot for either GBM or LGG follows the general pattern in section 4.1, which is that the survival rate decreases at an increasing rate as time goes by. The decreasing rate is much larger in GBM than in LGG, confirming our background research. </p>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <br></br>
+      <h4 style = "text-align:center"> 2.2 Focal Score Plots </h4>
+      <table class = "center">
+        <tr>
+          <td colspan = "2"><p>A CNV focal score is a value between negative one and one that indicates if the gene was deleted or copied. A negative one means it was deleted, a zero means nothing changed, and a one means it was copied. Because these scores are calculated across many samples, decimal values are an indicator of ‘what usually happens’. When our data file was generated, a noise-cutoff of .3 was used, meaning that values less than -.3 are classified as -1, values between -.3 and .3 are classified as 0, and values above .3 are classified as 1.</p></td>
+        </tr>
+        <tr>
+          <td class = "aligned_center"><img src= "gbm_focal_score.png" width = "90%"></td>
+          <td class = "aligned_center"><img src= "lgg_focal_score.png" width = "90%"></td>
+        </tr>
+        <tr>
+          <td colspan = "2"> In our exploratory data analysis, the first things were noticed were the GBM vertical lines of duplications and deletions. We also noticed that there were many deletions in both GBM and LGG to the right side of the graphs. We look more into these observations in our analysis. </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id = "analysis" style = "float:left">
+
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <h3 style = "text-align:center"> Section 3: Analysis </h3>
+      <table class = "center">
+        <tr>
+          <td colspan = "2"><p> Our analysis is of our focal score proportion plots. We summarized the focal score plots for our analysis by finding the proportion of cases of duplications and deletions for each gene and plotting both lists of proportions. By doing so, the number of cases in a gene where there is copy number variance can be easily compared with other genes. To interpret the plot: the higher a blue dot is, the more the gene was duplicated across the cases, and the lower a red dot is, the more the gene was deleted. Furthermore, we used cytoband data included in the focal scores file to delineate which genes belong to which chromosomes. </p></td>
+        </tr>
+        <tr>
+          <th colspan = "2" class = "aligned_center"> 3.1 Focal Score Proportions</th>
+        </tr>
+        <tr>
+          <td class = "aligned_center"><img src= "gbm_prob.png" width = "90%"></td>
+          <td class = "aligned_center"><img src= "lgg_prob.png" width = "90%"></td>
+        </tr>
+        <tr><td colspan = "2" class = "aligned_center">The above are the focal score proportions of GBM on the left and LGG on the right. Those GBM outliers distinguish it from LGG. The two significant outliers of our project are at gene indices 7,290 and 8,669 for the GBM population, indicated by blue and red arrows. These genes have symbols of ENSG00000146648 and ENSG00000264545 respectively, and are aliased EGFR and PNP_UDP_1 Domain-Containing Protein. EGFR is an epidermal growth factor receptor, and the other gene is involved in transferase activity and transferring pentosyl groups. [6][7]</td></tr>
+        <tr>
+          <td><br></br></td>
+        </tr>
+        <tr>
+          <th colspan = "2" class = "aligned_center"> 3.2 Zoomed Focal Score Proportions</th>
+        </tr>
+        <tr>
+          <td class = "aligned_center"><img src= "gbm_prob_zoomed.png" width = "90%"></td>
+          <td class = "aligned_center"><img src= "lgg_prob_zoomed.png" width = "90%"></td>
+        </tr>
+        <tr><td colspan = "2" class = "aligned_center">The above is a further zoomed view. The GBM population still has outliers of genes. </td></tr>
+        <tr>
+          <td><br></br></td>
+        </tr>
+        <tr>
+          <th colspan = "2" class = "aligned_center"> 3.3 Delineated Focal Score Proportions</th>
+        </tr>
+        <tr>
+          <td class = "aligned_center"><img src= "gbm_prob_delineated.png" width = "90%"></td>
+          <td class = "aligned_center"><img src= "lgg_prob_delineated.png" width = "90%"></td>
+        </tr>
+        <tr></tr>
+        <tr><td colspan = "2" class = "aligned_center">
+          <p> The above graphs includes lines from the cytoband data where a new chromosome begins to delineate the chromosomes. Where a new chromosome begins, there is often a fall in proportions. This seems to show that duplications and deletions will span across genes but not into the successive chromosome. </p>
+          <p> The GBM population has about 7.8 duplicates per gene and 14.9 deletions per gene, while the LGG population has about 5.2 duplications per gene and 9.3 deletions per gene. The GBM population has 1.5x  more duplications and deletions than the LGG population. </p>
+
+        </td></tr>
+      </table>
+    </div>
+
+
+    <div id = "conclusion" style = "float:left">
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+      <h3 style = "text-align:center"> Section 4: Conclusion </h3>
+      <table class = "center">
+          <tr><td colspan = "2" class = "aligned_center">The GBM population does have more copy number variation than the LGG population, which confirms our hypothesis. Genes ENSG0000026454 and ENSG00000146648 might potentially be useful for distinguishing GBM from LGG, fulfilling our project's goal of finding distinguishing outliers, but because their proportion difference is only .01 from the other genes, they may not be significant enough to be used in practice. </td></tr>
+          <tr>
+            <td><br></br></td>
+          </tr>
+        </table>
+    </div>
+
+    <div id = "references" style = "float:left">
+
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <h3 style = "text-align:center"> Section 5: References </h3>
+
+      <p style = "text-align:center" width = 90%> 1.<a href="url">https://www.bioconductor.org/packages/3.3/bioc/vignettes/TCGAbiolinks/inst/doc/tcgaBiolinks.html?fbclid=IwAR0VWPSCh9PikN4t_1IPJRdH6-SuSoX6ro-o1oNM7FoKNWSkDRUeG2phCjk#tcgaanalyze_dea-tcgaanalyze_leveltab-differential-expression-analysis-dea</a></p>
+      <p style = "text-align:center" width = 90%> 2.<a href="url">https://www.mayoclinic.org/diseases-conditions/glioma/symptoms-causes/syc-20350251</a></p>
+      <p style = "text-align:center" width = 90%> 3.<a href="url">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5563115/</a></p>
+      <p style = "text-align:center" width = 90%> 4.<a href="url">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2940552/</a></p>
+      <p style = "text-align:center" width = 90%> 5.<a href="url">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2761018/</a></p>
+      <p style = "text-align:center" width = 90%> 6.<a href="url">http://uswest.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000146648;r=7:55019021-55211628</a></p>
+      <p style = "text-align:center" width = 90%> 7.<a href="url">https://www.genecards.org/cgi-bin/carddisp.pl?gene=ENSG00000264545</a></p>
+
+    </div>
+
+    <br></br>
+    <br></br>
+    <br></br>
+
+  </body>
+</html>

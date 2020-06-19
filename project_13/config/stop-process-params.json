@@ -1,0 +1,6 @@
+{
+  "cols":["stop_id","pid","beat","service_area","stop_cause"\
+    ,"subject_race","subject_age","subject_sex","arrested",\
+    "searched","property_seized","contraband_found","date_stop","time_stop","reason_for_stop_explanation"],
+  "out": "./data/out/"
+}

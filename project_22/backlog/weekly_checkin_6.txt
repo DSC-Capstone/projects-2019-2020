@@ -1,0 +1,20 @@
+Tasks attempted:
+	- finish node2vec implementation, training, and testing on smaller datasets (Udai)
+	- convert large dataset to graph (Wesley)
+	- make the template for visualization (Shinu)
+	- finish visualization (whole group)
+
+Tasks completed:
+	- finish node2vec implementation (100%)
+	- testing on smaller datasets (50%)
+	- convert large dataset to a graph (50%)
+	- visualization work (100%)
+
+Difficulties:
+	- node2vec hyperparameters need to be played around with and tested for performance issues
+	- the large dataset conversion to a graph looks to be computationally expensive.
+
+Attempting Next Week:
+	- finishing node2vec on smaller datasets (Wesley and Udai)
+	- finish making big graph (Shinu)
+	- work on rough draft of final report (whole group)

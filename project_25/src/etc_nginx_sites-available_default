@@ -1,0 +1,15 @@
+# Server configuration for a static nginx server to serve compiled Angular code
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+
+        root /var/www/deploy;
+
+        index index.html index.htm;
+
+        server_name _;
+
+        location / {
+                try_files $uri /index.html;
+        }
+}

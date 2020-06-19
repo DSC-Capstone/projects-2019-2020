@@ -1,0 +1,19 @@
+{
+    "max_p_value": 9e-6,
+    "n_samples": 1000,
+    "outpath": "./data/out",
+    "diseases": {
+        "Coronary Artery Disease": {
+            "train_data": "testdata/coronary_artery/EFO_0001645.csv",
+            "test_data": "testdata/coronary_artery/EFO_0000378.csv"
+        },
+        "Alzheimer's Disease": {
+            "train_data": "testdata/alzheimer's/EFO_0000249.csv",
+            "test_data": "testdata/alzheimer's/EFO_1001870.csv"
+        },
+        "Diabetes Mellitus": {
+            "train_data": "testdata/diabetes_type1_melittus/EFO_0000400.csv",
+            "test_data": "testdata/diabetes_type1_melittus/EFO_0001359.csv"
+        }
+    }
+}

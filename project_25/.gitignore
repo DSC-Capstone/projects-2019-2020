@@ -1,0 +1,60 @@
+.ipynb_checkpoints/*
+*/.ipynb_checkpoints/*
+__pycache__/
+*.py[cod]
+*.ipynb
+!data
+data/*
+!data/Sample_1.py
+!data/Sample_2.py
+!data/test/
+!data/test/*
+!data/test_project/
+!data/test_project/*
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+gh-page/dist
+gh-page/tmp
+gh-page/out-tsc
+# Only exists if Bazel was run
+gh-page/bazel-out
+
+# dependencies
+gh-page/node_modules
+
+# profiling files
+gh-page/chrome-profiler-events*.json
+gh-page/speed-measure-plugin*.json
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+gh-page/.sass-cache
+gh-page/connect.lock
+gh-page/coverage
+gh-page/libpeerconnection.log
+gh-page/npm-debug.log
+gh-page/yarn-error.log
+gh-page/testem.log
+gh-page/typings
+
+# System Files
+**/.DS_Store
+Thumbs.db

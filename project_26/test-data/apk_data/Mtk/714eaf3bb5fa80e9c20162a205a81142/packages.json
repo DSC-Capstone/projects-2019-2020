@@ -1,0 +1,3142 @@
+{
+    "Lorg/anddev/andengine/audio/BaseAudioEntity;": [
+        "Lorg/anddev/andengine/audio/BaseAudioEntity;->getMasterVolume()F",
+        "Lorg/anddev/andengine/audio/BaseAudioEntity;->getAudioManager()Lorg/anddev/andengine/audio/IAudioManager;",
+        "Lorg/anddev/andengine/audio/BaseAudioEntity;->setVolume()V"
+    ],
+    "Lorg/anddev/andengine/audio/IAudioManager;": [
+        "Lorg/anddev/andengine/audio/IAudioManager;->getMasterVolume()F"
+    ],
+    "Ljava/util/ArrayList;": [
+        "Ljava/util/ArrayList;->add()Z",
+        "Ljava/util/ArrayList;->clear()V",
+        "Ljava/util/ArrayList;->toString()Ljava/lang/String;",
+        "Ljava/util/ArrayList;->size()I",
+        "Ljava/util/ArrayList;->remove()Z",
+        "Ljava/util/ArrayList;->get()Ljava/lang/Object;",
+        "Ljava/util/ArrayList;->remove()Ljava/lang/Object;",
+        "Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/ArrayList;->addAll()Z",
+        "Ljava/util/ArrayList;->set()Ljava/lang/Object;",
+        "Ljava/util/ArrayList;->contains()Z"
+    ],
+    "Lorg/anddev/andengine/audio/IAudioEntity;": [
+        "Lorg/anddev/andengine/audio/IAudioEntity;->release()V",
+        "Lorg/anddev/andengine/audio/IAudioEntity;->onMasterVolumeChanged()V",
+        "Lorg/anddev/andengine/audio/IAudioEntity;->stop()V"
+    ],
+    "Lorg/anddev/andengine/audio/music/Music;": [
+        "Lorg/anddev/andengine/audio/music/Music;->play()V",
+        "Lorg/anddev/andengine/audio/music/Music;->getAudioManager()Lorg/anddev/andengine/audio/music/MusicManager;",
+        "Lorg/anddev/andengine/audio/music/Music;->setVolume()V",
+        "Lorg/anddev/andengine/audio/music/Music;->pause()V",
+        "Lorg/anddev/andengine/audio/music/Music;->setLooping()V"
+    ],
+    "Landroid/media/MediaPlayer;": [
+        "Landroid/media/MediaPlayer;->start()V",
+        "Landroid/media/MediaPlayer;->prepare()V",
+        "Landroid/media/MediaPlayer;->setVolume()V",
+        "Landroid/media/MediaPlayer;->setDataSource()V",
+        "Landroid/media/MediaPlayer;->stop()V",
+        "Landroid/media/MediaPlayer;->isPlaying()Z",
+        "Landroid/media/MediaPlayer;->release()V",
+        "Landroid/media/MediaPlayer;->create()Landroid/media/MediaPlayer;",
+        "Landroid/media/MediaPlayer;->seekTo()V",
+        "Landroid/media/MediaPlayer;->pause()V",
+        "Landroid/media/MediaPlayer;->setLooping()V"
+    ],
+    "Lorg/anddev/andengine/audio/music/MusicManager;": [
+        "Lorg/anddev/andengine/audio/music/MusicManager;->getMasterVolume()F",
+        "Lorg/anddev/andengine/audio/music/MusicManager;->add()V"
+    ],
+    "Landroid/content/Context;": [
+        "Landroid/content/Context;->getFileStreamPath()Ljava/io/File;",
+        "Landroid/content/Context;->getCacheDir()Ljava/io/File;",
+        "Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;",
+        "Landroid/content/Context;->getDir()Ljava/io/File;",
+        "Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;",
+        "Landroid/content/Context;->getPackageName()Ljava/lang/String;",
+        "Landroid/content/Context;->getApplicationContext()Landroid/content/Context;",
+        "Landroid/content/Context;->startActivity()V",
+        "Landroid/content/Context;->checkCallingOrSelfPermission()I",
+        "Landroid/content/Context;->getSystemService()Ljava/lang/Object;",
+        "Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;",
+        "Landroid/content/Context;->getMainLooper()Landroid/os/Looper;",
+        "Landroid/content/Context;->startService()Landroid/content/ComponentName;",
+        "Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;",
+        "Landroid/content/Context;->getSharedPreferences()Landroid/content/SharedPreferences;"
+    ],
+    "Ljava/lang/String;": [
+        "Ljava/lang/String;->contains()Z",
+        "Ljava/lang/String;->toLowerCase()Ljava/lang/String;",
+        "Ljava/lang/String;->endsWith()Z",
+        "Ljava/lang/String;->hashCode()I",
+        "Ljava/lang/String;->length()I",
+        "Ljava/lang/String;->indexOf()I",
+        "Ljava/lang/String;->replaceAll()Ljava/lang/String;",
+        "Ljava/lang/String;->replace()Ljava/lang/String;",
+        "Ljava/lang/String;->toString()Ljava/lang/String;",
+        "Ljava/lang/String;->equals()Z",
+        "Ljava/lang/String;->equalsIgnoreCase()Z",
+        "Ljava/lang/String;->format()Ljava/lang/String;",
+        "Ljava/lang/String;->trim()Ljava/lang/String;",
+        "Ljava/lang/String;->charAt()C",
+        "Ljava/lang/String;->concat()Ljava/lang/String;",
+        "Ljava/lang/String;->valueOf()Ljava/lang/String;",
+        "Ljava/lang/String;->split()[Ljava/lang/String;",
+        "Ljava/lang/String;->startsWith()Z",
+        "Ljava/lang/String;->lastIndexOf()I",
+        "Ljava/lang/String;->substring()Ljava/lang/String;",
+        "Ljava/lang/String;->getBytes()[B"
+    ],
+    "Ljava/lang/StringBuilder;": [
+        "Ljava/lang/StringBuilder;->delete()Ljava/lang/StringBuilder;",
+        "Ljava/lang/StringBuilder;->append()Ljava/lang/StringBuilder;",
+        "Ljava/lang/StringBuilder;->setLength()V",
+        "Ljava/lang/StringBuilder;->length()I",
+        "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+    ],
+    "Landroid/content/res/AssetManager;": [
+        "Landroid/content/res/AssetManager;->openFd()Landroid/content/res/AssetFileDescriptor;",
+        "Landroid/content/res/AssetManager;->open()Ljava/io/InputStream;"
+    ],
+    "Landroid/content/res/AssetFileDescriptor;": [
+        "Landroid/content/res/AssetFileDescriptor;->getLength()J",
+        "Landroid/content/res/AssetFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;",
+        "Landroid/content/res/AssetFileDescriptor;->getStartOffset()J"
+    ],
+    "Lorg/anddev/andengine/audio/sound/Sound;": [
+        "Lorg/anddev/andengine/audio/sound/Sound;->setVolume()V",
+        "Lorg/anddev/andengine/audio/sound/Sound;->getAudioManager()Lorg/anddev/andengine/audio/sound/SoundManager;",
+        "Lorg/anddev/andengine/audio/sound/Sound;->setLoopCount()V",
+        "Lorg/anddev/andengine/audio/sound/Sound;->getMasterVolume()F",
+        "Lorg/anddev/andengine/audio/sound/Sound;->stop()V",
+        "Lorg/anddev/andengine/audio/sound/Sound;->setLooping()V",
+        "Lorg/anddev/andengine/audio/sound/Sound;->play()V"
+    ],
+    "Lorg/anddev/andengine/audio/sound/SoundManager;": [
+        "Lorg/anddev/andengine/audio/sound/SoundManager;->add()V",
+        "Lorg/anddev/andengine/audio/sound/SoundManager;->getSoundPool()Landroid/media/SoundPool;"
+    ],
+    "Landroid/media/SoundPool;": [
+        "Landroid/media/SoundPool;->setRate()V",
+        "Landroid/media/SoundPool;->release()V",
+        "Landroid/media/SoundPool;->play()I",
+        "Landroid/media/SoundPool;->setLoop()V",
+        "Landroid/media/SoundPool;->pause()V",
+        "Landroid/media/SoundPool;->setVolume()V",
+        "Landroid/media/SoundPool;->stop()V",
+        "Landroid/media/SoundPool;->load()I",
+        "Landroid/media/SoundPool;->resume()V"
+    ],
+    "Lorg/anddev/andengine/audio/BaseAudioManager;": [
+        "Lorg/anddev/andengine/audio/BaseAudioManager;->releaseAll()V"
+    ],
+    "Landroid/widget/EditText;": [
+        "Landroid/widget/EditText;->setText()V"
+    ],
+    "Landroid/app/AlertDialog$Builder;": [
+        "Landroid/app/AlertDialog$Builder;->setPositiveButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setNegativeButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setTitle()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setView()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;",
+        "Landroid/app/AlertDialog$Builder;->setIcon()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setMessage()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setOnCancelListener()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;"
+    ],
+    "Lorg/anddev/andengine/ui/dialog/GenericInputDialogBuilder;": [
+        "Lorg/anddev/andengine/ui/dialog/GenericInputDialogBuilder;->setView()V"
+    ],
+    "Lorg/anddev/andengine/ui/dialog/StringInputDialogBuilder;": [
+        "Lorg/anddev/andengine/ui/dialog/StringInputDialogBuilder;->generateResult()Ljava/lang/String;"
+    ],
+    "Lorg/anddev/andengine/ui/activity/BaseSplashActivity;": [
+        "Lorg/anddev/andengine/ui/activity/BaseSplashActivity;->getSplashDuration()F",
+        "Lorg/anddev/andengine/ui/activity/BaseSplashActivity;->getSplashScaleFrom()F",
+        "Lorg/anddev/andengine/ui/activity/BaseSplashActivity;->getSplashScaleTo()F",
+        "Lorg/anddev/andengine/ui/activity/BaseSplashActivity;->getEngine()Lorg/anddev/andengine/engine/Engine;",
+        "Lorg/anddev/andengine/ui/activity/BaseSplashActivity;->getScreenOrientation()Lorg/anddev/andengine/engine/options/EngineOptions$ScreenOrientation;",
+        "Lorg/anddev/andengine/ui/activity/BaseSplashActivity;->onGetSplashTextureSource()Lorg/anddev/andengine/opengl/texture/source/ITextureSource;"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/source/ITextureSource;": [
+        "Lorg/anddev/andengine/opengl/texture/source/ITextureSource;->getWidth()I",
+        "Lorg/anddev/andengine/opengl/texture/source/ITextureSource;->getHeight()I",
+        "Lorg/anddev/andengine/opengl/texture/source/ITextureSource;->onLoadBitmap()Landroid/graphics/Bitmap;"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/TextureFactory;": [
+        "Lorg/anddev/andengine/opengl/texture/TextureFactory;->createForTextureSourceSize()Lorg/anddev/andengine/opengl/texture/Texture;",
+        "Lorg/anddev/andengine/opengl/texture/TextureFactory;->createForTextureRegionSize()Lorg/anddev/andengine/opengl/texture/Texture;"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/region/TextureRegionFactory;": [
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegionFactory;->createTiledFromAsset()Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegionFactory;->createFromAsset()Lorg/anddev/andengine/opengl/texture/region/TextureRegion;",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegionFactory;->createFromResource()Lorg/anddev/andengine/opengl/texture/region/TextureRegion;",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegionFactory;->setAssetBasePath()V",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegionFactory;->createTiledFromSource()Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegionFactory;->createFromSource()Lorg/anddev/andengine/opengl/texture/region/TextureRegion;"
+    ],
+    "Lorg/anddev/andengine/engine/Engine;": [
+        "Lorg/anddev/andengine/engine/Engine;->stop()V",
+        "Lorg/anddev/andengine/engine/Engine;->getFontManager()Lorg/anddev/andengine/opengl/font/FontManager;",
+        "Lorg/anddev/andengine/engine/Engine;->getTextureManager()Lorg/anddev/andengine/opengl/texture/TextureManager;",
+        "Lorg/anddev/andengine/engine/Engine;->calculateNanosecondsElapsed()J",
+        "Lorg/anddev/andengine/engine/Engine;->onPause()V",
+        "Lorg/anddev/andengine/engine/Engine;->onTouchHUD()Z",
+        "Lorg/anddev/andengine/engine/Engine;->onUpdateScene()V",
+        "Lorg/anddev/andengine/engine/Engine;->getCamera()Lorg/anddev/andengine/engine/camera/Camera;",
+        "Lorg/anddev/andengine/engine/Engine;->onLoadComplete()V",
+        "Lorg/anddev/andengine/engine/Engine;->getNanosecondsElapsed()J",
+        "Lorg/anddev/andengine/engine/Engine;->getScene()Lorg/anddev/andengine/entity/scene/Scene;",
+        "Lorg/anddev/andengine/engine/Engine;->onResume()V",
+        "Lorg/anddev/andengine/engine/Engine;->isRunning()Z",
+        "Lorg/anddev/andengine/engine/Engine;->setScene()V",
+        "Lorg/anddev/andengine/engine/Engine;->onDrawScene()V",
+        "Lorg/anddev/andengine/engine/Engine;->enableVibrator()Z",
+        "Lorg/anddev/andengine/engine/Engine;->runOnUpdateThread()V",
+        "Lorg/anddev/andengine/engine/Engine;->registerSelfAsSensorListener()V",
+        "Lorg/anddev/andengine/engine/Engine;->start()V",
+        "Lorg/anddev/andengine/engine/Engine;->registerUpdateHandler()V",
+        "Lorg/anddev/andengine/engine/Engine;->getMusicManager()Lorg/anddev/andengine/audio/music/MusicManager;",
+        "Lorg/anddev/andengine/engine/Engine;->getSceneFromSurfaceTouchEvent()Lorg/anddev/andengine/entity/scene/Scene;",
+        "Lorg/anddev/andengine/engine/Engine;->isSensorSupported()Z",
+        "Lorg/anddev/andengine/engine/Engine;->onUpdate()V",
+        "Lorg/anddev/andengine/engine/Engine;->enableOrientationSensor()Z",
+        "Lorg/anddev/andengine/engine/Engine;->getCameraFromSurfaceTouchEvent()Lorg/anddev/andengine/engine/camera/Camera;",
+        "Lorg/anddev/andengine/engine/Engine;->getSoundManager()Lorg/anddev/andengine/audio/sound/SoundManager;",
+        "Lorg/anddev/andengine/engine/Engine;->yieldDraw()V",
+        "Lorg/anddev/andengine/engine/Engine;->onTouchScene()Z",
+        "Lorg/anddev/andengine/engine/Engine;->getEngineOptions()Lorg/anddev/andengine/engine/options/EngineOptions;",
+        "Lorg/anddev/andengine/engine/Engine;->convertSurfaceToSceneTouchEvent()V",
+        "Lorg/anddev/andengine/engine/Engine;->enableAccelerometerSensor()Z",
+        "Lorg/anddev/andengine/engine/Engine;->updateUpdateHandlers()V"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/TextureManager;": [
+        "Lorg/anddev/andengine/opengl/texture/TextureManager;->updateTextures()V",
+        "Lorg/anddev/andengine/opengl/texture/TextureManager;->unloadTexture()Z",
+        "Lorg/anddev/andengine/opengl/texture/TextureManager;->loadTexture()Z",
+        "Lorg/anddev/andengine/opengl/texture/TextureManager;->reloadTextures()V"
+    ],
+    "Lorg/anddev/andengine/entity/scene/SplashScene;": [
+        "Lorg/anddev/andengine/entity/scene/SplashScene;->getTopLayer()Lorg/anddev/andengine/entity/layer/ILayer;",
+        "Lorg/anddev/andengine/entity/scene/SplashScene;->registerUpdateHandler()V"
+    ],
+    "Lorg/anddev/andengine/ui/activity/BaseActivity;": [
+        "Lorg/anddev/andengine/ui/activity/BaseActivity;->getString()Ljava/lang/String;",
+        "Lorg/anddev/andengine/ui/activity/BaseActivity;->onCreate()V",
+        "Lorg/anddev/andengine/ui/activity/BaseActivity;->onPause()V",
+        "Lorg/anddev/andengine/ui/activity/BaseActivity;->onResume()V",
+        "Lorg/anddev/andengine/ui/activity/BaseActivity;->doAsync()V",
+        "Lorg/anddev/andengine/ui/activity/BaseActivity;->doProgressAsync()V"
+    ],
+    "Lorg/anddev/andengine/ui/activity/BaseActivity$1;": [
+        "Lorg/anddev/andengine/ui/activity/BaseActivity$1;->execute()Landroid/os/AsyncTask;"
+    ],
+    "Landroid/app/ProgressDialog;": [
+        "Landroid/app/ProgressDialog;->show()Landroid/app/ProgressDialog;"
+    ],
+    "Lorg/anddev/andengine/util/AsyncCallable;": [
+        "Lorg/anddev/andengine/util/AsyncCallable;->call()V"
+    ],
+    "Lorg/anddev/andengine/ui/activity/BaseActivity$2;": [
+        "Lorg/anddev/andengine/ui/activity/BaseActivity$2;->execute()Landroid/os/AsyncTask;"
+    ],
+    "Lorg/anddev/andengine/engine/options/EngineOptions$ScreenOrientation;": [
+        "Lorg/anddev/andengine/engine/options/EngineOptions$ScreenOrientation;->values()[Lorg/anddev/andengine/engine/options/EngineOptions$ScreenOrientation;",
+        "Lorg/anddev/andengine/engine/options/EngineOptions$ScreenOrientation;->ordinal()I"
+    ],
+    "Lorg/anddev/andengine/ui/activity/BaseGameActivity;": [
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->onKeyDown()Z",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->createSurfaceViewLayoutParams()Landroid/view/ViewGroup$LayoutParams;",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->onLoadScene()Lorg/anddev/andengine/entity/scene/Scene;",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->acquireWakeLock()V",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->onLoadResources()V",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->setContentView()V",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->setVolumeControlStream()V",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->setRequestedOrientation()V",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->onLoadComplete()V",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->getWindowManager()Landroid/view/WindowManager;",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->onLoadEngine()Lorg/anddev/andengine/engine/Engine;",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->onSetContentView()V",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->releaseWakeLock()V",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->applyFullscreen()V",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->getSystemService()Ljava/lang/Object;",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->applyEngineOptions()V",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->$SWITCH_TABLE$org$anddev$andengine$engine$options$EngineOptions$ScreenOrientation()[I",
+        "Lorg/anddev/andengine/ui/activity/BaseGameActivity;->getWindow()Landroid/view/Window;"
+    ],
+    "Lorg/anddev/andengine/engine/options/WakeLockOptions;": [
+        "Lorg/anddev/andengine/engine/options/WakeLockOptions;->getFlag()I"
+    ],
+    "Landroid/os/PowerManager;": [
+        "Landroid/os/PowerManager;->newWakeLock()Landroid/os/PowerManager$WakeLock;"
+    ],
+    "Landroid/os/PowerManager$WakeLock;": [
+        "Landroid/os/PowerManager$WakeLock;->acquire()V",
+        "Landroid/os/PowerManager$WakeLock;->isHeld()Z",
+        "Landroid/os/PowerManager$WakeLock;->release()V"
+    ],
+    "Lorg/anddev/andengine/util/Debug;": [
+        "Lorg/anddev/andengine/util/Debug;->a()V"
+    ],
+    "Lorg/anddev/andengine/engine/options/EngineOptions;": [
+        "Lorg/anddev/andengine/engine/options/EngineOptions;->setNeedsSound()Lorg/anddev/andengine/engine/options/EngineOptions;",
+        "Lorg/anddev/andengine/engine/options/EngineOptions;->getResolutionPolicy()Lorg/anddev/andengine/engine/options/resolutionpolicy/IResolutionPolicy;",
+        "Lorg/anddev/andengine/engine/options/EngineOptions;->isFullscreen()Z",
+        "Lorg/anddev/andengine/engine/options/EngineOptions;->getCamera()Lorg/anddev/andengine/engine/camera/Camera;",
+        "Lorg/anddev/andengine/engine/options/EngineOptions;->hasLoadingScreen()Z",
+        "Lorg/anddev/andengine/engine/options/EngineOptions;->getScreenOrientation()Lorg/anddev/andengine/engine/options/EngineOptions$ScreenOrientation;",
+        "Lorg/anddev/andengine/engine/options/EngineOptions;->setNeedsMusic()Lorg/anddev/andengine/engine/options/EngineOptions;",
+        "Lorg/anddev/andengine/engine/options/EngineOptions;->getLoadingScreenTextureSource()Lorg/anddev/andengine/opengl/texture/source/ITextureSource;",
+        "Lorg/anddev/andengine/engine/options/EngineOptions;->needsSound()Z",
+        "Lorg/anddev/andengine/engine/options/EngineOptions;->getWakeLockOptions()Lorg/anddev/andengine/engine/options/WakeLockOptions;",
+        "Lorg/anddev/andengine/engine/options/EngineOptions;->needsMusic()Z"
+    ],
+    "Landroid/view/Window;": [
+        "Landroid/view/Window;->requestFeature()Z",
+        "Landroid/view/Window;->clearFlags()V",
+        "Landroid/view/Window;->addFlags()V",
+        "Landroid/view/Window;->setFlags()V"
+    ],
+    "Landroid/view/WindowManager;": [
+        "Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;",
+        "Landroid/view/WindowManager;->updateViewLayout()V"
+    ],
+    "Landroid/view/Display;": [
+        "Landroid/view/Display;->getHeight()I",
+        "Landroid/view/Display;->getOrientation()I",
+        "Landroid/view/Display;->getMetrics()V",
+        "Landroid/view/Display;->getWidth()I"
+    ],
+    "Lorg/anddev/andengine/engine/options/resolutionpolicy/IResolutionPolicy;": [
+        "Lorg/anddev/andengine/engine/options/resolutionpolicy/IResolutionPolicy;->createLayoutParams()Landroid/widget/FrameLayout$LayoutParams;"
+    ],
+    "Lorg/anddev/andengine/opengl/view/RenderSurfaceView;": [
+        "Lorg/anddev/andengine/opengl/view/RenderSurfaceView;->onResume()V",
+        "Lorg/anddev/andengine/opengl/view/RenderSurfaceView;->onPause()V",
+        "Lorg/anddev/andengine/opengl/view/RenderSurfaceView;->setEGLConfigChooser()V",
+        "Lorg/anddev/andengine/opengl/view/RenderSurfaceView;->setOnTouchListener()V",
+        "Lorg/anddev/andengine/opengl/view/RenderSurfaceView;->setRenderer()V",
+        "Lorg/anddev/andengine/opengl/view/RenderSurfaceView;->applyRenderer()V"
+    ],
+    "Ljava/util/HashSet;": [
+        "Ljava/util/HashSet;->contains()Z",
+        "Ljava/util/HashSet;->remove()Z",
+        "Ljava/util/HashSet;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/HashSet;->add()Z",
+        "Ljava/util/HashSet;->clear()V",
+        "Ljava/util/HashSet;->size()I",
+        "Ljava/util/HashSet;->removeAll()Z"
+    ],
+    "Lorg/anddev/andengine/opengl/buffer/BufferObject;": [
+        "Lorg/anddev/andengine/opengl/buffer/BufferObject;->getFloatBuffer()Ljava/nio/FloatBuffer;",
+        "Lorg/anddev/andengine/opengl/buffer/BufferObject;->update()V",
+        "Lorg/anddev/andengine/opengl/buffer/BufferObject;->setLoadedToHardware()V",
+        "Lorg/anddev/andengine/opengl/buffer/BufferObject;->generateHardwareBufferID()I",
+        "Lorg/anddev/andengine/opengl/buffer/BufferObject;->isLoadedToHardware()Z",
+        "Lorg/anddev/andengine/opengl/buffer/BufferObject;->loadToHardware()V",
+        "Lorg/anddev/andengine/opengl/buffer/BufferObject;->getByteCount()I",
+        "Lorg/anddev/andengine/opengl/buffer/BufferObject;->setHardwareBufferNeedsUpdate()V"
+    ],
+    "Ljava/nio/ByteBuffer;": [
+        "Ljava/nio/ByteBuffer;->allocateDirect()Ljava/nio/ByteBuffer;",
+        "Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;",
+        "Ljava/nio/ByteBuffer;->order()Ljava/nio/ByteBuffer;"
+    ],
+    "Ljava/nio/ByteOrder;": [
+        "Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;"
+    ],
+    "Ljavax/microedition/khronos/opengles/GL11;": [
+        "Ljavax/microedition/khronos/opengles/GL11;->glBindBuffer()V",
+        "Ljavax/microedition/khronos/opengles/GL11;->glTexCoordPointer()V",
+        "Ljavax/microedition/khronos/opengles/GL11;->glBufferData()V",
+        "Ljavax/microedition/khronos/opengles/GL11;->glVertexPointer()V",
+        "Ljavax/microedition/khronos/opengles/GL11;->glGenBuffers()V"
+    ],
+    "Lorg/anddev/andengine/opengl/util/GLHelper;": [
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->bindTexture()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->blendFunction()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->switchToProjectionMatrix()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->enableDepthTest()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->deleteTexture()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->texCoordPointer()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->setModelViewIdentityMatrix()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->bufferData()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->enableDither()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->enableLightning()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->enableVertexArray()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->setColor()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->bindBuffer()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->enableMultisample()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->texCoordZeroPointer()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->disableBlend()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->disableVertexArray()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->vertexZeroPointer()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->hackBrokenDevices()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->lineWidth()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->disableTextures()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->disableTexCoordArray()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->setProjectionIdentityMatrix()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->switchToModelViewMatrix()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->enableTexCoordArray()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->disableCulling()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->vertexPointer()V",
+        "Lorg/anddev/andengine/opengl/util/GLHelper;->enableTextures()V"
+    ],
+    "Lorg/anddev/andengine/opengl/vertex/LineVertexBuffer;": [
+        "Lorg/anddev/andengine/opengl/vertex/LineVertexBuffer;->getFloatBuffer()Ljava/nio/FloatBuffer;",
+        "Lorg/anddev/andengine/opengl/vertex/LineVertexBuffer;->update()V"
+    ],
+    "Ljava/nio/FloatBuffer;": [
+        "Ljava/nio/FloatBuffer;->position()Ljava/nio/Buffer;",
+        "Ljava/nio/FloatBuffer;->put()Ljava/nio/FloatBuffer;"
+    ],
+    "Lorg/anddev/andengine/opengl/vertex/VertexBuffer;": [
+        "Lorg/anddev/andengine/opengl/vertex/VertexBuffer;->getFloatBuffer()Ljava/nio/FloatBuffer;",
+        "Lorg/anddev/andengine/opengl/vertex/VertexBuffer;->selectOnHardware()V",
+        "Lorg/anddev/andengine/opengl/vertex/VertexBuffer;->update()V"
+    ],
+    "Lorg/anddev/andengine/util/HorizontalAlign;": [
+        "Lorg/anddev/andengine/util/HorizontalAlign;->ordinal()I",
+        "Lorg/anddev/andengine/util/HorizontalAlign;->values()[Lorg/anddev/andengine/util/HorizontalAlign;"
+    ],
+    "Lorg/anddev/andengine/opengl/vertex/TextVertexBuffer;": [
+        "Lorg/anddev/andengine/opengl/vertex/TextVertexBuffer;->$SWITCH_TABLE$org$anddev$andengine$util$HorizontalAlign()[I",
+        "Lorg/anddev/andengine/opengl/vertex/TextVertexBuffer;->update()V",
+        "Lorg/anddev/andengine/opengl/vertex/TextVertexBuffer;->getFloatBuffer()Ljava/nio/FloatBuffer;"
+    ],
+    "Lorg/anddev/andengine/opengl/font/Font;": [
+        "Lorg/anddev/andengine/opengl/font/Font;->createLetter()Lorg/anddev/andengine/opengl/font/Letter;",
+        "Lorg/anddev/andengine/opengl/font/Font;->getLetterBounds()V",
+        "Lorg/anddev/andengine/opengl/font/Font;->getStringWidth()I",
+        "Lorg/anddev/andengine/opengl/font/Font;->getLetterBitmap()Landroid/graphics/Bitmap;",
+        "Lorg/anddev/andengine/opengl/font/Font;->getLetter()Lorg/anddev/andengine/opengl/font/Letter;",
+        "Lorg/anddev/andengine/opengl/font/Font;->getTexture()Lorg/anddev/andengine/opengl/texture/Texture;",
+        "Lorg/anddev/andengine/opengl/font/Font;->drawCharacterString()V",
+        "Lorg/anddev/andengine/opengl/font/Font;->getLetterAdvance()I",
+        "Lorg/anddev/andengine/opengl/font/Font;->getLineHeight()I",
+        "Lorg/anddev/andengine/opengl/font/Font;->update()V",
+        "Lorg/anddev/andengine/opengl/font/Font;->getLineGap()I",
+        "Lorg/anddev/andengine/opengl/font/Font;->reload()V"
+    ],
+    "Lorg/anddev/andengine/opengl/vertex/RectangleVertexBuffer;": [
+        "Lorg/anddev/andengine/opengl/vertex/RectangleVertexBuffer;->getFloatBuffer()Ljava/nio/FloatBuffer;",
+        "Lorg/anddev/andengine/opengl/vertex/RectangleVertexBuffer;->onUpdate()V",
+        "Lorg/anddev/andengine/opengl/vertex/RectangleVertexBuffer;->selectOnHardware()V"
+    ],
+    "Ljava/util/Iterator;": [
+        "Ljava/util/Iterator;->hasNext()Z",
+        "Ljava/util/Iterator;->remove()V",
+        "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/Texture;": [
+        "Lorg/anddev/andengine/opengl/texture/Texture;->setLoadedToHardware()V",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->applyTextureOptions()V",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->loadToHardware()V",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->generateHardwareTextureID()I",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->isUpdateOnHardwareNeeded()Z",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->getHardwareTextureID()I",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->unloadFromHardware()V",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->getWidth()I",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->sendPlaceholderBitmapToHardware()V",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->getHeight()I",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->isLoadedToHardware()Z",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->deleteTextureOnHardware()V",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->writeTextureToHardware()V",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->addTextureSource()V",
+        "Lorg/anddev/andengine/opengl/texture/Texture;->allocateAndBindTextureOnHardware()V"
+    ],
+    "Ljava/lang/System;": [
+        "Ljava/lang/System;->currentTimeMillis()J",
+        "Ljava/lang/System;->gc()V",
+        "Ljava/lang/System;->nanoTime()J",
+        "Ljava/lang/System;->arraycopy()V"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/region/TextureRegion;": [
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegion;->updateTextureRegionBuffer()V",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegion;->getHeight()I",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegion;->onApply()V",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegion;->getTexturePositionX()I",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegion;->setHeight()V",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegion;->clone()Lorg/anddev/andengine/opengl/texture/region/TextureRegion;",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegion;->getTexturePositionY()I",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegion;->onCreateTextureRegionBuffer()Lorg/anddev/andengine/opengl/texture/region/buffer/TextureRegionBuffer;",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegion;->getTexture()Lorg/anddev/andengine/opengl/texture/Texture;",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegion;->setWidth()V",
+        "Lorg/anddev/andengine/opengl/texture/region/TextureRegion;->getWidth()I"
+    ],
+    "Lorg/anddev/andengine/util/MathUtils;": [
+        "Lorg/anddev/andengine/util/MathUtils;->random()I",
+        "Lorg/anddev/andengine/util/MathUtils;->random()F",
+        "Lorg/anddev/andengine/util/MathUtils;->arraySumInto()V",
+        "Lorg/anddev/andengine/util/MathUtils;->revertRotateAndScaleAroundCenter()[F",
+        "Lorg/anddev/andengine/util/MathUtils;->nextPowerOfTwo()I",
+        "Lorg/anddev/andengine/util/MathUtils;->rotateAndScaleAroundCenter()[F",
+        "Lorg/anddev/andengine/util/MathUtils;->rotateAroundCenter()[F",
+        "Lorg/anddev/andengine/util/MathUtils;->revertScaleAroundCenter()[F",
+        "Lorg/anddev/andengine/util/MathUtils;->degToRad()F",
+        "Lorg/anddev/andengine/util/MathUtils;->isPowerOfTwo()Z",
+        "Lorg/anddev/andengine/util/MathUtils;->revertRotateAroundCenter()[F",
+        "Lorg/anddev/andengine/util/MathUtils;->scaleAroundCenter()[F",
+        "Lorg/anddev/andengine/util/MathUtils;->bringToBounds()I",
+        "Lorg/anddev/andengine/util/MathUtils;->arraySum()F"
+    ],
+    "Ljavax/microedition/khronos/opengles/GL10;": [
+        "Ljavax/microedition/khronos/opengles/GL10;->glTexCoordPointer()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glDisableClientState()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glMatrixMode()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glClearColor()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glBindTexture()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glDisable()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glPopMatrix()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glEnableClientState()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glTexParameterf()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glGetString()Ljava/lang/String;",
+        "Ljavax/microedition/khronos/opengles/GL10;->glScissor()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glReadPixels()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glHint()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glGenTextures()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glEnable()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glColor4f()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glTexEnvf()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glBlendFunc()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glViewport()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glVertexPointer()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glDrawArrays()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glLineWidth()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glScalef()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glPushMatrix()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glTranslatef()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glClear()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glDeleteTextures()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glShadeModel()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glRotatef()V",
+        "Ljavax/microedition/khronos/opengles/GL10;->glLoadIdentity()V"
+    ],
+    "Landroid/graphics/Bitmap;": [
+        "Landroid/graphics/Bitmap;->compress()Z",
+        "Landroid/graphics/Bitmap;->getWidth()I",
+        "Landroid/graphics/Bitmap;->getNinePatchChunk()[B",
+        "Landroid/graphics/Bitmap;->isMutable()Z",
+        "Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;",
+        "Landroid/graphics/Bitmap;->getHeight()I",
+        "Landroid/graphics/Bitmap;->eraseColor()V",
+        "Landroid/graphics/Bitmap;->copy()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/Bitmap;->createBitmap()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/Bitmap;->recycle()V",
+        "Landroid/graphics/Bitmap;->extractAlpha()Landroid/graphics/Bitmap;"
+    ],
+    "Landroid/opengl/GLUtils;": [
+        "Landroid/opengl/GLUtils;->texImage2D()V",
+        "Landroid/opengl/GLUtils;->texSubImage2D()V"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/Texture$TextureSourceWithLocation;": [
+        "Lorg/anddev/andengine/opengl/texture/Texture$TextureSourceWithLocation;->getTexturePositionX()I",
+        "Lorg/anddev/andengine/opengl/texture/Texture$TextureSourceWithLocation;->toString()Ljava/lang/String;",
+        "Lorg/anddev/andengine/opengl/texture/Texture$TextureSourceWithLocation;->access$2()Lorg/anddev/andengine/opengl/texture/source/ITextureSource;",
+        "Lorg/anddev/andengine/opengl/texture/Texture$TextureSourceWithLocation;->access$4()I",
+        "Lorg/anddev/andengine/opengl/texture/Texture$TextureSourceWithLocation;->getTexturePositionY()I",
+        "Lorg/anddev/andengine/opengl/texture/Texture$TextureSourceWithLocation;->access$3()I",
+        "Lorg/anddev/andengine/opengl/texture/Texture$TextureSourceWithLocation;->onLoadBitmap()Landroid/graphics/Bitmap;"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/Texture$ITextureStateListener;": [
+        "Lorg/anddev/andengine/opengl/texture/Texture$ITextureStateListener;->onLoadedToHardware()V",
+        "Lorg/anddev/andengine/opengl/texture/Texture$ITextureStateListener;->onUnloadedFromHardware()V",
+        "Lorg/anddev/andengine/opengl/texture/Texture$ITextureStateListener;->onTextureSourceLoadExeption()V"
+    ],
+    "Lorg/anddev/andengine/opengl/buffer/BufferObjectManager;": [
+        "Lorg/anddev/andengine/opengl/buffer/BufferObjectManager;->setActiveInstance()V",
+        "Lorg/anddev/andengine/opengl/buffer/BufferObjectManager;->loadBufferObject()V",
+        "Lorg/anddev/andengine/opengl/buffer/BufferObjectManager;->updateBufferObjects()V",
+        "Lorg/anddev/andengine/opengl/buffer/BufferObjectManager;->reloadBufferObjects()V",
+        "Lorg/anddev/andengine/opengl/buffer/BufferObjectManager;->getActiveInstance()Lorg/anddev/andengine/opengl/buffer/BufferObjectManager;"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/region/buffer/TextureRegionBuffer;": [
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/TextureRegionBuffer;->isFlippedVertical()Z",
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/TextureRegionBuffer;->setFlippedVertical()V",
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/TextureRegionBuffer;->isFlippedHorizontal()Z",
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/TextureRegionBuffer;->setFlippedHorizontal()V",
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/TextureRegionBuffer;->update()V",
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/TextureRegionBuffer;->selectOnHardware()V",
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/TextureRegionBuffer;->getFloatBuffer()Ljava/nio/FloatBuffer;",
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/TextureRegionBuffer;->getTextureRegion()Lorg/anddev/andengine/opengl/texture/region/TextureRegion;"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;": [
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->setCurrentTileIndex()V",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->getTexturePositionY()I",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->getTexturePositionX()I",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->getTileCount()I",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->getWidth()I",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->getTextureBuffer()Lorg/anddev/andengine/opengl/texture/region/buffer/TiledTextureRegionBuffer;",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->getTileHeight()I",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->getTexturePositionOfCurrentTileX()F",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->getTexture()Lorg/anddev/andengine/opengl/texture/Texture;",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->clone()Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->getTexturePositionOfCurrentTileY()F",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->getTileWidth()I",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->nextTile()V",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->getHeight()I",
+        "Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;->getCurrentTileIndex()I"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/region/buffer/BaseTextureRegionBuffer;": [
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/BaseTextureRegionBuffer;->getX2()F",
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/BaseTextureRegionBuffer;->update()V",
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/BaseTextureRegionBuffer;->getY2()F",
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/BaseTextureRegionBuffer;->getFloatBuffer()Ljava/nio/FloatBuffer;",
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/BaseTextureRegionBuffer;->getX1()F",
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/BaseTextureRegionBuffer;->getY1()F"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/region/buffer/TiledTextureRegionBuffer;": [
+        "Lorg/anddev/andengine/opengl/texture/region/buffer/TiledTextureRegionBuffer;->getTextureRegion()Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;"
+    ],
+    "Landroid/graphics/BitmapFactory;": [
+        "Landroid/graphics/BitmapFactory;->decodeStream()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/BitmapFactory;->decodeFile()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/BitmapFactory;->decodeResource()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/BitmapFactory;->decodeByteArray()Landroid/graphics/Bitmap;"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/source/ResourceTextureSource;": [
+        "Lorg/anddev/andengine/opengl/texture/source/ResourceTextureSource;->clone()Lorg/anddev/andengine/opengl/texture/source/ResourceTextureSource;"
+    ],
+    "Ljava/lang/Object;": [
+        "Ljava/lang/Object;->toString()Ljava/lang/String;",
+        "Ljava/lang/Object;->hashCode()I",
+        "Ljava/lang/Object;->equals()Z",
+        "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+    ],
+    "Ljava/lang/Class;": [
+        "Ljava/lang/Class;->newInstance()Ljava/lang/Object;",
+        "Ljava/lang/Class;->toString()Ljava/lang/String;",
+        "Ljava/lang/Class;->getSimpleName()Ljava/lang/String;",
+        "Ljava/lang/Class;->getDeclaredMethod()Ljava/lang/reflect/Method;",
+        "Ljava/lang/Class;->getMethod()Ljava/lang/reflect/Method;",
+        "Ljava/lang/Class;->forName()Ljava/lang/Class;",
+        "Ljava/lang/Class;->desiredAssertionStatus()Z",
+        "Ljava/lang/Class;->getConstructors()[Ljava/lang/reflect/Constructor;"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/source/AssetTextureSource;": [
+        "Lorg/anddev/andengine/opengl/texture/source/AssetTextureSource;->getHeight()I",
+        "Lorg/anddev/andengine/opengl/texture/source/AssetTextureSource;->clone()Lorg/anddev/andengine/opengl/texture/source/AssetTextureSource;",
+        "Lorg/anddev/andengine/opengl/texture/source/AssetTextureSource;->getWidth()I"
+    ],
+    "Lorg/anddev/andengine/util/ColorUtils;": [
+        "Lorg/anddev/andengine/util/ColorUtils;->RGBToColor()I"
+    ],
+    "Landroid/graphics/Paint;": [
+        "Landroid/graphics/Paint;->getTextWidths()I",
+        "Landroid/graphics/Paint;->setTextSize()V",
+        "Landroid/graphics/Paint;->setStyle()V",
+        "Landroid/graphics/Paint;->setColor()V",
+        "Landroid/graphics/Paint;->getTextBounds()V",
+        "Landroid/graphics/Paint;->setMaskFilter()Landroid/graphics/MaskFilter;",
+        "Landroid/graphics/Paint;->setXfermode()Landroid/graphics/Xfermode;",
+        "Landroid/graphics/Paint;->setAntiAlias()V",
+        "Landroid/graphics/Paint;->getFontMetrics()Landroid/graphics/Paint$FontMetrics;",
+        "Landroid/graphics/Paint;->setTypeface()Landroid/graphics/Typeface;",
+        "Landroid/graphics/Paint;->setStrokeWidth()V"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/source/decorator/ColorKeyTextureSourceDecorator;": [
+        "Lorg/anddev/andengine/opengl/texture/source/decorator/ColorKeyTextureSourceDecorator;->clone()Lorg/anddev/andengine/opengl/texture/source/decorator/ColorKeyTextureSourceDecorator;"
+    ],
+    "Landroid/graphics/Canvas;": [
+        "Landroid/graphics/Canvas;->getWidth()I",
+        "Landroid/graphics/Canvas;->clipPath()Z",
+        "Landroid/graphics/Canvas;->drawRoundRect()V",
+        "Landroid/graphics/Canvas;->drawBitmap()V",
+        "Landroid/graphics/Canvas;->drawLines()V",
+        "Landroid/graphics/Canvas;->drawText()V",
+        "Landroid/graphics/Canvas;->getHeight()I",
+        "Landroid/graphics/Canvas;->clipRect()Z",
+        "Landroid/graphics/Canvas;->drawARGB()V",
+        "Landroid/graphics/Canvas;->setDrawFilter()V",
+        "Landroid/graphics/Canvas;->drawPath()V",
+        "Landroid/graphics/Canvas;->setBitmap()V",
+        "Landroid/graphics/Canvas;->drawRect()V"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/source/decorator/TextureSourceDecorator;": [
+        "Lorg/anddev/andengine/opengl/texture/source/decorator/TextureSourceDecorator;->clone()Lorg/anddev/andengine/opengl/texture/source/decorator/TextureSourceDecorator;",
+        "Lorg/anddev/andengine/opengl/texture/source/decorator/TextureSourceDecorator;->onDecorateBitmap()V",
+        "Lorg/anddev/andengine/opengl/texture/source/decorator/TextureSourceDecorator;->ensureLoadedBitmapIsMutable()Landroid/graphics/Bitmap;"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/source/decorator/OutlineTextureSourceDecorator;": [
+        "Lorg/anddev/andengine/opengl/texture/source/decorator/OutlineTextureSourceDecorator;->clone()Lorg/anddev/andengine/opengl/texture/source/decorator/OutlineTextureSourceDecorator;"
+    ],
+    "Lorg/anddev/andengine/opengl/texture/buffer/TextTextureBuffer;": [
+        "Lorg/anddev/andengine/opengl/texture/buffer/TextTextureBuffer;->selectOnHardware()V",
+        "Lorg/anddev/andengine/opengl/texture/buffer/TextTextureBuffer;->getFloatBuffer()Ljava/nio/FloatBuffer;",
+        "Lorg/anddev/andengine/opengl/texture/buffer/TextTextureBuffer;->update()V"
+    ],
+    "Landroid/util/Log;": [
+        "Landroid/util/Log;->a()I",
+        "Landroid/util/Log;->isLoggable()Z"
+    ],
+    "Lorg/anddev/andengine/opengl/view/LogWriter;": [
+        "Lorg/anddev/andengine/opengl/view/LogWriter;->flushBuilder()V"
+    ],
+    "Lorg/anddev/andengine/opengl/view/GLSurfaceView;": [
+        "Lorg/anddev/andengine/opengl/view/GLSurfaceView;->getHolder()Landroid/view/SurfaceHolder;",
+        "Lorg/anddev/andengine/opengl/view/GLSurfaceView;->setEGLConfigChooser()V"
+    ],
+    "Landroid/view/SurfaceHolder;": [
+        "Landroid/view/SurfaceHolder;->addCallback()V",
+        "Landroid/view/SurfaceHolder;->setType()V"
+    ],
+    "Lorg/anddev/andengine/opengl/view/GLSurfaceView$GLThread;": [
+        "Lorg/anddev/andengine/opengl/view/GLSurfaceView$GLThread;->onWindowResize()V",
+        "Lorg/anddev/andengine/opengl/view/GLSurfaceView$GLThread;->setRenderMode()V",
+        "Lorg/anddev/andengine/opengl/view/GLSurfaceView$GLThread;->surfaceDestroyed()V",
+        "Lorg/anddev/andengine/opengl/view/GLSurfaceView$GLThread;->surfaceCreated()V",
+        "Lorg/anddev/andengine/opengl/view/GLSurfaceView$GLThread;->onPause()V",
+        "Lorg/anddev/andengine/opengl/view/GLSurfaceView$GLThread;->queueEvent()V",
+        "Lorg/anddev/andengine/opengl/view/GLSurfaceView$GLThread;->onResume()V",
+        "Lorg/anddev/andengine/opengl/view/GLSurfaceView$GLThread;->start()V",
+        "Lorg/anddev/andengine/opengl/view/GLSurfaceView$GLThread;->requestExitAndWait()V",
+        "Lorg/anddev/andengine/opengl/view/GLSurfaceView$GLThread;->requestRender()V"
+    ],
+    "Ljavax/microedition/khronos/egl/EGL10;": [
+        "Ljavax/microedition/khronos/egl/EGL10;->eglGetConfigAttrib()Z",
+        "Ljavax/microedition/khronos/egl/EGL10;->eglChooseConfig()Z"
+    ],
+    "Lorg/anddev/andengine/opengl/view/BaseConfigChooser;": [
+        "Lorg/anddev/andengine/opengl/view/BaseConfigChooser;->chooseConfig()Ljavax/microedition/khronos/egl/EGLConfig;"
+    ],
+    "Lorg/anddev/andengine/opengl/view/ComponentSizeChooser;": [
+        "Lorg/anddev/andengine/opengl/view/ComponentSizeChooser;->findConfigAttrib()I"
+    ],
+    "Ljava/lang/Math;": [
+        "Ljava/lang/Math;->max()I",
+        "Ljava/lang/Math;->round()I",
+        "Ljava/lang/Math;->random()D",
+        "Ljava/lang/Math;->min()F",
+        "Ljava/lang/Math;->atan()D",
+        "Ljava/lang/Math;->ceil()D",
+        "Ljava/lang/Math;->pow()D",
+        "Ljava/lang/Math;->min()J",
+        "Ljava/lang/Math;->abs()I",
+        "Ljava/lang/Math;->sqrt()D",
+        "Ljava/lang/Math;->floor()D",
+        "Ljava/lang/Math;->min()I",
+        "Ljava/lang/Math;->toDegrees()D",
+        "Ljava/lang/Math;->asin()D",
+        "Ljava/lang/Math;->abs()F",
+        "Ljava/lang/Math;->max()F"
+    ],
+    "Landroid/util/FloatMath;": [
+        "Landroid/util/FloatMath;->sin()F",
+        "Landroid/util/FloatMath;->floor()F",
+        "Landroid/util/FloatMath;->sqrt()F",
+        "Landroid/util/FloatMath;->ceil()F",
+        "Landroid/util/FloatMath;->cos()F"
+    ],
+    "Lorg/anddev/andengine/opengl/font/Size;": [
+        "Lorg/anddev/andengine/opengl/font/Size;->setHeight()V",
+        "Lorg/anddev/andengine/opengl/font/Size;->getWidth()F",
+        "Lorg/anddev/andengine/opengl/font/Size;->getHeight()F",
+        "Lorg/anddev/andengine/opengl/font/Size;->setWidth()V",
+        "Lorg/anddev/andengine/opengl/font/Size;->set()V"
+    ],
+    "Landroid/graphics/Rect;": [
+        "Landroid/graphics/Rect;->width()I",
+        "Landroid/graphics/Rect;->contains()Z",
+        "Landroid/graphics/Rect;->height()I"
+    ],
+    "Landroid/util/SparseArray;": [
+        "Landroid/util/SparseArray;->valueAt()Ljava/lang/Object;",
+        "Landroid/util/SparseArray;->put()V",
+        "Landroid/util/SparseArray;->size()I",
+        "Landroid/util/SparseArray;->get()Ljava/lang/Object;"
+    ],
+    "Landroid/graphics/Typeface;": [
+        "Landroid/graphics/Typeface;->createFromAsset()Landroid/graphics/Typeface;",
+        "Landroid/graphics/Typeface;->create()Landroid/graphics/Typeface;"
+    ],
+    "Lorg/anddev/andengine/opengl/font/FontManager;": [
+        "Lorg/anddev/andengine/opengl/font/FontManager;->updateFonts()V",
+        "Lorg/anddev/andengine/opengl/font/FontManager;->reloadFonts()V",
+        "Lorg/anddev/andengine/opengl/font/FontManager;->loadFont()V"
+    ],
+    "Lorg/anddev/andengine/engine/options/RenderOptions;": [
+        "Lorg/anddev/andengine/engine/options/RenderOptions;->isDisableExtensionVertexBufferObjects()Z"
+    ],
+    "Lorg/anddev/andengine/collision/LineCollisionChecker;": [
+        "Lorg/anddev/andengine/collision/LineCollisionChecker;->relativeCCW()I",
+        "Lorg/anddev/andengine/collision/LineCollisionChecker;->checkLineCollision()Z"
+    ],
+    "Lorg/anddev/andengine/collision/RectangularShapeCollisionChecker;": [
+        "Lorg/anddev/andengine/collision/RectangularShapeCollisionChecker;->checkCollision()Z",
+        "Lorg/anddev/andengine/collision/RectangularShapeCollisionChecker;->fillVertices()V",
+        "Lorg/anddev/andengine/collision/RectangularShapeCollisionChecker;->checkContains()Z"
+    ],
+    "Lorg/anddev/andengine/entity/shape/RectangularShape;": [
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getScaleY()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getX()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->setBaseSize()V",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getWidth()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getBaseHeight()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getHeight()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->onInitDraw()V",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->onPositionChanged()V",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getY()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getHeightScaled()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getScaleX()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getRotation()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getWidthScaled()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->convertLocalToSceneCoordinates()[F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->updateVertexBuffer()V",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getScaleCenterX()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getScaleCenterY()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getRotationCenterY()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getRotationCenterX()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getBaseWidth()F",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->getVertexBuffer()Lorg/anddev/andengine/opengl/vertex/VertexBuffer;",
+        "Lorg/anddev/andengine/entity/shape/RectangularShape;->onApplyTransformations()V"
+    ],
+    "Lorg/anddev/andengine/collision/ShapeCollisionChecker;": [
+        "Lorg/anddev/andengine/collision/ShapeCollisionChecker;->convertSceneToLocalCoordinates()[F",
+        "Lorg/anddev/andengine/collision/ShapeCollisionChecker;->checkCollisionSub()Z",
+        "Lorg/anddev/andengine/collision/ShapeCollisionChecker;->relativeCCW()I",
+        "Lorg/anddev/andengine/collision/ShapeCollisionChecker;->convertLocalToSceneCoordinates()[F"
+    ],
+    "Lorg/anddev/andengine/entity/shape/Shape;": [
+        "Lorg/anddev/andengine/entity/shape/Shape;->getScaleY()F",
+        "Lorg/anddev/andengine/entity/shape/Shape;->onPositionChanged()V",
+        "Lorg/anddev/andengine/entity/shape/Shape;->onApplyVertices()V",
+        "Lorg/anddev/andengine/entity/shape/Shape;->onApplyTransformations()V",
+        "Lorg/anddev/andengine/entity/shape/Shape;->onInitDraw()V",
+        "Lorg/anddev/andengine/entity/shape/Shape;->drawVertices()V",
+        "Lorg/anddev/andengine/entity/shape/Shape;->getHeight()F",
+        "Lorg/anddev/andengine/entity/shape/Shape;->updateShapeModifiers()V",
+        "Lorg/anddev/andengine/entity/shape/Shape;->applyScale()V",
+        "Lorg/anddev/andengine/entity/shape/Shape;->getScaleX()F",
+        "Lorg/anddev/andengine/entity/shape/Shape;->getRotationCenterY()F",
+        "Lorg/anddev/andengine/entity/shape/Shape;->getScaleCenterY()F",
+        "Lorg/anddev/andengine/entity/shape/Shape;->applyRotation()V",
+        "Lorg/anddev/andengine/entity/shape/Shape;->getX()F",
+        "Lorg/anddev/andengine/entity/shape/Shape;->getY()F",
+        "Lorg/anddev/andengine/entity/shape/Shape;->getRotation()F",
+        "Lorg/anddev/andengine/entity/shape/Shape;->getScaleCenterX()F",
+        "Lorg/anddev/andengine/entity/shape/Shape;->applyTranslation()V",
+        "Lorg/anddev/andengine/entity/shape/Shape;->getWidth()F",
+        "Lorg/anddev/andengine/entity/shape/Shape;->getRotationCenterX()F",
+        "Lorg/anddev/andengine/entity/shape/Shape;->setPosition()V"
+    ],
+    "Ljava/util/Stack;": [
+        "Ljava/util/Stack;->pop()Ljava/lang/Object;",
+        "Ljava/util/Stack;->push()Ljava/lang/Object;",
+        "Ljava/util/Stack;->isEmpty()Z"
+    ],
+    "Lorg/anddev/andengine/input/touch/TouchEvent;": [
+        "Lorg/anddev/andengine/input/touch/TouchEvent;->recycle()V",
+        "Lorg/anddev/andengine/input/touch/TouchEvent;->getX()F",
+        "Lorg/anddev/andengine/input/touch/TouchEvent;->getPointerID()I",
+        "Lorg/anddev/andengine/input/touch/TouchEvent;->set()V",
+        "Lorg/anddev/andengine/input/touch/TouchEvent;->obtain()Lorg/anddev/andengine/input/touch/TouchEvent;",
+        "Lorg/anddev/andengine/input/touch/TouchEvent;->offset()V",
+        "Lorg/anddev/andengine/input/touch/TouchEvent;->getAction()I",
+        "Lorg/anddev/andengine/input/touch/TouchEvent;->getY()F"
+    ],
+    "Landroid/view/MotionEvent;": [
+        "Landroid/view/MotionEvent;->getX()F",
+        "Landroid/view/MotionEvent;->getY()F",
+        "Landroid/view/MotionEvent;->getAction()I",
+        "Landroid/view/MotionEvent;->getEventTime()J"
+    ],
+    "Lorg/anddev/andengine/input/touch/controller/SingleTouchControler;": [
+        "Lorg/anddev/andengine/input/touch/controller/SingleTouchControler;->fireTouchEvent()Z"
+    ],
+    "Lorg/anddev/andengine/input/touch/controller/ITouchController$ITouchEventCallback;": [
+        "Lorg/anddev/andengine/input/touch/controller/ITouchController$ITouchEventCallback;->onTouchEvent()Z"
+    ],
+    "Ljava/lang/Enum;": [
+        "Ljava/lang/Enum;->valueOf()Ljava/lang/Enum;"
+    ],
+    "Lorg/anddev/andengine/util/SimplePreferences;": [
+        "Lorg/anddev/andengine/util/SimplePreferences;->getInstance()Landroid/content/SharedPreferences;",
+        "Lorg/anddev/andengine/util/SimplePreferences;->isXthTime()Z"
+    ],
+    "Landroid/content/SharedPreferences;": [
+        "Landroid/content/SharedPreferences;->getLong()J",
+        "Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences;->getInt()I",
+        "Landroid/content/SharedPreferences;->getFloat()F"
+    ],
+    "Landroid/content/SharedPreferences$Editor;": [
+        "Landroid/content/SharedPreferences$Editor;->putLong()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->commit()Z",
+        "Landroid/content/SharedPreferences$Editor;->putFloat()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->putInt()Landroid/content/SharedPreferences$Editor;"
+    ],
+    "Lorg/anddev/andengine/util/StreamUtils;": [
+        "Lorg/anddev/andengine/util/StreamUtils;->streamToBytes()[B",
+        "Lorg/anddev/andengine/util/StreamUtils;->copyAndClose()Z",
+        "Lorg/anddev/andengine/util/StreamUtils;->copy()V",
+        "Lorg/anddev/andengine/util/StreamUtils;->flushCloseStream()V",
+        "Lorg/anddev/andengine/util/StreamUtils;->closeStream()V"
+    ],
+    "Landroid/content/res/Resources;": [
+        "Landroid/content/res/Resources;->getDrawable()Landroid/graphics/drawable/Drawable;",
+        "Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;",
+        "Landroid/content/res/Resources;->openRawResource()Ljava/io/InputStream;"
+    ],
+    "Lorg/anddev/andengine/util/FileUtils;": [
+        "Lorg/anddev/andengine/util/FileUtils;->isExternalStorageWriteable()Z",
+        "Lorg/anddev/andengine/util/FileUtils;->isDirectoryExistingOnExternalStorage()Z",
+        "Lorg/anddev/andengine/util/FileUtils;->getAbsolutePathOnExternalStorage()Ljava/lang/String;",
+        "Lorg/anddev/andengine/util/FileUtils;->copyToExternalStorage()V",
+        "Lorg/anddev/andengine/util/FileUtils;->deleteDirectory()Z",
+        "Lorg/anddev/andengine/util/FileUtils;->isExternalStorageReadable()Z"
+    ],
+    "Ljava/io/File;": [
+        "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;",
+        "Ljava/io/File;->getName()Ljava/lang/String;",
+        "Ljava/io/File;->listFiles()[Ljava/io/File;",
+        "Ljava/io/File;->toString()Ljava/lang/String;",
+        "Ljava/io/File;->list()[Ljava/lang/String;",
+        "Ljava/io/File;->isFile()Z",
+        "Ljava/io/File;->mkdirs()Z",
+        "Ljava/io/File;->lastModified()J",
+        "Ljava/io/File;->mkdir()Z",
+        "Ljava/io/File;->isDirectory()Z",
+        "Ljava/io/File;->canRead()Z",
+        "Ljava/io/File;->delete()Z",
+        "Ljava/io/File;->length()J",
+        "Ljava/io/File;->getParentFile()Ljava/io/File;",
+        "Ljava/io/File;->setLastModified()Z",
+        "Ljava/io/File;->exists()Z"
+    ],
+    "Landroid/os/Environment;": [
+        "Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;",
+        "Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;"
+    ],
+    "Ljava/util/Random;": [
+        "Ljava/util/Random;->nextInt()I",
+        "Ljava/util/Random;->nextFloat()F"
+    ],
+    "Lorg/anddev/andengine/util/Base64;": [
+        "Lorg/anddev/andengine/util/Base64;->decode()[B",
+        "Lorg/anddev/andengine/util/Base64;->encode()[B"
+    ],
+    "Lorg/anddev/andengine/util/Base64$Decoder;": [
+        "Lorg/anddev/andengine/util/Base64$Decoder;->process()Z"
+    ],
+    "Lorg/anddev/andengine/util/Base64$Encoder;": [
+        "Lorg/anddev/andengine/util/Base64$Encoder;->process()Z"
+    ],
+    "Landroid/graphics/Color;": [
+        "Landroid/graphics/Color;->alpha()I",
+        "Landroid/graphics/Color;->green()I",
+        "Landroid/graphics/Color;->parseColor()I",
+        "Landroid/graphics/Color;->rgb()I",
+        "Landroid/graphics/Color;->red()I",
+        "Landroid/graphics/Color;->argb()I",
+        "Landroid/graphics/Color;->blue()I",
+        "Landroid/graphics/Color;->HSVToColor()I"
+    ],
+    "Ljava/io/Closeable;": [
+        "Ljava/io/Closeable;->close()V"
+    ],
+    "Ljava/io/IOException;": [
+        "Ljava/io/IOException;->printStackTrace()V",
+        "Ljava/io/IOException;->getStackTrace()[Ljava/lang/StackTraceElement;"
+    ],
+    "Ljava/io/InputStream;": [
+        "Ljava/io/InputStream;->close()V",
+        "Ljava/io/InputStream;->available()I",
+        "Ljava/io/InputStream;->read()I"
+    ],
+    "Ljava/io/OutputStream;": [
+        "Ljava/io/OutputStream;->close()V",
+        "Ljava/io/OutputStream;->write()V",
+        "Ljava/io/OutputStream;->flush()V"
+    ],
+    "Ljava/io/Writer;": [
+        "Ljava/io/Writer;->flush()V"
+    ],
+    "Ljava/util/Scanner;": [
+        "Ljava/util/Scanner;->hasNextLine()Z",
+        "Ljava/util/Scanner;->nextLine()Ljava/lang/String;"
+    ],
+    "Ljava/io/ByteArrayOutputStream;": [
+        "Ljava/io/ByteArrayOutputStream;->toByteArray()[B",
+        "Ljava/io/ByteArrayOutputStream;->write()V"
+    ],
+    "Lorg/anddev/andengine/util/Base64$Coder;": [
+        "Lorg/anddev/andengine/util/Base64$Coder;->process()Z",
+        "Lorg/anddev/andengine/util/Base64$Coder;->maxOutputSize()I"
+    ],
+    "Lorg/anddev/andengine/util/Base64InputStream;": [
+        "Lorg/anddev/andengine/util/Base64InputStream;->refill()V"
+    ],
+    "Ljava/lang/Integer;": [
+        "Ljava/lang/Integer;->valueOf()Ljava/lang/Integer;",
+        "Ljava/lang/Integer;->byteValue()B",
+        "Ljava/lang/Integer;->parseInt()I",
+        "Ljava/lang/Integer;->toString()Ljava/lang/String;",
+        "Ljava/lang/Integer;->intValue()I"
+    ],
+    "Lorg/anddev/andengine/util/SAXUtils;": [
+        "Lorg/anddev/andengine/util/SAXUtils;->getIntAttributeOrThrow()I",
+        "Lorg/anddev/andengine/util/SAXUtils;->getIntAttribute()I",
+        "Lorg/anddev/andengine/util/SAXUtils;->appendAttribute()V"
+    ],
+    "Lorg/xml/sax/Attributes;": [
+        "Lorg/xml/sax/Attributes;->getValue()Ljava/lang/String;"
+    ],
+    "Lorg/anddev/andengine/util/StringUtils;": [
+        "Lorg/anddev/andengine/util/StringUtils;->split()[Ljava/lang/String;",
+        "Lorg/anddev/andengine/util/StringUtils;->countOccurrences()I"
+    ],
+    "Lorg/anddev/andengine/util/Path;": [
+        "Lorg/anddev/andengine/util/Path;->getCoordinatesY()[F",
+        "Lorg/anddev/andengine/util/Path;->getSegmentLength()F",
+        "Lorg/anddev/andengine/util/Path;->updateLength()V",
+        "Lorg/anddev/andengine/util/Path;->getCoordinatesX()[F",
+        "Lorg/anddev/andengine/util/Path;->clone()Lorg/anddev/andengine/util/Path;",
+        "Lorg/anddev/andengine/util/Path;->getLength()F",
+        "Lorg/anddev/andengine/util/Path;->getSize()I"
+    ],
+    "Ljava/net/ServerSocket;": [
+        "Ljava/net/ServerSocket;->close()V",
+        "Ljava/net/ServerSocket;->isClosed()Z"
+    ],
+    "Ljava/net/Socket;": [
+        "Ljava/net/Socket;->close()V",
+        "Ljava/net/Socket;->isClosed()Z"
+    ],
+    "Ljava/io/PrintStream;": [
+        "Ljava/io/PrintStream;->println()V"
+    ],
+    "Ljava/lang/Exception;": [
+        "Ljava/lang/Exception;->printStackTrace()V",
+        "Ljava/lang/Exception;->getMessage()Ljava/lang/String;"
+    ],
+    "Ljava/util/List;": [
+        "Ljava/util/List;->set()Ljava/lang/Object;",
+        "Ljava/util/List;->get()Ljava/lang/Object;",
+        "Ljava/util/List;->remove()Ljava/lang/Object;",
+        "Ljava/util/List;->clear()V",
+        "Ljava/util/List;->add()Z",
+        "Ljava/util/List;->subList()Ljava/util/List;",
+        "Ljava/util/List;->add()V",
+        "Ljava/util/List;->isEmpty()Z",
+        "Ljava/util/List;->addAll()Z",
+        "Ljava/util/List;->removeAll()Z",
+        "Ljava/util/List;->size()I",
+        "Ljava/util/List;->iterator()Ljava/util/Iterator;"
+    ],
+    "Lorg/anddev/andengine/util/sort/Sorter;": [
+        "Lorg/anddev/andengine/util/sort/Sorter;->sort()V"
+    ],
+    "Ljava/util/Comparator;": [
+        "Ljava/util/Comparator;->compare()I"
+    ],
+    "Ljava/util/Arrays;": [
+        "Ljava/util/Arrays;->toString()Ljava/lang/String;",
+        "Ljava/util/Arrays;->sort()V",
+        "Ljava/util/Arrays;->asList()Ljava/util/List;",
+        "Ljava/util/Arrays;->fill()V",
+        "Ljava/util/Arrays;->binarySearch()I",
+        "Ljava/util/Arrays;->equals()Z"
+    ],
+    "Lorg/anddev/andengine/entity/Entity;": [
+        "Lorg/anddev/andengine/entity/Entity;->onManagedDraw()V",
+        "Lorg/anddev/andengine/entity/Entity;->reset()V",
+        "Lorg/anddev/andengine/entity/Entity;->onManagedUpdate()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/GLShape;": [
+        "Lorg/anddev/andengine/entity/shape/GLShape;->getY()F",
+        "Lorg/anddev/andengine/entity/shape/GLShape;->onUpdateVertexBuffer()V",
+        "Lorg/anddev/andengine/entity/shape/GLShape;->reset()V",
+        "Lorg/anddev/andengine/entity/shape/GLShape;->onInitDraw()V",
+        "Lorg/anddev/andengine/entity/shape/GLShape;->getVertexBuffer()Lorg/anddev/andengine/opengl/vertex/VertexBuffer;",
+        "Lorg/anddev/andengine/entity/shape/GLShape;->setPosition()V",
+        "Lorg/anddev/andengine/entity/shape/GLShape;->getX()F"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier;->isFinished()Z",
+        "Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier;->getDuration()F",
+        "Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier;->setShapeModifierListener()V",
+        "Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier;->onUpdateShape()V",
+        "Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier;->reset()V",
+        "Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier;->isRemoveWhenFinished()Z",
+        "Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/IShape;": [
+        "Lorg/anddev/andengine/entity/shape/IShape;->setColor()V",
+        "Lorg/anddev/andengine/entity/shape/IShape;->setRotationCenter()V",
+        "Lorg/anddev/andengine/entity/shape/IShape;->getX()F",
+        "Lorg/anddev/andengine/entity/shape/IShape;->getY()F",
+        "Lorg/anddev/andengine/entity/shape/IShape;->collidesWith()Z",
+        "Lorg/anddev/andengine/entity/shape/IShape;->setAlpha()V",
+        "Lorg/anddev/andengine/entity/shape/IShape;->getSceneCenterCoordinates()[F",
+        "Lorg/anddev/andengine/entity/shape/IShape;->getRotation()F",
+        "Lorg/anddev/andengine/entity/shape/IShape;->setPosition()V",
+        "Lorg/anddev/andengine/entity/shape/IShape;->setScaleCenter()V",
+        "Lorg/anddev/andengine/entity/shape/IShape;->setRotation()V",
+        "Lorg/anddev/andengine/entity/shape/IShape;->setScale()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/LoopModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/LoopModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/LoopModifier;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/LoopModifier$ILoopModifierListener;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/LoopModifier$ILoopModifierListener;->onLoopFinished()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier$IShapeModifierListener;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier$IShapeModifierListener;->onModifierFinished()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/BaseShapeDurationModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/BaseShapeDurationModifier;->onManagedUpdateShape()V",
+        "Lorg/anddev/andengine/entity/shape/modifier/BaseShapeDurationModifier;->onManagedInitializeShape()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/BaseDoubleValueSpanModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/BaseDoubleValueSpanModifier;->onSetValues()V",
+        "Lorg/anddev/andengine/entity/shape/modifier/BaseDoubleValueSpanModifier;->onSetInitialValues()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/DelayModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/DelayModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/DelayModifier;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/ColorModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/ColorModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/ColorModifier;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/RotationByModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/RotationByModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/RotationByModifier;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/FadeOutModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/FadeOutModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/FadeOutModifier;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/BaseTripleValueSpanModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/BaseTripleValueSpanModifier;->onSetInitialValues()V",
+        "Lorg/anddev/andengine/entity/shape/modifier/BaseTripleValueSpanModifier;->onSetValues()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/BaseSingleValueSpanModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/BaseSingleValueSpanModifier;->onSetValue()V",
+        "Lorg/anddev/andengine/entity/shape/modifier/BaseSingleValueSpanModifier;->getTotalSecondsElapsed()F",
+        "Lorg/anddev/andengine/entity/shape/modifier/BaseSingleValueSpanModifier;->onSetInitialValue()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/ease/IEaseFunction;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/ease/IEaseFunction;->getPercentageDone()F"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/BaseShapeModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/BaseShapeModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/SequenceModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/SequenceModifier;->isFinished()Z",
+        "Lorg/anddev/andengine/entity/shape/modifier/SequenceModifier;->getDuration()F",
+        "Lorg/anddev/andengine/entity/shape/modifier/SequenceModifier;->onUpdateShape()V",
+        "Lorg/anddev/andengine/entity/shape/modifier/SequenceModifier;->onHandleModifierFinished()V",
+        "Lorg/anddev/andengine/entity/shape/modifier/SequenceModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/SequenceModifier;",
+        "Lorg/anddev/andengine/entity/shape/modifier/SequenceModifier;->reset()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/PathModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/PathModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/PathModifier;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/ScaleModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/ScaleModifier;->onManagedInitializeShape()V",
+        "Lorg/anddev/andengine/entity/shape/modifier/ScaleModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/ScaleModifier;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/MoveModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/MoveModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/MoveModifier;",
+        "Lorg/anddev/andengine/entity/shape/modifier/MoveModifier;->setRemoveWhenFinished()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/FadeInModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/FadeInModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/FadeInModifier;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/util/ShapeModifierUtils;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/util/ShapeModifierUtils;->getSequenceDurationOfShapeModifier()F",
+        "Lorg/anddev/andengine/entity/shape/modifier/util/ShapeModifierUtils;->getShapeModifierWithLongestDuration()Lorg/anddev/andengine/entity/shape/modifier/IShapeModifier;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/SequenceModifier$ISubSequenceModifierListener;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/SequenceModifier$ISubSequenceModifierListener;->onSubSequenceFinished()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/RotationModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/RotationModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/RotationModifier;",
+        "Lorg/anddev/andengine/entity/shape/modifier/RotationModifier;->onManagedInitializeShape()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/ParallelModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/ParallelModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/ParallelModifier;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/BaseSingleValueChangeModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/BaseSingleValueChangeModifier;->onChangeValue()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/AlphaModifier;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/AlphaModifier;->clone()Lorg/anddev/andengine/entity/shape/modifier/AlphaModifier;",
+        "Lorg/anddev/andengine/entity/shape/modifier/AlphaModifier;->setRemoveWhenFinished()V"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/ease/EaseLinear;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/ease/EaseLinear;->getInstance()Lorg/anddev/andengine/entity/shape/modifier/ease/EaseLinear;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/ease/EaseBounceOut;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/ease/EaseBounceOut;->getPercentageDone()F",
+        "Lorg/anddev/andengine/entity/shape/modifier/ease/EaseBounceOut;->getInstance()Lorg/anddev/andengine/entity/shape/modifier/ease/EaseBounceOut;"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/ease/EaseBounceIn;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/ease/EaseBounceIn;->getPercentageDone()F",
+        "Lorg/anddev/andengine/entity/shape/modifier/ease/EaseBounceIn;->getInstance()Lorg/anddev/andengine/entity/shape/modifier/ease/EaseBounceIn;"
+    ],
+    "Lorg/anddev/andengine/entity/util/FPSCounter;": [
+        "Lorg/anddev/andengine/entity/util/FPSCounter;->onUpdate()V"
+    ],
+    "Lorg/anddev/andengine/entity/util/AverageFPSCounter;": [
+        "Lorg/anddev/andengine/entity/util/AverageFPSCounter;->reset()V",
+        "Lorg/anddev/andengine/entity/util/AverageFPSCounter;->onHandleAverageDurationElapsed()V",
+        "Lorg/anddev/andengine/entity/util/AverageFPSCounter;->getFPS()F",
+        "Lorg/anddev/andengine/entity/util/AverageFPSCounter;->onUpdate()V"
+    ],
+    "Ljava/nio/IntBuffer;": [
+        "Ljava/nio/IntBuffer;->wrap()Ljava/nio/IntBuffer;",
+        "Ljava/nio/IntBuffer;->position()Ljava/nio/Buffer;"
+    ],
+    "Lorg/anddev/andengine/entity/util/ScreenCapture;": [
+        "Lorg/anddev/andengine/entity/util/ScreenCapture;->capture()Landroid/graphics/Bitmap;",
+        "Lorg/anddev/andengine/entity/util/ScreenCapture;->saveCapture()V"
+    ],
+    "Lorg/anddev/andengine/entity/util/ScreenCapture$IScreenCaptureCallback;": [
+        "Lorg/anddev/andengine/entity/util/ScreenCapture$IScreenCaptureCallback;->onScreenCaptured()V"
+    ],
+    "Lorg/anddev/andengine/entity/util/FPSLogger;": [
+        "Lorg/anddev/andengine/entity/util/FPSLogger;->onLogFPS()V"
+    ],
+    "Ljava/lang/Float;": [
+        "Ljava/lang/Float;->valueOf()Ljava/lang/Float;"
+    ],
+    "Lorg/anddev/andengine/entity/text/TickerText;": [
+        "Lorg/anddev/andengine/entity/text/TickerText;->setCharactersPerSecond()V"
+    ],
+    "Lorg/anddev/andengine/entity/text/Text;": [
+        "Lorg/anddev/andengine/entity/text/Text;->applyTexture()V",
+        "Lorg/anddev/andengine/entity/text/Text;->updateText()V",
+        "Lorg/anddev/andengine/entity/text/Text;->setPosition()V",
+        "Lorg/anddev/andengine/entity/text/Text;->onManagedUpdate()V",
+        "Lorg/anddev/andengine/entity/text/Text;->getVertexBuffer()Lorg/anddev/andengine/opengl/vertex/TextVertexBuffer;",
+        "Lorg/anddev/andengine/entity/text/Text;->reset()V",
+        "Lorg/anddev/andengine/entity/text/Text;->getWidth()F",
+        "Lorg/anddev/andengine/entity/text/Text;->addShapeModifier()V",
+        "Lorg/anddev/andengine/entity/text/Text;->updateVertexBuffer()V",
+        "Lorg/anddev/andengine/entity/text/Text;->setVisible()V"
+    ],
+    "Lorg/anddev/andengine/entity/text/ChangeableText;": [
+        "Lorg/anddev/andengine/entity/text/ChangeableText;->setVisible()V",
+        "Lorg/anddev/andengine/entity/text/ChangeableText;->getHeight()F",
+        "Lorg/anddev/andengine/entity/text/ChangeableText;->setText()V",
+        "Lorg/anddev/andengine/entity/text/ChangeableText;->setPosition()V",
+        "Lorg/anddev/andengine/entity/text/ChangeableText;->updateText()V",
+        "Lorg/anddev/andengine/entity/text/ChangeableText;->getWidth()F"
+    ],
+    "Lorg/anddev/andengine/entity/primitive/BaseRectangle;": [
+        "Lorg/anddev/andengine/entity/primitive/BaseRectangle;->getVertexBuffer()Lorg/anddev/andengine/opengl/vertex/RectangleVertexBuffer;",
+        "Lorg/anddev/andengine/entity/primitive/BaseRectangle;->reset()V",
+        "Lorg/anddev/andengine/entity/primitive/BaseRectangle;->onApplyTransformations()V",
+        "Lorg/anddev/andengine/entity/primitive/BaseRectangle;->updateVertexBuffer()V",
+        "Lorg/anddev/andengine/entity/primitive/BaseRectangle;->onInitDraw()V"
+    ],
+    "Lorg/anddev/andengine/entity/primitive/Line;": [
+        "Lorg/anddev/andengine/entity/primitive/Line;->updateVertexBuffer()V",
+        "Lorg/anddev/andengine/entity/primitive/Line;->getHeight()F",
+        "Lorg/anddev/andengine/entity/primitive/Line;->getWidth()F",
+        "Lorg/anddev/andengine/entity/primitive/Line;->getVertexBuffer()Lorg/anddev/andengine/opengl/vertex/LineVertexBuffer;"
+    ],
+    "Lorg/anddev/andengine/util/IEntityMatcher;": [
+        "Lorg/anddev/andengine/util/IEntityMatcher;->matches()Z"
+    ],
+    "Lorg/anddev/andengine/entity/IEntity;": [
+        "Lorg/anddev/andengine/entity/IEntity;->onDraw()V",
+        "Lorg/anddev/andengine/entity/IEntity;->reset()V",
+        "Lorg/anddev/andengine/entity/IEntity;->onUpdate()V"
+    ],
+    "Lorg/anddev/andengine/entity/layer/FixedCapacityLayer;": [
+        "Lorg/anddev/andengine/entity/layer/FixedCapacityLayer;->removeEntity()Lorg/anddev/andengine/entity/IEntity;",
+        "Lorg/anddev/andengine/entity/layer/FixedCapacityLayer;->indexOfEntity()I",
+        "Lorg/anddev/andengine/entity/layer/FixedCapacityLayer;->addEntity()V"
+    ],
+    "Lorg/anddev/andengine/entity/layer/BaseLayer;": [
+        "Lorg/anddev/andengine/entity/layer/BaseLayer;->reset()V"
+    ],
+    "Lorg/anddev/andengine/entity/layer/ZIndexSorter;": [
+        "Lorg/anddev/andengine/entity/layer/ZIndexSorter;->sort()V",
+        "Lorg/anddev/andengine/entity/layer/ZIndexSorter;->getInstance()Lorg/anddev/andengine/entity/layer/ZIndexSorter;"
+    ],
+    "Lorg/anddev/andengine/entity/layer/DynamicCapacityLayer;": [
+        "Lorg/anddev/andengine/entity/layer/DynamicCapacityLayer;->addEntity()V"
+    ],
+    "Ljavax/xml/parsers/SAXParserFactory;": [
+        "Ljavax/xml/parsers/SAXParserFactory;->newInstance()Ljavax/xml/parsers/SAXParserFactory;",
+        "Ljavax/xml/parsers/SAXParserFactory;->newSAXParser()Ljavax/xml/parsers/SAXParser;"
+    ],
+    "Ljavax/xml/parsers/SAXParser;": [
+        "Ljavax/xml/parsers/SAXParser;->getXMLReader()Lorg/xml/sax/XMLReader;"
+    ],
+    "Lorg/xml/sax/XMLReader;": [
+        "Lorg/xml/sax/XMLReader;->setContentHandler()V",
+        "Lorg/xml/sax/XMLReader;->parse()V"
+    ],
+    "Lorg/anddev/andengine/entity/layer/tiled/tmx/TSXParser;": [
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TSXParser;->getTMXTileSet()Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTileSet;"
+    ],
+    "Lorg/anddev/andengine/entity/layer/tiled/tmx/TSXLoader;": [
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TSXLoader;->load()Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTileSet;",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TSXLoader;->loadFromAsset()Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTileSet;"
+    ],
+    "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;": [
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;->getSharedVertexBuffer()Lorg/anddev/andengine/opengl/vertex/RectangleVertexBuffer;",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;->getTMXObjectGroups()Ljava/util/ArrayList;",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;->getTileHeight()I",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;->addTMXObjectGroup()V",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;->getTextureRegionFromGlobalTileID()Lorg/anddev/andengine/opengl/texture/region/TextureRegion;",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;->addTMXTileSet()V",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;->getTMXTileProperties()Ljava/util/ArrayList;",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;->addTMXLayer()V",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;->getTMXLayers()Ljava/util/ArrayList;",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;->getTileWidth()I",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;->getTMXTileSets()Ljava/util/ArrayList;"
+    ],
+    "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTileSet;": [
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTileSet;->getTextureRegionFromGlobalTileID()Lorg/anddev/andengine/opengl/texture/region/TextureRegion;",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTileSet;->setImageSource()V",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTileSet;->getTMXTilePropertiesFromGlobalTileID()Ljava/util/ArrayList;",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTileSet;->addTMXTileProperty()V",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTileSet;->getFirstGlobalTileID()I"
+    ],
+    "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXObjectGroup;": [
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXObjectGroup;->getTMXObjects()Ljava/util/ArrayList;",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXObjectGroup;->addTMXObject()V"
+    ],
+    "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXObject;": [
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXObject;->addTMXObjectProperty()V"
+    ],
+    "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXParser;": [
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXParser;->getTMXTiledMap()Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;"
+    ],
+    "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXLoader;": [
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXLoader;->load()Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXTiledMap;"
+    ],
+    "Ljava/lang/reflect/Array;": [
+        "Ljava/lang/reflect/Array;->newInstance()Ljava/lang/Object;"
+    ],
+    "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXLoader$ITMXTilePropertiesListener;": [
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXLoader$ITMXTilePropertiesListener;->onTMXTileWithPropertiesCreated()V"
+    ],
+    "Ljava/io/DataInputStream;": [
+        "Ljava/io/DataInputStream;->read()I",
+        "Ljava/io/DataInputStream;->readLong()J",
+        "Ljava/io/DataInputStream;->readByte()B",
+        "Ljava/io/DataInputStream;->readShort()S",
+        "Ljava/io/DataInputStream;->close()V",
+        "Ljava/io/DataInputStream;->readUTF()Ljava/lang/String;",
+        "Ljava/io/DataInputStream;->skipBytes()I",
+        "Ljava/io/DataInputStream;->readUnsignedShort()I",
+        "Ljava/io/DataInputStream;->readFully()V",
+        "Ljava/io/DataInputStream;->readBoolean()Z",
+        "Ljava/io/DataInputStream;->readInt()I"
+    ],
+    "Lorg/anddev/andengine/engine/camera/Camera;": [
+        "Lorg/anddev/andengine/engine/camera/Camera;->getMaxX()F",
+        "Lorg/anddev/andengine/engine/camera/Camera;->rotateHalfAround()V",
+        "Lorg/anddev/andengine/engine/camera/Camera;->onDrawHUD()V",
+        "Lorg/anddev/andengine/engine/camera/Camera;->getCenterY()F",
+        "Lorg/anddev/andengine/engine/camera/Camera;->onUpdate()V",
+        "Lorg/anddev/andengine/engine/camera/Camera;->convertSurfaceToSceneTouchEvent()V",
+        "Lorg/anddev/andengine/engine/camera/Camera;->centerInCamera()V",
+        "Lorg/anddev/andengine/engine/camera/Camera;->convertHUDToSceneTouchEvent()V",
+        "Lorg/anddev/andengine/engine/camera/Camera;->getCenterX()F",
+        "Lorg/anddev/andengine/engine/camera/Camera;->getHeight()F",
+        "Lorg/anddev/andengine/engine/camera/Camera;->getMinY()F",
+        "Lorg/anddev/andengine/engine/camera/Camera;->getMinX()F",
+        "Lorg/anddev/andengine/engine/camera/Camera;->onApplyPositionIndependentMatrix()V",
+        "Lorg/anddev/andengine/engine/camera/Camera;->setCenter()V",
+        "Lorg/anddev/andengine/engine/camera/Camera;->getHUD()Lorg/anddev/andengine/engine/camera/hud/HUD;",
+        "Lorg/anddev/andengine/engine/camera/Camera;->convertSceneToHUDTouchEvent()V",
+        "Lorg/anddev/andengine/engine/camera/Camera;->getWidth()F",
+        "Lorg/anddev/andengine/engine/camera/Camera;->isRectangularShapeVisible()Z",
+        "Lorg/anddev/andengine/engine/camera/Camera;->hasHUD()Z",
+        "Lorg/anddev/andengine/engine/camera/Camera;->getMaxY()F",
+        "Lorg/anddev/andengine/engine/camera/Camera;->onApplyMatrix()V"
+    ],
+    "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXLayer;": [
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXLayer;->convertSceneToLocalCoordinates()[F",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXLayer;->addTileByGlobalTileID()V",
+        "Lorg/anddev/andengine/entity/layer/tiled/tmx/TMXLayer;->readGlobalTileID()I"
+    ],
+    "Lorg/anddev/andengine/entity/sprite/Sprite;": [
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->setScale()V",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->setPosition()V",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->getX()F",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->setHeight()V",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->getHeightScaled()F",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->getSceneCenterCoordinates()[F",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->addShapeModifier()V",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->getWidthScaled()F",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->getWidth()F",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->getHeight()F",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->setWidth()V",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->getY()F",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->reset()V",
+        "Lorg/anddev/andengine/entity/sprite/Sprite;->onManagedUpdate()V"
+    ],
+    "Lorg/anddev/andengine/entity/particle/Particle;": [
+        "Lorg/anddev/andengine/entity/particle/Particle;->setColor()V",
+        "Lorg/anddev/andengine/entity/particle/Particle;->getLifeTime()F",
+        "Lorg/anddev/andengine/entity/particle/Particle;->accelerate()V",
+        "Lorg/anddev/andengine/entity/particle/Particle;->setBlendFunction()V",
+        "Lorg/anddev/andengine/entity/particle/Particle;->onUpdate()V",
+        "Lorg/anddev/andengine/entity/particle/Particle;->setAlpha()V",
+        "Lorg/anddev/andengine/entity/particle/Particle;->getVertexBuffer()Lorg/anddev/andengine/opengl/vertex/RectangleVertexBuffer;",
+        "Lorg/anddev/andengine/entity/particle/Particle;->setScale()V",
+        "Lorg/anddev/andengine/entity/particle/Particle;->setDead()V",
+        "Lorg/anddev/andengine/entity/particle/Particle;->setDeathTime()V",
+        "Lorg/anddev/andengine/entity/particle/Particle;->onDraw()V",
+        "Lorg/anddev/andengine/entity/particle/Particle;->reset()V",
+        "Lorg/anddev/andengine/entity/particle/Particle;->setVelocity()V",
+        "Lorg/anddev/andengine/entity/particle/Particle;->setRotation()V"
+    ],
+    "Lorg/anddev/andengine/entity/particle/ParticleSystem;": [
+        "Lorg/anddev/andengine/entity/particle/ParticleSystem;->spawnParticle()V",
+        "Lorg/anddev/andengine/entity/particle/ParticleSystem;->getX()F",
+        "Lorg/anddev/andengine/entity/particle/ParticleSystem;->getHeightScaled()F",
+        "Lorg/anddev/andengine/entity/particle/ParticleSystem;->getWidthScaled()F",
+        "Lorg/anddev/andengine/entity/particle/ParticleSystem;->spawnParticles()V",
+        "Lorg/anddev/andengine/entity/particle/ParticleSystem;->determineCurrentRate()F",
+        "Lorg/anddev/andengine/entity/particle/ParticleSystem;->getY()F"
+    ],
+    "Lorg/anddev/andengine/entity/particle/modifier/IParticleInitializer;": [
+        "Lorg/anddev/andengine/entity/particle/modifier/IParticleInitializer;->onInitializeParticle()V"
+    ],
+    "Lorg/anddev/andengine/entity/particle/modifier/IParticleModifier;": [
+        "Lorg/anddev/andengine/entity/particle/modifier/IParticleModifier;->onUpdateParticle()V",
+        "Lorg/anddev/andengine/entity/particle/modifier/IParticleModifier;->onInitializeParticle()V"
+    ],
+    "Lorg/anddev/andengine/entity/primitive/Rectangle;": [
+        "Lorg/anddev/andengine/entity/primitive/Rectangle;->onManagedUpdate()V"
+    ],
+    "Lorg/anddev/andengine/entity/particle/modifier/BaseSingleValueInitializer;": [
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseSingleValueInitializer;->getRandomValue()F",
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseSingleValueInitializer;->onInitializeParticle()V"
+    ],
+    "Lorg/anddev/andengine/entity/particle/modifier/BaseTripleValueInitializer;": [
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseTripleValueInitializer;->onInitializeParticle()V",
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseTripleValueInitializer;->getRandomValueC()F"
+    ],
+    "Lorg/anddev/andengine/entity/particle/modifier/BaseTripleValueSpanModifier;": [
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseTripleValueSpanModifier;->onSetInitialValues()V",
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseTripleValueSpanModifier;->onSetValues()V",
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseTripleValueSpanModifier;->calculateValueC()F"
+    ],
+    "Lorg/anddev/andengine/entity/particle/modifier/BaseDoubleValueSpanModifier;": [
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseDoubleValueSpanModifier;->onSetInitialValues()V",
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseDoubleValueSpanModifier;->calculateValueB()F",
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseDoubleValueSpanModifier;->onSetValues()V",
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseDoubleValueSpanModifier;->calculateValue()F"
+    ],
+    "Lorg/anddev/andengine/entity/particle/modifier/BaseSingleValueSpanModifier;": [
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseSingleValueSpanModifier;->onSetValue()V",
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseSingleValueSpanModifier;->onSetInitialValue()V",
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseSingleValueSpanModifier;->calculateValue()F",
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseSingleValueSpanModifier;->onSetValueInternal()V"
+    ],
+    "Lorg/anddev/andengine/entity/particle/modifier/BaseDoubleValueInitializer;": [
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseDoubleValueInitializer;->onInitializeParticle()V",
+        "Lorg/anddev/andengine/entity/particle/modifier/BaseDoubleValueInitializer;->getRandomValueB()F"
+    ],
+    "Lorg/anddev/andengine/entity/scene/Scene;": [
+        "Lorg/anddev/andengine/entity/scene/Scene;->onManagedDraw()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->drawLayers()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->registerUpdateHandler()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->onUpdate()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->setBackground()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->onChildSceneTouchEvent()Z",
+        "Lorg/anddev/andengine/entity/scene/Scene;->createLayers()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->getLayer()Lorg/anddev/andengine/entity/layer/ILayer;",
+        "Lorg/anddev/andengine/entity/scene/Scene;->onSceneTouchEvent()Z",
+        "Lorg/anddev/andengine/entity/scene/Scene;->getTopLayer()Lorg/anddev/andengine/entity/layer/ILayer;",
+        "Lorg/anddev/andengine/entity/scene/Scene;->onAreaTouchEvent()Ljava/lang/Boolean;",
+        "Lorg/anddev/andengine/entity/scene/Scene;->onDraw()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->updateUpdateHandlers()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->unregisterUpdateHandler()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->setOnSceneTouchListener()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->clearChildScene()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->setParentScene()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->setChildScene()V",
+        "Lorg/anddev/andengine/entity/scene/Scene;->updateLayers()V"
+    ],
+    "Lorg/anddev/andengine/entity/layer/ILayer;": [
+        "Lorg/anddev/andengine/entity/layer/ILayer;->getTouchAreas()Ljava/util/ArrayList;",
+        "Lorg/anddev/andengine/entity/layer/ILayer;->reset()V",
+        "Lorg/anddev/andengine/entity/layer/ILayer;->addEntity()V",
+        "Lorg/anddev/andengine/entity/layer/ILayer;->onUpdate()V",
+        "Lorg/anddev/andengine/entity/layer/ILayer;->onDraw()V"
+    ],
+    "Lorg/anddev/andengine/entity/scene/Scene$ITouchArea;": [
+        "Lorg/anddev/andengine/entity/scene/Scene$ITouchArea;->contains()Z",
+        "Lorg/anddev/andengine/entity/scene/Scene$ITouchArea;->onAreaTouched()Z",
+        "Lorg/anddev/andengine/entity/scene/Scene$ITouchArea;->convertSceneToLocalCoordinates()[F"
+    ],
+    "Lorg/anddev/andengine/entity/scene/Scene$IOnAreaTouchListener;": [
+        "Lorg/anddev/andengine/entity/scene/Scene$IOnAreaTouchListener;->onAreaTouched()Z"
+    ],
+    "Ljava/lang/Boolean;": [
+        "Ljava/lang/Boolean;->booleanValue()Z",
+        "Ljava/lang/Boolean;->valueOf()Ljava/lang/Boolean;"
+    ],
+    "Lorg/anddev/andengine/engine/handler/UpdateHandlerList;": [
+        "Lorg/anddev/andengine/engine/handler/UpdateHandlerList;->remove()Z",
+        "Lorg/anddev/andengine/engine/handler/UpdateHandlerList;->get()Ljava/lang/Object;",
+        "Lorg/anddev/andengine/engine/handler/UpdateHandlerList;->add()Z",
+        "Lorg/anddev/andengine/engine/handler/UpdateHandlerList;->onUpdate()V",
+        "Lorg/anddev/andengine/engine/handler/UpdateHandlerList;->size()I",
+        "Lorg/anddev/andengine/engine/handler/UpdateHandlerList;->clear()V"
+    ],
+    "Lorg/anddev/andengine/entity/scene/background/IBackground;": [
+        "Lorg/anddev/andengine/entity/scene/background/IBackground;->onDraw()V",
+        "Lorg/anddev/andengine/entity/scene/background/IBackground;->onUpdate()V"
+    ],
+    "Lorg/anddev/andengine/engine/handler/runnable/RunnableHandler;": [
+        "Lorg/anddev/andengine/engine/handler/runnable/RunnableHandler;->onUpdate()V",
+        "Lorg/anddev/andengine/engine/handler/runnable/RunnableHandler;->postRunnable()V"
+    ],
+    "Lorg/anddev/andengine/entity/scene/Scene$IOnSceneTouchListener;": [
+        "Lorg/anddev/andengine/entity/scene/Scene$IOnSceneTouchListener;->onSceneTouchEvent()Z"
+    ],
+    "Lorg/anddev/andengine/entity/scene/background/ColorBackground;": [
+        "Lorg/anddev/andengine/entity/scene/background/ColorBackground;->onDraw()V",
+        "Lorg/anddev/andengine/entity/scene/background/ColorBackground;->setColor()V"
+    ],
+    "Lorg/anddev/andengine/entity/scene/background/ParallaxBackground$ParallaxEntity;": [
+        "Lorg/anddev/andengine/entity/scene/background/ParallaxBackground$ParallaxEntity;->onDraw()V"
+    ],
+    "Lorg/anddev/andengine/entity/scene/background/RepeatingSpriteBackground;": [
+        "Lorg/anddev/andengine/entity/scene/background/RepeatingSpriteBackground;->loadSprite()Lorg/anddev/andengine/entity/sprite/Sprite;"
+    ],
+    "Lorg/anddev/andengine/entity/scene/background/ParallaxBackground;": [
+        "Lorg/anddev/andengine/entity/scene/background/ParallaxBackground;->onUpdate()V"
+    ],
+    "Lorg/anddev/andengine/entity/scene/menu/MenuScene;": [
+        "Lorg/anddev/andengine/entity/scene/menu/MenuScene;->prepareAnimations()V",
+        "Lorg/anddev/andengine/entity/scene/menu/MenuScene;->getBottomLayer()Lorg/anddev/andengine/entity/layer/ILayer;",
+        "Lorg/anddev/andengine/entity/scene/menu/MenuScene;->addMenuItem()V",
+        "Lorg/anddev/andengine/entity/scene/menu/MenuScene;->setOnSceneTouchListener()V",
+        "Lorg/anddev/andengine/entity/scene/menu/MenuScene;->setOnAreaTouchListener()V",
+        "Lorg/anddev/andengine/entity/scene/menu/MenuScene;->registerTouchArea()V",
+        "Lorg/anddev/andengine/entity/scene/menu/MenuScene;->setBackgroundEnabled()V",
+        "Lorg/anddev/andengine/entity/scene/menu/MenuScene;->getTopLayer()Lorg/anddev/andengine/entity/layer/ILayer;",
+        "Lorg/anddev/andengine/entity/scene/menu/MenuScene;->setOnMenuItemClickListener()V",
+        "Lorg/anddev/andengine/entity/scene/menu/MenuScene;->reset()V",
+        "Lorg/anddev/andengine/entity/scene/menu/MenuScene;->getChildScene()Lorg/anddev/andengine/entity/scene/menu/MenuScene;"
+    ],
+    "Lorg/anddev/andengine/entity/scene/CameraScene;": [
+        "Lorg/anddev/andengine/entity/scene/CameraScene;->getTopLayer()Lorg/anddev/andengine/entity/layer/ILayer;",
+        "Lorg/anddev/andengine/entity/scene/CameraScene;->clearChildScene()V",
+        "Lorg/anddev/andengine/entity/scene/CameraScene;->setChildScene()V",
+        "Lorg/anddev/andengine/entity/scene/CameraScene;->setBackgroundEnabled()V",
+        "Lorg/anddev/andengine/entity/scene/CameraScene;->getChildScene()Lorg/anddev/andengine/entity/scene/Scene;",
+        "Lorg/anddev/andengine/entity/scene/CameraScene;->reset()V",
+        "Lorg/anddev/andengine/entity/scene/CameraScene;->back()V"
+    ],
+    "Lorg/anddev/andengine/entity/scene/menu/animator/IMenuAnimator;": [
+        "Lorg/anddev/andengine/entity/scene/menu/animator/IMenuAnimator;->buildAnimations()V",
+        "Lorg/anddev/andengine/entity/scene/menu/animator/IMenuAnimator;->prepareAnimations()V"
+    ],
+    "Lorg/anddev/andengine/entity/scene/menu/item/IMenuItem;": [
+        "Lorg/anddev/andengine/entity/scene/menu/item/IMenuItem;->onUnselected()V",
+        "Lorg/anddev/andengine/entity/scene/menu/item/IMenuItem;->getHeight()F",
+        "Lorg/anddev/andengine/entity/scene/menu/item/IMenuItem;->getWidthScaled()F",
+        "Lorg/anddev/andengine/entity/scene/menu/item/IMenuItem;->onSelected()V",
+        "Lorg/anddev/andengine/entity/scene/menu/item/IMenuItem;->getID()I",
+        "Lorg/anddev/andengine/entity/scene/menu/item/IMenuItem;->addShapeModifier()V",
+        "Lorg/anddev/andengine/entity/scene/menu/item/IMenuItem;->setPosition()V",
+        "Lorg/anddev/andengine/entity/scene/menu/item/IMenuItem;->reset()V",
+        "Lorg/anddev/andengine/entity/scene/menu/item/IMenuItem;->setAlpha()V"
+    ],
+    "Lorg/anddev/andengine/entity/scene/menu/MenuScene$IOnMenuItemClickListener;": [
+        "Lorg/anddev/andengine/entity/scene/menu/MenuScene$IOnMenuItemClickListener;->onMenuItemClicked()Z"
+    ],
+    "Lorg/anddev/andengine/entity/scene/menu/item/ColoredTextMenuItem;": [
+        "Lorg/anddev/andengine/entity/scene/menu/item/ColoredTextMenuItem;->setColor()V"
+    ],
+    "Lorg/anddev/andengine/entity/scene/menu/item/TextMenuItem;": [
+        "Lorg/anddev/andengine/entity/scene/menu/item/TextMenuItem;->reset()V"
+    ],
+    "Lorg/anddev/andengine/entity/scene/menu/animator/SlideMenuAnimator;": [
+        "Lorg/anddev/andengine/entity/scene/menu/animator/SlideMenuAnimator;->$SWITCH_TABLE$org$anddev$andengine$util$HorizontalAlign()[I",
+        "Lorg/anddev/andengine/entity/scene/menu/animator/SlideMenuAnimator;->getMaximumWidth()F",
+        "Lorg/anddev/andengine/entity/scene/menu/animator/SlideMenuAnimator;->getOverallHeight()F"
+    ],
+    "Lorg/anddev/andengine/entity/scene/menu/animator/AlphaMenuAnimator;": [
+        "Lorg/anddev/andengine/entity/scene/menu/animator/AlphaMenuAnimator;->$SWITCH_TABLE$org$anddev$andengine$util$HorizontalAlign()[I",
+        "Lorg/anddev/andengine/entity/scene/menu/animator/AlphaMenuAnimator;->getOverallHeight()F",
+        "Lorg/anddev/andengine/entity/scene/menu/animator/AlphaMenuAnimator;->getMaximumWidth()F"
+    ],
+    "Lorg/anddev/andengine/entity/scene/menu/animator/DirectMenuAnimator;": [
+        "Lorg/anddev/andengine/entity/scene/menu/animator/DirectMenuAnimator;->getOverallHeight()F",
+        "Lorg/anddev/andengine/entity/scene/menu/animator/DirectMenuAnimator;->$SWITCH_TABLE$org$anddev$andengine$util$HorizontalAlign()[I",
+        "Lorg/anddev/andengine/entity/scene/menu/animator/DirectMenuAnimator;->getMaximumWidth()F"
+    ],
+    "Lorg/anddev/andengine/entity/scene/popup/TextPopupScene;": [
+        "Lorg/anddev/andengine/entity/scene/popup/TextPopupScene;->getTopLayer()Lorg/anddev/andengine/entity/layer/ILayer;"
+    ],
+    "Lorg/anddev/andengine/entity/scene/popup/PopupScene;": [
+        "Lorg/anddev/andengine/entity/scene/popup/PopupScene;->setBackgroundEnabled()V",
+        "Lorg/anddev/andengine/entity/scene/popup/PopupScene;->registerUpdateHandler()V"
+    ],
+    "Lorg/anddev/andengine/entity/sprite/TiledSprite;": [
+        "Lorg/anddev/andengine/entity/sprite/TiledSprite;->getTextureRegion()Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;",
+        "Lorg/anddev/andengine/entity/sprite/TiledSprite;->onManagedUpdate()V"
+    ],
+    "Lorg/anddev/andengine/entity/sprite/BaseSprite;": [
+        "Lorg/anddev/andengine/entity/sprite/BaseSprite;->getTextureRegion()Lorg/anddev/andengine/opengl/texture/region/TextureRegion;",
+        "Lorg/anddev/andengine/entity/sprite/BaseSprite;->setBlendFunction()V"
+    ],
+    "Lorg/anddev/andengine/entity/sprite/AnimatedSprite;": [
+        "Lorg/anddev/andengine/entity/sprite/AnimatedSprite;->getTextureRegion()Lorg/anddev/andengine/opengl/texture/region/TiledTextureRegion;",
+        "Lorg/anddev/andengine/entity/sprite/AnimatedSprite;->setCurrentTileIndex()V",
+        "Lorg/anddev/andengine/entity/sprite/AnimatedSprite;->onManagedUpdate()V",
+        "Lorg/anddev/andengine/entity/sprite/AnimatedSprite;->animate()Lorg/anddev/andengine/entity/sprite/AnimatedSprite;",
+        "Lorg/anddev/andengine/entity/sprite/AnimatedSprite;->calculateCurrentFrameIndex()I"
+    ],
+    "Lorg/anddev/andengine/entity/sprite/AnimatedSprite$IAnimationListener;": [
+        "Lorg/anddev/andengine/entity/sprite/AnimatedSprite$IAnimationListener;->onAnimationEnd()V"
+    ],
+    "Lorg/anddev/andengine/audio/sound/SoundFactory;": [
+        "Lorg/anddev/andengine/audio/sound/SoundFactory;->setAssetBasePath()V",
+        "Lorg/anddev/andengine/audio/sound/SoundFactory;->createSoundFromAsset()Lorg/anddev/andengine/audio/sound/Sound;"
+    ],
+    "Lorg/anddev/andengine/audio/music/MusicFactory;": [
+        "Lorg/anddev/andengine/audio/music/MusicFactory;->createMusicFromAsset()Lorg/anddev/andengine/audio/music/Music;",
+        "Lorg/anddev/andengine/audio/music/MusicFactory;->setAssetBasePath()V"
+    ],
+    "Lorg/anddev/andengine/opengl/font/FontFactory;": [
+        "Lorg/anddev/andengine/opengl/font/FontFactory;->setAssetBasePath()V"
+    ],
+    "Ljava/lang/Thread;": [
+        "Ljava/lang/Thread;->start()V",
+        "Ljava/lang/Thread;->setDefaultUncaughtExceptionHandler()V",
+        "Ljava/lang/Thread;->sleep()V",
+        "Ljava/lang/Thread;->getDefaultUncaughtExceptionHandler()Ljava/lang/Thread$UncaughtExceptionHandler;"
+    ],
+    "Landroid/hardware/SensorManager;": [
+        "Landroid/hardware/SensorManager;->getSensorList()Ljava/util/List;",
+        "Landroid/hardware/SensorManager;->registerListener()Z"
+    ],
+    "Lorg/anddev/andengine/engine/Engine$State;": [
+        "Lorg/anddev/andengine/engine/Engine$State;->waitUntilCanDraw()V",
+        "Lorg/anddev/andengine/engine/Engine$State;->notifyCanUpdate()V",
+        "Lorg/anddev/andengine/engine/Engine$State;->notifyCanDraw()V",
+        "Lorg/anddev/andengine/engine/Engine$State;->waitUntilCanUpdate()V"
+    ],
+    "Landroid/hardware/Sensor;": [
+        "Landroid/hardware/Sensor;->getType()I"
+    ],
+    "Lorg/anddev/andengine/sensor/accelerometer/AccelerometerData;": [
+        "Lorg/anddev/andengine/sensor/accelerometer/AccelerometerData;->setValues()V",
+        "Lorg/anddev/andengine/sensor/accelerometer/AccelerometerData;->setAccuracy()V"
+    ],
+    "Lorg/anddev/andengine/sensor/accelerometer/IAccelerometerListener;": [
+        "Lorg/anddev/andengine/sensor/accelerometer/IAccelerometerListener;->onAccelerometerChanged()V"
+    ],
+    "Lorg/anddev/andengine/sensor/orientation/OrientationData;": [
+        "Lorg/anddev/andengine/sensor/orientation/OrientationData;->setValues()V"
+    ],
+    "Lorg/anddev/andengine/sensor/orientation/IOrientationListener;": [
+        "Lorg/anddev/andengine/sensor/orientation/IOrientationListener;->onOrientationChanged()V"
+    ],
+    "Lorg/anddev/andengine/input/touch/controller/ITouchController;": [
+        "Lorg/anddev/andengine/input/touch/controller/ITouchController;->onHandleMotionEvent()Z"
+    ],
+    "Lorg/anddev/andengine/engine/camera/hud/HUD;": [
+        "Lorg/anddev/andengine/engine/camera/hud/HUD;->onSceneTouchEvent()Z",
+        "Lorg/anddev/andengine/engine/camera/hud/HUD;->setBackgroundEnabled()V",
+        "Lorg/anddev/andengine/engine/camera/hud/HUD;->setCamera()V",
+        "Lorg/anddev/andengine/engine/camera/hud/HUD;->onDraw()V",
+        "Lorg/anddev/andengine/engine/camera/hud/HUD;->onUpdate()V"
+    ],
+    "Landroid/os/Debug;": [
+        "Landroid/os/Debug;->stopMethodTracing()V",
+        "Landroid/os/Debug;->startMethodTracing()V"
+    ],
+    "Landroid/os/Vibrator;": [
+        "Landroid/os/Vibrator;->vibrate()V"
+    ],
+    "Lorg/anddev/andengine/engine/DoubleSceneSplitScreenEngine;": [
+        "Lorg/anddev/andengine/engine/DoubleSceneSplitScreenEngine;->getFirstCamera()Lorg/anddev/andengine/engine/camera/Camera;",
+        "Lorg/anddev/andengine/engine/DoubleSceneSplitScreenEngine;->getFirstScene()Lorg/anddev/andengine/entity/scene/Scene;",
+        "Lorg/anddev/andengine/engine/DoubleSceneSplitScreenEngine;->getSecondScene()Lorg/anddev/andengine/entity/scene/Scene;",
+        "Lorg/anddev/andengine/engine/DoubleSceneSplitScreenEngine;->getSecondCamera()Lorg/anddev/andengine/engine/camera/Camera;"
+    ],
+    "Lorg/anddev/andengine/engine/SingleSceneSplitScreenEngine;": [
+        "Lorg/anddev/andengine/engine/SingleSceneSplitScreenEngine;->getFirstCamera()Lorg/anddev/andengine/engine/camera/Camera;",
+        "Lorg/anddev/andengine/engine/SingleSceneSplitScreenEngine;->getSecondCamera()Lorg/anddev/andengine/engine/camera/Camera;"
+    ],
+    "Lorg/anddev/andengine/engine/handler/IUpdateHandler;": [
+        "Lorg/anddev/andengine/engine/handler/IUpdateHandler;->reset()V",
+        "Lorg/anddev/andengine/engine/handler/IUpdateHandler;->onUpdate()V"
+    ],
+    "Lorg/anddev/andengine/util/ListUtils;": [
+        "Lorg/anddev/andengine/util/ListUtils;->toList()Ljava/util/ArrayList;"
+    ],
+    "Lorg/anddev/andengine/engine/handler/collision/ICollisionCallback;": [
+        "Lorg/anddev/andengine/engine/handler/collision/ICollisionCallback;->onCollision()Z"
+    ],
+    "Lorg/anddev/andengine/engine/handler/timer/ITimerCallback;": [
+        "Lorg/anddev/andengine/engine/handler/timer/ITimerCallback;->onTimePassed()V"
+    ],
+    "Ljava/lang/Runnable;": [
+        "Ljava/lang/Runnable;->run()V"
+    ],
+    "Lorg/anddev/andengine/engine/camera/SmoothCamera;": [
+        "Lorg/anddev/andengine/engine/camera/SmoothCamera;->getCenterY()F",
+        "Lorg/anddev/andengine/engine/camera/SmoothCamera;->getCenterX()F",
+        "Lorg/anddev/andengine/engine/camera/SmoothCamera;->cutToMaxVelocityY()F",
+        "Lorg/anddev/andengine/engine/camera/SmoothCamera;->cutToMaxZoomFactorChange()F",
+        "Lorg/anddev/andengine/engine/camera/SmoothCamera;->cutToMaxVelocityX()F",
+        "Lorg/anddev/andengine/engine/camera/SmoothCamera;->getZoomFactor()F"
+    ],
+    "Lorg/anddev/andengine/engine/camera/ZoomCamera;": [
+        "Lorg/anddev/andengine/engine/camera/ZoomCamera;->setZoomFactor()V",
+        "Lorg/anddev/andengine/engine/camera/ZoomCamera;->getCenterY()F",
+        "Lorg/anddev/andengine/engine/camera/ZoomCamera;->getZoomFactor()F",
+        "Lorg/anddev/andengine/engine/camera/ZoomCamera;->getMinY()F",
+        "Lorg/anddev/andengine/engine/camera/ZoomCamera;->onUpdate()V",
+        "Lorg/anddev/andengine/engine/camera/ZoomCamera;->getMinX()F",
+        "Lorg/anddev/andengine/engine/camera/ZoomCamera;->getCenterX()F",
+        "Lorg/anddev/andengine/engine/camera/ZoomCamera;->setCenter()V"
+    ],
+    "Lorg/anddev/andengine/engine/camera/CameraFactory;": [
+        "Lorg/anddev/andengine/engine/camera/CameraFactory;->getDisplayMetrics()Landroid/util/DisplayMetrics;"
+    ],
+    "Landroid/app/Activity;": [
+        "Landroid/app/Activity;->getSystemService()Ljava/lang/Object;",
+        "Landroid/app/Activity;->onKeyDown()Z",
+        "Landroid/app/Activity;->onPause()V",
+        "Landroid/app/Activity;->onConfigurationChanged()V",
+        "Landroid/app/Activity;->finish()V",
+        "Landroid/app/Activity;->onCreate()V",
+        "Landroid/app/Activity;->getPackageManager()Landroid/content/pm/PackageManager;",
+        "Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;",
+        "Landroid/app/Activity;->onDestroy()V",
+        "Landroid/app/Activity;->startActivityForResult()V"
+    ],
+    "Lorg/anddev/andengine/engine/camera/BoundCamera;": [
+        "Lorg/anddev/andengine/engine/camera/BoundCamera;->getMinX()F",
+        "Lorg/anddev/andengine/engine/camera/BoundCamera;->getMaxY()F",
+        "Lorg/anddev/andengine/engine/camera/BoundCamera;->getCenterY()F",
+        "Lorg/anddev/andengine/engine/camera/BoundCamera;->getCenterX()F",
+        "Lorg/anddev/andengine/engine/camera/BoundCamera;->determineBoundedX()F",
+        "Lorg/anddev/andengine/engine/camera/BoundCamera;->setBounds()V",
+        "Lorg/anddev/andengine/engine/camera/BoundCamera;->determineBoundedY()F",
+        "Lorg/anddev/andengine/engine/camera/BoundCamera;->getHeight()F",
+        "Lorg/anddev/andengine/engine/camera/BoundCamera;->getMaxX()F",
+        "Lorg/anddev/andengine/engine/camera/BoundCamera;->getMinY()F",
+        "Lorg/anddev/andengine/engine/camera/BoundCamera;->getWidth()F"
+    ],
+    "Lorg/anddev/andengine/collision/BaseCollisionChecker;": [
+        "Lorg/anddev/andengine/collision/BaseCollisionChecker;->checkAxisAlignedRectangleCollision()Z"
+    ],
+    "Landroid/opengl/GLU;": [
+        "Landroid/opengl/GLU;->gluOrtho2D()V"
+    ],
+    "Lorg/anddev/andengine/engine/camera/hud/controls/BaseOnScreenControl;": [
+        "Lorg/anddev/andengine/engine/camera/hud/controls/BaseOnScreenControl;->onHandleControlBaseLeft()V",
+        "Lorg/anddev/andengine/engine/camera/hud/controls/BaseOnScreenControl;->onUpdateControlKnob()V",
+        "Lorg/anddev/andengine/engine/camera/hud/controls/BaseOnScreenControl;->updateControlKnob()V",
+        "Lorg/anddev/andengine/engine/camera/hud/controls/BaseOnScreenControl;->onHandleControlKnobReleased()V",
+        "Lorg/anddev/andengine/engine/camera/hud/controls/BaseOnScreenControl;->setOnSceneTouchListener()V",
+        "Lorg/anddev/andengine/engine/camera/hud/controls/BaseOnScreenControl;->setCamera()V",
+        "Lorg/anddev/andengine/engine/camera/hud/controls/BaseOnScreenControl;->registerUpdateHandler()V",
+        "Lorg/anddev/andengine/engine/camera/hud/controls/BaseOnScreenControl;->getBottomLayer()Lorg/anddev/andengine/entity/layer/ILayer;",
+        "Lorg/anddev/andengine/engine/camera/hud/controls/BaseOnScreenControl;->registerTouchArea()V"
+    ],
+    "Lorg/anddev/progressmonitor/ProgressMonitor;": [
+        "Lorg/anddev/progressmonitor/ProgressMonitor;->onSubProgressChanged()V"
+    ],
+    "Lorg/anddev/progressmonitor/IProgressListener;": [
+        "Lorg/anddev/progressmonitor/IProgressListener;->onProgressChanged()V"
+    ],
+    "Lcom/admob/android/ads/AdManager;": [
+        "Lcom/admob/android/ads/AdManager;->a()V",
+        "Lcom/admob/android/ads/AdManager;->getCoordinates()Landroid/location/Location;",
+        "Lcom/admob/android/ads/AdManager;->md5()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->setPublisherId()V",
+        "Lcom/admob/android/ads/AdManager;->isEmulator()Z",
+        "Lcom/admob/android/ads/AdManager;->getPublisherId()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->getApplicationPackageName()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->setBirthday()V",
+        "Lcom/admob/android/ads/AdManager;->getUserId()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->getBirthday()Ljava/util/GregorianCalendar;",
+        "Lcom/admob/android/ads/AdManager;->getOrientation()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->getTestAction()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->a()Lcom/admob/android/ads/a;",
+        "Lcom/admob/android/ads/AdManager;->setInterstitialPublisherId()V",
+        "Lcom/admob/android/ads/AdManager;->getApplicationVersion()I",
+        "Lcom/admob/android/ads/AdManager;->isTestDevice()Z",
+        "Lcom/admob/android/ads/AdManager;->a()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->clientError()V",
+        "Lcom/admob/android/ads/AdManager;->getPostalCode()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->getInterstitialPublisherId()Ljava/lang/String;"
+    ],
+    "Landroid/content/pm/PackageManager;": [
+        "Landroid/content/pm/PackageManager;->getPackageInfo()Landroid/content/pm/PackageInfo;",
+        "Landroid/content/pm/PackageManager;->getPackageArchiveInfo()Landroid/content/pm/PackageInfo;",
+        "Landroid/content/pm/PackageManager;->getReceiverInfo()Landroid/content/pm/ActivityInfo;",
+        "Landroid/content/pm/PackageManager;->queryIntentActivities()Ljava/util/List;",
+        "Landroid/content/pm/PackageManager;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;",
+        "Landroid/content/pm/PackageManager;->resolveActivity()Landroid/content/pm/ResolveInfo;"
+    ],
+    "Lcom/admob/android/ads/InterstitialAd$c;": [
+        "Lcom/admob/android/ads/InterstitialAd$c;->a()Z"
+    ],
+    "Lcom/admob/android/ads/t;": [
+        "Lcom/admob/android/ads/t;->a()Ljava/io/File;",
+        "Lcom/admob/android/ads/t;->a()V",
+        "Lcom/admob/android/ads/t;->a()Z",
+        "Lcom/admob/android/ads/t;->a()Ljava/lang/String;"
+    ],
+    "Landroid/os/SystemClock;": [
+        "Landroid/os/SystemClock;->uptimeMillis()J",
+        "Landroid/os/SystemClock;->elapsedRealtime()J"
+    ],
+    "Lcom/admob/android/ads/b;": [
+        "Lcom/admob/android/ads/b;->a()Lcom/admob/android/ads/j;",
+        "Lcom/admob/android/ads/b;->a()Ljava/lang/String;",
+        "Lcom/admob/android/ads/b;->a()V"
+    ],
+    "Lcom/admob/android/ads/g;": [
+        "Lcom/admob/android/ads/g;->a()Lcom/admob/android/ads/e;"
+    ],
+    "Lcom/admob/android/ads/e;": [
+        "Lcom/admob/android/ads/e;->a()Ljava/lang/String;",
+        "Lcom/admob/android/ads/e;->a()[B",
+        "Lcom/admob/android/ads/e;->a()V",
+        "Lcom/admob/android/ads/e;->a()Z",
+        "Lcom/admob/android/ads/e;->a()Ljava/lang/Object;",
+        "Lcom/admob/android/ads/e;->a()Ljava/net/URL;"
+    ],
+    "Lorg/json/JSONObject;": [
+        "Lorg/json/JSONObject;->toString()Ljava/lang/String;",
+        "Lorg/json/JSONObject;->getJSONArray()Lorg/json/JSONArray;",
+        "Lorg/json/JSONObject;->optString()Ljava/lang/String;",
+        "Lorg/json/JSONObject;->optJSONArray()Lorg/json/JSONArray;",
+        "Lorg/json/JSONObject;->length()I",
+        "Lorg/json/JSONObject;->optInt()I",
+        "Lorg/json/JSONObject;->optJSONObject()Lorg/json/JSONObject;",
+        "Lorg/json/JSONObject;->keys()Ljava/util/Iterator;",
+        "Lorg/json/JSONObject;->put()Lorg/json/JSONObject;",
+        "Lorg/json/JSONObject;->getString()Ljava/lang/String;",
+        "Lorg/json/JSONObject;->opt()Ljava/lang/Object;",
+        "Lorg/json/JSONObject;->optDouble()D",
+        "Lorg/json/JSONObject;->getJSONObject()Lorg/json/JSONObject;",
+        "Lorg/json/JSONObject;->has()Z",
+        "Lorg/json/JSONObject;->optBoolean()Z"
+    ],
+    "Lcom/admob/android/ads/j;": [
+        "Lcom/admob/android/ads/j;->toString()Ljava/lang/String;",
+        "Lcom/admob/android/ads/j;->a()Lcom/admob/android/ads/al;",
+        "Lcom/admob/android/ads/j;->a()V",
+        "Lcom/admob/android/ads/j;->a()Landroid/graphics/RectF;",
+        "Lcom/admob/android/ads/j;->a()Lorg/json/JSONArray;",
+        "Lcom/admob/android/ads/j;->a()J",
+        "Lcom/admob/android/ads/j;->a()Landroid/graphics/Rect;",
+        "Lcom/admob/android/ads/j;->a()Lcom/admob/android/ads/q;",
+        "Lcom/admob/android/ads/j;->a()Landroid/graphics/PointF;",
+        "Lcom/admob/android/ads/j;->a()Lcom/admob/android/ads/j;",
+        "Lcom/admob/android/ads/j;->a()D",
+        "Lcom/admob/android/ads/j;->a()Landroid/view/animation/Interpolator;",
+        "Lcom/admob/android/ads/j;->a()Landroid/graphics/Matrix;",
+        "Lcom/admob/android/ads/j;->a()Lcom/admob/android/ads/ap;",
+        "Lcom/admob/android/ads/j;->a()Landroid/view/animation/Animation;",
+        "Lcom/admob/android/ads/j;->a()Landroid/view/animation/AnimationSet;",
+        "Lcom/admob/android/ads/j;->a()F",
+        "Lcom/admob/android/ads/j;->a()Lcom/admob/android/ads/aj;",
+        "Lcom/admob/android/ads/j;->a()Z",
+        "Lcom/admob/android/ads/j;->a()I",
+        "Lcom/admob/android/ads/j;->a()[F",
+        "Lcom/admob/android/ads/j;->a()[Ljava/lang/String;",
+        "Lcom/admob/android/ads/j;->a()Landroid/view/View;",
+        "Lcom/admob/android/ads/j;->a()Lcom/admob/android/ads/am;",
+        "Lcom/admob/android/ads/j;->a()Lcom/admob/android/ads/ak;"
+    ],
+    "Lcom/admob/android/ads/j$b;": [
+        "Lcom/admob/android/ads/j$b;->ordinal()I",
+        "Lcom/admob/android/ads/j$b;->toString()Ljava/lang/String;"
+    ],
+    "Lcom/admob/android/ads/InterstitialAd$Event;": [
+        "Lcom/admob/android/ads/InterstitialAd$Event;->ordinal()I"
+    ],
+    "Lcom/admob/android/ads/AdView$f;": [
+        "Lcom/admob/android/ads/AdView$f;->toString()Ljava/lang/String;"
+    ],
+    "Lcom/admob/android/ads/k;": [
+        "Lcom/admob/android/ads/k;->getContext()Landroid/content/Context;",
+        "Lcom/admob/android/ads/k;->getChildAt()Landroid/view/View;",
+        "Lcom/admob/android/ads/k;->a()V",
+        "Lcom/admob/android/ads/k;->setPressed()V",
+        "Lcom/admob/android/ads/k;->a()Z",
+        "Lcom/admob/android/ads/k;->setGravity()V",
+        "Lcom/admob/android/ads/k;->isPressed()Z",
+        "Lcom/admob/android/ads/k;->getVisibility()I",
+        "Lcom/admob/android/ads/k;->getHeight()I",
+        "Lcom/admob/android/ads/k;->a()J",
+        "Lcom/admob/android/ads/k;->setId()V",
+        "Lcom/admob/android/ads/k;->a()Lorg/json/JSONObject;",
+        "Lcom/admob/android/ads/k;->a()F",
+        "Lcom/admob/android/ads/k;->setVisibility()V",
+        "Lcom/admob/android/ads/k;->invalidate()V",
+        "Lcom/admob/android/ads/k;->setClickable()V",
+        "Lcom/admob/android/ads/k;->addView()V",
+        "Lcom/admob/android/ads/k;->hasFocus()Z",
+        "Lcom/admob/android/ads/k;->bringChildToFront()V",
+        "Lcom/admob/android/ads/k;->getWidth()I",
+        "Lcom/admob/android/ads/k;->setFocusable()V",
+        "Lcom/admob/android/ads/k;->a()Ljava/util/Vector;",
+        "Lcom/admob/android/ads/k;->getChildCount()I",
+        "Lcom/admob/android/ads/k;->postDelayed()Z",
+        "Lcom/admob/android/ads/k;->setBackgroundDrawable()V",
+        "Lcom/admob/android/ads/k;->setPadding()V",
+        "Lcom/admob/android/ads/k;->indexOfChild()I",
+        "Lcom/admob/android/ads/k;->getParent()Landroid/view/ViewParent;",
+        "Lcom/admob/android/ads/k;->a()Lcom/admob/android/ads/j;",
+        "Lcom/admob/android/ads/k;->post()Z",
+        "Lcom/admob/android/ads/k;->requestLayout()V",
+        "Lcom/admob/android/ads/k;->setLayoutParams()V",
+        "Lcom/admob/android/ads/k;->isFocused()Z"
+    ],
+    "Lcom/admob/android/ads/j$a;": [
+        "Lcom/admob/android/ads/j$a;->ordinal()I",
+        "Lcom/admob/android/ads/j$a;->a()Lcom/admob/android/ads/j$a;",
+        "Lcom/admob/android/ads/j$a;->toString()Ljava/lang/String;"
+    ],
+    "Landroid/net/Uri;": [
+        "Landroid/net/Uri;->parse()Landroid/net/Uri;"
+    ],
+    "Lcom/admob/android/ads/a;": [
+        "Lcom/admob/android/ads/a;->ordinal()I"
+    ],
+    "Ljava/net/URLEncoder;": [
+        "Ljava/net/URLEncoder;->encode()Ljava/lang/String;"
+    ],
+    "Lcom/admob/android/ads/ab;": [
+        "Lcom/admob/android/ads/ab;->getResources()Landroid/content/res/Resources;"
+    ],
+    "Landroid/media/AudioManager;": [
+        "Landroid/media/AudioManager;->getMode()I",
+        "Landroid/media/AudioManager;->getRingerMode()I",
+        "Landroid/media/AudioManager;->isMusicActive()Z",
+        "Landroid/media/AudioManager;->isSpeakerphoneOn()Z"
+    ],
+    "Lcom/admob/android/ads/z;": [
+        "Lcom/admob/android/ads/z;->loadDataWithBaseURL()V",
+        "Lcom/admob/android/ads/z;->setWebViewClient()V",
+        "Lcom/admob/android/ads/z;->loadUrl()V",
+        "Lcom/admob/android/ads/z;->a()V"
+    ],
+    "Landroid/view/animation/Transformation;": [
+        "Landroid/view/animation/Transformation;->getMatrix()Landroid/graphics/Matrix;",
+        "Landroid/view/animation/Transformation;->setTransformationType()V"
+    ],
+    "Landroid/graphics/Camera;": [
+        "Landroid/graphics/Camera;->restore()V",
+        "Landroid/graphics/Camera;->save()V",
+        "Landroid/graphics/Camera;->translate()V",
+        "Landroid/graphics/Camera;->rotateY()V",
+        "Landroid/graphics/Camera;->getMatrix()V",
+        "Landroid/graphics/Camera;->rotateZ()V",
+        "Landroid/graphics/Camera;->rotateX()V"
+    ],
+    "Landroid/graphics/Matrix;": [
+        "Landroid/graphics/Matrix;->preTranslate()Z",
+        "Landroid/graphics/Matrix;->postTranslate()Z",
+        "Landroid/graphics/Matrix;->setSkew()V",
+        "Landroid/graphics/Matrix;->setValues()V"
+    ],
+    "Landroid/os/Bundle;": [
+        "Landroid/os/Bundle;->getParcelableArrayList()Ljava/util/ArrayList;",
+        "Landroid/os/Bundle;->putInt()V",
+        "Landroid/os/Bundle;->putBooleanArray()V",
+        "Landroid/os/Bundle;->getBundle()Landroid/os/Bundle;",
+        "Landroid/os/Bundle;->putIntArray()V",
+        "Landroid/os/Bundle;->putDouble()V",
+        "Landroid/os/Bundle;->getInt()I",
+        "Landroid/os/Bundle;->putStringArray()V",
+        "Landroid/os/Bundle;->putLong()V",
+        "Landroid/os/Bundle;->getString()Ljava/lang/String;",
+        "Landroid/os/Bundle;->putParcelable()V",
+        "Landroid/os/Bundle;->getBoolean()Z",
+        "Landroid/os/Bundle;->putDoubleArray()V",
+        "Landroid/os/Bundle;->getIntArray()[I",
+        "Landroid/os/Bundle;->getDouble()D",
+        "Landroid/os/Bundle;->getParcelable()Landroid/os/Parcelable;",
+        "Landroid/os/Bundle;->putBoolean()V",
+        "Landroid/os/Bundle;->putBundle()V",
+        "Landroid/os/Bundle;->keySet()Ljava/util/Set;",
+        "Landroid/os/Bundle;->putParcelableArrayList()V",
+        "Landroid/os/Bundle;->putString()V",
+        "Landroid/os/Bundle;->getByte()B",
+        "Landroid/os/Bundle;->getLong()J",
+        "Landroid/os/Bundle;->putLongArray()V",
+        "Landroid/os/Bundle;->putByte()V"
+    ],
+    "Lcom/admob/android/ads/AdView$a;": [
+        "Lcom/admob/android/ads/AdView$a;->a()Ljava/util/ArrayList;",
+        "Lcom/admob/android/ads/AdView$a;->a()Landroid/os/Bundle;"
+    ],
+    "Lcom/admob/android/ads/r;": [
+        "Lcom/admob/android/ads/r;->a()Ljava/util/Hashtable;",
+        "Lcom/admob/android/ads/r;->a()Landroid/graphics/Point;",
+        "Lcom/admob/android/ads/r;->a()[I",
+        "Lcom/admob/android/ads/r;->a()V",
+        "Lcom/admob/android/ads/r;->a()Landroid/os/Bundle;",
+        "Lcom/admob/android/ads/r;->a()Z",
+        "Lcom/admob/android/ads/r;->a()B"
+    ],
+    "Landroid/widget/VideoView;": [
+        "Landroid/widget/VideoView;->stopPlayback()V",
+        "Landroid/widget/VideoView;->setOnPreparedListener()V",
+        "Landroid/widget/VideoView;->setVisibility()V",
+        "Landroid/widget/VideoView;->setVideoPath()V",
+        "Landroid/widget/VideoView;->setOnCompletionListener()V",
+        "Landroid/widget/VideoView;->isPlaying()Z",
+        "Landroid/widget/VideoView;->setOnErrorListener()V",
+        "Landroid/widget/VideoView;->setBackgroundDrawable()V",
+        "Landroid/widget/VideoView;->setMediaController()V"
+    ],
+    "Landroid/widget/RelativeLayout$LayoutParams;": [
+        "Landroid/widget/RelativeLayout$LayoutParams;->addRule()V",
+        "Landroid/widget/RelativeLayout$LayoutParams;->setMargins()V"
+    ],
+    "Lcom/admob/android/ads/ac;": [
+        "Lcom/admob/android/ads/ac;->invalidate()V",
+        "Lcom/admob/android/ads/ac;->a()Z",
+        "Lcom/admob/android/ads/ac;->a()V",
+        "Lcom/admob/android/ads/ac;->getContext()Landroid/content/Context;",
+        "Lcom/admob/android/ads/ac;->removeView()V",
+        "Lcom/admob/android/ads/ac;->addView()V",
+        "Lcom/admob/android/ads/ac;->setOnTouchListener()V",
+        "Lcom/admob/android/ads/ac;->getResources()Landroid/content/res/Resources;"
+    ],
+    "Lcom/admob/android/ads/aa;": [
+        "Lcom/admob/android/ads/aa;->a()V"
+    ],
+    "Landroid/view/animation/Animation;": [
+        "Landroid/view/animation/Animation;->setFillBefore()V",
+        "Landroid/view/animation/Animation;->setRepeatMode()V",
+        "Landroid/view/animation/Animation;->setRepeatCount()V",
+        "Landroid/view/animation/Animation;->setDuration()V",
+        "Landroid/view/animation/Animation;->setInterpolator()V",
+        "Landroid/view/animation/Animation;->setStartOffset()V",
+        "Landroid/view/animation/Animation;->setStartTime()V",
+        "Landroid/view/animation/Animation;->startNow()V",
+        "Landroid/view/animation/Animation;->setFillAfter()V",
+        "Landroid/view/animation/Animation;->scaleCurrentDuration()V",
+        "Landroid/view/animation/Animation;->getDuration()J"
+    ],
+    "Landroid/view/View;": [
+        "Landroid/view/View;->invalidate()V",
+        "Landroid/view/View;->getVisibility()I",
+        "Landroid/view/View;->startAnimation()V",
+        "Landroid/view/View;->setBackgroundColor()V",
+        "Landroid/view/View;->setOnClickListener()V",
+        "Landroid/view/View;->getWidth()I",
+        "Landroid/view/View;->setVisibility()V",
+        "Landroid/view/View;->getTag()Ljava/lang/Object;",
+        "Landroid/view/View;->setLayoutParams()V",
+        "Landroid/view/View;->getHeight()I",
+        "Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;",
+        "Landroid/view/View;->setAnimation()V",
+        "Landroid/view/View;->setId()V",
+        "Landroid/view/View;->bringToFront()V",
+        "Landroid/view/View;->getWindowVisibleDisplayFrame()V",
+        "Landroid/view/View;->getId()I",
+        "Landroid/view/View;->getAnimation()Landroid/view/animation/Animation;",
+        "Landroid/view/View;->setTag()V",
+        "Landroid/view/View;->getRootView()Landroid/view/View;",
+        "Landroid/view/View;->setBackgroundDrawable()V",
+        "Landroid/view/View;->getParent()Landroid/view/ViewParent;",
+        "Landroid/view/View;->getContext()Landroid/content/Context;"
+    ],
+    "Landroid/os/Handler;": [
+        "Landroid/os/Handler;->removeCallbacks()V",
+        "Landroid/os/Handler;->postDelayed()Z",
+        "Landroid/os/Handler;->post()Z"
+    ],
+    "Lcom/admob/android/ads/p;": [
+        "Lcom/admob/android/ads/p;->a()Z"
+    ],
+    "Ljava/util/Hashtable;": [
+        "Ljava/util/Hashtable;->keySet()Ljava/util/Set;",
+        "Ljava/util/Hashtable;->put()Ljava/lang/Object;",
+        "Ljava/util/Hashtable;->clear()V",
+        "Ljava/util/Hashtable;->remove()Ljava/lang/Object;",
+        "Ljava/util/Hashtable;->get()Ljava/lang/Object;"
+    ],
+    "Landroid/widget/ImageView;": [
+        "Landroid/widget/ImageView;->getId()I",
+        "Landroid/widget/ImageView;->setScaleType()V",
+        "Landroid/widget/ImageView;->setMinimumWidth()V",
+        "Landroid/widget/ImageView;->setMaxHeight()V",
+        "Landroid/widget/ImageView;->setAdjustViewBounds()V",
+        "Landroid/widget/ImageView;->setBackgroundDrawable()V",
+        "Landroid/widget/ImageView;->setMinimumHeight()V",
+        "Landroid/widget/ImageView;->setImageBitmap()V",
+        "Landroid/widget/ImageView;->setVisibility()V",
+        "Landroid/widget/ImageView;->setImageDrawable()V",
+        "Landroid/widget/ImageView;->setId()V",
+        "Landroid/widget/ImageView;->setMaxWidth()V"
+    ],
+    "Landroid/view/ViewGroup;": [
+        "Landroid/view/ViewGroup;->addView()V",
+        "Landroid/view/ViewGroup;->setOnClickListener()V",
+        "Landroid/view/ViewGroup;->bringToFront()V",
+        "Landroid/view/ViewGroup;->getChildCount()I",
+        "Landroid/view/ViewGroup;->getChildAt()Landroid/view/View;",
+        "Landroid/view/ViewGroup;->setVisibility()V",
+        "Landroid/view/ViewGroup;->setBackgroundColor()V"
+    ],
+    "Landroid/widget/Button;": [
+        "Landroid/widget/Button;->setPadding()V",
+        "Landroid/widget/Button;->setOnClickListener()V",
+        "Landroid/widget/Button;->setTextSize()V",
+        "Landroid/widget/Button;->setWidth()V",
+        "Landroid/widget/Button;->setBackgroundDrawable()V",
+        "Landroid/widget/Button;->setHeight()V",
+        "Landroid/widget/Button;->setCompoundDrawables()V",
+        "Landroid/widget/Button;->setText()V",
+        "Landroid/widget/Button;->setBackgroundColor()V",
+        "Landroid/widget/Button;->setBackgroundResource()V",
+        "Landroid/widget/Button;->setVisibility()V",
+        "Landroid/widget/Button;->setTextColor()V"
+    ],
+    "Landroid/graphics/drawable/BitmapDrawable;": [
+        "Landroid/graphics/drawable/BitmapDrawable;->setAlpha()V",
+        "Landroid/graphics/drawable/BitmapDrawable;->setBounds()V"
+    ],
+    "Landroid/widget/RelativeLayout;": [
+        "Landroid/widget/RelativeLayout;->setLayoutParams()V",
+        "Landroid/widget/RelativeLayout;->setEnabled()V",
+        "Landroid/widget/RelativeLayout;->getVisibility()I",
+        "Landroid/widget/RelativeLayout;->onDetachedFromWindow()V",
+        "Landroid/widget/RelativeLayout;->onTrackballEvent()Z",
+        "Landroid/widget/RelativeLayout;->setGravity()V",
+        "Landroid/widget/RelativeLayout;->setVisibility()V",
+        "Landroid/widget/RelativeLayout;->dispatchTouchEvent()Z",
+        "Landroid/widget/RelativeLayout;->setBackgroundDrawable()V",
+        "Landroid/widget/RelativeLayout;->onDraw()V",
+        "Landroid/widget/RelativeLayout;->bringToFront()V",
+        "Landroid/widget/RelativeLayout;->setPressed()V",
+        "Landroid/widget/RelativeLayout;->onKeyUp()Z",
+        "Landroid/widget/RelativeLayout;->onAttachedToWindow()V",
+        "Landroid/widget/RelativeLayout;->addView()V",
+        "Landroid/widget/RelativeLayout;->onKeyDown()Z",
+        "Landroid/widget/RelativeLayout;->setOnClickListener()V",
+        "Landroid/widget/RelativeLayout;->onMeasure()V"
+    ],
+    "Landroid/widget/TextView;": [
+        "Landroid/widget/TextView;->setPadding()V",
+        "Landroid/widget/TextView;->setText()V",
+        "Landroid/widget/TextView;->setTextSize()V",
+        "Landroid/widget/TextView;->setGravity()V",
+        "Landroid/widget/TextView;->setId()V",
+        "Landroid/widget/TextView;->setEnabled()V",
+        "Landroid/widget/TextView;->setFocusable()V",
+        "Landroid/widget/TextView;->setOnClickListener()V",
+        "Landroid/widget/TextView;->setOnFocusChangeListener()V",
+        "Landroid/widget/TextView;->setTextColor()V",
+        "Landroid/widget/TextView;->setTypeface()V",
+        "Landroid/widget/TextView;->onMeasure()V",
+        "Landroid/widget/TextView;->setBackgroundColor()V",
+        "Landroid/widget/TextView;->getId()I"
+    ],
+    "Ljava/util/Map;": [
+        "Ljava/util/Map;->size()I",
+        "Ljava/util/Map;->isEmpty()Z",
+        "Ljava/util/Map;->entrySet()Ljava/util/Set;",
+        "Ljava/util/Map;->remove()Ljava/lang/Object;",
+        "Ljava/util/Map;->keySet()Ljava/util/Set;",
+        "Ljava/util/Map;->clear()V",
+        "Ljava/util/Map;->values()Ljava/util/Collection;",
+        "Ljava/util/Map;->put()Ljava/lang/Object;",
+        "Ljava/util/Map;->get()Ljava/lang/Object;"
+    ],
+    "Lcom/admob/android/ads/d;": [
+        "Lcom/admob/android/ads/d;->a()Ljava/lang/String;",
+        "Lcom/admob/android/ads/d;->a()V"
+    ],
+    "Ljava/lang/ref/WeakReference;": [
+        "Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;"
+    ],
+    "Ljava/util/Vector;": [
+        "Ljava/util/Vector;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/Vector;->size()I",
+        "Ljava/util/Vector;->toArray()[Ljava/lang/Object;",
+        "Ljava/util/Vector;->get()Ljava/lang/Object;",
+        "Ljava/util/Vector;->elementAt()Ljava/lang/Object;",
+        "Ljava/util/Vector;->clear()V",
+        "Ljava/util/Vector;->add()Z",
+        "Ljava/util/Vector;->firstElement()Ljava/lang/Object;"
+    ],
+    "Landroid/widget/MediaController;": [
+        "Landroid/widget/MediaController;->setAnchorView()V"
+    ],
+    "Lcom/admob/android/ads/v;": [
+        "Lcom/admob/android/ads/v;->a()I",
+        "Lcom/admob/android/ads/v;->a()Z"
+    ],
+    "Ljava/util/GregorianCalendar;": [
+        "Ljava/util/GregorianCalendar;->set()V",
+        "Ljava/util/GregorianCalendar;->get()I"
+    ],
+    "Landroid/location/Location;": [
+        "Landroid/location/Location;->getAccuracy()F",
+        "Landroid/location/Location;->getLongitude()D",
+        "Landroid/location/Location;->getLatitude()D"
+    ],
+    "Landroid/location/Criteria;": [
+        "Landroid/location/Criteria;->setAccuracy()V",
+        "Landroid/location/Criteria;->setCostAllowed()V"
+    ],
+    "Landroid/location/LocationManager;": [
+        "Landroid/location/LocationManager;->getBestProvider()Ljava/lang/String;",
+        "Landroid/location/LocationManager;->requestLocationUpdates()V",
+        "Landroid/location/LocationManager;->getLastKnownLocation()Landroid/location/Location;",
+        "Landroid/location/LocationManager;->removeUpdates()V"
+    ],
+    "Landroid/provider/Settings$Secure;": [
+        "Landroid/provider/Settings$Secure;->getString()Ljava/lang/String;"
+    ],
+    "Ljava/security/MessageDigest;": [
+        "Ljava/security/MessageDigest;->update()V",
+        "Ljava/security/MessageDigest;->getInstance()Ljava/security/MessageDigest;",
+        "Ljava/security/MessageDigest;->digest()[B"
+    ],
+    "[Ljava/lang/String;": [
+        "[Ljava/lang/String;->clone()Ljava/lang/Object;"
+    ],
+    "Ljava/util/Locale;": [
+        "Ljava/util/Locale;->getDefault()Ljava/util/Locale;",
+        "Ljava/util/Locale;->getCountry()Ljava/lang/String;",
+        "Ljava/util/Locale;->getLanguage()Ljava/lang/String;"
+    ],
+    "Ljava/util/Properties;": [
+        "Ljava/util/Properties;->getProperty()Ljava/lang/String;",
+        "Ljava/util/Properties;->load()V"
+    ],
+    "Ljava/io/FileOutputStream;": [
+        "Ljava/io/FileOutputStream;->close()V",
+        "Ljava/io/FileOutputStream;->write()V"
+    ],
+    "Lcom/admob/android/ads/x;": [
+        "Lcom/admob/android/ads/x;->setClickable()V",
+        "Lcom/admob/android/ads/x;->getResources()Landroid/content/res/Resources;",
+        "Lcom/admob/android/ads/x;->addView()V",
+        "Lcom/admob/android/ads/x;->setFocusable()V",
+        "Lcom/admob/android/ads/x;->a()V"
+    ],
+    "Landroid/view/animation/ScaleAnimation;": [
+        "Landroid/view/animation/ScaleAnimation;->setAnimationListener()V",
+        "Landroid/view/animation/ScaleAnimation;->setDuration()V",
+        "Landroid/view/animation/ScaleAnimation;->setStartOffset()V",
+        "Landroid/view/animation/ScaleAnimation;->applyTransformation()V"
+    ],
+    "[Lcom/admob/android/ads/a;": [
+        "[Lcom/admob/android/ads/a;->clone()Ljava/lang/Object;"
+    ],
+    "Lcom/admob/android/ads/s;": [
+        "Lcom/admob/android/ads/s;->a()Lcom/admob/android/ads/s;",
+        "Lcom/admob/android/ads/s;->a()Landroid/graphics/Bitmap;",
+        "Lcom/admob/android/ads/s;->a()V"
+    ],
+    "Lcom/admob/android/ads/u;": [
+        "Lcom/admob/android/ads/u;->a()V",
+        "Lcom/admob/android/ads/u;->a()Z"
+    ],
+    "Lcom/admob/android/ads/u$a;": [
+        "Lcom/admob/android/ads/u$a;->a()V"
+    ],
+    "Ljava/net/URL;": [
+        "Ljava/net/URL;->toString()Ljava/lang/String;",
+        "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+        "Ljava/net/URL;->openStream()Ljava/io/InputStream;"
+    ],
+    "Landroid/widget/LinearLayout;": [
+        "Landroid/widget/LinearLayout;->addView()V",
+        "Landroid/widget/LinearLayout;->setVisibility()V",
+        "Landroid/widget/LinearLayout;->setOrientation()V"
+    ],
+    "Landroid/view/animation/TranslateAnimation;": [
+        "Landroid/view/animation/TranslateAnimation;->applyTransformation()V"
+    ],
+    "Landroid/content/Intent;": [
+        "Landroid/content/Intent;->getStringExtra()Ljava/lang/String;",
+        "Landroid/content/Intent;->setData()Landroid/content/Intent;",
+        "Landroid/content/Intent;->putExtra()Landroid/content/Intent;",
+        "Landroid/content/Intent;->putExtras()Landroid/content/Intent;",
+        "Landroid/content/Intent;->getBundleExtra()Landroid/os/Bundle;",
+        "Landroid/content/Intent;->getExtras()Landroid/os/Bundle;",
+        "Landroid/content/Intent;->addCategory()Landroid/content/Intent;",
+        "Landroid/content/Intent;->addFlags()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setAction()Landroid/content/Intent;"
+    ],
+    "Lcom/admob/android/ads/AdMobActivity;": [
+        "Lcom/admob/android/ads/AdMobActivity;->setRequestedOrientation()V",
+        "Lcom/admob/android/ads/AdMobActivity;->finish()V",
+        "Lcom/admob/android/ads/AdMobActivity;->getIntent()Landroid/content/Intent;",
+        "Lcom/admob/android/ads/AdMobActivity;->getApplicationContext()Landroid/content/Context;",
+        "Lcom/admob/android/ads/AdMobActivity;->setResult()V",
+        "Lcom/admob/android/ads/AdMobActivity;->setContentView()V",
+        "Lcom/admob/android/ads/AdMobActivity;->setTheme()V"
+    ],
+    "Lcom/admob/android/ads/ae;": [
+        "Lcom/admob/android/ads/ae;->a()V"
+    ],
+    "Lcom/admob/android/ads/q;": [
+        "Lcom/admob/android/ads/q;->a()Landroid/os/Bundle;",
+        "Lcom/admob/android/ads/q;->a()Z",
+        "Lcom/admob/android/ads/q;->a()Landroid/content/Intent;",
+        "Lcom/admob/android/ads/q;->a()V"
+    ],
+    "Lcom/admob/android/ads/q$a;": [
+        "Lcom/admob/android/ads/q$a;->ordinal()I",
+        "Lcom/admob/android/ads/q$a;->a()Lcom/admob/android/ads/q$a;"
+    ],
+    "Lcom/admob/android/ads/view/AdMobWebView;": [
+        "Lcom/admob/android/ads/view/AdMobWebView;->addJavascriptInterface()V",
+        "Lcom/admob/android/ads/view/AdMobWebView;->getSettings()Landroid/webkit/WebSettings;",
+        "Lcom/admob/android/ads/view/AdMobWebView;->a()Lcom/admob/android/ads/ad;",
+        "Lcom/admob/android/ads/view/AdMobWebView;->setBackgroundColor()V",
+        "Lcom/admob/android/ads/view/AdMobWebView;->getHeight()I",
+        "Lcom/admob/android/ads/view/AdMobWebView;->a()V",
+        "Lcom/admob/android/ads/view/AdMobWebView;->setWebViewClient()V",
+        "Lcom/admob/android/ads/view/AdMobWebView;->a()Landroid/view/View;",
+        "Lcom/admob/android/ads/view/AdMobWebView;->onKeyDown()Z",
+        "Lcom/admob/android/ads/view/AdMobWebView;->getWidth()I",
+        "Lcom/admob/android/ads/view/AdMobWebView;->a()Ljava/lang/String;",
+        "Lcom/admob/android/ads/view/AdMobWebView;->getContext()Landroid/content/Context;",
+        "Lcom/admob/android/ads/view/AdMobWebView;->loadUrl()V"
+    ],
+    "Lcom/admob/android/ads/y;": [
+        "Lcom/admob/android/ads/y;->a()V",
+        "Lcom/admob/android/ads/y;->setBackgroundColor()V",
+        "Lcom/admob/android/ads/y;->setId()V",
+        "Lcom/admob/android/ads/y;->loadUrl()V"
+    ],
+    "Lorg/json/JSONArray;": [
+        "Lorg/json/JSONArray;->optInt()I",
+        "Lorg/json/JSONArray;->getDouble()D",
+        "Lorg/json/JSONArray;->put()Lorg/json/JSONArray;",
+        "Lorg/json/JSONArray;->optJSONObject()Lorg/json/JSONObject;",
+        "Lorg/json/JSONArray;->getJSONArray()Lorg/json/JSONArray;",
+        "Lorg/json/JSONArray;->get()Ljava/lang/Object;",
+        "Lorg/json/JSONArray;->toString()Ljava/lang/String;",
+        "Lorg/json/JSONArray;->length()I",
+        "Lorg/json/JSONArray;->getString()Ljava/lang/String;",
+        "Lorg/json/JSONArray;->optString()Ljava/lang/String;",
+        "Lorg/json/JSONArray;->getInt()I",
+        "Lorg/json/JSONArray;->getJSONObject()Lorg/json/JSONObject;"
+    ],
+    "Landroid/graphics/RectF;": [
+        "Landroid/graphics/RectF;->height()F",
+        "Landroid/graphics/RectF;->width()F"
+    ],
+    "Lcom/admob/android/ads/ah;": [
+        "Lcom/admob/android/ads/ah;->a()Landroid/graphics/PointF;",
+        "Lcom/admob/android/ads/ah;->a()Lcom/admob/android/ads/ah;"
+    ],
+    "Landroid/view/animation/AnimationSet;": [
+        "Landroid/view/animation/AnimationSet;->addAnimation()V"
+    ],
+    "Landroid/graphics/drawable/GradientDrawable;": [
+        "Landroid/graphics/drawable/GradientDrawable;->setBounds()V",
+        "Landroid/graphics/drawable/GradientDrawable;->draw()V"
+    ],
+    "Landroid/graphics/Path;": [
+        "Landroid/graphics/Path;->addRoundRect()V"
+    ],
+    "Landroid/view/animation/AnimationUtils;": [
+        "Landroid/view/animation/AnimationUtils;->currentAnimationTimeMillis()J"
+    ],
+    "Ljava/lang/reflect/Method;": [
+        "Ljava/lang/reflect/Method;->invoke()Ljava/lang/Object;",
+        "Ljava/lang/reflect/Method;->setAccessible()V"
+    ],
+    "Lcom/admob/android/ads/af;": [
+        "Lcom/admob/android/ads/af;->setBackgroundColor()V",
+        "Lcom/admob/android/ads/af;->setTextColor()V",
+        "Lcom/admob/android/ads/af;->setText()V",
+        "Lcom/admob/android/ads/af;->getMeasuredWidth()I",
+        "Lcom/admob/android/ads/af;->getText()Ljava/lang/CharSequence;",
+        "Lcom/admob/android/ads/af;->getPaint()Landroid/text/TextPaint;",
+        "Lcom/admob/android/ads/af;->setLines()V",
+        "Lcom/admob/android/ads/af;->setTypeface()V",
+        "Lcom/admob/android/ads/af;->getTypeface()Landroid/graphics/Typeface;",
+        "Lcom/admob/android/ads/af;->setGravity()V",
+        "Lcom/admob/android/ads/af;->getTextSize()F",
+        "Lcom/admob/android/ads/af;->setTextSize()V"
+    ],
+    "Lcom/admob/android/ads/AdView;": [
+        "Lcom/admob/android/ads/AdView;->getBackgroundColor()I",
+        "Lcom/admob/android/ads/AdView;->setRequestInterval()V",
+        "Lcom/admob/android/ads/AdView;->getMeasuredHeight()I",
+        "Lcom/admob/android/ads/AdView;->setGravity()V",
+        "Lcom/admob/android/ads/AdView;->setVisibility()V",
+        "Lcom/admob/android/ads/AdView;->setLongClickable()V",
+        "Lcom/admob/android/ads/AdView;->a()V",
+        "Lcom/admob/android/ads/AdView;->setBackgroundColor()V",
+        "Lcom/admob/android/ads/AdView;->getHeight()I",
+        "Lcom/admob/android/ads/AdView;->getVisibility()I",
+        "Lcom/admob/android/ads/AdView;->setGoneWithoutAd()V",
+        "Lcom/admob/android/ads/AdView;->setSecondaryTextColor()V",
+        "Lcom/admob/android/ads/AdView;->isInEditMode()Z",
+        "Lcom/admob/android/ads/AdView;->getWidth()I",
+        "Lcom/admob/android/ads/AdView;->invalidate()V",
+        "Lcom/admob/android/ads/AdView;->performClick()Z",
+        "Lcom/admob/android/ads/AdView;->startAnimation()V",
+        "Lcom/admob/android/ads/AdView;->getContext()Landroid/content/Context;",
+        "Lcom/admob/android/ads/AdView;->setClickable()V",
+        "Lcom/admob/android/ads/AdView;->getMeasuredWidth()I",
+        "Lcom/admob/android/ads/AdView;->getPrimaryTextColor()I",
+        "Lcom/admob/android/ads/AdView;->setDescendantFocusability()V",
+        "Lcom/admob/android/ads/AdView;->addView()V",
+        "Lcom/admob/android/ads/AdView;->getChildAt()Landroid/view/View;",
+        "Lcom/admob/android/ads/AdView;->a()Z",
+        "Lcom/admob/android/ads/AdView;->getSecondaryTextColor()I",
+        "Lcom/admob/android/ads/AdView;->setPrimaryTextColor()V",
+        "Lcom/admob/android/ads/AdView;->setTextColor()V",
+        "Lcom/admob/android/ads/AdView;->getChildCount()I"
+    ],
+    "Lcom/admob/android/ads/m;": [
+        "Lcom/admob/android/ads/m;->a()V"
+    ],
+    "Lcom/admob/android/ads/j$c;": [
+        "Lcom/admob/android/ads/j$c;->a()V"
+    ],
+    "Lcom/admob/android/ads/InterstitialAd;": [
+        "Lcom/admob/android/ads/InterstitialAd;->a()V",
+        "Lcom/admob/android/ads/InterstitialAd;->a()Z"
+    ],
+    "Ljava/util/Timer;": [
+        "Ljava/util/Timer;->schedule()V",
+        "Ljava/util/Timer;->cancel()V"
+    ],
+    "Lcom/admob/android/ads/InterstitialAdListener;": [
+        "Lcom/admob/android/ads/InterstitialAdListener;->onFailedToReceiveInterstitial()V",
+        "Lcom/admob/android/ads/InterstitialAdListener;->onReceiveInterstitial()V"
+    ],
+    "Lcom/admob/android/ads/InterstitialAd$a;": [
+        "Lcom/admob/android/ads/InterstitialAd$a;->start()V"
+    ],
+    "Ljava/lang/StringBuffer;": [
+        "Ljava/lang/StringBuffer;->append()Ljava/lang/StringBuffer;",
+        "Ljava/lang/StringBuffer;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/util/concurrent/Executors;": [
+        "Ljava/util/concurrent/Executors;->newCachedThreadPool()Ljava/util/concurrent/ExecutorService;"
+    ],
+    "Ljava/util/concurrent/Executor;": [
+        "Ljava/util/concurrent/Executor;->execute()V"
+    ],
+    "Ljava/util/Set;": [
+        "Ljava/util/Set;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/Set;->size()I"
+    ],
+    "Landroid/text/TextPaint;": [
+        "Landroid/text/TextPaint;->setTypeface()Landroid/graphics/Typeface;",
+        "Landroid/text/TextPaint;->setTextSize()V",
+        "Landroid/text/TextPaint;->measureText()F"
+    ],
+    "Ljava/lang/CharSequence;": [
+        "Ljava/lang/CharSequence;->length()I"
+    ],
+    "Landroid/view/KeyEvent;": [
+        "Landroid/view/KeyEvent;->getAction()I",
+        "Landroid/view/KeyEvent;->getEventTime()J"
+    ],
+    "Lcom/admob/android/ads/l;": [
+        "Lcom/admob/android/ads/l;->a()Ljava/lang/String;",
+        "Lcom/admob/android/ads/l;->a()Lorg/json/JSONObject;"
+    ],
+    "Landroid/widget/ProgressBar;": [
+        "Landroid/widget/ProgressBar;->setId()V",
+        "Landroid/widget/ProgressBar;->setVisibility()V",
+        "Landroid/widget/ProgressBar;->setIndeterminate()V",
+        "Landroid/widget/ProgressBar;->setLayoutParams()V"
+    ],
+    "Landroid/graphics/drawable/Drawable;": [
+        "Landroid/graphics/drawable/Drawable;->setAlpha()V"
+    ],
+    "Ljava/util/Collections;": [
+        "Ljava/util/Collections;->sort()V",
+        "Ljava/util/Collections;->emptyList()Ljava/util/List;",
+        "Ljava/util/Collections;->emptyMap()Ljava/util/Map;",
+        "Ljava/util/Collections;->shuffle()V"
+    ],
+    "Landroid/view/animation/AlphaAnimation;": [
+        "Landroid/view/animation/AlphaAnimation;->setInterpolator()V",
+        "Landroid/view/animation/AlphaAnimation;->setFillAfter()V",
+        "Landroid/view/animation/AlphaAnimation;->applyTransformation()V",
+        "Landroid/view/animation/AlphaAnimation;->setDuration()V",
+        "Landroid/view/animation/AlphaAnimation;->startNow()V"
+    ],
+    "Lcom/admob/android/ads/s$a;": [
+        "Lcom/admob/android/ads/s$a;->start()V"
+    ],
+    "Ljava/util/PriorityQueue;": [
+        "Ljava/util/PriorityQueue;->add()Z",
+        "Ljava/util/PriorityQueue;->size()I",
+        "Ljava/util/PriorityQueue;->peek()Ljava/lang/Object;",
+        "Ljava/util/PriorityQueue;->contains()Z",
+        "Ljava/util/PriorityQueue;->remove()Z"
+    ],
+    "Landroid/util/AttributeSet;": [
+        "Landroid/util/AttributeSet;->getAttributeBooleanValue()Z",
+        "Landroid/util/AttributeSet;->getAttributeIntValue()I",
+        "Landroid/util/AttributeSet;->getAttributeUnsignedIntValue()I",
+        "Landroid/util/AttributeSet;->getAttributeValue()Ljava/lang/String;"
+    ],
+    "Lcom/admob/android/ads/AdListener;": [
+        "Lcom/admob/android/ads/AdListener;->onReceiveAd()V",
+        "Lcom/admob/android/ads/AdListener;->onReceiveRefreshedAd()V"
+    ],
+    "Lcom/admob/android/ads/an;": [
+        "Lcom/admob/android/ads/an;->setInterpolator()V",
+        "Lcom/admob/android/ads/an;->setFillAfter()V",
+        "Lcom/admob/android/ads/an;->setAnimationListener()V",
+        "Lcom/admob/android/ads/an;->setDuration()V"
+    ],
+    "Lcom/admob/android/ads/c;": [
+        "Lcom/admob/android/ads/c;->a()V"
+    ],
+    "Lcom/admob/android/ads/AdView$b;": [
+        "Lcom/admob/android/ads/AdView$b;->start()V"
+    ],
+    "Lcom/admob/android/ads/ap$a;": [
+        "Lcom/admob/android/ads/ap$a;->a()V"
+    ],
+    "Lcom/admob/android/ads/o;": [
+        "Lcom/admob/android/ads/o;->a()Z"
+    ],
+    "Ljava/util/StringTokenizer;": [
+        "Ljava/util/StringTokenizer;->nextToken()Ljava/lang/String;",
+        "Ljava/util/StringTokenizer;->hasMoreTokens()Z"
+    ],
+    "Lcom/admob/android/ads/f;": [
+        "Lcom/admob/android/ads/f;->a()Ljava/lang/String;"
+    ],
+    "Ljava/net/URI;": [
+        "Ljava/net/URI;->getQuery()Ljava/lang/String;",
+        "Ljava/net/URI;->getScheme()Ljava/lang/String;",
+        "Ljava/net/URI;->getHost()Ljava/lang/String;"
+    ],
+    "Lcom/admob/android/ads/ad;": [
+        "Lcom/admob/android/ads/ad;->a()Ljava/util/Hashtable;"
+    ],
+    "Ljava/net/HttpURLConnection;": [
+        "Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;",
+        "Ljava/net/HttpURLConnection;->setDoOutput()V",
+        "Ljava/net/HttpURLConnection;->getResponseCode()I",
+        "Ljava/net/HttpURLConnection;->setConnectTimeout()V",
+        "Ljava/net/HttpURLConnection;->setRequestMethod()V",
+        "Ljava/net/HttpURLConnection;->addRequestProperty()V",
+        "Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;",
+        "Ljava/net/HttpURLConnection;->getHeaderField()Ljava/lang/String;",
+        "Ljava/net/HttpURLConnection;->setReadTimeout()V",
+        "Ljava/net/HttpURLConnection;->disconnect()V",
+        "Ljava/net/HttpURLConnection;->setRequestProperty()V",
+        "Ljava/net/HttpURLConnection;->setUseCaches()V",
+        "Ljava/net/HttpURLConnection;->getURL()Ljava/net/URL;",
+        "Ljava/net/HttpURLConnection;->setInstanceFollowRedirects()V",
+        "Ljava/net/HttpURLConnection;->connect()V"
+    ],
+    "Lcom/admob/android/ads/h;": [
+        "Lcom/admob/android/ads/h;->a()V"
+    ],
+    "Lcom/admob/android/ads/i;": [
+        "Lcom/admob/android/ads/i;->a()V",
+        "Lcom/admob/android/ads/i;->a()Ljava/lang/String;",
+        "Lcom/admob/android/ads/i;->a()Z"
+    ],
+    "Ljava/io/BufferedWriter;": [
+        "Ljava/io/BufferedWriter;->write()V",
+        "Ljava/io/BufferedWriter;->close()V"
+    ],
+    "Ljava/io/BufferedInputStream;": [
+        "Ljava/io/BufferedInputStream;->read()I"
+    ],
+    "Landroid/view/animation/Interpolator;": [
+        "Landroid/view/animation/Interpolator;->getInterpolation()F"
+    ],
+    "Ljava/lang/Double;": [
+        "Ljava/lang/Double;->doubleValue()D",
+        "Ljava/lang/Double;->doubleToLongBits()J"
+    ],
+    "Ljava/lang/Long;": [
+        "Ljava/lang/Long;->longValue()J",
+        "Ljava/lang/Long;->valueOf()Ljava/lang/Long;",
+        "Ljava/lang/Long;->toString()Ljava/lang/String;"
+    ],
+    "Landroid/widget/PopupWindow;": [
+        "Landroid/widget/PopupWindow;->setHeight()V",
+        "Landroid/widget/PopupWindow;->dismiss()V",
+        "Landroid/widget/PopupWindow;->setBackgroundDrawable()V",
+        "Landroid/widget/PopupWindow;->setClippingEnabled()V",
+        "Landroid/widget/PopupWindow;->showAtLocation()V",
+        "Landroid/widget/PopupWindow;->setFocusable()V",
+        "Landroid/widget/PopupWindow;->setContentView()V",
+        "Landroid/widget/PopupWindow;->setWidth()V"
+    ],
+    "Landroid/webkit/WebSettings;": [
+        "Landroid/webkit/WebSettings;->setJavaScriptEnabled()V",
+        "Landroid/webkit/WebSettings;->setSavePassword()V",
+        "Landroid/webkit/WebSettings;->getUserAgentString()Ljava/lang/String;",
+        "Landroid/webkit/WebSettings;->setPluginsEnabled()V",
+        "Landroid/webkit/WebSettings;->setLoadsImagesAutomatically()V",
+        "Landroid/webkit/WebSettings;->setJavaScriptCanOpenWindowsAutomatically()V",
+        "Landroid/webkit/WebSettings;->setUserAgentString()V",
+        "Landroid/webkit/WebSettings;->setSaveFormData()V"
+    ],
+    "Landroid/widget/ImageButton;": [
+        "Landroid/widget/ImageButton;->setBackgroundDrawable()V",
+        "Landroid/widget/ImageButton;->setImageResource()V",
+        "Landroid/widget/ImageButton;->setPadding()V",
+        "Landroid/widget/ImageButton;->setOnClickListener()V"
+    ],
+    "Ljava/util/Map$Entry;": [
+        "Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;",
+        "Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;"
+    ],
+    "Landroid/webkit/WebView;": [
+        "Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;",
+        "Landroid/webkit/WebView;->getContext()Landroid/content/Context;",
+        "Landroid/webkit/WebView;->getUrl()Ljava/lang/String;",
+        "Landroid/webkit/WebView;->setBackgroundColor()V",
+        "Landroid/webkit/WebView;->setWebViewClient()V",
+        "Landroid/webkit/WebView;->loadUrl()V",
+        "Landroid/webkit/WebView;->setScrollBarStyle()V",
+        "Landroid/webkit/WebView;->loadData()V",
+        "Landroid/webkit/WebView;->setId()V"
+    ],
+    "Landroid/content/BroadcastReceiver;": [
+        "Landroid/content/BroadcastReceiver;->onReceive()V"
+    ],
+    "Lcom/admob/android/ads/analytics/InstallReceiver;": [
+        "Lcom/admob/android/ads/analytics/InstallReceiver;->a()V",
+        "Lcom/admob/android/ads/analytics/InstallReceiver;->a()Ljava/lang/String;"
+    ],
+    "Lcom/flurry/android/c;": [
+        "Lcom/flurry/android/c;->a()V"
+    ],
+    "Ljava/io/DataInput;": [
+        "Ljava/io/DataInput;->readUTF()Ljava/lang/String;",
+        "Ljava/io/DataInput;->readInt()I",
+        "Ljava/io/DataInput;->readUnsignedShort()I",
+        "Ljava/io/DataInput;->readByte()B",
+        "Ljava/io/DataInput;->readLong()J",
+        "Ljava/io/DataInput;->readBoolean()Z",
+        "Ljava/io/DataInput;->readUnsignedByte()I",
+        "Ljava/io/DataInput;->readFully()V"
+    ],
+    "Ljava/io/DataOutput;": [
+        "Ljava/io/DataOutput;->writeUTF()V",
+        "Ljava/io/DataOutput;->writeInt()V",
+        "Ljava/io/DataOutput;->writeShort()V",
+        "Ljava/io/DataOutput;->writeByte()V",
+        "Ljava/io/DataOutput;->write()V",
+        "Ljava/io/DataOutput;->writeLong()V",
+        "Ljava/io/DataOutput;->writeBoolean()V"
+    ],
+    "Lcom/flurry/android/o;": [
+        "Lcom/flurry/android/o;->a()V"
+    ],
+    "Lcom/flurry/android/AdImage;": [
+        "Lcom/flurry/android/AdImage;->load()V",
+        "Lcom/flurry/android/AdImage;->persist()V"
+    ],
+    "Lcom/flurry/android/z;": [
+        "Lcom/flurry/android/z;->a()Z",
+        "Lcom/flurry/android/z;->a()V",
+        "Lcom/flurry/android/z;->a()I"
+    ],
+    "Lcom/flurry/android/p;": [
+        "Lcom/flurry/android/p;->setGravity()V",
+        "Lcom/flurry/android/p;->removeAllViews()V",
+        "Lcom/flurry/android/p;->getId()I",
+        "Lcom/flurry/android/p;->setId()V",
+        "Lcom/flurry/android/p;->refreshDrawableState()V",
+        "Lcom/flurry/android/p;->a()Ljava/util/List;",
+        "Lcom/flurry/android/p;->a()V",
+        "Lcom/flurry/android/p;->setOrientation()V",
+        "Lcom/flurry/android/p;->addView()V"
+    ],
+    "Lcom/flurry/android/n;": [
+        "Lcom/flurry/android/n;->a()Ljava/lang/String;",
+        "Lcom/flurry/android/n;->a()Lcom/flurry/android/y;",
+        "Lcom/flurry/android/n;->a()Lcom/flurry/android/AdImage;",
+        "Lcom/flurry/android/n;->a()Landroid/view/View;",
+        "Lcom/flurry/android/n;->a()V",
+        "Lcom/flurry/android/n;->a()Lcom/flurry/android/Offer;",
+        "Lcom/flurry/android/n;->a()Ljava/util/List;",
+        "Lcom/flurry/android/n;->a()Z",
+        "Lcom/flurry/android/n;->a()Ljava/util/Set;",
+        "Lcom/flurry/android/n;->a()J"
+    ],
+    "Lcom/flurry/android/r;": [
+        "Lcom/flurry/android/r;->a()Ljava/lang/String;",
+        "Lcom/flurry/android/r;->setBackgroundDrawable()V",
+        "Lcom/flurry/android/r;->addView()V",
+        "Lcom/flurry/android/r;->setOnClickListener()V",
+        "Lcom/flurry/android/r;->a()Lcom/flurry/android/y;",
+        "Lcom/flurry/android/r;->a()V",
+        "Lcom/flurry/android/r;->setLayoutParams()V",
+        "Lcom/flurry/android/r;->setFocusable()V"
+    ],
+    "Lcom/flurry/android/y;": [
+        "Lcom/flurry/android/y;->a()V",
+        "Lcom/flurry/android/y;->a()J"
+    ],
+    "Lcom/flurry/android/CatalogActivity;": [
+        "Lcom/flurry/android/CatalogActivity;->setTheme()V",
+        "Lcom/flurry/android/CatalogActivity;->a()Lcom/flurry/android/n;",
+        "Lcom/flurry/android/CatalogActivity;->a()V",
+        "Lcom/flurry/android/CatalogActivity;->a()Lcom/flurry/android/y;",
+        "Lcom/flurry/android/CatalogActivity;->finish()V",
+        "Lcom/flurry/android/CatalogActivity;->getIntent()Landroid/content/Intent;",
+        "Lcom/flurry/android/CatalogActivity;->setContentView()V",
+        "Lcom/flurry/android/CatalogActivity;->a()J"
+    ],
+    "Lcom/flurry/android/FlurryAgent;": [
+        "Lcom/flurry/android/FlurryAgent;->a()Lcom/flurry/android/n;",
+        "Lcom/flurry/android/FlurryAgent;->a()Lcom/flurry/android/FlurryAgent;",
+        "Lcom/flurry/android/FlurryAgent;->a()Landroid/location/Location;",
+        "Lcom/flurry/android/FlurryAgent;->addUserCookie()V",
+        "Lcom/flurry/android/FlurryAgent;->onError()V",
+        "Lcom/flurry/android/FlurryAgent;->a()Landroid/view/View;",
+        "Lcom/flurry/android/FlurryAgent;->a()Lcom/flurry/android/Offer;",
+        "Lcom/flurry/android/FlurryAgent;->onEndSession()V",
+        "Lcom/flurry/android/FlurryAgent;->setDefaultNoAdsMessage()V",
+        "Lcom/flurry/android/FlurryAgent;->a()Z",
+        "Lcom/flurry/android/FlurryAgent;->onStartSession()V",
+        "Lcom/flurry/android/FlurryAgent;->a()Ljava/lang/String;",
+        "Lcom/flurry/android/FlurryAgent;->a()V",
+        "Lcom/flurry/android/FlurryAgent;->a()[B",
+        "Lcom/flurry/android/FlurryAgent;->onEvent()V",
+        "Lcom/flurry/android/FlurryAgent;->clearUserCookies()V"
+    ],
+    "Lcom/flurry/android/v;": [
+        "Lcom/flurry/android/v;->setBackgroundColor()V",
+        "Lcom/flurry/android/v;->getId()I",
+        "Lcom/flurry/android/v;->addView()V",
+        "Lcom/flurry/android/v;->setLayoutParams()V",
+        "Lcom/flurry/android/v;->a()Landroid/text/SpannedString;",
+        "Lcom/flurry/android/v;->setId()V"
+    ],
+    "Lcom/flurry/android/h;": [
+        "Lcom/flurry/android/h;->a()V",
+        "Lcom/flurry/android/h;->a()I",
+        "Lcom/flurry/android/h;->a()Ljava/lang/String;"
+    ],
+    "Lcom/flurry/android/s;": [
+        "Lcom/flurry/android/s;->a()Lcom/flurry/android/e;",
+        "Lcom/flurry/android/s;->a()Ljava/util/Set;",
+        "Lcom/flurry/android/s;->a()[Lcom/flurry/android/o;",
+        "Lcom/flurry/android/s;->a()Ljava/lang/String;",
+        "Lcom/flurry/android/s;->a()Lcom/flurry/android/AdImage;",
+        "Lcom/flurry/android/s;->a()V",
+        "Lcom/flurry/android/s;->a()J",
+        "Lcom/flurry/android/s;->a()Z",
+        "Lcom/flurry/android/s;->a()Ljava/util/Map;"
+    ],
+    "Lorg/apache/http/client/HttpClient;": [
+        "Lorg/apache/http/client/HttpClient;->execute()Lorg/apache/http/HttpResponse;"
+    ],
+    "Lorg/apache/http/HttpResponse;": [
+        "Lorg/apache/http/HttpResponse;->getStatusLine()Lorg/apache/http/StatusLine;",
+        "Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;"
+    ],
+    "Lorg/apache/http/StatusLine;": [
+        "Lorg/apache/http/StatusLine;->getStatusCode()I"
+    ],
+    "Lorg/apache/http/util/EntityUtils;": [
+        "Lorg/apache/http/util/EntityUtils;->toString()Ljava/lang/String;"
+    ],
+    "Landroid/text/Html;": [
+        "Landroid/text/Html;->fromHtml()Landroid/text/Spanned;"
+    ],
+    "Landroid/content/res/ColorStateList;": [
+        "Landroid/content/res/ColorStateList;->valueOf()Landroid/content/res/ColorStateList;"
+    ],
+    "Landroid/os/HandlerThread;": [
+        "Landroid/os/HandlerThread;->start()V",
+        "Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;"
+    ],
+    "Ljava/lang/Byte;": [
+        "Ljava/lang/Byte;->byteValue()B",
+        "Ljava/lang/Byte;->valueOf()Ljava/lang/Byte;",
+        "Ljava/lang/Byte;->parseByte()B"
+    ],
+    "Ljava/lang/Short;": [
+        "Ljava/lang/Short;->valueOf()Ljava/lang/Short;",
+        "Ljava/lang/Short;->shortValue()S"
+    ],
+    "Lcom/flurry/android/m;": [
+        "Lcom/flurry/android/m;->a()Z",
+        "Lcom/flurry/android/m;->a()[B",
+        "Lcom/flurry/android/m;->a()V"
+    ],
+    "Ljava/util/Collection;": [
+        "Ljava/util/Collection;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/Collection;->size()I"
+    ],
+    "Ljava/util/HashMap;": [
+        "Ljava/util/HashMap;->get()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->put()Ljava/lang/Object;"
+    ],
+    "Lorg/apache/http/entity/ByteArrayEntity;": [
+        "Lorg/apache/http/entity/ByteArrayEntity;->setContentType()V"
+    ],
+    "Lorg/apache/http/client/methods/HttpPost;": [
+        "Lorg/apache/http/client/methods/HttpPost;->setParams()V",
+        "Lorg/apache/http/client/methods/HttpPost;->setEntity()V"
+    ],
+    "Lorg/apache/http/HttpEntity;": [
+        "Lorg/apache/http/HttpEntity;->getContentLength()J",
+        "Lorg/apache/http/HttpEntity;->consumeContent()V",
+        "Lorg/apache/http/HttpEntity;->getContent()Ljava/io/InputStream;"
+    ],
+    "Landroid/os/Looper;": [
+        "Landroid/os/Looper;->prepare()V",
+        "Landroid/os/Looper;->loop()V",
+        "Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;"
+    ],
+    "Landroid/provider/Settings$System;": [
+        "Landroid/provider/Settings$System;->getString()Ljava/lang/String;"
+    ],
+    "Ljava/io/DataOutputStream;": [
+        "Ljava/io/DataOutputStream;->writeInt()V",
+        "Ljava/io/DataOutputStream;->writeByte()V",
+        "Ljava/io/DataOutputStream;->write()V",
+        "Ljava/io/DataOutputStream;->writeBoolean()V",
+        "Ljava/io/DataOutputStream;->writeUTF()V",
+        "Ljava/io/DataOutputStream;->size()I",
+        "Ljava/io/DataOutputStream;->flush()V",
+        "Ljava/io/DataOutputStream;->writeLong()V",
+        "Ljava/io/DataOutputStream;->writeDouble()V",
+        "Ljava/io/DataOutputStream;->writeFloat()V",
+        "Ljava/io/DataOutputStream;->close()V",
+        "Ljava/io/DataOutputStream;->writeShort()V"
+    ],
+    "Ljava/util/Date;": [
+        "Ljava/util/Date;->getYear()I",
+        "Ljava/util/Date;->getTime()J"
+    ],
+    "Ljava/lang/Throwable;": [
+        "Ljava/lang/Throwable;->getMessage()Ljava/lang/String;"
+    ],
+    "Lcom/flurry/android/l;": [
+        "Lcom/flurry/android/l;->addView()V",
+        "Lcom/flurry/android/l;->setBackgroundColor()V",
+        "Lcom/flurry/android/l;->setGravity()V"
+    ],
+    "Landroid/widget/LinearLayout$LayoutParams;": [
+        "Landroid/widget/LinearLayout$LayoutParams;->setMargins()V"
+    ],
+    "Ljava/util/LinkedHashMap;": [
+        "Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;",
+        "Ljava/util/LinkedHashMap;->put()Ljava/lang/Object;",
+        "Ljava/util/LinkedHashMap;->get()Ljava/lang/Object;",
+        "Ljava/util/LinkedHashMap;->keySet()Ljava/util/Set;"
+    ],
+    "Lcom/flurry/android/k;": [
+        "Lcom/flurry/android/k;->size()I"
+    ],
+    "Lcom/flurry/android/x;": [
+        "Lcom/flurry/android/x;->a()Ljava/lang/Object;",
+        "Lcom/flurry/android/x;->a()Ljava/util/Set;",
+        "Lcom/flurry/android/x;->a()Ljava/util/Collection;",
+        "Lcom/flurry/android/x;->a()V",
+        "Lcom/flurry/android/x;->a()I"
+    ],
+    "Lcom/flurry/android/AppCircle;": [
+        "Lcom/flurry/android/AppCircle;->openCatalog()V",
+        "Lcom/flurry/android/AppCircle;->getOffer()Lcom/flurry/android/Offer;"
+    ],
+    "Ljava/lang/Thread$UncaughtExceptionHandler;": [
+        "Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException()V"
+    ],
+    "Landroid/graphics/NinePatch;": [
+        "Landroid/graphics/NinePatch;->isNinePatchChunk()Z"
+    ],
+    "Landroid/app/Service;": [
+        "Landroid/app/Service;->onDestroy()V",
+        "Landroid/app/Service;->onStart()V",
+        "Landroid/app/Service;->onCreate()V"
+    ],
+    "Lcom/tgb/kingkongpqingchun/wnimmtdbf/bdr;": [
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/bdr;->start()V",
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/bdr;->a()J",
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/bdr;->a()Z",
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/bdr;->a()V"
+    ],
+    "Lcom/tgb/kingkongpqingchun/wnimmtdbf/zwx;": [
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/zwx;->stopSelf()V"
+    ],
+    "Landroid/telephony/TelephonyManager;": [
+        "Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;"
+    ],
+    "Lcom/tgb/kingkongpqingchun/wnimmtdbf/l;": [
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/l;->a()Ljava/lang/String;"
+    ],
+    "Landroid/net/ConnectivityManager;": [
+        "Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;",
+        "Landroid/net/ConnectivityManager;->getAllNetworkInfo()[Landroid/net/NetworkInfo;"
+    ],
+    "Landroid/net/NetworkInfo;": [
+        "Landroid/net/NetworkInfo;->getSubtypeName()Ljava/lang/String;",
+        "Landroid/net/NetworkInfo;->getState()Landroid/net/NetworkInfo$State;",
+        "Landroid/net/NetworkInfo;->getType()I"
+    ],
+    "Lcom/tgb/kingkongpqingchun/wnimmtdbf/hb;": [
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/hb;->a()I",
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/hb;->a()V"
+    ],
+    "Ljava/lang/ClassLoader;": [
+        "Ljava/lang/ClassLoader;->getParent()Ljava/lang/ClassLoader;",
+        "Ljava/lang/ClassLoader;->getSystemClassLoader()Ljava/lang/ClassLoader;"
+    ],
+    "Ldalvik/system/DexClassLoader;": [
+        "Ldalvik/system/DexClassLoader;->loadClass()Ljava/lang/Class;"
+    ],
+    "Ljava/lang/reflect/Constructor;": [
+        "Ljava/lang/reflect/Constructor;->newInstance()Ljava/lang/Object;"
+    ],
+    "Lcom/tgb/kingkongpqingchun/wnimmtdbf/ybz;": [
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/ybz;->a()V",
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/ybz;->a()Ljava/lang/String;",
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/ybz;->a()Z"
+    ],
+    "Lcom/tgb/kingkongpqingchun/wnimmtdbf/o;": [
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/o;->start()V"
+    ],
+    "Lcom/tgb/kingkongpqingchun/wnimmtdbf/j;": [
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/j;->a()Z"
+    ],
+    "Lcom/tgb/kingkongpqingchun/wnimmtdbf/qvj;": [
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/qvj;->a()Z"
+    ],
+    "Lcom/tgb/kingkongpqingchun/wnimmtdbf/q;": [
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/q;->a()V",
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/q;->a()Ljava/lang/String;",
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/q;->a()I",
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/q;->a()B",
+        "Lcom/tgb/kingkongpqingchun/wnimmtdbf/q;->a()[B"
+    ],
+    "Ljavax/crypto/Cipher;": [
+        "Ljavax/crypto/Cipher;->getInstance()Ljavax/crypto/Cipher;",
+        "Ljavax/crypto/Cipher;->doFinal()[B"
+    ],
+    "Ljavax/crypto/KeyGenerator;": [
+        "Ljavax/crypto/KeyGenerator;->getInstance()Ljavax/crypto/KeyGenerator;",
+        "Ljavax/crypto/KeyGenerator;->generateKey()Ljavax/crypto/SecretKey;"
+    ],
+    "Ljava/security/SecureRandom;": [
+        "Ljava/security/SecureRandom;->setSeed()V",
+        "Ljava/security/SecureRandom;->getInstance()Ljava/security/SecureRandom;"
+    ],
+    "Ljavax/crypto/SecretKey;": [
+        "Ljavax/crypto/SecretKey;->getEncoded()[B"
+    ],
+    "Lorg/apache/http/params/HttpConnectionParams;": [
+        "Lorg/apache/http/params/HttpConnectionParams;->setSoTimeout()V",
+        "Lorg/apache/http/params/HttpConnectionParams;->setConnectionTimeout()V"
+    ],
+    "Lorg/apache/http/client/methods/HttpGet;": [
+        "Lorg/apache/http/client/methods/HttpGet;->addHeader()V"
+    ],
+    "Lorg/apache/http/impl/client/DefaultHttpClient;": [
+        "Lorg/apache/http/impl/client/DefaultHttpClient;->execute()Lorg/apache/http/HttpResponse;"
+    ],
+    "Ljava/text/SimpleDateFormat;": [
+        "Ljava/text/SimpleDateFormat;->format()Ljava/lang/String;"
+    ],
+    "Lcom/tgb/kingkongpqingchun/bo/Monkey;": [
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->getSimpleVelocityAngle()[F",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->moveForward()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->getRotationAngle()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->getRotation()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->setCurrentTileIndex()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->getVelocityAngle()[F",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->setMoveAnimation()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->moveUpward()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->monkeySnatchedFood()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->jumpFinished()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->stopAnimation()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->setEatFoodAnimation()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->launch()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->moveBackward()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->setBaseStaticPosition()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->setStaticPosition()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->setPosition()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->getVelocityAngleIfOnBorderArea()[F",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->animate()Lorg/anddev/andengine/entity/sprite/AnimatedSprite;",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->goToBasePosition()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->setAnimation()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->setVisible()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->getWidth()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->getHeight()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->setVelocity()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->simpleJump()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->disappearJump()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->collidesWith()Z",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->moveDownward()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->addShapeModifier()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->setJumpAnimation()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->move()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Monkey;->isVisible()Z"
+    ],
+    "Lcom/tgb/kingkongpqingchun/bo/GameStrategy;": [
+        "Lcom/tgb/kingkongpqingchun/bo/GameStrategy;->getInstance()Lcom/tgb/kingkongpqingchun/bo/GameStrategy;",
+        "Lcom/tgb/kingkongpqingchun/bo/GameStrategy;->launchTactic()V",
+        "Lcom/tgb/kingkongpqingchun/bo/GameStrategy;->tacticFinished()V",
+        "Lcom/tgb/kingkongpqingchun/bo/GameStrategy;->startGame()V",
+        "Lcom/tgb/kingkongpqingchun/bo/GameStrategy;->gameOver()V",
+        "Lcom/tgb/kingkongpqingchun/bo/GameStrategy;->checkLevelUpdate()V"
+    ],
+    "Lcom/tgb/kingkongpqingchun/bo/Food;": [
+        "Lcom/tgb/kingkongpqingchun/bo/Food;->getWidth()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Food;->getY()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Food;->getX()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Food;->setVisible()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Food;->setPosition()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Food;->setBasePosition()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Food;->getHeight()F"
+    ],
+    "Lcom/tgb/kingkongpqingchun/prefrences/GameEntities;": [
+        "Lcom/tgb/kingkongpqingchun/prefrences/GameEntities;->resetEntities()V",
+        "Lcom/tgb/kingkongpqingchun/prefrences/GameEntities;->playSound()V",
+        "Lcom/tgb/kingkongpqingchun/prefrences/GameEntities;->stopMusic()V",
+        "Lcom/tgb/kingkongpqingchun/prefrences/GameEntities;->stopAllSounds()V",
+        "Lcom/tgb/kingkongpqingchun/prefrences/GameEntities;->playMusic()V",
+        "Lcom/tgb/kingkongpqingchun/prefrences/GameEntities;->increaseLevelOfEntites()V"
+    ],
+    "Lcom/tgb/kingkongpqingchun/bo/Sweeper;": [
+        "Lcom/tgb/kingkongpqingchun/bo/Sweeper;->collidesWith()Z",
+        "Lcom/tgb/kingkongpqingchun/bo/Sweeper;->reset()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Sweeper;->isVisible()Z",
+        "Lcom/tgb/kingkongpqingchun/bo/Sweeper;->setVisible()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Sweeper;->setHeight()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Sweeper;->setPosition()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Sweeper;->addShapeModifier()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Sweeper;->launch()V"
+    ],
+    "Lcom/tgb/kingkongpqingchun/bo/Bang;": [
+        "Lcom/tgb/kingkongpqingchun/bo/Bang;->setWidth()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Bang;->isVisible()Z",
+        "Lcom/tgb/kingkongpqingchun/bo/Bang;->reset()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Bang;->addShapeModifier()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Bang;->checkCircleCollision()Z",
+        "Lcom/tgb/kingkongpqingchun/bo/Bang;->setPosition()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Bang;->getHeight()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Bang;->setVisible()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Bang;->getWidth()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Bang;->collidesWithFood()Z",
+        "Lcom/tgb/kingkongpqingchun/bo/Bang;->setHeight()V"
+    ],
+    "Lcom/tgb/kingkongpqingchun/prefrences/SharedPreferencesManager;": [
+        "Lcom/tgb/kingkongpqingchun/prefrences/SharedPreferencesManager;->getHighScore()J",
+        "Lcom/tgb/kingkongpqingchun/prefrences/SharedPreferencesManager;->setHighScrore()V",
+        "Lcom/tgb/kingkongpqingchun/prefrences/SharedPreferencesManager;->getInstance()Lcom/tgb/kingkongpqingchun/prefrences/SharedPreferencesManager;"
+    ],
+    "Lcom/tgb/kingkongpqingchun/bo/ITactic;": [
+        "Lcom/tgb/kingkongpqingchun/bo/ITactic;->setMonkeyAnimation()V"
+    ],
+    "Lcom/tgb/kingkongpqingchun/prefrences/GameStatus;": [
+        "Lcom/tgb/kingkongpqingchun/prefrences/GameStatus;->reInitializeGSAttributes()V"
+    ],
+    "Lcom/tgb/kingkongpqingchun/bo/Bomb;": [
+        "Lcom/tgb/kingkongpqingchun/bo/Bomb;->launch()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Bomb;->reset()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Bomb;->collidesWith()Z",
+        "Lcom/tgb/kingkongpqingchun/bo/Bomb;->setPosition()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Bomb;->setAngularVelocity()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Bomb;->getX()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Bomb;->getY()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Bomb;->isVisible()Z",
+        "Lcom/tgb/kingkongpqingchun/bo/Bomb;->addShapeModifier()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Bomb;->getWidth()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Bomb;->setVisible()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Bomb;->getHeight()F"
+    ],
+    "Lcom/tgb/kingkongpqingchun/bo/Rubble;": [
+        "Lcom/tgb/kingkongpqingchun/bo/Rubble;->getWidth()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Rubble;->setPosition()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Rubble;->setVisible()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Rubble;->setVelocity()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Rubble;->collidesWith()Z",
+        "Lcom/tgb/kingkongpqingchun/bo/Rubble;->isVisible()Z",
+        "Lcom/tgb/kingkongpqingchun/bo/Rubble;->reset()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Rubble;->getHeight()F"
+    ],
+    "Lorg/anddev/andengine/entity/shape/modifier/ease/EaseCircularOut;": [
+        "Lorg/anddev/andengine/entity/shape/modifier/ease/EaseCircularOut;->getInstance()Lorg/anddev/andengine/entity/shape/modifier/ease/EaseCircularOut;"
+    ],
+    "Lcom/tgb/kingkongpqingchun/bo/Rocket;": [
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->setVelocityY()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->isVisible()Z",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->setVelocity()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->getRotationAngle()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->setVelocityX()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->addShapeModifier()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->setPosition()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->getRotation()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->getY()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->collidesWith()Z",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->getX()F",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->launch()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->setVisible()V",
+        "Lcom/tgb/kingkongpqingchun/bo/Rocket;->reset()V"
+    ],
+    "Lcom/tgb/kingkongpqingchun/prefrences/FontManager;": [
+        "Lcom/tgb/kingkongpqingchun/prefrences/FontManager;->getScoreFont()Lorg/anddev/andengine/opengl/font/Font;",
+        "Lcom/tgb/kingkongpqingchun/prefrences/FontManager;->getChildMenuFontPressed()Lorg/anddev/andengine/opengl/font/Font;",
+        "Lcom/tgb/kingkongpqingchun/prefrences/FontManager;->getChildMenuFontUnPressed()Lorg/anddev/andengine/opengl/font/Font;"
+    ],
+    "Lcom/tgb/kingkongpqingchun/prefrences/GameTextureManager;": [
+        "Lcom/tgb/kingkongpqingchun/prefrences/GameTextureManager;->loadTextures()V",
+        "Lcom/tgb/kingkongpqingchun/prefrences/GameTextureManager;->getInstance()Lcom/tgb/kingkongpqingchun/prefrences/GameTextureManager;"
+    ],
+    "Lorg/anddev/andengine/entity/scene/menu/item/SpriteMenuItem;": [
+        "Lorg/anddev/andengine/entity/scene/menu/item/SpriteMenuItem;->setWidth()V",
+        "Lorg/anddev/andengine/entity/scene/menu/item/SpriteMenuItem;->setHeight()V",
+        "Lorg/anddev/andengine/entity/scene/menu/item/SpriteMenuItem;->setPosition()V",
+        "Lorg/anddev/andengine/entity/scene/menu/item/SpriteMenuItem;->getY()F"
+    ],
+    "Lcom/tgb/kingkongpqingchun/prefrences/MenuSceneManager;": [
+        "Lcom/tgb/kingkongpqingchun/prefrences/MenuSceneManager;->setMenuItemPostions()V",
+        "Lcom/tgb/kingkongpqingchun/prefrences/MenuSceneManager;->createMenuScene()Lorg/anddev/andengine/entity/scene/menu/MenuScene;",
+        "Lcom/tgb/kingkongpqingchun/prefrences/MenuSceneManager;->getInstance()Lcom/tgb/kingkongpqingchun/prefrences/MenuSceneManager;"
+    ],
+    "Landroid/widget/Toast;": [
+        "Landroid/widget/Toast;->show()V",
+        "Landroid/widget/Toast;->makeText()Landroid/widget/Toast;"
+    ],
+    "Lcom/tgb/kingkongpqingchun/utils/Messages;": [
+        "Lcom/tgb/kingkongpqingchun/utils/Messages;->displayFatalErrorDialog()V"
+    ],
+    "Lcom/tgb/kingkongpqingchun/activities/Splash;": [
+        "Lcom/tgb/kingkongpqingchun/activities/Splash;->ShowAlertBox()V",
+        "Lcom/tgb/kingkongpqingchun/activities/Splash;->startActivity()V",
+        "Lcom/tgb/kingkongpqingchun/activities/Splash;->getWindow()Landroid/view/Window;",
+        "Lcom/tgb/kingkongpqingchun/activities/Splash;->setContentView()V",
+        "Lcom/tgb/kingkongpqingchun/activities/Splash;->finish()V",
+        "Lcom/tgb/kingkongpqingchun/activities/Splash;->requestWindowFeature()Z",
+        "Lcom/tgb/kingkongpqingchun/activities/Splash;->findViewById()Landroid/view/View;"
+    ],
+    "Landroid/os/Process;": [
+        "Landroid/os/Process;->killProcess()V",
+        "Landroid/os/Process;->myPid()I"
+    ],
+    "Lcom/tgb/kingkongpqingchun/activities/KingKongGame;": [
+        "Lcom/tgb/kingkongpqingchun/activities/KingKongGame;->finish()V",
+        "Lcom/tgb/kingkongpqingchun/activities/KingKongGame;->getEngine()Lorg/anddev/andengine/engine/Engine;"
+    ],
+    "Lcom/tgb/kingkongpqingchun/activities/KingKongGame$2;": [
+        "Lcom/tgb/kingkongpqingchun/activities/KingKongGame$2;->start()V"
+    ]
+}

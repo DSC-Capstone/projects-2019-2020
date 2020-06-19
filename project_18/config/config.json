@@ -1,0 +1,7 @@
+{
+    "file_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE44639&format=file",
+    "raw_dir": "data/raw/",
+    "temp_dir": "data/temp/",
+    "out_dir": "data/out/",
+    "file_name": "GSE44639_RAW.tar"
+}

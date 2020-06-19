@@ -1,0 +1,16 @@
+<mat-grid-list cols='3' rows='3' class='full-height' rowHeight='33%'>
+  <mat-grid-tile id='codeTile' rowspan='3'>
+    <multifile-upload (filesRead)='sendCode($event)'></multifile-upload>
+  </mat-grid-tile>
+  <mat-grid-tile colspan='2'>
+    <output-results [report]='report' (similarityClick)='sendToDetailedView($event)' [numberOfFiles]='numberOfFiles'></output-results>
+  </mat-grid-tile>
+  <mat-grid-tile colspan='2' rowspan='2'>
+    <detailed-view [report]='report' [file1]='file1' [file2]='file2' class='full-size'></detailed-view>
+  </mat-grid-tile>
+</mat-grid-list>
+<div class="overlay" *ngIf='loading'>
+  <div class="center">
+    <mat-spinner></mat-spinner>
+  </div>
+</div>

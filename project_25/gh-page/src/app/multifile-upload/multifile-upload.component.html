@@ -1,0 +1,6 @@
+<mat-form-field class='padded'>
+  <mat-label>Upload files...</mat-label>
+  <ngx-mat-file-input accept='.py' multiple='true' #fileInput></ngx-mat-file-input>
+</mat-form-field>
+<button mat-raised-button (click)='processFiles(fileInput)'>Submit</button>
+<p>Don't have test files? Download some <a href='/assets/code_examples.zip'>here</a></p>

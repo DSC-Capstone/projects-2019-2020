@@ -1,0 +1,58 @@
+{
+    "start_date": [
+      [2017,7,5],
+      [2017,12,16],
+      [2017,9,22],
+      [2017,6,12],
+      [2014,7,8],
+      [2015,12,28],
+      [2018,6,15],
+      [2017,2,1]
+    ],
+    "end_date": [
+      [2017,11,5],
+      [2018,4,16],
+      [2018,1,22],
+      [2017,10,12],
+      [2014,11,8],
+      [2016,4,28],
+      [2018,10,15],
+      [2017,6,1]
+    ],
+    "keyword": [
+      ["DACA"],
+      ["Black Panther"],
+      ["Coco"],
+      ["Unite the Right"],
+      ["Ray Rice"],
+      ["Leonardo DiCaprio"],
+      ["Crazy Rich Asians"],
+      ["North Korea war"]
+    ],
+    "years" : [
+      2014, 
+      2015, 
+      2016, 
+      2017, 
+      2018],
+    "ripa_suffixes" : [
+      "stops_datasd_v1.csv",
+      "stop_result_datasd.csv", 
+      "stop_reason_datasd.csv", 
+      "search_basis_datasd.csv", 
+      "race_datasd.csv", 
+      "prop_seize_type_datasd.csv", 
+      "contraband_evid_datasd.csv",
+      "actions_taken_datasd.csv"],
+    "ripa_columns" : [
+      ["stop_id", "date_stop", "time_stop", 
+            "beat", "perceived_age", "perceived_gender"],
+      ["stop_id", "result"],
+      ["stop_id", "reason_for_stop"],
+      ["stop_id", "basis_for_search"],
+      ["stop_id", "race"],
+      ["stop_id", "type_of_property_seized"],
+      ["stop_id", "contraband"],
+      ["stop_id", "action", "consented"]],
+    "outpath" : "/data/raw"
+  }

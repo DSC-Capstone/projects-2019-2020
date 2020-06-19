@@ -1,0 +1,741 @@
+Class,Attribute,Data_Type,Description
+cases,case_id,keyword,N/A
+cases,created_datetime,keyword,N/A
+cases,demographic.age_at_index,long,The patient's age (in years) on the reference or anchor date date used during date obfuscation.
+cases,demographic.age_is_obfuscated,keyword,The age or other properties related to the patient's age have been modified for compliance reasons. The actual age may differ from what was reported in order to comply with the Health Insurance Portability and Accountability Act (HIPAA).
+cases,demographic.cause_of_death,keyword,Text term to identify the cause of death for a patient.
+cases,demographic.cause_of_death_source,keyword,The text term used to describe the source used to determine the patient's cause of death.
+cases,demographic.country_of_residence_at_enrollment,keyword,The text term used to describe the patient's country of residence at the time they were enrolled in the study.
+cases,demographic.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,demographic.days_to_birth,long,Number of days between the date used for index and the date from a person's date of birth represented as a calculated negative number of days.
+cases,demographic.days_to_death,long,Number of days between the date used for index and the date from a person's date of death represented as a calculated number of days.
+cases,demographic.demographic_id,keyword,N/A
+cases,demographic.ethnicity,keyword,"An individual's self-described social and cultural grouping, specifically whether an individual describes themselves as Hispanic or Latino. The provided values are based on the categories defined by the U.S. Office of Management and Business and used by the U.S. Census Bureau."
+cases,demographic.gender,keyword,"Text designations that identify gender. Gender is described as the assemblage of properties that distinguish people on the basis of their societal roles. [Explanatory Comment 1: Identification of gender is based upon self-report and may come from a form, questionnaire, interview, etc.]"
+cases,demographic.occupation_duration_years,long,The number of years a patient worked in a specific occupation.
+cases,demographic.premature_at_birth,keyword,The yes/no/unknown indicator used to describe whether the patient was premature (less than 37 weeks gestation) at birth.
+cases,demographic.race,keyword,"An arbitrary classification of a taxonomic group that is a division of a species. It usually arises as a consequence of geographical isolation within a species and is characterized by shared heredity, physical attributes and behavior, and in the case of humans, by common history, nationality, or geographic distribution. The provided values are based on the categories defined by the U.S. Office of Management and Business and used by the U.S. Census Bureau."
+cases,demographic.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,demographic.vital_status,keyword,The survival state of the person registered on the protocol.
+cases,demographic.weeks_gestation_at_birth,long,Numeric value used to describe the number of weeks starting from the approximate date of the biological mother's last menstrual period and ending with the birth of the patient.
+cases,demographic.year_of_birth,long,Numeric value to represent the calendar year in which an individual was born.
+cases,demographic.year_of_death,long,Numeric value to represent the year of the death of an individual.
+cases,diagnoses.age_at_diagnosis,long,Age at the time of diagnosis expressed in number of days since birth.
+cases,diagnoses.ajcc_clinical_m,keyword,Extent of the distant metastasis for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
+cases,diagnoses.ajcc_clinical_n,keyword,Extent of the regional lymph node involvement for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
+cases,diagnoses.ajcc_clinical_stage,keyword,"Stage group determined from clinical information on the tumor (T), regional node (N) and metastases (M) and by grouping cases with similar prognosis for cancer."
+cases,diagnoses.ajcc_clinical_t,keyword,Extent of the primary cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
+cases,diagnoses.ajcc_pathologic_m,keyword,"Code to represent the defined absence or presence of distant spread or metastases (M) to locations via vascular channels or lymphatics beyond the regional lymph nodes, using criteria established by the American Joint Committee on Cancer (AJCC)."
+cases,diagnoses.ajcc_pathologic_n,keyword,The codes that represent the stage of cancer based on the nodes present (N stage) according to criteria based on multiple editions of the AJCC's Cancer Staging Manual.
+cases,diagnoses.ajcc_pathologic_stage,keyword,"The extent of a cancer, especially whether the disease has spread from the original site to other parts of the body based on AJCC staging criteria."
+cases,diagnoses.ajcc_pathologic_t,keyword,"Code of pathological T (primary tumor) to define the size or contiguous extension of the primary tumor (T), using staging criteria from the American Joint Committee on Cancer (AJCC)."
+cases,diagnoses.ajcc_staging_system_edition,keyword,"The text term used to describe the version or edition of the American Joint Committee on Cancer Staging Handbooks, a publication by the group formed for the purpose of developing a system of staging for cancer that is acceptable to the American medical profession and is compatible with other accepted classifications."
+cases,diagnoses.anaplasia_present,keyword,Yes/no/unknown/not reported indicator used to describe whether anaplasia was present at the time of diagnosis.
+cases,diagnoses.anaplasia_present_type,keyword,"The text term used to describe the morphologic findings indicating the presence of a malignant cellular infiltrate characterized by the presence of large pleomorphic cells, necrosis, and high mitotic activity in a tissue sample."
+cases,diagnoses.ann_arbor_b_symptoms,keyword,Text term to signify whether lymphoma B-symptoms are present as noted in the patient's medical record.
+cases,diagnoses.ann_arbor_clinical_stage,keyword,"The text term used to describe the clinical classification of lymphoma, as defined by the Ann Arbor Lymphoma Staging System."
+cases,diagnoses.ann_arbor_extranodal_involvement,keyword,Indicator that identifies whether a patient with malignant lymphoma has lymphomatous involvement of an extranodal site.
+cases,diagnoses.ann_arbor_pathologic_stage,keyword,"The text term used to describe the pathologic classification of lymphoma, as defined by the Ann Arbor Lymphoma Staging System."
+cases,diagnoses.annotations.annotation_id,keyword,N/A
+cases,diagnoses.annotations.case_id,keyword,N/A
+cases,diagnoses.annotations.case_submitter_id,keyword,N/A
+cases,diagnoses.annotations.category,keyword,Top level characterization of the annotation.
+cases,diagnoses.annotations.classification,keyword,Top level classification of the annotation.
+cases,diagnoses.annotations.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,diagnoses.annotations.creator,keyword,Name of the person or entity responsible for the creation of the annotation.
+cases,diagnoses.annotations.entity_id,keyword,N/A
+cases,diagnoses.annotations.entity_submitter_id,keyword,N/A
+cases,diagnoses.annotations.entity_type,keyword,N/A
+cases,diagnoses.annotations.legacy_created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,diagnoses.annotations.legacy_updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,diagnoses.annotations.notes,keyword,Open entry for any further description or characterization of the data.
+cases,diagnoses.annotations.state,keyword,The current state of the object.
+cases,diagnoses.annotations.status,keyword,Status of the annotation.
+cases,diagnoses.annotations.submitter_id,keyword,A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the UUID for identifying or recalling a node.
+cases,diagnoses.annotations.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,diagnoses.best_overall_response,keyword,The best improvement achieved throughout the entire course of protocol treatment.
+cases,diagnoses.breslow_thickness,long,"The number that describes the distance, in millimeters, between the upper layer of the epidermis and the deepest point of tumor penetration."
+cases,diagnoses.burkitt_lymphoma_clinical_variant,keyword,Burkitt's lymphoma categorization based on clinical features that differ from other forms of the same disease.
+cases,diagnoses.child_pugh_classification,keyword,"The text term used to describe the classification used in the prognosis of chronic liver disease, mainly cirrhosis."
+cases,diagnoses.circumferential_resection_margin,long,"Numeric value used to describe the non-peritonealised bare area of rectum, comprising anterior and posterior segments, when submitted as a surgical specimen resulting from excision of cancer of the rectum."
+cases,diagnoses.classification_of_tumor,keyword,Text that describes the kind of disease present in the tumor specimen as related to a specific timepoint.
+cases,diagnoses.cog_liver_stage,keyword,"The text term used to describe the staging classification of liver tumors, as defined by the Children's Oncology Group (COG). This staging system specifically describes the extent of the primary tumor prior to treatment."
+cases,diagnoses.cog_neuroblastoma_risk_group,keyword,Text term that represents the categorization of patients on the basis of prognostic factors per a system developed by Children's Oncology Group (COG). Risk level is used to assign treatment intensity.
+cases,diagnoses.cog_renal_stage,keyword,"The text term used to describe the staging classification of renal tumors, as defined by the Children's Oncology Group (COG)."
+cases,diagnoses.cog_rhabdomyosarcoma_risk_group,keyword,"Text term used to describe the classification of rhabdomyosarcoma, as defined by the Children's Oncology Group (COG)."
+cases,diagnoses.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,diagnoses.days_to_best_overall_response,long,Number of days between the date used for index and the date of the patient was thought to have the best overall response to their disease.
+cases,diagnoses.days_to_diagnosis,long,Number of days between the date used for index and the date the patient was diagnosed with the malignant disease.
+cases,diagnoses.days_to_last_follow_up,long,"Time interval from the date of last follow up to the date of initial pathologic diagnosis, represented as a calculated number of days."
+cases,diagnoses.days_to_last_known_disease_status,long,"Time interval from the date of last follow up to the date of initial pathologic diagnosis, represented as a calculated number of days."
+cases,diagnoses.days_to_recurrence,long,Number of days between the date used for index and the date the patient's disease recurred.
+cases,diagnoses.diagnosis_id,keyword,N/A
+cases,diagnoses.enneking_msts_grade,keyword,"The text term used to describe the surgical grade of the musculoskeletal sarcoma, using the Enneking staging system approved by the Musculoskeletal Tumor Society (MSTS)."
+cases,diagnoses.enneking_msts_metastasis,keyword,"Text term and code that represents the metastatic stage of the musculoskeletal sarcoma, using the Enneking staging system approved by the Musculoskeletal Tumor Society (MSTS)."
+cases,diagnoses.enneking_msts_stage,keyword,"Text term used to describe the stage of the musculoskeletal sarcoma, using the Enneking staging system approved by the Musculoskeletal Tumor Society (MSTS)."
+cases,diagnoses.enneking_msts_tumor_site,keyword,"Text term and code that represents the tumor site of the musculoskeletal sarcoma, using the Enneking staging system approved by the Musculoskeletal Tumor Society (MSTS)."
+cases,diagnoses.esophageal_columnar_dysplasia_degree,keyword,Text term to describe the amount of dysplasia found within the benign esophageal columnar mucosa.
+cases,diagnoses.esophageal_columnar_metaplasia_present,keyword,The yes/no/unknown indicator used to describe whether esophageal columnar metaplasia was determined to be present.
+cases,diagnoses.figo_stage,keyword,"The extent of a cervical or endometrial cancer within the body, especially whether the disease has spread from the original site to other parts of the body, as described by the International Federation of Gynecology and Obstetrics (FIGO) stages."
+cases,diagnoses.figo_staging_edition_year,keyword,The text term used to describe the edition year of the FIGO staging system used to stage the patient's gynecologic tumor.
+cases,diagnoses.first_symptom_prior_to_diagnosis,keyword,Text term used to describe the patient's first symptom experienced prior to diagnosis and thought to be related to the disease.
+cases,diagnoses.gastric_esophageal_junction_involvement,keyword,The yes/no/unknown/not reported indicator used to describe whether the tumor is located across the gastroesophageal junction.
+cases,diagnoses.gleason_grade_group,keyword,"The text term used to describe the overall grouping of grades defined by the Gleason grading classification, which is used to determine the aggressiveness of prostate cancer. Note that this grade describes the entire prostatectomy specimen and is not specific to the sample used for sequencing."
+cases,diagnoses.gleason_grade_tertiary,keyword,The text term used to describe the tertiary pattern as described by the Gleason Grading System.
+cases,diagnoses.gleason_patterns_percent,long,"Numeric value that represents the percentage of Patterns 4 and 5, which is used when the Gleason score is greater than 7 to predict prognosis."
+cases,diagnoses.goblet_cells_columnar_mucosa_present,keyword,The yes/no/unknown indicator used to describe whether goblet cells were determined to be present in the esophageal columnar mucosa.
+cases,diagnoses.greatest_tumor_dimension,long,Numeric value that represents the measurement of the widest portion of the tumor in centimeters.
+cases,diagnoses.gross_tumor_weight,long,"Numeric value used to describe the gross pathologic tumor weight, measured in grams."
+cases,diagnoses.icd_10_code,keyword,Alphanumeric value used to describe the disease code from the tenth version of the International Classification of Disease (ICD-10).
+cases,diagnoses.igcccg_stage,keyword,"The text term used to describe the International Germ Cell Cancer Collaborative Group (IGCCCG), a grouping used to further classify metastatic testicular tumors."
+cases,diagnoses.inpc_grade,keyword,"Text term used to describe the classification of neuroblastic differentiation within neuroblastoma tumors, as defined by the International Neuroblastoma Pathology Classification (INPC)."
+cases,diagnoses.inpc_histologic_group,keyword,"The text term used to describe the classification of neuroblastomas distinguishing between favorable and unfavorable histologic groups. The histologic score, defined by the International Neuroblastoma Pathology Classification (INPC), is based on age, mitosis-karyorrhexis index (MKI), stromal content and degree of tumor cell differentiation."
+cases,diagnoses.inrg_stage,keyword,"The text term used to describe the staging classification of neuroblastic tumors, as defined by the International Neuroblastoma Risk Group (INRG)."
+cases,diagnoses.inss_stage,keyword,"Text term used to describe the staging classification of neuroblastic tumors, as defined by the International Neuroblastoma Staging System (INSS)."
+cases,diagnoses.international_prognostic_index,keyword,"The text term used to describe the International Prognostic Index, which classifies the prognosis of patients with aggressive non-Hodgkin's lymphoma."
+cases,diagnoses.irs_group,keyword,"Text term used to describe the classification of rhabdomyosarcoma tumors, as defined by the Intergroup Rhabdomyosarcoma Study (IRS)."
+cases,diagnoses.irs_stage,keyword,"The text term used to describe the classification of rhabdomyosarcoma tumors, as defined by the Intergroup Rhabdomyosarcoma Study (IRS)."
+cases,diagnoses.ishak_fibrosis_score,keyword,The text term used to describe the classification of the histopathologic degree of liver damage.
+cases,diagnoses.iss_stage,keyword,The multiple myeloma disease stage at diagnosis.
+cases,diagnoses.largest_extrapelvic_peritoneal_focus,keyword,The text term used to describe the diameter of the largest focus originating outside of the pelvic peritoneal region.
+cases,diagnoses.last_known_disease_status,keyword,Text term that describes the last known state or condition of an individual's neoplasm.
+cases,diagnoses.laterality,keyword,"For tumors in paired organs, designates the side on which the cancer originates."
+cases,diagnoses.lymph_node_involved_site,keyword,The text term used to describe the anatomic site of lymph node involvement.
+cases,diagnoses.lymph_nodes_positive,long,The number of lymph nodes involved with disease as determined by pathologic examination.
+cases,diagnoses.lymph_nodes_tested,long,The number of lymph nodes tested to determine whether lymph nodes were involved with disease as determined by a pathologic examination.
+cases,diagnoses.lymphatic_invasion_present,keyword,"A yes/no indicator to ask if small or thin-walled vessel invasion is present, indicating lymphatic involvement"
+cases,diagnoses.margin_distance,long,Numeric value that represents the distance between the tumor and the surgical margin
+cases,diagnoses.margins_involved_site,keyword,The text term used to describe the anatomic sites that were involved in the survival margins.
+cases,diagnoses.masaoka_stage,keyword,"The text term used to describe the Masaoka staging system, a classification that defines prognostic indicators for thymic malignancies and predicts tumor recurrence."
+cases,diagnoses.medulloblastoma_molecular_classification,keyword,The text term used to describe the classification of medulloblastoma tumors based on molecular features.
+cases,diagnoses.metastasis_at_diagnosis,keyword,The text term used to describe the extent of metastatic disease present at diagnosis.
+cases,diagnoses.metastasis_at_diagnosis_site,keyword,Text term to identify an anatomic site in which metastatic disease involvement is found.
+cases,diagnoses.method_of_diagnosis,keyword,Text term used to describe the method used to confirm the patients malignant diagnosis.
+cases,diagnoses.micropapillary_features,keyword,The yes/no/unknown indicator used to describe whether micropapillary features were determined to be present.
+cases,diagnoses.mitosis_karyorrhexis_index,keyword,Text term that represents the component of the International Neuroblastoma Pathology Classification (INPC) for mitosis-karyorrhexis index (MKI).
+cases,diagnoses.mitotic_count,long,"The number of mitoses identified under the microscope in tumors. The method of counting varies, according to the specific tumor examined. Usually, the mitotic count is determined based on the number of mitoses per high power field (40X) or 10 high power fields."
+cases,diagnoses.morphology,keyword,"The third edition of the International Classification of Diseases for Oncology, published in 2000 used principally in tumor and cancer registries for coding the site (topography) and the histology (morphology) of neoplasms. The study of the structure of the cells and their arrangement to constitute tissues and, finally, the association among these to form organs. In pathology, the microscopic process of identifying normal and abnormal morphologic characteristics in tissues, by employing various cytochemical and immunocytochemical stains. A system of numbered categories for representation of data."
+cases,diagnoses.non_nodal_regional_disease,keyword,The text term used to describe whether the patient had non-nodal regional disease.
+cases,diagnoses.non_nodal_tumor_deposits,keyword,The yes/no/unknown indicator used to describe the presence of tumor deposits in the pericolic or perirectal fat or in adjacent mesentery away from the leading edge of the tumor.
+cases,diagnoses.ovarian_specimen_status,keyword,The text term used to describe the physical condition of the involved ovary.
+cases,diagnoses.ovarian_surface_involvement,keyword,The text term that describes whether the surface tissue (outer boundary) of the ovary shows evidence of involvement or presence of cancer.
+cases,diagnoses.papillary_renal_cell_type,keyword,The text term used to describe the type of papillary renal cell carcinoma characterized by the presence of papillae covered by small cells with scant amount of cytoplasm.
+cases,diagnoses.percent_tumor_invasion,long,The percentage of tumor cells spread locally in a malignant neoplasm through infiltration or destruction of adjacent tissue.
+cases,diagnoses.perineural_invasion_present,keyword,a yes/no indicator to ask if perineural invasion or infiltration of tumor or cancer is present.
+cases,diagnoses.peripancreatic_lymph_nodes_positive,keyword,Enumerated numeric value or range of values used to describe the number of peripancreatic lymph nodes determined to be positive.
+cases,diagnoses.peripancreatic_lymph_nodes_tested,long,The total number of peripancreatic lymph nodes tested for the presence of pancreatic cancer cells.
+cases,diagnoses.peritoneal_fluid_cytological_status,keyword,The text term used to describe the malignant status of the peritoneal fluid determined by cytologic testing.
+cases,diagnoses.pregnant_at_diagnosis,keyword,The text term used to indicate whether the patient was pregnant at the time they were diagnosed.
+cases,diagnoses.primary_diagnosis,keyword,"Text term used to describe the patient's histologic diagnosis, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O)."
+cases,diagnoses.primary_gleason_grade,keyword,"The text term used to describe the primary Gleason score, which describes the pattern of cells making up the largest area of the tumor. The primary and secondary Gleason pattern grades are combined to determine the patient's Gleason grade group, which is used to determine the aggresiveness of prostate cancer. Note that this grade describes the entire prostatectomy specimen and is not specific to the sample used for sequencing."
+cases,diagnoses.prior_malignancy,keyword,The yes/no/unknown indicator used to describe the patient's history of prior cancer diagnosis.
+cases,diagnoses.prior_treatment,keyword,A yes/no/unknown/not applicable indicator related to the administration of therapeutic agents received before the body specimen was collected.
+cases,diagnoses.progression_or_recurrence,keyword,Yes/No/Unknown indicator to identify whether a patient has had a new tumor event after initial treatment.
+cases,diagnoses.residual_disease,keyword,Text terms to describe the status of a tissue margin following surgical resection.
+cases,diagnoses.secondary_gleason_grade,keyword,"The text term used to describe the secondary Gleason score, which describes the pattern of cells making up the second largest area of the tumor. The primary and secondary Gleason pattern grades are combined to determine the patient's Gleason grade group, which is used to determine the aggresiveness of prostate cancer. Note that this grade describes the entire prostatectomy specimen and is not specific to the sample used for sequencing."
+cases,diagnoses.site_of_resection_or_biopsy,keyword,"The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O)."
+cases,diagnoses.supratentorial_localization,keyword,Text term to specify the location of the supratentorial tumor.
+cases,diagnoses.synchronous_malignancy,keyword,"A yes/no/unknown indicator used to describe whether the patient had an additional malignant diagnosis at the same time the tumor used for sequencing was diagnosed. If both tumors were sequenced, both tumors would have synchronous malignancies."
+cases,diagnoses.tissue_or_organ_of_origin,keyword,"The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O)."
+cases,diagnoses.transglottic_extension,keyword,The text term used to describe an extension of the tumor beyond the opening into the ventricles and vocal cords.
+cases,diagnoses.treatments.chemo_concurrent_to_radiation,keyword,The text term used to describe whether the patient was receiving chemotherapy concurrent to radiation.
+cases,diagnoses.treatments.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,diagnoses.treatments.days_to_treatment_end,long,Number of days between the date used for index and the date the treatment ended.
+cases,diagnoses.treatments.days_to_treatment_start,long,Number of days between the date used for index and the date the treatment started.
+cases,diagnoses.treatments.initial_disease_status,keyword,The text term used to describe the status of the patient's malignancy when the treatment began.
+cases,diagnoses.treatments.number_of_cycles,long,The numeric value used to describe the number of cycles of a specific treatment or regimen the patient received.
+cases,diagnoses.treatments.reason_treatment_ended,keyword,The text term used to describe the reason a specific treatment or regimen ended.
+cases,diagnoses.treatments.regimen_or_line_of_therapy,keyword,The text term used to describe the regimen or line of therapy.
+cases,diagnoses.treatments.therapeutic_agents,keyword,Text identification of the individual agent(s) used as part of a treatment regimen.
+cases,diagnoses.treatments.treatment_anatomic_site,keyword,The anatomic site or field targeted by a treatment regimen or single agent therapy.
+cases,diagnoses.treatments.treatment_arm,keyword,Text term used to describe the treatment arm assigned to a patient at the time eligibility is determined.
+cases,diagnoses.treatments.treatment_dose,long,The numeric value used to describe the dose of an agent the patient received.
+cases,diagnoses.treatments.treatment_dose_units,keyword,The text term used to describe the dose units of an agent the patient received.
+cases,diagnoses.treatments.treatment_effect,keyword,The text term used to describe the pathologic effect a treatment(s) had on the tumor.
+cases,diagnoses.treatments.treatment_effect_indicator,keyword,The text term used to indicate whether the treatment had an effect on the patient.
+cases,diagnoses.treatments.treatment_frequency,keyword,The text term used to describe the frequency the patient received an agent or regimen.
+cases,diagnoses.treatments.treatment_intent_type,keyword,Text term to identify the reason for the administration of a treatment regimen. [Manually-curated]
+cases,diagnoses.treatments.treatment_or_therapy,keyword,A yes/no/unknown/not applicable indicator related to the administration of therapeutic agents received.
+cases,diagnoses.treatments.treatment_outcome,keyword,Text term that describes the patient's final outcome after the treatment was administered.
+cases,diagnoses.treatments.treatment_type,keyword,Text term that describes the kind of treatment administered.
+cases,diagnoses.treatments.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,diagnoses.tumor_confined_to_organ_of_origin,keyword,The yes/no/unknown indicator used to describe whether the tumor is confined to the organ where it originated and did not spread to a proximal or distant location within the body.
+cases,diagnoses.tumor_depth,long,"Numeric value that represents the depth of tumor invasion, measured in millimeters (mm)."
+cases,diagnoses.tumor_focality,keyword,The text term used to describe whether the patient's disease originated in a single location or multiple locations.
+cases,diagnoses.tumor_grade,keyword,"Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness."
+cases,diagnoses.tumor_largest_dimension_diameter,long,"Numeric value used to describe the maximum diameter or dimension of the primary tumor, measured in centimeters."
+cases,diagnoses.tumor_regression_grade,keyword,A numeric value used to measure therapeutic response of the primary tumor and predict patient outcomes based on a three-point tumor regression grading system.
+cases,diagnoses.tumor_stage,keyword,"The extent of a cancer in the body. Staging is usually based on the size of the tumor, whether lymph nodes contain cancer, and whether the cancer has spread from the original site to other parts of the body. The accepted values for tumor_stage depend on the tumor site, type, and accepted staging system. These items should accompany the tumor_stage value as associated metadata."
+cases,diagnoses.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,diagnoses.vascular_invasion_present,keyword,The yes/no indicator to ask if large vessel or venous invasion was detected by surgery or presence in a tumor specimen.
+cases,diagnoses.vascular_invasion_type,keyword,Text term that represents the type of vascular tumor invasion.
+cases,diagnoses.weiss_assessment_score,keyword,"The text term used to describe the overall Weiss assessment score, a commonly used assessment describing the malignancy of adrenocortical tumors. The Weiss score is determined based on nine histological criteria including the following: high nuclear grade, mitotic rate greater than five per 50 high power fields (HPF), atypical mitotic figures, eosinophilic tumor cell cytoplasm (greater than 75% tumor cells), diffuse architecture (greater than 33% of tumor), necrosis, venous invasion, sinusoidal invasion, and capsular invasion."
+cases,diagnoses.wilms_tumor_histologic_subtype,keyword,The text term used to describe the classification of Wilms tumors distinguishing between favorable and unfavorable histologic groups.
+cases,diagnoses.year_of_diagnosis,long,Numeric value to represent the year of an individual's initial pathologic diagnosis of cancer.
+cases,disease_type,keyword,N/A
+cases,exposures.age_at_onset,long,Numeric value used to represent the age of the patient when exposure to a specific environmental factor began.
+cases,exposures.alcohol_days_per_week,long,Numeric value used to describe the average number of days each week that a person consumes an alcoholic beverage.
+cases,exposures.alcohol_drinks_per_day,long,Numeric value used to describe the average number of alcoholic beverages a person consumes per day.
+cases,exposures.alcohol_history,keyword,A response to a question that asks whether the participant has consumed at least 12 drinks of any kind of alcoholic beverage in their lifetime.
+cases,exposures.alcohol_intensity,keyword,Category to describe the patient's current level of alcohol use as self-reported by the patient.
+cases,exposures.asbestos_exposure,keyword,The yes/no/unknown indicator used to describe whether the patient was exposed to asbestos.
+cases,exposures.bmi,long,A calculated numerical quantity that represents an individual's weight to height ratio.
+cases,exposures.cigarettes_per_day,float,The average number of cigarettes smoked per day.
+cases,exposures.coal_dust_exposure,keyword,The yes/no/unknown indicator used to describe whether a patient was exposed to fine powder derived by the crushing of coal.
+cases,exposures.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,exposures.environmental_tobacco_smoke_exposure,keyword,"The yes/no/unknown indicator used to describe whether a patient was exposed to smoke that is emitted from burning tobacco, including cigarettes, pipes, and cigars. This includes tobacco smoke exhaled by smokers."
+cases,exposures.exposure_duration,keyword,Text term used to describe the length of time the patient was exposed to an environmental factor.
+cases,exposures.exposure_id,keyword,N/A
+cases,exposures.exposure_type,keyword,The text term used to describe the type of environmental exposure.
+cases,exposures.height,long,The height of the patient in centimeters.
+cases,exposures.marijuana_use_per_week,long,Numeric value that represents the number of times the patient uses marijuana each day.
+cases,exposures.pack_years_smoked,long,Numeric computed value to represent lifetime tobacco exposure defined as number of cigarettes smoked per day x number of years smoked divided by 20.
+cases,exposures.radon_exposure,keyword,The yes/no/unknown indicator used to describe whether the patient was exposed to radon.
+cases,exposures.respirable_crystalline_silica_exposure,keyword,"The yes/no/unknown indicator used to describe whether a patient was exposured to respirable crystalline silica, a widespread, naturally occurring, crystalline metal oxide that consists of different forms including quartz, cristobalite, tridymite, tripoli, ganister, chert and novaculite."
+cases,exposures.secondhand_smoke_as_child,keyword,The text term used to indicate whether the patient was exposed to secondhand smoke as a child.
+cases,exposures.smoking_frequency,keyword,The text term used to generally decribe how often the patient smokes.
+cases,exposures.submitter_id,keyword,A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the UUID for identifying or recalling a node.
+cases,exposures.time_between_waking_and_first_smoke,keyword,The text term used to describe the approximate amount of time elapsed between the time the patient wakes up in the morning to the time they smoke their first cigarette.
+cases,exposures.tobacco_smoking_onset_year,long,The year in which the participant began smoking.
+cases,exposures.tobacco_smoking_quit_year,long,The year in which the participant quit smoking.
+cases,exposures.tobacco_smoking_status,keyword,Category describing current smoking status and smoking history as self-reported by a patient.
+cases,exposures.tobacco_use_per_day,long,Numeric value that represents the number of times the patient uses tobacco each day.
+cases,exposures.type_of_smoke_exposure,keyword,The text term used to describe the patient's specific type of smoke exposure.
+cases,exposures.type_of_tobacco_used,keyword,The text term used to describe the specific type of tobacco used by the patient.
+cases,exposures.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,exposures.weight,long,The weight of the patient measured in kilograms.
+cases,exposures.years_smoked,long,Numeric value (or unknown) to represent the number of years a person has been smoking.
+cases,family_histories.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,family_histories.family_history_id,keyword,N/A
+cases,family_histories.relationship_age_at_diagnosis,long,The age (in years) when the patient's relative was first diagnosed.
+cases,family_histories.relationship_gender,keyword,The text term used to describe the gender of the patient's relative with a history of cancer.
+cases,family_histories.relationship_primary_diagnosis,keyword,The text term used to describe the malignant diagnosis of the patient's relative with a history of cancer.
+cases,family_histories.relationship_type,keyword,The subgroup that describes the state of connectedness between members of the unit of society organized around kinship ties.
+cases,family_histories.relative_with_cancer_history,keyword,The yes/no/unknown indicator used to describe whether any of the patient's relatives have a history of cancer.
+cases,family_histories.relatives_with_cancer_history_count,long,The number of relatives the patient has with a known history of cancer.
+cases,family_histories.submitter_id,keyword,A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the UUID for identifying or recalling a node.
+cases,family_histories.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,follow_ups.adverse_event,keyword,Text that represents the Common Terminology Criteria for Adverse Events low level term name for an adverse event.
+cases,follow_ups.adverse_event_grade,keyword,"The text term used to describe a specific histone variants, which are proteins that substitute for the core canonical histones."
+cases,follow_ups.aids_risk_factors,keyword,The text term used to describe a risk factor of the acquired immunodeficiency syndrome (AIDS) that the patient either had at time time of the study or experienced in the past.
+cases,follow_ups.barretts_esophagus_goblet_cells_present,keyword,The yes/no/unknown indicator used to describe whether goblet cells were determined to be present in a patient diagnosed with Barrett's esophagus.
+cases,follow_ups.bmi,long,A calculated numerical quantity that represents an individual's weight to height ratio.
+cases,follow_ups.body_surface_area,long,Numeric value used to represent the 2-dimensional extent of the body surface relating height to weight.
+cases,follow_ups.cause_of_response,keyword,The text term used to describe the suspected cause or reason for the patient disease response.
+cases,follow_ups.cd4_count,long,The text term used to describe the outcome of the procedure to determine the amount of the CD4 expressing cells in a sample.
+cases,follow_ups.cdc_hiv_risk_factors,keyword,"The text term used to describe a risk factor for human immunodeficiency virus, as described by the Center for Disease Control."
+cases,follow_ups.comorbidity,keyword,"The text term used to describe a comorbidity disease, which coexists with the patient's malignant disease."
+cases,follow_ups.comorbidity_method_of_diagnosis,keyword,The text term used to describe the method used to diagnose the patient's comorbidity disease.
+cases,follow_ups.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,follow_ups.days_to_adverse_event,long,Number of days between the date used for index and the date of the patient's adverse event.
+cases,follow_ups.days_to_comorbidity,long,Number of days between the date used for index and the date the patient was diagnosed with a comorbidity.
+cases,follow_ups.days_to_follow_up,long,Number of days between the date used for index and the date of the patient's last follow-up appointment or contact.
+cases,follow_ups.days_to_imaging,long,Number of days between the date used for index and the date the imaging or scan was performed on the patient.
+cases,follow_ups.days_to_progression,long,Number of days between the date used for index and the date the patient's disease progressed.
+cases,follow_ups.days_to_progression_free,long,Number of days between the date used for index and the date the patient's disease was formally confirmed as progression-free.
+cases,follow_ups.days_to_recurrence,long,Number of days between the date used for index and the date the patient's disease recurred.
+cases,follow_ups.diabetes_treatment_type,keyword,Text term used to describe the types of treatment used to manage diabetes.
+cases,follow_ups.disease_response,keyword,Code assigned to describe the patient's response or outcome to the disease.
+cases,follow_ups.dlco_ref_predictive_percent,long,"The value, as a percentage of predicted lung volume, measuring the amount of carbon monoxide detected in a patient's lungs."
+cases,follow_ups.ecog_performance_status,keyword,The ECOG functional performance status of the patient/participant.
+cases,follow_ups.evidence_of_recurrence_type,keyword,The text term used to describe the type of evidence used to determine whether the patient's disease recurred.
+cases,follow_ups.fev1_fvc_post_bronch_percent,long,Percentage value to represent result of Forced Expiratory Volume in 1 second (FEV1) divided by the Forced Vital Capacity (FVC) post-bronchodilator.
+cases,follow_ups.fev1_fvc_pre_bronch_percent,long,Percentage value to represent result of Forced Expiratory Volume in 1 second (FEV1) divided by the Forced Vital Capacity (FVC) pre-bronchodilator.
+cases,follow_ups.fev1_ref_post_bronch_percent,long,The percentage comparison to a normal value reference range of the volume of air that a patient can forcibly exhale from the lungs in one second post-bronchodilator.
+cases,follow_ups.fev1_ref_pre_bronch_percent,long,The percentage comparison to a normal value reference range of the volume of air that a patient can forcibly exhale from the lungs in one second pre-bronchodilator.
+cases,follow_ups.follow_up_id,keyword,N/A
+cases,follow_ups.haart_treatment_indicator,keyword,The text term used to indicate whether the patient received Highly Active Antiretroviral Therapy (HARRT).
+cases,follow_ups.height,long,The height of the patient in centimeters.
+cases,follow_ups.hepatitis_sustained_virological_response,keyword,The yes/no/unknown indicator used to describe whether the patient received treatment for a risk factor the patient had at the time of or prior to their diagnosis.
+cases,follow_ups.hiv_viral_load,long,"Numeric value that represents the concentration of an analyte or aliquot extracted from the sample or sample portion, measured in milligrams per milliliter."
+cases,follow_ups.hormonal_contraceptive_use,keyword,The text term used to indicate whether the patient used hormonal contraceptives.
+cases,follow_ups.hpv_positive_type,keyword,Text classification to represent the strain or type of human papillomavirus identified in an individual.
+cases,follow_ups.hysterectomy_margins_involved,keyword,The text term used to indicate whether the patient's disease was determined to be involved based on the surgical margins of the hysterectomy.
+cases,follow_ups.hysterectomy_type,keyword,The text term used to describe the type of hysterectomy the patient had.
+cases,follow_ups.imaging_result,keyword,The text term used to describe the result of the imaging or scan performed on the patient.
+cases,follow_ups.imaging_type,keyword,The text term used to describe the type of imaging or scan performed on the patient.
+cases,follow_ups.immunosuppressive_treatment_type,keyword,The text term used to describe the type of immunosuppresive treatment the patient received.
+cases,follow_ups.karnofsky_performance_status,keyword,Text term used to describe the classification used of the functional capabilities of a person.
+cases,follow_ups.menopause_status,keyword,Text term used to describe the patient's menopause status.
+cases,follow_ups.molecular_tests.aa_change,keyword,Alphanumeric value used to describe the amino acid change for a specific genetic variant. Example: R116Q.
+cases,follow_ups.molecular_tests.antigen,keyword,The text term used to describe an antigen included in molecular testing.
+cases,follow_ups.molecular_tests.biospecimen_type,keyword,"The text term used to describe the biological material used for testing, diagnostic, treatment or research purposes."
+cases,follow_ups.molecular_tests.blood_test_normal_range_lower,long,Numeric value used to describe the lower limit of the normal range used to describe a healthy individual at the institution where the test was completed.
+cases,follow_ups.molecular_tests.blood_test_normal_range_upper,long,Numeric value used to describe the upper limit of the normal range used to describe a healthy individual at the institution where the test was completed.
+cases,follow_ups.molecular_tests.cell_count,long,Numeric value used to describe the number of cells used for molecular testing.
+cases,follow_ups.molecular_tests.chromosome,keyword,"The text term used to describe a chromosome targeted or included in molecular testing. If a specific genetic variant is being reported, this property can be used to capture the chromosome where that variant is located."
+cases,follow_ups.molecular_tests.clonality,keyword,The text term used to describe whether a genomic variant is related by descent from a single progenitor cell.
+cases,follow_ups.molecular_tests.copy_number,long,"Numeric value used to describe the number of times a section of the genome is repeated or copied within an insertion, duplication or deletion variant."
+cases,follow_ups.molecular_tests.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,follow_ups.molecular_tests.cytoband,keyword,"Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format: [chromosome][chromosome arm].[band+sub-bands]. Example: 17p13.1."
+cases,follow_ups.molecular_tests.exon,keyword,"Exon number targeted or included in a molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located."
+cases,follow_ups.molecular_tests.gene_symbol,keyword,"The text term used to describe a gene targeted or included in molecular analysis. For rearrangements, this is shold be used to represent the reference gene."
+cases,follow_ups.molecular_tests.histone_family,keyword,"The text term used to describe the family, or classification of a group of basic proteins found in chromatin, called histones."
+cases,follow_ups.molecular_tests.histone_variant,keyword,"The text term used to describe a specific histone variants, which are proteins that substitute for the core canonical histones."
+cases,follow_ups.molecular_tests.intron,keyword,"Intron number targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the intron where that variant is located."
+cases,follow_ups.molecular_tests.laboratory_test,keyword,"The text term used to describe the medical testing used to diagnose, treat or further understand a patient's disease."
+cases,follow_ups.molecular_tests.loci_abnormal_count,long,Numeric value used to describe the number of loci determined to be abnormal.
+cases,follow_ups.molecular_tests.loci_count,long,Numeric value used to describe the number of loci tested.
+cases,follow_ups.molecular_tests.locus,keyword,Alphanumeric value used to describe the locus of a specific genetic variant. Example: NM_001126114.
+cases,follow_ups.molecular_tests.mismatch_repair_mutation,keyword,The yes/no/unknown indicator used to describe whether the mutation included in molecular testing was known to have an affect on the mismatch repair process.
+cases,follow_ups.molecular_tests.molecular_analysis_method,keyword,The text term used to describe the method used for molecular analysis.
+cases,follow_ups.molecular_tests.molecular_consequence,keyword,The text term used to describe the molecular consequence of genetic variation.
+cases,follow_ups.molecular_tests.molecular_test_id,keyword,N/A
+cases,follow_ups.molecular_tests.pathogenicity,keyword,The text used to describe a variant's level of involvement in the cause of the patient's disease according to the standards outlined by the American College of Medical Genetics and Genomics (ACMG).
+cases,follow_ups.molecular_tests.ploidy,keyword,Text term used to describe the number of sets of homologous chromosomes.
+cases,follow_ups.molecular_tests.second_exon,keyword,"The second exon number involved in molecular variation. If a specific genetic variant is being reported, this property can be used to capture the second exon where that variant is located. This property is typically used for a translocation where two different locations are involved in the variation."
+cases,follow_ups.molecular_tests.second_gene_symbol,keyword,"The text term used to describe a secondary gene targeted or included in molecular analysis. For rearrangements, this is should represent the location of the variant."
+cases,follow_ups.molecular_tests.specialized_molecular_test,keyword,Text term used to describe a specific test that is not covered in the list of molecular analysis methods.
+cases,follow_ups.molecular_tests.state,keyword,The current state of the object.
+cases,follow_ups.molecular_tests.submitter_id,keyword,A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the UUID for identifying or recalling a node.
+cases,follow_ups.molecular_tests.test_analyte_type,keyword,The text term used to describe the type of analyte used for molecular testing.
+cases,follow_ups.molecular_tests.test_result,keyword,The text term used to describe the result of the molecular test. If the test result was a numeric value see test_value.
+cases,follow_ups.molecular_tests.test_units,keyword,The text term used to describe the units of the test value for a molecular test. This property is used in conjunction with test_value.
+cases,follow_ups.molecular_tests.test_value,long,The text term or numeric value used to describe a sepcific result of a molecular test.
+cases,follow_ups.molecular_tests.transcript,keyword,Alphanumeric value used to describe the transcript of a specific genetic variant.
+cases,follow_ups.molecular_tests.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,follow_ups.molecular_tests.variant_origin,keyword,The text term used to describe the biological origin of a specific genetic variant.
+cases,follow_ups.molecular_tests.variant_type,keyword,The text term used to describe the type of genetic variation.
+cases,follow_ups.molecular_tests.zygosity,keyword,The text term used to describe the zygosity of a specific genetic variant.
+cases,follow_ups.nadir_cd4_count,long,Numeric value that represents the lowest point to which the CD4 count has dropped (nadir).
+cases,follow_ups.pancreatitis_onset_year,long,Numeric value to represent the year that the patient was diagnosed with clinical chronic pancreatitis.
+cases,follow_ups.pregnancy_outcome,keyword,The text term used to describe the type of pregnancy the patient had.
+cases,follow_ups.progression_or_recurrence,keyword,Yes/No/Unknown indicator to identify whether a patient has had a new tumor event after initial treatment.
+cases,follow_ups.progression_or_recurrence_anatomic_site,keyword,The text term used to describe the anatomic site of the progressive or recurrent disease.
+cases,follow_ups.progression_or_recurrence_type,keyword,The text term used to describe the type of progressive or recurrent disease or relapsed disease.
+cases,follow_ups.recist_targeted_regions_number,long,"Numeric value that represents the number of baseline target lesions, as described by the Response Evaluation Criteria in Solid Tumours (RECIST) criteria."
+cases,follow_ups.recist_targeted_regions_sum,long,"Numeric value that represents the sum of baseline target lesions, as described by the Response Evaluation Criteria in Solid Tumours (RECIST) criteria."
+cases,follow_ups.reflux_treatment_type,keyword,Text term used to describe the types of treatment used to manage gastroesophageal reflux disease (GERD).
+cases,follow_ups.risk_factor,keyword,The text term used to describe a risk factor the patient had at the time of or prior to their diagnosis.
+cases,follow_ups.risk_factor_treatment,keyword,The yes/no/unknown indicator used to describe whether the patient received treatment for a risk factor the patient had at the time of or prior to their diagnosis.
+cases,follow_ups.scan_tracer_used,keyword,The text term used to describe the type of tracer used during the imaging or scan of the patient.
+cases,follow_ups.state,keyword,The current state of the object.
+cases,follow_ups.submitter_id,keyword,A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the UUID for identifying or recalling a node.
+cases,follow_ups.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,follow_ups.viral_hepatitis_serologies,keyword,Text term that describes the kind of serological laboratory test used to determine the patient's hepatitus status.
+cases,follow_ups.weight,long,The weight of the patient measured in kilograms.
+cases,primary_site,keyword,N/A
+cases,project.dbgap_accession_number,keyword,The dbgap accession number for the project.
+cases,project.intended_release_date,keyword,Tracks a Project's intended release date.
+cases,project.name,keyword,Display name for the project
+cases,project.program.dbgap_accession_number,keyword,The dbgap accession number provided for the program.
+cases,project.program.name,keyword,Full name/title of the program.
+cases,project.program.program_id,keyword,N/A
+cases,project.project_id,keyword,N/A
+cases,project.releasable,keyword,A project can only be released by the user when `releasable` is true.
+cases,project.released,keyword,To release a project is to tell the GDC to include all submitted entities in the next GDC index.
+cases,samples.biospecimen_anatomic_site,keyword,Text term that represents the name of the primary disease site of the submitted tumor sample.
+cases,samples.biospecimen_laterality,keyword,"For tumors in paired organs, designates the side on which the specimen was obtained."
+cases,samples.catalog_reference,keyword,HCMI catalog reference number for cancer model.
+cases,samples.composition,keyword,Text term that represents the cellular composition of the sample.
+cases,samples.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,samples.current_weight,long,"Numeric value that represents the current weight of the sample, measured in milligrams."
+cases,samples.days_to_collection,long,"Time interval from the date of biospecimen collection to the date of initial pathologic diagnosis, represented as a calculated number of days."
+cases,samples.days_to_sample_procurement,long,The number of days from the date the patient was diagnosed to the date of the procedure that produced the sample.
+cases,samples.diagnosis_pathologically_confirmed,keyword,The histologic description of tissue or cells confirmed by a pathology review of frozen or formalin fixed slide(s) completed after the diagnostic pathology review of the tumor sample used to extract analyte(s).
+cases,samples.distance_normal_to_tumor,keyword,Text term to signify the distance between the tumor tissue and the normal control tissue that was procured for matching normal DNA.
+cases,samples.distributor_reference,keyword,Distributor reference number for cancer model.
+cases,samples.freezing_method,keyword,Text term that represents the method used for freezing the sample.
+cases,samples.growth_rate,long,"Rate at which the model grows, measured as hours to time to split."
+cases,samples.initial_weight,long,"Numeric value that represents the initial weight of the sample, measured in milligrams."
+cases,samples.intermediate_dimension,long,"Intermediate dimension of the sample, in millimeters."
+cases,samples.is_ffpe,keyword,Indicator to signify whether or not the tissue sample was fixed in formalin and embedded in paraffin (FFPE).
+cases,samples.longest_dimension,long,"Numeric value that represents the longest dimension of the sample, measured in millimeters."
+cases,samples.method_of_sample_procurement,keyword,The method used to procure the sample used to extract analyte(s).
+cases,samples.oct_embedded,keyword,Indicator of whether or not the sample was embedded in Optimal Cutting Temperature (OCT) compound.
+cases,samples.passage_count,long,Number of passages (splits) between the original tissue and this model.
+cases,samples.pathology_report_uuid,keyword,UUID of the related pathology report.
+cases,samples.portions.analytes.a260_a280_ratio,long,"Numeric value that represents the sample ratio of nucleic acid absorbance at 260 nm and 280 nm, used to determine a measure of DNA purity."
+cases,samples.portions.analytes.aliquots.aliquot_id,keyword,N/A
+cases,samples.portions.analytes.aliquots.aliquot_quantity,long,The quantity in micrograms (ug) of the aliquot(s) derived from the analyte(s) shipped for sequencing and characterization.
+cases,samples.portions.analytes.aliquots.aliquot_volume,long,The volume in microliters (ml) of the aliquot(s) derived from the analyte(s) shipped for sequencing and characterization.
+cases,samples.portions.analytes.aliquots.amount,long,Weight in grams or volume in mL.
+cases,samples.portions.analytes.aliquots.analyte_type,keyword,Text term that represents the kind of molecular specimen analyte.
+cases,samples.portions.analytes.aliquots.analyte_type_id,keyword,A single letter code used to identify a type of molecular analyte.
+cases,samples.portions.analytes.aliquots.center.center_id,keyword,N/A
+cases,samples.portions.analytes.aliquots.center.center_type,keyword,Type classification of the center (e.g. CGCC).
+cases,samples.portions.analytes.aliquots.center.code,keyword,Numeric code for the center.
+cases,samples.portions.analytes.aliquots.center.name,keyword,Name of the center (e.g. Broad Institute of MIT and Harvard).
+cases,samples.portions.analytes.aliquots.center.namespace,keyword,Domain name of the center (e.g. borad.mit.edu).
+cases,samples.portions.analytes.aliquots.center.short_name,keyword,Shortened name of the center (e.g. BI).
+cases,samples.portions.analytes.aliquots.concentration,long,"Numeric value that represents the concentration of an analyte or aliquot extracted from the sample or sample portion, measured in milligrams per milliliter."
+cases,samples.portions.analytes.aliquots.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,samples.portions.analytes.aliquots.no_matched_normal_low_pass_wgs,keyword,There will be no matched normal low pass WGS aliquots for this case that can be used for variant calling purposes. The GDC may elect to use a single tumor calling pipeline to process this data.
+cases,samples.portions.analytes.aliquots.no_matched_normal_targeted_sequencing,keyword,There will be no matched normal Targeted Sequencing aliquots for this case that can be used for variant calling purposes. The GDC may elect to use a single tumor calling pipeline to process this data.
+cases,samples.portions.analytes.aliquots.no_matched_normal_wgs,keyword,There will be no matched normal WGS aliquots for this case that can be used for variant calling purposes. The GDC may elect to use a single tumor calling pipeline to process this data.
+cases,samples.portions.analytes.aliquots.no_matched_normal_wxs,keyword,There will be no matched normal WXS aliquots for this case that can be used for variant calling purposes. The GDC may elect to use a single tumor calling pipeline to process this data.
+cases,samples.portions.analytes.aliquots.selected_normal_low_pass_wgs,keyword,Denotes which low-pass WGS normal aliquot the submitter prefers to use for variant calling. Only one normal per experimental strategy per case can be selected.
+cases,samples.portions.analytes.aliquots.selected_normal_targeted_sequencing,keyword,Denotes which targeted_sequencing normal aliquot the submitter prefers to use for variant calling. Only one normal per experimental strategy per case can be selected.
+cases,samples.portions.analytes.aliquots.selected_normal_wgs,keyword,Denotes which WGS normal aliquot the submitter prefers to use for variant calling. Only one normal per experimental strategy per case can be selected.
+cases,samples.portions.analytes.aliquots.selected_normal_wxs,keyword,Denotes which WXS normal aliquot the submitter prefers to use for variant calling. Only one normal per experimental strategy per case can be selected.
+cases,samples.portions.analytes.aliquots.source_center,keyword,Name of the center that provided the item.
+cases,samples.portions.analytes.aliquots.submitter_id,keyword,A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the UUID for identifying or recalling a node.
+cases,samples.portions.analytes.aliquots.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,samples.portions.analytes.amount,long,Weight in grams or volume in mL.
+cases,samples.portions.analytes.analyte_id,keyword,N/A
+cases,samples.portions.analytes.analyte_quantity,long,The quantity in micrograms (ug) of the analyte(s) derived from the analyte(s) shipped for sequencing and characterization.
+cases,samples.portions.analytes.analyte_type,keyword,Text term that represents the kind of molecular specimen analyte.
+cases,samples.portions.analytes.analyte_type_id,keyword,A single letter code used to identify a type of molecular analyte.
+cases,samples.portions.analytes.analyte_volume,long,The volume in microliters (ul) of the aliquot(s) derived from the analyte(s) shipped for sequencing and characterization.
+cases,samples.portions.analytes.concentration,long,"Numeric value that represents the concentration of an analyte or aliquot extracted from the sample or sample portion, measured in milligrams per milliliter."
+cases,samples.portions.analytes.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,samples.portions.analytes.normal_tumor_genotype_snp_match,keyword,Text term that represents whether or not the genotype of the normal tumor matches or if the data is not available.
+cases,samples.portions.analytes.ribosomal_rna_28s_16s_ratio,long,The 28S/18S ribosomal RNA band ratio used to assess the quality of total RNA.
+cases,samples.portions.analytes.spectrophotometer_method,keyword,Name of the method used to determine the concentration of purified nucleic acid within a solution.
+cases,samples.portions.analytes.submitter_id,keyword,A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the UUID for identifying or recalling a node.
+cases,samples.portions.analytes.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,samples.portions.analytes.well_number,keyword,Numeric value that represents the the well location within a plate for the analyte or aliquot from the sample.
+cases,samples.portions.center.center_id,keyword,N/A
+cases,samples.portions.center.center_type,keyword,Type classification of the center (e.g. CGCC).
+cases,samples.portions.center.code,keyword,Numeric code for the center.
+cases,samples.portions.center.name,keyword,Name of the center (e.g. Broad Institute of MIT and Harvard).
+cases,samples.portions.center.namespace,keyword,Domain name of the center (e.g. borad.mit.edu).
+cases,samples.portions.center.short_name,keyword,Shortened name of the center (e.g. BI).
+cases,samples.portions.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,samples.portions.creation_datetime,long,The datetime of portion creation encoded as seconds from epoch.
+cases,samples.portions.is_ffpe,keyword,Indicator to signify whether or not the tissue sample was fixed in formalin and embedded in paraffin (FFPE).
+cases,samples.portions.portion_id,keyword,N/A
+cases,samples.portions.portion_number,keyword,Numeric value that represents the sequential number assigned to a portion of the sample.
+cases,samples.portions.slides.bone_marrow_malignant_cells,keyword,The text term used to indicate whether there are malignant cells in the bone marrow.
+cases,samples.portions.slides.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,samples.portions.slides.number_proliferating_cells,long,Numeric value that represents the count of proliferating cells determined during pathologic review of the sample slide(s).
+cases,samples.portions.slides.percent_eosinophil_infiltration,long,Numeric value to represent the percentage of infiltration by eosinophils in a tumor sample or specimen.
+cases,samples.portions.slides.percent_follicular_component,long,Numeric value that represents the percentage of follicular features found in a specific tissue sample.
+cases,samples.portions.slides.percent_granulocyte_infiltration,long,Numeric value to represent the percentage of infiltration by granulocytes in a tumor sample or specimen.
+cases,samples.portions.slides.percent_inflam_infiltration,long,"Numeric value to represent local response to cellular injury, marked by capillary dilatation, edema and leukocyte infiltration; clinically, inflammation is manifest by reddness, heat, pain, swelling and loss of function, with the need to heal damaged tissue."
+cases,samples.portions.slides.percent_lymphocyte_infiltration,long,Numeric value to represent the percentage of infiltration by lymphocytes in a solid tissue normal sample or specimen.
+cases,samples.portions.slides.percent_monocyte_infiltration,long,Numeric value to represent the percentage of monocyte infiltration in a sample or specimen.
+cases,samples.portions.slides.percent_necrosis,long,Numeric value to represent the percentage of cell death in a malignant tumor sample or specimen.
+cases,samples.portions.slides.percent_neutrophil_infiltration,long,Numeric value to represent the percentage of infiltration by neutrophils in a tumor sample or specimen.
+cases,samples.portions.slides.percent_normal_cells,long,Numeric value to represent the percentage of normal cell content in a malignant tumor sample or specimen.
+cases,samples.portions.slides.percent_rhabdoid_features,long,Numeric value that represents the percentage of rhabdoid features found in a specific tissue sample.
+cases,samples.portions.slides.percent_sarcomatoid_features,long,Numeric value that represents the percentage of sarcomatoid features found in a specific tissue sample.
+cases,samples.portions.slides.percent_stromal_cells,long,"Numeric value to represent the percentage of reactive cells that are present in a malignant tumor sample or specimen but are not malignant such as fibroblasts, vascular structures, etc."
+cases,samples.portions.slides.percent_tumor_cells,long,Numeric value that represents the percentage of infiltration by tumor cells in a sample.
+cases,samples.portions.slides.percent_tumor_nuclei,long,Numeric value to represent the percentage of tumor nuclei in a malignant neoplasm sample or specimen.
+cases,samples.portions.slides.prostatic_chips_positive_count,long,"The text term used to describe the number of positive prostatic chips, which are generated from transurethral resection of the prostate (TURP) procedures and are generally used for relieving urinary obstruction due to nodular hyperplasia of the prostate (benign prostatic hyperplasia)."
+cases,samples.portions.slides.prostatic_chips_total_count,long,"The text term used to describe the total number of prostatic chips, which are generated from transurethral resection of the prostate (TURP) procedures and are generally used for relieving urinary obstruction due to nodular hyperplasia of the prostate (benign prostatic hyperplasia)."
+cases,samples.portions.slides.prostatic_involvement_percent,long,Numeric value that represents the percentage of prostatic involvement found in a specific tissue sample.
+cases,samples.portions.slides.section_location,keyword,Tissue source of the slide.
+cases,samples.portions.slides.slide_id,keyword,N/A
+cases,samples.portions.slides.submitter_id,keyword,A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the UUID for identifying or recalling a node.
+cases,samples.portions.slides.tissue_microarray_coordinates,keyword,The alphanumeric term used to describe the coordinates of a specific tissue located on a tissue microarray slide.
+cases,samples.portions.slides.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,samples.portions.submitter_id,keyword,A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the UUID for identifying or recalling a node.
+cases,samples.portions.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,samples.portions.weight,long,"Numeric value that represents the sample portion weight, measured in milligrams."
+cases,samples.preservation_method,keyword,Text term that represents the method used to preserve the sample.
+cases,samples.sample_id,keyword,N/A
+cases,samples.sample_type,keyword,Text term to describe the source of a biospecimen used for a laboratory test.
+cases,samples.sample_type_id,keyword,The accompanying sample type id for the sample type.
+cases,samples.shortest_dimension,long,"Numeric value that represents the shortest dimension of the sample, measured in millimeters."
+cases,samples.submitter_id,keyword,A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the UUID for identifying or recalling a node.
+cases,samples.time_between_clamping_and_freezing,long,"Numeric representation of the elapsed time between the surgical clamping of blood supply and freezing of the sample, measured in minutes."
+cases,samples.time_between_excision_and_freezing,long,"Numeric representation of the elapsed time between the excision and freezing of the sample, measured in minutes."
+cases,samples.tissue_collection_type,keyword,The text term used to describe the tyoe of collection used to obtain tissue.
+cases,samples.tissue_type,keyword,Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
+cases,samples.tumor_code,keyword,Diagnostic tumor code of the tissue sample source.
+cases,samples.tumor_code_id,keyword,BCR-defined id code for the tumor sample.
+cases,samples.tumor_descriptor,keyword,Text that describes the kind of disease present in the tumor specimen as related to a specific timepoint.
+cases,samples.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+cases,state,keyword,N/A
+cases,submitter_id,keyword,N/A
+cases,updated_datetime,keyword,N/A
+files,access,keyword,N/A
+files,analysis.analysis_id,keyword,N/A
+files,analysis.analysis_type,keyword,N/A
+files,analysis.created_datetime,keyword,N/A
+files,analysis.input_files.access,keyword,N/A
+files,analysis.input_files.average_base_quality,long,N/A
+files,analysis.input_files.average_insert_size,long,N/A
+files,analysis.input_files.average_read_length,long,N/A
+files,analysis.input_files.channel,keyword,N/A
+files,analysis.input_files.chip_id,keyword,N/A
+files,analysis.input_files.chip_position,keyword,N/A
+files,analysis.input_files.contamination,long,N/A
+files,analysis.input_files.contamination_error,long,N/A
+files,analysis.input_files.created_datetime,keyword,N/A
+files,analysis.input_files.data_category,keyword,N/A
+files,analysis.input_files.data_format,keyword,N/A
+files,analysis.input_files.data_type,keyword,N/A
+files,analysis.input_files.experimental_strategy,keyword,N/A
+files,analysis.input_files.file_id,keyword,N/A
+files,analysis.input_files.file_name,keyword,N/A
+files,analysis.input_files.file_size,long,N/A
+files,analysis.input_files.imaging_date,keyword,N/A
+files,analysis.input_files.magnification,long,N/A
+files,analysis.input_files.md5sum,keyword,N/A
+files,analysis.input_files.mean_coverage,long,N/A
+files,analysis.input_files.msi_score,long,N/A
+files,analysis.input_files.msi_status,keyword,N/A
+files,analysis.input_files.pairs_on_diff_chr,long,N/A
+files,analysis.input_files.plate_name,keyword,N/A
+files,analysis.input_files.plate_well,keyword,N/A
+files,analysis.input_files.platform,keyword,N/A
+files,analysis.input_files.proportion_base_mismatch,long,N/A
+files,analysis.input_files.proportion_coverage_10X,long,N/A
+files,analysis.input_files.proportion_coverage_10x,long,N/A
+files,analysis.input_files.proportion_coverage_30X,long,N/A
+files,analysis.input_files.proportion_coverage_30x,long,N/A
+files,analysis.input_files.proportion_reads_duplicated,long,N/A
+files,analysis.input_files.proportion_reads_mapped,long,N/A
+files,analysis.input_files.proportion_targets_no_coverage,long,N/A
+files,analysis.input_files.read_pair_number,keyword,N/A
+files,analysis.input_files.revision,long,N/A
+files,analysis.input_files.stain_type,keyword,N/A
+files,analysis.input_files.total_reads,long,N/A
+files,analysis.input_files.tumor_ploidy,long,N/A
+files,analysis.input_files.tumor_purity,long,N/A
+files,analysis.input_files.updated_datetime,keyword,N/A
+files,analysis.metadata.read_groups.RIN,long,N/A
+files,analysis.metadata.read_groups.adapter_name,keyword,N/A
+files,analysis.metadata.read_groups.adapter_sequence,keyword,N/A
+files,analysis.metadata.read_groups.base_caller_name,keyword,N/A
+files,analysis.metadata.read_groups.base_caller_version,keyword,N/A
+files,analysis.metadata.read_groups.created_datetime,keyword,N/A
+files,analysis.metadata.read_groups.days_to_sequencing,long,N/A
+files,analysis.metadata.read_groups.experiment_name,keyword,N/A
+files,analysis.metadata.read_groups.flow_cell_barcode,keyword,N/A
+files,analysis.metadata.read_groups.fragment_maximum_length,long,N/A
+files,analysis.metadata.read_groups.fragment_mean_length,long,N/A
+files,analysis.metadata.read_groups.fragment_minimum_length,long,N/A
+files,analysis.metadata.read_groups.fragment_standard_deviation_length,long,N/A
+files,analysis.metadata.read_groups.includes_spike_ins,keyword,N/A
+files,analysis.metadata.read_groups.instrument_model,keyword,N/A
+files,analysis.metadata.read_groups.is_paired_end,keyword,N/A
+files,analysis.metadata.read_groups.lane_number,long,N/A
+files,analysis.metadata.read_groups.library_name,keyword,N/A
+files,analysis.metadata.read_groups.library_preparation_kit_catalog_number,keyword,N/A
+files,analysis.metadata.read_groups.library_preparation_kit_name,keyword,N/A
+files,analysis.metadata.read_groups.library_preparation_kit_vendor,keyword,N/A
+files,analysis.metadata.read_groups.library_preparation_kit_version,keyword,N/A
+files,analysis.metadata.read_groups.library_selection,keyword,N/A
+files,analysis.metadata.read_groups.library_strand,keyword,N/A
+files,analysis.metadata.read_groups.library_strategy,keyword,N/A
+files,analysis.metadata.read_groups.multiplex_barcode,keyword,N/A
+files,analysis.metadata.read_groups.number_expect_cells,long,N/A
+files,analysis.metadata.read_groups.platform,keyword,N/A
+files,analysis.metadata.read_groups.read_group_id,keyword,N/A
+files,analysis.metadata.read_groups.read_group_name,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.adapter_content,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.basic_statistics,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.created_datetime,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.encoding,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.fastq_name,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.kmer_content,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.overrepresented_sequences,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.per_base_n_content,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.per_base_sequence_content,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.per_base_sequence_quality,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.per_sequence_gc_content,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.per_sequence_quality_score,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.per_tile_sequence_quality,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.percent_gc_content,long,N/A
+files,analysis.metadata.read_groups.read_group_qcs.read_group_qc_id,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.sequence_duplication_levels,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.sequence_length_distribution,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.state,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.submitter_id,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.total_sequences,long,N/A
+files,analysis.metadata.read_groups.read_group_qcs.updated_datetime,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.workflow_end_datetime,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.workflow_link,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.workflow_start_datetime,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.workflow_type,keyword,N/A
+files,analysis.metadata.read_groups.read_group_qcs.workflow_version,keyword,N/A
+files,analysis.metadata.read_groups.read_length,long,N/A
+files,analysis.metadata.read_groups.rin,long,N/A
+files,analysis.metadata.read_groups.sequencing_center,keyword,N/A
+files,analysis.metadata.read_groups.sequencing_date,keyword,N/A
+files,analysis.metadata.read_groups.single_cell_library,keyword,N/A
+files,analysis.metadata.read_groups.size_selection_range,keyword,N/A
+files,analysis.metadata.read_groups.spike_ins_concentration,keyword,N/A
+files,analysis.metadata.read_groups.spike_ins_fasta,keyword,N/A
+files,analysis.metadata.read_groups.submitter_id,keyword,N/A
+files,analysis.metadata.read_groups.target_capture_kit,keyword,N/A
+files,analysis.metadata.read_groups.target_capture_kit_catalog_number,keyword,N/A
+files,analysis.metadata.read_groups.target_capture_kit_name,keyword,N/A
+files,analysis.metadata.read_groups.target_capture_kit_target_region,keyword,N/A
+files,analysis.metadata.read_groups.target_capture_kit_vendor,keyword,N/A
+files,analysis.metadata.read_groups.target_capture_kit_version,keyword,N/A
+files,analysis.metadata.read_groups.to_trim_adapter_sequence,keyword,N/A
+files,analysis.metadata.read_groups.updated_datetime,keyword,N/A
+files,analysis.updated_datetime,keyword,N/A
+files,analysis.workflow_end_datetime,keyword,N/A
+files,analysis.workflow_link,keyword,N/A
+files,analysis.workflow_start_datetime,keyword,N/A
+files,analysis.workflow_type,keyword,N/A
+files,analysis.workflow_version,keyword,N/A
+files,archive.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+files,archive.data_category,keyword,Broad categorization of the contents of the data file.
+files,archive.data_format,keyword,Format of the data files.
+files,archive.data_type,keyword,Specific content type of the data file.
+files,archive.error_type,keyword,Type of error for the data file object.
+files,archive.file_name,keyword,The name (or part of a name) of a file (of any type).
+files,archive.file_size,long,The size of the data file (object) in bytes.
+files,archive.md5sum,keyword,The 128-bit hash value expressed as a 32 digit hexadecimal number (in lower case) used as a file's digital fingerprint.
+files,archive.revision,long,The revision of this archive in the DCC.
+files,archive.state,keyword,The current state of the object.
+files,archive.state_comment,keyword,"Optional comment about why the file is in the current state, mainly for invalid state."
+files,archive.submitter_id,keyword,A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the UUID for identifying or recalling a node.
+files,archive.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+files,average_base_quality,long,N/A
+files,average_insert_size,long,N/A
+files,average_read_length,long,N/A
+files,center.center_id,keyword,N/A
+files,center.center_type,keyword,Type classification of the center (e.g. CGCC).
+files,center.code,keyword,Numeric code for the center.
+files,center.name,keyword,Name of the center (e.g. Broad Institute of MIT and Harvard).
+files,center.namespace,keyword,Domain name of the center (e.g. borad.mit.edu).
+files,center.short_name,keyword,Shortened name of the center (e.g. BI).
+files,channel,keyword,N/A
+files,chip_id,keyword,N/A
+files,chip_position,keyword,N/A
+files,contamination,long,N/A
+files,contamination_error,long,N/A
+files,data_category,keyword,N/A
+files,data_format,keyword,N/A
+files,data_type,keyword,N/A
+files,downstream_analyses.analysis_id,keyword,N/A
+files,downstream_analyses.analysis_type,keyword,N/A
+files,downstream_analyses.created_datetime,keyword,N/A
+files,downstream_analyses.output_files.access,keyword,N/A
+files,downstream_analyses.output_files.average_base_quality,long,N/A
+files,downstream_analyses.output_files.average_insert_size,long,N/A
+files,downstream_analyses.output_files.average_read_length,long,N/A
+files,downstream_analyses.output_files.channel,keyword,N/A
+files,downstream_analyses.output_files.chip_id,keyword,N/A
+files,downstream_analyses.output_files.chip_position,keyword,N/A
+files,downstream_analyses.output_files.contamination,long,N/A
+files,downstream_analyses.output_files.contamination_error,long,N/A
+files,downstream_analyses.output_files.created_datetime,keyword,N/A
+files,downstream_analyses.output_files.data_category,keyword,N/A
+files,downstream_analyses.output_files.data_format,keyword,N/A
+files,downstream_analyses.output_files.data_type,keyword,N/A
+files,downstream_analyses.output_files.error_type,keyword,N/A
+files,downstream_analyses.output_files.experimental_strategy,keyword,N/A
+files,downstream_analyses.output_files.file_id,keyword,N/A
+files,downstream_analyses.output_files.file_name,keyword,N/A
+files,downstream_analyses.output_files.file_size,long,N/A
+files,downstream_analyses.output_files.imaging_date,keyword,N/A
+files,downstream_analyses.output_files.magnification,long,N/A
+files,downstream_analyses.output_files.md5sum,keyword,N/A
+files,downstream_analyses.output_files.mean_coverage,long,N/A
+files,downstream_analyses.output_files.msi_score,long,N/A
+files,downstream_analyses.output_files.msi_status,keyword,N/A
+files,downstream_analyses.output_files.pairs_on_diff_chr,long,N/A
+files,downstream_analyses.output_files.plate_name,keyword,N/A
+files,downstream_analyses.output_files.plate_well,keyword,N/A
+files,downstream_analyses.output_files.platform,keyword,N/A
+files,downstream_analyses.output_files.proportion_base_mismatch,long,N/A
+files,downstream_analyses.output_files.proportion_coverage_10X,long,N/A
+files,downstream_analyses.output_files.proportion_coverage_10x,long,N/A
+files,downstream_analyses.output_files.proportion_coverage_30X,long,N/A
+files,downstream_analyses.output_files.proportion_coverage_30x,long,N/A
+files,downstream_analyses.output_files.proportion_reads_duplicated,long,N/A
+files,downstream_analyses.output_files.proportion_reads_mapped,long,N/A
+files,downstream_analyses.output_files.proportion_targets_no_coverage,long,N/A
+files,downstream_analyses.output_files.read_pair_number,keyword,N/A
+files,downstream_analyses.output_files.revision,long,N/A
+files,downstream_analyses.output_files.stain_type,keyword,N/A
+files,downstream_analyses.output_files.state,keyword,N/A
+files,downstream_analyses.output_files.state_comment,keyword,N/A
+files,downstream_analyses.output_files.submitter_id,keyword,N/A
+files,downstream_analyses.output_files.total_reads,long,N/A
+files,downstream_analyses.output_files.tumor_ploidy,long,N/A
+files,downstream_analyses.output_files.tumor_purity,long,N/A
+files,downstream_analyses.output_files.updated_datetime,keyword,N/A
+files,downstream_analyses.submitter_id,keyword,N/A
+files,downstream_analyses.updated_datetime,keyword,N/A
+files,downstream_analyses.workflow_end_datetime,keyword,N/A
+files,downstream_analyses.workflow_link,keyword,N/A
+files,downstream_analyses.workflow_start_datetime,keyword,N/A
+files,downstream_analyses.workflow_type,keyword,N/A
+files,downstream_analyses.workflow_version,keyword,N/A
+files,experimental_strategy,keyword,N/A
+files,file_autocomplete,id,N/A
+files,file_id,keyword,N/A
+files,file_name,keyword,N/A
+files,file_size,long,N/A
+files,imaging_date,keyword,N/A
+files,index_files.access,keyword,N/A
+files,index_files.average_base_quality,long,N/A
+files,index_files.average_insert_size,long,N/A
+files,index_files.average_read_length,long,N/A
+files,index_files.channel,keyword,N/A
+files,index_files.chip_id,keyword,N/A
+files,index_files.chip_position,keyword,N/A
+files,index_files.contamination,long,N/A
+files,index_files.contamination_error,long,N/A
+files,index_files.created_datetime,keyword,N/A
+files,index_files.data_category,keyword,N/A
+files,index_files.data_format,keyword,N/A
+files,index_files.data_type,keyword,N/A
+files,index_files.error_type,keyword,N/A
+files,index_files.experimental_strategy,keyword,N/A
+files,index_files.file_id,keyword,N/A
+files,index_files.file_name,keyword,N/A
+files,index_files.file_size,long,N/A
+files,index_files.imaging_date,keyword,N/A
+files,index_files.magnification,long,N/A
+files,index_files.md5sum,keyword,N/A
+files,index_files.mean_coverage,long,N/A
+files,index_files.msi_score,long,N/A
+files,index_files.msi_status,keyword,N/A
+files,index_files.pairs_on_diff_chr,long,N/A
+files,index_files.plate_name,keyword,N/A
+files,index_files.plate_well,keyword,N/A
+files,index_files.platform,keyword,N/A
+files,index_files.proportion_base_mismatch,long,N/A
+files,index_files.proportion_coverage_10X,long,N/A
+files,index_files.proportion_coverage_10x,long,N/A
+files,index_files.proportion_coverage_30X,long,N/A
+files,index_files.proportion_coverage_30x,long,N/A
+files,index_files.proportion_reads_duplicated,long,N/A
+files,index_files.proportion_reads_mapped,long,N/A
+files,index_files.proportion_targets_no_coverage,long,N/A
+files,index_files.read_pair_number,keyword,N/A
+files,index_files.revision,long,N/A
+files,index_files.stain_type,keyword,N/A
+files,index_files.total_reads,long,N/A
+files,index_files.tumor_ploidy,long,N/A
+files,index_files.tumor_purity,long,N/A
+files,index_files.updated_datetime,keyword,N/A
+files,magnification,long,N/A
+files,md5sum,keyword,N/A
+files,mean_coverage,long,N/A
+files,metadata_files.access,keyword,N/A
+files,metadata_files.created_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+files,metadata_files.data_category,keyword,N/A
+files,metadata_files.data_format,keyword,N/A
+files,metadata_files.data_type,keyword,N/A
+files,metadata_files.error_type,keyword,Type of error for the data file object.
+files,metadata_files.file_id,keyword,N/A
+files,metadata_files.file_name,keyword,The name (or part of a name) of a file (of any type).
+files,metadata_files.file_size,long,The size of the data file (object) in bytes.
+files,metadata_files.md5sum,keyword,The 128-bit hash value expressed as a 32 digit hexadecimal number (in lower case) used as a file's digital fingerprint.
+files,metadata_files.submitter_id,keyword,A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the UUID for identifying or recalling a node.
+files,metadata_files.updated_datetime,keyword,A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+files,msi_score,long,N/A
+files,msi_status,keyword,N/A
+files,origin,keyword,N/A
+files,pairs_on_diff_chr,long,N/A
+files,plate_name,keyword,N/A
+files,plate_well,keyword,N/A
+files,platform,keyword,N/A
+files,proportion_base_mismatch,long,N/A
+files,proportion_coverage_10X,long,N/A
+files,proportion_coverage_10x,long,N/A
+files,proportion_coverage_30X,long,N/A
+files,proportion_coverage_30x,long,N/A
+files,proportion_reads_duplicated,long,N/A
+files,proportion_reads_mapped,long,N/A
+files,proportion_targets_no_coverage,long,N/A
+files,read_pair_number,keyword,N/A
+files,revision,long,N/A
+files,stain_type,keyword,N/A
+files,tags,keyword,N/A
+files,total_reads,long,N/A
+files,tumor_ploidy,long,N/A
+files,tumor_purity,long,N/A
+files,updated_datetime,keyword,N/A

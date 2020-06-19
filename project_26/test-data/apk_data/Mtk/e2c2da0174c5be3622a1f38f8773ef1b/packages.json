@@ -1,0 +1,1978 @@
+{
+    "Lnicdy/game/GoldMinerkobeig/ACT_GoldMiner;": [
+        "Lnicdy/game/GoldMinerkobeig/ACT_GoldMiner;->findViewById()Landroid/view/View;",
+        "Lnicdy/game/GoldMinerkobeig/ACT_GoldMiner;->getWindow()Landroid/view/Window;",
+        "Lnicdy/game/GoldMinerkobeig/ACT_GoldMiner;->setContentView()V",
+        "Lnicdy/game/GoldMinerkobeig/ACT_GoldMiner;->getWindowManager()Landroid/view/WindowManager;",
+        "Lnicdy/game/GoldMinerkobeig/ACT_GoldMiner;->getSystemService()Ljava/lang/Object;",
+        "Lnicdy/game/GoldMinerkobeig/ACT_GoldMiner;->requestWindowFeature()Z",
+        "Lnicdy/game/GoldMinerkobeig/ACT_GoldMiner;->SetLayoutToGameView()V"
+    ],
+    "Landroid/widget/EditText;": [
+        "Landroid/widget/EditText;->setOnKeyListener()V",
+        "Landroid/widget/EditText;->getText()Landroid/text/Editable;"
+    ],
+    "Lcom/admob/android/ads/AdView;": [
+        "Lcom/admob/android/ads/AdView;->setRequestInterval()V",
+        "Lcom/admob/android/ads/AdView;->getBackgroundColor()I",
+        "Lcom/admob/android/ads/AdView;->getMeasuredHeight()I",
+        "Lcom/admob/android/ads/AdView;->setVisibility()V",
+        "Lcom/admob/android/ads/AdView;->setGravity()V",
+        "Lcom/admob/android/ads/AdView;->a()V",
+        "Lcom/admob/android/ads/AdView;->a()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdView;->setLongClickable()V",
+        "Lcom/admob/android/ads/AdView;->setBackgroundColor()V",
+        "Lcom/admob/android/ads/AdView;->getHeight()I",
+        "Lcom/admob/android/ads/AdView;->getVisibility()I",
+        "Lcom/admob/android/ads/AdView;->setGoneWithoutAd()V",
+        "Lcom/admob/android/ads/AdView;->setSecondaryTextColor()V",
+        "Lcom/admob/android/ads/AdView;->getWidth()I",
+        "Lcom/admob/android/ads/AdView;->invalidate()V",
+        "Lcom/admob/android/ads/AdView;->setPrimaryTextColor()V",
+        "Lcom/admob/android/ads/AdView;->getContext()Landroid/content/Context;",
+        "Lcom/admob/android/ads/AdView;->performClick()Z",
+        "Lcom/admob/android/ads/AdView;->startAnimation()V",
+        "Lcom/admob/android/ads/AdView;->setMeasuredDimension()V",
+        "Lcom/admob/android/ads/AdView;->setClickable()V",
+        "Lcom/admob/android/ads/AdView;->getMeasuredWidth()I",
+        "Lcom/admob/android/ads/AdView;->getPrimaryTextColor()I",
+        "Lcom/admob/android/ads/AdView;->setDescendantFocusability()V",
+        "Lcom/admob/android/ads/AdView;->addView()V",
+        "Lcom/admob/android/ads/AdView;->getChildAt()Landroid/view/View;",
+        "Lcom/admob/android/ads/AdView;->a()Z",
+        "Lcom/admob/android/ads/AdView;->getSecondaryTextColor()I",
+        "Lcom/admob/android/ads/AdView;->a()Lcom/admob/android/ads/d$a;",
+        "Lcom/admob/android/ads/AdView;->setTextColor()V",
+        "Lcom/admob/android/ads/AdView;->getChildCount()I"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixMMABannerXLAdView;": [
+        "Lcom/mobclix/android/sdk/MobclixMMABannerXLAdView;->setRefreshTime()V",
+        "Lcom/mobclix/android/sdk/MobclixMMABannerXLAdView;->getAd()V"
+    ],
+    "Landroid/app/Activity;": [
+        "Landroid/app/Activity;->onRestart()V",
+        "Landroid/app/Activity;->onStop()V",
+        "Landroid/app/Activity;->onPause()V",
+        "Landroid/app/Activity;->onResume()V",
+        "Landroid/app/Activity;->onCreate()V",
+        "Landroid/app/Activity;->onDestroy()V",
+        "Landroid/app/Activity;->onStart()V"
+    ],
+    "Landroid/view/Window;": [
+        "Landroid/view/Window;->setFlags()V"
+    ],
+    "Landroid/view/WindowManager;": [
+        "Landroid/view/WindowManager;->removeView()V",
+        "Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;"
+    ],
+    "Landroid/view/Display;": [
+        "Landroid/view/Display;->getOrientation()I",
+        "Landroid/view/Display;->getMetrics()V",
+        "Landroid/view/Display;->getWidth()I"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/G2D/ScreenInfo;": [
+        "Lnicdy/game/GameEngine/Graphics/G2D/ScreenInfo;->SetScreenDirect_L()V"
+    ],
+    "Lnicdy/game/GameEngine/Frame/ControlManager;": [
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->SetTrackBallMoveDirct()V",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->GetFlingSpeedY()F",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->SetTrackBallEvent()V",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->CheckIsScroll()V",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->CheckIsDoubleClick()Z",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->CheckIsFling()V",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->SetTouchSwitch()V",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->IsDoubleClick()Z",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->ParseTrackBallPath()V",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->SetKeyEvent()V",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->IsFling()Z",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->CheckIsClick()Z",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->IsClick()Z",
+        "Lnicdy/game/GameEngine/Frame/ControlManager;->SetTouchEvent()V"
+    ],
+    "Ljava/lang/Thread;": [
+        "Ljava/lang/Thread;->start()V",
+        "Ljava/lang/Thread;->join()V",
+        "Ljava/lang/Thread;->sleep()V",
+        "Ljava/lang/Thread;->interrupt()V"
+    ],
+    "Ljava/lang/InterruptedException;": [
+        "Ljava/lang/InterruptedException;->printStackTrace()V"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/qiqy/m;": [
+        "Lnicdy/game/GoldMinerkobeig/qiqy/m;->a()Ljava/lang/String;",
+        "Lnicdy/game/GoldMinerkobeig/qiqy/m;->a()Ljava/io/File;",
+        "Lnicdy/game/GoldMinerkobeig/qiqy/m;->a()Z",
+        "Lnicdy/game/GoldMinerkobeig/qiqy/m;->a()V",
+        "Lnicdy/game/GoldMinerkobeig/qiqy/m;->start()V"
+    ],
+    "Landroid/content/Context;": [
+        "Landroid/content/Context;->unregisterReceiver()V",
+        "Landroid/content/Context;->getCacheDir()Ljava/io/File;",
+        "Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;",
+        "Landroid/content/Context;->getPackageName()Ljava/lang/String;",
+        "Landroid/content/Context;->getDir()Ljava/io/File;",
+        "Landroid/content/Context;->startActivity()V",
+        "Landroid/content/Context;->getApplicationContext()Landroid/content/Context;",
+        "Landroid/content/Context;->checkCallingOrSelfPermission()I",
+        "Landroid/content/Context;->getSystemService()Ljava/lang/Object;",
+        "Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;",
+        "Landroid/content/Context;->getMainLooper()Landroid/os/Looper;",
+        "Landroid/content/Context;->startService()Landroid/content/ComponentName;",
+        "Landroid/content/Context;->stopService()Z",
+        "Landroid/content/Context;->registerReceiver()Landroid/content/Intent;",
+        "Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "Landroid/content/Context;->openFileOutput()Ljava/io/FileOutputStream;",
+        "Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;",
+        "Landroid/content/Context;->openFileInput()Ljava/io/FileInputStream;",
+        "Landroid/content/Context;->getSharedPreferences()Landroid/content/SharedPreferences;"
+    ],
+    "Landroid/app/Service;": [
+        "Landroid/app/Service;->onDestroy()V",
+        "Landroid/app/Service;->onStart()V",
+        "Landroid/app/Service;->onCreate()V"
+    ],
+    "Landroid/webkit/WebView;": [
+        "Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;",
+        "Landroid/webkit/WebView;->onWindowVisibilityChanged()V",
+        "Landroid/webkit/WebView;->setLayoutParams()V",
+        "Landroid/webkit/WebView;->onSaveInstanceState()Landroid/os/Parcelable;",
+        "Landroid/webkit/WebView;->onFocusChanged()V",
+        "Landroid/webkit/WebView;->onKeyDown()Z"
+    ],
+    "Landroid/webkit/WebSettings;": [
+        "Landroid/webkit/WebSettings;->setJavaScriptEnabled()V",
+        "Landroid/webkit/WebSettings;->setSupportZoom()V",
+        "Landroid/webkit/WebSettings;->setSavePassword()V",
+        "Landroid/webkit/WebSettings;->getUserAgentString()Ljava/lang/String;",
+        "Landroid/webkit/WebSettings;->setPluginsEnabled()V",
+        "Landroid/webkit/WebSettings;->setLoadsImagesAutomatically()V",
+        "Landroid/webkit/WebSettings;->setJavaScriptCanOpenWindowsAutomatically()V",
+        "Landroid/webkit/WebSettings;->setUserAgentString()V",
+        "Landroid/webkit/WebSettings;->setSaveFormData()V"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/qiqy/z;": [
+        "Lnicdy/game/GoldMinerkobeig/qiqy/z;->start()V",
+        "Lnicdy/game/GoldMinerkobeig/qiqy/z;->a()Z",
+        "Lnicdy/game/GoldMinerkobeig/qiqy/z;->a()Ljava/lang/String;",
+        "Lnicdy/game/GoldMinerkobeig/qiqy/z;->a()Ljava/util/ArrayList;",
+        "Lnicdy/game/GoldMinerkobeig/qiqy/z;->a()V",
+        "Lnicdy/game/GoldMinerkobeig/qiqy/z;->a()Landroid/content/Context;"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/qiqy/ut;": [
+        "Lnicdy/game/GoldMinerkobeig/qiqy/ut;->a()[B",
+        "Lnicdy/game/GoldMinerkobeig/qiqy/ut;->a()Ljava/lang/String;",
+        "Lnicdy/game/GoldMinerkobeig/qiqy/ut;->a()V"
+    ],
+    "Ljava/lang/String;": [
+        "Ljava/lang/String;->contains()Z",
+        "Ljava/lang/String;->toCharArray()[C",
+        "Ljava/lang/String;->toLowerCase()Ljava/lang/String;",
+        "Ljava/lang/String;->endsWith()Z",
+        "Ljava/lang/String;->hashCode()I",
+        "Ljava/lang/String;->length()I",
+        "Ljava/lang/String;->indexOf()I",
+        "Ljava/lang/String;->replaceAll()Ljava/lang/String;",
+        "Ljava/lang/String;->replace()Ljava/lang/String;",
+        "Ljava/lang/String;->codePointAt()I",
+        "Ljava/lang/String;->toString()Ljava/lang/String;",
+        "Ljava/lang/String;->equals()Z",
+        "Ljava/lang/String;->equalsIgnoreCase()Z",
+        "Ljava/lang/String;->trim()Ljava/lang/String;",
+        "Ljava/lang/String;->format()Ljava/lang/String;",
+        "Ljava/lang/String;->charAt()C",
+        "Ljava/lang/String;->lastIndexOf()I",
+        "Ljava/lang/String;->startsWith()Z",
+        "Ljava/lang/String;->split()[Ljava/lang/String;",
+        "Ljava/lang/String;->valueOf()Ljava/lang/String;",
+        "Ljava/lang/String;->substring()Ljava/lang/String;",
+        "Ljava/lang/String;->getBytes()[B"
+    ],
+    "Ljava/lang/StringBuilder;": [
+        "Ljava/lang/StringBuilder;->length()I",
+        "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+        "Ljava/lang/StringBuilder;->append()Ljava/lang/StringBuilder;"
+    ],
+    "Landroid/telephony/TelephonyManager;": [
+        "Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getSimCountryIso()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getNetworkType()I"
+    ],
+    "Ljava/io/InputStream;": [
+        "Ljava/io/InputStream;->close()V",
+        "Ljava/io/InputStream;->available()I",
+        "Ljava/io/InputStream;->read()I"
+    ],
+    "Ljava/lang/Integer;": [
+        "Ljava/lang/Integer;->toHexString()Ljava/lang/String;",
+        "Ljava/lang/Integer;->valueOf()Ljava/lang/Integer;",
+        "Ljava/lang/Integer;->byteValue()B",
+        "Ljava/lang/Integer;->parseInt()I",
+        "Ljava/lang/Integer;->toString()Ljava/lang/String;",
+        "Ljava/lang/Integer;->intValue()I"
+    ],
+    "Ljava/io/StringWriter;": [
+        "Ljava/io/StringWriter;->write()V",
+        "Ljava/io/StringWriter;->toString()Ljava/lang/String;"
+    ],
+    "Landroid/os/Environment;": [
+        "Landroid/os/Environment;->getDataDirectory()Ljava/io/File;",
+        "Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;",
+        "Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;"
+    ],
+    "Ljava/io/File;": [
+        "Ljava/io/File;->createNewFile()Z",
+        "Ljava/io/File;->toString()Ljava/lang/String;",
+        "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;",
+        "Ljava/io/File;->listFiles()[Ljava/io/File;",
+        "Ljava/io/File;->getParent()Ljava/lang/String;",
+        "Ljava/io/File;->list()[Ljava/lang/String;",
+        "Ljava/io/File;->isFile()Z",
+        "Ljava/io/File;->mkdirs()Z",
+        "Ljava/io/File;->getPath()Ljava/lang/String;",
+        "Ljava/io/File;->mkdir()Z",
+        "Ljava/io/File;->isDirectory()Z",
+        "Ljava/io/File;->length()J",
+        "Ljava/io/File;->delete()Z",
+        "Ljava/io/File;->getParentFile()Ljava/io/File;",
+        "Ljava/io/File;->exists()Z"
+    ],
+    "Ljava/net/URL;": [
+        "Ljava/net/URL;->toString()Ljava/lang/String;",
+        "Ljava/net/URL;->openStream()Ljava/io/InputStream;",
+        "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    ],
+    "Ljava/net/URLConnection;": [
+        "Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;"
+    ],
+    "Ljava/io/FileOutputStream;": [
+        "Ljava/io/FileOutputStream;->close()V",
+        "Ljava/io/FileOutputStream;->flush()V",
+        "Ljava/io/FileOutputStream;->write()V"
+    ],
+    "Lorg/apache/http/params/HttpConnectionParams;": [
+        "Lorg/apache/http/params/HttpConnectionParams;->setSoTimeout()V",
+        "Lorg/apache/http/params/HttpConnectionParams;->setConnectionTimeout()V"
+    ],
+    "Lorg/apache/http/client/methods/HttpGet;": [
+        "Lorg/apache/http/client/methods/HttpGet;->addHeader()V"
+    ],
+    "Lorg/apache/http/impl/client/DefaultHttpClient;": [
+        "Lorg/apache/http/impl/client/DefaultHttpClient;->execute()Lorg/apache/http/HttpResponse;"
+    ],
+    "Lorg/apache/http/HttpResponse;": [
+        "Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;"
+    ],
+    "Lorg/apache/http/util/EntityUtils;": [
+        "Lorg/apache/http/util/EntityUtils;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/util/ArrayList;": [
+        "Ljava/util/ArrayList;->size()I",
+        "Ljava/util/ArrayList;->add()Z",
+        "Ljava/util/ArrayList;->toString()Ljava/lang/String;",
+        "Ljava/util/ArrayList;->get()Ljava/lang/Object;"
+    ],
+    "Landroid/content/Intent;": [
+        "Landroid/content/Intent;->setDataAndType()Landroid/content/Intent;",
+        "Landroid/content/Intent;->getDataString()Ljava/lang/String;",
+        "Landroid/content/Intent;->setClass()Landroid/content/Intent;",
+        "Landroid/content/Intent;->putExtras()Landroid/content/Intent;",
+        "Landroid/content/Intent;->getData()Landroid/net/Uri;",
+        "Landroid/content/Intent;->getAction()Ljava/lang/String;",
+        "Landroid/content/Intent;->addFlags()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setFlags()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setAction()Landroid/content/Intent;"
+    ],
+    "Ljava/io/FileInputStream;": [
+        "Ljava/io/FileInputStream;->read()I",
+        "Ljava/io/FileInputStream;->close()V"
+    ],
+    "Ljava/util/zip/ZipInputStream;": [
+        "Ljava/util/zip/ZipInputStream;->getNextEntry()Ljava/util/zip/ZipEntry;",
+        "Ljava/util/zip/ZipInputStream;->read()I",
+        "Ljava/util/zip/ZipInputStream;->closeEntry()V",
+        "Ljava/util/zip/ZipInputStream;->close()V"
+    ],
+    "Ljava/util/zip/ZipEntry;": [
+        "Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;",
+        "Ljava/util/zip/ZipEntry;->isDirectory()Z"
+    ],
+    "Ljava/io/BufferedOutputStream;": [
+        "Ljava/io/BufferedOutputStream;->write()V",
+        "Ljava/io/BufferedOutputStream;->close()V"
+    ],
+    "Landroid/net/wifi/WifiManager;": [
+        "Landroid/net/wifi/WifiManager;->getWifiState()I"
+    ],
+    "Ljava/io/OutputStream;": [
+        "Ljava/io/OutputStream;->close()V",
+        "Ljava/io/OutputStream;->write()V",
+        "Ljava/io/OutputStream;->flush()V"
+    ],
+    "Landroid/net/ConnectivityManager;": [
+        "Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;",
+        "Landroid/net/ConnectivityManager;->getAllNetworkInfo()[Landroid/net/NetworkInfo;"
+    ],
+    "Landroid/net/NetworkInfo;": [
+        "Landroid/net/NetworkInfo;->getTypeName()Ljava/lang/String;",
+        "Landroid/net/NetworkInfo;->getSubtype()I",
+        "Landroid/net/NetworkInfo;->getState()Landroid/net/NetworkInfo$State;",
+        "Landroid/net/NetworkInfo;->isAvailable()Z",
+        "Landroid/net/NetworkInfo;->getSubtypeName()Ljava/lang/String;",
+        "Landroid/net/NetworkInfo;->getType()I"
+    ],
+    "Landroid/net/Uri;": [
+        "Landroid/net/Uri;->parse()Landroid/net/Uri;",
+        "Landroid/net/Uri;->toString()Ljava/lang/String;",
+        "Landroid/net/Uri;->fromFile()Landroid/net/Uri;"
+    ],
+    "Landroid/content/ContentResolver;": [
+        "Landroid/content/ContentResolver;->query()Landroid/database/Cursor;"
+    ],
+    "Landroid/database/Cursor;": [
+        "Landroid/database/Cursor;->getColumnIndex()I",
+        "Landroid/database/Cursor;->getString()Ljava/lang/String;",
+        "Landroid/database/Cursor;->moveToFirst()Z"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/qiqy/qov;": [
+        "Lnicdy/game/GoldMinerkobeig/qiqy/qov;->start()V"
+    ],
+    "Ljava/lang/ClassLoader;": [
+        "Ljava/lang/ClassLoader;->getParent()Ljava/lang/ClassLoader;",
+        "Ljava/lang/ClassLoader;->getSystemClassLoader()Ljava/lang/ClassLoader;"
+    ],
+    "Landroid/content/pm/PackageManager;": [
+        "Landroid/content/pm/PackageManager;->checkPermission()I",
+        "Landroid/content/pm/PackageManager;->getLaunchIntentForPackage()Landroid/content/Intent;",
+        "Landroid/content/pm/PackageManager;->getPackageInfo()Landroid/content/pm/PackageInfo;",
+        "Landroid/content/pm/PackageManager;->getPackageArchiveInfo()Landroid/content/pm/PackageInfo;",
+        "Landroid/content/pm/PackageManager;->queryIntentActivities()Ljava/util/List;",
+        "Landroid/content/pm/PackageManager;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;",
+        "Landroid/content/pm/PackageManager;->resolveActivity()Landroid/content/pm/ResolveInfo;"
+    ],
+    "Landroid/os/Looper;": [
+        "Landroid/os/Looper;->prepare()V",
+        "Landroid/os/Looper;->loop()V"
+    ],
+    "Ldalvik/system/DexClassLoader;": [
+        "Ldalvik/system/DexClassLoader;->loadClass()Ljava/lang/Class;"
+    ],
+    "Ljava/lang/Class;": [
+        "Ljava/lang/Class;->forName()Ljava/lang/Class;",
+        "Ljava/lang/Class;->getMethod()Ljava/lang/reflect/Method;",
+        "Ljava/lang/Class;->getDeclaredMethod()Ljava/lang/reflect/Method;",
+        "Ljava/lang/Class;->getConstructors()[Ljava/lang/reflect/Constructor;"
+    ],
+    "Ljava/lang/reflect/Constructor;": [
+        "Ljava/lang/reflect/Constructor;->newInstance()Ljava/lang/Object;"
+    ],
+    "Ljava/lang/reflect/Method;": [
+        "Ljava/lang/reflect/Method;->invoke()Ljava/lang/Object;",
+        "Ljava/lang/reflect/Method;->setAccessible()V"
+    ],
+    "Landroid/app/NotificationManager;": [
+        "Landroid/app/NotificationManager;->cancelAll()V"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/qiqy/o;": [
+        "Lnicdy/game/GoldMinerkobeig/qiqy/o;->a()Ljava/lang/String;"
+    ],
+    "Landroid/content/res/AssetManager;": [
+        "Landroid/content/res/AssetManager;->open()Ljava/io/InputStream;"
+    ],
+    "Ljava/io/DataInputStream;": [
+        "Ljava/io/DataInputStream;->readUTF()Ljava/lang/String;",
+        "Ljava/io/DataInputStream;->readInt()I",
+        "Ljava/io/DataInputStream;->close()V"
+    ],
+    "Ljava/util/HashMap;": [
+        "Ljava/util/HashMap;->size()I",
+        "Ljava/util/HashMap;->get()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->put()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->keySet()Ljava/util/Set;"
+    ],
+    "Ljava/lang/StringBuffer;": [
+        "Ljava/lang/StringBuffer;->append()Ljava/lang/StringBuffer;",
+        "Ljava/lang/StringBuffer;->toString()Ljava/lang/String;"
+    ],
+    "Ljavax/crypto/Cipher;": [
+        "Ljavax/crypto/Cipher;->getInstance()Ljavax/crypto/Cipher;",
+        "Ljavax/crypto/Cipher;->doFinal()[B"
+    ],
+    "Ljavax/crypto/KeyGenerator;": [
+        "Ljavax/crypto/KeyGenerator;->getInstance()Ljavax/crypto/KeyGenerator;",
+        "Ljavax/crypto/KeyGenerator;->generateKey()Ljavax/crypto/SecretKey;"
+    ],
+    "Ljava/security/SecureRandom;": [
+        "Ljava/security/SecureRandom;->setSeed()V",
+        "Ljava/security/SecureRandom;->getInstance()Ljava/security/SecureRandom;"
+    ],
+    "Ljavax/crypto/SecretKey;": [
+        "Ljavax/crypto/SecretKey;->getEncoded()[B"
+    ],
+    "Landroid/content/IntentFilter;": [
+        "Landroid/content/IntentFilter;->addAction()V",
+        "Landroid/content/IntentFilter;->addDataScheme()V"
+    ],
+    "Landroid/app/AlertDialog$Builder;": [
+        "Landroid/app/AlertDialog$Builder;->setPositiveButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setNegativeButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setTitle()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;",
+        "Landroid/app/AlertDialog$Builder;->setMessage()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setCancelable()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;"
+    ],
+    "Ljava/io/BufferedReader;": [
+        "Ljava/io/BufferedReader;->close()V",
+        "Ljava/io/BufferedReader;->readLine()Ljava/lang/String;"
+    ],
+    "Ljava/io/InputStreamReader;": [
+        "Ljava/io/InputStreamReader;->close()V"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/ioytcgd/j;": [
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/j;->a()V"
+    ],
+    "Ljava/lang/System;": [
+        "Ljava/lang/System;->currentTimeMillis()J",
+        "Ljava/lang/System;->gc()V"
+    ],
+    "Ljava/lang/Exception;": [
+        "Ljava/lang/Exception;->getMessage()Ljava/lang/String;"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/ioytcgd/hjo;": [
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/hjo;->a()V",
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/hjo;->a()B",
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/hjo;->a()[B",
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/hjo;->a()Ljava/lang/String;"
+    ],
+    "Ljava/lang/Byte;": [
+        "Ljava/lang/Byte;->parseByte()B"
+    ],
+    "Ljava/io/PrintStream;": [
+        "Ljava/io/PrintStream;->println()V"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/ioytcgd/z;": [
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/z;->a()Z"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/ioytcgd/jjw;": [
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/jjw;->a()I",
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/jjw;->a()Ljava/lang/String;"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/ioytcgd/ez;": [
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/ez;->a()V",
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/ez;->a()Ljava/lang/String;",
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/ez;->a()Z"
+    ],
+    "Lorg/apache/http/client/methods/HttpPost;": [
+        "Lorg/apache/http/client/methods/HttpPost;->setParams()V",
+        "Lorg/apache/http/client/methods/HttpPost;->setEntity()V"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/ioytcgd/ny;": [
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/ny;->a()Z"
+    ],
+    "Ljava/text/SimpleDateFormat;": [
+        "Ljava/text/SimpleDateFormat;->format()Ljava/lang/String;"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/ioytcgd/azw;": [
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/azw;->a()Z",
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/azw;->a()V",
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/azw;->start()V",
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/azw;->a()I",
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/azw;->a()J"
+    ],
+    "Landroid/content/SharedPreferences;": [
+        "Landroid/content/SharedPreferences;->getLong()J",
+        "Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences;->getInt()I"
+    ],
+    "Landroid/content/SharedPreferences$Editor;": [
+        "Landroid/content/SharedPreferences$Editor;->remove()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->putLong()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->commit()Z"
+    ],
+    "Ljava/util/Random;": [
+        "Ljava/util/Random;->nextInt()I"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/ioytcgd/co;": [
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/co;->start()V"
+    ],
+    "Lnicdy/game/GoldMinerkobeig/ioytcgd/ek;": [
+        "Lnicdy/game/GoldMinerkobeig/ioytcgd/ek;->stopSelf()V"
+    ],
+    "Lnicdy/game/GameCode/GS_Load_GameRes;": [
+        "Lnicdy/game/GameCode/GS_Load_GameRes;->SetLastTime()V",
+        "Lnicdy/game/GameCode/GS_Load_GameRes;->RefreshAD()V",
+        "Lnicdy/game/GameCode/GS_Load_GameRes;->GetContext()Landroid/content/Context;"
+    ],
+    "Lnicdy/game/GameEngine/Frame/GameMain;": [
+        "Lnicdy/game/GameEngine/Frame/GameMain;->SetBaseColor()V",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->SetGamePause()V",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->UpDataGameState()V",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->RunWithTime()V",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->GetFpsManager()Lnicdy/game/GameEngine/Frame/FpsManager;",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->UpDataFadeOut()Z",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->UpDataFadeIn()Z",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->SetGameState()V",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->Render()V",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->CreatGameState()Lnicdy/game/GameEngine/Frame/GameState;",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->ChangeState()V",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->UpDataControl()V",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->UpDataFpsManager()V",
+        "Lnicdy/game/GameEngine/Frame/GameMain;->SetGameGraphicPause()V"
+    ],
+    "Lnicdy/game/GameEngine/Tools/StringSP;": [
+        "Lnicdy/game/GameEngine/Tools/StringSP;->SetFlashFix()V",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->SetAutoMove()V",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->IsFadeOutOver()Z",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->ShowString()V",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->IsAutoMove()Z",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->SetFadeOutNow()V",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->IsFadeInOver()Z",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->SetFadeOut_All()V",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->SetEachCharPos()V",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->SetFadeOut_LR()V",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->ChangeStringContent()V",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->EndFlash()V",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->FindCharId()I",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->SetVisibly()V",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->SetFadeIn_LR()V",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->GetStringPosFor()[F",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->SetFlashRom()V",
+        "Lnicdy/game/GameEngine/Tools/StringSP;->SetFadeIn_All()V"
+    ],
+    "Lnicdy/game/GameEngine/Frame/GS_Load;": [
+        "Lnicdy/game/GameEngine/Frame/GS_Load;->ProcControl()V",
+        "Lnicdy/game/GameEngine/Frame/GS_Load;->Release()V"
+    ],
+    "Lnicdy/game/GameCode/GR;": [
+        "Lnicdy/game/GameCode/GR;->Loading_Fade()V",
+        "Lnicdy/game/GameCode/GR;->ReleaseImage_Fade()V",
+        "Lnicdy/game/GameCode/GR;->BGMLoadMusic()V",
+        "Lnicdy/game/GameCode/GR;->Loading_Option()V",
+        "Lnicdy/game/GameCode/GR;->BGMPause()V",
+        "Lnicdy/game/GameCode/GR;->ReleaseImage_Girl()V",
+        "Lnicdy/game/GameCode/GR;->Loading_Number()V",
+        "Lnicdy/game/GameCode/GR;->ReleaseImage_MiniGame_EatMan()V",
+        "Lnicdy/game/GameCode/GR;->Loading_Menu_Shop()V",
+        "Lnicdy/game/GameCode/GR;->Loading_DialogBox()V",
+        "Lnicdy/game/GameCode/GR;->ReleaseImage_DialogBox()V",
+        "Lnicdy/game/GameCode/GR;->ReleaseImage_Menu_Match()V",
+        "Lnicdy/game/GameCode/GR;->Loading_Logo()V",
+        "Lnicdy/game/GameCode/GR;->Loading_Menu_Splash()V",
+        "Lnicdy/game/GameCode/GR;->LoadSFX()V",
+        "Lnicdy/game/GameCode/GR;->ReleaseImage_Menu_Main()V",
+        "Lnicdy/game/GameCode/GR;->ReleaseImage_Font()V",
+        "Lnicdy/game/GameCode/GR;->ReleaseImage_Option()V",
+        "Lnicdy/game/GameCode/GR;->ReleaseImage_Menu_Splash()V",
+        "Lnicdy/game/GameCode/GR;->Loading_Menu_Main()V",
+        "Lnicdy/game/GameCode/GR;->BGMUnPause()V",
+        "Lnicdy/game/GameCode/GR;->ReleaseImage_Logo()V",
+        "Lnicdy/game/GameCode/GR;->ReleaseImage_Menu_Shop()V",
+        "Lnicdy/game/GameCode/GR;->Loading_Menu_Match()V",
+        "Lnicdy/game/GameCode/GR;->PlaySFX()V",
+        "Lnicdy/game/GameCode/GR;->LoadImage_BitmapWithScale()Landroid/graphics/Bitmap;",
+        "Lnicdy/game/GameCode/GR;->LoadImage_Drawable()Landroid/graphics/drawable/Drawable;",
+        "Lnicdy/game/GameCode/GR;->Loading_Girl()V",
+        "Lnicdy/game/GameCode/GR;->ReleaseImage_Number()V",
+        "Lnicdy/game/GameCode/GR;->Loading_Font()V",
+        "Lnicdy/game/GameCode/GR;->BGMPlay()V",
+        "Lnicdy/game/GameCode/GR;->BGMRelease()V"
+    ],
+    "Lnicdy/game/GameCode/SaveDate;": [
+        "Lnicdy/game/GameCode/SaveDate;->WriteInt()[B",
+        "Lnicdy/game/GameCode/SaveDate;->LoadMatchDate()Z",
+        "Lnicdy/game/GameCode/SaveDate;->SaveMatchDate()Z",
+        "Lnicdy/game/GameCode/SaveDate;->IsMusicOn()Z",
+        "Lnicdy/game/GameCode/SaveDate;->intToByte()[B",
+        "Lnicdy/game/GameCode/SaveDate;->IsSoundOn()Z",
+        "Lnicdy/game/GameCode/SaveDate;->IsVibrateOn()Z",
+        "Lnicdy/game/GameCode/SaveDate;->bytesToInt()I"
+    ],
+    "Lnicdy/game/GameCode/GS_Load_Game;": [
+        "Lnicdy/game/GameCode/GS_Load_Game;->SetLastTime()V",
+        "Lnicdy/game/GameCode/GS_Load_Game;->GetControlManager()Lnicdy/game/GameEngine/Frame/ControlManager;",
+        "Lnicdy/game/GameCode/GS_Load_Game;->RefreshAD()V"
+    ],
+    "Lnicdy/game/GameCode/Mine;": [
+        "Lnicdy/game/GameCode/Mine;->CreatMine()V",
+        "Lnicdy/game/GameCode/Mine;->Paint()V"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;": [
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->UpdataShow()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetAutoMove()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->setCurFrameID()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetImageType()I",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->IsFlash()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetBlock()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->IsFadeOut()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->EndAutoMove()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->setScale_Center_Y()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->setRotate_Center_Y()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetCenterPosYWithScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->EndFlash()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetPosY()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->AmendDesRect()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetAutoMoveCenter()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetCenterY()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetSpeedYWithScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetIsAutoRotate()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetRotateAnimation()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetPosX()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->Paint()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetPos()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->UpdateFade()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetSizeW()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->UpdateFlash()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetCenterPosWithScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->getDegrees()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->setRotate_Center_X()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->UpdataAnimation()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetAutoMove()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetAccelerationYWithScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->setScale_x()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetSpeedX()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetAccelerationX()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->EndAutoScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->Check_IsInScreenW()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->isVisible()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->getAlpha()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetAutoRotate()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->UpdataSpeed()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetAccelerationY()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->UpdateAutoScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->FadeIn()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetAutoAlpha()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetSpeedY()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->UpdataSize()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->IsFadeIn()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetSpeedY()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetPosWithScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetFlashFix()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->UpdateAutoRotate()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->Update()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetAutoMoveCenterWithScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetSpeedMax()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetAccelerationY()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetPlayer()Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->setVisible()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->UpdataPos()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetAutoScaleWithAceSpeed()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->getCurFrameID()I",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetCenterX()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetCenterPos()Landroid/graphics/PointF;",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->getFrameNumbers()I",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->UpdataAutoMove()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetSpeedXWithScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetCurBitmap()Landroid/graphics/Bitmap;",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->FadeOut()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetFlashRom()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetImageBitmap()[Landroid/graphics/Bitmap;",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetPosX()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetAcceleration()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->setScale_y()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetImageDrawable()[Landroid/graphics/drawable/Drawable;",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->setSrcRect()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetSizeH()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->getScale_x()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetImage()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->setAlpha()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->setDegrees()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->paint()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->getDesRect()Landroid/graphics/Rect;",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetCenterPos()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->Init()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->getScale_y()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetSpeedX()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetCenterPosX()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->setScale_Center_X()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetSpeedWithScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->UpdateLoopForScreen()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->EndAutoAlpha()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetPosY()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->UpdateAutoAlpha()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetIsAutoAlpha()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetCenterPosY()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetIsAutoScale()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetPos()Landroid/graphics/PointF;",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->GetBlockRect()Landroid/graphics/Rect;",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetSpeed()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Sprite;->SetAutoScale()V"
+    ],
+    "Lnicdy/game/GameEngine/Tools/Tools_Math;": [
+        "Lnicdy/game/GameEngine/Tools/Tools_Math;->Roll()I",
+        "Lnicdy/game/GameEngine/Tools/Tools_Math;->CheckIsInArea()Z"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;": [
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->isPlaying()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->setPlaying()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->setLoopTime()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->UpdataAnimation()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->Reset()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->setCurFrameID()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->getCurFrameID()I",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->getDelayFrame()I",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->SetEndID()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->setLoop()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->setDelayFrame()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->SetStartID()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->SetPlayID()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->getFrameNumbers()I",
+        "Lnicdy/game/GameEngine/Graphics/G2D/SP_Player;->setFrameNumbers()V"
+    ],
+    "Lnicdy/game/GameEngine/Frame/GameState;": [
+        "Lnicdy/game/GameEngine/Frame/GameState;->HideHelp()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ShowADClix()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->CloseInputMod()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->CloseOptionMenu()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->UpdateWindows()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->CheckIsOptionMenuOpen()Z",
+        "Lnicdy/game/GameEngine/Frame/GameState;->Paint()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->GetContext()Landroid/content/Context;",
+        "Lnicdy/game/GameEngine/Frame/GameState;->Updata()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->SurfaceResume()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ShowHelp()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->CloseWindow()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ProcBackKey()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->LoadImage()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ProcControlManage()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->OpenWindow()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->LoadMusic()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ExitAcitivity()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->PaintWindows()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ProcWindowsControl_Single()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ReleaseMusic()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->HideADClix()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->GetControlManager()Lnicdy/game/GameEngine/Frame/ControlManager;",
+        "Lnicdy/game/GameEngine/Frame/GameState;->Release()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->LoadData()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->OpenOptionMenu()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ProcWindowsControl_Multi()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ShowAD()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ProcControl()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->CheckWindowWithTitleIsOpened()Z",
+        "Lnicdy/game/GameEngine/Frame/GameState;->CheckIsWindowAtTopWithTitle()Z",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ReleaseSprite()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ReleaseBG()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->SufaceDestroye()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->StopMusic()V",
+        "Lnicdy/game/GameEngine/Frame/GameState;->ProcMenuKey()V"
+    ],
+    "Lnicdy/game/GameEngine/Hardware/HD_Sensor15;": [
+        "Lnicdy/game/GameEngine/Hardware/HD_Sensor15;->InitSensor()V",
+        "Lnicdy/game/GameEngine/Hardware/HD_Sensor15;->Release()V"
+    ],
+    "Landroid/graphics/Paint;": [
+        "Landroid/graphics/Paint;->measureText()F",
+        "Landroid/graphics/Paint;->breakText()I",
+        "Landroid/graphics/Paint;->setTextSize()V",
+        "Landroid/graphics/Paint;->setStyle()V",
+        "Landroid/graphics/Paint;->setColor()V",
+        "Landroid/graphics/Paint;->setSubpixelText()V",
+        "Landroid/graphics/Paint;->getFontSpacing()F",
+        "Landroid/graphics/Paint;->setAntiAlias()V",
+        "Landroid/graphics/Paint;->getTextSize()F",
+        "Landroid/graphics/Paint;->reset()V",
+        "Landroid/graphics/Paint;->setAlpha()V",
+        "Landroid/graphics/Paint;->setStrokeWidth()V"
+    ],
+    "Lnicdy/game/GameCode/UI_MiniGame_EatMan;": [
+        "Lnicdy/game/GameCode/UI_MiniGame_EatMan;->UpdateRole()V",
+        "Lnicdy/game/GameCode/UI_MiniGame_EatMan;->ResetGame()V",
+        "Lnicdy/game/GameCode/UI_MiniGame_EatMan;->UpdateObj()V",
+        "Lnicdy/game/GameCode/UI_MiniGame_EatMan;->ProcControl()V",
+        "Lnicdy/game/GameCode/UI_MiniGame_EatMan;->CreatObj()V",
+        "Lnicdy/game/GameCode/UI_MiniGame_EatMan;->Updata()V",
+        "Lnicdy/game/GameCode/UI_MiniGame_EatMan;->Paint()V"
+    ],
+    "Landroid/graphics/Rect;": [
+        "Landroid/graphics/Rect;->set()V",
+        "Landroid/graphics/Rect;->intersects()Z",
+        "Landroid/graphics/Rect;->contains()Z",
+        "Landroid/graphics/Rect;->setEmpty()V",
+        "Landroid/graphics/Rect;->height()I",
+        "Landroid/graphics/Rect;->width()I"
+    ],
+    "Ljava/lang/Math;": [
+        "Ljava/lang/Math;->random()D",
+        "Ljava/lang/Math;->cos()D",
+        "Ljava/lang/Math;->toRadians()D",
+        "Ljava/lang/Math;->sin()D",
+        "Ljava/lang/Math;->sqrt()D",
+        "Ljava/lang/Math;->abs()I",
+        "Ljava/lang/Math;->toDegrees()D",
+        "Ljava/lang/Math;->atan()D",
+        "Ljava/lang/Math;->abs()F"
+    ],
+    "Landroid/graphics/Canvas;": [
+        "Landroid/graphics/Canvas;->drawLine()V",
+        "Landroid/graphics/Canvas;->save()I",
+        "Landroid/graphics/Canvas;->drawRoundRect()V",
+        "Landroid/graphics/Canvas;->clipPath()Z",
+        "Landroid/graphics/Canvas;->scale()V",
+        "Landroid/graphics/Canvas;->drawBitmap()V",
+        "Landroid/graphics/Canvas;->rotate()V",
+        "Landroid/graphics/Canvas;->drawText()V",
+        "Landroid/graphics/Canvas;->clipRect()Z",
+        "Landroid/graphics/Canvas;->restoreToCount()V",
+        "Landroid/graphics/Canvas;->drawColor()V",
+        "Landroid/graphics/Canvas;->setDrawFilter()V",
+        "Landroid/graphics/Canvas;->drawPath()V",
+        "Landroid/graphics/Canvas;->drawRect()V"
+    ],
+    "Lnicdy/game/GameCode/GS_Match;": [
+        "Lnicdy/game/GameCode/GS_Match;->ShowAD()V",
+        "Lnicdy/game/GameCode/GS_Match;->HideAD()V",
+        "Lnicdy/game/GameCode/GS_Match;->ShowADClix()V",
+        "Lnicdy/game/GameCode/GS_Match;->HideADClix()V",
+        "Lnicdy/game/GameCode/GS_Match;->InitUI()V"
+    ],
+    "Lnicdy/game/GameCode/UI_GameStateHint;": [
+        "Lnicdy/game/GameCode/UI_GameStateHint;->OpenUI()V",
+        "Lnicdy/game/GameCode/UI_GameStateHint;->PaintUI()V",
+        "Lnicdy/game/GameCode/UI_GameStateHint;->SetOrderType()V",
+        "Lnicdy/game/GameCode/UI_GameStateHint;->GetUIState()I",
+        "Lnicdy/game/GameCode/UI_GameStateHint;->UpdateUI()V",
+        "Lnicdy/game/GameCode/UI_GameStateHint;->CloseUI()V"
+    ],
+    "Lnicdy/game/GameCode/Scene;": [
+        "Lnicdy/game/GameCode/Scene;->Pause()V",
+        "Lnicdy/game/GameCode/Scene;->UpdateTime()V",
+        "Lnicdy/game/GameCode/Scene;->PaintUI()V",
+        "Lnicdy/game/GameCode/Scene;->GetRandomType()I",
+        "Lnicdy/game/GameCode/Scene;->UpdateAddMoneyHint()V",
+        "Lnicdy/game/GameCode/Scene;->Check_IsTimeEnd()Z",
+        "Lnicdy/game/GameCode/Scene;->UpdateUI()V",
+        "Lnicdy/game/GameCode/Scene;->CreatBlaste()V",
+        "Lnicdy/game/GameCode/Scene;->UnPause()V",
+        "Lnicdy/game/GameCode/Scene;->UpdateTargetMoney()V",
+        "Lnicdy/game/GameCode/Scene;->UpdateMouse()V",
+        "Lnicdy/game/GameCode/Scene;->UpdateBlaste()V",
+        "Lnicdy/game/GameCode/Scene;->UpdateCurMoney()V",
+        "Lnicdy/game/GameCode/Scene;->Do_OutEvent()V",
+        "Lnicdy/game/GameCode/Scene;->UpdateBombIcon()V",
+        "Lnicdy/game/GameCode/Scene;->Update()V",
+        "Lnicdy/game/GameCode/Scene;->CheckIsWin()Z",
+        "Lnicdy/game/GameCode/Scene;->CreatClaw()V",
+        "Lnicdy/game/GameCode/Scene;->Check_IsNoMine()Z",
+        "Lnicdy/game/GameCode/Scene;->ProcControlUI()V",
+        "Lnicdy/game/GameCode/Scene;->Create()V",
+        "Lnicdy/game/GameCode/Scene;->OpenUI()V"
+    ],
+    "Lnicdy/game/GameCode/UI_Shop;": [
+        "Lnicdy/game/GameCode/UI_Shop;->InitPos()V",
+        "Lnicdy/game/GameCode/UI_Shop;->FadeInUnit()V",
+        "Lnicdy/game/GameCode/UI_Shop;->GetUIState()I",
+        "Lnicdy/game/GameCode/UI_Shop;->ProcControlUI()V",
+        "Lnicdy/game/GameCode/UI_Shop;->UpdateUI()V",
+        "Lnicdy/game/GameCode/UI_Shop;->ShowGold()V",
+        "Lnicdy/game/GameCode/UI_Shop;->FadeOutUnit()V",
+        "Lnicdy/game/GameCode/UI_Shop;->Do_OutEvent_BuyItem()V",
+        "Lnicdy/game/GameCode/UI_Shop;->CloseUI()V",
+        "Lnicdy/game/GameCode/UI_Shop;->PaintUI()V",
+        "Lnicdy/game/GameCode/UI_Shop;->HideUnit()V",
+        "Lnicdy/game/GameCode/UI_Shop;->Paint()V"
+    ],
+    "Lnicdy/game/GameCode/UI_Pause;": [
+        "Lnicdy/game/GameCode/UI_Pause;->UpdateUI()V",
+        "Lnicdy/game/GameCode/UI_Pause;->GetUIState()I",
+        "Lnicdy/game/GameCode/UI_Pause;->PaintUI()V",
+        "Lnicdy/game/GameCode/UI_Pause;->OpenUI()V",
+        "Lnicdy/game/GameCode/UI_Pause;->ProcControlUI()V"
+    ],
+    "Lnicdy/game/GameCode/UI_End;": [
+        "Lnicdy/game/GameCode/UI_End;->UpdateUI()V",
+        "Lnicdy/game/GameCode/UI_End;->ProcControlUI()V",
+        "Lnicdy/game/GameCode/UI_End;->GetUIState()I",
+        "Lnicdy/game/GameCode/UI_End;->PaintUI()V",
+        "Lnicdy/game/GameCode/UI_End;->InitScore()V"
+    ],
+    "Lnicdy/game/GameCode/UI_Option;": [
+        "Lnicdy/game/GameCode/UI_Option;->CloseUI()V",
+        "Lnicdy/game/GameCode/UI_Option;->Paint()V",
+        "Lnicdy/game/GameCode/UI_Option;->PaintUI()V",
+        "Lnicdy/game/GameCode/UI_Option;->FadeInUnit()V",
+        "Lnicdy/game/GameCode/UI_Option;->GetUIState()I",
+        "Lnicdy/game/GameCode/UI_Option;->OpenUI()V",
+        "Lnicdy/game/GameCode/UI_Option;->UpdateButtonState()V",
+        "Lnicdy/game/GameCode/UI_Option;->ProcControlUI()V",
+        "Lnicdy/game/GameCode/UI_Option;->HideUnit()V",
+        "Lnicdy/game/GameCode/UI_Option;->UpdateUI()V",
+        "Lnicdy/game/GameCode/UI_Option;->PlayBGM()V",
+        "Lnicdy/game/GameCode/UI_Option;->FadeOutUnit()V"
+    ],
+    "Ljava/util/List;": [
+        "Ljava/util/List;->get()Ljava/lang/Object;",
+        "Ljava/util/List;->remove()Ljava/lang/Object;",
+        "Ljava/util/List;->clear()V",
+        "Ljava/util/List;->add()Z",
+        "Ljava/util/List;->remove()Z",
+        "Ljava/util/List;->add()V",
+        "Ljava/util/List;->isEmpty()Z",
+        "Ljava/util/List;->size()I"
+    ],
+    "Lnicdy/game/GameEngine/Time/TimeCounter;": [
+        "Lnicdy/game/GameEngine/Time/TimeCounter;->Init()V",
+        "Lnicdy/game/GameEngine/Time/TimeCounter;->Start()V",
+        "Lnicdy/game/GameEngine/Time/TimeCounter;->Pause()V",
+        "Lnicdy/game/GameEngine/Time/TimeCounter;->Get_RemainTime()J",
+        "Lnicdy/game/GameEngine/Time/TimeCounter;->Reset()V",
+        "Lnicdy/game/GameEngine/Time/TimeCounter;->Check_IsCounting()Z",
+        "Lnicdy/game/GameEngine/Time/TimeCounter;->Update()V",
+        "Lnicdy/game/GameEngine/Time/TimeCounter;->Resume()V"
+    ],
+    "Lnicdy/game/GameCode/Claw;": [
+        "Lnicdy/game/GameCode/Claw;->Back()V",
+        "Lnicdy/game/GameCode/Claw;->Paint()V",
+        "Lnicdy/game/GameCode/Claw;->UpdateNormol()V",
+        "Lnicdy/game/GameCode/Claw;->UpdateBack()V",
+        "Lnicdy/game/GameCode/Claw;->ShootWithDgree()V",
+        "Lnicdy/game/GameCode/Claw;->Shoot()V",
+        "Lnicdy/game/GameCode/Claw;->Do_OutEvent()V",
+        "Lnicdy/game/GameCode/Claw;->Update()V",
+        "Lnicdy/game/GameCode/Claw;->Reset()V",
+        "Lnicdy/game/GameCode/Claw;->NormolMove()V",
+        "Lnicdy/game/GameCode/Claw;->UpdateShoot()V",
+        "Lnicdy/game/GameCode/Claw;->UpdateTheDgree()V"
+    ],
+    "Lnicdy/game/GameEngine/Tools/Number;": [
+        "Lnicdy/game/GameEngine/Tools/Number;->SetNumberPosLWithScale()V",
+        "Lnicdy/game/GameEngine/Tools/Number;->SetNumberPosWithScale()V",
+        "Lnicdy/game/GameEngine/Tools/Number;->ShowNumber()V",
+        "Lnicdy/game/GameEngine/Tools/Number;->SetNumberPosL()V",
+        "Lnicdy/game/GameEngine/Tools/Number;->SetNumberPos()V"
+    ],
+    "Landroid/view/MotionEvent;": [
+        "Landroid/view/MotionEvent;->getDownTime()J",
+        "Landroid/view/MotionEvent;->getX()F",
+        "Landroid/view/MotionEvent;->getY()F",
+        "Landroid/view/MotionEvent;->getAction()I",
+        "Landroid/view/MotionEvent;->getEventTime()J"
+    ],
+    "Lnicdy/game/GameEngine/Collide/CA_C;": [
+        "Lnicdy/game/GameEngine/Collide/CA_C;->SetCircularity()V",
+        "Lnicdy/game/GameEngine/Collide/CA_C;->GetPosYFX()F"
+    ],
+    "Lnicdy/game/GameEngine/Time/Time;": [
+        "Lnicdy/game/GameEngine/Time/Time;->GetPassMilliSceondFrom()J",
+        "Lnicdy/game/GameEngine/Time/Time;->GetCurrentSceond()J",
+        "Lnicdy/game/GameEngine/Time/Time;->GetElapsedRealtime()J",
+        "Lnicdy/game/GameEngine/Time/Time;->GetCurrentMilliSceond()J"
+    ],
+    "Lnicdy/game/GameEngine/GameUI/GameUI;": [
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->PaintOpening()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->CloseUI()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->UpdateOpening()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->CallBack_Order_Close()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->ProcControlRunning()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->UpdateCloseing()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->Check_IsClosedUI()Z",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->CallBack_Proc_OpenedUI()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->ProcControlCloseing()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->PaintCloseing()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->ProcControlOpening()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->Check_IsOpenedUI()Z",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->InitUI()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->CallBack_Order_Open()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->UpdateRunning()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->OpenUI()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->PaintRunning()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->CallBack_Proc_ClosedUI()V",
+        "Lnicdy/game/GameEngine/GameUI/GameUI;->InitImageRec()V"
+    ],
+    "Lnicdy/game/GameCode/DialogBox;": [
+        "Lnicdy/game/GameCode/DialogBox;->ChangeContent()V",
+        "Lnicdy/game/GameCode/DialogBox;->SetPos()V",
+        "Lnicdy/game/GameCode/DialogBox;->Paint()V",
+        "Lnicdy/game/GameCode/DialogBox;->GetRowNumber()I",
+        "Lnicdy/game/GameCode/DialogBox;->Check_IsTouchInButton2Area()Z",
+        "Lnicdy/game/GameCode/DialogBox;->AddButton()V",
+        "Lnicdy/game/GameCode/DialogBox;->Check_IsTouchInDiglogBox()Z",
+        "Lnicdy/game/GameCode/DialogBox;->RemoveButton()V",
+        "Lnicdy/game/GameCode/DialogBox;->Check_IsTouchInButton1Area()Z",
+        "Lnicdy/game/GameCode/DialogBox;->SetContent()V"
+    ],
+    "Lnicdy/game/GameEngine/Tools/StringShow;": [
+        "Lnicdy/game/GameEngine/Tools/StringShow;->GetRowNumber()I",
+        "Lnicdy/game/GameEngine/Tools/StringShow;->ShowString()V"
+    ],
+    "Lnicdy/game/GameCode/Girl;": [
+        "Lnicdy/game/GameCode/Girl;->Paint()V",
+        "Lnicdy/game/GameCode/Girl;->SetPos()V",
+        "Lnicdy/game/GameCode/Girl;->SetAutoMove()V"
+    ],
+    "Lnicdy/game/GameCode/UI_Girl;": [
+        "Lnicdy/game/GameCode/UI_Girl;->CloseUI()V",
+        "Lnicdy/game/GameCode/UI_Girl;->ExitGame()V"
+    ],
+    "Landroid/os/Handler;": [
+        "Landroid/os/Handler;->postDelayed()Z",
+        "Landroid/os/Handler;->sendMessage()Z",
+        "Landroid/os/Handler;->post()Z",
+        "Landroid/os/Handler;->hasMessages()Z"
+    ],
+    "Lnicdy/game/GameCode/GS_Load_Logo;": [
+        "Lnicdy/game/GameCode/GS_Load_Logo;->GetControlManager()Lnicdy/game/GameEngine/Frame/ControlManager;"
+    ],
+    "Landroid/media/MediaPlayer;": [
+        "Landroid/media/MediaPlayer;->start()V",
+        "Landroid/media/MediaPlayer;->prepare()V",
+        "Landroid/media/MediaPlayer;->setVolume()V",
+        "Landroid/media/MediaPlayer;->stop()V",
+        "Landroid/media/MediaPlayer;->release()V",
+        "Landroid/media/MediaPlayer;->isPlaying()Z",
+        "Landroid/media/MediaPlayer;->create()Landroid/media/MediaPlayer;",
+        "Landroid/media/MediaPlayer;->reset()V",
+        "Landroid/media/MediaPlayer;->pause()V",
+        "Landroid/media/MediaPlayer;->getCurrentPosition()I",
+        "Landroid/media/MediaPlayer;->setLooping()V",
+        "Landroid/media/MediaPlayer;->setAudioStreamType()V"
+    ],
+    "Ljava/lang/IllegalStateException;": [
+        "Ljava/lang/IllegalStateException;->printStackTrace()V"
+    ],
+    "Ljava/io/IOException;": [
+        "Ljava/io/IOException;->printStackTrace()V"
+    ],
+    "Landroid/media/AudioManager;": [
+        "Landroid/media/AudioManager;->adjustStreamVolume()V",
+        "Landroid/media/AudioManager;->getStreamVolume()I",
+        "Landroid/media/AudioManager;->getStreamMaxVolume()I"
+    ],
+    "Lnicdy/game/GameEngine/Sound/HardWare_SFX_Player;": [
+        "Lnicdy/game/GameEngine/Sound/HardWare_SFX_Player;->Release()V",
+        "Lnicdy/game/GameEngine/Sound/HardWare_SFX_Player;->play()V",
+        "Lnicdy/game/GameEngine/Sound/HardWare_SFX_Player;->loadSfx()V"
+    ],
+    "Landroid/graphics/Bitmap;": [
+        "Landroid/graphics/Bitmap;->getWidth()I",
+        "Landroid/graphics/Bitmap;->getPixels()V",
+        "Landroid/graphics/Bitmap;->setPixels()V",
+        "Landroid/graphics/Bitmap;->getHeight()I",
+        "Landroid/graphics/Bitmap;->createScaledBitmap()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/Bitmap;->eraseColor()V",
+        "Landroid/graphics/Bitmap;->createBitmap()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/Bitmap;->recycle()V"
+    ],
+    "Landroid/graphics/Color;": [
+        "Landroid/graphics/Color;->alpha()I",
+        "Landroid/graphics/Color;->green()I",
+        "Landroid/graphics/Color;->rgb()I",
+        "Landroid/graphics/Color;->red()I",
+        "Landroid/graphics/Color;->argb()I",
+        "Landroid/graphics/Color;->blue()I"
+    ],
+    "Landroid/graphics/BitmapFactory;": [
+        "Landroid/graphics/BitmapFactory;->decodeResource()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/BitmapFactory;->decodeByteArray()Landroid/graphics/Bitmap;"
+    ],
+    "Lnicdy/game/GameCode/UI_Bank;": [
+        "Lnicdy/game/GameCode/UI_Bank;->FadeOutUnit()V",
+        "Lnicdy/game/GameCode/UI_Bank;->InitPos()V",
+        "Lnicdy/game/GameCode/UI_Bank;->FadeInUnit()V",
+        "Lnicdy/game/GameCode/UI_Bank;->Paint()V",
+        "Lnicdy/game/GameCode/UI_Bank;->HideUnit()V",
+        "Lnicdy/game/GameCode/UI_Bank;->UpdateButtonState()V"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;": [
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->getmCurrent()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->ismRun()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->Stop()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->setmLoopType()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->setmIsLoop()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->SetRotate()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->getmCenter_Y()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->Reversal()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->Updata()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->setmLoopTime()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->Start()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->Init()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Rotate;->getmCenter_X()F"
+    ],
+    "Lnicdy/game/GameCode/ButtonEffect;": [
+        "Lnicdy/game/GameCode/ButtonEffect;->Paint()V",
+        "Lnicdy/game/GameCode/ButtonEffect;->ShowEffect_ScaleWithAlpha()V"
+    ],
+    "Lnicdy/game/GameCode/GS_Menu_Main;": [
+        "Lnicdy/game/GameCode/GS_Menu_Main;->InitUI()V",
+        "Lnicdy/game/GameCode/GS_Menu_Main;->ShowAD()V",
+        "Lnicdy/game/GameCode/GS_Menu_Main;->ShowADClix()V"
+    ],
+    "Lnicdy/game/GameCode/UI_Menu_Main;": [
+        "Lnicdy/game/GameCode/UI_Menu_Main;->UpdateUI()V",
+        "Lnicdy/game/GameCode/UI_Menu_Main;->PaintUI()V",
+        "Lnicdy/game/GameCode/UI_Menu_Main;->OpenUI()V",
+        "Lnicdy/game/GameCode/UI_Menu_Main;->ProcControlUI()V"
+    ],
+    "Lnicdy/game/GameCode/UI_Help;": [
+        "Lnicdy/game/GameCode/UI_Help;->PaintUI()V",
+        "Lnicdy/game/GameCode/UI_Help;->GetUIState()I",
+        "Lnicdy/game/GameCode/UI_Help;->ProcControlUI()V",
+        "Lnicdy/game/GameCode/UI_Help;->UpdateUI()V"
+    ],
+    "Lnicdy/game/GameCode/Item;": [
+        "Lnicdy/game/GameCode/Item;->Hide()V",
+        "Lnicdy/game/GameCode/Item;->Paint()V",
+        "Lnicdy/game/GameCode/Item;->FadeIn()V",
+        "Lnicdy/game/GameCode/Item;->FadeOut()V"
+    ],
+    "Lnicdy/game/GameEngine/Collide/Collide;": [
+        "Lnicdy/game/GameEngine/Collide/Collide;->Check_IsCollide()Z"
+    ],
+    "Lnicdy/game/GameEngine/Frame/LogInfo;": [
+        "Lnicdy/game/GameEngine/Frame/LogInfo;->Log()V"
+    ],
+    "Lnicdy/game/GameCode/GS_Menu_Logo;": [
+        "Lnicdy/game/GameCode/GS_Menu_Logo;->ShowAD()V",
+        "Lnicdy/game/GameCode/GS_Menu_Logo;->ShowADClix()V"
+    ],
+    "Lnicdy/game/GameEngine/GameUI/GU_Logo_III;": [
+        "Lnicdy/game/GameEngine/GameUI/GU_Logo_III;->UpdateUI()V",
+        "Lnicdy/game/GameEngine/GameUI/GU_Logo_III;->PaintUI()V",
+        "Lnicdy/game/GameEngine/GameUI/GU_Logo_III;->OpenUI()V"
+    ],
+    "Landroid/os/SystemClock;": [
+        "Landroid/os/SystemClock;->uptimeMillis()J",
+        "Landroid/os/SystemClock;->elapsedRealtime()J"
+    ],
+    "Lnicdy/game/GameEngine/Frame/FpsManager;": [
+        "Lnicdy/game/GameEngine/Frame/FpsManager;->setLimitFrameRate()V",
+        "Lnicdy/game/GameEngine/Frame/FpsManager;->calculateCanRender()V",
+        "Lnicdy/game/GameEngine/Frame/FpsManager;->setCalculateFPS()V",
+        "Lnicdy/game/GameEngine/Frame/FpsManager;->endRender()V",
+        "Lnicdy/game/GameEngine/Frame/FpsManager;->Update()V",
+        "Lnicdy/game/GameEngine/Frame/FpsManager;->StartRender()V",
+        "Lnicdy/game/GameEngine/Frame/FpsManager;->calculateCurFrameRate()V",
+        "Lnicdy/game/GameEngine/Frame/FpsManager;->calculateIntervalFrameTime()V"
+    ],
+    "Lnicdy/game/GameEngine/Windows/Windows;": [
+        "Lnicdy/game/GameEngine/Windows/Windows;->CheckIsTouchInWindows()Z",
+        "Lnicdy/game/GameEngine/Windows/Windows;->Paint()V",
+        "Lnicdy/game/GameEngine/Windows/Windows;->Update()V",
+        "Lnicdy/game/GameEngine/Windows/Windows;->ProcControl()V",
+        "Lnicdy/game/GameEngine/Windows/Windows;->GetTitle()Ljava/lang/String;",
+        "Lnicdy/game/GameEngine/Windows/Windows;->Init()V",
+        "Lnicdy/game/GameEngine/Windows/Windows;->ProcTouchedOutOfTheWindow()V",
+        "Lnicdy/game/GameEngine/Windows/Windows;->Close()V"
+    ],
+    "Lnicdy/game/GameEngine/Frame/GameView;": [
+        "Lnicdy/game/GameEngine/Frame/GameView;->getHolder()Landroid/view/SurfaceHolder;",
+        "Lnicdy/game/GameEngine/Frame/GameView;->CreateThread()V",
+        "Lnicdy/game/GameEngine/Frame/GameView;->setKeepScreenOn()V",
+        "Lnicdy/game/GameEngine/Frame/GameView;->setFocusable()V"
+    ],
+    "Landroid/view/SurfaceHolder;": [
+        "Landroid/view/SurfaceHolder;->addCallback()V",
+        "Landroid/view/SurfaceHolder;->lockCanvas()Landroid/graphics/Canvas;",
+        "Landroid/view/SurfaceHolder;->unlockCanvasAndPost()V"
+    ],
+    "Lnicdy/game/GameEngine/Frame/GameMainLoop;": [
+        "Lnicdy/game/GameEngine/Frame/GameMainLoop;->SetRunable()V",
+        "Lnicdy/game/GameEngine/Frame/GameMainLoop;->Render()V",
+        "Lnicdy/game/GameEngine/Frame/GameMainLoop;->pause()V",
+        "Lnicdy/game/GameEngine/Frame/GameMainLoop;->start()V",
+        "Lnicdy/game/GameEngine/Frame/GameMainLoop;->unpause()V"
+    ],
+    "Landroid/content/res/Resources;": [
+        "Landroid/content/res/Resources;->getDrawable()Landroid/graphics/drawable/Drawable;",
+        "Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;",
+        "Landroid/content/res/Resources;->getText()Ljava/lang/CharSequence;",
+        "Landroid/content/res/Resources;->getIdentifier()I"
+    ],
+    "Lnicdy/game/GameEngine/Frame/GS_Load$Load;": [
+        "Lnicdy/game/GameEngine/Frame/GS_Load$Load;->start()V"
+    ],
+    "Lnicdy/game/GameEngine/Hardware/HD_Vibrator;": [
+        "Lnicdy/game/GameEngine/Hardware/HD_Vibrator;->RunWithTime()V",
+        "Lnicdy/game/GameEngine/Hardware/HD_Vibrator;->RunWithFrequency()V"
+    ],
+    "Lnicdy/game/GameEngine/Frame/Fade;": [
+        "Lnicdy/game/GameEngine/Frame/Fade;->PaintFadeIn()V",
+        "Lnicdy/game/GameEngine/Frame/Fade;->Release()V",
+        "Lnicdy/game/GameEngine/Frame/Fade;->UpdataFadeOut()Z",
+        "Lnicdy/game/GameEngine/Frame/Fade;->UpdataFadeIn()Z",
+        "Lnicdy/game/GameEngine/Frame/Fade;->InitFadeIn()V",
+        "Lnicdy/game/GameEngine/Frame/Fade;->InitFadeOut()V",
+        "Lnicdy/game/GameEngine/Frame/Fade;->PaintFadeOut()V"
+    ],
+    "Landroid/text/Editable;": [
+        "Landroid/text/Editable;->toString()Ljava/lang/String;"
+    ],
+    "Lnicdy/game/GameEngine/Component/ScrollBar;": [
+        "Lnicdy/game/GameEngine/Component/ScrollBar;->CalculateBarOffSet()V",
+        "Lnicdy/game/GameEngine/Component/ScrollBar;->SetPos()V",
+        "Lnicdy/game/GameEngine/Component/ScrollBar;->CalculateOutOffset()V"
+    ],
+    "Landroid/graphics/RectF;": [
+        "Landroid/graphics/RectF;->height()F",
+        "Landroid/graphics/RectF;->centerY()F",
+        "Landroid/graphics/RectF;->contains()Z",
+        "Landroid/graphics/RectF;->centerX()F",
+        "Landroid/graphics/RectF;->width()F",
+        "Landroid/graphics/RectF;->set()V"
+    ],
+    "Landroid/hardware/SensorManager;": [
+        "Landroid/hardware/SensorManager;->getDefaultSensor()Landroid/hardware/Sensor;",
+        "Landroid/hardware/SensorManager;->unregisterListener()V",
+        "Landroid/hardware/SensorManager;->registerListener()Z"
+    ],
+    "Lnicdy/game/GameEngine/Hardware/HD_AudioRecorder15;": [
+        "Lnicdy/game/GameEngine/Hardware/HD_AudioRecorder15;->InitSdCardPath()Ljava/lang/String;",
+        "Lnicdy/game/GameEngine/Hardware/HD_AudioRecorder15;->InitSystemPath()Ljava/lang/String;",
+        "Lnicdy/game/GameEngine/Hardware/HD_AudioRecorder15;->AjustPath()Z",
+        "Lnicdy/game/GameEngine/Hardware/HD_AudioRecorder15;->InitRecorderListener()V"
+    ],
+    "Landroid/content/ContentValues;": [
+        "Landroid/content/ContentValues;->put()V"
+    ],
+    "Ljava/lang/Long;": [
+        "Ljava/lang/Long;->longValue()J",
+        "Ljava/lang/Long;->valueOf()Ljava/lang/Long;"
+    ],
+    "Landroid/media/MediaRecorder;": [
+        "Landroid/media/MediaRecorder;->release()V",
+        "Landroid/media/MediaRecorder;->reset()V",
+        "Landroid/media/MediaRecorder;->setAudioSource()V",
+        "Landroid/media/MediaRecorder;->setMaxFileSize()V",
+        "Landroid/media/MediaRecorder;->prepare()V",
+        "Landroid/media/MediaRecorder;->setOutputFile()V",
+        "Landroid/media/MediaRecorder;->start()V",
+        "Landroid/media/MediaRecorder;->setOutputFormat()V",
+        "Landroid/media/MediaRecorder;->setOnInfoListener()V",
+        "Landroid/media/MediaRecorder;->setAudioEncoder()V"
+    ],
+    "Landroid/os/Vibrator;": [
+        "Landroid/os/Vibrator;->cancel()V",
+        "Landroid/os/Vibrator;->vibrate()V"
+    ],
+    "Landroid/hardware/Sensor;": [
+        "Landroid/hardware/Sensor;->getType()I"
+    ],
+    "Lnicdy/game/GameEngine/Hardware/HD_AudioRecorder10;": [
+        "Lnicdy/game/GameEngine/Hardware/HD_AudioRecorder10;->AjustPath()Z",
+        "Lnicdy/game/GameEngine/Hardware/HD_AudioRecorder10;->InitSystemPath()Ljava/lang/String;",
+        "Lnicdy/game/GameEngine/Hardware/HD_AudioRecorder10;->InitSdCardPath()Ljava/lang/String;"
+    ],
+    "Lnicdy/game/GameEngine/Time/TimeDHM;": [
+        "Lnicdy/game/GameEngine/Time/TimeDHM;->Conversion_DHMTimeToSec()J",
+        "Lnicdy/game/GameEngine/Time/TimeDHM;->SubDHMTime()Lnicdy/game/GameEngine/Time/TimeDHM;",
+        "Lnicdy/game/GameEngine/Time/TimeDHM;->GetCurrentDHMTime()Lnicdy/game/GameEngine/Time/TimeDHM;",
+        "Lnicdy/game/GameEngine/Time/TimeDHM;->Conversion_SecToDHMTime()Lnicdy/game/GameEngine/Time/TimeDHM;"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;": [
+        "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;->UpdateAutoScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;->Order_AutoScaleTo()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;->Update()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;->SetShowFont()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;->GetIsScalse()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;->Paint()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;->SetContent()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;->IsCollide()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;->SetRectF()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;->SetAlpha()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;->GetIsAutoScalse()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/RectFrame;->UpdateAutoMove()V"
+    ],
+    "Lnicdy/game/GameEngine/Windows/Win_Option;": [
+        "Lnicdy/game/GameEngine/Windows/Win_Option;->ProcMusicSwitch()V",
+        "Lnicdy/game/GameEngine/Windows/Win_Option;->ProcSave()V",
+        "Lnicdy/game/GameEngine/Windows/Win_Option;->ProcVibrateSwitch()V",
+        "Lnicdy/game/GameEngine/Windows/Win_Option;->ProcSoundSwitch()V"
+    ],
+    "Lnicdy/game/GameEngine/Windows/Win_Hint;": [
+        "Lnicdy/game/GameEngine/Windows/Win_Hint;->ProcYes()V"
+    ],
+    "Lnicdy/game/GameEngine/Windows/Win_Exit;": [
+        "Lnicdy/game/GameEngine/Windows/Win_Exit;->ProcNo()V",
+        "Lnicdy/game/GameEngine/Windows/Win_Exit;->ProcYes()V"
+    ],
+    "Lnicdy/game/GameEngine/Windows/Window_SP_Hint;": [
+        "Lnicdy/game/GameEngine/Windows/Window_SP_Hint;->SetMenuUI()V",
+        "Lnicdy/game/GameEngine/Windows/Window_SP_Hint;->SetShowContent()V",
+        "Lnicdy/game/GameEngine/Windows/Window_SP_Hint;->SetWindowsArea()V"
+    ],
+    "Lnicdy/game/GameEngine/Windows/Win_Community;": [
+        "Lnicdy/game/GameEngine/Windows/Win_Community;->ProcTouch()V"
+    ],
+    "Lnicdy/game/GameEngine/Windows/Win_Menu;": [
+        "Lnicdy/game/GameEngine/Windows/Win_Menu;->GetClickItemId()I",
+        "Lnicdy/game/GameEngine/Windows/Win_Menu;->SelectMenuItem()V"
+    ],
+    "Lnicdy/game/GameEngine/Windows/Win_Help;": [
+        "Lnicdy/game/GameEngine/Windows/Win_Help;->ShowContent()V",
+        "Lnicdy/game/GameEngine/Windows/Win_Help;->ProcTouch()V"
+    ],
+    "Lnicdy/game/GameEngine/Windows/Win_About;": [
+        "Lnicdy/game/GameEngine/Windows/Win_About;->ShowContent()V",
+        "Lnicdy/game/GameEngine/Windows/Win_About;->ProcTouch()V"
+    ],
+    "Lnicdy/game/GameEngine/Windows/Window_SP_Fail;": [
+        "Lnicdy/game/GameEngine/Windows/Window_SP_Fail;->SetWindowsArea()V",
+        "Lnicdy/game/GameEngine/Windows/Window_SP_Fail;->SetShowContent()V",
+        "Lnicdy/game/GameEngine/Windows/Window_SP_Fail;->SetMenuUI()V",
+        "Lnicdy/game/GameEngine/Windows/Window_SP_Fail;->ClickProc()V"
+    ],
+    "Lnicdy/game/GameEngine/Windows/Window_SP_Confirm;": [
+        "Lnicdy/game/GameEngine/Windows/Window_SP_Confirm;->SetWindowsArea()V",
+        "Lnicdy/game/GameEngine/Windows/Window_SP_Confirm;->ClickProcOK()V",
+        "Lnicdy/game/GameEngine/Windows/Window_SP_Confirm;->ClickProcCancel()V",
+        "Lnicdy/game/GameEngine/Windows/Window_SP_Confirm;->SetShowContent()V",
+        "Lnicdy/game/GameEngine/Windows/Window_SP_Confirm;->SetMenuUI()V"
+    ],
+    "Lnicdy/game/GameEngine/GameUI/GU_Logo_I;": [
+        "Lnicdy/game/GameEngine/GameUI/GU_Logo_I;->CloseUI()V",
+        "Lnicdy/game/GameEngine/GameUI/GU_Logo_I;->OpenUI()V"
+    ],
+    "Lnicdy/game/GameEngine/GameUI/GU_Logo_II;": [
+        "Lnicdy/game/GameEngine/GameUI/GU_Logo_II;->CloseUI()V",
+        "Lnicdy/game/GameEngine/GameUI/GU_Logo_II;->OpenUI()V"
+    ],
+    "Landroid/graphics/Point;": [
+        "Landroid/graphics/Point;->set()V"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/G2D/OBJManage;": [
+        "Lnicdy/game/GameEngine/Graphics/G2D/OBJManage;->CheckIsFull()Z"
+    ],
+    "Landroid/view/animation/Transformation;": [
+        "Landroid/view/animation/Transformation;->getMatrix()Landroid/graphics/Matrix;",
+        "Landroid/view/animation/Transformation;->compose()V",
+        "Landroid/view/animation/Transformation;->setTransformationType()V",
+        "Landroid/view/animation/Transformation;->clear()V"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;": [
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->SetCenterPos()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->setVisible()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->setScale_x()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->setDegrees()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->setScale_Center_X()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->setScale_Center_Y()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->getCurFrameID()I",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->setRotate_Center_Y()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->Paint()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->UpdataSize()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->SetPos()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->PaintRepeat_OverEnable()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->Process_Roll()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->setRotate_Center_X()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->SetImage()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->UpdataPos()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->setSrcRect()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->setAlpha()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->SetAcceleration()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->PaintBitmap()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->GetisVisible()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->UpdataShow()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->UpdataSprite()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->SetSpeedMax()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->setScale_y()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->UpdataAnimation()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->Init()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->setCurFrameID()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->SetSpeed()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BackGroudManager;->UpdataSpeed()V"
+    ],
+    "Landroid/graphics/drawable/Drawable;": [
+        "Landroid/graphics/drawable/Drawable;->setAlpha()V",
+        "Landroid/graphics/drawable/Drawable;->draw()V",
+        "Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I",
+        "Landroid/graphics/drawable/Drawable;->setBounds()V",
+        "Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/G2D/AM_Alpha;": [
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Alpha;->setLoop()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Alpha;->setLoopTime()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Alpha;->getcurrent()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Alpha;->Start()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Alpha;->Reversal()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Alpha;->Init()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Alpha;->SetAlpha()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Alpha;->setLoopType()V"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/G2D/AM_Scale;": [
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Scale;->SetScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Scale;->Reversal()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Scale;->getCenter()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Scale;->setLoopType()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Scale;->Init()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Scale;->Start()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Scale;->setLoop()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Scale;->getCurScale()F",
+        "Lnicdy/game/GameEngine/Graphics/G2D/AM_Scale;->setLoopTime()V"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/SpriteAction/Action_Fluctuate;": [
+        "Lnicdy/game/GameEngine/Graphics/SpriteAction/Action_Fluctuate;->GetOffset()I"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/SpriteAction/Action_Shake;": [
+        "Lnicdy/game/GameEngine/Graphics/SpriteAction/Action_Shake;->GetOffset()Landroid/graphics/Point;"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/G2D/Screen;": [
+        "Lnicdy/game/GameEngine/Graphics/G2D/Screen;->SetScreenInitPos()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Screen;->Update_InstantMove()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Screen;->Check_IsPointFInScreen()Z",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Screen;->Update_EasyMove()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Screen;->GetCurScreenCenterPos()Landroid/graphics/PointF;",
+        "Lnicdy/game/GameEngine/Graphics/G2D/Screen;->Update_LockTarget()V"
+    ],
+    "Landroid/graphics/PointF;": [
+        "Landroid/graphics/PointF;->set()V"
+    ],
+    "Lnicdy/game/GameEngine/Graphics/G2D/BG;": [
+        "Lnicdy/game/GameEngine/Graphics/G2D/BG;->UpdataSpeed()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BG;->UpdataAutoMove()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BG;->UpdateFade()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BG;->UpdateFlash()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BG;->UpdataPos()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BG;->UpdateCurBitmapPixls()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BG;->UpdateAutoAlpha()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BG;->UpdateAutoScale()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BG;->UpdataShow()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BG;->UpdataAnimation()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BG;->setCurFrameID()V",
+        "Lnicdy/game/GameEngine/Graphics/G2D/BG;->UpdateAutoRotate()V"
+    ],
+    "Ljava/lang/Float;": [
+        "Ljava/lang/Float;->floatValue()F",
+        "Ljava/lang/Float;->valueOf()Ljava/lang/Float;"
+    ],
+    "Landroid/media/SoundPool;": [
+        "Landroid/media/SoundPool;->stop()V",
+        "Landroid/media/SoundPool;->load()I",
+        "Landroid/media/SoundPool;->play()I"
+    ],
+    "Lcom/admob/android/ads/e;": [
+        "Lcom/admob/android/ads/e;->a()Lcom/admob/android/ads/r;"
+    ],
+    "Lcom/admob/android/ads/r;": [
+        "Lcom/admob/android/ads/r;->a()Ljava/net/URL;",
+        "Lcom/admob/android/ads/r;->a()[B",
+        "Lcom/admob/android/ads/r;->a()V",
+        "Lcom/admob/android/ads/r;->a()Z",
+        "Lcom/admob/android/ads/r;->a()Ljava/lang/String;"
+    ],
+    "Lorg/json/JSONObject;": [
+        "Lorg/json/JSONObject;->toString()Ljava/lang/String;",
+        "Lorg/json/JSONObject;->getJSONArray()Lorg/json/JSONArray;",
+        "Lorg/json/JSONObject;->optString()Ljava/lang/String;",
+        "Lorg/json/JSONObject;->optJSONArray()Lorg/json/JSONArray;",
+        "Lorg/json/JSONObject;->length()I",
+        "Lorg/json/JSONObject;->optInt()I",
+        "Lorg/json/JSONObject;->optJSONObject()Lorg/json/JSONObject;",
+        "Lorg/json/JSONObject;->keys()Ljava/util/Iterator;",
+        "Lorg/json/JSONObject;->put()Lorg/json/JSONObject;",
+        "Lorg/json/JSONObject;->getString()Ljava/lang/String;",
+        "Lorg/json/JSONObject;->opt()Ljava/lang/Object;",
+        "Lorg/json/JSONObject;->optDouble()D",
+        "Lorg/json/JSONObject;->getJSONObject()Lorg/json/JSONObject;",
+        "Lorg/json/JSONObject;->has()Z",
+        "Lorg/json/JSONObject;->optBoolean()Z"
+    ],
+    "Ljava/net/HttpURLConnection;": [
+        "Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;",
+        "Ljava/net/HttpURLConnection;->setDoOutput()V",
+        "Ljava/net/HttpURLConnection;->setConnectTimeout()V",
+        "Ljava/net/HttpURLConnection;->setRequestMethod()V",
+        "Ljava/net/HttpURLConnection;->addRequestProperty()V",
+        "Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;",
+        "Ljava/net/HttpURLConnection;->getHeaderField()Ljava/lang/String;",
+        "Ljava/net/HttpURLConnection;->setReadTimeout()V",
+        "Ljava/net/HttpURLConnection;->disconnect()V",
+        "Ljava/net/HttpURLConnection;->setRequestProperty()V",
+        "Ljava/net/HttpURLConnection;->setFollowRedirects()V",
+        "Ljava/net/HttpURLConnection;->getURL()Ljava/net/URL;",
+        "Ljava/net/HttpURLConnection;->getResponseCode()I",
+        "Ljava/net/HttpURLConnection;->connect()V"
+    ],
+    "Lcom/admob/android/ads/h;": [
+        "Lcom/admob/android/ads/h;->a()V"
+    ],
+    "Landroid/util/Log;": [
+        "Landroid/util/Log;->a()I",
+        "Landroid/util/Log;->isLoggable()Z"
+    ],
+    "Lcom/admob/android/ads/i;": [
+        "Lcom/admob/android/ads/i;->a()V",
+        "Lcom/admob/android/ads/i;->a()Ljava/lang/String;",
+        "Lcom/admob/android/ads/i;->a()Z"
+    ],
+    "Ljava/util/Map;": [
+        "Ljava/util/Map;->keySet()Ljava/util/Set;",
+        "Ljava/util/Map;->get()Ljava/lang/Object;"
+    ],
+    "Ljava/util/Set;": [
+        "Ljava/util/Set;->iterator()Ljava/util/Iterator;"
+    ],
+    "Ljava/util/Iterator;": [
+        "Ljava/util/Iterator;->hasNext()Z",
+        "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+    ],
+    "Ljava/io/BufferedWriter;": [
+        "Ljava/io/BufferedWriter;->write()V",
+        "Ljava/io/BufferedWriter;->close()V"
+    ],
+    "Ljava/io/BufferedInputStream;": [
+        "Ljava/io/BufferedInputStream;->read()I"
+    ],
+    "Ljava/io/ByteArrayOutputStream;": [
+        "Ljava/io/ByteArrayOutputStream;->toByteArray()[B",
+        "Ljava/io/ByteArrayOutputStream;->write()V"
+    ],
+    "Lcom/admob/android/ads/q;": [
+        "Lcom/admob/android/ads/q;->getTypeface()Landroid/graphics/Typeface;",
+        "Lcom/admob/android/ads/q;->setLines()V",
+        "Lcom/admob/android/ads/q;->getTextSize()F",
+        "Lcom/admob/android/ads/q;->getText()Ljava/lang/CharSequence;",
+        "Lcom/admob/android/ads/q;->getPaint()Landroid/text/TextPaint;",
+        "Lcom/admob/android/ads/q;->setTypeface()V",
+        "Lcom/admob/android/ads/q;->setBackgroundColor()V",
+        "Lcom/admob/android/ads/q;->setTextSize()V",
+        "Lcom/admob/android/ads/q;->setTextColor()V",
+        "Lcom/admob/android/ads/q;->setGravity()V",
+        "Lcom/admob/android/ads/q;->getMeasuredWidth()I",
+        "Lcom/admob/android/ads/q;->setText()V"
+    ],
+    "Landroid/widget/TextView;": [
+        "Landroid/widget/TextView;->setPadding()V",
+        "Landroid/widget/TextView;->setTextSize()V",
+        "Landroid/widget/TextView;->setText()V",
+        "Landroid/widget/TextView;->setGravity()V",
+        "Landroid/widget/TextView;->setTextColor()V",
+        "Landroid/widget/TextView;->onMeasure()V",
+        "Landroid/widget/TextView;->setBackgroundColor()V"
+    ],
+    "Landroid/text/TextPaint;": [
+        "Landroid/text/TextPaint;->setTypeface()Landroid/graphics/Typeface;",
+        "Landroid/text/TextPaint;->setTextSize()V",
+        "Landroid/text/TextPaint;->measureText()F"
+    ],
+    "Ljava/lang/CharSequence;": [
+        "Ljava/lang/CharSequence;->length()I"
+    ],
+    "Lorg/json/JSONArray;": [
+        "Lorg/json/JSONArray;->getDouble()D",
+        "Lorg/json/JSONArray;->getJSONArray()Lorg/json/JSONArray;",
+        "Lorg/json/JSONArray;->get()Ljava/lang/Object;",
+        "Lorg/json/JSONArray;->toString()Ljava/lang/String;",
+        "Lorg/json/JSONArray;->length()I",
+        "Lorg/json/JSONArray;->getString()Ljava/lang/String;",
+        "Lorg/json/JSONArray;->getInt()I",
+        "Lorg/json/JSONArray;->getJSONObject()Lorg/json/JSONObject;"
+    ],
+    "Lcom/admob/android/ads/d;": [
+        "Lcom/admob/android/ads/d;->a()Landroid/graphics/Matrix;",
+        "Lcom/admob/android/ads/d;->a()J",
+        "Lcom/admob/android/ads/d;->toString()Ljava/lang/String;",
+        "Lcom/admob/android/ads/d;->a()Lcom/admob/android/ads/l;",
+        "Lcom/admob/android/ads/d;->a()Landroid/graphics/PointF;",
+        "Lcom/admob/android/ads/d;->a()D",
+        "Lcom/admob/android/ads/d;->a()Lcom/admob/android/ads/d;",
+        "Lcom/admob/android/ads/d;->a()Z",
+        "Lcom/admob/android/ads/d;->a()Landroid/view/animation/Interpolator;",
+        "Lcom/admob/android/ads/d;->a()V",
+        "Lcom/admob/android/ads/d;->a()Lcom/admob/android/ads/b;",
+        "Lcom/admob/android/ads/d;->a()Landroid/os/Bundle;",
+        "Lcom/admob/android/ads/d;->a()F",
+        "Lcom/admob/android/ads/d;->a()Landroid/view/animation/Animation;",
+        "Lcom/admob/android/ads/d;->a()[Ljava/lang/String;",
+        "Lcom/admob/android/ads/d;->a()[F",
+        "Lcom/admob/android/ads/d;->a()Lcom/admob/android/ads/n;",
+        "Lcom/admob/android/ads/d;->a()Landroid/graphics/Rect;",
+        "Lcom/admob/android/ads/d;->a()Lcom/admob/android/ads/k;",
+        "Lcom/admob/android/ads/d;->a()Landroid/view/View;",
+        "Lcom/admob/android/ads/d;->a()I",
+        "Lcom/admob/android/ads/d;->a()Lcom/admob/android/ads/m;",
+        "Lcom/admob/android/ads/d;->a()Landroid/graphics/RectF;",
+        "Lcom/admob/android/ads/d;->a()Landroid/view/animation/AnimationSet;"
+    ],
+    "Landroid/graphics/Matrix;": [
+        "Landroid/graphics/Matrix;->preTranslate()Z",
+        "Landroid/graphics/Matrix;->postTranslate()Z",
+        "Landroid/graphics/Matrix;->setSkew()V",
+        "Landroid/graphics/Matrix;->setValues()V"
+    ],
+    "Ljava/util/Vector;": [
+        "Ljava/util/Vector;->remove()Z",
+        "Ljava/util/Vector;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/Vector;->size()I",
+        "Ljava/util/Vector;->toArray()[Ljava/lang/Object;",
+        "Ljava/util/Vector;->get()Ljava/lang/Object;",
+        "Ljava/util/Vector;->elementAt()Ljava/lang/Object;",
+        "Ljava/util/Vector;->clear()V",
+        "Ljava/util/Vector;->add()Z",
+        "Ljava/util/Vector;->firstElement()Ljava/lang/Object;"
+    ],
+    "Landroid/graphics/drawable/GradientDrawable;": [
+        "Landroid/graphics/drawable/GradientDrawable;->setBounds()V",
+        "Landroid/graphics/drawable/GradientDrawable;->draw()V"
+    ],
+    "Lcom/admob/android/ads/g;": [
+        "Lcom/admob/android/ads/g;->setId()V",
+        "Lcom/admob/android/ads/g;->a()Lorg/json/JSONObject;",
+        "Lcom/admob/android/ads/g;->getResources()Landroid/content/res/Resources;",
+        "Lcom/admob/android/ads/g;->setClickable()V",
+        "Lcom/admob/android/ads/g;->getParent()Landroid/view/ViewParent;",
+        "Lcom/admob/android/ads/g;->post()Z",
+        "Lcom/admob/android/ads/g;->getWidth()I",
+        "Lcom/admob/android/ads/g;->a()Z",
+        "Lcom/admob/android/ads/g;->a()J",
+        "Lcom/admob/android/ads/g;->a()V",
+        "Lcom/admob/android/ads/g;->setGravity()V",
+        "Lcom/admob/android/ads/g;->setPressed()V",
+        "Lcom/admob/android/ads/g;->getChildCount()I",
+        "Lcom/admob/android/ads/g;->a()Ljava/util/Vector;",
+        "Lcom/admob/android/ads/g;->setBackgroundDrawable()V",
+        "Lcom/admob/android/ads/g;->invalidate()V",
+        "Lcom/admob/android/ads/g;->isFocused()Z",
+        "Lcom/admob/android/ads/g;->addView()V",
+        "Lcom/admob/android/ads/g;->hasFocus()Z",
+        "Lcom/admob/android/ads/g;->setLayoutParams()V",
+        "Lcom/admob/android/ads/g;->a()Lcom/admob/android/ads/d;",
+        "Lcom/admob/android/ads/g;->a()F",
+        "Lcom/admob/android/ads/g;->setVisibility()V",
+        "Lcom/admob/android/ads/g;->bringChildToFront()V",
+        "Lcom/admob/android/ads/g;->getHeight()I",
+        "Lcom/admob/android/ads/g;->getContext()Landroid/content/Context;",
+        "Lcom/admob/android/ads/g;->setFocusable()V",
+        "Lcom/admob/android/ads/g;->indexOfChild()I",
+        "Lcom/admob/android/ads/g;->getChildAt()Landroid/view/View;",
+        "Lcom/admob/android/ads/g;->isPressed()Z",
+        "Lcom/admob/android/ads/g;->postDelayed()Z"
+    ],
+    "Landroid/view/View;": [
+        "Landroid/view/View;->bringToFront()V",
+        "Landroid/view/View;->getWidth()I",
+        "Landroid/view/View;->setVisibility()V",
+        "Landroid/view/View;->getTag()Ljava/lang/Object;",
+        "Landroid/view/View;->getHeight()I",
+        "Landroid/view/View;->setTag()V",
+        "Landroid/view/View;->getVisibility()I",
+        "Landroid/view/View;->setBackgroundColor()V",
+        "Landroid/view/View;->startAnimation()V",
+        "Landroid/view/View;->setBackgroundDrawable()V",
+        "Landroid/view/View;->getParent()Landroid/view/ViewParent;"
+    ],
+    "Landroid/view/animation/Animation;": [
+        "Landroid/view/animation/Animation;->setFillBefore()V",
+        "Landroid/view/animation/Animation;->setRepeatMode()V",
+        "Landroid/view/animation/Animation;->setRepeatCount()V",
+        "Landroid/view/animation/Animation;->setDuration()V",
+        "Landroid/view/animation/Animation;->setInterpolator()V",
+        "Landroid/view/animation/Animation;->setStartOffset()V",
+        "Landroid/view/animation/Animation;->startNow()V",
+        "Landroid/view/animation/Animation;->setFillAfter()V",
+        "Landroid/view/animation/Animation;->scaleCurrentDuration()V",
+        "Landroid/view/animation/Animation;->getDuration()J"
+    ],
+    "Ljava/util/Arrays;": [
+        "Ljava/util/Arrays;->binarySearch()I",
+        "Ljava/util/Arrays;->sort()V",
+        "Ljava/util/Arrays;->equals()Z"
+    ],
+    "Lcom/admob/android/ads/f;": [
+        "Lcom/admob/android/ads/f;->a()Landroid/graphics/PointF;",
+        "Lcom/admob/android/ads/f;->a()Lcom/admob/android/ads/f;"
+    ],
+    "Landroid/view/animation/AnimationSet;": [
+        "Landroid/view/animation/AnimationSet;->addAnimation()V"
+    ],
+    "Ljava/lang/Object;": [
+        "Ljava/lang/Object;->equals()Z",
+        "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+    ],
+    "Landroid/os/Bundle;": [
+        "Landroid/os/Bundle;->putBoolean()V",
+        "Landroid/os/Bundle;->putStringArray()V",
+        "Landroid/os/Bundle;->getString()Ljava/lang/String;",
+        "Landroid/os/Bundle;->putLong()V",
+        "Landroid/os/Bundle;->putBundle()V",
+        "Landroid/os/Bundle;->putDoubleArray()V",
+        "Landroid/os/Bundle;->getBoolean()Z",
+        "Landroid/os/Bundle;->putString()V",
+        "Landroid/os/Bundle;->putBooleanArray()V",
+        "Landroid/os/Bundle;->putInt()V",
+        "Landroid/os/Bundle;->putLongArray()V",
+        "Landroid/os/Bundle;->putIntArray()V",
+        "Landroid/os/Bundle;->putDouble()V"
+    ],
+    "Ljava/lang/Boolean;": [
+        "Ljava/lang/Boolean;->booleanValue()Z",
+        "Ljava/lang/Boolean;->valueOf()Ljava/lang/Boolean;"
+    ],
+    "Ljava/lang/Double;": [
+        "Ljava/lang/Double;->doubleValue()D",
+        "Ljava/lang/Double;->toString()Ljava/lang/String;"
+    ],
+    "Landroid/graphics/Path;": [
+        "Landroid/graphics/Path;->addRoundRect()V"
+    ],
+    "Landroid/widget/ImageView;": [
+        "Landroid/widget/ImageView;->setImageBitmap()V",
+        "Landroid/widget/ImageView;->setScaleType()V"
+    ],
+    "Lcom/admob/android/ads/d$a;": [
+        "Lcom/admob/android/ads/d$a;->a()V"
+    ],
+    "Landroid/graphics/Typeface;": [
+        "Landroid/graphics/Typeface;->create()Landroid/graphics/Typeface;"
+    ],
+    "Landroid/widget/RelativeLayout$LayoutParams;": [
+        "Landroid/widget/RelativeLayout$LayoutParams;->addRule()V",
+        "Landroid/widget/RelativeLayout$LayoutParams;->setMargins()V"
+    ],
+    "Ljava/util/Hashtable;": [
+        "Ljava/util/Hashtable;->put()Ljava/lang/Object;",
+        "Ljava/util/Hashtable;->get()Ljava/lang/Object;",
+        "Ljava/util/Hashtable;->clear()V"
+    ],
+    "Ljava/net/URLEncoder;": [
+        "Ljava/net/URLEncoder;->encode()Ljava/lang/String;"
+    ],
+    "Ljava/util/HashSet;": [
+        "Ljava/util/HashSet;->remove()Z",
+        "Ljava/util/HashSet;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/HashSet;->add()Z",
+        "Ljava/util/HashSet;->clear()V",
+        "Ljava/util/HashSet;->size()I"
+    ],
+    "Lcom/admob/android/ads/AdManager;": [
+        "Lcom/admob/android/ads/AdManager;->a()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->clientError()V",
+        "Lcom/admob/android/ads/AdManager;->getBirthday()Ljava/util/GregorianCalendar;",
+        "Lcom/admob/android/ads/AdManager;->getOrientation()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->a()V",
+        "Lcom/admob/android/ads/AdManager;->getTestAction()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->getApplicationPackageName()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->setBirthday()V",
+        "Lcom/admob/android/ads/AdManager;->getPostalCode()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->getApplicationVersion()I",
+        "Lcom/admob/android/ads/AdManager;->getCoordinates()Landroid/location/Location;",
+        "Lcom/admob/android/ads/AdManager;->getUserId()Ljava/lang/String;",
+        "Lcom/admob/android/ads/AdManager;->getScreenWidth()I",
+        "Lcom/admob/android/ads/AdManager;->setPublisherId()V",
+        "Lcom/admob/android/ads/AdManager;->isTestDevice()Z",
+        "Lcom/admob/android/ads/AdManager;->getPublisherId()Ljava/lang/String;"
+    ],
+    "Landroid/widget/RelativeLayout;": [
+        "Landroid/widget/RelativeLayout;->setEnabled()V",
+        "Landroid/widget/RelativeLayout;->setBackgroundColor()V",
+        "Landroid/widget/RelativeLayout;->getVisibility()I",
+        "Landroid/widget/RelativeLayout;->onDetachedFromWindow()V",
+        "Landroid/widget/RelativeLayout;->onTrackballEvent()Z",
+        "Landroid/widget/RelativeLayout;->setGravity()V",
+        "Landroid/widget/RelativeLayout;->setVisibility()V",
+        "Landroid/widget/RelativeLayout;->setPressed()V",
+        "Landroid/widget/RelativeLayout;->onKeyUp()Z",
+        "Landroid/widget/RelativeLayout;->onAttachedToWindow()V",
+        "Landroid/widget/RelativeLayout;->addView()V",
+        "Landroid/widget/RelativeLayout;->onKeyDown()Z",
+        "Landroid/widget/RelativeLayout;->onDraw()V",
+        "Landroid/widget/RelativeLayout;->onMeasure()V"
+    ],
+    "Lcom/admob/android/ads/view/AdMobWebView;": [
+        "Lcom/admob/android/ads/view/AdMobWebView;->getSettings()Landroid/webkit/WebSettings;",
+        "Lcom/admob/android/ads/view/AdMobWebView;->removeSelf()V",
+        "Lcom/admob/android/ads/view/AdMobWebView;->setId()V",
+        "Lcom/admob/android/ads/view/AdMobWebView;->setBackgroundColor()V",
+        "Lcom/admob/android/ads/view/AdMobWebView;->setWebViewClient()V",
+        "Lcom/admob/android/ads/view/AdMobWebView;->getContext()Landroid/content/Context;",
+        "Lcom/admob/android/ads/view/AdMobWebView;->loadUrl()V"
+    ],
+    "Lcom/admob/android/ads/d$f;": [
+        "Lcom/admob/android/ads/d$f;->ordinal()I"
+    ],
+    "Lcom/admob/android/ads/d$b;": [
+        "Lcom/admob/android/ads/d$b;->a()V"
+    ],
+    "Landroid/view/KeyEvent;": [
+        "Landroid/view/KeyEvent;->getAction()I",
+        "Landroid/view/KeyEvent;->getEventTime()J"
+    ],
+    "Lcom/admob/android/ads/s;": [
+        "Lcom/admob/android/ads/s;->a()Ljava/lang/String;",
+        "Lcom/admob/android/ads/s;->a()Lorg/json/JSONObject;"
+    ],
+    "Landroid/view/ViewGroup;": [
+        "Landroid/view/ViewGroup;->getChildCount()I",
+        "Landroid/view/ViewGroup;->getChildAt()Landroid/view/View;"
+    ],
+    "Landroid/view/animation/ScaleAnimation;": [
+        "Landroid/view/animation/ScaleAnimation;->setAnimationListener()V",
+        "Landroid/view/animation/ScaleAnimation;->setDuration()V",
+        "Landroid/view/animation/ScaleAnimation;->setStartOffset()V",
+        "Landroid/view/animation/ScaleAnimation;->applyTransformation()V"
+    ],
+    "Landroid/widget/ProgressBar;": [
+        "Landroid/widget/ProgressBar;->setId()V",
+        "Landroid/widget/ProgressBar;->setVisibility()V",
+        "Landroid/widget/ProgressBar;->setIndeterminate()V",
+        "Landroid/widget/ProgressBar;->setLayoutParams()V"
+    ],
+    "Ljava/util/Collections;": [
+        "Ljava/util/Collections;->sort()V"
+    ],
+    "Landroid/graphics/Camera;": [
+        "Landroid/graphics/Camera;->restore()V",
+        "Landroid/graphics/Camera;->save()V",
+        "Landroid/graphics/Camera;->translate()V",
+        "Landroid/graphics/Camera;->rotateY()V",
+        "Landroid/graphics/Camera;->getMatrix()V",
+        "Landroid/graphics/Camera;->rotateZ()V",
+        "Landroid/graphics/Camera;->rotateX()V"
+    ],
+    "Ljava/util/Locale;": [
+        "Ljava/util/Locale;->getDefault()Ljava/util/Locale;",
+        "Ljava/util/Locale;->getCountry()Ljava/lang/String;",
+        "Ljava/util/Locale;->getLanguage()Ljava/lang/String;"
+    ],
+    "Ljava/util/concurrent/Executors;": [
+        "Ljava/util/concurrent/Executors;->newCachedThreadPool()Ljava/util/concurrent/ExecutorService;"
+    ],
+    "Ljava/util/concurrent/Executor;": [
+        "Ljava/util/concurrent/Executor;->execute()V"
+    ],
+    "Landroid/view/animation/AlphaAnimation;": [
+        "Landroid/view/animation/AlphaAnimation;->setInterpolator()V",
+        "Landroid/view/animation/AlphaAnimation;->setFillAfter()V",
+        "Landroid/view/animation/AlphaAnimation;->applyTransformation()V",
+        "Landroid/view/animation/AlphaAnimation;->setDuration()V",
+        "Landroid/view/animation/AlphaAnimation;->startNow()V"
+    ],
+    "Ljava/lang/ref/WeakReference;": [
+        "Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;"
+    ],
+    "Lcom/admob/android/ads/u;": [
+        "Lcom/admob/android/ads/u;->a()V",
+        "Lcom/admob/android/ads/u;->a()Lcom/admob/android/ads/d;",
+        "Lcom/admob/android/ads/u;->a()Ljava/lang/String;"
+    ],
+    "Lcom/admob/android/ads/o;": [
+        "Lcom/admob/android/ads/o;->a()V",
+        "Lcom/admob/android/ads/o;->a()Ljava/io/File;",
+        "Lcom/admob/android/ads/o;->a()Ljava/lang/String;",
+        "Lcom/admob/android/ads/o;->a()Z"
+    ],
+    "Landroid/view/animation/TranslateAnimation;": [
+        "Landroid/view/animation/TranslateAnimation;->applyTransformation()V"
+    ],
+    "Landroid/location/Location;": [
+        "Landroid/location/Location;->getLongitude()D",
+        "Landroid/location/Location;->getLatitude()D"
+    ],
+    "Ljava/security/MessageDigest;": [
+        "Ljava/security/MessageDigest;->update()V",
+        "Ljava/security/MessageDigest;->getInstance()Ljava/security/MessageDigest;",
+        "Ljava/security/MessageDigest;->digest()[B"
+    ],
+    "Ljava/util/GregorianCalendar;": [
+        "Ljava/util/GregorianCalendar;->set()V",
+        "Ljava/util/GregorianCalendar;->get()I"
+    ],
+    "Landroid/location/Criteria;": [
+        "Landroid/location/Criteria;->setCostAllowed()V",
+        "Landroid/location/Criteria;->setAltitudeRequired()V",
+        "Landroid/location/Criteria;->setBearingRequired()V",
+        "Landroid/location/Criteria;->setAccuracy()V",
+        "Landroid/location/Criteria;->setSpeedRequired()V"
+    ],
+    "Landroid/location/LocationManager;": [
+        "Landroid/location/LocationManager;->getBestProvider()Ljava/lang/String;",
+        "Landroid/location/LocationManager;->requestLocationUpdates()V",
+        "Landroid/location/LocationManager;->getLastKnownLocation()Landroid/location/Location;"
+    ],
+    "Landroid/provider/Settings$Secure;": [
+        "Landroid/provider/Settings$Secure;->getString()Ljava/lang/String;"
+    ],
+    "[Ljava/lang/String;": [
+        "[Ljava/lang/String;->clone()Ljava/lang/Object;"
+    ],
+    "Landroid/util/AttributeSet;": [
+        "Landroid/util/AttributeSet;->getAttributeBooleanValue()Z",
+        "Landroid/util/AttributeSet;->getAttributeIntValue()I",
+        "Landroid/util/AttributeSet;->getAttributeUnsignedIntValue()I",
+        "Landroid/util/AttributeSet;->getAttributeValue()Ljava/lang/String;"
+    ],
+    "Lcom/admob/android/ads/t;": [
+        "Lcom/admob/android/ads/t;->a()V"
+    ],
+    "Lcom/admob/android/ads/a;": [
+        "Lcom/admob/android/ads/a;->start()V"
+    ],
+    "Lcom/admob/android/ads/AdListener;": [
+        "Lcom/admob/android/ads/AdListener;->onReceiveAd()V",
+        "Lcom/admob/android/ads/AdListener;->onReceiveRefreshedAd()V"
+    ],
+    "Lcom/admob/android/ads/j;": [
+        "Lcom/admob/android/ads/j;->setDuration()V",
+        "Lcom/admob/android/ads/j;->setInterpolator()V",
+        "Lcom/admob/android/ads/j;->setFillAfter()V",
+        "Lcom/admob/android/ads/j;->setAnimationListener()V"
+    ],
+    "Landroid/view/View$MeasureSpec;": [
+        "Landroid/view/View$MeasureSpec;->getMode()I",
+        "Landroid/view/View$MeasureSpec;->getSize()I"
+    ],
+    "Ljava/util/Properties;": [
+        "Ljava/util/Properties;->load()V"
+    ],
+    "Landroid/view/animation/Interpolator;": [
+        "Landroid/view/animation/Interpolator;->getInterpolation()F"
+    ],
+    "Lcom/admob/android/ads/b$a;": [
+        "Lcom/admob/android/ads/b$a;->a()V"
+    ],
+    "Lcom/mobclix/android/sdk/Mobclix;": [
+        "Lcom/mobclix/android/sdk/Mobclix;->createJSONFromHashMap()Lorg/json/JSONObject;",
+        "Lcom/mobclix/android/sdk/Mobclix;->sha1()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getInstance()Lcom/mobclix/android/sdk/Mobclix;",
+        "Lcom/mobclix/android/sdk/Mobclix;->sync()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->notifyUser()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->onCreate()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->logEvent()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->updateConnectivity()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->writeApplicationEnvironmentData()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->updateLocation()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->updateSession()V"
+    ],
+    "Landroid/provider/Settings$System;": [
+        "Landroid/provider/Settings$System;->getString()Ljava/lang/String;"
+    ],
+    "Landroid/app/AlertDialog;": [
+        "Landroid/app/AlertDialog;->show()V"
+    ],
+    "Ljava/util/Date;": [
+        "Ljava/util/Date;->getTime()J"
+    ],
+    "Lcom/mobclix/android/sdk/Mobclix$MobclixDatabase;": [
+        "Lcom/mobclix/android/sdk/Mobclix$MobclixDatabase;->insertMessage()Z",
+        "Lcom/mobclix/android/sdk/Mobclix$MobclixDatabase;->insertSession()Z",
+        "Lcom/mobclix/android/sdk/Mobclix$MobclixDatabase;->access$0()Landroid/database/sqlite/SQLiteDatabase;"
+    ],
+    "Lcom/mobclix/android/sdk/Mobclix$MobclixMessenger;": [
+        "Lcom/mobclix/android/sdk/Mobclix$MobclixMessenger;->stop()V"
+    ],
+    "Landroid/database/sqlite/SQLiteDatabase;": [
+        "Landroid/database/sqlite/SQLiteDatabase;->close()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixAdView;": [
+        "Lcom/mobclix/android/sdk/MobclixAdView;->setMeasuredDimension()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->setWebViewClient()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->getSettings()Landroid/webkit/WebSettings;",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->cancelAd()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->getResources()Landroid/content/res/Resources;",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->setRefreshTime()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->setBackgroundColor()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->setVerticalScrollBarEnabled()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->setHorizontalScrollBarEnabled()V"
+    ],
+    "Landroid/webkit/CookieManager;": [
+        "Landroid/webkit/CookieManager;->getInstance()Landroid/webkit/CookieManager;",
+        "Landroid/webkit/CookieManager;->setAcceptCookie()V"
+    ],
+    "Ljava/util/Timer;": [
+        "Ljava/util/Timer;->purge()I",
+        "Ljava/util/Timer;->cancel()V",
+        "Ljava/util/Timer;->scheduleAtFixedRate()V"
+    ],
+    "Landroid/util/TypedValue;": [
+        "Landroid/util/TypedValue;->applyDimension()F"
+    ]
+}

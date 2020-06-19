@@ -1,0 +1,6 @@
+{
+    "Personal": ["assault","battery","arson","abuse","kidnap","rape","homicide","manslaughter","brandish","child","chld","sex","oral","stalk","traffick","discharge","peep","pimp","abortion","lynch"],
+    "Property": ["theft","burglary","larceny","robbery","shoplift","vandalism","stolen","trespass","snatch","steal","throwing","pickpocket","dumping","vehicle","dwelling","prowler","wreck","till","property"],
+    "Inchoate": ["attempt","conspiracy","contribut","threat","scare","bribe","pandering","possession"],
+    "Statutory": ["driv","drunk","drug","yield","disrupt","violation","lewd","indecent","contempt","disturb","incit","resist"]
+}

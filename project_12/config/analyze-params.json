@@ -1,0 +1,5 @@
+{
+    "types": [["Descent Description"],["Crime Type", "Crime Charge"],["Charge Group Description", "Arrest Type Code"]],
+    "inpaths": ["data/cleaned/stops-processed.csv","data/cleaned/crime-processed.csv", "data/cleaned/arrests-processed.csv"],
+    "outpaths": ["viz/Analysis/Stops","viz/Analysis/Crime", "viz/Analysis/Arrests"]
+}

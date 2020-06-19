@@ -1,0 +1,21 @@
+DSC 180B Weekly Checkin
+Date: 5/26/20
+
+1. Tasks from previous week
+	- Finish creating the large graphs (Shinu)
+	- Train and test our model on all the graphs (Udai and Wesley)
+	- Finish making the slides for our long presentation (Everyone)
+	- Work on the visualization and report (Everyone)
+
+2. Completed/Incompleted Tasks:
+	- Finished creating the large graphs(Shinu) (100%)
+	- Train and test our model on all the graphs (Udai) (20%)
+	- Slides for our long presentation (Everyone) (80%)
+
+3. Difficulties/Obstacles:
+	- Difficulties in storing the large graphs into disk
+
+4. This Week:
+	- Train and test our model on all the graphs (Udai and Wesley)
+	- Improve our slides (Everyone)
+	- Work on the visualization and report (Everyone)

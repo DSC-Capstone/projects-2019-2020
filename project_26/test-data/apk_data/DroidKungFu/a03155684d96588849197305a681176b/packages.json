@@ -1,0 +1,2226 @@
+{
+    "Landroid/os/Bundle;": [
+        "Landroid/os/Bundle;->getParcelable()Landroid/os/Parcelable;",
+        "Landroid/os/Bundle;->getInt()I",
+        "Landroid/os/Bundle;->containsKey()Z",
+        "Landroid/os/Bundle;->getSerializable()Ljava/io/Serializable;",
+        "Landroid/os/Bundle;->getString()Ljava/lang/String;",
+        "Landroid/os/Bundle;->get()Ljava/lang/Object;",
+        "Landroid/os/Bundle;->putParcelable()V",
+        "Landroid/os/Bundle;->getBoolean()Z",
+        "Landroid/os/Bundle;->keySet()Ljava/util/Set;",
+        "Landroid/os/Bundle;->putSerializable()V",
+        "Landroid/os/Bundle;->putString()V",
+        "Landroid/os/Bundle;->putInt()V",
+        "Landroid/os/Bundle;->getLong()J"
+    ],
+    "Ljava/util/HashMap;": [
+        "Ljava/util/HashMap;->keySet()Ljava/util/Set;",
+        "Ljava/util/HashMap;->containsKey()Z",
+        "Ljava/util/HashMap;->remove()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->entrySet()Ljava/util/Set;",
+        "Ljava/util/HashMap;->clear()V",
+        "Ljava/util/HashMap;->isEmpty()Z",
+        "Ljava/util/HashMap;->put()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->size()I",
+        "Ljava/util/HashMap;->get()Ljava/lang/Object;"
+    ],
+    "Ljava/lang/StringBuilder;": [
+        "Ljava/lang/StringBuilder;->length()I",
+        "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+        "Ljava/lang/StringBuilder;->append()Ljava/lang/StringBuilder;"
+    ],
+    "Lcom/google/ads/util/a;": [
+        "Lcom/google/ads/util/a;->a()Z",
+        "Lcom/google/ads/util/a;->a()V"
+    ],
+    "Landroid/app/Activity;": [
+        "Landroid/app/Activity;->getSharedPreferences()Landroid/content/SharedPreferences;",
+        "Landroid/app/Activity;->getSystemService()Ljava/lang/Object;",
+        "Landroid/app/Activity;->addContentView()V",
+        "Landroid/app/Activity;->getWindow()Landroid/view/Window;",
+        "Landroid/app/Activity;->onCreate()V",
+        "Landroid/app/Activity;->onWindowFocusChanged()V",
+        "Landroid/app/Activity;->setTitle()V",
+        "Landroid/app/Activity;->onDestroy()V",
+        "Landroid/app/Activity;->getPackageName()Ljava/lang/String;",
+        "Landroid/app/Activity;->onContextItemSelected()Z",
+        "Landroid/app/Activity;->onStop()V",
+        "Landroid/app/Activity;->onCreateOptionsMenu()Z",
+        "Landroid/app/Activity;->onPause()V",
+        "Landroid/app/Activity;->setTheme()V",
+        "Landroid/app/Activity;->getPackageManager()Landroid/content/pm/PackageManager;",
+        "Landroid/app/Activity;->getResources()Landroid/content/res/Resources;",
+        "Landroid/app/Activity;->stopService()Z",
+        "Landroid/app/Activity;->managedQuery()Landroid/database/Cursor;",
+        "Landroid/app/Activity;->onSaveInstanceState()V",
+        "Landroid/app/Activity;->runOnUiThread()V",
+        "Landroid/app/Activity;->finish()V",
+        "Landroid/app/Activity;->setProgress()V",
+        "Landroid/app/Activity;->onStart()V",
+        "Landroid/app/Activity;->getAssets()Landroid/content/res/AssetManager;",
+        "Landroid/app/Activity;->getIntent()Landroid/content/Intent;",
+        "Landroid/app/Activity;->onKeyDown()Z",
+        "Landroid/app/Activity;->startActivity()V",
+        "Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;",
+        "Landroid/app/Activity;->onResume()V",
+        "Landroid/app/Activity;->getContentResolver()Landroid/content/ContentResolver;",
+        "Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;"
+    ],
+    "Landroid/content/Context;": [
+        "Landroid/content/Context;->deleteFile()Z",
+        "Landroid/content/Context;->unregisterReceiver()V",
+        "Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;",
+        "Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;",
+        "Landroid/content/Context;->getPackageName()Ljava/lang/String;",
+        "Landroid/content/Context;->fileList()[Ljava/lang/String;",
+        "Landroid/content/Context;->startActivity()V",
+        "Landroid/content/Context;->getApplicationContext()Landroid/content/Context;",
+        "Landroid/content/Context;->checkCallingOrSelfPermission()I",
+        "Landroid/content/Context;->getSystemService()Ljava/lang/Object;",
+        "Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;",
+        "Landroid/content/Context;->startService()Landroid/content/ComponentName;",
+        "Landroid/content/Context;->getSharedPreferences()Landroid/content/SharedPreferences;",
+        "Landroid/content/Context;->registerReceiver()Landroid/content/Intent;",
+        "Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "Landroid/content/Context;->openFileOutput()Ljava/io/FileOutputStream;",
+        "Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;",
+        "Landroid/content/Context;->openFileInput()Ljava/io/FileInputStream;",
+        "Landroid/content/Context;->getDir()Ljava/io/File;"
+    ],
+    "Landroid/content/SharedPreferences;": [
+        "Landroid/content/SharedPreferences;->contains()Z",
+        "Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences;->getLong()J",
+        "Landroid/content/SharedPreferences;->getAll()Ljava/util/Map;",
+        "Landroid/content/SharedPreferences;->getString()Ljava/lang/String;",
+        "Landroid/content/SharedPreferences;->getInt()I"
+    ],
+    "Ld;": [
+        "Ld;->a()Lc;",
+        "Ld;->a()Lf;",
+        "Ld;->a()I",
+        "Ld;->a()Lcom/google/ads/AdSize;",
+        "Ld;->a()Lg;",
+        "Ld;->a()Lcom/google/ads/Ad;",
+        "Ld;->a()Ljava/lang/String;",
+        "Ld;->a()J",
+        "Ld;->a()Lh;",
+        "Ld;->a()Landroid/app/Activity;",
+        "Ld;->a()V",
+        "Ld;->a()Z"
+    ],
+    "Lcom/google/ads/util/AdUtil;": [
+        "Lcom/google/ads/util/AdUtil;->a()Lorg/json/JSONArray;",
+        "Lcom/google/ads/util/AdUtil;->a()Lcom/google/ads/util/AdUtil$a;",
+        "Lcom/google/ads/util/AdUtil;->a()Ljava/util/HashMap;",
+        "Lcom/google/ads/util/AdUtil;->a()Landroid/util/DisplayMetrics;",
+        "Lcom/google/ads/util/AdUtil;->a()Lorg/json/JSONObject;",
+        "Lcom/google/ads/util/AdUtil;->a()Z",
+        "Lcom/google/ads/util/AdUtil;->a()Ljava/lang/String;",
+        "Lcom/google/ads/util/AdUtil;->a()V"
+    ],
+    "Lg;": [
+        "Lg;->stopLoading()V",
+        "Lg;->destroy()V",
+        "Lg;->isInEditMode()Z",
+        "Lg;->setMeasuredDimension()V",
+        "Lg;->setWebViewClient()V",
+        "Lg;->a()Lcom/google/ads/AdActivity;",
+        "Lg;->loadUrl()V",
+        "Lg;->getSettings()Landroid/webkit/WebSettings;",
+        "Lg;->getContext()Landroid/content/Context;",
+        "Lg;->setBackgroundColor()V",
+        "Lg;->setScrollBarStyle()V",
+        "Lg;->loadDataWithBaseURL()V",
+        "Lg;->setVisibility()V",
+        "Lg;->getParent()Landroid/view/ViewParent;",
+        "Lg;->a()V"
+    ],
+    "Landroid/content/SharedPreferences$Editor;": [
+        "Landroid/content/SharedPreferences$Editor;->remove()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->putLong()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->commit()Z",
+        "Landroid/content/SharedPreferences$Editor;->putString()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->clear()Landroid/content/SharedPreferences$Editor;"
+    ],
+    "Lf;": [
+        "Lf;->a()J",
+        "Lf;->a()Ljava/lang/String;",
+        "Lf;->a()V",
+        "Lf;->a()Z"
+    ],
+    "Lcom/google/ads/AdListener;": [
+        "Lcom/google/ads/AdListener;->onReceiveAd()V",
+        "Lcom/google/ads/AdListener;->onPresentScreen()V",
+        "Lcom/google/ads/AdListener;->onFailedToReceiveAd()V",
+        "Lcom/google/ads/AdListener;->onLeaveApplication()V",
+        "Lcom/google/ads/AdListener;->onDismissScreen()V"
+    ],
+    "Lc;": [
+        "Lc;->cancel()Z",
+        "Lc;->a()V",
+        "Lc;->a()Ljava/lang/String;",
+        "Lc;->a()Lcom/google/ads/AdRequest$ErrorCode;",
+        "Lc;->publishProgress()V",
+        "Lc;->execute()Landroid/os/AsyncTask;"
+    ],
+    "Ljava/util/LinkedList;": [
+        "Ljava/util/LinkedList;->removeFirst()Ljava/lang/Object;",
+        "Ljava/util/LinkedList;->add()Z",
+        "Ljava/util/LinkedList;->size()I",
+        "Ljava/util/LinkedList;->isEmpty()Z",
+        "Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/LinkedList;->clear()V",
+        "Ljava/util/LinkedList;->get()Ljava/lang/Object;"
+    ],
+    "Landroid/os/Handler;": [
+        "Landroid/os/Handler;->removeCallbacks()V",
+        "Landroid/os/Handler;->postDelayed()Z",
+        "Landroid/os/Handler;->sendEmptyMessage()Z",
+        "Landroid/os/Handler;->post()Z"
+    ],
+    "Ljava/lang/ref/WeakReference;": [
+        "Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;"
+    ],
+    "Ljava/util/Iterator;": [
+        "Ljava/util/Iterator;->hasNext()Z",
+        "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+    ],
+    "Ljava/lang/Thread;": [
+        "Ljava/lang/Thread;->run()V",
+        "Ljava/lang/Thread;->yield()V",
+        "Ljava/lang/Thread;->interrupt()V",
+        "Ljava/lang/Thread;->start()V",
+        "Ljava/lang/Thread;->sleep()V",
+        "Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;",
+        "Ljava/lang/Thread;->getId()J"
+    ],
+    "Lcom/google/ads/AdView;": [
+        "Lcom/google/ads/AdView;->addView()V",
+        "Lcom/google/ads/AdView;->isInEditMode()Z",
+        "Lcom/google/ads/AdView;->loadAd()V",
+        "Lcom/google/ads/AdView;->setLayoutParams()V",
+        "Lcom/google/ads/AdView;->isRefreshing()Z",
+        "Lcom/google/ads/AdView;->isShown()Z",
+        "Lcom/google/ads/AdView;->a()Z",
+        "Lcom/google/ads/AdView;->a()V",
+        "Lcom/google/ads/AdView;->getResources()Landroid/content/res/Resources;",
+        "Lcom/google/ads/AdView;->setGravity()V",
+        "Lcom/google/ads/AdView;->getChildCount()I",
+        "Lcom/google/ads/AdView;->setAdListener()V"
+    ],
+    "La;": [
+        "La;->a()V",
+        "La;->a()Z"
+    ],
+    "Landroid/net/Uri;": [
+        "Landroid/net/Uri;->isHierarchical()Z",
+        "Landroid/net/Uri;->getLastPathSegment()Ljava/lang/String;",
+        "Landroid/net/Uri;->getPath()Ljava/lang/String;",
+        "Landroid/net/Uri;->encode()Ljava/lang/String;",
+        "Landroid/net/Uri;->getScheme()Ljava/lang/String;",
+        "Landroid/net/Uri;->getAuthority()Ljava/lang/String;",
+        "Landroid/net/Uri;->withAppendedPath()Landroid/net/Uri;",
+        "Landroid/net/Uri;->fromParts()Landroid/net/Uri;",
+        "Landroid/net/Uri;->toString()Ljava/lang/String;",
+        "Landroid/net/Uri;->fromFile()Landroid/net/Uri;",
+        "Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;",
+        "Landroid/net/Uri;->getHost()Ljava/lang/String;",
+        "Landroid/net/Uri;->getEncodedQuery()Ljava/lang/String;",
+        "Landroid/net/Uri;->parse()Landroid/net/Uri;",
+        "Landroid/net/Uri;->getPathSegments()Ljava/util/List;",
+        "Landroid/net/Uri;->getQueryParameter()Ljava/lang/String;"
+    ],
+    "Landroid/webkit/WebViewClient;": [
+        "Landroid/webkit/WebViewClient;->shouldOverrideUrlLoading()Z"
+    ],
+    "Lcom/google/ads/AdActivity;": [
+        "Lcom/google/ads/AdActivity;->getVideoView()Landroid/widget/VideoView;",
+        "Lcom/google/ads/AdActivity;->getWindow()Landroid/view/Window;",
+        "Lcom/google/ads/AdActivity;->a()V",
+        "Lcom/google/ads/AdActivity;->setRequestedOrientation()V",
+        "Lcom/google/ads/AdActivity;->finish()V",
+        "Lcom/google/ads/AdActivity;->setContentView()V",
+        "Lcom/google/ads/AdActivity;->getIntent()Landroid/content/Intent;",
+        "Lcom/google/ads/AdActivity;->launchAdActivity()V",
+        "Lcom/google/ads/AdActivity;->requestWindowFeature()Z",
+        "Lcom/google/ads/AdActivity;->getResources()Landroid/content/res/Resources;",
+        "Lcom/google/ads/AdActivity;->isFinishing()Z",
+        "Lcom/google/ads/AdActivity;->getApplicationContext()Landroid/content/Context;",
+        "Lcom/google/ads/AdActivity;->startActivity()V",
+        "Lcom/google/ads/AdActivity;->getOpeningAdWebView()Lg;",
+        "Lcom/google/ads/AdActivity;->showVideo()V"
+    ],
+    "Landroid/webkit/WebSettings;": [
+        "Landroid/webkit/WebSettings;->setDefaultTextEncodingName()V",
+        "Landroid/webkit/WebSettings;->setJavaScriptEnabled()V",
+        "Landroid/webkit/WebSettings;->setUseWideViewPort()V",
+        "Landroid/webkit/WebSettings;->setSupportZoom()V",
+        "Landroid/webkit/WebSettings;->setGeolocationEnabled()V",
+        "Landroid/webkit/WebSettings;->getUserAgentString()Ljava/lang/String;",
+        "Landroid/webkit/WebSettings;->setBuiltInZoomControls()V",
+        "Landroid/webkit/WebSettings;->setJavaScriptCanOpenWindowsAutomatically()V",
+        "Landroid/webkit/WebSettings;->setAllowFileAccess()V",
+        "Landroid/webkit/WebSettings;->setUserAgentString()V"
+    ],
+    "Landroid/webkit/WebView;": [
+        "Landroid/webkit/WebView;->setWillNotDraw()V",
+        "Landroid/webkit/WebView;->destroy()V",
+        "Landroid/webkit/WebView;->loadDataWithBaseURL()V",
+        "Landroid/webkit/WebView;->onMeasure()V",
+        "Landroid/webkit/WebView;->setBackgroundColor()V",
+        "Landroid/webkit/WebView;->getTitle()Ljava/lang/String;",
+        "Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;",
+        "Landroid/webkit/WebView;->getContext()Landroid/content/Context;",
+        "Landroid/webkit/WebView;->canGoBack()Z",
+        "Landroid/webkit/WebView;->getUrl()Ljava/lang/String;",
+        "Landroid/webkit/WebView;->onDraw()V",
+        "Landroid/webkit/WebView;->setLayoutParams()V",
+        "Landroid/webkit/WebView;->setWebViewClient()V",
+        "Landroid/webkit/WebView;->loadUrl()V",
+        "Landroid/webkit/WebView;->stopLoading()V",
+        "Landroid/webkit/WebView;->setWebChromeClient()V",
+        "Landroid/webkit/WebView;->goBack()V",
+        "Landroid/webkit/WebView;->canGoForward()Z",
+        "Landroid/webkit/WebView;->addJavascriptInterface()V",
+        "Landroid/webkit/WebView;->setVisibility()V",
+        "Landroid/webkit/WebView;->goForward()V",
+        "Landroid/webkit/WebView;->setId()V"
+    ],
+    "Landroid/view/View$MeasureSpec;": [
+        "Landroid/view/View$MeasureSpec;->getMode()I",
+        "Landroid/view/View$MeasureSpec;->getSize()I"
+    ],
+    "Landroid/content/res/Resources;": [
+        "Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;",
+        "Landroid/content/res/Resources;->getValue()V",
+        "Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;"
+    ],
+    "Lcom/google/ads/AdSize;": [
+        "Lcom/google/ads/AdSize;->getHeight()I",
+        "Lcom/google/ads/AdSize;->getWidth()I",
+        "Lcom/google/ads/AdSize;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/lang/String;": [
+        "Ljava/lang/String;->toUpperCase()Ljava/lang/String;",
+        "Ljava/lang/String;->contains()Z",
+        "Ljava/lang/String;->toLowerCase()Ljava/lang/String;",
+        "Ljava/lang/String;->endsWith()Z",
+        "Ljava/lang/String;->hashCode()I",
+        "Ljava/lang/String;->length()I",
+        "Ljava/lang/String;->indexOf()I",
+        "Ljava/lang/String;->replaceAll()Ljava/lang/String;",
+        "Ljava/lang/String;->replace()Ljava/lang/String;",
+        "Ljava/lang/String;->toString()Ljava/lang/String;",
+        "Ljava/lang/String;->equals()Z",
+        "Ljava/lang/String;->equalsIgnoreCase()Z",
+        "Ljava/lang/String;->format()Ljava/lang/String;",
+        "Ljava/lang/String;->trim()Ljava/lang/String;",
+        "Ljava/lang/String;->valueOf()Ljava/lang/String;",
+        "Ljava/lang/String;->split()[Ljava/lang/String;",
+        "Ljava/lang/String;->startsWith()Z",
+        "Ljava/lang/String;->lastIndexOf()I",
+        "Ljava/lang/String;->substring()Ljava/lang/String;",
+        "Ljava/lang/String;->getBytes()[B",
+        "Ljava/lang/String;->compareToIgnoreCase()I"
+    ],
+    "Landroid/os/SystemClock;": [
+        "Landroid/os/SystemClock;->uptimeMillis()J",
+        "Landroid/os/SystemClock;->sleep()V",
+        "Landroid/os/SystemClock;->elapsedRealtime()J"
+    ],
+    "Ljava/lang/Long;": [
+        "Ljava/lang/Long;->longValue()J",
+        "Ljava/lang/Long;->toHexString()Ljava/lang/String;",
+        "Ljava/lang/Long;->parseLong()J",
+        "Ljava/lang/Long;->toString()Ljava/lang/String;",
+        "Ljava/lang/Long;->valueOf()Ljava/lang/Long;"
+    ],
+    "Landroid/content/pm/PackageManager;": [
+        "Landroid/content/pm/PackageManager;->checkPermission()I",
+        "Landroid/content/pm/PackageManager;->getPackageInfo()Landroid/content/pm/PackageInfo;",
+        "Landroid/content/pm/PackageManager;->getReceiverInfo()Landroid/content/pm/ActivityInfo;",
+        "Landroid/content/pm/PackageManager;->queryIntentActivities()Ljava/util/List;",
+        "Landroid/content/pm/PackageManager;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;",
+        "Landroid/content/pm/PackageManager;->resolveActivity()Landroid/content/pm/ResolveInfo;"
+    ],
+    "Ljava/lang/Boolean;": [
+        "Ljava/lang/Boolean;->toString()Ljava/lang/String;",
+        "Ljava/lang/Boolean;->booleanValue()Z",
+        "Ljava/lang/Boolean;->valueOf()Ljava/lang/Boolean;"
+    ],
+    "Ljava/util/Map;": [
+        "Ljava/util/Map;->isEmpty()Z",
+        "Ljava/util/Map;->entrySet()Ljava/util/Set;",
+        "Ljava/util/Map;->keySet()Ljava/util/Set;",
+        "Ljava/util/Map;->put()Ljava/lang/Object;",
+        "Ljava/util/Map;->get()Ljava/lang/Object;"
+    ],
+    "Ljava/util/Collections;": [
+        "Ljava/util/Collections;->unmodifiableMap()Ljava/util/Map;"
+    ],
+    "Lorg/json/JSONObject;": [
+        "Lorg/json/JSONObject;->getDouble()D",
+        "Lorg/json/JSONObject;->getLong()J",
+        "Lorg/json/JSONObject;->getBoolean()Z",
+        "Lorg/json/JSONObject;->toString()Ljava/lang/String;",
+        "Lorg/json/JSONObject;->getJSONArray()Lorg/json/JSONArray;",
+        "Lorg/json/JSONObject;->remove()Ljava/lang/Object;",
+        "Lorg/json/JSONObject;->keys()Ljava/util/Iterator;",
+        "Lorg/json/JSONObject;->put()Lorg/json/JSONObject;",
+        "Lorg/json/JSONObject;->getString()Ljava/lang/String;",
+        "Lorg/json/JSONObject;->getJSONObject()Lorg/json/JSONObject;",
+        "Lorg/json/JSONObject;->has()Z",
+        "Lorg/json/JSONObject;->getInt()I"
+    ],
+    "Li;": [
+        "Li;->a()V"
+    ],
+    "Ljava/lang/Float;": [
+        "Ljava/lang/Float;->floatValue()F",
+        "Ljava/lang/Float;->parseFloat()F",
+        "Ljava/lang/Float;->valueOf()Ljava/lang/Float;",
+        "Ljava/lang/Float;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/lang/Object;": [
+        "Ljava/lang/Object;->wait()V",
+        "Ljava/lang/Object;->toString()Ljava/lang/String;",
+        "Ljava/lang/Object;->finalize()V",
+        "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+        "Ljava/lang/Object;->clone()Ljava/lang/Object;",
+        "Ljava/lang/Object;->equals()Z",
+        "Ljava/lang/Object;->notify()V"
+    ],
+    "Lh;": [
+        "Lh;->a()V"
+    ],
+    "Lcom/google/ads/AdRequest;": [
+        "Lcom/google/ads/AdRequest;->getRequestMap()Ljava/util/Map;",
+        "Lcom/google/ads/AdRequest;->setTesting()V",
+        "Lcom/google/ads/AdRequest;->isTestDevice()Z"
+    ],
+    "Ljava/lang/Integer;": [
+        "Ljava/lang/Integer;->toHexString()Ljava/lang/String;",
+        "Ljava/lang/Integer;->valueOf()Ljava/lang/Integer;",
+        "Ljava/lang/Integer;->parseInt()I",
+        "Ljava/lang/Integer;->toString()Ljava/lang/String;",
+        "Ljava/lang/Integer;->intValue()I"
+    ],
+    "Lcom/google/ads/util/AdUtil$a;": [
+        "Lcom/google/ads/util/AdUtil$a;->ordinal()I"
+    ],
+    "Ljava/util/Locale;": [
+        "Ljava/util/Locale;->getDefault()Ljava/util/Locale;",
+        "Ljava/util/Locale;->getCountry()Ljava/lang/String;",
+        "Ljava/util/Locale;->toString()Ljava/lang/String;",
+        "Ljava/util/Locale;->getLanguage()Ljava/lang/String;"
+    ],
+    "Lb;": [
+        "Lb;->execute()Landroid/os/AsyncTask;",
+        "Lb;->cancel()Z",
+        "Lb;->a()V",
+        "Lb;->a()Ljava/lang/Void;"
+    ],
+    "Ljava/net/URL;": [
+        "Ljava/net/URL;->toString()Ljava/lang/String;",
+        "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    ],
+    "Ljava/net/HttpURLConnection;": [
+        "Ljava/net/HttpURLConnection;->getResponseMessage()Ljava/lang/String;",
+        "Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;",
+        "Ljava/net/HttpURLConnection;->setDoOutput()V",
+        "Ljava/net/HttpURLConnection;->setDoInput()V",
+        "Ljava/net/HttpURLConnection;->setRequestMethod()V",
+        "Ljava/net/HttpURLConnection;->setConnectTimeout()V",
+        "Ljava/net/HttpURLConnection;->addRequestProperty()V",
+        "Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;",
+        "Ljava/net/HttpURLConnection;->getHeaderField()Ljava/lang/String;",
+        "Ljava/net/HttpURLConnection;->setReadTimeout()V",
+        "Ljava/net/HttpURLConnection;->disconnect()V",
+        "Ljava/net/HttpURLConnection;->setRequestProperty()V",
+        "Ljava/net/HttpURLConnection;->setFollowRedirects()V",
+        "Ljava/net/HttpURLConnection;->setInstanceFollowRedirects()V",
+        "Ljava/net/HttpURLConnection;->getURL()Ljava/net/URL;",
+        "Ljava/net/HttpURLConnection;->getResponseCode()I",
+        "Ljava/net/HttpURLConnection;->connect()V"
+    ],
+    "Ljava/io/BufferedReader;": [
+        "Ljava/io/BufferedReader;->close()V",
+        "Ljava/io/BufferedReader;->readLine()Ljava/lang/String;"
+    ],
+    "Ljava/util/StringTokenizer;": [
+        "Ljava/util/StringTokenizer;->nextToken()Ljava/lang/String;",
+        "Ljava/util/StringTokenizer;->hasMoreTokens()Z"
+    ],
+    "Landroid/widget/VideoView;": [
+        "Landroid/widget/VideoView;->stopPlayback()V",
+        "Landroid/widget/VideoView;->seekTo()V",
+        "Landroid/widget/VideoView;->setOnPreparedListener()V",
+        "Landroid/widget/VideoView;->setVisibility()V",
+        "Landroid/widget/VideoView;->setVideoPath()V",
+        "Landroid/widget/VideoView;->start()V",
+        "Landroid/widget/VideoView;->setVideoURI()V",
+        "Landroid/widget/VideoView;->setOnCompletionListener()V",
+        "Landroid/widget/VideoView;->setLayoutParams()V",
+        "Landroid/widget/VideoView;->setOnErrorListener()V",
+        "Landroid/widget/VideoView;->setMediaController()V",
+        "Landroid/widget/VideoView;->pause()V"
+    ],
+    "Ljava/lang/Class;": [
+        "Ljava/lang/Class;->asSubclass()Ljava/lang/Class;",
+        "Ljava/lang/Class;->newInstance()Ljava/lang/Object;",
+        "Ljava/lang/Class;->getDeclaredMethod()Ljava/lang/reflect/Method;",
+        "Ljava/lang/Class;->getResourceAsStream()Ljava/io/InputStream;",
+        "Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;",
+        "Ljava/lang/Class;->getName()Ljava/lang/String;",
+        "Ljava/lang/Class;->getField()Ljava/lang/reflect/Field;",
+        "Ljava/lang/Class;->getMethod()Ljava/lang/reflect/Method;",
+        "Ljava/lang/Class;->forName()Ljava/lang/Class;",
+        "Ljava/lang/Class;->desiredAssertionStatus()Z",
+        "Ljava/lang/Class;->getDeclaredConstructor()Ljava/lang/reflect/Constructor;",
+        "Ljava/lang/Class;->getConstructor()Ljava/lang/reflect/Constructor;"
+    ],
+    "Lcom/mobclix/android/sdk/Base64;": [
+        "Lcom/mobclix/android/sdk/Base64;->decode()[B",
+        "Lcom/mobclix/android/sdk/Base64;->decodeFromFile()[B",
+        "Lcom/mobclix/android/sdk/Base64;->getAlphabet()[B",
+        "Lcom/mobclix/android/sdk/Base64;->encodeFromFile()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Base64;->getDecodabet()[B",
+        "Lcom/mobclix/android/sdk/Base64;->encodeObject()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Base64;->encodeBytesToBytes()[B",
+        "Lcom/mobclix/android/sdk/Base64;->encode3to4()[B",
+        "Lcom/mobclix/android/sdk/Base64;->decode4to3()I",
+        "Lcom/mobclix/android/sdk/Base64;->decodeToObject()Ljava/lang/Object;",
+        "Lcom/mobclix/android/sdk/Base64;->encodeBytes()Ljava/lang/String;"
+    ],
+    "Ljava/util/zip/GZIPInputStream;": [
+        "Ljava/util/zip/GZIPInputStream;->read()I",
+        "Ljava/util/zip/GZIPInputStream;->close()V"
+    ],
+    "Ljava/io/ByteArrayOutputStream;": [
+        "Ljava/io/ByteArrayOutputStream;->toByteArray()[B",
+        "Ljava/io/ByteArrayOutputStream;->write()V",
+        "Ljava/io/ByteArrayOutputStream;->close()V"
+    ],
+    "Ljava/io/ByteArrayInputStream;": [
+        "Ljava/io/ByteArrayInputStream;->close()V"
+    ],
+    "Ljava/io/IOException;": [
+        "Ljava/io/IOException;->printStackTrace()V",
+        "Ljava/io/IOException;->getMessage()Ljava/lang/String;"
+    ],
+    "Ljava/lang/System;": [
+        "Ljava/lang/System;->getProperty()Ljava/lang/String;",
+        "Ljava/lang/System;->gc()V",
+        "Ljava/lang/System;->getProperties()Ljava/util/Properties;",
+        "Ljava/lang/System;->currentTimeMillis()J",
+        "Ljava/lang/System;->runFinalizersOnExit()V",
+        "Ljava/lang/System;->nanoTime()J",
+        "Ljava/lang/System;->arraycopy()V"
+    ],
+    "Ljava/io/OutputStream;": [
+        "Ljava/io/OutputStream;->close()V",
+        "Ljava/io/OutputStream;->write()V",
+        "Ljava/io/OutputStream;->flush()V"
+    ],
+    "Ljava/io/File;": [
+        "Ljava/io/File;->createNewFile()Z",
+        "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;",
+        "Ljava/io/File;->listFiles()[Ljava/io/File;",
+        "Ljava/io/File;->getAbsoluteFile()Ljava/io/File;",
+        "Ljava/io/File;->mkdir()Z",
+        "Ljava/io/File;->length()J",
+        "Ljava/io/File;->delete()Z",
+        "Ljava/io/File;->exists()Z"
+    ],
+    "Lcom/mobclix/android/sdk/Base64$InputStream;": [
+        "Lcom/mobclix/android/sdk/Base64$InputStream;->read()I",
+        "Lcom/mobclix/android/sdk/Base64$InputStream;->close()V"
+    ],
+    "Lcom/mobclix/android/sdk/Base64$OutputStream;": [
+        "Lcom/mobclix/android/sdk/Base64$OutputStream;->close()V",
+        "Lcom/mobclix/android/sdk/Base64$OutputStream;->write()V"
+    ],
+    "Ljava/io/ObjectInputStream;": [
+        "Ljava/io/ObjectInputStream;->close()V",
+        "Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;"
+    ],
+    "Ljava/nio/ByteBuffer;": [
+        "Ljava/nio/ByteBuffer;->get()Ljava/nio/ByteBuffer;",
+        "Ljava/nio/ByteBuffer;->hasRemaining()Z",
+        "Ljava/nio/ByteBuffer;->remaining()I",
+        "Ljava/nio/ByteBuffer;->put()Ljava/nio/ByteBuffer;"
+    ],
+    "Ljava/lang/Math;": [
+        "Ljava/lang/Math;->max()I",
+        "Ljava/lang/Math;->random()D",
+        "Ljava/lang/Math;->pow()D",
+        "Ljava/lang/Math;->sqrt()D",
+        "Ljava/lang/Math;->min()I"
+    ],
+    "Ljava/nio/CharBuffer;": [
+        "Ljava/nio/CharBuffer;->put()Ljava/nio/CharBuffer;"
+    ],
+    "Ljava/util/zip/GZIPOutputStream;": [
+        "Ljava/util/zip/GZIPOutputStream;->write()V",
+        "Ljava/util/zip/GZIPOutputStream;->close()V"
+    ],
+    "Ljava/io/ObjectOutputStream;": [
+        "Ljava/io/ObjectOutputStream;->writeObject()V",
+        "Ljava/io/ObjectOutputStream;->close()V"
+    ],
+    "Landroid/database/Cursor;": [
+        "Landroid/database/Cursor;->getCount()I",
+        "Landroid/database/Cursor;->getString()Ljava/lang/String;",
+        "Landroid/database/Cursor;->isAfterLast()Z",
+        "Landroid/database/Cursor;->isNull()Z",
+        "Landroid/database/Cursor;->moveToFirst()Z",
+        "Landroid/database/Cursor;->getBlob()[B",
+        "Landroid/database/Cursor;->getColumnIndexOrThrow()I",
+        "Landroid/database/Cursor;->close()V",
+        "Landroid/database/Cursor;->moveToNext()Z",
+        "Landroid/database/Cursor;->getLong()J",
+        "Landroid/database/Cursor;->getInt()I",
+        "Landroid/database/Cursor;->requery()Z",
+        "Landroid/database/Cursor;->getColumnIndex()I"
+    ],
+    "Landroid/content/ContentValues;": [
+        "Landroid/content/ContentValues;->getAsInteger()Ljava/lang/Integer;",
+        "Landroid/content/ContentValues;->getAsString()Ljava/lang/String;",
+        "Landroid/content/ContentValues;->getAsLong()Ljava/lang/Long;",
+        "Landroid/content/ContentValues;->put()V",
+        "Landroid/content/ContentValues;->clear()V",
+        "Landroid/content/ContentValues;->getAsByteArray()[B"
+    ],
+    "Ljava/util/List;": [
+        "Ljava/util/List;->get()Ljava/lang/Object;",
+        "Ljava/util/List;->remove()Ljava/lang/Object;",
+        "Ljava/util/List;->clear()V",
+        "Ljava/util/List;->add()Z",
+        "Ljava/util/List;->toArray()[Ljava/lang/Object;",
+        "Ljava/util/List;->contains()Z",
+        "Ljava/util/List;->isEmpty()Z",
+        "Ljava/util/List;->size()I",
+        "Ljava/util/List;->iterator()Ljava/util/Iterator;"
+    ],
+    "Landroid/content/ContentUris;": [
+        "Landroid/content/ContentUris;->parseId()J",
+        "Landroid/content/ContentUris;->withAppendedId()Landroid/net/Uri;",
+        "Landroid/content/ContentUris;->appendId()Landroid/net/Uri$Builder;"
+    ],
+    "Landroid/content/ContentResolver;": [
+        "Landroid/content/ContentResolver;->insert()Landroid/net/Uri;",
+        "Landroid/content/ContentResolver;->update()I",
+        "Landroid/content/ContentResolver;->openOutputStream()Ljava/io/OutputStream;",
+        "Landroid/content/ContentResolver;->query()Landroid/database/Cursor;",
+        "Landroid/content/ContentResolver;->delete()I",
+        "Landroid/content/ContentResolver;->openInputStream()Ljava/io/InputStream;",
+        "Landroid/content/ContentResolver;->applyBatch()[Landroid/content/ContentProviderResult;"
+    ],
+    "Landroid/accounts/AccountManager;": [
+        "Landroid/accounts/AccountManager;->get()Landroid/accounts/AccountManager;",
+        "Landroid/accounts/AccountManager;->getAccountsByType()[Landroid/accounts/Account;"
+    ],
+    "Ljava/util/ArrayList;": [
+        "Ljava/util/ArrayList;->clone()Ljava/lang/Object;",
+        "Ljava/util/ArrayList;->add()Z",
+        "Ljava/util/ArrayList;->size()I",
+        "Ljava/util/ArrayList;->toArray()[Ljava/lang/Object;",
+        "Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/ArrayList;->contains()Z"
+    ],
+    "Landroid/content/ContentProviderOperation;": [
+        "Landroid/content/ContentProviderOperation;->newInsert()Landroid/content/ContentProviderOperation$Builder;"
+    ],
+    "Landroid/content/ContentProviderOperation$Builder;": [
+        "Landroid/content/ContentProviderOperation$Builder;->withValue()Landroid/content/ContentProviderOperation$Builder;",
+        "Landroid/content/ContentProviderOperation$Builder;->build()Landroid/content/ContentProviderOperation;",
+        "Landroid/content/ContentProviderOperation$Builder;->withValueBackReference()Landroid/content/ContentProviderOperation$Builder;"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixContactsSdk5;": [
+        "Lcom/mobclix/android/sdk/MobclixContactsSdk5;->setupContactCursor()Landroid/database/Cursor;",
+        "Lcom/mobclix/android/sdk/MobclixContactsSdk5;->parseJSONContact()Ljava/util/HashMap;",
+        "Lcom/mobclix/android/sdk/MobclixContactsSdk5;->newEntityIterator()Lcom/mobclix/android/sdk/MobclixContactsEntityIterator;"
+    ],
+    "Ljava/text/DateFormat;": [
+        "Ljava/text/DateFormat;->format()Ljava/lang/String;",
+        "Ljava/text/DateFormat;->parse()Ljava/util/Date;"
+    ],
+    "Ljava/util/Date;": [
+        "Ljava/util/Date;->getMonth()I",
+        "Ljava/util/Date;->getYear()I",
+        "Ljava/util/Date;->getDate()I",
+        "Ljava/util/Date;->getTime()J"
+    ],
+    "Lorg/json/JSONArray;": [
+        "Lorg/json/JSONArray;->put()Lorg/json/JSONArray;",
+        "Lorg/json/JSONArray;->toString()Ljava/lang/String;",
+        "Lorg/json/JSONArray;->length()I",
+        "Lorg/json/JSONArray;->getString()Ljava/lang/String;",
+        "Lorg/json/JSONArray;->getJSONObject()Lorg/json/JSONObject;"
+    ],
+    "Landroid/content/Intent;": [
+        "Landroid/content/Intent;->setDataAndType()Landroid/content/Intent;",
+        "Landroid/content/Intent;->getStringExtra()Ljava/lang/String;",
+        "Landroid/content/Intent;->createChooser()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setClassName()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setData()Landroid/content/Intent;",
+        "Landroid/content/Intent;->putExtra()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setClass()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setType()Landroid/content/Intent;",
+        "Landroid/content/Intent;->getExtras()Landroid/os/Bundle;",
+        "Landroid/content/Intent;->getBundleExtra()Landroid/os/Bundle;",
+        "Landroid/content/Intent;->getData()Landroid/net/Uri;",
+        "Landroid/content/Intent;->getAction()Ljava/lang/String;",
+        "Landroid/content/Intent;->addFlags()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setFlags()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setAction()Landroid/content/Intent;"
+    ],
+    "Landroid/provider/ContactsContract$Contacts;": [
+        "Landroid/provider/ContactsContract$Contacts;->getLookupUri()Landroid/net/Uri;"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixContactsEntityIterator;": [
+        "Lcom/mobclix/android/sdk/MobclixContactsEntityIterator;->hasNext()Z",
+        "Lcom/mobclix/android/sdk/MobclixContactsEntityIterator;->close()V",
+        "Lcom/mobclix/android/sdk/MobclixContactsEntityIterator;->next()Ljava/lang/Object;"
+    ],
+    "Landroid/provider/ContactsContract$RawContacts;": [
+        "Landroid/provider/ContactsContract$RawContacts;->getContactLookupUri()Landroid/net/Uri;"
+    ],
+    "Landroid/content/Entity;": [
+        "Landroid/content/Entity;->getEntityValues()Landroid/content/ContentValues;",
+        "Landroid/content/Entity;->getSubValues()Ljava/util/ArrayList;"
+    ],
+    "Landroid/util/Log;": [
+        "Landroid/util/Log;->a()I",
+        "Landroid/util/Log;->isLoggable()Z"
+    ],
+    "Lcom/mobclix/android/sdk/Mobclix;": [
+        "Lcom/mobclix/android/sdk/Mobclix;->getFeedbackServer()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getMobclixVersion()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->hasBeenIntervalSinceLastAutoplay()Z",
+        "Lcom/mobclix/android/sdk/Mobclix;->getAutoplayInterval()Ljava/lang/Long;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getRuntimePlatformVersion()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->sync()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->getAndroidVersion()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getPref()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getRefreshTime()J",
+        "Lcom/mobclix/android/sdk/Mobclix;->getLatitude()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getGPS()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->setUserAgent()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->getDebugServer()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getApplicationId()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->sha1()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getDebugConfig()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->syncCookiesToCookieManager()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->getInstance()Lcom/mobclix/android/sdk/Mobclix;",
+        "Lcom/mobclix/android/sdk/Mobclix;->removePref()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->hasPref()Z",
+        "Lcom/mobclix/android/sdk/Mobclix;->isEnabled()Z",
+        "Lcom/mobclix/android/sdk/Mobclix;->getUserAgent()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getContext()Landroid/content/Context;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getConnectionType()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->onCreate()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->getLocale()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getRuntimePlatform()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getLanguage()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->addPref()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->getApplicationVersion()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getDeviceHardwareModel()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getPlatform()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->updateConnectivity()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->getCookieStringFromCookieManager()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getDeviceId()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getDeviceModel()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->getBatteryLevel()I",
+        "Lcom/mobclix/android/sdk/Mobclix;->getMcc()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->onCreateWithApplicationId()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->getMnc()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->sessionEvent()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->startNewSession()V",
+        "Lcom/mobclix/android/sdk/Mobclix;->getLongitude()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/Mobclix;->updateSession()V"
+    ],
+    "Ljava/net/URLEncoder;": [
+        "Ljava/net/URLEncoder;->encode()Ljava/lang/String;"
+    ],
+    "Ljava/io/FileOutputStream;": [
+        "Ljava/io/FileOutputStream;->close()V",
+        "Ljava/io/FileOutputStream;->flush()V",
+        "Ljava/io/FileOutputStream;->write()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixAnalytics;": [
+        "Lcom/mobclix/android/sdk/MobclixAnalytics;->getSyncStatus()I",
+        "Lcom/mobclix/android/sdk/MobclixAnalytics;->OpenAnalyticsFile()Z"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixBrowserActivity;": [
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->registerReceiver()Landroid/content/Intent;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->setContentView()V",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->managedQuery()Landroid/database/Cursor;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->getIntent()Landroid/content/Intent;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->getWindow()Landroid/view/Window;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->finish()V",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->getContentResolver()Landroid/content/ContentResolver;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->setRequestedOrientation()V",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->requestWindowFeature()Z",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->getResources()Landroid/content/res/Resources;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->unregisterReceiver()V",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->dp()I",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->runNextAsyncRequest()V",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->startActivityForResult()V",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->getPackageName()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->convertImageUriToFile()Ljava/io/File;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity;->getPath()Ljava/lang/String;"
+    ],
+    "Landroid/graphics/BitmapFactory;": [
+        "Landroid/graphics/BitmapFactory;->decodeResource()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/BitmapFactory;->decodeStream()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/BitmapFactory;->decodeFile()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/BitmapFactory;->decodeByteArray()Landroid/graphics/Bitmap;"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixWebView;": [
+        "Lcom/mobclix/android/sdk/MobclixWebView;->getTitle()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->clearCache()V",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->getLocationInWindow()V",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->canGoForward()Z",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->canGoBack()Z",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->goForward()V",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->getWorkingContext()Landroid/content/Context;",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->getJavascriptInterface()Lcom/mobclix/android/sdk/MobclixJavascriptInterface;",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->getUrl()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->loadUrl()V",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->loadAd()V",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->clearHistory()V",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->scrollTo()V",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->goBack()V",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->getContext()Landroid/content/Context;",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->loadDataWithBaseURL()V",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->setOnTouchListener()V",
+        "Lcom/mobclix/android/sdk/MobclixWebView;->canGoBackOrForward()Z"
+    ],
+    "Landroid/graphics/Bitmap;": [
+        "Landroid/graphics/Bitmap;->compress()Z",
+        "Landroid/graphics/Bitmap;->getWidth()I",
+        "Landroid/graphics/Bitmap;->isRecycled()Z",
+        "Landroid/graphics/Bitmap;->getPixels()V",
+        "Landroid/graphics/Bitmap;->getHeight()I",
+        "Landroid/graphics/Bitmap;->createScaledBitmap()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/Bitmap;->createBitmap()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/Bitmap;->recycle()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;": [
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->callback()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->photoCanceled()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->sensorStart()Z",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->displayResizeTo()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->resumeListeners()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->deviceFlashlightResume()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->deviceAccelerometerAvailable()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->adWillBecomeHidden()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->contactAdded()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->makeGenreUri()Landroid/net/Uri;",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->sensorStop()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->contactCanceled()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->adDidDisplay()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->checkLocationProviders()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->checkUserPermission()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->injectPermissionsKey()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->songCursorToJSON()Lorg/json/JSONObject;",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->deviceCameraAvailable()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->gotLocation()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->adWillTerminate()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->checkPermissionsForUserInteraction()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->contactPicked()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->deviceFlashlightPause()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->sendImageToServer()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->photoTaken()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->pauseListeners()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->adDidReturnFromHidden()V",
+        "Lcom/mobclix/android/sdk/MobclixJavascriptInterface;->reset()V"
+    ],
+    "Ljava/lang/Exception;": [
+        "Ljava/lang/Exception;->toString()Ljava/lang/String;",
+        "Ljava/lang/Exception;->printStackTrace()V",
+        "Ljava/lang/Exception;->getMessage()Ljava/lang/String;"
+    ],
+    "Landroid/widget/FrameLayout;": [
+        "Landroid/widget/FrameLayout;->addView()V",
+        "Landroid/widget/FrameLayout;->onDraw()V",
+        "Landroid/widget/FrameLayout;->setLayoutParams()V",
+        "Landroid/widget/FrameLayout;->getFocusedChild()Landroid/view/View;",
+        "Landroid/widget/FrameLayout;->onKeyDown()Z",
+        "Landroid/widget/FrameLayout;->removeView()V"
+    ],
+    "Landroid/view/Window;": [
+        "Landroid/view/Window;->addFlags()V",
+        "Landroid/view/Window;->findViewById()Landroid/view/View;",
+        "Landroid/view/Window;->clearFlags()V",
+        "Landroid/view/Window;->getDecorView()Landroid/view/View;",
+        "Landroid/view/Window;->setFlags()V"
+    ],
+    "Landroid/content/IntentFilter;": [
+        "Landroid/content/IntentFilter;->addAction()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixContacts;": [
+        "Lcom/mobclix/android/sdk/MobclixContacts;->getPickContactIntent()Landroid/content/Intent;",
+        "Lcom/mobclix/android/sdk/MobclixContacts;->getInstance()Lcom/mobclix/android/sdk/MobclixContacts;",
+        "Lcom/mobclix/android/sdk/MobclixContacts;->getAddContactIntent()Landroid/content/Intent;",
+        "Lcom/mobclix/android/sdk/MobclixContacts;->addContact()V",
+        "Lcom/mobclix/android/sdk/MobclixContacts;->loadContact()Lorg/json/JSONObject;"
+    ],
+    "Landroid/view/Menu;": [
+        "Landroid/view/Menu;->add()Landroid/view/MenuItem;"
+    ],
+    "Landroid/view/MenuItem;": [
+        "Landroid/view/MenuItem;->setIcon()Landroid/view/MenuItem;",
+        "Landroid/view/MenuItem;->getItemId()I"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixBrowser;": [
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixBrowser;->access$1()Landroid/webkit/WebView;"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixExpander;": [
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixExpander;->exit()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixFullScreenAd;": [
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixFullScreenAd;->exit()V"
+    ],
+    "Landroid/provider/Browser;": [
+        "Landroid/provider/Browser;->saveBookmark()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixFullScreen;": [
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixFullScreen;->getContext()Landroid/content/Context;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixFullScreen;->exit()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixVideoView;": [
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixVideoView;->access$7()Landroid/app/ProgressDialog;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixVideoView;->access$5()Z",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixVideoView;->access$1()Landroid/widget/ImageView;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixVideoView;->createAdButtonBanner()V",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixVideoView;->access$6()V",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixVideoView;->access$2()Landroid/widget/VideoView;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixVideoView;->access$8()V"
+    ],
+    "Landroid/app/ProgressDialog;": [
+        "Landroid/app/ProgressDialog;->setOnCancelListener()V",
+        "Landroid/app/ProgressDialog;->show()Landroid/app/ProgressDialog;",
+        "Landroid/app/ProgressDialog;->dismiss()V"
+    ],
+    "Landroid/widget/ImageView;": [
+        "Landroid/widget/ImageView;->setClickable()V",
+        "Landroid/widget/ImageView;->getHeight()I",
+        "Landroid/widget/ImageView;->setImageResource()V",
+        "Landroid/widget/ImageView;->startAnimation()V",
+        "Landroid/widget/ImageView;->setLayoutParams()V",
+        "Landroid/widget/ImageView;->setBackgroundDrawable()V",
+        "Landroid/widget/ImageView;->setImageBitmap()V",
+        "Landroid/widget/ImageView;->setOnClickListener()V",
+        "Landroid/widget/ImageView;->getWidth()I",
+        "Landroid/widget/ImageView;->setVisibility()V",
+        "Landroid/widget/ImageView;->getBackground()Landroid/graphics/drawable/Drawable;",
+        "Landroid/widget/ImageView;->setId()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixHTML5Video;": [
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixHTML5Video;->access$0()Landroid/widget/VideoView;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixHTML5Video;->access$2()Lcom/mobclix/android/sdk/MobclixWebView;",
+        "Lcom/mobclix/android/sdk/MobclixBrowserActivity$MobclixHTML5Video;->access$1()V"
+    ],
+    "Ljava/lang/reflect/Method;": [
+        "Ljava/lang/reflect/Method;->invoke()Ljava/lang/Object;"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixAdView;": [
+        "Lcom/mobclix/android/sdk/MobclixAdView;->getTag()Ljava/lang/Object;",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->resume()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->getVisibility()I",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->restoreAd()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->showNext()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->getContext()Landroid/content/Context;",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->isInEditMode()Z",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->setRefreshTime()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->getHeight()I",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->allowAutoplay()Z",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->getChildCount()I",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->requestDisallowInterceptTouchEvent()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->getChildAt()Landroid/view/View;",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->removeViewAt()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->getWidth()I",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->stopFetchAdRequestTimer()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->setBackgroundColor()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->getResources()Landroid/content/res/Resources;",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->richMediaRequiresUserInteraction()Z",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->getNextAd()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->addView()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView;->getAd()V"
+    ],
+    "Landroid/hardware/SensorManager;": [
+        "Landroid/hardware/SensorManager;->getDefaultSensor()Landroid/hardware/Sensor;",
+        "Landroid/hardware/SensorManager;->getSensorList()Ljava/util/List;",
+        "Landroid/hardware/SensorManager;->unregisterListener()V",
+        "Landroid/hardware/SensorManager;->registerListener()Z"
+    ],
+    "Landroid/hardware/Sensor;": [
+        "Landroid/hardware/Sensor;->getType()I"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixUtility;": [
+        "Lcom/mobclix/android/sdk/MobclixUtility;->isSdPresent()Z",
+        "Lcom/mobclix/android/sdk/MobclixUtility;->JSONescape()Ljava/lang/String;"
+    ],
+    "Ljava/net/URLDecoder;": [
+        "Ljava/net/URLDecoder;->decode()Ljava/lang/String;"
+    ],
+    "Ljava/lang/StringBuffer;": [
+        "Ljava/lang/StringBuffer;->append()Ljava/lang/StringBuffer;",
+        "Ljava/lang/StringBuffer;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/util/Set;": [
+        "Ljava/util/Set;->isEmpty()Z",
+        "Ljava/util/Set;->size()I",
+        "Ljava/util/Set;->contains()Z",
+        "Ljava/util/Set;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/Set;->add()Z"
+    ],
+    "Landroid/net/Uri$Builder;": [
+        "Landroid/net/Uri$Builder;->appendQueryParameter()Landroid/net/Uri$Builder;",
+        "Landroid/net/Uri$Builder;->build()Landroid/net/Uri;"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixLocation;": [
+        "Lcom/mobclix/android/sdk/MobclixLocation;->stopLocation()V",
+        "Lcom/mobclix/android/sdk/MobclixLocation;->getLocation()Z",
+        "Lcom/mobclix/android/sdk/MobclixLocation;->isProviderSupported()Z"
+    ],
+    "Landroid/location/LocationManager;": [
+        "Landroid/location/LocationManager;->getLastKnownLocation()Landroid/location/Location;",
+        "Landroid/location/LocationManager;->getAllProviders()Ljava/util/List;",
+        "Landroid/location/LocationManager;->removeUpdates()V",
+        "Landroid/location/LocationManager;->requestLocationUpdates()V",
+        "Landroid/location/LocationManager;->isProviderEnabled()Z"
+    ],
+    "Landroid/app/AlertDialog$Builder;": [
+        "Landroid/app/AlertDialog$Builder;->setPositiveButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setNeutralButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setNegativeButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setTitle()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;",
+        "Landroid/app/AlertDialog$Builder;->setItems()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setIcon()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setMessage()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setCancelable()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;"
+    ],
+    "Landroid/app/AlertDialog;": [
+        "Landroid/app/AlertDialog;->show()V"
+    ],
+    "Landroid/view/WindowManager;": [
+        "Landroid/view/WindowManager;->addView()V",
+        "Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;"
+    ],
+    "Landroid/view/Display;": [
+        "Landroid/view/Display;->getHeight()I",
+        "Landroid/view/Display;->getOrientation()I",
+        "Landroid/view/Display;->getMetrics()V",
+        "Landroid/view/Display;->getWidth()I"
+    ],
+    "Landroid/hardware/Camera;": [
+        "Landroid/hardware/Camera;->setParameters()V",
+        "Landroid/hardware/Camera;->release()V",
+        "Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;",
+        "Landroid/hardware/Camera;->open()Landroid/hardware/Camera;"
+    ],
+    "Landroid/os/Vibrator;": [
+        "Landroid/os/Vibrator;->vibrate()V"
+    ],
+    "Landroid/view/View;": [
+        "Landroid/view/View;->getTop()I",
+        "Landroid/view/View;->dispatchTouchEvent()Z",
+        "Landroid/view/View;->getWidth()I",
+        "Landroid/view/View;->setVisibility()V",
+        "Landroid/view/View;->onKeyUp()Z",
+        "Landroid/view/View;->getHeight()I",
+        "Landroid/view/View;->getVisibility()I",
+        "Landroid/view/View;->onKeyDown()Z",
+        "Landroid/view/View;->setPressed()V",
+        "Landroid/view/View;->onDraw()V",
+        "Landroid/view/View;->dispatchTrackballEvent()Z",
+        "Landroid/view/View;->getWindowVisibleDisplayFrame()V"
+    ],
+    "Landroid/location/Location;": [
+        "Landroid/location/Location;->getAccuracy()F",
+        "Landroid/location/Location;->getLatitude()D",
+        "Landroid/location/Location;->getSpeed()F",
+        "Landroid/location/Location;->getLongitude()D",
+        "Landroid/location/Location;->getBearing()F",
+        "Landroid/location/Location;->getTime()J",
+        "Landroid/location/Location;->getAltitude()D"
+    ],
+    "Ljava/util/UUID;": [
+        "Ljava/util/UUID;->randomUUID()Ljava/util/UUID;",
+        "Ljava/util/UUID;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/util/Map$Entry;": [
+        "Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;",
+        "Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;"
+    ],
+    "Ljava/util/Timer;": [
+        "Ljava/util/Timer;->purge()I",
+        "Ljava/util/Timer;->schedule()V",
+        "Ljava/util/Timer;->cancel()V",
+        "Ljava/util/Timer;->scheduleAtFixedRate()V"
+    ],
+    "Ljava/lang/reflect/Constructor;": [
+        "Ljava/lang/reflect/Constructor;->setAccessible()V",
+        "Ljava/lang/reflect/Constructor;->newInstance()Ljava/lang/Object;"
+    ],
+    "Landroid/os/Environment;": [
+        "Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;",
+        "Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixInstrumentation;": [
+        "Lcom/mobclix/android/sdk/MobclixInstrumentation;->hasPathStarted()Z",
+        "Lcom/mobclix/android/sdk/MobclixInstrumentation;->addInfo()V",
+        "Lcom/mobclix/android/sdk/MobclixInstrumentation;->finishGroup()V",
+        "Lcom/mobclix/android/sdk/MobclixInstrumentation;->benchmarkFinishPath()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/MobclixInstrumentation;->hasPathFinishedBenchmarks()Z",
+        "Lcom/mobclix/android/sdk/MobclixInstrumentation;->getInstance()Lcom/mobclix/android/sdk/MobclixInstrumentation;",
+        "Lcom/mobclix/android/sdk/MobclixInstrumentation;->benchmarkStart()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/MobclixInstrumentation;->startGroup()Ljava/lang/String;"
+    ],
+    "Landroid/webkit/CookieManager;": [
+        "Landroid/webkit/CookieManager;->getInstance()Landroid/webkit/CookieManager;",
+        "Landroid/webkit/CookieManager;->getCookie()Ljava/lang/String;",
+        "Landroid/webkit/CookieManager;->setCookie()V",
+        "Landroid/webkit/CookieManager;->setAcceptCookie()V"
+    ],
+    "Ljava/util/HashSet;": [
+        "Ljava/util/HashSet;->add()Z",
+        "Ljava/util/HashSet;->remove()Z",
+        "Ljava/util/HashSet;->iterator()Ljava/util/Iterator;"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixFullScreenAdViewListener;": [
+        "Lcom/mobclix/android/sdk/MobclixFullScreenAdViewListener;->onFinishLoad()V",
+        "Lcom/mobclix/android/sdk/MobclixFullScreenAdViewListener;->onPresentAd()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixFullScreenAdView;": [
+        "Lcom/mobclix/android/sdk/MobclixFullScreenAdView;->getActivity()Landroid/app/Activity;",
+        "Lcom/mobclix/android/sdk/MobclixFullScreenAdView;->displayRequestedAd()Z"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixCreative;": [
+        "Lcom/mobclix/android/sdk/MobclixCreative;->fireOnShowTrackingPixels()V",
+        "Lcom/mobclix/android/sdk/MobclixCreative;->isInitialized()Z",
+        "Lcom/mobclix/android/sdk/MobclixCreative;->runNextAsyncRequest()V",
+        "Lcom/mobclix/android/sdk/MobclixCreative;->setAnimationType()V",
+        "Lcom/mobclix/android/sdk/MobclixCreative;->onPause()V",
+        "Lcom/mobclix/android/sdk/MobclixCreative;->onStop()V",
+        "Lcom/mobclix/android/sdk/MobclixCreative;->getCurrentView()Landroid/view/View;",
+        "Lcom/mobclix/android/sdk/MobclixCreative;->addView()V",
+        "Lcom/mobclix/android/sdk/MobclixCreative;->getChildAt()Landroid/view/View;",
+        "Lcom/mobclix/android/sdk/MobclixCreative;->onResume()V",
+        "Lcom/mobclix/android/sdk/MobclixCreative;->getChildCount()I",
+        "Lcom/mobclix/android/sdk/MobclixCreative;->fireOnTouchTrackingPixels()V",
+        "Lcom/mobclix/android/sdk/MobclixCreative;->requestDisallowInterceptTouchEvent()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixCreative$HTMLPagePool;": [
+        "Lcom/mobclix/android/sdk/MobclixCreative$HTMLPagePool;->getHTMLPage()Lcom/mobclix/android/sdk/MobclixCreative$HTMLPage;"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixCreative$HTMLPage;": [
+        "Lcom/mobclix/android/sdk/MobclixCreative$HTMLPage;->access$0()Lcom/mobclix/android/sdk/MobclixWebView;",
+        "Lcom/mobclix/android/sdk/MobclixCreative$HTMLPage;->loadAd()V"
+    ],
+    "Landroid/widget/ViewFlipper;": [
+        "Landroid/widget/ViewFlipper;->setOutAnimation()V",
+        "Landroid/widget/ViewFlipper;->onDetachedFromWindow()V",
+        "Landroid/widget/ViewFlipper;->setLayoutParams()V",
+        "Landroid/widget/ViewFlipper;->setInAnimation()V",
+        "Landroid/widget/ViewFlipper;->onSaveInstanceState()Landroid/os/Parcelable;",
+        "Landroid/widget/ViewFlipper;->onAttachedToWindow()V",
+        "Landroid/widget/ViewFlipper;->onRestoreInstanceState()V",
+        "Landroid/widget/ViewFlipper;->stopFlipping()V"
+    ],
+    "Landroid/view/MotionEvent;": [
+        "Landroid/view/MotionEvent;->getX()F",
+        "Landroid/view/MotionEvent;->getY()F",
+        "Landroid/view/MotionEvent;->getAction()I",
+        "Landroid/view/MotionEvent;->obtain()Landroid/view/MotionEvent;"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixCreative$Action;": [
+        "Lcom/mobclix/android/sdk/MobclixCreative$Action;->getAutoplay()Z",
+        "Lcom/mobclix/android/sdk/MobclixCreative$Action;->act()Z"
+    ],
+    "Ljava/util/Stack;": [
+        "Ljava/util/Stack;->pop()Ljava/lang/Object;",
+        "Ljava/util/Stack;->isEmpty()Z"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixAdView$MobclixUtilityView;": [
+        "Lcom/mobclix/android/sdk/MobclixAdView$MobclixUtilityView;->bringToFront()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView$MobclixUtilityView;->setLayoutParams()V",
+        "Lcom/mobclix/android/sdk/MobclixAdView$MobclixUtilityView;->setBackgroundColor()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixCreative$Page;": [
+        "Lcom/mobclix/android/sdk/MobclixCreative$Page;->dealloc()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixAdViewListener;": [
+        "Lcom/mobclix/android/sdk/MobclixAdViewListener;->onFailedLoad()V",
+        "Lcom/mobclix/android/sdk/MobclixAdViewListener;->onSuccessfulLoad()V"
+    ],
+    "Landroid/view/animation/Animation;": [
+        "Landroid/view/animation/Animation;->setRepeatMode()V",
+        "Landroid/view/animation/Animation;->setStartOffset()V",
+        "Landroid/view/animation/Animation;->setRepeatCount()V",
+        "Landroid/view/animation/Animation;->setDuration()V"
+    ],
+    "Landroid/provider/Contacts$People;": [
+        "Landroid/provider/Contacts$People;->createPersonInMyContactsGroup()Landroid/net/Uri;"
+    ],
+    "Landroid/provider/Contacts$ContactMethods;": [
+        "Landroid/provider/Contacts$ContactMethods;->encodePredefinedImProtocol()Ljava/lang/String;"
+    ],
+    "Landroid/location/Criteria;": [
+        "Landroid/location/Criteria;->setAccuracy()V"
+    ],
+    "Landroid/provider/Settings$System;": [
+        "Landroid/provider/Settings$System;->getString()Ljava/lang/String;"
+    ],
+    "Landroid/telephony/TelephonyManager;": [
+        "Landroid/telephony/TelephonyManager;->getNetworkOperator()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getLine1Number()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getNetworkType()I",
+        "Landroid/telephony/TelephonyManager;->getCellLocation()Landroid/telephony/CellLocation;",
+        "Landroid/telephony/TelephonyManager;->getSimSerialNumber()Ljava/lang/String;"
+    ],
+    "Ljava/security/MessageDigest;": [
+        "Ljava/security/MessageDigest;->update()V",
+        "Ljava/security/MessageDigest;->getInstance()Ljava/security/MessageDigest;",
+        "Ljava/security/MessageDigest;->digest()[B"
+    ],
+    "Lcom/mobclix/android/sdk/FetchRemoteConfig;": [
+        "Lcom/mobclix/android/sdk/FetchRemoteConfig;->doInBackground()Lorg/json/JSONArray;",
+        "Lcom/mobclix/android/sdk/FetchRemoteConfig;->execute()Landroid/os/AsyncTask;",
+        "Lcom/mobclix/android/sdk/FetchRemoteConfig;->processAdUnitConfig()V",
+        "Lcom/mobclix/android/sdk/FetchRemoteConfig;->onPostExecute()V",
+        "Lcom/mobclix/android/sdk/FetchRemoteConfig;->getConfigUrl()Ljava/lang/String;"
+    ],
+    "Lorg/apache/http/client/CookieStore;": [
+        "Lorg/apache/http/client/CookieStore;->getCookies()Ljava/util/List;"
+    ],
+    "Landroid/webkit/CookieSyncManager;": [
+        "Landroid/webkit/CookieSyncManager;->createInstance()Landroid/webkit/CookieSyncManager;",
+        "Landroid/webkit/CookieSyncManager;->stopSync()V",
+        "Landroid/webkit/CookieSyncManager;->getInstance()Landroid/webkit/CookieSyncManager;",
+        "Landroid/webkit/CookieSyncManager;->sync()V"
+    ],
+    "Lorg/apache/http/cookie/Cookie;": [
+        "Lorg/apache/http/cookie/Cookie;->getValue()Ljava/lang/String;",
+        "Lorg/apache/http/cookie/Cookie;->getExpiryDate()Ljava/util/Date;",
+        "Lorg/apache/http/cookie/Cookie;->getPath()Ljava/lang/String;",
+        "Lorg/apache/http/cookie/Cookie;->getName()Ljava/lang/String;",
+        "Lorg/apache/http/cookie/Cookie;->getDomain()Ljava/lang/String;"
+    ],
+    "Ljava/text/SimpleDateFormat;": [
+        "Ljava/text/SimpleDateFormat;->format()Ljava/lang/String;"
+    ],
+    "Landroid/net/ConnectivityManager;": [
+        "Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;",
+        "Landroid/net/ConnectivityManager;->getNetworkInfo()Landroid/net/NetworkInfo;"
+    ],
+    "Landroid/net/NetworkInfo;": [
+        "Landroid/net/NetworkInfo;->getTypeName()Ljava/lang/String;",
+        "Landroid/net/NetworkInfo;->isConnected()Z",
+        "Landroid/net/NetworkInfo;->getExtraInfo()Ljava/lang/String;",
+        "Landroid/net/NetworkInfo;->isAvailable()Z",
+        "Landroid/net/NetworkInfo;->getType()I"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;": [
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->setAutoplay()V",
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->setAutoplayInterval()V",
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->isRichMediaRequireUser()Z",
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->setCustomAdSet()V",
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->setCustomAdUrl()V",
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->getCustomAdUrl()Ljava/lang/String;",
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->setRefreshTime()V",
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->setRichMediaRequireUser()V",
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->isAutoplay()Z",
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->setEnabled()V",
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->getAutoplayInterval()J",
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->isEnabled()Z",
+        "Lcom/mobclix/android/sdk/MobclixAdUnitSettings;->getRefreshTime()J"
+    ],
+    "Ljava/lang/Runtime;": [
+        "Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;",
+        "Ljava/lang/Runtime;->exec()Ljava/lang/Process;"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixFeedback;": [
+        "Lcom/mobclix/android/sdk/MobclixFeedback;->sendComment()V",
+        "Lcom/mobclix/android/sdk/MobclixFeedback;->sendRatings()V"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixDemographics;": [
+        "Lcom/mobclix/android/sdk/MobclixDemographics;->sendDemographics()V"
+    ],
+    "Landroid/util/AttributeSet;": [
+        "Landroid/util/AttributeSet;->getAttributeBooleanValue()Z",
+        "Landroid/util/AttributeSet;->getAttributeIntValue()I",
+        "Landroid/util/AttributeSet;->getAttributeUnsignedIntValue()I",
+        "Landroid/util/AttributeSet;->getAttributeValue()Ljava/lang/String;"
+    ],
+    "Landroid/graphics/Color;": [
+        "Landroid/graphics/Color;->parseColor()I"
+    ],
+    "Ljava/lang/reflect/Field;": [
+        "Ljava/lang/reflect/Field;->get()Ljava/lang/Object;"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixCreativeManager;": [
+        "Lcom/mobclix/android/sdk/MobclixCreativeManager;->getCreative()Lorg/json/JSONObject;",
+        "Lcom/mobclix/android/sdk/MobclixCreativeManager;->getIndex()I",
+        "Lcom/mobclix/android/sdk/MobclixCreativeManager;->nextCreative()Z"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixAdView$FetchAdResponseThread;": [
+        "Lcom/mobclix/android/sdk/MobclixAdView$FetchAdResponseThread;->setNextRequestParams()V"
+    ],
+    "Landroid/util/TypedValue;": [
+        "Landroid/util/TypedValue;->applyDimension()F"
+    ],
+    "Lcom/mobclix/android/sdk/MobclixContactsCursorEntityIterator;": [
+        "Lcom/mobclix/android/sdk/MobclixContactsCursorEntityIterator;->next()Landroid/content/Entity;",
+        "Lcom/mobclix/android/sdk/MobclixContactsCursorEntityIterator;->getEntityAndIncrementCursor()Landroid/content/Entity;",
+        "Lcom/mobclix/android/sdk/MobclixContactsCursorEntityIterator;->hasNext()Z"
+    ],
+    "Lorg/apache/http/client/methods/HttpGet;": [
+        "Lorg/apache/http/client/methods/HttpGet;->setHeader()V"
+    ],
+    "Lorg/apache/http/impl/client/DefaultHttpClient;": [
+        "Lorg/apache/http/impl/client/DefaultHttpClient;->execute()Lorg/apache/http/HttpResponse;",
+        "Lorg/apache/http/impl/client/DefaultHttpClient;->getCookieStore()Lorg/apache/http/client/CookieStore;"
+    ],
+    "Lorg/apache/http/HttpResponse;": [
+        "Lorg/apache/http/HttpResponse;->getStatusLine()Lorg/apache/http/StatusLine;",
+        "Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;"
+    ],
+    "Lorg/apache/http/HttpEntity;": [
+        "Lorg/apache/http/HttpEntity;->consumeContent()V",
+        "Lorg/apache/http/HttpEntity;->getContent()Ljava/io/InputStream;"
+    ],
+    "Lcom/mobclix/android/sdk/Mobclix$MobclixHttpClient;": [
+        "Lcom/mobclix/android/sdk/Mobclix$MobclixHttpClient;->execute()Lorg/apache/http/HttpResponse;"
+    ],
+    "Lorg/apache/http/StatusLine;": [
+        "Lorg/apache/http/StatusLine;->getStatusCode()I"
+    ],
+    "Lcom/vpon/adon/android/AdView;": [
+        "Lcom/vpon/adon/android/AdView;->addView()V",
+        "Lcom/vpon/adon/android/AdView;->setLicenseKey()V",
+        "Lcom/vpon/adon/android/AdView;->setLayoutParams()V",
+        "Lcom/vpon/adon/android/AdView;->setOnClickListener()V",
+        "Lcom/vpon/adon/android/AdView;->setAdListener()V"
+    ],
+    "Ladon/r;": [
+        "Ladon/r;->a()Ladon/r;",
+        "Ladon/r;->a()V"
+    ],
+    "Lcom/vpon/adon/android/AdListener;": [
+        "Lcom/vpon/adon/android/AdListener;->onFailedToRecevieAd()V"
+    ],
+    "Ljava/lang/Enum;": [
+        "Ljava/lang/Enum;->valueOf()Ljava/lang/Enum;"
+    ],
+    "Lcom/vpon/adon/android/WebInApp;": [
+        "Lcom/vpon/adon/android/WebInApp;->requestWindowFeature()Z",
+        "Lcom/vpon/adon/android/WebInApp;->getWindow()Landroid/view/Window;",
+        "Lcom/vpon/adon/android/WebInApp;->setContentView()V",
+        "Lcom/vpon/adon/android/WebInApp;->getIntent()Landroid/content/Intent;",
+        "Lcom/vpon/adon/android/WebInApp;->finish()V"
+    ],
+    "Ladon/b;": [
+        "Ladon/b;->a()Z"
+    ],
+    "Landroid/widget/RelativeLayout$LayoutParams;": [
+        "Landroid/widget/RelativeLayout$LayoutParams;->addRule()V",
+        "Landroid/widget/RelativeLayout$LayoutParams;->setMargins()V"
+    ],
+    "Landroid/widget/ProgressBar;": [
+        "Landroid/widget/ProgressBar;->setVisibility()V",
+        "Landroid/widget/ProgressBar;->setIndeterminate()V",
+        "Landroid/widget/ProgressBar;->setLayoutParams()V"
+    ],
+    "Landroid/widget/RelativeLayout;": [
+        "Landroid/widget/RelativeLayout;->setEnabled()V",
+        "Landroid/widget/RelativeLayout;->setBackgroundColor()V",
+        "Landroid/widget/RelativeLayout;->onFocusChanged()V",
+        "Landroid/widget/RelativeLayout;->onSizeChanged()V",
+        "Landroid/widget/RelativeLayout;->addView()V",
+        "Landroid/widget/RelativeLayout;->setId()V",
+        "Landroid/widget/RelativeLayout;->onTrackballEvent()Z",
+        "Landroid/widget/RelativeLayout;->setVisibility()V",
+        "Landroid/widget/RelativeLayout;->removeView()V",
+        "Landroid/widget/RelativeLayout;->dispatchTouchEvent()Z",
+        "Landroid/widget/RelativeLayout;->onKeyUp()Z",
+        "Landroid/widget/RelativeLayout;->onKeyDown()Z",
+        "Landroid/widget/RelativeLayout;->setLayoutParams()V",
+        "Landroid/widget/RelativeLayout;->getVisibility()I",
+        "Landroid/widget/RelativeLayout;->removeAllViews()V",
+        "Landroid/widget/RelativeLayout;->setPressed()V",
+        "Landroid/widget/RelativeLayout;->onMeasure()V",
+        "Landroid/widget/RelativeLayout;->onDetachedFromWindow()V",
+        "Landroid/widget/RelativeLayout;->onWindowVisibilityChanged()V",
+        "Landroid/widget/RelativeLayout;->onAttachedToWindow()V"
+    ],
+    "Landroid/widget/Button;": [
+        "Landroid/widget/Button;->setLayoutParams()V",
+        "Landroid/widget/Button;->setOnClickListener()V",
+        "Landroid/widget/Button;->setId()V",
+        "Landroid/widget/Button;->setBackgroundDrawable()V",
+        "Landroid/widget/Button;->setEnabled()V",
+        "Landroid/widget/Button;->getId()I",
+        "Landroid/widget/Button;->setText()V",
+        "Landroid/widget/Button;->setBackgroundColor()V",
+        "Landroid/widget/Button;->setVisibility()V",
+        "Landroid/widget/Button;->setTextColor()V"
+    ],
+    "Ladon/d;": [
+        "Ladon/d;->a()[I",
+        "Ladon/d;->a()V"
+    ],
+    "Ladon/g;": [
+        "Ladon/g;->ordinal()I"
+    ],
+    "Lcom/ju6/AdManager;": [
+        "Lcom/ju6/AdManager;->setAdFinish()V",
+        "Lcom/ju6/AdManager;->setAdTimestamp()V",
+        "Lcom/ju6/AdManager;->getAdTimestamp()J",
+        "Lcom/ju6/AdManager;->getBirthdayAsString()Ljava/lang/String;",
+        "Lcom/ju6/AdManager;->isTestmode()Z",
+        "Lcom/ju6/AdManager;->getBirthday()Ljava/util/GregorianCalendar;",
+        "Lcom/ju6/AdManager;->setBirthday()V",
+        "Lcom/ju6/AdManager;->isAdFinish()Z",
+        "Lcom/ju6/AdManager;->getPwd()Ljava/lang/String;",
+        "Lcom/ju6/AdManager;->getGenderAsString()Ljava/lang/String;",
+        "Lcom/ju6/AdManager;->getAppid()Ljava/lang/String;"
+    ],
+    "Ljava/util/GregorianCalendar;": [
+        "Ljava/util/GregorianCalendar;->set()V",
+        "Ljava/util/GregorianCalendar;->get()I"
+    ],
+    "Lcom/ju6/c;": [
+        "Lcom/ju6/c;->start()V",
+        "Lcom/ju6/c;->a()Z",
+        "Lcom/ju6/c;->a()[B",
+        "Lcom/ju6/c;->a()Ljava/net/HttpURLConnection;",
+        "Lcom/ju6/c;->a()V",
+        "Lcom/ju6/c;->a()Ljava/util/List;",
+        "Lcom/ju6/c;->a()Ljava/lang/String;"
+    ],
+    "Lcom/ju6/AdListener;": [
+        "Lcom/ju6/AdListener;->onConnectFailed()V",
+        "Lcom/ju6/AdListener;->onReceiveAd()V"
+    ],
+    "Ljava/io/InputStream;": [
+        "Ljava/io/InputStream;->close()V",
+        "Ljava/io/InputStream;->read()I"
+    ],
+    "Ljava/io/BufferedWriter;": [
+        "Ljava/io/BufferedWriter;->close()V"
+    ],
+    "Lcom/ju6/mms/pdu/MMS;": [
+        "Lcom/ju6/mms/pdu/MMS;->setFrom()V",
+        "Lcom/ju6/mms/pdu/MMS;->getSubject()Lcom/ju6/mms/pdu/EncodedStringValue;",
+        "Lcom/ju6/mms/pdu/MMS;->getDate()J",
+        "Lcom/ju6/mms/pdu/MMS;->getMessageClass()[B",
+        "Lcom/ju6/mms/pdu/MMS;->setMessageType()V",
+        "Lcom/ju6/mms/pdu/MMS;->setPriority()V",
+        "Lcom/ju6/mms/pdu/MMS;->setMmsVersion()V",
+        "Lcom/ju6/mms/pdu/MMS;->setBody()V",
+        "Lcom/ju6/mms/pdu/MMS;->setTransactionId()V",
+        "Lcom/ju6/mms/pdu/MMS;->getExpiry()J",
+        "Lcom/ju6/mms/pdu/MMS;->getPriority()I",
+        "Lcom/ju6/mms/pdu/MMS;->getMessageSize()J",
+        "Lcom/ju6/mms/pdu/MMS;->a()Lcom/ju6/mms/pdu/PduHeaders;",
+        "Lcom/ju6/mms/pdu/MMS;->setSubject()V",
+        "Lcom/ju6/mms/pdu/MMS;->getTransactionId()[B",
+        "Lcom/ju6/mms/pdu/MMS;->getReadReport()I",
+        "Lcom/ju6/mms/pdu/MMS;->getDeliveryReport()I",
+        "Lcom/ju6/mms/pdu/MMS;->setContentType()V",
+        "Lcom/ju6/mms/pdu/MMS;->getContentType()[B"
+    ],
+    "Lcom/ju6/mms/pdu/PduPersister;": [
+        "Lcom/ju6/mms/pdu/PduPersister;->a()V",
+        "Lcom/ju6/mms/pdu/PduPersister;->a()Z",
+        "Lcom/ju6/mms/pdu/PduPersister;->toIsoString()Ljava/lang/String;",
+        "Lcom/ju6/mms/pdu/PduPersister;->getPduPersister()Lcom/ju6/mms/pdu/PduPersister;",
+        "Lcom/ju6/mms/pdu/PduPersister;->persistPart()Landroid/net/Uri;",
+        "Lcom/ju6/mms/pdu/PduPersister;->persist()Landroid/net/Uri;"
+    ],
+    "Lcom/ju6/mms/pdu/PduPart;": [
+        "Lcom/ju6/mms/pdu/PduPart;->getContentId()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->getName()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->getContentLocation()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->getDataUri()Landroid/net/Uri;",
+        "Lcom/ju6/mms/pdu/PduPart;->getCharset()I",
+        "Lcom/ju6/mms/pdu/PduPart;->setContentType()V",
+        "Lcom/ju6/mms/pdu/PduPart;->setDataUri()V",
+        "Lcom/ju6/mms/pdu/PduPart;->setContentLocation()V",
+        "Lcom/ju6/mms/pdu/PduPart;->getContentType()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->getContentDisposition()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->setContentId()V",
+        "Lcom/ju6/mms/pdu/PduPart;->setCharset()V",
+        "Lcom/ju6/mms/pdu/PduPart;->getData()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->getFilename()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->setData()V"
+    ],
+    "Lcom/ju6/mms/pdu/PduBody;": [
+        "Lcom/ju6/mms/pdu/PduBody;->getPart()Lcom/ju6/mms/pdu/PduPart;",
+        "Lcom/ju6/mms/pdu/PduBody;->addPart()Z",
+        "Lcom/ju6/mms/pdu/PduBody;->a()V",
+        "Lcom/ju6/mms/pdu/PduBody;->getPartsNum()I"
+    ],
+    "Landroid/telephony/gsm/GsmCellLocation;": [
+        "Landroid/telephony/gsm/GsmCellLocation;->getLac()I",
+        "Landroid/telephony/gsm/GsmCellLocation;->getCid()I"
+    ],
+    "Lcom/ju6/mms/ContentType;": [
+        "Lcom/ju6/mms/ContentType;->isVideoType()Z",
+        "Lcom/ju6/mms/ContentType;->isSupportedType()Z",
+        "Lcom/ju6/mms/ContentType;->isAudioType()Z",
+        "Lcom/ju6/mms/ContentType;->isImageType()Z"
+    ],
+    "Landroid/database/sqlite/SQLiteException;": [
+        "Landroid/database/sqlite/SQLiteException;->getMessage()Ljava/lang/String;"
+    ],
+    "Landroid/widget/Toast;": [
+        "Landroid/widget/Toast;->show()V",
+        "Landroid/widget/Toast;->makeText()Landroid/widget/Toast;"
+    ],
+    "Lcom/ju6/mms/util/SqliteWrapper;": [
+        "Lcom/ju6/mms/util/SqliteWrapper;->update()I",
+        "Lcom/ju6/mms/util/SqliteWrapper;->delete()I",
+        "Lcom/ju6/mms/util/SqliteWrapper;->query()Landroid/database/Cursor;",
+        "Lcom/ju6/mms/util/SqliteWrapper;->checkSQLiteException()V",
+        "Lcom/ju6/mms/util/SqliteWrapper;->insert()Landroid/net/Uri;"
+    ],
+    "Landroid/content/UriMatcher;": [
+        "Landroid/content/UriMatcher;->match()I",
+        "Landroid/content/UriMatcher;->addURI()V"
+    ],
+    "Lcom/ju6/mms/util/a;": [
+        "Lcom/ju6/mms/util/a;->size()I",
+        "Lcom/ju6/mms/util/a;->purgeAll()V",
+        "Lcom/ju6/mms/util/a;->purge()Ljava/lang/Object;",
+        "Lcom/ju6/mms/util/a;->put()Z",
+        "Lcom/ju6/mms/util/a;->get()Ljava/lang/Object;"
+    ],
+    "Lcom/ju6/mms/util/PduCache;": [
+        "Lcom/ju6/mms/util/PduCache;->purge()Lcom/ju6/mms/util/PduCacheEntry;",
+        "Lcom/ju6/mms/util/PduCache;->purgeAll()V",
+        "Lcom/ju6/mms/util/PduCache;->getInstance()Lcom/ju6/mms/util/PduCache;",
+        "Lcom/ju6/mms/util/PduCache;->a()Lcom/ju6/mms/util/PduCacheEntry;",
+        "Lcom/ju6/mms/util/PduCache;->put()Z",
+        "Lcom/ju6/mms/util/PduCache;->a()V"
+    ],
+    "Lcom/ju6/mms/util/PduCacheEntry;": [
+        "Lcom/ju6/mms/util/PduCacheEntry;->getMessageBox()I",
+        "Lcom/ju6/mms/util/PduCacheEntry;->getThreadId()J"
+    ],
+    "Ljava/util/Vector;": [
+        "Ljava/util/Vector;->addElement()V",
+        "Ljava/util/Vector;->remove()Ljava/lang/Object;",
+        "Ljava/util/Vector;->indexOf()I",
+        "Ljava/util/Vector;->size()I",
+        "Ljava/util/Vector;->get()Ljava/lang/Object;",
+        "Ljava/util/Vector;->elementAt()Ljava/lang/Object;",
+        "Ljava/util/Vector;->clear()V",
+        "Ljava/util/Vector;->add()Z",
+        "Ljava/util/Vector;->add()V"
+    ],
+    "Lcom/ju6/mms/pdu/PduHeaders;": [
+        "Lcom/ju6/mms/pdu/PduHeaders;->getOctet()I",
+        "Lcom/ju6/mms/pdu/PduHeaders;->getLongInteger()J",
+        "Lcom/ju6/mms/pdu/PduHeaders;->getTextString()[B",
+        "Lcom/ju6/mms/pdu/PduHeaders;->setEncodedStringValue()V",
+        "Lcom/ju6/mms/pdu/PduHeaders;->setTextString()V",
+        "Lcom/ju6/mms/pdu/PduHeaders;->setOctet()V",
+        "Lcom/ju6/mms/pdu/PduHeaders;->getEncodedStringValues()[Lcom/ju6/mms/pdu/EncodedStringValue;",
+        "Lcom/ju6/mms/pdu/PduHeaders;->setEncodedStringValues()V",
+        "Lcom/ju6/mms/pdu/PduHeaders;->setLongInteger()V",
+        "Lcom/ju6/mms/pdu/PduHeaders;->appendEncodedStringValue()V",
+        "Lcom/ju6/mms/pdu/PduHeaders;->getEncodedStringValue()Lcom/ju6/mms/pdu/EncodedStringValue;"
+    ],
+    "Lcom/ju6/mms/pdu/a;": [
+        "Lcom/ju6/mms/pdu/a;->getSubject()Lcom/ju6/mms/pdu/EncodedStringValue;",
+        "Lcom/ju6/mms/pdu/a;->setDate()V",
+        "Lcom/ju6/mms/pdu/a;->getTo()[Lcom/ju6/mms/pdu/EncodedStringValue;",
+        "Lcom/ju6/mms/pdu/a;->getPriority()I",
+        "Lcom/ju6/mms/pdu/a;->setPriority()V",
+        "Lcom/ju6/mms/pdu/a;->getDate()J",
+        "Lcom/ju6/mms/pdu/a;->setSubject()V",
+        "Lcom/ju6/mms/pdu/a;->setBody()V",
+        "Lcom/ju6/mms/pdu/a;->addTo()V",
+        "Lcom/ju6/mms/pdu/a;->getBody()Lcom/ju6/mms/pdu/PduBody;"
+    ],
+    "Lcom/ju6/mms/pdu/EncodedStringValue;": [
+        "Lcom/ju6/mms/pdu/EncodedStringValue;->getCharacterSet()I",
+        "Lcom/ju6/mms/pdu/EncodedStringValue;->getTextString()[B",
+        "Lcom/ju6/mms/pdu/EncodedStringValue;->getString()Ljava/lang/String;"
+    ],
+    "Lcom/ju6/mms/pdu/CharacterSets;": [
+        "Lcom/ju6/mms/pdu/CharacterSets;->getMimeName()Ljava/lang/String;"
+    ],
+    "Landroid/text/TextUtils;": [
+        "Landroid/text/TextUtils;->isEmpty()Z"
+    ],
+    "Lcom/ju6/mms/pdu/GenericPdu;": [
+        "Lcom/ju6/mms/pdu/GenericPdu;->getMessageType()I",
+        "Lcom/ju6/mms/pdu/GenericPdu;->a()Lcom/ju6/mms/pdu/PduHeaders;"
+    ],
+    "Lcom/ju6/mms/pdu/PduPersister$Threads;": [
+        "Lcom/ju6/mms/pdu/PduPersister$Threads;->getOrCreateThreadId()J"
+    ],
+    "Landroid/widget/TextView;": [
+        "Landroid/widget/TextView;->setText()V",
+        "Landroid/widget/TextView;->setTextSize()V",
+        "Landroid/widget/TextView;->setGravity()V",
+        "Landroid/widget/TextView;->setId()V",
+        "Landroid/widget/TextView;->setTextColor()V",
+        "Landroid/widget/TextView;->setEllipsize()V",
+        "Landroid/widget/TextView;->setTypeface()V",
+        "Landroid/widget/TextView;->getTextSize()F",
+        "Landroid/widget/TextView;->setSingleLine()V",
+        "Landroid/widget/TextView;->getTypeface()Landroid/graphics/Typeface;",
+        "Landroid/widget/TextView;->setBackgroundColor()V",
+        "Landroid/widget/TextView;->setVisibility()V",
+        "Landroid/widget/TextView;->setLayoutParams()V"
+    ],
+    "Landroid/widget/LinearLayout;": [
+        "Landroid/widget/LinearLayout;->setLayoutParams()V",
+        "Landroid/widget/LinearLayout;->addView()V",
+        "Landroid/widget/LinearLayout;->setGravity()V",
+        "Landroid/widget/LinearLayout;->setBackgroundColor()V",
+        "Landroid/widget/LinearLayout;->setOrientation()V"
+    ],
+    "Landroid/widget/ImageButton;": [
+        "Landroid/widget/ImageButton;->setBackgroundDrawable()V",
+        "Landroid/widget/ImageButton;->setImageResource()V",
+        "Landroid/widget/ImageButton;->setPadding()V",
+        "Landroid/widget/ImageButton;->setOnClickListener()V"
+    ],
+    "Le;": [
+        "Le;->a()Ljava/util/HashMap;",
+        "Le;->a()Landroid/os/Bundle;",
+        "Le;->a()Ljava/lang/String;"
+    ],
+    "Landroid/content/ActivityNotFoundException;": [
+        "Landroid/content/ActivityNotFoundException;->getMessage()Ljava/lang/String;"
+    ],
+    "Lcom/google/ads/InterstitialAd;": [
+        "Lcom/google/ads/InterstitialAd;->isReady()Z"
+    ],
+    "Lcom/google/ads/AdRequest$Gender;": [
+        "Lcom/google/ads/AdRequest$Gender;->toString()Ljava/lang/String;"
+    ],
+    "Landroid/content/BroadcastReceiver;": [
+        "Landroid/content/BroadcastReceiver;->onReceive()V"
+    ],
+    "Lcom/google/ads/InstallReceiver;": [
+        "Lcom/google/ads/InstallReceiver;->forwardIntent()V",
+        "Lcom/google/ads/InstallReceiver;->a()Ljava/lang/String;"
+    ],
+    "Landroid/provider/Settings$Secure;": [
+        "Landroid/provider/Settings$Secure;->getString()Ljava/lang/String;"
+    ],
+    "Ljavax/crypto/Cipher;": [
+        "Ljavax/crypto/Cipher;->getInstance()Ljavax/crypto/Cipher;",
+        "Ljavax/crypto/Cipher;->doFinal()[B",
+        "Ljavax/crypto/Cipher;->getIV()[B"
+    ],
+    "Lcom/google/ads/util/b;": [
+        "Lcom/google/ads/util/b;->a()Ljava/lang/String;"
+    ],
+    "Landroid/media/AudioManager;": [
+        "Landroid/media/AudioManager;->getMode()I",
+        "Landroid/media/AudioManager;->getRingerMode()I",
+        "Landroid/media/AudioManager;->isMusicActive()Z",
+        "Landroid/media/AudioManager;->isSpeakerphoneOn()Z"
+    ],
+    "Lcom/google/ads/util/b$b;": [
+        "Lcom/google/ads/util/b$b;->a()Z"
+    ],
+    "Lcom/evilsunflower/picturepuzzle/JmAdV2;": [
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2;->getMotionEventDown()Landroid/view/MotionEvent;",
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2;->showAdView()V",
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2;->startAd()V",
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2;->hideAds()V",
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2;->tryFakeClickAd()Z",
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2;->generateOnClick()V",
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2;->getMotionEventUp()Landroid/view/MotionEvent;",
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2;->onKeyDown()Z",
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2;->setForceTime()V",
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2;->isConnected()Z"
+    ],
+    "Lorg/apache/http/client/methods/HttpPost;": [
+        "Lorg/apache/http/client/methods/HttpPost;->setEntity()V"
+    ],
+    "Lorg/apache/http/client/HttpClient;": [
+        "Lorg/apache/http/client/HttpClient;->execute()Lorg/apache/http/HttpResponse;"
+    ],
+    "Lorg/apache/http/util/EntityUtils;": [
+        "Lorg/apache/http/util/EntityUtils;->toString()Ljava/lang/String;"
+    ],
+    "Lcom/adwo/adsdk/AdwoAdView;": [
+        "Lcom/adwo/adsdk/AdwoAdView;->setListener()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->a()Lcom/adwo/adsdk/AdListener;",
+        "Lcom/adwo/adsdk/AdwoAdView;->setMeasuredDimension()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->startAnimation()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->getChildAt()Landroid/view/View;",
+        "Lcom/adwo/adsdk/AdwoAdView;->removeView()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->a()I",
+        "Lcom/adwo/adsdk/AdwoAdView;->invalidate()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->getChildCount()I",
+        "Lcom/adwo/adsdk/AdwoAdView;->post()Z",
+        "Lcom/adwo/adsdk/AdwoAdView;->addView()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->setFocusable()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->getHeight()I",
+        "Lcom/adwo/adsdk/AdwoAdView;->getContext()Landroid/content/Context;",
+        "Lcom/adwo/adsdk/AdwoAdView;->a()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->setOnClickListener()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->a()Lcom/adwo/adsdk/b;",
+        "Lcom/adwo/adsdk/AdwoAdView;->finalize()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->a()B",
+        "Lcom/adwo/adsdk/AdwoAdView;->a()Landroid/os/Handler;",
+        "Lcom/adwo/adsdk/AdwoAdView;->getResources()Landroid/content/res/Resources;",
+        "Lcom/adwo/adsdk/AdwoAdView;->setBackgroundColor()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->getMeasuredWidth()I",
+        "Lcom/adwo/adsdk/AdwoAdView;->setDescendantFocusability()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->getWidth()I",
+        "Lcom/adwo/adsdk/AdwoAdView;->setClickable()V"
+    ],
+    "Lcom/evilsunflower/picturepuzzle/JmAdV2$HouseAd;": [
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2$HouseAd;->setOnClickListener()V",
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2$HouseAd;->setListener()V",
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2$HouseAd;->setVisibility()V",
+        "Lcom/evilsunflower/picturepuzzle/JmAdV2$HouseAd;->setRefreshInterval()V"
+    ],
+    "Lcom/izp/views/IZPView;": [
+        "Lcom/izp/views/IZPView;->setBackgroundColor()V",
+        "Lcom/izp/views/IZPView;->setOnClickListener()V",
+        "Lcom/izp/views/IZPView;->stopAdExchange()V",
+        "Lcom/izp/views/IZPView;->startAdExchange()V"
+    ],
+    "Lcom/ju6/AdRequester;": [
+        "Lcom/ju6/AdRequester;->setAdListener()V",
+        "Lcom/ju6/AdRequester;->getAd()V"
+    ],
+    "Lcom/madhouse/android/ads/AdManager;": [
+        "Lcom/madhouse/android/ads/AdManager;->setApplicationId()V"
+    ],
+    "Lcom/madhouse/android/ads/AdView;": [
+        "Lcom/madhouse/android/ads/AdView;->getWidth()I",
+        "Lcom/madhouse/android/ads/AdView;->setDescendantFocusability()V",
+        "Lcom/madhouse/android/ads/AdView;->getContext()Landroid/content/Context;",
+        "Lcom/madhouse/android/ads/AdView;->post()Z",
+        "Lcom/madhouse/android/ads/AdView;->getHeight()I",
+        "Lcom/madhouse/android/ads/AdView;->a()V",
+        "Lcom/madhouse/android/ads/AdView;->setListener()V",
+        "Lcom/madhouse/android/ads/AdView;->a()I",
+        "Lcom/madhouse/android/ads/AdView;->invalidate()V",
+        "Lcom/madhouse/android/ads/AdView;->getChildCount()I",
+        "Lcom/madhouse/android/ads/AdView;->setClickable()V",
+        "Lcom/madhouse/android/ads/AdView;->getChildAt()Landroid/view/View;",
+        "Lcom/madhouse/android/ads/AdView;->setOnClickListener()V",
+        "Lcom/madhouse/android/ads/AdView;->addView()V",
+        "Lcom/madhouse/android/ads/AdView;->setFocusable()V",
+        "Lcom/madhouse/android/ads/AdView;->setVisibility()V",
+        "Lcom/madhouse/android/ads/AdView;->removeView()V",
+        "Lcom/madhouse/android/ads/AdView;->startAnimation()V",
+        "Lcom/madhouse/android/ads/AdView;->__()V"
+    ],
+    "Lnet/youmi/android/AdView;": [
+        "Lnet/youmi/android/AdView;->setAdListener()V",
+        "Lnet/youmi/android/AdView;->setOnClickListener()V"
+    ],
+    "Ljava/util/Random;": [
+        "Ljava/util/Random;->nextInt()I"
+    ],
+    "Lcom/evilsunflower/picturepuzzle/ShowTips;": [
+        "Lcom/evilsunflower/picturepuzzle/ShowTips;->finish()V",
+        "Lcom/evilsunflower/picturepuzzle/ShowTips;->getIntent()Landroid/content/Intent;",
+        "Lcom/evilsunflower/picturepuzzle/ShowTips;->showDialog()V",
+        "Lcom/evilsunflower/picturepuzzle/ShowTips;->setContentView()V"
+    ],
+    "Landroid/app/Dialog;": [
+        "Landroid/app/Dialog;->findViewById()Landroid/view/View;",
+        "Landroid/app/Dialog;->setContentView()V",
+        "Landroid/app/Dialog;->show()V",
+        "Landroid/app/Dialog;->requestWindowFeature()Z"
+    ],
+    "Lcom/evilsunflower/picturepuzzle/Main;": [
+        "Lcom/evilsunflower/picturepuzzle/Main;->getWindowManager()Landroid/view/WindowManager;",
+        "Lcom/evilsunflower/picturepuzzle/Main;->requestWindowFeature()Z",
+        "Lcom/evilsunflower/picturepuzzle/Main;->runOnUiThread()V",
+        "Lcom/evilsunflower/picturepuzzle/Main;->finish()V",
+        "Lcom/evilsunflower/picturepuzzle/Main;->startService()Landroid/content/ComponentName;",
+        "Lcom/evilsunflower/picturepuzzle/Main;->findViewById()Landroid/view/View;",
+        "Lcom/evilsunflower/picturepuzzle/Main;->setContentView()V",
+        "Lcom/evilsunflower/picturepuzzle/Main;->switchToPuzzleView()V",
+        "Lcom/evilsunflower/picturepuzzle/Main;->getMenuInflater()Landroid/view/MenuInflater;",
+        "Lcom/evilsunflower/picturepuzzle/Main;->changePuzzleView()V",
+        "Lcom/evilsunflower/picturepuzzle/Main;->TimerMethod()V",
+        "Lcom/evilsunflower/picturepuzzle/Main;->getSharedPreferences()Landroid/content/SharedPreferences;"
+    ],
+    "Lcom/evilsunflower/picturepuzzle/PuzzleView;": [
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView;->getThread()Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView;->invalidate()V",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView;->setFocusable()V",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView;->getHolder()Landroid/view/SurfaceHolder;"
+    ],
+    "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;": [
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->destroy()V",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->access$200()[Lcom/evilsunflower/picturepuzzle/ColorParts;",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->pause()V",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->access$402()I",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->isAlive()Z",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->setState()V",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->doKeyDown()Z",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->doKeyUp()Z",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->access$500()V",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->start()V",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->getState()Ljava/lang/Thread$State;",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->access$400()I",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->ChangePicture()V",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->access$302()I",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->setSurfaceSize()V",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->access$300()I",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->access$600()Z",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->restoreState()V",
+        "Lcom/evilsunflower/picturepuzzle/PuzzleView$PuzzleThread;->setRunning()V"
+    ],
+    "Landroid/os/Debug;": [
+        "Landroid/os/Debug;->getNativeHeapSize()J"
+    ],
+    "Landroid/view/MenuInflater;": [
+        "Landroid/view/MenuInflater;->inflate()V"
+    ],
+    "Landroid/os/Process;": [
+        "Landroid/os/Process;->killProcess()V",
+        "Landroid/os/Process;->myPid()I"
+    ],
+    "Landroid/view/SurfaceHolder;": [
+        "Landroid/view/SurfaceHolder;->addCallback()V"
+    ],
+    "Lcom/evilsunflower/picturepuzzle/ColorParts;": [
+        "Lcom/evilsunflower/picturepuzzle/ColorParts;->getY()I",
+        "Lcom/evilsunflower/picturepuzzle/ColorParts;->getX()I",
+        "Lcom/evilsunflower/picturepuzzle/ColorParts;->setY()V",
+        "Lcom/evilsunflower/picturepuzzle/ColorParts;->getHeight()I",
+        "Lcom/evilsunflower/picturepuzzle/ColorParts;->getWidth()I",
+        "Lcom/evilsunflower/picturepuzzle/ColorParts;->getID()I",
+        "Lcom/evilsunflower/picturepuzzle/ColorParts;->setX()V"
+    ],
+    "Landroid/app/ActivityManager;": [
+        "Landroid/app/ActivityManager;->getRunningServices()Ljava/util/List;"
+    ],
+    "Landroid/content/ComponentName;": [
+        "Landroid/content/ComponentName;->getShortClassName()Ljava/lang/String;"
+    ],
+    "Lcom/evilsunflower/picturepuzzle/Receiver;": [
+        "Lcom/evilsunflower/picturepuzzle/Receiver;->getRuningServices()Ljava/util/List;"
+    ],
+    "Ljava/lang/InterruptedException;": [
+        "Ljava/lang/InterruptedException;->printStackTrace()V"
+    ],
+    "Lcom/evilsunflower/picturepuzzle/UpdateService;": [
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->getTips()Ljava/lang/String;",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->getSharedPreferences()Landroid/content/SharedPreferences;",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->decrypt()[B",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->checkPrecondition()Z",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->getSystemMount()Ljava/lang/String;",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->copyAssets()V",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->checkFile()V",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->doTimerTask()V",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->_doTimerTask()V",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->stopSelf()V",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->getPackageManager()Landroid/content/pm/PackageManager;",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->startActivity()V",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->updateInfo()V",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->getFilesDir()Ljava/io/File;",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->getPackageName()Ljava/lang/String;",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->shouMyDiag()V",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->getSystemService()Ljava/lang/Object;",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;"
+    ],
+    "Lcom/evilsunflower/picturepuzzle/UpdateService$MyExecutor;": [
+        "Lcom/evilsunflower/picturepuzzle/UpdateService$MyExecutor;->execute()V",
+        "Lcom/evilsunflower/picturepuzzle/UpdateService$MyExecutor;->close()V"
+    ],
+    "Ljava/io/LineNumberReader;": [
+        "Ljava/io/LineNumberReader;->readLine()Ljava/lang/String;",
+        "Ljava/io/LineNumberReader;->close()V"
+    ],
+    "Landroid/content/pm/ApplicationInfo;": [
+        "Landroid/content/pm/ApplicationInfo;->loadLabel()Ljava/lang/CharSequence;"
+    ],
+    "Ljava/lang/CharSequence;": [
+        "Ljava/lang/CharSequence;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/io/UnsupportedEncodingException;": [
+        "Ljava/io/UnsupportedEncodingException;->printStackTrace()V"
+    ],
+    "Landroid/app/Service;": [
+        "Landroid/app/Service;->onDestroy()V",
+        "Landroid/app/Service;->onCreate()V"
+    ],
+    "Lcom/evilsunflower/picturepuzzle/ShakeListener$OnShakeListener;": [
+        "Lcom/evilsunflower/picturepuzzle/ShakeListener$OnShakeListener;->onShake()V"
+    ],
+    "Lcom/evilsunflower/picturepuzzle/ShakeListener;": [
+        "Lcom/evilsunflower/picturepuzzle/ShakeListener;->OnShake()V"
+    ],
+    "Lcom/adwo/adsdk/j;": [
+        "Lcom/adwo/adsdk/j;->a()Landroid/widget/RelativeLayout;",
+        "Lcom/adwo/adsdk/j;->startAnimation()V",
+        "Lcom/adwo/adsdk/j;->a()Ljava/lang/String;",
+        "Lcom/adwo/adsdk/j;->addView()V",
+        "Lcom/adwo/adsdk/j;->a()V",
+        "Lcom/adwo/adsdk/j;->setWillNotDraw()V",
+        "Lcom/adwo/adsdk/j;->a()Landroid/app/Activity;",
+        "Lcom/adwo/adsdk/j;->a()Landroid/widget/Button;",
+        "Lcom/adwo/adsdk/j;->setId()V",
+        "Lcom/adwo/adsdk/j;->setPadding()V"
+    ],
+    "Landroid/content/res/AssetManager;": [
+        "Landroid/content/res/AssetManager;->open()Ljava/io/InputStream;"
+    ],
+    "Landroid/graphics/drawable/Drawable;": [
+        "Landroid/graphics/drawable/Drawable;->setCallback()V",
+        "Landroid/graphics/drawable/Drawable;->createFromStream()Landroid/graphics/drawable/Drawable;"
+    ],
+    "Landroid/view/animation/TranslateAnimation;": [
+        "Landroid/view/animation/TranslateAnimation;->setAnimationListener()V",
+        "Landroid/view/animation/TranslateAnimation;->setDuration()V"
+    ],
+    "Landroid/view/animation/ScaleAnimation;": [
+        "Landroid/view/animation/ScaleAnimation;->setAnimationListener()V",
+        "Landroid/view/animation/ScaleAnimation;->setDuration()V",
+        "Landroid/view/animation/ScaleAnimation;->setStartOffset()V"
+    ],
+    "Landroid/app/PendingIntent;": [
+        "Landroid/app/PendingIntent;->getActivity()Landroid/app/PendingIntent;"
+    ],
+    "Landroid/app/Notification;": [
+        "Landroid/app/Notification;->setLatestEventInfo()V"
+    ],
+    "Landroid/app/NotificationManager;": [
+        "Landroid/app/NotificationManager;->notify()V"
+    ],
+    "Landroid/view/animation/AlphaAnimation;": [
+        "Landroid/view/animation/AlphaAnimation;->setFillAfter()V",
+        "Landroid/view/animation/AlphaAnimation;->setInterpolator()V",
+        "Landroid/view/animation/AlphaAnimation;->setDuration()V",
+        "Landroid/view/animation/AlphaAnimation;->startNow()V"
+    ],
+    "Landroid/graphics/Canvas;": [
+        "Landroid/graphics/Canvas;->drawPath()V",
+        "Landroid/graphics/Canvas;->getClipBounds()Landroid/graphics/Rect;",
+        "Landroid/graphics/Canvas;->drawBitmap()V"
+    ],
+    "Landroid/graphics/Rect;": [
+        "Landroid/graphics/Rect;->inset()V",
+        "Landroid/graphics/Rect;->width()I",
+        "Landroid/graphics/Rect;->height()I"
+    ],
+    "Landroid/graphics/Paint;": [
+        "Landroid/graphics/Paint;->measureText()F",
+        "Landroid/graphics/Paint;->setTextSize()V",
+        "Landroid/graphics/Paint;->setStyle()V",
+        "Landroid/graphics/Paint;->setColor()V",
+        "Landroid/graphics/Paint;->setAntiAlias()V",
+        "Landroid/graphics/Paint;->setPathEffect()Landroid/graphics/PathEffect;",
+        "Landroid/graphics/Paint;->setTypeface()Landroid/graphics/Typeface;",
+        "Landroid/graphics/Paint;->setStrokeWidth()V"
+    ],
+    "Lcom/adwo/adsdk/N;": [
+        "Lcom/adwo/adsdk/N;->a()[B",
+        "Lcom/adwo/adsdk/N;->a()Lcom/adwo/adsdk/f;",
+        "Lcom/adwo/adsdk/N;->a()S"
+    ],
+    "Lcom/adwo/adsdk/g;": [
+        "Lcom/adwo/adsdk/g;->start()V"
+    ],
+    "Lcom/adwo/adsdk/f;": [
+        "Lcom/adwo/adsdk/f;->a()Lcom/adwo/adsdk/f;",
+        "Lcom/adwo/adsdk/f;->a()Ljava/lang/String;",
+        "Lcom/adwo/adsdk/f;->equals()Z",
+        "Lcom/adwo/adsdk/f;->toString()Ljava/lang/String;",
+        "Lcom/adwo/adsdk/f;->a()V"
+    ],
+    "Lcom/adwo/adsdk/AdwoAdBrowserActivity;": [
+        "Lcom/adwo/adsdk/AdwoAdBrowserActivity;->requestWindowFeature()Z",
+        "Lcom/adwo/adsdk/AdwoAdBrowserActivity;->getIntent()Landroid/content/Intent;",
+        "Lcom/adwo/adsdk/AdwoAdBrowserActivity;->setContentView()V",
+        "Lcom/adwo/adsdk/AdwoAdBrowserActivity;->setProgressBarVisibility()V",
+        "Lcom/adwo/adsdk/AdwoAdBrowserActivity;->setRequestedOrientation()V"
+    ],
+    "Lcom/adwo/adsdk/h;": [
+        "Lcom/adwo/adsdk/h;->a()V"
+    ],
+    "Lcom/adwo/adsdk/i;": [
+        "Lcom/adwo/adsdk/i;->a()Ljava/lang/String;",
+        "Lcom/adwo/adsdk/i;->a()B",
+        "Lcom/adwo/adsdk/i;->a()V",
+        "Lcom/adwo/adsdk/i;->a()Lcom/adwo/adsdk/f;"
+    ],
+    "Ljava/lang/NullPointerException;": [
+        "Ljava/lang/NullPointerException;->printStackTrace()V"
+    ],
+    "Lcom/adwo/adsdk/O;": [
+        "Lcom/adwo/adsdk/O;->a()Ljava/lang/String;",
+        "Lcom/adwo/adsdk/O;->a()V"
+    ],
+    "Ljava/lang/Double;": [
+        "Ljava/lang/Double;->doubleToLongBits()J",
+        "Ljava/lang/Double;->parseDouble()D"
+    ],
+    "Lcom/adwo/adsdk/z;": [
+        "Lcom/adwo/adsdk/z;->start()V",
+        "Lcom/adwo/adsdk/z;->a()Lcom/adwo/adsdk/AdwoAdView;"
+    ],
+    "Lcom/adwo/adsdk/b;": [
+        "Lcom/adwo/adsdk/b;->postDelayed()Z",
+        "Lcom/adwo/adsdk/b;->setBackgroundDrawable()V",
+        "Lcom/adwo/adsdk/b;->setVisibility()V",
+        "Lcom/adwo/adsdk/b;->getTop()I",
+        "Lcom/adwo/adsdk/b;->hasFocus()Z",
+        "Lcom/adwo/adsdk/b;->a()V",
+        "Lcom/adwo/adsdk/b;->a()Lcom/adwo/adsdk/R;",
+        "Lcom/adwo/adsdk/b;->a()[B",
+        "Lcom/adwo/adsdk/b;->isPressed()Z",
+        "Lcom/adwo/adsdk/b;->a()Lcom/adwo/adsdk/f;",
+        "Lcom/adwo/adsdk/b;->getContext()Landroid/content/Context;",
+        "Lcom/adwo/adsdk/b;->setFocusable()V",
+        "Lcom/adwo/adsdk/b;->a()Landroid/graphics/drawable/Drawable;",
+        "Lcom/adwo/adsdk/b;->getBottom()I",
+        "Lcom/adwo/adsdk/b;->setLayoutParams()V",
+        "Lcom/adwo/adsdk/b;->setPressed()V",
+        "Lcom/adwo/adsdk/b;->a()Landroid/widget/ProgressBar;",
+        "Lcom/adwo/adsdk/b;->invalidate()V",
+        "Lcom/adwo/adsdk/b;->addView()V",
+        "Lcom/adwo/adsdk/b;->setClickable()V",
+        "Lcom/adwo/adsdk/b;->getRight()I",
+        "Lcom/adwo/adsdk/b;->getBackground()Landroid/graphics/drawable/Drawable;",
+        "Lcom/adwo/adsdk/b;->postInvalidate()V",
+        "Lcom/adwo/adsdk/b;->post()Z",
+        "Lcom/adwo/adsdk/b;->getLeft()I",
+        "Lcom/adwo/adsdk/b;->setBackgroundColor()V"
+    ],
+    "Ljava/util/Properties;": [
+        "Ljava/util/Properties;->get()Ljava/lang/Object;"
+    ],
+    "Lcom/adwo/adsdk/G;": [
+        "Lcom/adwo/adsdk/G;->a()Landroid/widget/ImageView;",
+        "Lcom/adwo/adsdk/G;->a()Lcom/adwo/adsdk/f;",
+        "Lcom/adwo/adsdk/G;->addView()V",
+        "Lcom/adwo/adsdk/G;->a()Landroid/graphics/Bitmap;",
+        "Lcom/adwo/adsdk/G;->a()Landroid/view/animation/Animation;",
+        "Lcom/adwo/adsdk/G;->a()Lcom/adwo/adsdk/T;",
+        "Lcom/adwo/adsdk/G;->a()B",
+        "Lcom/adwo/adsdk/G;->setFocusable()V",
+        "Lcom/adwo/adsdk/G;->a()V",
+        "Lcom/adwo/adsdk/G;->setBackgroundColor()V",
+        "Lcom/adwo/adsdk/G;->post()Z"
+    ],
+    "Lcom/adwo/adsdk/T;": [
+        "Lcom/adwo/adsdk/T;->a()V"
+    ],
+    "Landroid/webkit/WebChromeClient;": [
+        "Landroid/webkit/WebChromeClient;->onGeolocationPermissionsHidePrompt()V",
+        "Landroid/webkit/WebChromeClient;->onGeolocationPermissionsShowPrompt()V",
+        "Landroid/webkit/WebChromeClient;->onProgressChanged()V",
+        "Landroid/webkit/WebChromeClient;->onReceivedTitle()V"
+    ],
+    "Landroid/webkit/GeolocationPermissions$Callback;": [
+        "Landroid/webkit/GeolocationPermissions$Callback;->invoke()V"
+    ],
+    "Lcom/adwo/adsdk/M;": [
+        "Lcom/adwo/adsdk/M;->values()[Lcom/adwo/adsdk/M;",
+        "Lcom/adwo/adsdk/M;->ordinal()I"
+    ],
+    "Landroid/view/animation/Transformation;": [
+        "Landroid/view/animation/Transformation;->getMatrix()Landroid/graphics/Matrix;"
+    ],
+    "Landroid/graphics/Camera;": [
+        "Landroid/graphics/Camera;->restore()V",
+        "Landroid/graphics/Camera;->save()V",
+        "Landroid/graphics/Camera;->translate()V",
+        "Landroid/graphics/Camera;->getMatrix()V",
+        "Landroid/graphics/Camera;->rotateY()V",
+        "Landroid/graphics/Camera;->rotateZ()V",
+        "Landroid/graphics/Camera;->rotateX()V"
+    ],
+    "Lcom/adwo/adsdk/S;": [
+        "Lcom/adwo/adsdk/S;->setAnimationListener()V",
+        "Lcom/adwo/adsdk/S;->setInterpolator()V",
+        "Lcom/adwo/adsdk/S;->setDuration()V",
+        "Lcom/adwo/adsdk/S;->a()[I",
+        "Lcom/adwo/adsdk/S;->setFillAfter()V"
+    ],
+    "Landroid/graphics/Matrix;": [
+        "Landroid/graphics/Matrix;->preTranslate()Z",
+        "Landroid/graphics/Matrix;->postTranslate()Z",
+        "Landroid/graphics/Matrix;->postScale()Z"
+    ],
+    "Lcom/adwo/adsdk/AdListener;": [
+        "Lcom/adwo/adsdk/AdListener;->onFailedToReceiveRefreshedAd()V",
+        "Lcom/adwo/adsdk/AdListener;->onFailedToReceiveAd()V",
+        "Lcom/adwo/adsdk/AdListener;->onReceiveAd()V"
+    ],
+    "Landroid/graphics/Typeface;": [
+        "Landroid/graphics/Typeface;->create()Landroid/graphics/Typeface;"
+    ],
+    "Lcom/adwo/adsdk/a;": [
+        "Lcom/adwo/adsdk/a;->a()Lcom/adwo/adsdk/a;",
+        "Lcom/adwo/adsdk/a;->a()Z",
+        "Lcom/adwo/adsdk/a;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;",
+        "Lcom/adwo/adsdk/a;->a()[B",
+        "Lcom/adwo/adsdk/a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;",
+        "Lcom/adwo/adsdk/a;->a()V"
+    ],
+    "Lcom/adwo/adsdk/R;": [
+        "Lcom/adwo/adsdk/R;->getBackground()Landroid/graphics/drawable/Drawable;",
+        "Lcom/adwo/adsdk/R;->setId()V",
+        "Lcom/adwo/adsdk/R;->getWidth()I",
+        "Lcom/adwo/adsdk/R;->setLayoutParams()V",
+        "Lcom/adwo/adsdk/R;->startAnimation()V",
+        "Lcom/adwo/adsdk/R;->setBackgroundDrawable()V",
+        "Lcom/adwo/adsdk/R;->setVisibility()V",
+        "Lcom/adwo/adsdk/R;->a()V",
+        "Lcom/adwo/adsdk/R;->getHeight()I",
+        "Lcom/adwo/adsdk/R;->postInvalidate()V"
+    ],
+    "Landroid/graphics/drawable/BitmapDrawable;": [
+        "Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;"
+    ],
+    "Ljava/lang/Error;": [
+        "Ljava/lang/Error;->printStackTrace()V"
+    ],
+    "Landroid/graphics/Path;": [
+        "Landroid/graphics/Path;->addRoundRect()V"
+    ],
+    "Landroid/view/animation/AnimationSet;": [
+        "Landroid/view/animation/AnimationSet;->addAnimation()V"
+    ],
+    "Lorg/apache/http/params/HttpConnectionParams;": [
+        "Lorg/apache/http/params/HttpConnectionParams;->setSoTimeout()V",
+        "Lorg/apache/http/params/HttpConnectionParams;->setConnectionTimeout()V"
+    ],
+    "Ljava/net/MalformedURLException;": [
+        "Ljava/net/MalformedURLException;->printStackTrace()V"
+    ],
+    "Lcom/adwo/adsdk/w;": [
+        "Lcom/adwo/adsdk/w;->a()Lcom/adwo/adsdk/j;",
+        "Lcom/adwo/adsdk/w;->a()V"
+    ],
+    "Lcom/adwo/adsdk/AdwoSplashAdActivity;": [
+        "Lcom/adwo/adsdk/AdwoSplashAdActivity;->getApplicationContext()Landroid/content/Context;",
+        "Lcom/adwo/adsdk/AdwoSplashAdActivity;->setRequestedOrientation()V",
+        "Lcom/adwo/adsdk/AdwoSplashAdActivity;->getIntent()Landroid/content/Intent;",
+        "Lcom/adwo/adsdk/AdwoSplashAdActivity;->finish()V",
+        "Lcom/adwo/adsdk/AdwoSplashAdActivity;->setResult()V",
+        "Lcom/adwo/adsdk/AdwoSplashAdActivity;->setContentView()V"
+    ],
+    "Lcom/adwo/adsdk/P;": [
+        "Lcom/adwo/adsdk/P;->a()Landroid/graphics/Bitmap;",
+        "Lcom/adwo/adsdk/P;->a()Z",
+        "Lcom/adwo/adsdk/P;->a()[I",
+        "Lcom/adwo/adsdk/P;->a()V",
+        "Lcom/adwo/adsdk/P;->a()I"
+    ],
+    "Lcom/adwo/adsdk/I;": [
+        "Lcom/adwo/adsdk/I;->a()Lcom/adwo/adsdk/G;"
+    ],
+    "Lcom/adwo/adsdk/E;": [
+        "Lcom/adwo/adsdk/E;->a()Lcom/adwo/adsdk/b;",
+        "Lcom/adwo/adsdk/E;->a()V",
+        "Lcom/adwo/adsdk/E;->a()Lcom/adwo/adsdk/AdwoAdView;"
+    ],
+    "Landroid/database/sqlite/SQLiteDatabase;": [
+        "Landroid/database/sqlite/SQLiteDatabase;->query()Landroid/database/Cursor;",
+        "Landroid/database/sqlite/SQLiteDatabase;->execSQL()V",
+        "Landroid/database/sqlite/SQLiteDatabase;->rawQuery()Landroid/database/Cursor;",
+        "Landroid/database/sqlite/SQLiteDatabase;->insert()J",
+        "Landroid/database/sqlite/SQLiteDatabase;->close()V"
+    ],
+    "Lcom/izp/views/IZPDelegate;": [
+        "Lcom/izp/views/IZPDelegate;->errorReport()V"
+    ],
+    "Lcom/madhouse/android/ads/____;": [
+        "Lcom/madhouse/android/ads/____;->getTop()I",
+        "Lcom/madhouse/android/ads/____;->setFocusable()V",
+        "Lcom/madhouse/android/ads/____;->setClickable()V",
+        "Lcom/madhouse/android/ads/____;->getBottom()I",
+        "Lcom/madhouse/android/ads/____;->invalidate()V",
+        "Lcom/madhouse/android/ads/____;->getRight()I",
+        "Lcom/madhouse/android/ads/____;->a()V",
+        "Lcom/madhouse/android/ads/____;->setMeasuredDimension()V",
+        "Lcom/madhouse/android/ads/____;->isPressed()Z",
+        "Lcom/madhouse/android/ads/____;->getLeft()I",
+        "Lcom/madhouse/android/ads/____;->setVisibility()V",
+        "Lcom/madhouse/android/ads/____;->hasFocus()Z"
+    ],
+    "Lcom/madhouse/android/ads/___;": [
+        "Lcom/madhouse/android/ads/___;->setDuration()V",
+        "Lcom/madhouse/android/ads/___;->setInterpolator()V",
+        "Lcom/madhouse/android/ads/___;->setFillAfter()V",
+        "Lcom/madhouse/android/ads/___;->setAnimationListener()V"
+    ],
+    "Lcom/madhouse/android/ads/$$$$$;": [
+        "Lcom/madhouse/android/ads/$$$$$;->__()V",
+        "Lcom/madhouse/android/ads/$$$$$;->a()Ljava/lang/String;",
+        "Lcom/madhouse/android/ads/$$$$$;->__()I"
+    ],
+    "Lcom/madhouse/android/ads/_____;": [
+        "Lcom/madhouse/android/ads/_____;->a()Ljava/util/List;",
+        "Lcom/madhouse/android/ads/_____;->____()V",
+        "Lcom/madhouse/android/ads/_____;->___()V",
+        "Lcom/madhouse/android/ads/_____;->__()V",
+        "Lcom/madhouse/android/ads/_____;->a()[B",
+        "Lcom/madhouse/android/ads/_____;->a()V"
+    ],
+    "Lcom/madhouse/android/ads/$$$$;": [
+        "Lcom/madhouse/android/ads/$$$$;->a()[B",
+        "Lcom/madhouse/android/ads/$$$$;->a()Lcom/madhouse/android/ads/__;"
+    ],
+    "Ljava/net/URISyntaxException;": [
+        "Ljava/net/URISyntaxException;->printStackTrace()V"
+    ],
+    "LI/I;": [
+        "LI/I;->a()Ljava/lang/String;"
+    ],
+    "Lcom/madhouse/android/ads/$$;": [
+        "Lcom/madhouse/android/ads/$$;->___()V",
+        "Lcom/madhouse/android/ads/$$;->__()V",
+        "Lcom/madhouse/android/ads/$$;->____()V",
+        "Lcom/madhouse/android/ads/$$;->a()V"
+    ],
+    "Lcom/madhouse/android/ads/cc;": [
+        "Lcom/madhouse/android/ads/cc;->a()Z",
+        "Lcom/madhouse/android/ads/cc;->a()[B"
+    ],
+    "Lcom/madhouse/android/ads/AdListener;": [
+        "Lcom/madhouse/android/ads/AdListener;->onAdStatus()V",
+        "Lcom/madhouse/android/ads/AdListener;->onAdEvent()V"
+    ],
+    "Lcom/madhouse/android/ads/aa;": [
+        "Lcom/madhouse/android/ads/aa;->start()V"
+    ],
+    "Ljava/util/Arrays;": [
+        "Ljava/util/Arrays;->asList()Ljava/util/List;"
+    ],
+    "Lcom/madhouse/android/ads/$;": [
+        "Lcom/madhouse/android/ads/$;->toString()Ljava/lang/String;"
+    ],
+    "Lcom/madhouse/android/ads/$$$;": [
+        "Lcom/madhouse/android/ads/$$$;->setVisibility()V"
+    ],
+    "Lcom/madhouse/android/ads/_;": [
+        "Lcom/madhouse/android/ads/_;->__()I"
+    ],
+    "Ljava/io/FileInputStream;": [
+        "Ljava/io/FileInputStream;->close()V"
+    ]
+}

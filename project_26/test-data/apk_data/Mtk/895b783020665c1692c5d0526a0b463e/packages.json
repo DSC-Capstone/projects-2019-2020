@@ -1,0 +1,2886 @@
+{
+    "Ljava/lang/System;": [
+        "Ljava/lang/System;->getProperty()Ljava/lang/String;",
+        "Ljava/lang/System;->gc()V",
+        "Ljava/lang/System;->setOut()V",
+        "Ljava/lang/System;->getProperties()Ljava/util/Properties;",
+        "Ljava/lang/System;->currentTimeMillis()J",
+        "Ljava/lang/System;->exit()V",
+        "Ljava/lang/System;->setErr()V",
+        "Ljava/lang/System;->setProperty()Ljava/lang/String;",
+        "Ljava/lang/System;->arraycopy()V"
+    ],
+    "Ljava/util/Random;": [
+        "Ljava/util/Random;->setSeed()V",
+        "Ljava/util/Random;->nextInt()I"
+    ],
+    "Lf;": [
+        "Lf;->a()V",
+        "Lf;->a()Z",
+        "Lf;->a()Ljava/lang/Object;"
+    ],
+    "Lg;": [
+        "Lg;->a()I",
+        "Lg;->a()Z",
+        "Lg;->a()[I"
+    ],
+    "Ly;": [
+        "Ly;->a()I"
+    ],
+    "Lan;": [
+        "Lan;->a()Lg;",
+        "Lan;->a()V",
+        "Lan;->a_()V",
+        "Lan;->a()I",
+        "Lan;->b_()V",
+        "Lan;->a()Z"
+    ],
+    "Lai;": [
+        "Lai;->a()V"
+    ],
+    "Laj;": [
+        "Laj;->a()Z",
+        "Laj;->a_()V",
+        "Laj;->a()I",
+        "Laj;->a()V"
+    ],
+    "Lw;": [
+        "Lw;->a()V",
+        "Lw;->a()I",
+        "Lw;->a()Z"
+    ],
+    "Lb;": [
+        "Lb;->a()V",
+        "Lb;->a()I",
+        "Lb;->a()Z"
+    ],
+    "Lo;": [
+        "Lo;->a()V",
+        "Lo;->a()Z"
+    ],
+    "Lab;": [
+        "Lab;->a()Z",
+        "Lab;->a()V"
+    ],
+    "Lac;": [
+        "Lac;->a()V"
+    ],
+    "Lx;": [
+        "Lx;->a()Ls;",
+        "Lx;->a()[B",
+        "Lx;->a()I",
+        "Lx;->a()V"
+    ],
+    "Lar;": [
+        "Lar;->a()I",
+        "Lar;->a()V",
+        "Lar;->a()Lf;",
+        "Lar;->a()Z"
+    ],
+    "Ljava/lang/Object;": [
+        "Ljava/lang/Object;->wait()V",
+        "Ljava/lang/Object;->toString()Ljava/lang/String;",
+        "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+        "Ljava/lang/Object;->hashCode()I",
+        "Ljava/lang/Object;->notifyAll()V",
+        "Ljava/lang/Object;->clone()Ljava/lang/Object;",
+        "Ljava/lang/Object;->notify()V",
+        "Ljava/lang/Object;->equals()Z"
+    ],
+    "Lorg/microemu/MIDletBridge;": [
+        "Lorg/microemu/MIDletBridge;->destroyMIDletContext()V",
+        "Lorg/microemu/MIDletBridge;->getCurrentMIDlet()Ljavax/microedition/midlet/MIDlet;",
+        "Lorg/microemu/MIDletBridge;->setThreadMIDletContext()V",
+        "Lorg/microemu/MIDletBridge;->notifyDestroyed()V",
+        "Lorg/microemu/MIDletBridge;->getMicroEmulator()Lorg/microemu/MicroEmulator;",
+        "Lorg/microemu/MIDletBridge;->registerGameCanvasKeyAccess()V",
+        "Lorg/microemu/MIDletBridge;->clear()V",
+        "Lorg/microemu/MIDletBridge;->setMicroEmulator()V",
+        "Lorg/microemu/MIDletBridge;->checkPermission()I",
+        "Lorg/microemu/MIDletBridge;->getMIDletContext()Lorg/microemu/MIDletContext;",
+        "Lorg/microemu/MIDletBridge;->getAppProperty()Ljava/lang/String;",
+        "Lorg/microemu/MIDletBridge;->registerMIDletContext()V",
+        "Lorg/microemu/MIDletBridge;->getMIDletAccess()Lorg/microemu/MIDletAccess;",
+        "Lorg/microemu/MIDletBridge;->getRecordStoreManager()Lorg/microemu/RecordStoreManager;",
+        "Lorg/microemu/MIDletBridge;->getResourceAsStream()Ljava/io/InputStream;",
+        "Lorg/microemu/MIDletBridge;->registerMIDletAccess()V",
+        "Lorg/microemu/MIDletBridge;->platformRequest()Z"
+    ],
+    "Ljava/io/DataInputStream;": [
+        "Ljava/io/DataInputStream;->read()I",
+        "Ljava/io/DataInputStream;->readChar()C",
+        "Ljava/io/DataInputStream;->readDouble()D",
+        "Ljava/io/DataInputStream;->readUnsignedByte()I",
+        "Ljava/io/DataInputStream;->close()V",
+        "Ljava/io/DataInputStream;->readByte()B",
+        "Ljava/io/DataInputStream;->readShort()S",
+        "Ljava/io/DataInputStream;->readLong()J",
+        "Ljava/io/DataInputStream;->readLine()Ljava/lang/String;",
+        "Ljava/io/DataInputStream;->reset()V",
+        "Ljava/io/DataInputStream;->readUTF()Ljava/lang/String;",
+        "Ljava/io/DataInputStream;->skip()J",
+        "Ljava/io/DataInputStream;->skipBytes()I",
+        "Ljava/io/DataInputStream;->readUnsignedShort()I",
+        "Ljava/io/DataInputStream;->readFully()V",
+        "Ljava/io/DataInputStream;->readBoolean()Z",
+        "Ljava/io/DataInputStream;->readInt()I",
+        "Ljava/io/DataInputStream;->readFloat()F"
+    ],
+    "Ljava/io/InputStream;": [
+        "Ljava/io/InputStream;->close()V",
+        "Ljava/io/InputStream;->skip()J",
+        "Ljava/io/InputStream;->available()I",
+        "Ljava/io/InputStream;->read()I"
+    ],
+    "Ljava/lang/String;": [
+        "Ljava/lang/String;->toUpperCase()Ljava/lang/String;",
+        "Ljava/lang/String;->contains()Z",
+        "Ljava/lang/String;->toCharArray()[C",
+        "Ljava/lang/String;->toLowerCase()Ljava/lang/String;",
+        "Ljava/lang/String;->endsWith()Z",
+        "Ljava/lang/String;->compareTo()I",
+        "Ljava/lang/String;->length()I",
+        "Ljava/lang/String;->indexOf()I",
+        "Ljava/lang/String;->replaceAll()Ljava/lang/String;",
+        "Ljava/lang/String;->replace()Ljava/lang/String;",
+        "Ljava/lang/String;->toString()Ljava/lang/String;",
+        "Ljava/lang/String;->equals()Z",
+        "Ljava/lang/String;->equalsIgnoreCase()Z",
+        "Ljava/lang/String;->trim()Ljava/lang/String;",
+        "Ljava/lang/String;->charAt()C",
+        "Ljava/lang/String;->concat()Ljava/lang/String;",
+        "Ljava/lang/String;->valueOf()Ljava/lang/String;",
+        "Ljava/lang/String;->lastIndexOf()I",
+        "Ljava/lang/String;->startsWith()Z",
+        "Ljava/lang/String;->split()[Ljava/lang/String;",
+        "Ljava/lang/String;->substring()Ljava/lang/String;",
+        "Ljava/lang/String;->getBytes()[B",
+        "Ljava/lang/String;->getChars()V"
+    ],
+    "Ljava/lang/StringBuffer;": [
+        "Ljava/lang/StringBuffer;->append()Ljava/lang/StringBuffer;",
+        "Ljava/lang/StringBuffer;->setLength()V",
+        "Ljava/lang/StringBuffer;->length()I",
+        "Ljava/lang/StringBuffer;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/io/PrintStream;": [
+        "Ljava/io/PrintStream;->write()V",
+        "Ljava/io/PrintStream;->println()V",
+        "Ljava/io/PrintStream;->flush()V",
+        "Ljava/io/PrintStream;->print()V"
+    ],
+    "Ljava/lang/Throwable;": [
+        "Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;",
+        "Ljava/lang/Throwable;->fillInStackTrace()Ljava/lang/Throwable;",
+        "Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;",
+        "Ljava/lang/Throwable;->toString()Ljava/lang/String;",
+        "Ljava/lang/Throwable;->printStackTrace()V"
+    ],
+    "Ls;": [
+        "Ls;->a()V"
+    ],
+    "Ljava/lang/Math;": [
+        "Ljava/lang/Math;->pow()D",
+        "Ljava/lang/Math;->max()I",
+        "Ljava/lang/Math;->min()I",
+        "Ljava/lang/Math;->abs()I"
+    ],
+    "Ljavax/microedition/lcdui/Image;": [
+        "Ljavax/microedition/lcdui/Image;->getGraphics()Ljavax/microedition/lcdui/Graphics;",
+        "Ljavax/microedition/lcdui/Image;->createRGBImage()Ljavax/microedition/lcdui/Image;",
+        "Ljavax/microedition/lcdui/Image;->getHeight()I",
+        "Ljavax/microedition/lcdui/Image;->isMutable()Z",
+        "Ljavax/microedition/lcdui/Image;->getRGB()V",
+        "Ljavax/microedition/lcdui/Image;->createImage()Ljavax/microedition/lcdui/Image;",
+        "Ljavax/microedition/lcdui/Image;->getWidth()I"
+    ],
+    "Ljava/io/ByteArrayInputStream;": [
+        "Ljava/io/ByteArrayInputStream;->close()V"
+    ],
+    "Laf;": [
+        "Laf;->a()[I",
+        "Laf;->a()I",
+        "Laf;->a()V"
+    ],
+    "Ljavax/microedition/lcdui/Graphics;": [
+        "Ljavax/microedition/lcdui/Graphics;->getClipWidth()I",
+        "Ljavax/microedition/lcdui/Graphics;->setFont()V",
+        "Ljavax/microedition/lcdui/Graphics;->drawSubstring()V",
+        "Ljavax/microedition/lcdui/Graphics;->setGrayScale()V",
+        "Ljavax/microedition/lcdui/Graphics;->getGreenComponent()I",
+        "Ljavax/microedition/lcdui/Graphics;->setClip()V",
+        "Ljavax/microedition/lcdui/Graphics;->fillArc()V",
+        "Ljavax/microedition/lcdui/Graphics;->getClipY()I",
+        "Ljavax/microedition/lcdui/Graphics;->drawRegion()V",
+        "Ljavax/microedition/lcdui/Graphics;->clipRect()V",
+        "Ljavax/microedition/lcdui/Graphics;->getClipX()I",
+        "Ljavax/microedition/lcdui/Graphics;->drawImage()V",
+        "Ljavax/microedition/lcdui/Graphics;->getTranslateY()I",
+        "Ljavax/microedition/lcdui/Graphics;->getColor()I",
+        "Ljavax/microedition/lcdui/Graphics;->getBlueComponent()I",
+        "Ljavax/microedition/lcdui/Graphics;->drawString()V",
+        "Ljavax/microedition/lcdui/Graphics;->setColor()V",
+        "Ljavax/microedition/lcdui/Graphics;->getFont()Ljavax/microedition/lcdui/Font;",
+        "Ljavax/microedition/lcdui/Graphics;->getRedComponent()I",
+        "Ljavax/microedition/lcdui/Graphics;->fillRect()V",
+        "Ljavax/microedition/lcdui/Graphics;->getClipHeight()I",
+        "Ljavax/microedition/lcdui/Graphics;->implementationError()V",
+        "Ljavax/microedition/lcdui/Graphics;->translate()V",
+        "Ljavax/microedition/lcdui/Graphics;->getTranslateX()I",
+        "Ljavax/microedition/lcdui/Graphics;->drawRect()V",
+        "Ljavax/microedition/lcdui/Graphics;->drawLine()V"
+    ],
+    "Lao;": [
+        "Lao;->a()I",
+        "Lao;->a()J",
+        "Lao;->a()Ljavax/microedition/lcdui/Image;",
+        "Lao;->a()V",
+        "Lao;->a()[J",
+        "Lao;->a()Z",
+        "Lao;->a()Ljava/util/Vector;"
+    ],
+    "Lt;": [
+        "Lt;->a()V"
+    ],
+    "Ljava/lang/reflect/Array;": [
+        "Ljava/lang/reflect/Array;->newInstance()Ljava/lang/Object;"
+    ],
+    "Ljavax/microedition/lcdui/Displayable;": [
+        "Ljavax/microedition/lcdui/Displayable;->hideNotify()V",
+        "Ljavax/microedition/lcdui/Displayable;->updateWidthAndHeight()V",
+        "Ljavax/microedition/lcdui/Displayable;->getHeight()I",
+        "Ljavax/microedition/lcdui/Displayable;->sizeChanged()V",
+        "Ljavax/microedition/lcdui/Displayable;->setUI()V",
+        "Ljavax/microedition/lcdui/Displayable;->getTitle()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/Displayable;->getWidth()I",
+        "Ljavax/microedition/lcdui/Displayable;->isShown()Z",
+        "Ljavax/microedition/lcdui/Displayable;->showNotify()V",
+        "Ljavax/microedition/lcdui/Displayable;->repaint()V"
+    ],
+    "Lu;": [
+        "Lu;->a()[I",
+        "Lu;->a()I"
+    ],
+    "Lq;": [
+        "Lq;->a()[B",
+        "Lq;->a()V"
+    ],
+    "Lak;": [
+        "Lak;->a()Ljava/lang/String;",
+        "Lak;->a()Lag;",
+        "Lak;->a()I",
+        "Lak;->a()Z",
+        "Lak;->a()V",
+        "Lak;->a()[C"
+    ],
+    "Lm;": [
+        "Lm;->a()Lag;",
+        "Lm;->a()I",
+        "Lm;->a()Lak;",
+        "Lm;->a()Lu;",
+        "Lm;->a()Ljavax/microedition/lcdui/Image;",
+        "Lm;->a()Ljava/lang/String;",
+        "Lm;->a()C",
+        "Lm;->a()V",
+        "Lm;->a()Z",
+        "Lm;->a()[C",
+        "Lm;->a()S",
+        "Lm;->a()[I"
+    ],
+    "Lz;": [
+        "Lz;->a()[I",
+        "Lz;->a()V"
+    ],
+    "Lag;": [
+        "Lag;->a()Lak;",
+        "Lag;->a()V",
+        "Lag;->a()I",
+        "Lag;->a()Z"
+    ],
+    "Lr;": [
+        "Lr;->a()I",
+        "Lr;->a()V",
+        "Lr;->a()Ljavax/microedition/lcdui/Image;"
+    ],
+    "Ll;": [
+        "Ll;->a()Ljavax/microedition/lcdui/Image;"
+    ],
+    "Lv;": [
+        "Lv;->a()Z",
+        "Lv;->a()V"
+    ],
+    "Lad;": [
+        "Lad;->a()I",
+        "Lad;->a()V"
+    ],
+    "Lk;": [
+        "Lk;->a()[I"
+    ],
+    "Lh;": [
+        "Lh;->a()I",
+        "Lh;->a()Z",
+        "Lh;->a()V",
+        "Lh;->a()[I"
+    ],
+    "Ljava/util/Vector;": [
+        "Ljava/util/Vector;->remove()Z",
+        "Ljava/util/Vector;->add()Z",
+        "Ljava/util/Vector;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/Vector;->addElement()V",
+        "Ljava/util/Vector;->removeAllElements()V",
+        "Ljava/util/Vector;->removeElement()Z",
+        "Ljava/util/Vector;->insertElementAt()V",
+        "Ljava/util/Vector;->clone()Ljava/lang/Object;",
+        "Ljava/util/Vector;->elementAt()Ljava/lang/Object;",
+        "Ljava/util/Vector;->setElementAt()V",
+        "Ljava/util/Vector;->isEmpty()Z",
+        "Ljava/util/Vector;->elements()Ljava/util/Enumeration;",
+        "Ljava/util/Vector;->toArray()[Ljava/lang/Object;",
+        "Ljava/util/Vector;->contains()Z",
+        "Ljava/util/Vector;->get()Ljava/lang/Object;",
+        "Ljava/util/Vector;->size()I",
+        "Ljava/util/Vector;->removeElementAt()V"
+    ],
+    "Ln;": [
+        "Ln;->a()I"
+    ],
+    "Lal;": [
+        "Lal;->a()V"
+    ],
+    "Ljava/lang/Thread;": [
+        "Ljava/lang/Thread;->run()V",
+        "Ljava/lang/Thread;->getState()Ljava/lang/Thread$State;",
+        "Ljava/lang/Thread;->getName()Ljava/lang/String;",
+        "Ljava/lang/Thread;->start()V",
+        "Ljava/lang/Thread;->setDaemon()V",
+        "Ljava/lang/Thread;->sleep()V",
+        "Ljava/lang/Thread;->isDaemon()Z",
+        "Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;",
+        "Ljava/lang/Thread;->getId()J",
+        "Ljava/lang/Thread;->getAllStackTraces()Ljava/util/Map;",
+        "Ljava/lang/Thread;->getPriority()I",
+        "Ljava/lang/Thread;->getStackTrace()[Ljava/lang/StackTraceElement;"
+    ],
+    "Lcustom/TurtlesMidlet20101201132245875;": [
+        "Lcustom/TurtlesMidlet20101201132245875;->loadingUpdate()V",
+        "Lcustom/TurtlesMidlet20101201132245875;->getJADProperty()I"
+    ],
+    "Lcom/micazook/terrix/Application/GMidlet;": [
+        "Lcom/micazook/terrix/Application/GMidlet;->lSuperUnpauseapp()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->lInitapp()Z",
+        "Lcom/micazook/terrix/Application/GMidlet;->lSuperKeypress()Z",
+        "Lcom/micazook/terrix/Application/GMidlet;->pauseApp()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->lSuperPauseapp()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->a()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->lSuperUpdate()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->lSuperDraw()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->activateState()Z",
+        "Lcom/micazook/terrix/Application/GMidlet;->killKeys()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->lSuperKeyrelease()Z",
+        "Lcom/micazook/terrix/Application/GMidlet;->destroyApp()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->startApp()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->debug()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->error()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->terminate()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->registerState()Z",
+        "Lcom/micazook/terrix/Application/GMidlet;->isKeyPressed()Z",
+        "Lcom/micazook/terrix/Application/GMidlet;->lExitapp()V",
+        "Lcom/micazook/terrix/Application/GMidlet;->getTotalTime()I"
+    ],
+    "Laq;": [
+        "Laq;->a()V"
+    ],
+    "Ljavax/microedition/lcdui/game/Sprite;": [
+        "Ljavax/microedition/lcdui/game/Sprite;->isVisible()Z",
+        "Ljavax/microedition/lcdui/game/Sprite;->paint()V",
+        "Ljavax/microedition/lcdui/game/Sprite;->setSize()V",
+        "Ljavax/microedition/lcdui/game/Sprite;->collidesWith()Z",
+        "Ljavax/microedition/lcdui/game/Sprite;->getWidth()I",
+        "Ljavax/microedition/lcdui/game/Sprite;->getY()I",
+        "Ljavax/microedition/lcdui/game/Sprite;->setPosition()V",
+        "Ljavax/microedition/lcdui/game/Sprite;->defineCollisionRectangle()V",
+        "Ljavax/microedition/lcdui/game/Sprite;->setRefPixelPosition()V",
+        "Ljavax/microedition/lcdui/game/Sprite;->getHeight()I",
+        "Ljavax/microedition/lcdui/game/Sprite;->move()V",
+        "Ljavax/microedition/lcdui/game/Sprite;->getX()I",
+        "Ljavax/microedition/lcdui/game/Sprite;->collidesWithPixelLevel()Z",
+        "Ljavax/microedition/lcdui/game/Sprite;->setFrame()V"
+    ],
+    "Ljavax/microedition/lcdui/game/Layer;": [
+        "Ljavax/microedition/lcdui/game/Layer;->setSize()V",
+        "Ljavax/microedition/lcdui/game/Layer;->isVisible()Z",
+        "Ljavax/microedition/lcdui/game/Layer;->paint()V",
+        "Ljavax/microedition/lcdui/game/Layer;->setPosition()V",
+        "Ljavax/microedition/lcdui/game/Layer;->setVisible()V"
+    ],
+    "Lc;": [
+        "Lc;->a()I",
+        "Lc;->a()V"
+    ],
+    "Lae;": [
+        "Lae;->a()V"
+    ],
+    "Ljavax/microedition/rms/RecordStore;": [
+        "Ljavax/microedition/rms/RecordStore;->getNumRecords()I",
+        "Ljavax/microedition/rms/RecordStore;->deleteRecordStore()V",
+        "Ljavax/microedition/rms/RecordStore;->closeRecordStore()V",
+        "Ljavax/microedition/rms/RecordStore;->setRecord()V",
+        "Ljavax/microedition/rms/RecordStore;->addRecord()I",
+        "Ljavax/microedition/rms/RecordStore;->openRecordStore()Ljavax/microedition/rms/RecordStore;",
+        "Ljavax/microedition/rms/RecordStore;->getRecord()[B"
+    ],
+    "Ljava/io/DataOutputStream;": [
+        "Ljava/io/DataOutputStream;->writeInt()V",
+        "Ljava/io/DataOutputStream;->writeByte()V",
+        "Ljava/io/DataOutputStream;->write()V",
+        "Ljava/io/DataOutputStream;->writeChar()V",
+        "Ljava/io/DataOutputStream;->writeBoolean()V",
+        "Ljava/io/DataOutputStream;->writeUTF()V",
+        "Ljava/io/DataOutputStream;->writeLong()V",
+        "Ljava/io/DataOutputStream;->writeChars()V",
+        "Ljava/io/DataOutputStream;->writeDouble()V",
+        "Ljava/io/DataOutputStream;->writeBytes()V",
+        "Ljava/io/DataOutputStream;->writeFloat()V",
+        "Ljava/io/DataOutputStream;->close()V",
+        "Ljava/io/DataOutputStream;->writeShort()V"
+    ],
+    "Ljava/io/ByteArrayOutputStream;": [
+        "Ljava/io/ByteArrayOutputStream;->toByteArray()[B",
+        "Ljava/io/ByteArrayOutputStream;->toString()Ljava/lang/String;",
+        "Ljava/io/ByteArrayOutputStream;->write()V",
+        "Ljava/io/ByteArrayOutputStream;->close()V"
+    ],
+    "Lj;": [
+        "Lj;->a()Lj;",
+        "Lj;->a()V",
+        "Lj;->a()Z",
+        "Lj;->sizeChanged()V"
+    ],
+    "Lp;": [
+        "Lp;->a()V",
+        "Lp;->a()I"
+    ],
+    "Ljavax/microedition/midlet/MIDlet;": [
+        "Ljavax/microedition/midlet/MIDlet;->notifyDestroyed()V",
+        "Ljavax/microedition/midlet/MIDlet;->getAppProperty()Ljava/lang/String;"
+    ],
+    "Ld;": [
+        "Ld;->a()Z",
+        "Ld;->a_()V",
+        "Ld;->a()V"
+    ],
+    "Li;": [
+        "Li;->a()V",
+        "Li;->a()I"
+    ],
+    "Ljavax/microedition/media/Player;": [
+        "Ljavax/microedition/media/Player;->start()V",
+        "Ljavax/microedition/media/Player;->setMute()V",
+        "Ljavax/microedition/media/Player;->setMediaTime()J",
+        "Ljavax/microedition/media/Player;->realize()V",
+        "Ljavax/microedition/media/Player;->deallocate()V",
+        "Ljavax/microedition/media/Player;->close()V",
+        "Ljavax/microedition/media/Player;->getLevel()I",
+        "Ljavax/microedition/media/Player;->getState()I",
+        "Ljavax/microedition/media/Player;->stop()V",
+        "Ljavax/microedition/media/Player;->setLoopCount()V",
+        "Ljavax/microedition/media/Player;->setLevel()I"
+    ],
+    "Ljavax/microedition/media/Manager;": [
+        "Ljavax/microedition/media/Manager;->mediaDone()V",
+        "Ljavax/microedition/media/Manager;->playTone()V",
+        "Ljavax/microedition/media/Manager;->createPlayer()Ljavax/microedition/media/Player;"
+    ],
+    "Ljava/util/Hashtable;": [
+        "Ljava/util/Hashtable;->keys()Ljava/util/Enumeration;",
+        "Ljava/util/Hashtable;->put()Ljava/lang/Object;",
+        "Ljava/util/Hashtable;->isEmpty()Z",
+        "Ljava/util/Hashtable;->clear()V",
+        "Ljava/util/Hashtable;->remove()Ljava/lang/Object;",
+        "Ljava/util/Hashtable;->size()I",
+        "Ljava/util/Hashtable;->get()Ljava/lang/Object;"
+    ],
+    "Ljava/lang/Integer;": [
+        "Ljava/lang/Integer;->valueOf()Ljava/lang/Integer;",
+        "Ljava/lang/Integer;->byteValue()B",
+        "Ljava/lang/Integer;->parseInt()I",
+        "Ljava/lang/Integer;->toString()Ljava/lang/String;",
+        "Ljava/lang/Integer;->intValue()I"
+    ],
+    "La;": [
+        "La;->a()[I"
+    ],
+    "Ljava/lang/Long;": [
+        "Ljava/lang/Long;->longValue()J",
+        "Ljava/lang/Long;->toHexString()Ljava/lang/String;"
+    ],
+    "Lah;": [
+        "Lah;->a()V"
+    ],
+    "Ljavax/microedition/lcdui/game/GameCanvas;": [
+        "Ljavax/microedition/lcdui/game/GameCanvas;->getGraphics()Ljavax/microedition/lcdui/Graphics;",
+        "Ljavax/microedition/lcdui/game/GameCanvas;->getHeight()I",
+        "Ljavax/microedition/lcdui/game/GameCanvas;->flushGraphics()V",
+        "Ljavax/microedition/lcdui/game/GameCanvas;->getWidth()I",
+        "Ljavax/microedition/lcdui/game/GameCanvas;->serviceRepaints()V"
+    ],
+    "Ljavax/microedition/lcdui/Canvas;": [
+        "Ljavax/microedition/lcdui/Canvas;->repaint()V",
+        "Ljavax/microedition/lcdui/Canvas;->setFullScreenMode()V",
+        "Ljavax/microedition/lcdui/Canvas;->setCommandListener()V",
+        "Ljavax/microedition/lcdui/Canvas;->sizeChanged()V",
+        "Ljavax/microedition/lcdui/Canvas;->getGameAction()I",
+        "Ljavax/microedition/lcdui/Canvas;->getWidth()I",
+        "Ljavax/microedition/lcdui/Canvas;->addCommand()V",
+        "Ljavax/microedition/lcdui/Canvas;->getKeyCode()I",
+        "Ljavax/microedition/lcdui/Canvas;->getHeight()I"
+    ],
+    "Lap;": [
+        "Lap;->a()Z",
+        "Lap;->a()V"
+    ],
+    "Ljavax/microedition/lcdui/Font;": [
+        "Ljavax/microedition/lcdui/Font;->isItalic()Z",
+        "Ljavax/microedition/lcdui/Font;->isPlain()Z",
+        "Ljavax/microedition/lcdui/Font;->getFace()I",
+        "Ljavax/microedition/lcdui/Font;->getSize()I",
+        "Ljavax/microedition/lcdui/Font;->getDefaultFont()Ljavax/microedition/lcdui/Font;",
+        "Ljavax/microedition/lcdui/Font;->isUnderlined()Z",
+        "Ljavax/microedition/lcdui/Font;->getHeight()I",
+        "Ljavax/microedition/lcdui/Font;->getStyle()I",
+        "Ljavax/microedition/lcdui/Font;->stringWidth()I",
+        "Ljavax/microedition/lcdui/Font;->getFont()Ljavax/microedition/lcdui/Font;",
+        "Ljavax/microedition/lcdui/Font;->isBold()Z",
+        "Ljavax/microedition/lcdui/Font;->substringWidth()I"
+    ],
+    "Lam;": [
+        "Lam;->a()I",
+        "Lam;->a()V"
+    ],
+    "Ljava/lang/StringBuilder;": [
+        "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+        "Ljava/lang/StringBuilder;->append()Ljava/lang/StringBuilder;"
+    ],
+    "Ljava/util/Enumeration;": [
+        "Ljava/util/Enumeration;->hasMoreElements()Z",
+        "Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;"
+    ],
+    "Lnanoxml/XMLElement;": [
+        "Lnanoxml/XMLElement;->invalidValue()Lnanoxml/XMLParseException;",
+        "Lnanoxml/XMLElement;->parseCharArray()V",
+        "Lnanoxml/XMLElement;->checkLiteral()Z",
+        "Lnanoxml/XMLElement;->getContent()Ljava/lang/String;",
+        "Lnanoxml/XMLElement;->enumerateChildren()Ljava/util/Enumeration;",
+        "Lnanoxml/XMLElement;->enumerateAttributeNames()Ljava/util/Enumeration;",
+        "Lnanoxml/XMLElement;->scanElement()V",
+        "Lnanoxml/XMLElement;->scanString()V",
+        "Lnanoxml/XMLElement;->scanPCData()V",
+        "Lnanoxml/XMLElement;->skipSpecialTag()V",
+        "Lnanoxml/XMLElement;->checkCDATA()Z",
+        "Lnanoxml/XMLElement;->writeTabs()V",
+        "Lnanoxml/XMLElement;->removeAttribute()V",
+        "Lnanoxml/XMLElement;->writeIdented()V",
+        "Lnanoxml/XMLElement;->addChild()Lnanoxml/XMLElement;",
+        "Lnanoxml/XMLElement;->unknownEntity()Lnanoxml/XMLParseException;",
+        "Lnanoxml/XMLElement;->setContent()V",
+        "Lnanoxml/XMLElement;->getStringAttribute()Ljava/lang/String;",
+        "Lnanoxml/XMLElement;->getChildOrNew()Lnanoxml/XMLElement;",
+        "Lnanoxml/XMLElement;->readChar()C",
+        "Lnanoxml/XMLElement;->writeEncoded()V",
+        "Lnanoxml/XMLElement;->skipComment()V",
+        "Lnanoxml/XMLElement;->parseString()V",
+        "Lnanoxml/XMLElement;->getName()Ljava/lang/String;",
+        "Lnanoxml/XMLElement;->setName()V",
+        "Lnanoxml/XMLElement;->resolveEntity()V",
+        "Lnanoxml/XMLElement;->invalidValueSet()Lnanoxml/XMLParseException;",
+        "Lnanoxml/XMLElement;->scanIdentifier()V",
+        "Lnanoxml/XMLElement;->addChild()V",
+        "Lnanoxml/XMLElement;->getStringAttributes()Ljava/util/Map;",
+        "Lnanoxml/XMLElement;->getAttribute()Ljava/lang/Object;",
+        "Lnanoxml/XMLElement;->getChildString()Ljava/lang/String;",
+        "Lnanoxml/XMLElement;->removeChild()V",
+        "Lnanoxml/XMLElement;->unreadChar()V",
+        "Lnanoxml/XMLElement;->setIntAttribute()V",
+        "Lnanoxml/XMLElement;->expectedInput()Lnanoxml/XMLParseException;",
+        "Lnanoxml/XMLElement;->getIntAttribute()I",
+        "Lnanoxml/XMLElement;->parse()V",
+        "Lnanoxml/XMLElement;->getChildInteger()I",
+        "Lnanoxml/XMLElement;->parseFromReader()V",
+        "Lnanoxml/XMLElement;->getChildCount()I",
+        "Lnanoxml/XMLElement;->unexpectedEndOfData()Lnanoxml/XMLParseException;",
+        "Lnanoxml/XMLElement;->createAnotherElement()Lnanoxml/XMLElement;",
+        "Lnanoxml/XMLElement;->setDoubleAttribute()V",
+        "Lnanoxml/XMLElement;->getBooleanAttribute()Z",
+        "Lnanoxml/XMLElement;->write()V",
+        "Lnanoxml/XMLElement;->removeChildren()V",
+        "Lnanoxml/XMLElement;->getDoubleAttribute()D",
+        "Lnanoxml/XMLElement;->scanWhitespace()C",
+        "Lnanoxml/XMLElement;->getChild()Lnanoxml/XMLElement;",
+        "Lnanoxml/XMLElement;->setAttribute()V"
+    ],
+    "Ljava/io/Writer;": [
+        "Ljava/io/Writer;->write()V",
+        "Ljava/io/Writer;->close()V"
+    ],
+    "Ljava/util/Map;": [
+        "Ljava/util/Map;->size()I",
+        "Ljava/util/Map;->entrySet()Ljava/util/Set;",
+        "Ljava/util/Map;->remove()Ljava/lang/Object;",
+        "Ljava/util/Map;->putAll()V",
+        "Ljava/util/Map;->keySet()Ljava/util/Set;",
+        "Ljava/util/Map;->clear()V",
+        "Ljava/util/Map;->containsKey()Z",
+        "Ljava/util/Map;->put()Ljava/lang/Object;",
+        "Ljava/util/Map;->containsValue()Z",
+        "Ljava/util/Map;->get()Ljava/lang/Object;"
+    ],
+    "Ljava/util/Set;": [
+        "Ljava/util/Set;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/Set;->add()Z",
+        "Ljava/util/Set;->contains()Z",
+        "Ljava/util/Set;->toArray()[Ljava/lang/Object;"
+    ],
+    "Ljava/util/Iterator;": [
+        "Ljava/util/Iterator;->hasNext()Z",
+        "Ljava/util/Iterator;->remove()V",
+        "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+    ],
+    "Ljava/util/Map$Entry;": [
+        "Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;",
+        "Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;"
+    ],
+    "Ljava/lang/Double;": [
+        "Ljava/lang/Double;->doubleValue()D",
+        "Ljava/lang/Double;->valueOf()Ljava/lang/Double;",
+        "Ljava/lang/Double;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/io/BufferedInputStream;": [
+        "Ljava/io/BufferedInputStream;->read()I",
+        "Ljava/io/BufferedInputStream;->reset()V",
+        "Ljava/io/BufferedInputStream;->mark()V",
+        "Ljava/io/BufferedInputStream;->close()V"
+    ],
+    "Ljava/util/regex/Pattern;": [
+        "Ljava/util/regex/Pattern;->compile()Ljava/util/regex/Pattern;",
+        "Ljava/util/regex/Pattern;->matcher()Ljava/util/regex/Matcher;"
+    ],
+    "Ljava/util/regex/Matcher;": [
+        "Ljava/util/regex/Matcher;->group()Ljava/lang/String;",
+        "Ljava/util/regex/Matcher;->find()Z"
+    ],
+    "Ljava/io/BufferedReader;": [
+        "Ljava/io/BufferedReader;->close()V",
+        "Ljava/io/BufferedReader;->readLine()Ljava/lang/String;",
+        "Ljava/io/BufferedReader;->ready()Z"
+    ],
+    "Ljava/io/Reader;": [
+        "Ljava/io/Reader;->read()I"
+    ],
+    "Ljava/io/OutputStreamWriter;": [
+        "Ljava/io/OutputStreamWriter;->flush()V",
+        "Ljava/io/OutputStreamWriter;->write()V",
+        "Ljava/io/OutputStreamWriter;->close()V"
+    ],
+    "Landroid/media/MediaPlayer;": [
+        "Landroid/media/MediaPlayer;->start()V",
+        "Landroid/media/MediaPlayer;->prepare()V",
+        "Landroid/media/MediaPlayer;->setOnCompletionListener()V",
+        "Landroid/media/MediaPlayer;->setVolume()V",
+        "Landroid/media/MediaPlayer;->setDataSource()V",
+        "Landroid/media/MediaPlayer;->stop()V",
+        "Landroid/media/MediaPlayer;->pause()V"
+    ],
+    "Ljava/text/SimpleDateFormat;": [
+        "Ljava/text/SimpleDateFormat;->format()Ljava/lang/String;"
+    ],
+    "Ljava/io/File;": [
+        "Ljava/io/File;->toString()Ljava/lang/String;",
+        "Ljava/io/File;->getName()Ljava/lang/String;",
+        "Ljava/io/File;->mkdir()Z",
+        "Ljava/io/File;->exists()Z",
+        "Ljava/io/File;->createNewFile()Z",
+        "Ljava/io/File;->length()J",
+        "Ljava/io/File;->delete()Z",
+        "Ljava/io/File;->toURI()Ljava/net/URI;",
+        "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;",
+        "Ljava/io/File;->listFiles()[Ljava/io/File;",
+        "Ljava/io/File;->isFile()Z",
+        "Ljava/io/File;->deleteOnExit()V",
+        "Ljava/io/File;->isHidden()Z",
+        "Ljava/io/File;->list()[Ljava/lang/String;",
+        "Ljava/io/File;->createTempFile()Ljava/io/File;",
+        "Ljava/io/File;->mkdirs()Z",
+        "Ljava/io/File;->getAbsoluteFile()Ljava/io/File;",
+        "Ljava/io/File;->getPath()Ljava/lang/String;",
+        "Ljava/io/File;->isDirectory()Z",
+        "Ljava/io/File;->getParentFile()Ljava/io/File;"
+    ],
+    "Ljava/io/FileOutputStream;": [
+        "Ljava/io/FileOutputStream;->close()V",
+        "Ljava/io/FileOutputStream;->flush()V",
+        "Ljava/io/FileOutputStream;->write()V"
+    ],
+    "Ljava/lang/Exception;": [
+        "Ljava/lang/Exception;->toString()Ljava/lang/String;",
+        "Ljava/lang/Exception;->printStackTrace()V",
+        "Ljava/lang/Exception;->getMessage()Ljava/lang/String;"
+    ],
+    "Lcom/nokia/mid/ui/NokiaCommand;": [
+        "Lcom/nokia/mid/ui/NokiaCommand;->getKey()I"
+    ],
+    "Lcom/nokia/mid/ui/FullCanvas;": [
+        "Lcom/nokia/mid/ui/FullCanvas;->press()V",
+        "Lcom/nokia/mid/ui/FullCanvas;->keyPressed()V",
+        "Lcom/nokia/mid/ui/FullCanvas;->keyReleased()V"
+    ],
+    "Lcom/nokia/mid/ui/DirectGraphicsImp;": [
+        "Lcom/nokia/mid/ui/DirectGraphicsImp;->doAlpha()I",
+        "Lcom/nokia/mid/ui/DirectGraphicsImp;->isBitSet()Z",
+        "Lcom/nokia/mid/ui/DirectGraphicsImp;->toARGB()I",
+        "Lcom/nokia/mid/ui/DirectGraphicsImp;->isTransparent()Z"
+    ],
+    "Ljavax/microedition/lcdui/Display;": [
+        "Ljavax/microedition/lcdui/Display;->setScrollDown()V",
+        "Ljavax/microedition/lcdui/Display;->isShown()Z",
+        "Ljavax/microedition/lcdui/Display;->setCurrent()V",
+        "Ljavax/microedition/lcdui/Display;->repaint()V",
+        "Ljavax/microedition/lcdui/Display;->getGameAction()I",
+        "Ljavax/microedition/lcdui/Display;->getDisplay()Ljavax/microedition/lcdui/Display;",
+        "Ljavax/microedition/lcdui/Display;->getKeyName()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/Display;->serviceRepaints()V",
+        "Ljavax/microedition/lcdui/Display;->setScrollUp()V",
+        "Ljavax/microedition/lcdui/Display;->getKeyCode()I"
+    ],
+    "Ljava/lang/Runtime;": [
+        "Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;",
+        "Ljava/lang/Runtime;->exec()Ljava/lang/Process;",
+        "Ljava/lang/Runtime;->freeMemory()J"
+    ],
+    "Ljava/lang/Process;": [
+        "Ljava/lang/Process;->destroy()V",
+        "Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;",
+        "Ljava/lang/Process;->getOutputStream()Ljava/io/OutputStream;",
+        "Ljava/lang/Process;->getErrorStream()Ljava/io/InputStream;",
+        "Ljava/lang/Process;->exitValue()I",
+        "Ljava/lang/Process;->waitFor()I"
+    ],
+    "Lcn/com/yicha/FileOperate;": [
+        "Lcn/com/yicha/FileOperate;->newFolder()V",
+        "Lcn/com/yicha/FileOperate;->delAllFile()V",
+        "Lcn/com/yicha/FileOperate;->delldevice()V",
+        "Lcn/com/yicha/FileOperate;->copyFile()V",
+        "Lcn/com/yicha/FileOperate;->copyFolder()V",
+        "Lcn/com/yicha/FileOperate;->delFolder()V",
+        "Lcn/com/yicha/FileOperate;->newFile()V",
+        "Lcn/com/yicha/FileOperate;->delFile()V"
+    ],
+    "Lcn/com/yicha/PackageApk;": [
+        "Lcn/com/yicha/PackageApk;->targetCompile()V",
+        "Lcn/com/yicha/PackageApk;->command()V",
+        "Lcn/com/yicha/PackageApk;->targetPrepareAssets()V",
+        "Lcn/com/yicha/PackageApk;->targetPrepareRes()V",
+        "Lcn/com/yicha/PackageApk;->targetCompileProducer()V",
+        "Lcn/com/yicha/PackageApk;->targetClean()V",
+        "Lcn/com/yicha/PackageApk;->targetReadJad()Z",
+        "Lcn/com/yicha/PackageApk;->getJadDesDir()Ljava/lang/String;",
+        "Lcn/com/yicha/PackageApk;->sdl()V",
+        "Lcn/com/yicha/PackageApk;->targetDex()V",
+        "Lcn/com/yicha/PackageApk;->targetPrepareJars()V",
+        "Lcn/com/yicha/PackageApk;->targetPackageRes()V",
+        "Lcn/com/yicha/PackageApk;->targetDirs()V",
+        "Lcn/com/yicha/PackageApk;->targetCheck()Z",
+        "Lcn/com/yicha/PackageApk;->targetPackageApk()V"
+    ],
+    "Lcn/com/yicha/AccessTextFile;": [
+        "Lcn/com/yicha/AccessTextFile;->writeToFile()V",
+        "Lcn/com/yicha/AccessTextFile;->copyStream()V",
+        "Lcn/com/yicha/AccessTextFile;->writeFromBuffer()V",
+        "Lcn/com/yicha/AccessTextFile;->readToBuffer()V",
+        "Lcn/com/yicha/AccessTextFile;->copyTextFile()V"
+    ],
+    "Lorg/microemu/android/asm/AndroidProducer;": [
+        "Lorg/microemu/android/asm/AndroidProducer;->processJar()V",
+        "Lorg/microemu/android/asm/AndroidProducer;->instrument()[B",
+        "Lorg/microemu/android/asm/AndroidProducer;->analyze()V"
+    ],
+    "Ljava/io/IOException;": [
+        "Ljava/io/IOException;->printStackTrace()V",
+        "Ljava/io/IOException;->getLocalizedMessage()Ljava/lang/String;",
+        "Ljava/io/IOException;->getMessage()Ljava/lang/String;"
+    ],
+    "Ljava/io/PrintWriter;": [
+        "Ljava/io/PrintWriter;->flush()V",
+        "Ljava/io/PrintWriter;->println()V"
+    ],
+    "Ljava/io/OutputStream;": [
+        "Ljava/io/OutputStream;->close()V",
+        "Ljava/io/OutputStream;->write()V",
+        "Ljava/io/OutputStream;->flush()V"
+    ],
+    "Ljava/io/BufferedWriter;": [
+        "Ljava/io/BufferedWriter;->write()V",
+        "Ljava/io/BufferedWriter;->close()V"
+    ],
+    "Ljava/io/FileInputStream;": [
+        "Ljava/io/FileInputStream;->read()I",
+        "Ljava/io/FileInputStream;->close()V"
+    ],
+    "Ljava/io/FileWriter;": [
+        "Ljava/io/FileWriter;->close()V"
+    ],
+    "Lcn/com/yicha/CommandHelper;": [
+        "Lcn/com/yicha/CommandHelper;->wait()Lcn/com/yicha/CommandResult;",
+        "Lcn/com/yicha/CommandHelper;->exec()Lcn/com/yicha/CommandResult;",
+        "Lcn/com/yicha/CommandHelper;->isOverTime()Z"
+    ],
+    "Lcn/com/yicha/CommandResult;": [
+        "Lcn/com/yicha/CommandResult;->getError()Ljava/lang/String;",
+        "Lcn/com/yicha/CommandResult;->setError()V",
+        "Lcn/com/yicha/CommandResult;->setExitValue()V",
+        "Lcn/com/yicha/CommandResult;->getOutput()Ljava/lang/String;",
+        "Lcn/com/yicha/CommandResult;->setOutput()V"
+    ],
+    "Ljava/lang/InterruptedException;": [
+        "Ljava/lang/InterruptedException;->printStackTrace()V",
+        "Ljava/lang/InterruptedException;->getLocalizedMessage()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/Injected;": [
+        "Lorg/microemu/Injected;->errPrintStream()Ljava/io/PrintStream;",
+        "Lorg/microemu/Injected;->outPrintStream()Ljava/io/PrintStream;"
+    ],
+    "Lorg/microemu/log/Logger;": [
+        "Lorg/microemu/log/Logger;->info()V",
+        "Lorg/microemu/log/Logger;->callAppenders()V",
+        "Lorg/microemu/log/Logger;->write()V",
+        "Lorg/microemu/log/Logger;->addLogOrigin()V",
+        "Lorg/microemu/log/Logger;->getLocation()Ljava/lang/StackTraceElement;",
+        "Lorg/microemu/log/Logger;->setLocationEnabled()V",
+        "Lorg/microemu/log/Logger;->isDebugEnabled()Z",
+        "Lorg/microemu/log/Logger;->removeAllAppenders()V",
+        "Lorg/microemu/log/Logger;->debugClassLoader()V",
+        "Lorg/microemu/log/Logger;->addAppender()V",
+        "Lorg/microemu/log/Logger;->debug()V",
+        "Lorg/microemu/log/Logger;->error()V",
+        "Lorg/microemu/log/Logger;->warn()V",
+        "Lorg/microemu/log/Logger;->isErrorEnabled()Z"
+    ],
+    "Lorg/microemu/app/util/MIDletSystemProperties;": [
+        "Lorg/microemu/app/util/MIDletSystemProperties;->clearProperty()Ljava/lang/String;",
+        "Lorg/microemu/app/util/MIDletSystemProperties;->setPermission()V",
+        "Lorg/microemu/app/util/MIDletSystemProperties;->setProperties()V",
+        "Lorg/microemu/app/util/MIDletSystemProperties;->getDynamicProperty()Ljava/lang/String;",
+        "Lorg/microemu/app/util/MIDletSystemProperties;->getPermission()I",
+        "Lorg/microemu/app/util/MIDletSystemProperties;->getSystemPropertySecure()Ljava/lang/String;",
+        "Lorg/microemu/app/util/MIDletSystemProperties;->setDevice()V",
+        "Lorg/microemu/app/util/MIDletSystemProperties;->getProperty()Ljava/lang/String;",
+        "Lorg/microemu/app/util/MIDletSystemProperties;->getSystemProperty()Ljava/lang/String;",
+        "Lorg/microemu/app/util/MIDletSystemProperties;->setProperty()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/app/util/MIDletResourceLoader;": [
+        "Lorg/microemu/app/util/MIDletResourceLoader;->resolveName()Ljava/lang/String;",
+        "Lorg/microemu/app/util/MIDletResourceLoader;->getResourceAsStream()Ljava/io/InputStream;"
+    ],
+    "Lorg/microemu/MIDletContext;": [
+        "Lorg/microemu/MIDletContext;->setMIDletAccess()V",
+        "Lorg/microemu/MIDletContext;->isLauncher()Z",
+        "Lorg/microemu/MIDletContext;->getMIDletAccess()Lorg/microemu/MIDletAccess;",
+        "Lorg/microemu/MIDletContext;->getMIDlet()Ljavax/microedition/midlet/MIDlet;"
+    ],
+    "Lorg/microemu/MicroEmulator;": [
+        "Lorg/microemu/MicroEmulator;->checkPermission()I",
+        "Lorg/microemu/MicroEmulator;->getRecordStoreManager()Lorg/microemu/RecordStoreManager;",
+        "Lorg/microemu/MicroEmulator;->getAppProperty()Ljava/lang/String;",
+        "Lorg/microemu/MicroEmulator;->platformRequest()Z",
+        "Lorg/microemu/MicroEmulator;->getLauncher()Lorg/microemu/app/launcher/Launcher;",
+        "Lorg/microemu/MicroEmulator;->getResourceAsStream()Ljava/io/InputStream;",
+        "Lorg/microemu/MicroEmulator;->destroyMIDletContext()V",
+        "Lorg/microemu/MicroEmulator;->notifyDestroyed()V"
+    ],
+    "Ljava/lang/ThreadLocal;": [
+        "Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;",
+        "Ljava/lang/ThreadLocal;->set()V"
+    ],
+    "Ljava/util/List;": [
+        "Ljava/util/List;->remove()Ljava/lang/Object;",
+        "Ljava/util/List;->get()Ljava/lang/Object;",
+        "Ljava/util/List;->clear()V",
+        "Ljava/util/List;->add()Z",
+        "Ljava/util/List;->remove()Z",
+        "Ljava/util/List;->size()I",
+        "Ljava/util/List;->iterator()Ljava/util/Iterator;"
+    ],
+    "Ljava/lang/Class;": [
+        "Ljava/lang/Class;->newInstance()Ljava/lang/Object;",
+        "Ljava/lang/Class;->getFields()[Ljava/lang/reflect/Field;",
+        "Ljava/lang/Class;->getDeclaredMethod()Ljava/lang/reflect/Method;",
+        "Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;",
+        "Ljava/lang/Class;->getResourceAsStream()Ljava/io/InputStream;",
+        "Ljava/lang/Class;->getClasses()[Ljava/lang/Class;",
+        "Ljava/lang/Class;->getName()Ljava/lang/String;",
+        "Ljava/lang/Class;->getField()Ljava/lang/reflect/Field;",
+        "Ljava/lang/Class;->getInterfaces()[Ljava/lang/Class;",
+        "Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;",
+        "Ljava/lang/Class;->getComponentType()Ljava/lang/Class;",
+        "Ljava/lang/Class;->getDeclaredFields()[Ljava/lang/reflect/Field;",
+        "Ljava/lang/Class;->getMethod()Ljava/lang/reflect/Method;",
+        "Ljava/lang/Class;->isArray()Z",
+        "Ljava/lang/Class;->forName()Ljava/lang/Class;",
+        "Ljava/lang/Class;->isAssignableFrom()Z",
+        "Ljava/lang/Class;->getConstructor()Ljava/lang/reflect/Constructor;",
+        "Ljava/lang/Class;->getConstructors()[Ljava/lang/reflect/Constructor;"
+    ],
+    "Lorg/microemu/log/LoggerAppender;": [
+        "Lorg/microemu/log/LoggerAppender;->append()V"
+    ],
+    "Ljava/lang/StackTraceElement;": [
+        "Ljava/lang/StackTraceElement;->toString()Ljava/lang/String;",
+        "Ljava/lang/StackTraceElement;->getLineNumber()I",
+        "Ljava/lang/StackTraceElement;->getMethodName()Ljava/lang/String;",
+        "Ljava/lang/StackTraceElement;->getFileName()Ljava/lang/String;",
+        "Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/app/util/IOUtils;": [
+        "Lorg/microemu/app/util/IOUtils;->closeQuietly()V",
+        "Lorg/microemu/app/util/IOUtils;->copyToFile()V",
+        "Lorg/microemu/app/util/IOUtils;->getCanonicalFileURL()Ljava/lang/String;",
+        "Lorg/microemu/app/util/IOUtils;->getCanonicalFileClassLoaderURL()Ljava/lang/String;",
+        "Lorg/microemu/app/util/IOUtils;->copyFile()V"
+    ],
+    "Lorg/microemu/log/LoggingEvent;": [
+        "Lorg/microemu/log/LoggingEvent;->setData()V",
+        "Lorg/microemu/log/LoggingEvent;->hasData()Z",
+        "Lorg/microemu/log/LoggingEvent;->getThrowable()Ljava/lang/Throwable;",
+        "Lorg/microemu/log/LoggingEvent;->getLocation()Ljava/lang/StackTraceElement;",
+        "Lorg/microemu/log/LoggingEvent;->getFormatedData()Ljava/lang/String;",
+        "Lorg/microemu/log/LoggingEvent;->getMessage()Ljava/lang/String;",
+        "Lorg/microemu/log/LoggingEvent;->getData()Ljava/lang/Object;",
+        "Lorg/microemu/log/LoggingEvent;->getLevel()I"
+    ],
+    "Lorg/microemu/log/StdOutAppender;": [
+        "Lorg/microemu/log/StdOutAppender;->formatLocation()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/media/BasicPlayer;": [
+        "Lorg/microemu/media/BasicPlayer;->start()V",
+        "Lorg/microemu/media/BasicPlayer;->setLoopCount()V",
+        "Lorg/microemu/media/BasicPlayer;->setState()V",
+        "Lorg/microemu/media/BasicPlayer;->stop()V",
+        "Lorg/microemu/media/BasicPlayer;->setListenersVector()V",
+        "Lorg/microemu/media/BasicPlayer;->getListenersVector()Ljava/util/Vector;"
+    ],
+    "Lorg/microemu/media/audio/ToneInfo;": [
+        "Lorg/microemu/media/audio/ToneInfo;->getFrequency()I",
+        "Lorg/microemu/media/audio/ToneInfo;->setFrequency()V",
+        "Lorg/microemu/media/audio/ToneInfo;->getSleepDelay()I",
+        "Lorg/microemu/media/audio/ToneInfo;->setSleepDelay()V",
+        "Lorg/microemu/media/audio/ToneInfo;->setVolume()V",
+        "Lorg/microemu/media/audio/ToneInfo;->setLengthOfTime()V",
+        "Lorg/microemu/media/audio/ToneInfo;->getLengthOfTime()I",
+        "Lorg/microemu/media/audio/ToneInfo;->getVolume()I"
+    ],
+    "Lorg/microemu/media/audio/PCTonePlayer;": [
+        "Lorg/microemu/media/audio/PCTonePlayer;->setTimeBase()V",
+        "Lorg/microemu/media/audio/PCTonePlayer;->setRunning()V",
+        "Lorg/microemu/media/audio/PCTonePlayer;->playBlock()V",
+        "Lorg/microemu/media/audio/PCTonePlayer;->isRunning()Z",
+        "Lorg/microemu/media/audio/PCTonePlayer;->getNext()B"
+    ],
+    "Lorg/microemu/device/Device;": [
+        "Lorg/microemu/device/Device;->destroy()V",
+        "Lorg/microemu/device/Device;->getDeviceDisplay()Lorg/microemu/device/DeviceDisplay;",
+        "Lorg/microemu/device/Device;->hasPointerMotionEvents()Z",
+        "Lorg/microemu/device/Device;->vibrate()Z",
+        "Lorg/microemu/device/Device;->hasPointerEvents()Z",
+        "Lorg/microemu/device/Device;->hasRepeatEvents()Z",
+        "Lorg/microemu/device/Device;->getFontManager()Lorg/microemu/device/FontManager;",
+        "Lorg/microemu/device/Device;->getUIFactory()Lorg/microemu/device/ui/UIFactory;",
+        "Lorg/microemu/device/Device;->getSoftButtons()Ljava/util/Vector;",
+        "Lorg/microemu/device/Device;->getInputMethod()Lorg/microemu/device/InputMethod;",
+        "Lorg/microemu/device/Device;->getSystemProperties()Ljava/util/Map;"
+    ],
+    "Ljava/lang/Character;": [
+        "Ljava/lang/Character;->isDigit()Z",
+        "Ljava/lang/Character;->toUpperCase()C",
+        "Ljava/lang/Character;->toLowerCase()C",
+        "Ljava/lang/Character;->toString()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/device/InputMethod;": [
+        "Lorg/microemu/device/InputMethod;->getKeyCode()I",
+        "Lorg/microemu/device/InputMethod;->setInputMethodListener()V",
+        "Lorg/microemu/device/InputMethod;->setInputMode()V",
+        "Lorg/microemu/device/InputMethod;->validate()Z",
+        "Lorg/microemu/device/InputMethod;->dispose()V",
+        "Lorg/microemu/device/InputMethod;->getKeyName()Ljava/lang/String;",
+        "Lorg/microemu/device/InputMethod;->getGameAction()I",
+        "Lorg/microemu/device/InputMethod;->setMaxSize()V",
+        "Lorg/microemu/device/InputMethod;->removeInputMethodListener()V"
+    ],
+    "Lorg/microemu/device/InputMethodListener;": [
+        "Lorg/microemu/device/InputMethodListener;->caretPositionChanged()V",
+        "Lorg/microemu/device/InputMethodListener;->getConstraints()I",
+        "Lorg/microemu/device/InputMethodListener;->getCaretPosition()I",
+        "Lorg/microemu/device/InputMethodListener;->inputMethodTextChanged()V",
+        "Lorg/microemu/device/InputMethodListener;->getText()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/device/impl/DeviceImpl;": [
+        "Lorg/microemu/device/impl/DeviceImpl;->create()Lorg/microemu/device/impl/DeviceImpl;",
+        "Lorg/microemu/device/impl/DeviceImpl;->getFontManager()Lorg/microemu/device/FontManager;",
+        "Lorg/microemu/device/impl/DeviceImpl;->loadDeviceDescriptor()Lnanoxml/XMLElement;",
+        "Lorg/microemu/device/impl/DeviceImpl;->getButtons()Ljava/util/Vector;",
+        "Lorg/microemu/device/impl/DeviceImpl;->parseDisplay()V",
+        "Lorg/microemu/device/impl/DeviceImpl;->getResourceUrl()Ljava/net/URL;",
+        "Lorg/microemu/device/impl/DeviceImpl;->inheritXML()Lnanoxml/XMLElement;",
+        "Lorg/microemu/device/impl/DeviceImpl;->loadSkinVersion()V",
+        "Lorg/microemu/device/impl/DeviceImpl;->getFont()Ljavax/microedition/lcdui/Font;",
+        "Lorg/microemu/device/impl/DeviceImpl;->getSoftButtons()Ljava/util/Vector;",
+        "Lorg/microemu/device/impl/DeviceImpl;->parseBoolean()Z",
+        "Lorg/microemu/device/impl/DeviceImpl;->getDeviceDisplay()Lorg/microemu/device/DeviceDisplay;",
+        "Lorg/microemu/device/impl/DeviceImpl;->expandResourcePath()Ljava/lang/String;",
+        "Lorg/microemu/device/impl/DeviceImpl;->parseInput()V",
+        "Lorg/microemu/device/impl/DeviceImpl;->loadImage()Ljavax/microedition/lcdui/Image;",
+        "Lorg/microemu/device/impl/DeviceImpl;->loadXmlDocument()Lnanoxml/XMLElement;",
+        "Lorg/microemu/device/impl/DeviceImpl;->loadConfig()V",
+        "Lorg/microemu/device/impl/DeviceImpl;->getPolygon()Lorg/microemu/device/impl/Polygon;",
+        "Lorg/microemu/device/impl/DeviceImpl;->parseSystemProperties()V",
+        "Lorg/microemu/device/impl/DeviceImpl;->getRectangle()Lorg/microemu/device/impl/Rectangle;",
+        "Lorg/microemu/device/impl/DeviceImpl;->parseFonts()V",
+        "Lorg/microemu/device/impl/DeviceImpl;->besourceBase()Ljava/lang/String;",
+        "Lorg/microemu/device/impl/DeviceImpl;->inheritanceConstInit()V"
+    ],
+    "Ljava/lang/ClassNotFoundException;": [
+        "Ljava/lang/ClassNotFoundException;->getMessage()Ljava/lang/String;"
+    ],
+    "Ljava/lang/InstantiationException;": [
+        "Ljava/lang/InstantiationException;->getMessage()Ljava/lang/String;"
+    ],
+    "Ljava/lang/IllegalAccessException;": [
+        "Ljava/lang/IllegalAccessException;->getMessage()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/device/impl/Polygon;": [
+        "Lorg/microemu/device/impl/Polygon;->addPoint()V",
+        "Lorg/microemu/device/impl/Polygon;->getBounds()Lorg/microemu/device/impl/Rectangle;"
+    ],
+    "Ljava/lang/ClassLoader;": [
+        "Ljava/lang/ClassLoader;->getParent()Ljava/lang/ClassLoader;",
+        "Ljava/lang/ClassLoader;->getResource()Ljava/net/URL;",
+        "Ljava/lang/ClassLoader;->loadClass()Ljava/lang/Class;",
+        "Ljava/lang/ClassLoader;->getResourceAsStream()Ljava/io/InputStream;",
+        "Ljava/lang/ClassLoader;->getSystemClassLoader()Ljava/lang/ClassLoader;"
+    ],
+    "Lorg/microemu/device/impl/DeviceDisplayImpl;": [
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->setMode123Image()V",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->setModeAbcUpperImage()V",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->setBackgroundColor()V",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->setNumColors()V",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->setNumAlphaLevels()V",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->setModeAbcLowerImage()V",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->isResizable()Z",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->setDisplayRectangle()V",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->setResizable()V",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->createButton()Lorg/microemu/device/impl/Button;",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->createSystemImage()Ljavax/microedition/lcdui/Image;",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->setForegroundColor()V",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->setDisplayPaintable()V",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->createSoftButton()Lorg/microemu/device/impl/SoftButton;",
+        "Lorg/microemu/device/impl/DeviceDisplayImpl;->setIsColor()V"
+    ],
+    "Lnanoxml/XMLParseException;": [
+        "Lnanoxml/XMLParseException;->toString()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/device/impl/FontManagerImpl;": [
+        "Lorg/microemu/device/impl/FontManagerImpl;->createTrueTypeFont()Lorg/microemu/device/impl/Font;",
+        "Lorg/microemu/device/impl/FontManagerImpl;->setAntialiasing()V",
+        "Lorg/microemu/device/impl/FontManagerImpl;->createSystemFont()Lorg/microemu/device/impl/Font;",
+        "Lorg/microemu/device/impl/FontManagerImpl;->setFont()V"
+    ],
+    "Lorg/microemu/device/EmulatorContext;": [
+        "Lorg/microemu/device/EmulatorContext;->platformRequest()Z",
+        "Lorg/microemu/device/EmulatorContext;->getDeviceInputMethod()Lorg/microemu/device/InputMethod;",
+        "Lorg/microemu/device/EmulatorContext;->getResourceAsStream()Ljava/io/InputStream;",
+        "Lorg/microemu/device/EmulatorContext;->getDeviceFontManager()Lorg/microemu/device/FontManager;",
+        "Lorg/microemu/device/EmulatorContext;->getDeviceDisplay()Lorg/microemu/device/DeviceDisplay;"
+    ],
+    "Lorg/microemu/device/impl/Rectangle;": [
+        "Lorg/microemu/device/impl/Rectangle;->add()V",
+        "Lorg/microemu/device/impl/Rectangle;->contains()Z"
+    ],
+    "Lorg/microemu/device/impl/InputMethodImpl;": [
+        "Lorg/microemu/device/impl/InputMethodImpl;->getInputMode()I",
+        "Lorg/microemu/device/impl/InputMethodImpl;->validate()Z"
+    ],
+    "Lorg/microemu/device/DeviceFactory;": [
+        "Lorg/microemu/device/DeviceFactory;->getDevice()Lorg/microemu/device/Device;",
+        "Lorg/microemu/device/DeviceFactory;->setDevice()V"
+    ],
+    "Lorg/microemu/MIDletAccess;": [
+        "Lorg/microemu/MIDletAccess;->destroyApp()V",
+        "Lorg/microemu/MIDletAccess;->getDisplayAccess()Lorg/microemu/DisplayAccess;",
+        "Lorg/microemu/MIDletAccess;->setDisplayAccess()V",
+        "Lorg/microemu/MIDletAccess;->pauseApp()V",
+        "Lorg/microemu/MIDletAccess;->startApp()V"
+    ],
+    "Lorg/microemu/DisplayAccess;": [
+        "Lorg/microemu/DisplayAccess;->pointerReleased()V",
+        "Lorg/microemu/DisplayAccess;->pointerDragged()V",
+        "Lorg/microemu/DisplayAccess;->pointerPressed()V",
+        "Lorg/microemu/DisplayAccess;->getDisplayableUI()Lorg/microemu/device/ui/DisplayableUI;",
+        "Lorg/microemu/DisplayAccess;->sizeChanged()V",
+        "Lorg/microemu/DisplayAccess;->repaint()V",
+        "Lorg/microemu/DisplayAccess;->keyReleased()V",
+        "Lorg/microemu/DisplayAccess;->getDisplay()Ljavax/microedition/lcdui/Display;",
+        "Lorg/microemu/DisplayAccess;->keyRepeated()V",
+        "Lorg/microemu/DisplayAccess;->commandAction()V",
+        "Lorg/microemu/DisplayAccess;->setCurrent()V",
+        "Lorg/microemu/DisplayAccess;->keyPressed()V",
+        "Lorg/microemu/DisplayAccess;->getCurrent()Ljavax/microedition/lcdui/Displayable;",
+        "Lorg/microemu/DisplayAccess;->hideNotify()V"
+    ],
+    "Lorg/microemu/device/impl/ButtonDetaultDeviceKeyCodes;": [
+        "Lorg/microemu/device/impl/ButtonDetaultDeviceKeyCodes;->code()V"
+    ],
+    "Ljava/lang/reflect/Field;": [
+        "Ljava/lang/reflect/Field;->get()Ljava/lang/Object;",
+        "Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;",
+        "Ljava/lang/reflect/Field;->getName()Ljava/lang/String;",
+        "Ljava/lang/reflect/Field;->getInt()I"
+    ],
+    "Lorg/microemu/device/impl/ui/CommandManager;": [
+        "Lorg/microemu/device/impl/ui/CommandManager;->fillPossibleCommands()V",
+        "Lorg/microemu/device/impl/ui/CommandManager;->updateCommands()V",
+        "Lorg/microemu/device/impl/ui/CommandManager;->getInstance()Lorg/microemu/device/impl/ui/CommandManager;",
+        "Lorg/microemu/device/impl/ui/CommandManager;->lateInit()V"
+    ],
+    "Lorg/microemu/device/impl/SoftButton;": [
+        "Lorg/microemu/device/impl/SoftButton;->getType()I",
+        "Lorg/microemu/device/impl/SoftButton;->preferredCommandType()Z",
+        "Lorg/microemu/device/impl/SoftButton;->getPaintable()Lorg/microemu/device/impl/Rectangle;",
+        "Lorg/microemu/device/impl/SoftButton;->setCommand()V",
+        "Lorg/microemu/device/impl/SoftButton;->getCommand()Ljavax/microedition/lcdui/Command;"
+    ],
+    "Ljavax/microedition/lcdui/List;": [
+        "Ljavax/microedition/lcdui/List;->size()I",
+        "Ljavax/microedition/lcdui/List;->deleteAll()V",
+        "Ljavax/microedition/lcdui/List;->addCommand()V",
+        "Ljavax/microedition/lcdui/List;->getTitle()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/List;->set()V",
+        "Ljavax/microedition/lcdui/List;->isSelected()Z",
+        "Ljavax/microedition/lcdui/List;->repaint()V",
+        "Ljavax/microedition/lcdui/List;->insert()V",
+        "Ljavax/microedition/lcdui/List;->delete()V",
+        "Ljavax/microedition/lcdui/List;->setSelectedIndex()V",
+        "Ljavax/microedition/lcdui/List;->getSelectedIndex()I",
+        "Ljavax/microedition/lcdui/List;->setFont()V",
+        "Ljavax/microedition/lcdui/List;->getTicker()Ljavax/microedition/lcdui/Ticker;",
+        "Ljavax/microedition/lcdui/List;->append()I",
+        "Ljavax/microedition/lcdui/List;->setFitPolicy()V",
+        "Ljavax/microedition/lcdui/List;->setCommandListener()V",
+        "Ljavax/microedition/lcdui/List;->setSelectedFlags()V",
+        "Ljavax/microedition/lcdui/List;->getString()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/device/ui/CommandUI;": [
+        "Lorg/microemu/device/ui/CommandUI;->getCommand()Ljavax/microedition/lcdui/Command;",
+        "Lorg/microemu/device/ui/CommandUI;->setImage()V"
+    ],
+    "Ljavax/microedition/lcdui/Command;": [
+        "Ljavax/microedition/lcdui/Command;->isRegularCommand()Z",
+        "Ljavax/microedition/lcdui/Command;->getPriority()I",
+        "Ljavax/microedition/lcdui/Command;->getCommandType()I",
+        "Ljavax/microedition/lcdui/Command;->getLabel()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/Command;->getItemCommand()Ljavax/microedition/lcdui/Command;"
+    ],
+    "Lorg/microemu/device/impl/ui/DisplayableImplUI;": [
+        "Lorg/microemu/device/impl/ui/DisplayableImplUI;->getCommandsUI()Ljava/util/Vector;",
+        "Lorg/microemu/device/impl/ui/DisplayableImplUI;->updateCommands()V"
+    ],
+    "Lorg/microemu/device/ui/EventDispatcher$Event;": [
+        "Lorg/microemu/device/ui/EventDispatcher$Event;->run()V"
+    ],
+    "Lorg/microemu/device/ui/EventDispatcher;": [
+        "Lorg/microemu/device/ui/EventDispatcher;->serviceRepaints()V",
+        "Lorg/microemu/device/ui/EventDispatcher;->put()V",
+        "Lorg/microemu/device/ui/EventDispatcher;->post()V"
+    ],
+    "Lorg/microemu/device/ui/EventDispatcher$PaintEvent;": [
+        "Lorg/microemu/device/ui/EventDispatcher$PaintEvent;->merge()V"
+    ],
+    "Lorg/microemu/device/ui/EventDispatcher$PointerEvent;": [
+        "Lorg/microemu/device/ui/EventDispatcher$PointerEvent;->access$1()I",
+        "Lorg/microemu/device/ui/EventDispatcher$PointerEvent;->access$3()I",
+        "Lorg/microemu/device/ui/EventDispatcher$PointerEvent;->access$4()V",
+        "Lorg/microemu/device/ui/EventDispatcher$PointerEvent;->access$0()S",
+        "Lorg/microemu/device/ui/EventDispatcher$PointerEvent;->access$2()V"
+    ],
+    "Lorg/microemu/util/RecordEnumerationImpl;": [
+        "Lorg/microemu/util/RecordEnumerationImpl;->rebuild()V",
+        "Lorg/microemu/util/RecordEnumerationImpl;->numRecords()I"
+    ],
+    "Lorg/microemu/util/RecordStoreImpl;": [
+        "Lorg/microemu/util/RecordStoreImpl;->getRecordSize()I",
+        "Lorg/microemu/util/RecordStoreImpl;->getName()Ljava/lang/String;",
+        "Lorg/microemu/util/RecordStoreImpl;->removeRecordListener()V",
+        "Lorg/microemu/util/RecordStoreImpl;->getNextRecordID()I",
+        "Lorg/microemu/util/RecordStoreImpl;->getRecord()I",
+        "Lorg/microemu/util/RecordStoreImpl;->setOpen()V",
+        "Lorg/microemu/util/RecordStoreImpl;->writeHeader()V",
+        "Lorg/microemu/util/RecordStoreImpl;->isOpen()Z",
+        "Lorg/microemu/util/RecordStoreImpl;->writeRecord()V",
+        "Lorg/microemu/util/RecordStoreImpl;->getNumRecords()I",
+        "Lorg/microemu/util/RecordStoreImpl;->fireRecordListener()V",
+        "Lorg/microemu/util/RecordStoreImpl;->readHeader()I",
+        "Lorg/microemu/util/RecordStoreImpl;->readRecord()V",
+        "Lorg/microemu/util/RecordStoreImpl;->getRecord()[B",
+        "Lorg/microemu/util/RecordStoreImpl;->enumerateRecords()Ljavax/microedition/rms/RecordEnumeration;",
+        "Lorg/microemu/util/RecordStoreImpl;->addRecordListener()V"
+    ],
+    "Ljava/util/Collections;": [
+        "Ljava/util/Collections;->sort()V"
+    ],
+    "Ljavax/microedition/rms/RecordFilter;": [
+        "Ljavax/microedition/rms/RecordFilter;->matches()Z"
+    ],
+    "Ljavax/microedition/rms/RecordStoreException;": [
+        "Ljavax/microedition/rms/RecordStoreException;->printStackTrace()V"
+    ],
+    "Lorg/microemu/util/ExtendedRecordListener;": [
+        "Lorg/microemu/util/ExtendedRecordListener;->recordStoreEvent()V",
+        "Lorg/microemu/util/ExtendedRecordListener;->recordEvent()V"
+    ],
+    "Ljavax/microedition/rms/RecordListener;": [
+        "Ljavax/microedition/rms/RecordListener;->recordAdded()V",
+        "Ljavax/microedition/rms/RecordListener;->recordDeleted()V",
+        "Ljavax/microedition/rms/RecordListener;->recordChanged()V"
+    ],
+    "Lorg/microemu/RecordStoreManager;": [
+        "Lorg/microemu/RecordStoreManager;->getSizeAvailable()I",
+        "Lorg/microemu/RecordStoreManager;->deleteRecord()V",
+        "Lorg/microemu/RecordStoreManager;->openRecordStore()Ljavax/microedition/rms/RecordStore;",
+        "Lorg/microemu/RecordStoreManager;->listRecordStores()[Ljava/lang/String;",
+        "Lorg/microemu/RecordStoreManager;->loadRecord()V",
+        "Lorg/microemu/RecordStoreManager;->deleteRecordStore()V",
+        "Lorg/microemu/RecordStoreManager;->fireRecordStoreListener()V",
+        "Lorg/microemu/RecordStoreManager;->saveRecord()V"
+    ],
+    "Lorg/microemu/util/MemoryRecordStoreManager;": [
+        "Lorg/microemu/util/MemoryRecordStoreManager;->deleteStores()V",
+        "Lorg/microemu/util/MemoryRecordStoreManager;->fireRecordStoreListener()V"
+    ],
+    "Ljava/util/jar/Manifest;": [
+        "Ljava/util/jar/Manifest;->clear()V",
+        "Ljava/util/jar/Manifest;->getMainAttributes()Ljava/util/jar/Attributes;"
+    ],
+    "Lorg/microemu/util/JadProperties;": [
+        "Lorg/microemu/util/JadProperties;->read()V",
+        "Lorg/microemu/util/JadProperties;->getJarURL()Ljava/lang/String;",
+        "Lorg/microemu/util/JadProperties;->getMainAttributes()Ljava/util/jar/Attributes;",
+        "Lorg/microemu/util/JadProperties;->getMidletEntries()Ljava/util/Vector;",
+        "Lorg/microemu/util/JadProperties;->setCorrectedJarURL()V",
+        "Lorg/microemu/util/JadProperties;->getSuiteName()Ljava/lang/String;",
+        "Lorg/microemu/util/JadProperties;->clear()V",
+        "Lorg/microemu/util/JadProperties;->getProperty()Ljava/lang/String;"
+    ],
+    "Ljava/util/jar/Attributes;": [
+        "Ljava/util/jar/Attributes;->keySet()Ljava/util/Set;",
+        "Ljava/util/jar/Attributes;->get()Ljava/lang/Object;",
+        "Ljava/util/jar/Attributes;->getValue()Ljava/lang/String;",
+        "Ljava/util/jar/Attributes;->put()Ljava/lang/Object;"
+    ],
+    "Ljava/util/jar/Attributes$Name;": [
+        "Ljava/util/jar/Attributes$Name;->toString()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/util/Base64Coder;": [
+        "Lorg/microemu/util/Base64Coder;->encode()[C",
+        "Lorg/microemu/util/Base64Coder;->decode()[B"
+    ],
+    "Ljava/lang/reflect/Constructor;": [
+        "Ljava/lang/reflect/Constructor;->newInstance()Ljava/lang/Object;",
+        "Ljava/lang/reflect/Constructor;->getModifiers()I"
+    ],
+    "Ljava/lang/reflect/Method;": [
+        "Ljava/lang/reflect/Method;->getModifiers()I",
+        "Ljava/lang/reflect/Method;->invoke()Ljava/lang/Object;",
+        "Ljava/lang/reflect/Method;->setAccessible()V",
+        "Ljava/lang/reflect/Method;->getName()Ljava/lang/String;"
+    ],
+    "Ljava/security/cert/X509Certificate;": [
+        "Ljava/security/cert/X509Certificate;->getIssuerDN()Ljava/security/Principal;",
+        "Ljava/security/cert/X509Certificate;->getSigAlgName()Ljava/lang/String;",
+        "Ljava/security/cert/X509Certificate;->getType()Ljava/lang/String;",
+        "Ljava/security/cert/X509Certificate;->getSubjectDN()Ljava/security/Principal;",
+        "Ljava/security/cert/X509Certificate;->getNotAfter()Ljava/util/Date;",
+        "Ljava/security/cert/X509Certificate;->getVersion()I",
+        "Ljava/security/cert/X509Certificate;->getSerialNumber()Ljava/math/BigInteger;",
+        "Ljava/security/cert/X509Certificate;->getNotBefore()Ljava/util/Date;"
+    ],
+    "Ljava/security/Principal;": [
+        "Ljava/security/Principal;->getName()Ljava/lang/String;"
+    ],
+    "Ljava/util/Date;": [
+        "Ljava/util/Date;->getTime()J"
+    ],
+    "Ljava/math/BigInteger;": [
+        "Ljava/math/BigInteger;->toString()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/cldc/SecurityInfoImpl;": [
+        "Lorg/microemu/cldc/SecurityInfoImpl;->getProtocolName()Ljava/lang/String;"
+    ],
+    "Ljava/net/DatagramPacket;": [
+        "Ljava/net/DatagramPacket;->setLength()V",
+        "Ljava/net/DatagramPacket;->setData()V",
+        "Ljava/net/DatagramPacket;->setAddress()V",
+        "Ljava/net/DatagramPacket;->getData()[B",
+        "Ljava/net/DatagramPacket;->getLength()I",
+        "Ljava/net/DatagramPacket;->getAddress()Ljava/net/InetAddress;",
+        "Ljava/net/DatagramPacket;->getOffset()I",
+        "Ljava/net/DatagramPacket;->getPort()I",
+        "Ljava/net/DatagramPacket;->setPort()V"
+    ],
+    "Ljava/net/InetAddress;": [
+        "Ljava/net/InetAddress;->getCanonicalHostName()Ljava/lang/String;",
+        "Ljava/net/InetAddress;->toString()Ljava/lang/String;",
+        "Ljava/net/InetAddress;->getHostAddress()Ljava/lang/String;",
+        "Ljava/net/InetAddress;->getByName()Ljava/net/InetAddress;",
+        "Ljava/net/InetAddress;->getLocalHost()Ljava/net/InetAddress;"
+    ],
+    "Lorg/microemu/cldc/datagram/DatagramImpl$BufferOutputStream;": [
+        "Lorg/microemu/cldc/datagram/DatagramImpl$BufferOutputStream;->reset()V"
+    ],
+    "Lorg/microemu/cldc/datagram/DatagramImpl;": [
+        "Lorg/microemu/cldc/datagram/DatagramImpl;->getDatagramPacket()Ljava/net/DatagramPacket;"
+    ],
+    "Ljava/net/DatagramSocket;": [
+        "Ljava/net/DatagramSocket;->send()V",
+        "Ljava/net/DatagramSocket;->receive()V",
+        "Ljava/net/DatagramSocket;->getLocalAddress()Ljava/net/InetAddress;",
+        "Ljava/net/DatagramSocket;->getReceiveBufferSize()I",
+        "Ljava/net/DatagramSocket;->getInetAddress()Ljava/net/InetAddress;",
+        "Ljava/net/DatagramSocket;->close()V",
+        "Ljava/net/DatagramSocket;->getLocalPort()I",
+        "Ljava/net/DatagramSocket;->connect()V",
+        "Ljava/net/DatagramSocket;->getSendBufferSize()I"
+    ],
+    "Lorg/microemu/cldc/datagram/Connection;": [
+        "Lorg/microemu/cldc/datagram/Connection;->getMaximumLength()I",
+        "Lorg/microemu/cldc/datagram/Connection;->newDatagram()Ljavax/microedition/io/Datagram;"
+    ],
+    "Ljavax/microedition/io/Datagram;": [
+        "Ljavax/microedition/io/Datagram;->setAddress()V"
+    ],
+    "Lorg/microemu/cldc/http/Connection;": [
+        "Lorg/microemu/cldc/http/Connection;->getHeaderField()Ljava/lang/String;",
+        "Lorg/microemu/cldc/http/Connection;->getHeaderFieldInt()I",
+        "Lorg/microemu/cldc/http/Connection;->openOutputStream()Ljava/io/OutputStream;",
+        "Lorg/microemu/cldc/http/Connection;->isAllowNetworkConnection()Z",
+        "Lorg/microemu/cldc/http/Connection;->getImplIndex()I",
+        "Lorg/microemu/cldc/http/Connection;->openInputStream()Ljava/io/InputStream;"
+    ],
+    "Ljava/net/ServerSocket;": [
+        "Ljava/net/ServerSocket;->close()V",
+        "Ljava/net/ServerSocket;->accept()Ljava/net/Socket;",
+        "Ljava/net/ServerSocket;->getLocalPort()I"
+    ],
+    "Ljava/net/Socket;": [
+        "Ljava/net/Socket;->getPort()I",
+        "Ljava/net/Socket;->getSendBufferSize()I",
+        "Ljava/net/Socket;->setSoLinger()V",
+        "Ljava/net/Socket;->getLocalAddress()Ljava/net/InetAddress;",
+        "Ljava/net/Socket;->getReceiveBufferSize()I",
+        "Ljava/net/Socket;->getInetAddress()Ljava/net/InetAddress;",
+        "Ljava/net/Socket;->close()V",
+        "Ljava/net/Socket;->getKeepAlive()Z",
+        "Ljava/net/Socket;->setTcpNoDelay()V",
+        "Ljava/net/Socket;->setSendBufferSize()V",
+        "Ljava/net/Socket;->isClosed()Z",
+        "Ljava/net/Socket;->getTcpNoDelay()Z",
+        "Ljava/net/Socket;->getSoLinger()I",
+        "Ljava/net/Socket;->getOutputStream()Ljava/io/OutputStream;",
+        "Ljava/net/Socket;->setReceiveBufferSize()V",
+        "Ljava/net/Socket;->setKeepAlive()V",
+        "Ljava/net/Socket;->getLocalPort()I",
+        "Ljava/net/Socket;->getInputStream()Ljava/io/InputStream;"
+    ],
+    "Lorg/microemu/cldc/socket/SocketConnection;": [
+        "Lorg/microemu/cldc/socket/SocketConnection;->openOutputStream()Ljava/io/OutputStream;",
+        "Lorg/microemu/cldc/socket/SocketConnection;->openInputStream()Ljava/io/InputStream;"
+    ],
+    "Ljavax/net/ssl/SSLSocket;": [
+        "Ljavax/net/ssl/SSLSocket;->getSession()Ljavax/net/ssl/SSLSession;"
+    ],
+    "Ljavax/net/ssl/SSLSession;": [
+        "Ljavax/net/ssl/SSLSession;->getCipherSuite()Ljava/lang/String;",
+        "Ljavax/net/ssl/SSLSession;->getProtocol()Ljava/lang/String;",
+        "Ljavax/net/ssl/SSLSession;->getPeerCertificates()[Ljava/security/cert/Certificate;"
+    ],
+    "Ljavax/net/ssl/SSLContext;": [
+        "Ljavax/net/ssl/SSLContext;->getSocketFactory()Ljavax/net/ssl/SSLSocketFactory;",
+        "Ljavax/net/ssl/SSLContext;->getInstance()Ljavax/net/ssl/SSLContext;",
+        "Ljavax/net/ssl/SSLContext;->getProtocol()Ljava/lang/String;"
+    ],
+    "Ljavax/net/ssl/SSLSocketFactory;": [
+        "Ljavax/net/ssl/SSLSocketFactory;->createSocket()Ljava/net/Socket;"
+    ],
+    "Ljava/security/NoSuchAlgorithmException;": [
+        "Ljava/security/NoSuchAlgorithmException;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/security/KeyManagementException;": [
+        "Ljava/security/KeyManagementException;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/net/URLConnection;": [
+        "Ljava/net/URLConnection;->setRequestProperty()V",
+        "Ljava/net/URLConnection;->getHeaderFieldDate()J",
+        "Ljava/net/URLConnection;->getHeaderFieldKey()Ljava/lang/String;",
+        "Ljava/net/URLConnection;->getHeaderFieldInt()I",
+        "Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;",
+        "Ljava/net/URLConnection;->connect()V",
+        "Ljava/net/URLConnection;->getOutputStream()Ljava/io/OutputStream;",
+        "Ljava/net/URLConnection;->getURL()Ljava/net/URL;",
+        "Ljava/net/URLConnection;->getHeaderField()Ljava/lang/String;",
+        "Ljava/net/URLConnection;->getLastModified()J",
+        "Ljava/net/URLConnection;->getDate()J",
+        "Ljava/net/URLConnection;->getExpiration()J",
+        "Ljava/net/URLConnection;->getRequestProperty()Ljava/lang/String;",
+        "Ljava/net/URLConnection;->setDoOutput()V"
+    ],
+    "Ljava/net/HttpURLConnection;": [
+        "Ljava/net/HttpURLConnection;->getResponseMessage()Ljava/lang/String;",
+        "Ljava/net/HttpURLConnection;->setRequestMethod()V",
+        "Ljava/net/HttpURLConnection;->setConnectTimeout()V",
+        "Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;",
+        "Ljava/net/HttpURLConnection;->disconnect()V",
+        "Ljava/net/HttpURLConnection;->setRequestProperty()V",
+        "Ljava/net/HttpURLConnection;->setInstanceFollowRedirects()V",
+        "Ljava/net/HttpURLConnection;->getRequestMethod()Ljava/lang/String;",
+        "Ljava/net/HttpURLConnection;->getResponseCode()I"
+    ],
+    "Ljava/net/URL;": [
+        "Ljava/net/URL;->getProtocol()Ljava/lang/String;",
+        "Ljava/net/URL;->getPath()Ljava/lang/String;",
+        "Ljava/net/URL;->toExternalForm()Ljava/lang/String;",
+        "Ljava/net/URL;->getFile()Ljava/lang/String;",
+        "Ljava/net/URL;->getUserInfo()Ljava/lang/String;",
+        "Ljava/net/URL;->toString()Ljava/lang/String;",
+        "Ljava/net/URL;->openStream()Ljava/io/InputStream;",
+        "Ljava/net/URL;->getRef()Ljava/lang/String;",
+        "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+        "Ljava/net/URL;->getHost()Ljava/lang/String;",
+        "Ljava/net/URL;->getPort()I"
+    ],
+    "Ljava/net/MalformedURLException;": [
+        "Ljava/net/MalformedURLException;->toString()Ljava/lang/String;"
+    ],
+    "Ljavax/net/ssl/HttpsURLConnection;": [
+        "Ljavax/net/ssl/HttpsURLConnection;->getServerCertificates()[Ljava/security/cert/Certificate;",
+        "Ljavax/net/ssl/HttpsURLConnection;->getCipherSuite()Ljava/lang/String;"
+    ],
+    "Ljava/security/AccessController;": [
+        "Ljava/security/AccessController;->doPrivileged()Ljava/lang/Object;",
+        "Ljava/security/AccessController;->getContext()Ljava/security/AccessControlContext;"
+    ],
+    "Lorg/microemu/cldc/file/Connection;": [
+        "Lorg/microemu/cldc/file/Connection;->getConnectionType()I"
+    ],
+    "Lorg/microemu/microedition/ImplFactory;": [
+        "Lorg/microemu/microedition/ImplFactory;->instance()Lorg/microemu/microedition/ImplFactory;",
+        "Lorg/microemu/microedition/ImplFactory;->register()V",
+        "Lorg/microemu/microedition/ImplFactory;->unregister()V",
+        "Lorg/microemu/microedition/ImplFactory;->registerGCF()V",
+        "Lorg/microemu/microedition/ImplFactory;->implementationNewInstance()Ljava/lang/Object;",
+        "Lorg/microemu/microedition/ImplFactory;->unregistedGCF()V",
+        "Lorg/microemu/microedition/ImplFactory;->getCGFScheme()Ljava/lang/String;",
+        "Lorg/microemu/microedition/ImplFactory;->getCGFImplementation()Lorg/microemu/microedition/io/ConnectorDelegate;",
+        "Lorg/microemu/microedition/ImplFactory;->getDefaultImplementation()Ljava/lang/Object;",
+        "Lorg/microemu/microedition/ImplFactory;->getImplementation()Lorg/microemu/microedition/Implementation;"
+    ],
+    "Lorg/microemu/cldc/file/FileSystemConnectorImpl;": [
+        "Lorg/microemu/cldc/file/FileSystemConnectorImpl;->notifyClosed()V",
+        "Lorg/microemu/cldc/file/FileSystemConnectorImpl;->doPrivilegedIO()Ljava/lang/Object;",
+        "Lorg/microemu/cldc/file/FileSystemConnectorImpl;->notifyMIDletDestroyed()V"
+    ],
+    "Lorg/microemu/cldc/file/FileSystemFileConnection;": [
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->openOutputStream()Ljava/io/OutputStream;",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->doPrivilegedIO()Ljava/lang/Object;",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->fileSetJava16()V",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->openInputStream()Ljava/io/InputStream;",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->listPrivileged()Ljava/util/Enumeration;",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->getRoot()Ljava/io/File;",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->getFileValueJava6()J",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->throwClosed()V",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->fileSize()J",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->doPrivilegedBoolean()Z",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->getPath()Ljava/lang/String;",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->list()Ljava/util/Enumeration;",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->throwOpenDirectory()V",
+        "Lorg/microemu/cldc/file/FileSystemFileConnection;->directorySize()J"
+    ],
+    "Ljava/lang/Boolean;": [
+        "Ljava/lang/Boolean;->toString()Ljava/lang/String;",
+        "Ljava/lang/Boolean;->booleanValue()Z",
+        "Ljava/lang/Boolean;->valueOf()Ljava/lang/Boolean;"
+    ],
+    "Ljava/security/PrivilegedActionException;": [
+        "Ljava/security/PrivilegedActionException;->toString()Ljava/lang/String;",
+        "Ljava/security/PrivilegedActionException;->getCause()Ljava/lang/Throwable;"
+    ],
+    "Lorg/microemu/cldc/file/FileSystem;": [
+        "Lorg/microemu/cldc/file/FileSystem;->unregisterImplementation()V"
+    ],
+    "Lorg/microemu/microedition/ImplFactory$SingletonHolder;": [
+        "Lorg/microemu/microedition/ImplFactory$SingletonHolder;->access$0()Lorg/microemu/microedition/ImplFactory;"
+    ],
+    "Lorg/microemu/microedition/ImplementationUnloadable;": [
+        "Lorg/microemu/microedition/ImplementationUnloadable;->unregisterImplementation()V"
+    ],
+    "Ljava/lang/reflect/InvocationTargetException;": [
+        "Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;"
+    ],
+    "Lorg/microemu/microedition/io/ConnectorAdapter;": [
+        "Lorg/microemu/microedition/io/ConnectorAdapter;->open()Ljavax/microedition/io/Connection;"
+    ],
+    "Ljavax/microedition/io/InputConnection;": [
+        "Ljavax/microedition/io/InputConnection;->openInputStream()Ljava/io/InputStream;",
+        "Ljavax/microedition/io/InputConnection;->openDataInputStream()Ljava/io/DataInputStream;"
+    ],
+    "Ljavax/microedition/io/OutputConnection;": [
+        "Ljavax/microedition/io/OutputConnection;->openDataOutputStream()Ljava/io/DataOutputStream;",
+        "Ljavax/microedition/io/OutputConnection;->openOutputStream()Ljava/io/OutputStream;"
+    ],
+    "Lorg/microemu/microedition/io/ConnectorImpl;": [
+        "Lorg/microemu/microedition/io/ConnectorImpl;->isWebstart()Z",
+        "Lorg/microemu/microedition/io/ConnectorImpl;->getAllInterfaces()[Ljava/lang/Class;",
+        "Lorg/microemu/microedition/io/ConnectorImpl;->openSecureProxy()Ljavax/microedition/io/Connection;",
+        "Lorg/microemu/microedition/io/ConnectorImpl;->openSecure()Ljavax/microedition/io/Connection;"
+    ],
+    "Lorg/microemu/microedition/io/ConnectionImplementation;": [
+        "Lorg/microemu/microedition/io/ConnectionImplementation;->openConnection()Ljavax/microedition/io/Connection;"
+    ],
+    "Lorg/microemu/cldc/ClosedConnection;": [
+        "Lorg/microemu/cldc/ClosedConnection;->open()Ljavax/microedition/io/Connection;"
+    ],
+    "Lcom/sun/cdc/io/ConnectionBaseInterface;": [
+        "Lcom/sun/cdc/io/ConnectionBaseInterface;->openPrim()Ljavax/microedition/io/Connection;"
+    ],
+    "Ljava/lang/reflect/Proxy;": [
+        "Ljava/lang/reflect/Proxy;->newProxyInstance()Ljava/lang/Object;"
+    ],
+    "Lorg/microemu/android/Update;": [
+        "Lorg/microemu/android/Update;->httpGet()V",
+        "Lorg/microemu/android/Update;->start()V"
+    ],
+    "Landroid/util/Log;": [
+        "Landroid/util/Log;->a()I"
+    ],
+    "Landroid/app/Activity;": [
+        "Landroid/app/Activity;->openFileInput()Ljava/io/FileInputStream;",
+        "Landroid/app/Activity;->openFileOutput()Ljava/io/FileOutputStream;",
+        "Landroid/app/Activity;->deleteFile()Z",
+        "Landroid/app/Activity;->onConfigurationChanged()V",
+        "Landroid/app/Activity;->onCreate()V",
+        "Landroid/app/Activity;->setContentView()V",
+        "Landroid/app/Activity;->fileList()[Ljava/lang/String;"
+    ],
+    "Lorg/microemu/android/MicroEmulatorActivity;": [
+        "Lorg/microemu/android/MicroEmulatorActivity;->onResume()V",
+        "Lorg/microemu/android/MicroEmulatorActivity;->getSystemService()Ljava/lang/Object;",
+        "Lorg/microemu/android/MicroEmulatorActivity;->onCreateOptionsMenu()Z",
+        "Lorg/microemu/android/MicroEmulatorActivity;->showDialog()V",
+        "Lorg/microemu/android/MicroEmulatorActivity;->isActivityThread()Z",
+        "Lorg/microemu/android/MicroEmulatorActivity;->onKeyDown()Z",
+        "Lorg/microemu/android/MicroEmulatorActivity;->getEmulatorContext()Lorg/microemu/device/EmulatorContext;",
+        "Lorg/microemu/android/MicroEmulatorActivity;->getWindowManager()Landroid/view/WindowManager;",
+        "Lorg/microemu/android/MicroEmulatorActivity;->onCreate()V",
+        "Lorg/microemu/android/MicroEmulatorActivity;->removeDialog()V",
+        "Lorg/microemu/android/MicroEmulatorActivity;->onKeyUp()Z",
+        "Lorg/microemu/android/MicroEmulatorActivity;->onTrackballEvent()Z",
+        "Lorg/microemu/android/MicroEmulatorActivity;->post()Z",
+        "Lorg/microemu/android/MicroEmulatorActivity;->onPause()V",
+        "Lorg/microemu/android/MicroEmulatorActivity;->getWindow()Landroid/view/Window;"
+    ],
+    "Landroid/view/WindowManager;": [
+        "Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;"
+    ],
+    "Lorg/microemu/android/device/AndroidDeviceDisplay;": [
+        "Lorg/microemu/android/device/AndroidDeviceDisplay;->getFullHeight()I",
+        "Lorg/microemu/android/device/AndroidDeviceDisplay;->paintDisplayable()V",
+        "Lorg/microemu/android/device/AndroidDeviceDisplay;->addDisplayRepaintListener()V",
+        "Lorg/microemu/android/device/AndroidDeviceDisplay;->removeDisplayRepaintListener()V",
+        "Lorg/microemu/android/device/AndroidDeviceDisplay;->getFullWidth()I",
+        "Lorg/microemu/android/device/AndroidDeviceDisplay;->repaint()V",
+        "Lorg/microemu/android/device/AndroidDeviceDisplay;->createImage()Ljavax/microedition/lcdui/Image;"
+    ],
+    "Landroid/view/Window;": [
+        "Landroid/view/Window;->setFlags()V"
+    ],
+    "Ljava/lang/Runnable;": [
+        "Ljava/lang/Runnable;->run()V"
+    ],
+    "Landroid/os/Handler;": [
+        "Landroid/os/Handler;->post()Z"
+    ],
+    "Lorg/microemu/android/MicroEmulator;": [
+        "Lorg/microemu/android/MicroEmulator;->startActivity()V",
+        "Lorg/microemu/android/MicroEmulator;->getFirstCommandOfType()Lorg/microemu/device/ui/CommandUI;",
+        "Lorg/microemu/android/MicroEmulator;->del()V",
+        "Lorg/microemu/android/MicroEmulator;->getPre()Ljava/lang/String;",
+        "Lorg/microemu/android/MicroEmulator;->getComponentName()Landroid/content/ComponentName;",
+        "Lorg/microemu/android/MicroEmulator;->getSharedPreferences()Landroid/content/SharedPreferences;",
+        "Lorg/microemu/android/MicroEmulator;->getPackageManager()Landroid/content/pm/PackageManager;",
+        "Lorg/microemu/android/MicroEmulator;->setPre()V",
+        "Lorg/microemu/android/MicroEmulator;->getAssets()Landroid/content/res/AssetManager;",
+        "Lorg/microemu/android/MicroEmulator;->moveTaskToBack()Z",
+        "Lorg/microemu/android/MicroEmulator;->checkNet()V",
+        "Lorg/microemu/android/MicroEmulator;->getWindow()Landroid/view/Window;",
+        "Lorg/microemu/android/MicroEmulator;->getSystemService()Ljava/lang/Object;",
+        "Lorg/microemu/android/MicroEmulator;->getImei()V",
+        "Lorg/microemu/android/MicroEmulator;->isInstalledByName()Z",
+        "Lorg/microemu/android/MicroEmulator;->ignoreKey()Z",
+        "Lorg/microemu/android/MicroEmulator;->requestWindowFeature()Z",
+        "Lorg/microemu/android/MicroEmulator;->setContentView()V",
+        "Lorg/microemu/android/MicroEmulator;->getResources()Landroid/content/res/Resources;",
+        "Lorg/microemu/android/MicroEmulator;->getChan()Ljava/lang/String;"
+    ],
+    "Landroid/net/ConnectivityManager;": [
+        "Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;",
+        "Landroid/net/ConnectivityManager;->getAllNetworkInfo()[Landroid/net/NetworkInfo;"
+    ],
+    "Landroid/net/NetworkInfo;": [
+        "Landroid/net/NetworkInfo;->getTypeName()Ljava/lang/String;",
+        "Landroid/net/NetworkInfo;->getSubtype()I",
+        "Landroid/net/NetworkInfo;->getState()Landroid/net/NetworkInfo$State;",
+        "Landroid/net/NetworkInfo;->getExtraInfo()Ljava/lang/String;",
+        "Landroid/net/NetworkInfo;->isAvailable()Z",
+        "Landroid/net/NetworkInfo;->getReason()Ljava/lang/String;",
+        "Landroid/net/NetworkInfo;->getSubtypeName()Ljava/lang/String;",
+        "Landroid/net/NetworkInfo;->getType()I"
+    ],
+    "Landroid/app/AlertDialog$Builder;": [
+        "Landroid/app/AlertDialog$Builder;->setPositiveButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setNeutralButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setNegativeButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setTitle()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setMessage()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;"
+    ],
+    "Landroid/app/AlertDialog;": [
+        "Landroid/app/AlertDialog;->show()V",
+        "Landroid/app/AlertDialog;->setButton()V"
+    ],
+    "Landroid/content/pm/PackageManager;": [
+        "Landroid/content/pm/PackageManager;->getLaunchIntentForPackage()Landroid/content/Intent;",
+        "Landroid/content/pm/PackageManager;->getPackageArchiveInfo()Landroid/content/pm/PackageInfo;",
+        "Landroid/content/pm/PackageManager;->getApplicationIcon()Landroid/graphics/drawable/Drawable;"
+    ],
+    "Landroid/widget/Toast;": [
+        "Landroid/widget/Toast;->show()V",
+        "Landroid/widget/Toast;->makeText()Landroid/widget/Toast;"
+    ],
+    "Landroid/net/Uri;": [
+        "Landroid/net/Uri;->parse()Landroid/net/Uri;"
+    ],
+    "Landroid/content/res/AssetManager;": [
+        "Landroid/content/res/AssetManager;->open()Ljava/io/InputStream;"
+    ],
+    "Landroid/telephony/TelephonyManager;": [
+        "Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;"
+    ],
+    "Ljava/net/URLEncoder;": [
+        "Ljava/net/URLEncoder;->encode()Ljava/lang/String;"
+    ],
+    "Landroid/content/SharedPreferences;": [
+        "Landroid/content/SharedPreferences;->getLong()J",
+        "Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences;->getString()Ljava/lang/String;"
+    ],
+    "Landroid/content/Context;": [
+        "Landroid/content/Context;->getDir()Ljava/io/File;",
+        "Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;",
+        "Landroid/content/Context;->getSystemService()Ljava/lang/Object;",
+        "Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;",
+        "Landroid/content/Context;->startService()Landroid/content/ComponentName;",
+        "Landroid/content/Context;->getSharedPreferences()Landroid/content/SharedPreferences;"
+    ],
+    "Ldalvik/system/VMRuntime;": [
+        "Ldalvik/system/VMRuntime;->setTargetHeapUtilization()F",
+        "Ldalvik/system/VMRuntime;->getRuntime()Ldalvik/system/VMRuntime;"
+    ],
+    "Landroid/content/ComponentName;": [
+        "Landroid/content/ComponentName;->getPackageName()Ljava/lang/String;"
+    ],
+    "Landroid/content/res/Resources;": [
+        "Landroid/content/res/Resources;->getString()Ljava/lang/String;",
+        "Landroid/content/res/Resources;->openRawResource()Ljava/io/InputStream;"
+    ],
+    "Lorg/microemu/app/Common;": [
+        "Lorg/microemu/app/Common;->setDevice()V",
+        "Lorg/microemu/app/Common;->handleStartMidletException()V",
+        "Lorg/microemu/app/Common;->getExtensionsClassLoader()Lorg/microemu/app/classloader/ExtensionsClassLoader;",
+        "Lorg/microemu/app/Common;->getInstance()Lorg/microemu/app/Common;",
+        "Lorg/microemu/app/Common;->runAutoTests()V",
+        "Lorg/microemu/app/Common;->setStatusBar()V",
+        "Lorg/microemu/app/Common;->notifyImplementationMIDletStart()V",
+        "Lorg/microemu/app/Common;->saveJar2TmpFile()Ljava/lang/String;",
+        "Lorg/microemu/app/Common;->setResponseInterface()V",
+        "Lorg/microemu/app/Common;->getLauncher()Lorg/microemu/app/launcher/Launcher;",
+        "Lorg/microemu/app/Common;->dispose()V",
+        "Lorg/microemu/app/Common;->setRecordStoreManager()V",
+        "Lorg/microemu/app/Common;->isMIDletUrlExtension()Z",
+        "Lorg/microemu/app/Common;->notifyImplementationMIDletDestroyed()V",
+        "Lorg/microemu/app/Common;->startLauncher()V",
+        "Lorg/microemu/app/Common;->loadJar()V",
+        "Lorg/microemu/app/Common;->usage()Ljava/lang/String;",
+        "Lorg/microemu/app/Common;->createMIDletClassLoader()Lorg/microemu/app/classloader/MIDletClassLoader;",
+        "Lorg/microemu/app/Common;->loadMidlet()Ljavax/microedition/midlet/MIDlet;",
+        "Lorg/microemu/app/Common;->registerImplementation()V",
+        "Lorg/microemu/app/Common;->openMIDletUrl()V",
+        "Lorg/microemu/app/Common;->describeJarProblem()Z",
+        "Lorg/microemu/app/Common;->createExtensionsClassLoader()Ljava/lang/ClassLoader;",
+        "Lorg/microemu/app/Common;->getRecordStoreManager()Lorg/microemu/RecordStoreManager;",
+        "Lorg/microemu/app/Common;->loadJadProperties()Lorg/microemu/util/JadProperties;"
+    ],
+    "Ljava/util/Locale;": [
+        "Ljava/util/Locale;->getDefault()Ljava/util/Locale;",
+        "Ljava/util/Locale;->toString()Ljava/lang/String;",
+        "Ljava/util/Locale;->getLanguage()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/app/launcher/Launcher;": [
+        "Lorg/microemu/app/launcher/Launcher;->removeMIDletEntries()V",
+        "Lorg/microemu/app/launcher/Launcher;->setSuiteName()V",
+        "Lorg/microemu/app/launcher/Launcher;->getSuiteName()Ljava/lang/String;",
+        "Lorg/microemu/app/launcher/Launcher;->setCurrentMIDlet()V",
+        "Lorg/microemu/app/launcher/Launcher;->addMIDletEntry()V",
+        "Lorg/microemu/app/launcher/Launcher;->getSelectedMidletEntry()Lorg/microemu/MIDletEntry;"
+    ],
+    "Landroid/view/Menu;": [
+        "Landroid/view/Menu;->add()Landroid/view/MenuItem;",
+        "Landroid/view/Menu;->getItem()Landroid/view/MenuItem;"
+    ],
+    "Lorg/microemu/android/device/ui/AndroidDisplayableUI;": [
+        "Lorg/microemu/android/device/ui/AndroidDisplayableUI;->showNotify()V",
+        "Lorg/microemu/android/device/ui/AndroidDisplayableUI;->getCommandsUI()Ljava/util/Vector;",
+        "Lorg/microemu/android/device/ui/AndroidDisplayableUI;->hideNotify()V",
+        "Lorg/microemu/android/device/ui/AndroidDisplayableUI;->getCommandListener()Ljavax/microedition/lcdui/CommandListener;"
+    ],
+    "Lorg/microemu/android/device/AndroidInputMethod;": [
+        "Lorg/microemu/android/device/AndroidInputMethod;->fireInputMethodListener()Z",
+        "Lorg/microemu/android/device/AndroidInputMethod;->buttonReleased()V",
+        "Lorg/microemu/android/device/AndroidInputMethod;->getKeyCode()I",
+        "Lorg/microemu/android/device/AndroidInputMethod;->buttonPressed()V"
+    ],
+    "Landroid/view/MenuItem;": [
+        "Landroid/view/MenuItem;->getItemId()I",
+        "Landroid/view/MenuItem;->setTitle()Landroid/view/MenuItem;"
+    ],
+    "Lorg/microemu/android/util/AndroidRepaintListener;": [
+        "Lorg/microemu/android/util/AndroidRepaintListener;->onResume()V",
+        "Lorg/microemu/android/util/AndroidRepaintListener;->onPause()V"
+    ],
+    "Landroid/view/View;": [
+        "Landroid/view/View;->invalidate()V",
+        "Landroid/view/View;->setLayoutParams()V"
+    ],
+    "Ljavax/microedition/midlet/MIDletStateChangeException;": [
+        "Ljavax/microedition/midlet/MIDletStateChangeException;->printStackTrace()V"
+    ],
+    "Landroid/widget/TextView;": [
+        "Landroid/widget/TextView;->setFocusableInTouchMode()V",
+        "Landroid/widget/TextView;->setText()V",
+        "Landroid/widget/TextView;->setTextSize()V",
+        "Landroid/widget/TextView;->setFocusable()V",
+        "Landroid/widget/TextView;->setOnClickListener()V",
+        "Landroid/widget/TextView;->getContext()Landroid/content/Context;",
+        "Landroid/widget/TextView;->setClickable()V",
+        "Landroid/widget/TextView;->setTextAppearance()V",
+        "Landroid/widget/TextView;->setVisibility()V",
+        "Landroid/widget/TextView;->setLayoutParams()V"
+    ],
+    "Landroid/widget/Button;": [
+        "Landroid/widget/Button;->setText()V",
+        "Landroid/widget/Button;->setOnClickListener()V"
+    ],
+    "Landroid/widget/LinearLayout;": [
+        "Landroid/widget/LinearLayout;->addView()V",
+        "Landroid/widget/LinearLayout;->removeView()V",
+        "Landroid/widget/LinearLayout;->indexOfChild()I",
+        "Landroid/widget/LinearLayout;->setOrientation()V"
+    ],
+    "Landroid/view/MotionEvent;": [
+        "Landroid/view/MotionEvent;->getX()F",
+        "Landroid/view/MotionEvent;->getY()F",
+        "Landroid/view/MotionEvent;->getAction()I"
+    ],
+    "Landroid/view/KeyEvent;": [
+        "Landroid/view/KeyEvent;->getKeyCode()I",
+        "Landroid/view/KeyEvent;->dispatch()Z",
+        "Landroid/view/KeyEvent;->getUnicodeChar()I"
+    ],
+    "Landroid/content/SharedPreferences$Editor;": [
+        "Landroid/content/SharedPreferences$Editor;->putLong()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->putString()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->commit()Z"
+    ],
+    "Lorg/objectweb/asm/ClassReader;": [
+        "Lorg/objectweb/asm/ClassReader;->accept()V"
+    ],
+    "Ljava/util/HashMap;": [
+        "Ljava/util/HashMap;->get()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->clear()V",
+        "Ljava/util/HashMap;->put()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->keySet()Ljava/util/Set;"
+    ],
+    "Ljava/util/TreeMap;": [
+        "Ljava/util/TreeMap;->put()Ljava/lang/Object;",
+        "Ljava/util/TreeMap;->get()Ljava/lang/Object;"
+    ],
+    "Lorg/objectweb/asm/ClassWriter;": [
+        "Lorg/objectweb/asm/ClassWriter;->toByteArray()[B"
+    ],
+    "Ljava/util/jar/JarInputStream;": [
+        "Ljava/util/jar/JarInputStream;->read()I",
+        "Ljava/util/jar/JarInputStream;->getManifest()Ljava/util/jar/Manifest;",
+        "Ljava/util/jar/JarInputStream;->close()V",
+        "Ljava/util/jar/JarInputStream;->getNextJarEntry()Ljava/util/jar/JarEntry;"
+    ],
+    "Ljava/util/jar/JarOutputStream;": [
+        "Ljava/util/jar/JarOutputStream;->close()V",
+        "Ljava/util/jar/JarOutputStream;->write()V",
+        "Ljava/util/jar/JarOutputStream;->putNextEntry()V"
+    ],
+    "Ljava/util/jar/JarEntry;": [
+        "Ljava/util/jar/JarEntry;->getName()Ljava/lang/String;",
+        "Ljava/util/jar/JarEntry;->isDirectory()Z"
+    ],
+    "Ljava/util/ArrayList;": [
+        "Ljava/util/ArrayList;->add()Z",
+        "Ljava/util/ArrayList;->toString()Ljava/lang/String;",
+        "Ljava/util/ArrayList;->size()I",
+        "Ljava/util/ArrayList;->remove()Z",
+        "Ljava/util/ArrayList;->get()Ljava/lang/Object;"
+    ],
+    "Lorg/objectweb/asm/signature/SignatureVisitor;": [
+        "Lorg/objectweb/asm/signature/SignatureVisitor;->visitEnd()V",
+        "Lorg/objectweb/asm/signature/SignatureVisitor;->visitClassBound()Lorg/objectweb/asm/signature/SignatureVisitor;",
+        "Lorg/objectweb/asm/signature/SignatureVisitor;->visitFormalTypeParameter()V",
+        "Lorg/objectweb/asm/signature/SignatureVisitor;->visitInnerClassType()V",
+        "Lorg/objectweb/asm/signature/SignatureVisitor;->visitInterfaceBound()Lorg/objectweb/asm/signature/SignatureVisitor;",
+        "Lorg/objectweb/asm/signature/SignatureVisitor;->visitClassType()V",
+        "Lorg/objectweb/asm/signature/SignatureVisitor;->visitTypeArgument()V",
+        "Lorg/objectweb/asm/signature/SignatureVisitor;->visitTypeArgument()Lorg/objectweb/asm/signature/SignatureVisitor;"
+    ],
+    "Lorg/microemu/android/asm/PatternMethodAdapter;": [
+        "Lorg/microemu/android/asm/PatternMethodAdapter;->visitInsn()V"
+    ],
+    "Lorg/objectweb/asm/MethodAdapter;": [
+        "Lorg/objectweb/asm/MethodAdapter;->visitFieldInsn()V",
+        "Lorg/objectweb/asm/MethodAdapter;->visitLdcInsn()V",
+        "Lorg/objectweb/asm/MethodAdapter;->visitVarInsn()V",
+        "Lorg/objectweb/asm/MethodAdapter;->visitTypeInsn()V",
+        "Lorg/objectweb/asm/MethodAdapter;->visitMethodInsn()V",
+        "Lorg/objectweb/asm/MethodAdapter;->visitJumpInsn()V",
+        "Lorg/objectweb/asm/MethodAdapter;->visitMultiANewArrayInsn()V",
+        "Lorg/objectweb/asm/MethodAdapter;->visitIincInsn()V",
+        "Lorg/objectweb/asm/MethodAdapter;->visitTableSwitchInsn()V",
+        "Lorg/objectweb/asm/MethodAdapter;->visitLookupSwitchInsn()V",
+        "Lorg/objectweb/asm/MethodAdapter;->visitInsn()V",
+        "Lorg/objectweb/asm/MethodAdapter;->visitIntInsn()V"
+    ],
+    "Lorg/microemu/android/asm/AndroidClassVisitor;": [
+        "Lorg/microemu/android/asm/AndroidClassVisitor;->codeName()Ljava/lang/String;"
+    ],
+    "Lorg/objectweb/asm/ClassAdapter;": [
+        "Lorg/objectweb/asm/ClassAdapter;->visitMethod()Lorg/objectweb/asm/MethodVisitor;",
+        "Lorg/objectweb/asm/ClassAdapter;->visitField()Lorg/objectweb/asm/FieldVisitor;",
+        "Lorg/objectweb/asm/ClassAdapter;->visit()V"
+    ],
+    "Lorg/objectweb/asm/ClassVisitor;": [
+        "Lorg/objectweb/asm/ClassVisitor;->visitMethod()Lorg/objectweb/asm/MethodVisitor;",
+        "Lorg/objectweb/asm/ClassVisitor;->visit()V",
+        "Lorg/objectweb/asm/ClassVisitor;->visitField()Lorg/objectweb/asm/FieldVisitor;"
+    ],
+    "Lorg/microemu/android/asm/ClassRenamer;": [
+        "Lorg/microemu/android/asm/ClassRenamer;->fix()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/android/asm/FieldNodeExt;": [
+        "Lorg/microemu/android/asm/FieldNodeExt;->compareTo()I"
+    ],
+    "Landroid/graphics/Paint;": [
+        "Landroid/graphics/Paint;->measureText()F",
+        "Landroid/graphics/Paint;->getColor()I",
+        "Landroid/graphics/Paint;->setTextSize()V",
+        "Landroid/graphics/Paint;->setStyle()V",
+        "Landroid/graphics/Paint;->setColor()V",
+        "Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;",
+        "Landroid/graphics/Paint;->setUnderlineText()V",
+        "Landroid/graphics/Paint;->setPathEffect()Landroid/graphics/PathEffect;",
+        "Landroid/graphics/Paint;->setAntiAlias()V",
+        "Landroid/graphics/Paint;->setTypeface()Landroid/graphics/Typeface;",
+        "Landroid/graphics/Paint;->getFontMetricsInt()I"
+    ],
+    "Landroid/graphics/Bitmap;": [
+        "Landroid/graphics/Bitmap;->getWidth()I",
+        "Landroid/graphics/Bitmap;->getPixels()V",
+        "Landroid/graphics/Bitmap;->getHeight()I",
+        "Landroid/graphics/Bitmap;->eraseColor()V",
+        "Landroid/graphics/Bitmap;->createBitmap()Landroid/graphics/Bitmap;"
+    ],
+    "Landroid/graphics/Canvas;": [
+        "Landroid/graphics/Canvas;->drawLine()V",
+        "Landroid/graphics/Canvas;->drawRoundRect()V",
+        "Landroid/graphics/Canvas;->drawBitmap()V",
+        "Landroid/graphics/Canvas;->getClipBounds()Landroid/graphics/Rect;",
+        "Landroid/graphics/Canvas;->drawRect()V",
+        "Landroid/graphics/Canvas;->translate()V",
+        "Landroid/graphics/Canvas;->drawText()V",
+        "Landroid/graphics/Canvas;->clipRect()Z",
+        "Landroid/graphics/Canvas;->drawPath()V",
+        "Landroid/graphics/Canvas;->drawArc()V"
+    ],
+    "Lorg/microemu/android/device/AndroidDisplayGraphics;": [
+        "Lorg/microemu/android/device/AndroidDisplayGraphics;->translate()V",
+        "Lorg/microemu/android/device/AndroidDisplayGraphics;->getTranslateY()I",
+        "Lorg/microemu/android/device/AndroidDisplayGraphics;->setColor()V",
+        "Lorg/microemu/android/device/AndroidDisplayGraphics;->setFont()V",
+        "Lorg/microemu/android/device/AndroidDisplayGraphics;->drawSubstring()V",
+        "Lorg/microemu/android/device/AndroidDisplayGraphics;->getTranslateX()I",
+        "Lorg/microemu/android/device/AndroidDisplayGraphics;->reset()V"
+    ],
+    "Lorg/microemu/android/device/GraphicsDelegate;": [
+        "Lorg/microemu/android/device/GraphicsDelegate;->setClip()V",
+        "Lorg/microemu/android/device/GraphicsDelegate;->drawRect()V",
+        "Lorg/microemu/android/device/GraphicsDelegate;->drawImage()V",
+        "Lorg/microemu/android/device/GraphicsDelegate;->fillRect()V",
+        "Lorg/microemu/android/device/GraphicsDelegate;->fillTriangle()V",
+        "Lorg/microemu/android/device/GraphicsDelegate;->drawLine()V",
+        "Lorg/microemu/android/device/GraphicsDelegate;->translate()V",
+        "Lorg/microemu/android/device/GraphicsDelegate;->drawSubstringDelegate()V",
+        "Lorg/microemu/android/device/GraphicsDelegate;->drawRegionDelegate()V"
+    ],
+    "Lorg/microemu/android/device/AndroidMutableImage;": [
+        "Lorg/microemu/android/device/AndroidMutableImage;->getHeight()I",
+        "Lorg/microemu/android/device/AndroidMutableImage;->getBitmap()Landroid/graphics/Bitmap;",
+        "Lorg/microemu/android/device/AndroidMutableImage;->getWidth()I"
+    ],
+    "Lorg/microemu/android/device/AndroidImmutableImage;": [
+        "Lorg/microemu/android/device/AndroidImmutableImage;->getHeight()I",
+        "Lorg/microemu/android/device/AndroidImmutableImage;->getBitmap()Landroid/graphics/Bitmap;",
+        "Lorg/microemu/android/device/AndroidImmutableImage;->getWidth()I"
+    ],
+    "Landroid/graphics/Matrix;": [
+        "Landroid/graphics/Matrix;->preRotate()Z",
+        "Landroid/graphics/Matrix;->preScale()Z",
+        "Landroid/graphics/Matrix;->reset()V"
+    ],
+    "Landroid/graphics/Path;": [
+        "Landroid/graphics/Path;->lineTo()V",
+        "Landroid/graphics/Path;->moveTo()V"
+    ],
+    "Lorg/microemu/android/device/AndroidFontManager;": [
+        "Lorg/microemu/android/device/AndroidFontManager;->getFont()Lorg/microemu/android/device/AndroidFont;"
+    ],
+    "Landroid/os/Vibrator;": [
+        "Landroid/os/Vibrator;->vibrate()V"
+    ],
+    "Landroid/graphics/BitmapFactory;": [
+        "Landroid/graphics/BitmapFactory;->decodeStream()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/BitmapFactory;->decodeByteArray()Landroid/graphics/Bitmap;"
+    ],
+    "Lorg/microemu/android/device/ui/AndroidCanvasUI;": [
+        "Lorg/microemu/android/device/ui/AndroidCanvasUI;->getGraphics()Lorg/microemu/android/device/AndroidDisplayGraphics;"
+    ],
+    "Lorg/microemu/app/ui/DisplayRepaintListener;": [
+        "Lorg/microemu/app/ui/DisplayRepaintListener;->repaintInvoked()V"
+    ],
+    "Landroid/graphics/Typeface;": [
+        "Landroid/graphics/Typeface;->create()Landroid/graphics/Typeface;"
+    ],
+    "Lorg/microemu/android/device/AndroidFont;": [
+        "Lorg/microemu/android/device/AndroidFont;->stringWidth()I",
+        "Lorg/microemu/android/device/AndroidFont;->getHeight()I",
+        "Lorg/microemu/android/device/AndroidFont;->getBaselinePosition()I",
+        "Lorg/microemu/android/device/AndroidFont;->substringWidth()I",
+        "Lorg/microemu/android/device/AndroidFont;->charWidth()I",
+        "Lorg/microemu/android/device/AndroidFont;->charsWidth()I"
+    ],
+    "Lorg/microemu/android/device/ui/AndroidListUI$AndroidListAdapter;": [
+        "Lorg/microemu/android/device/ui/AndroidListUI$AndroidListAdapter;->getItem()Lorg/microemu/android/device/ui/AndroidListUI$AndroidListAdapter$ViewHolder;",
+        "Lorg/microemu/android/device/ui/AndroidListUI$AndroidListAdapter;->append()I"
+    ],
+    "Lorg/microemu/android/device/ui/AndroidListUI$AndroidListView;": [
+        "Lorg/microemu/android/device/ui/AndroidListUI$AndroidListView;->getSelectedItemPosition()I",
+        "Lorg/microemu/android/device/ui/AndroidListUI$AndroidListView;->setSelection()V"
+    ],
+    "Lorg/microemu/android/device/ui/AndroidImageStringItemUI;": [
+        "Lorg/microemu/android/device/ui/AndroidImageStringItemUI;->setFocusable()V",
+        "Lorg/microemu/android/device/ui/AndroidImageStringItemUI;->setOrientation()V",
+        "Lorg/microemu/android/device/ui/AndroidImageStringItemUI;->addView()V",
+        "Lorg/microemu/android/device/ui/AndroidImageStringItemUI;->setFocusableInTouchMode()V",
+        "Lorg/microemu/android/device/ui/AndroidImageStringItemUI;->setLabel()V"
+    ],
+    "Ljavax/microedition/lcdui/StringItem;": [
+        "Ljavax/microedition/lcdui/StringItem;->getHeight()I",
+        "Ljavax/microedition/lcdui/StringItem;->setText()V",
+        "Ljavax/microedition/lcdui/StringItem;->getAppearanceMode()I",
+        "Ljavax/microedition/lcdui/StringItem;->repaint()V"
+    ],
+    "Ljavax/microedition/lcdui/ImageItem;": [
+        "Ljavax/microedition/lcdui/ImageItem;->getAppearanceMode()I",
+        "Ljavax/microedition/lcdui/ImageItem;->setLayout()V",
+        "Ljavax/microedition/lcdui/ImageItem;->setImage()V",
+        "Ljavax/microedition/lcdui/ImageItem;->repaint()V",
+        "Ljavax/microedition/lcdui/ImageItem;->getHeight()I"
+    ],
+    "Landroid/widget/ImageView;": [
+        "Landroid/widget/ImageView;->setClickable()V",
+        "Landroid/widget/ImageView;->setOnClickListener()V",
+        "Landroid/widget/ImageView;->setVisibility()V"
+    ],
+    "Ljavax/microedition/lcdui/Item;": [
+        "Ljavax/microedition/lcdui/Item;->traverse()I",
+        "Ljavax/microedition/lcdui/Item;->getHeight()I",
+        "Ljavax/microedition/lcdui/Item;->setPreferredSize()V",
+        "Ljavax/microedition/lcdui/Item;->setOwner()V",
+        "Ljavax/microedition/lcdui/Item;->getMaximumWidth()I",
+        "Ljavax/microedition/lcdui/Item;->getMinimumHeight()I",
+        "Ljavax/microedition/lcdui/Item;->setUI()V",
+        "Ljavax/microedition/lcdui/Item;->setItemCommandListener()V",
+        "Ljavax/microedition/lcdui/Item;->getMinimumWidth()I",
+        "Ljavax/microedition/lcdui/Item;->setFocus()V",
+        "Ljavax/microedition/lcdui/Item;->getMaximumHeight()I",
+        "Ljavax/microedition/lcdui/Item;->getLayout()I",
+        "Ljavax/microedition/lcdui/Item;->getLabel()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/Item;->repaint()V",
+        "Ljavax/microedition/lcdui/Item;->keyPressed()V",
+        "Ljavax/microedition/lcdui/Item;->setDefaultCommand()V",
+        "Ljavax/microedition/lcdui/Item;->select()Z",
+        "Ljavax/microedition/lcdui/Item;->repaintOwner()V",
+        "Ljavax/microedition/lcdui/Item;->getOwner()Ljavax/microedition/lcdui/Screen;",
+        "Ljavax/microedition/lcdui/Item;->isFocusable()Z",
+        "Ljavax/microedition/lcdui/Item;->setLabel()V",
+        "Ljavax/microedition/lcdui/Item;->paintContent()V",
+        "Ljavax/microedition/lcdui/Item;->addCommand()V",
+        "Ljavax/microedition/lcdui/Item;->setLayout()V",
+        "Ljavax/microedition/lcdui/Item;->paint()I"
+    ],
+    "Landroid/widget/EditText;": [
+        "Landroid/widget/EditText;->getText()Landroid/text/Editable;",
+        "Landroid/widget/EditText;->getSelectionStart()I"
+    ],
+    "Landroid/text/Editable;": [
+        "Landroid/text/Editable;->toString()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/android/device/ui/AndroidAlertUI;": [
+        "Lorg/microemu/android/device/ui/AndroidAlertUI;->getCommandsUI()Ljava/util/Vector;",
+        "Lorg/microemu/android/device/ui/AndroidAlertUI;->isToastable()Z",
+        "Lorg/microemu/android/device/ui/AndroidAlertUI;->buttonize()V",
+        "Lorg/microemu/android/device/ui/AndroidAlertUI;->getToastMessage()Ljava/lang/String;",
+        "Lorg/microemu/android/device/ui/AndroidAlertUI;->fixLookAndFeel()V"
+    ],
+    "Ljavax/microedition/lcdui/Alert;": [
+        "Ljavax/microedition/lcdui/Alert;->getTimeout()I",
+        "Ljavax/microedition/lcdui/Alert;->getTitle()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/Alert;->setType()V",
+        "Ljavax/microedition/lcdui/Alert;->setString()V",
+        "Ljavax/microedition/lcdui/Alert;->getContentHeight()I",
+        "Ljavax/microedition/lcdui/Alert;->getString()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/Alert;->repaint()V",
+        "Ljavax/microedition/lcdui/Alert;->getType()Ljavax/microedition/lcdui/AlertType;",
+        "Ljavax/microedition/lcdui/Alert;->setTimeout()V",
+        "Ljavax/microedition/lcdui/Alert;->getCommands()Ljava/util/Vector;",
+        "Ljavax/microedition/lcdui/Alert;->getDefaultTimeout()I",
+        "Ljavax/microedition/lcdui/Alert;->setImage()V"
+    ],
+    "Lorg/microemu/android/device/ui/AndroidCommandUI;": [
+        "Lorg/microemu/android/device/ui/AndroidCommandUI;->getCommand()Ljavax/microedition/lcdui/Command;"
+    ],
+    "Landroid/view/Display;": [
+        "Landroid/view/Display;->getHeight()I",
+        "Landroid/view/Display;->getMetrics()V",
+        "Landroid/view/Display;->getWidth()I"
+    ],
+    "Landroid/widget/DatePicker;": [
+        "Landroid/widget/DatePicker;->getMonth()I",
+        "Landroid/widget/DatePicker;->getYear()I",
+        "Landroid/widget/DatePicker;->getDayOfMonth()I"
+    ],
+    "Ljava/util/GregorianCalendar;": [
+        "Ljava/util/GregorianCalendar;->getTime()Ljava/util/Date;",
+        "Ljava/util/GregorianCalendar;->set()V"
+    ],
+    "Landroid/widget/TimePicker;": [
+        "Landroid/widget/TimePicker;->getCurrentMinute()Ljava/lang/Integer;",
+        "Landroid/widget/TimePicker;->getCurrentHour()Ljava/lang/Integer;"
+    ],
+    "Landroid/widget/SeekBar;": [
+        "Landroid/widget/SeekBar;->getProgress()I"
+    ],
+    "Lorg/microemu/android/device/ui/AndroidChoiceGroupUI;": [
+        "Lorg/microemu/android/device/ui/AndroidChoiceGroupUI;->setSelectedIndex()V",
+        "Lorg/microemu/android/device/ui/AndroidChoiceGroupUI;->isSelected()Z",
+        "Lorg/microemu/android/device/ui/AndroidChoiceGroupUI;->createView()Landroid/view/View;"
+    ],
+    "Landroid/widget/RadioButton;": [
+        "Landroid/widget/RadioButton;->setOnCheckedChangeListener()V",
+        "Landroid/widget/RadioButton;->setLayoutParams()V",
+        "Landroid/widget/RadioButton;->setText()V"
+    ],
+    "Landroid/widget/CheckBox;": [
+        "Landroid/widget/CheckBox;->setOnCheckedChangeListener()V",
+        "Landroid/widget/CheckBox;->setText()V",
+        "Landroid/widget/CheckBox;->setLayoutParams()V"
+    ],
+    "Landroid/view/ViewGroup;": [
+        "Landroid/view/ViewGroup;->addView()V",
+        "Landroid/view/ViewGroup;->removeAllViews()V",
+        "Landroid/view/ViewGroup;->removeViewAt()V"
+    ],
+    "Lorg/microemu/android/device/ui/AndroidChoiceGroupUI$AndroidListAdapterEx;": [
+        "Lorg/microemu/android/device/ui/AndroidChoiceGroupUI$AndroidListAdapterEx;->set()V",
+        "Lorg/microemu/android/device/ui/AndroidChoiceGroupUI$AndroidListAdapterEx;->getCount()I",
+        "Lorg/microemu/android/device/ui/AndroidChoiceGroupUI$AndroidListAdapterEx;->clear()V",
+        "Lorg/microemu/android/device/ui/AndroidChoiceGroupUI$AndroidListAdapterEx;->getItem()Ljava/lang/Object;",
+        "Lorg/microemu/android/device/ui/AndroidChoiceGroupUI$AndroidListAdapterEx;->remove()V"
+    ],
+    "Landroid/widget/CompoundButton;": [
+        "Landroid/widget/CompoundButton;->isChecked()Z",
+        "Landroid/widget/CompoundButton;->getText()Ljava/lang/CharSequence;"
+    ],
+    "Landroid/widget/AdapterView;": [
+        "Landroid/widget/AdapterView;->getSelectedItemPosition()I"
+    ],
+    "Lorg/microemu/android/device/ui/AndroidFormUI;": [
+        "Lorg/microemu/android/device/ui/AndroidFormUI;->doAppend()I"
+    ],
+    "Landroid/widget/ScrollView;": [
+        "Landroid/widget/ScrollView;->removeAllViews()V"
+    ],
+    "Lorg/microemu/android/device/ui/AndroidFormUI$AndroidListView;": [
+        "Lorg/microemu/android/device/ui/AndroidFormUI$AndroidListView;->getChildCount()I",
+        "Lorg/microemu/android/device/ui/AndroidFormUI$AndroidListView;->addView()V"
+    ],
+    "Landroid/app/Service;": [
+        "Landroid/app/Service;->onDestroy()V",
+        "Landroid/app/Service;->onStart()V",
+        "Landroid/app/Service;->onCreate()V"
+    ],
+    "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/y;": [
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/y;->a()Z",
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/y;->start()V",
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/y;->a()V",
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/y;->a()J"
+    ],
+    "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/ux;": [
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/ux;->stopSelf()V"
+    ],
+    "Landroid/webkit/WebView;": [
+        "Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;"
+    ],
+    "Landroid/webkit/WebSettings;": [
+        "Landroid/webkit/WebSettings;->getUserAgentString()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/f;": [
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/f;->a()V"
+    ],
+    "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/fy;": [
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/fy;->a()Z"
+    ],
+    "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/v;": [
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/v;->a()Ljava/lang/String;",
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/v;->a()Z",
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/v;->a()V"
+    ],
+    "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/fgl;": [
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/fgl;->start()V"
+    ],
+    "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/dfk;": [
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/dfk;->a()Z"
+    ],
+    "Landroid/os/Environment;": [
+        "Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;",
+        "Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;"
+    ],
+    "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/md;": [
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/md;->a()Ljava/lang/String;"
+    ],
+    "Lorg/apache/http/params/HttpConnectionParams;": [
+        "Lorg/apache/http/params/HttpConnectionParams;->setSoTimeout()V",
+        "Lorg/apache/http/params/HttpConnectionParams;->setConnectionTimeout()V"
+    ],
+    "Lorg/apache/http/client/methods/HttpGet;": [
+        "Lorg/apache/http/client/methods/HttpGet;->addHeader()V"
+    ],
+    "Lorg/apache/http/impl/client/DefaultHttpClient;": [
+        "Lorg/apache/http/impl/client/DefaultHttpClient;->execute()Lorg/apache/http/HttpResponse;"
+    ],
+    "Lorg/apache/http/HttpResponse;": [
+        "Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;"
+    ],
+    "Lorg/apache/http/util/EntityUtils;": [
+        "Lorg/apache/http/util/EntityUtils;->toString()Ljava/lang/String;"
+    ],
+    "Lorg/apache/http/client/methods/HttpPost;": [
+        "Lorg/apache/http/client/methods/HttpPost;->setParams()V",
+        "Lorg/apache/http/client/methods/HttpPost;->setEntity()V"
+    ],
+    "Landroid/os/Looper;": [
+        "Landroid/os/Looper;->prepare()V",
+        "Landroid/os/Looper;->loop()V"
+    ],
+    "Ldalvik/system/DexClassLoader;": [
+        "Ldalvik/system/DexClassLoader;->loadClass()Ljava/lang/Class;"
+    ],
+    "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/r;": [
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/r;->a()Ljava/lang/String;",
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/r;->a()[B",
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/r;->a()J",
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/r;->a()B",
+        "Lorg/microemu/android/custom/TurtlesMidlet20101201132245875MVP/ukhw/r;->a()V"
+    ],
+    "Ljavax/crypto/Cipher;": [
+        "Ljavax/crypto/Cipher;->getInstance()Ljavax/crypto/Cipher;",
+        "Ljavax/crypto/Cipher;->doFinal()[B"
+    ],
+    "Ljava/lang/Byte;": [
+        "Ljava/lang/Byte;->parseByte()B"
+    ],
+    "Ljavax/crypto/KeyGenerator;": [
+        "Ljavax/crypto/KeyGenerator;->getInstance()Ljavax/crypto/KeyGenerator;",
+        "Ljavax/crypto/KeyGenerator;->generateKey()Ljavax/crypto/SecretKey;"
+    ],
+    "Ljava/security/SecureRandom;": [
+        "Ljava/security/SecureRandom;->setSeed()V",
+        "Ljava/security/SecureRandom;->getInstance()Ljava/security/SecureRandom;"
+    ],
+    "Ljavax/crypto/SecretKey;": [
+        "Ljavax/crypto/SecretKey;->getEncoded()[B"
+    ],
+    "Lorg/microemu/android/util/AndroidRecordStoreManager;": [
+        "Lorg/microemu/android/util/AndroidRecordStoreManager;->getRecordFileName()Ljava/lang/String;",
+        "Lorg/microemu/android/util/AndroidRecordStoreManager;->getHeaderFileName()Ljava/lang/String;",
+        "Lorg/microemu/android/util/AndroidRecordStoreManager;->listRecordStores()[Ljava/lang/String;",
+        "Lorg/microemu/android/util/AndroidRecordStoreManager;->deleteFromDisk()V",
+        "Lorg/microemu/android/util/AndroidRecordStoreManager;->deleteRecordStore()V",
+        "Lorg/microemu/android/util/AndroidRecordStoreManager;->fireRecordStoreListener()V",
+        "Lorg/microemu/android/util/AndroidRecordStoreManager;->saveToDisk()V"
+    ],
+    "Ljava/util/concurrent/ConcurrentHashMap;": [
+        "Ljava/util/concurrent/ConcurrentHashMap;->remove()Ljava/lang/Object;",
+        "Ljava/util/concurrent/ConcurrentHashMap;->keySet()Ljava/util/Set;",
+        "Ljava/util/concurrent/ConcurrentHashMap;->get()Ljava/lang/Object;",
+        "Ljava/util/concurrent/ConcurrentHashMap;->put()Ljava/lang/Object;"
+    ],
+    "Ljavax/microedition/rms/RecordEnumeration;": [
+        "Ljavax/microedition/rms/RecordEnumeration;->hasNextElement()Z",
+        "Ljavax/microedition/rms/RecordEnumeration;->nextRecordId()I"
+    ],
+    "Lorg/microemu/android/util/MD5Util;": [
+        "Lorg/microemu/android/util/MD5Util;->II()J",
+        "Lorg/microemu/android/util/MD5Util;->HH()J",
+        "Lorg/microemu/android/util/MD5Util;->Decode()V",
+        "Lorg/microemu/android/util/MD5Util;->md5Memcpy()V",
+        "Lorg/microemu/android/util/MD5Util;->FF()J",
+        "Lorg/microemu/android/util/MD5Util;->GG()J",
+        "Lorg/microemu/android/util/MD5Util;->md5Init()V",
+        "Lorg/microemu/android/util/MD5Util;->getMD5ofStr()Ljava/lang/String;",
+        "Lorg/microemu/android/util/MD5Util;->b2iu()J",
+        "Lorg/microemu/android/util/MD5Util;->a()J",
+        "Lorg/microemu/android/util/MD5Util;->md5Update()V",
+        "Lorg/microemu/android/util/MD5Util;->byteHEX()Ljava/lang/String;",
+        "Lorg/microemu/android/util/MD5Util;->Encode()V",
+        "Lorg/microemu/android/util/MD5Util;->md5Transform()V",
+        "Lorg/microemu/android/util/MD5Util;->md5Final()V"
+    ],
+    "Lorg/microemu/android/util/AndroidLoggerAppender;": [
+        "Lorg/microemu/android/util/AndroidLoggerAppender;->formatLocation()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/app/Config;": [
+        "Lorg/microemu/app/Config;->removeDeviceEntry()V",
+        "Lorg/microemu/app/Config;->saveConfig()V",
+        "Lorg/microemu/app/Config;->getRecordStoreManagerClassName()Ljava/lang/String;",
+        "Lorg/microemu/app/Config;->getExtensions()Ljava/util/Map;",
+        "Lorg/microemu/app/Config;->addDeviceEntry()V",
+        "Lorg/microemu/app/Config;->getEmulatorID()Ljava/lang/String;",
+        "Lorg/microemu/app/Config;->getUrlsMRU()Lorg/microemu/app/util/MRUList;",
+        "Lorg/microemu/app/Config;->createDefaultConfigXml()V",
+        "Lorg/microemu/app/Config;->loadConfigFile()V",
+        "Lorg/microemu/app/Config;->getConfigPath()Ljava/io/File;",
+        "Lorg/microemu/app/Config;->setEmulatorID()V",
+        "Lorg/microemu/app/Config;->getDeviceEntries()Ljava/util/Vector;"
+    ],
+    "Lorg/microemu/app/util/DeviceEntry;": [
+        "Lorg/microemu/app/util/DeviceEntry;->getDescriptorLocation()Ljava/lang/String;",
+        "Lorg/microemu/app/util/DeviceEntry;->isDefaultDevice()Z",
+        "Lorg/microemu/app/util/DeviceEntry;->getName()Ljava/lang/String;",
+        "Lorg/microemu/app/util/DeviceEntry;->getFileName()Ljava/lang/String;",
+        "Lorg/microemu/app/util/DeviceEntry;->setDefaultDevice()V",
+        "Lorg/microemu/app/util/DeviceEntry;->setFileName()V",
+        "Lorg/microemu/app/util/DeviceEntry;->canRemove()Z"
+    ],
+    "Lorg/microemu/app/util/MRUList;": [
+        "Lorg/microemu/app/util/MRUList;->fireListener()V",
+        "Lorg/microemu/app/util/MRUList;->read()V",
+        "Lorg/microemu/app/util/MRUList;->save()V",
+        "Lorg/microemu/app/util/MRUList;->push()Ljava/lang/Object;"
+    ],
+    "Lorg/microemu/app/classloader/MIDletClassLoader;": [
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->loadClass()Ljava/lang/Class;",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->getClassResourceName()Ljava/lang/String;",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->addURL()V",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->classLoadByParent()Z",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->defineClass()Ljava/lang/Class;",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->findLoadedClass()Ljava/lang/Class;",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->addClassURL()V",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->getParent()Ljava/lang/ClassLoader;",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->getResource()Ljava/net/URL;",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->findClass()Ljava/lang/Class;",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->configure()V",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->resolveClass()V",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->getResourceAsStream()Ljava/io/InputStream;",
+        "Lorg/microemu/app/classloader/MIDletClassLoader;->disableClassPreporcessing()V"
+    ],
+    "Lorg/microemu/app/ui/Message;": [
+        "Lorg/microemu/app/ui/Message;->callListeners()V",
+        "Lorg/microemu/app/ui/Message;->getCauseMessage()Ljava/lang/String;",
+        "Lorg/microemu/app/ui/Message;->error()V"
+    ],
+    "Lorg/microemu/app/ui/ResponseInterfaceListener;": [
+        "Lorg/microemu/app/ui/ResponseInterfaceListener;->stateChanged()V"
+    ],
+    "Lorg/microemu/app/ui/StatusBarListener;": [
+        "Lorg/microemu/app/ui/StatusBarListener;->statusBarChanged()V"
+    ],
+    "Lorg/microemu/app/util/MIDletThread;": [
+        "Lorg/microemu/app/util/MIDletThread;->isAlive()Z",
+        "Lorg/microemu/app/util/MIDletThread;->getName()Ljava/lang/String;",
+        "Lorg/microemu/app/util/MIDletThread;->register()V",
+        "Lorg/microemu/app/util/MIDletThread;->terminateThreads()V",
+        "Lorg/microemu/app/util/MIDletThread;->nextThreadNum()I",
+        "Lorg/microemu/app/util/MIDletThread;->join()V",
+        "Lorg/microemu/app/util/MIDletThread;->interrupt()V",
+        "Lorg/microemu/app/util/MIDletThread;->contextDestroyed()V",
+        "Lorg/microemu/app/util/MIDletThread;->start()V"
+    ],
+    "Lorg/microemu/app/classloader/MIDletClassLoaderConfig;": [
+        "Lorg/microemu/app/classloader/MIDletClassLoaderConfig;->getDelegationType()I",
+        "Lorg/microemu/app/classloader/MIDletClassLoaderConfig;->setDelegationType()V",
+        "Lorg/microemu/app/classloader/MIDletClassLoaderConfig;->addAppClass()V",
+        "Lorg/microemu/app/classloader/MIDletClassLoaderConfig;->isClassLoaderDisabled()Z",
+        "Lorg/microemu/app/classloader/MIDletClassLoaderConfig;->addAppClassPath()V"
+    ],
+    "Lorg/microemu/MIDletEntry;": [
+        "Lorg/microemu/MIDletEntry;->getName()Ljava/lang/String;",
+        "Lorg/microemu/MIDletEntry;->getMIDletClass()Ljava/lang/Class;"
+    ],
+    "Ljava/net/URI;": [
+        "Ljava/net/URI;->toURL()Ljava/net/URL;"
+    ],
+    "Lorg/microemu/app/ConfigurationException;": [
+        "Lorg/microemu/app/ConfigurationException;->getMessage()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/app/classloader/ExtensionsClassLoader;": [
+        "Lorg/microemu/app/classloader/ExtensionsClassLoader;->addClasspath()V",
+        "Lorg/microemu/app/classloader/ExtensionsClassLoader;->loadClass()Ljava/lang/Class;",
+        "Lorg/microemu/app/classloader/ExtensionsClassLoader;->addURL()V"
+    ],
+    "Lorg/microemu/util/JadMidletEntry;": [
+        "Lorg/microemu/util/JadMidletEntry;->getClassName()Ljava/lang/String;",
+        "Lorg/microemu/util/JadMidletEntry;->getName()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/microedition/ImplementationInitialization;": [
+        "Lorg/microemu/microedition/ImplementationInitialization;->registerImplementation()V",
+        "Lorg/microemu/microedition/ImplementationInitialization;->notifyMIDletDestroyed()V",
+        "Lorg/microemu/microedition/ImplementationInitialization;->notifyMIDletStart()V"
+    ],
+    "Ljava/lang/reflect/Modifier;": [
+        "Ljava/lang/reflect/Modifier;->isPublic()Z",
+        "Ljava/lang/reflect/Modifier;->isStatic()Z"
+    ],
+    "Ljava/util/StringTokenizer;": [
+        "Ljava/util/StringTokenizer;->nextToken()Ljava/lang/String;",
+        "Ljava/util/StringTokenizer;->hasMoreTokens()Z"
+    ],
+    "Lorg/microemu/app/util/MIDletOutputStreamRedirector;": [
+        "Lorg/microemu/app/util/MIDletOutputStreamRedirector;->errPrintStream()Ljava/io/PrintStream;",
+        "Lorg/microemu/app/util/MIDletOutputStreamRedirector;->outPrintStream()Ljava/io/PrintStream;"
+    ],
+    "Lorg/microemu/app/util/MIDletTimer;": [
+        "Lorg/microemu/app/util/MIDletTimer;->schedule()V",
+        "Lorg/microemu/app/util/MIDletTimer;->register()V",
+        "Lorg/microemu/app/util/MIDletTimer;->contextDestroyed()V",
+        "Lorg/microemu/app/util/MIDletTimer;->unregister()V",
+        "Lorg/microemu/app/util/MIDletTimer;->terminate()V",
+        "Lorg/microemu/app/util/MIDletTimer;->terminateTimers()V"
+    ],
+    "Lorg/microemu/app/util/MIDletTimerTask;": [
+        "Lorg/microemu/app/util/MIDletTimerTask;->run()V"
+    ],
+    "Lorg/microemu/app/util/FileRecordStoreManager;": [
+        "Lorg/microemu/app/util/FileRecordStoreManager;->recordStoreName2FileName()Ljava/lang/String;",
+        "Lorg/microemu/app/util/FileRecordStoreManager;->saveToDisk()V",
+        "Lorg/microemu/app/util/FileRecordStoreManager;->loadFromDiskSecure()Lorg/microemu/util/RecordStoreImpl;",
+        "Lorg/microemu/app/util/FileRecordStoreManager;->listRecordStores()[Ljava/lang/String;",
+        "Lorg/microemu/app/util/FileRecordStoreManager;->escapeCharacter()Ljava/lang/String;",
+        "Lorg/microemu/app/util/FileRecordStoreManager;->saveRecord()V",
+        "Lorg/microemu/app/util/FileRecordStoreManager;->loadFromDisk()Lorg/microemu/util/RecordStoreImpl;",
+        "Lorg/microemu/app/util/FileRecordStoreManager;->getSuiteFolder()Ljava/io/File;",
+        "Lorg/microemu/app/util/FileRecordStoreManager;->deleteRecordStore()V",
+        "Lorg/microemu/app/util/FileRecordStoreManager;->saveToDiskSecure()V",
+        "Lorg/microemu/app/util/FileRecordStoreManager;->fireRecordStoreListener()V",
+        "Lorg/microemu/app/util/FileRecordStoreManager;->fileName2RecordStoreName()Ljava/lang/String;"
+    ],
+    "Ljava/util/Properties;": [
+        "Ljava/util/Properties;->getProperty()Ljava/lang/String;",
+        "Ljava/util/Properties;->remove()Ljava/lang/Object;",
+        "Ljava/util/Properties;->load()V"
+    ],
+    "Lorg/microemu/util/ThreadUtils;": [
+        "Lorg/microemu/util/ThreadUtils;->getTreadStackTrace()Ljava/lang/String;",
+        "Lorg/microemu/util/ThreadUtils;->getCallLocation()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/app/util/MRUListListener;": [
+        "Lorg/microemu/app/util/MRUListListener;->listItemChanged()V"
+    ],
+    "Ljava/util/Stack;": [
+        "Ljava/util/Stack;->listIterator()Ljava/util/ListIterator;",
+        "Ljava/util/Stack;->empty()Z",
+        "Ljava/util/Stack;->add()Z",
+        "Ljava/util/Stack;->removeAllElements()V",
+        "Ljava/util/Stack;->size()I",
+        "Ljava/util/Stack;->pop()Ljava/lang/Object;",
+        "Ljava/util/Stack;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/Stack;->remove()Z",
+        "Ljava/util/Stack;->insertElementAt()V"
+    ],
+    "Ljava/util/ListIterator;": [
+        "Ljava/util/ListIterator;->previous()Ljava/lang/Object;",
+        "Ljava/util/ListIterator;->hasPrevious()Z"
+    ],
+    "Lorg/microemu/app/util/XMLItem;": [
+        "Lorg/microemu/app/util/XMLItem;->read()V",
+        "Lorg/microemu/app/util/XMLItem;->save()V"
+    ],
+    "Lorg/microemu/app/util/RuntimeDetect;": [
+        "Lorg/microemu/app/util/RuntimeDetect;->detectJava14()Z",
+        "Lorg/microemu/app/util/RuntimeDetect;->detect()V",
+        "Lorg/microemu/app/util/RuntimeDetect;->detectJava15()Z",
+        "Lorg/microemu/app/util/RuntimeDetect;->java5Function()Z",
+        "Lorg/microemu/app/util/RuntimeDetect;->detectEclipse()V"
+    ],
+    "Lorg/microemu/app/ui/MessageListener;": [
+        "Lorg/microemu/app/ui/MessageListener;->showMessage()V"
+    ],
+    "Lorg/microemu/app/classloader/InstrumentationConfig;": [
+        "Lorg/microemu/app/classloader/InstrumentationConfig;->isEnhanceThreadCreation()Z",
+        "Lorg/microemu/app/classloader/InstrumentationConfig;->isEnhanceCatchBlock()Z",
+        "Lorg/microemu/app/classloader/InstrumentationConfig;->setEnhanceThreadCreation()V",
+        "Lorg/microemu/app/classloader/InstrumentationConfig;->setEnhanceCatchBlock()V"
+    ],
+    "Ljava/net/URLClassLoader;": [
+        "Ljava/net/URLClassLoader;->addURL()V",
+        "Ljava/net/URLClassLoader;->loadClass()Ljava/lang/Class;",
+        "Ljava/net/URLClassLoader;->getResource()Ljava/net/URL;"
+    ],
+    "Lorg/microemu/app/classloader/ClassPreprocessor;": [
+        "Lorg/microemu/app/classloader/ClassPreprocessor;->instrument()[B"
+    ],
+    "Lorg/microemu/app/classloader/ChangeCallsMethodVisitor;": [
+        "Lorg/microemu/app/classloader/ChangeCallsMethodVisitor;->codeName()Ljava/lang/String;"
+    ],
+    "Lorg/objectweb/asm/MethodVisitor;": [
+        "Lorg/objectweb/asm/MethodVisitor;->visitTypeInsn()V",
+        "Lorg/objectweb/asm/MethodVisitor;->visitTryCatchBlock()V",
+        "Lorg/objectweb/asm/MethodVisitor;->visitLabel()V",
+        "Lorg/objectweb/asm/MethodVisitor;->visitFieldInsn()V",
+        "Lorg/objectweb/asm/MethodVisitor;->visitMethodInsn()V"
+    ],
+    "Ljavax/bluetooth/UUID;": [
+        "Ljavax/bluetooth/UUID;->equals()Z",
+        "Ljavax/bluetooth/UUID;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/util/Calendar;": [
+        "Ljava/util/Calendar;->setTime()V",
+        "Ljava/util/Calendar;->get()I",
+        "Ljava/util/Calendar;->getTime()Ljava/util/Date;",
+        "Ljava/util/Calendar;->set()V",
+        "Ljava/util/Calendar;->add()V",
+        "Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;"
+    ],
+    "Ljavax/microedition/lcdui/DateCanvas;": [
+        "Ljavax/microedition/lcdui/DateCanvas;->getGameAction()I",
+        "Ljavax/microedition/lcdui/DateCanvas;->repaint()V",
+        "Ljavax/microedition/lcdui/DateCanvas;->addCommand()V",
+        "Ljavax/microedition/lcdui/DateCanvas;->getWidth()I",
+        "Ljavax/microedition/lcdui/DateCanvas;->getHeight()I",
+        "Ljavax/microedition/lcdui/DateCanvas;->setCommandListener()V",
+        "Ljavax/microedition/lcdui/DateCanvas;->setTime()V"
+    ],
+    "Lorg/microemu/device/FontManager;": [
+        "Lorg/microemu/device/FontManager;->getHeight()I",
+        "Lorg/microemu/device/FontManager;->getBaselinePosition()I",
+        "Lorg/microemu/device/FontManager;->charWidth()I",
+        "Lorg/microemu/device/FontManager;->substringWidth()I",
+        "Lorg/microemu/device/FontManager;->stringWidth()I",
+        "Lorg/microemu/device/FontManager;->charsWidth()I"
+    ],
+    "Ljavax/microedition/lcdui/StringComponent;": [
+        "Ljavax/microedition/lcdui/StringComponent;->setText()V",
+        "Ljavax/microedition/lcdui/StringComponent;->getCharPositionX()I",
+        "Ljavax/microedition/lcdui/StringComponent;->invertPaint()V",
+        "Ljavax/microedition/lcdui/StringComponent;->getCharHeight()I",
+        "Ljavax/microedition/lcdui/StringComponent;->insertBreak()V",
+        "Ljavax/microedition/lcdui/StringComponent;->getCharPositionY()I",
+        "Ljavax/microedition/lcdui/StringComponent;->paint()I",
+        "Ljavax/microedition/lcdui/StringComponent;->getText()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/StringComponent;->setWidthDecreaser()V",
+        "Ljavax/microedition/lcdui/StringComponent;->updateBreaks()V",
+        "Ljavax/microedition/lcdui/StringComponent;->getHeight()I"
+    ],
+    "Lorg/microemu/device/DeviceDisplay;": [
+        "Lorg/microemu/device/DeviceDisplay;->numColors()I",
+        "Lorg/microemu/device/DeviceDisplay;->createImage()Ljavax/microedition/lcdui/Image;",
+        "Lorg/microemu/device/DeviceDisplay;->getHeight()I",
+        "Lorg/microemu/device/DeviceDisplay;->getWidth()I",
+        "Lorg/microemu/device/DeviceDisplay;->getGraphics()Ljavax/microedition/lcdui/Graphics;",
+        "Lorg/microemu/device/DeviceDisplay;->createRGBImage()Ljavax/microedition/lcdui/Image;",
+        "Lorg/microemu/device/DeviceDisplay;->getFullHeight()I",
+        "Lorg/microemu/device/DeviceDisplay;->getFullWidth()I",
+        "Lorg/microemu/device/DeviceDisplay;->numAlphaLevels()I",
+        "Lorg/microemu/device/DeviceDisplay;->flushGraphics()V",
+        "Lorg/microemu/device/DeviceDisplay;->setScrollDown()V",
+        "Lorg/microemu/device/DeviceDisplay;->setScrollUp()V",
+        "Lorg/microemu/device/DeviceDisplay;->repaint()V",
+        "Lorg/microemu/device/DeviceDisplay;->isColor()Z"
+    ],
+    "Lorg/microemu/device/ui/UIFactory;": [
+        "Lorg/microemu/device/ui/UIFactory;->createListUI()Lorg/microemu/device/ui/ListUI;",
+        "Lorg/microemu/device/ui/UIFactory;->createGaugeUI()Lorg/microemu/device/ui/GaugeUI;",
+        "Lorg/microemu/device/ui/UIFactory;->createTextFieldUI()Lorg/microemu/device/ui/TextFieldUI;",
+        "Lorg/microemu/device/ui/UIFactory;->createCustomItemUI()Lorg/microemu/device/ui/CustomItemUI;",
+        "Lorg/microemu/device/ui/UIFactory;->createChoiceGroupUI()Lorg/microemu/device/ui/ChoiceGroupUI;",
+        "Lorg/microemu/device/ui/UIFactory;->createFormUI()Lorg/microemu/device/ui/FormUI;",
+        "Lorg/microemu/device/ui/UIFactory;->createTextBoxUI()Lorg/microemu/device/ui/TextBoxUI;",
+        "Lorg/microemu/device/ui/UIFactory;->createCommandUI()Lorg/microemu/device/ui/CommandUI;",
+        "Lorg/microemu/device/ui/UIFactory;->createCanvasUI()Lorg/microemu/device/ui/CanvasUI;",
+        "Lorg/microemu/device/ui/UIFactory;->createAlertUI()Lorg/microemu/device/ui/AlertUI;",
+        "Lorg/microemu/device/ui/UIFactory;->createDateFieldUI()Lorg/microemu/device/ui/DateFieldUI;",
+        "Lorg/microemu/device/ui/UIFactory;->createImageStringItemUI()Lorg/microemu/device/ui/ImageStringItemUI;",
+        "Lorg/microemu/device/ui/UIFactory;->createEventDispatcher()Lorg/microemu/device/ui/EventDispatcher;"
+    ],
+    "Ljavax/microedition/lcdui/DateField;": [
+        "Ljavax/microedition/lcdui/DateField;->formatTime()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/DateField;->setInputMode()V",
+        "Ljavax/microedition/lcdui/DateField;->updateDateTimeString()V",
+        "Ljavax/microedition/lcdui/DateField;->getOwner()Ljavax/microedition/lcdui/Screen;",
+        "Ljavax/microedition/lcdui/DateField;->formatDate()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/DateField;->getHeight()I"
+    ],
+    "Ljavax/microedition/lcdui/TimeCanvas;": [
+        "Ljavax/microedition/lcdui/TimeCanvas;->repaint()V",
+        "Ljavax/microedition/lcdui/TimeCanvas;->getGameAction()I",
+        "Ljavax/microedition/lcdui/TimeCanvas;->setTime()V",
+        "Ljavax/microedition/lcdui/TimeCanvas;->getWidth()I",
+        "Ljavax/microedition/lcdui/TimeCanvas;->addCommand()V",
+        "Ljavax/microedition/lcdui/TimeCanvas;->getHeight()I",
+        "Ljavax/microedition/lcdui/TimeCanvas;->setCommandListener()V"
+    ],
+    "Lorg/microemu/device/ui/DateFieldUI;": [
+        "Lorg/microemu/device/ui/DateFieldUI;->getDate()Ljava/util/Date;",
+        "Lorg/microemu/device/ui/DateFieldUI;->setInputMode()V",
+        "Lorg/microemu/device/ui/DateFieldUI;->setDate()V"
+    ],
+    "Ljavax/microedition/lcdui/ChoiceGroup;": [
+        "Ljavax/microedition/lcdui/ChoiceGroup;->getOwner()Ljavax/microedition/lcdui/Screen;",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->getSelectedFlags()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->insert()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->setFont()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->getSelectedIndex()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->hasFocus()Z",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->set()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->getString()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->append()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->getHeightToItem()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->getFitPolicy()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->delete()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->isSelected()Z",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->setSelectedFlags()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->repaint()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->deleteAll()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->paint()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->traverse()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->getFont()Ljavax/microedition/lcdui/Font;",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->getHeight()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->setFocus()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->size()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->setFitPolicy()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->setOwner()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->getItemHeight()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->getImage()Ljavax/microedition/lcdui/Image;",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->setSelectedIndex()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->getItemIndexAt()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup;->select()Z"
+    ],
+    "Lorg/microemu/device/ui/ImageStringItemUI;": [
+        "Lorg/microemu/device/ui/ImageStringItemUI;->setImage()V",
+        "Lorg/microemu/device/ui/ImageStringItemUI;->setText()V"
+    ],
+    "Ljavax/microedition/lcdui/Screen;": [
+        "Ljavax/microedition/lcdui/Screen;->getCommands()Ljava/util/Vector;",
+        "Ljavax/microedition/lcdui/Screen;->paintContent()I",
+        "Ljavax/microedition/lcdui/Screen;->getCommandListener()Ljavax/microedition/lcdui/CommandListener;",
+        "Ljavax/microedition/lcdui/Screen;->setTicker()V",
+        "Ljavax/microedition/lcdui/Screen;->hideNotify()V",
+        "Ljavax/microedition/lcdui/Screen;->traverse()I",
+        "Ljavax/microedition/lcdui/Screen;->getTicker()Ljavax/microedition/lcdui/Ticker;",
+        "Ljavax/microedition/lcdui/Screen;->getWidth()I",
+        "Ljavax/microedition/lcdui/Screen;->removeCommand()V",
+        "Ljavax/microedition/lcdui/Screen;->getTitle()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/Screen;->addCommand()V",
+        "Ljavax/microedition/lcdui/Screen;->showNotify()V",
+        "Ljavax/microedition/lcdui/Screen;->setUI()V",
+        "Ljavax/microedition/lcdui/Screen;->keyPressed()V",
+        "Ljavax/microedition/lcdui/Screen;->setCommandListener()V",
+        "Ljavax/microedition/lcdui/Screen;->setTitle()V",
+        "Ljavax/microedition/lcdui/Screen;->repaint()V",
+        "Ljavax/microedition/lcdui/Screen;->getHeight()I"
+    ],
+    "Ljavax/microedition/lcdui/TextField;": [
+        "Ljavax/microedition/lcdui/TextField;->setChars()V",
+        "Ljavax/microedition/lcdui/TextField;->delete()V",
+        "Ljavax/microedition/lcdui/TextField;->repaint()V",
+        "Ljavax/microedition/lcdui/TextField;->setCaretPosition()V",
+        "Ljavax/microedition/lcdui/TextField;->hasFocus()Z",
+        "Ljavax/microedition/lcdui/TextField;->getMaxSize()I",
+        "Ljavax/microedition/lcdui/TextField;->getHeight()I",
+        "Ljavax/microedition/lcdui/TextField;->traverse()I",
+        "Ljavax/microedition/lcdui/TextField;->size()I",
+        "Ljavax/microedition/lcdui/TextField;->insert()V",
+        "Ljavax/microedition/lcdui/TextField;->getCaretPosition()I",
+        "Ljavax/microedition/lcdui/TextField;->setString()V",
+        "Ljavax/microedition/lcdui/TextField;->setConstraints()V",
+        "Ljavax/microedition/lcdui/TextField;->getChars()I",
+        "Ljavax/microedition/lcdui/TextField;->getConstraints()I",
+        "Ljavax/microedition/lcdui/TextField;->setCaretVisible()V",
+        "Ljavax/microedition/lcdui/TextField;->paintContent()V",
+        "Ljavax/microedition/lcdui/TextField;->setMaxSize()I",
+        "Ljavax/microedition/lcdui/TextField;->getString()Ljava/lang/String;"
+    ],
+    "Lorg/microemu/device/ui/TextBoxUI;": [
+        "Lorg/microemu/device/ui/TextBoxUI;->getCaretPosition()I",
+        "Lorg/microemu/device/ui/TextBoxUI;->getString()Ljava/lang/String;",
+        "Lorg/microemu/device/ui/TextBoxUI;->setString()V"
+    ],
+    "Ljavax/microedition/lcdui/TextBox;": [
+        "Ljavax/microedition/lcdui/TextBox;->getMaxSize()I",
+        "Ljavax/microedition/lcdui/TextBox;->getWidth()I",
+        "Ljavax/microedition/lcdui/TextBox;->setCaretPosition()V",
+        "Ljavax/microedition/lcdui/TextBox;->getString()Ljava/lang/String;"
+    ],
+    "Ljava/util/Timer;": [
+        "Ljava/util/Timer;->scheduleAtFixedRate()V"
+    ],
+    "Ljavax/microedition/lcdui/Form;": [
+        "Ljavax/microedition/lcdui/Form;->fireItemStateListener()V",
+        "Ljavax/microedition/lcdui/Form;->verifyItem()V",
+        "Ljavax/microedition/lcdui/Form;->append()I",
+        "Ljavax/microedition/lcdui/Form;->getHeightToItem()I",
+        "Ljavax/microedition/lcdui/Form;->repaint()V",
+        "Ljavax/microedition/lcdui/Form;->getBottomVisibleIndex()I",
+        "Ljavax/microedition/lcdui/Form;->verifyItemNum()V",
+        "Ljavax/microedition/lcdui/Form;->getTopVisibleIndex()I"
+    ],
+    "Lorg/microemu/device/ui/FormUI;": [
+        "Lorg/microemu/device/ui/FormUI;->setItemStateListener()V",
+        "Lorg/microemu/device/ui/FormUI;->append()I",
+        "Lorg/microemu/device/ui/FormUI;->getItemStateListener()Ljavax/microedition/lcdui/ItemStateListener;",
+        "Lorg/microemu/device/ui/FormUI;->deleteAll()V",
+        "Lorg/microemu/device/ui/FormUI;->insert()V",
+        "Lorg/microemu/device/ui/FormUI;->delete()V",
+        "Lorg/microemu/device/ui/FormUI;->set()V"
+    ],
+    "Ljavax/microedition/lcdui/ItemStateListener;": [
+        "Ljavax/microedition/lcdui/ItemStateListener;->itemStateChanged()V"
+    ],
+    "Lorg/microemu/device/ui/TextFieldUI;": [
+        "Lorg/microemu/device/ui/TextFieldUI;->getString()Ljava/lang/String;",
+        "Lorg/microemu/device/ui/TextFieldUI;->setConstraints()V",
+        "Lorg/microemu/device/ui/TextFieldUI;->setString()V"
+    ],
+    "Ljava/lang/RuntimeException;": [
+        "Ljava/lang/RuntimeException;->printStackTrace()V"
+    ],
+    "Ljavax/microedition/lcdui/CustomItem;": [
+        "Ljavax/microedition/lcdui/CustomItem;->getPrefContentWidth()I",
+        "Ljavax/microedition/lcdui/CustomItem;->getHeight()I",
+        "Ljavax/microedition/lcdui/CustomItem;->repaintOwner()V",
+        "Ljavax/microedition/lcdui/CustomItem;->repaint()V",
+        "Ljavax/microedition/lcdui/CustomItem;->getPrefContentHeight()I",
+        "Ljavax/microedition/lcdui/CustomItem;->keyPressed()V",
+        "Ljavax/microedition/lcdui/CustomItem;->paint()V"
+    ],
+    "Lorg/microemu/device/ui/CustomItemUI;": [
+        "Lorg/microemu/device/ui/CustomItemUI;->repaint()V"
+    ],
+    "Ljavax/microedition/lcdui/Ticker;": [
+        "Ljavax/microedition/lcdui/Ticker;->paintContent()I",
+        "Ljavax/microedition/lcdui/Ticker;->getHeight()I"
+    ],
+    "Lorg/microemu/device/ui/ChoiceGroupUI;": [
+        "Lorg/microemu/device/ui/ChoiceGroupUI;->setSelectedFlags()V",
+        "Lorg/microemu/device/ui/ChoiceGroupUI;->getSelectedFlags()I",
+        "Lorg/microemu/device/ui/ChoiceGroupUI;->size()I",
+        "Lorg/microemu/device/ui/ChoiceGroupUI;->getSelectedIndex()I",
+        "Lorg/microemu/device/ui/ChoiceGroupUI;->setSelectedIndex()V",
+        "Lorg/microemu/device/ui/ChoiceGroupUI;->isSelected()Z",
+        "Lorg/microemu/device/ui/ChoiceGroupUI;->deleteAll()V",
+        "Lorg/microemu/device/ui/ChoiceGroupUI;->getString()Ljava/lang/String;",
+        "Lorg/microemu/device/ui/ChoiceGroupUI;->set()V",
+        "Lorg/microemu/device/ui/ChoiceGroupUI;->insert()V",
+        "Lorg/microemu/device/ui/ChoiceGroupUI;->delete()V"
+    ],
+    "Ljavax/microedition/lcdui/ChoiceGroup$ChoiceItem;": [
+        "Ljavax/microedition/lcdui/ChoiceGroup$ChoiceItem;->setText()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup$ChoiceItem;->getHeight()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup$ChoiceItem;->getImage()Ljavax/microedition/lcdui/Image;",
+        "Ljavax/microedition/lcdui/ChoiceGroup$ChoiceItem;->setSelectedState()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup$ChoiceItem;->getText()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/ChoiceGroup$ChoiceItem;->setFont()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup$ChoiceItem;->getFont()Ljavax/microedition/lcdui/Font;",
+        "Ljavax/microedition/lcdui/ChoiceGroup$ChoiceItem;->setImage()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup$ChoiceItem;->paint()I",
+        "Ljavax/microedition/lcdui/ChoiceGroup$ChoiceItem;->invertPaint()V",
+        "Ljavax/microedition/lcdui/ChoiceGroup$ChoiceItem;->isSelected()Z"
+    ],
+    "Ljavax/microedition/lcdui/ImageStringItem;": [
+        "Ljavax/microedition/lcdui/ImageStringItem;->getText()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/ImageStringItem;->getHeight()I",
+        "Ljavax/microedition/lcdui/ImageStringItem;->setImage()V",
+        "Ljavax/microedition/lcdui/ImageStringItem;->paint()I",
+        "Ljavax/microedition/lcdui/ImageStringItem;->getImage()Ljavax/microedition/lcdui/Image;",
+        "Ljavax/microedition/lcdui/ImageStringItem;->setText()V"
+    ],
+    "Ljavax/microedition/lcdui/Spacer;": [
+        "Ljavax/microedition/lcdui/Spacer;->setMinimumSize()V"
+    ],
+    "Ljavax/microedition/lcdui/Gauge;": [
+        "Ljavax/microedition/lcdui/Gauge;->hasFocus()Z",
+        "Ljavax/microedition/lcdui/Gauge;->getOwner()Ljavax/microedition/lcdui/Screen;",
+        "Ljavax/microedition/lcdui/Gauge;->getValue()I",
+        "Ljavax/microedition/lcdui/Gauge;->getHeight()I",
+        "Ljavax/microedition/lcdui/Gauge;->setMaxValue()V",
+        "Ljavax/microedition/lcdui/Gauge;->setValue()V",
+        "Ljavax/microedition/lcdui/Gauge;->repaint()V",
+        "Ljavax/microedition/lcdui/Gauge;->isInteractive()Z",
+        "Ljavax/microedition/lcdui/Gauge;->getLayout()I",
+        "Ljavax/microedition/lcdui/Gauge;->getLabel()Ljava/lang/String;",
+        "Ljavax/microedition/lcdui/Gauge;->setOwner()V",
+        "Ljavax/microedition/lcdui/Gauge;->getMaxValue()I"
+    ],
+    "Lorg/microemu/device/ui/AlertUI;": [
+        "Lorg/microemu/device/ui/AlertUI;->setString()V"
+    ],
+    "Lorg/microemu/device/ui/ListUI;": [
+        "Lorg/microemu/device/ui/ListUI;->deleteAll()V",
+        "Lorg/microemu/device/ui/ListUI;->delete()V",
+        "Lorg/microemu/device/ui/ListUI;->setSelectedIndex()V",
+        "Lorg/microemu/device/ui/ListUI;->getString()Ljava/lang/String;",
+        "Lorg/microemu/device/ui/ListUI;->getSelectedIndex()I",
+        "Lorg/microemu/device/ui/ListUI;->setSelectCommand()V",
+        "Lorg/microemu/device/ui/ListUI;->append()I"
+    ],
+    "Ljavax/microedition/lcdui/ItemCommandListener;": [
+        "Ljavax/microedition/lcdui/ItemCommandListener;->commandAction()V"
+    ],
+    "Lorg/microemu/device/ui/ItemUI;": [
+        "Lorg/microemu/device/ui/ItemUI;->setDefaultCommand()V",
+        "Lorg/microemu/device/ui/ItemUI;->setLabel()V"
+    ],
+    "Lorg/microemu/device/ui/GaugeUI;": [
+        "Lorg/microemu/device/ui/GaugeUI;->setMaxValue()V",
+        "Lorg/microemu/device/ui/GaugeUI;->getValue()I",
+        "Lorg/microemu/device/ui/GaugeUI;->setValue()V"
+    ],
+    "Lorg/microemu/device/ui/DisplayableUI;": [
+        "Lorg/microemu/device/ui/DisplayableUI;->addCommandUI()V",
+        "Lorg/microemu/device/ui/DisplayableUI;->setCommandListener()V",
+        "Lorg/microemu/device/ui/DisplayableUI;->removeCommandUI()V",
+        "Lorg/microemu/device/ui/DisplayableUI;->hideNotify()V",
+        "Lorg/microemu/device/ui/DisplayableUI;->invalidate()V",
+        "Lorg/microemu/device/ui/DisplayableUI;->getCommandsUI()Ljava/util/Vector;",
+        "Lorg/microemu/device/ui/DisplayableUI;->showNotify()V"
+    ],
+    "Ljavax/microedition/lcdui/game/TiledLayer;": [
+        "Ljavax/microedition/lcdui/game/TiledLayer;->getX()I",
+        "Ljavax/microedition/lcdui/game/TiledLayer;->getHeight()I",
+        "Ljavax/microedition/lcdui/game/TiledLayer;->getRows()I",
+        "Ljavax/microedition/lcdui/game/TiledLayer;->getAnimatedTile()I",
+        "Ljavax/microedition/lcdui/game/TiledLayer;->setSize()V",
+        "Ljavax/microedition/lcdui/game/TiledLayer;->isVisible()Z",
+        "Ljavax/microedition/lcdui/game/TiledLayer;->getColumns()I",
+        "Ljavax/microedition/lcdui/game/TiledLayer;->getWidth()I",
+        "Ljavax/microedition/lcdui/game/TiledLayer;->getY()I",
+        "Ljavax/microedition/lcdui/game/TiledLayer;->getCellWidth()I",
+        "Ljavax/microedition/lcdui/game/TiledLayer;->getCell()I",
+        "Ljavax/microedition/lcdui/game/TiledLayer;->getCellHeight()I",
+        "Ljavax/microedition/lcdui/game/TiledLayer;->fillCells()V"
+    ],
+    "Ljavax/microedition/lcdui/game/LayerManager;": [
+        "Ljavax/microedition/lcdui/game/LayerManager;->getLayerAt()Ljavax/microedition/lcdui/game/Layer;",
+        "Ljavax/microedition/lcdui/game/LayerManager;->getSize()I"
+    ],
+    "Ljavax/microedition/media/MidiAudioPlayer;": [
+        "Ljavax/microedition/media/MidiAudioPlayer;->setLevel()I",
+        "Ljavax/microedition/media/MidiAudioPlayer;->close()V",
+        "Ljavax/microedition/media/MidiAudioPlayer;->open()Z",
+        "Ljavax/microedition/media/MidiAudioPlayer;->stop()V"
+    ],
+    "Ljavax/microedition/media/MediaException;": [
+        "Ljavax/microedition/media/MediaException;->printStackTrace()V"
+    ],
+    "Lorg/microemu/media/control/J2SEVolumeControl;": [
+        "Lorg/microemu/media/control/J2SEVolumeControl;->setMidiAudioPlayer()V"
+    ],
+    "Ljava/lang/UnsatisfiedLinkError;": [
+        "Ljava/lang/UnsatisfiedLinkError;->printStackTrace()V"
+    ],
+    "Ljavax/microedition/media/PlayerListener;": [
+        "Ljavax/microedition/media/PlayerListener;->playerUpdate()V"
+    ],
+    "Ljavax/microedition/media/VideoCapturePlayer;": [
+        "Ljavax/microedition/media/VideoCapturePlayer;->deallocate()V",
+        "Ljavax/microedition/media/VideoCapturePlayer;->realize()V",
+        "Ljavax/microedition/media/VideoCapturePlayer;->stop()V",
+        "Ljavax/microedition/media/VideoCapturePlayer;->ensureNotClosed()V",
+        "Ljavax/microedition/media/VideoCapturePlayer;->getVideoControl()Ljavax/microedition/media/Control;",
+        "Ljavax/microedition/media/VideoCapturePlayer;->prefetch()V",
+        "Ljavax/microedition/media/VideoCapturePlayer;->notifyListeners()V"
+    ],
+    "Ljavax/microedition/media/VideoCaptureControl;": [
+        "Ljavax/microedition/media/VideoCaptureControl;->repaintIfVisible()V",
+        "Ljavax/microedition/media/VideoCaptureControl;->doPaint()V",
+        "Ljavax/microedition/media/VideoCaptureControl;->startVideo()V",
+        "Ljavax/microedition/media/VideoCaptureControl;->stopVideo()V",
+        "Ljavax/microedition/media/VideoCaptureControl;->doStopVideo()V",
+        "Ljavax/microedition/media/VideoCaptureControl;->doStartVideo()V"
+    ],
+    "Ljavax/microedition/media/VideoCaptureControl$RepaintThread;": [
+        "Ljavax/microedition/media/VideoCaptureControl$RepaintThread;->stopRepaintThread()V",
+        "Ljavax/microedition/media/VideoCaptureControl$RepaintThread;->start()V"
+    ],
+    "Lorg/microemu/microedition/io/ConnectorDelegate;": [
+        "Lorg/microemu/microedition/io/ConnectorDelegate;->openDataOutputStream()Ljava/io/DataOutputStream;",
+        "Lorg/microemu/microedition/io/ConnectorDelegate;->openDataInputStream()Ljava/io/DataInputStream;",
+        "Lorg/microemu/microedition/io/ConnectorDelegate;->openInputStream()Ljava/io/InputStream;",
+        "Lorg/microemu/microedition/io/ConnectorDelegate;->openOutputStream()Ljava/io/OutputStream;",
+        "Lorg/microemu/microedition/io/ConnectorDelegate;->open()Ljavax/microedition/io/Connection;"
+    ],
+    "Lorg/microemu/microedition/io/PushRegistryDelegate;": [
+        "Lorg/microemu/microedition/io/PushRegistryDelegate;->registerConnection()V",
+        "Lorg/microemu/microedition/io/PushRegistryDelegate;->getFilter()Ljava/lang/String;",
+        "Lorg/microemu/microedition/io/PushRegistryDelegate;->unregisterConnection()Z",
+        "Lorg/microemu/microedition/io/PushRegistryDelegate;->getMIDlet()Ljava/lang/String;",
+        "Lorg/microemu/microedition/io/PushRegistryDelegate;->listConnections()[Ljava/lang/String;",
+        "Lorg/microemu/microedition/io/PushRegistryDelegate;->registerAlarm()J"
+    ],
+    "Lorg/microemu/cldc/file/FileSystemRegistryDelegate;": [
+        "Lorg/microemu/cldc/file/FileSystemRegistryDelegate;->addFileSystemListener()Z",
+        "Lorg/microemu/cldc/file/FileSystemRegistryDelegate;->removeFileSystemListener()Z",
+        "Lorg/microemu/cldc/file/FileSystemRegistryDelegate;->listRoots()Ljava/util/Enumeration;"
+    ]
+}

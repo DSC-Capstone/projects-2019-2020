@@ -1,0 +1,6 @@
+{
+    "Personal": ["Aggravated Assault", "Prostitution/Allied", "Sex (except rape/prst)", "Other Assaults", "Homicide", "Weapon (carry/poss)", "Against Family/Child", "Non-Criminal Detention", "Rape"],
+    "Property": ["Robbery", "Burglary", "Larceny", "Receive Stolen Property", "Vehicle Theft"],
+    "Inchoate": ["Gambling", "Pre-Delinquency"],
+    "Statutory": ["Liquor Laws","Driving Under Influence", "Miscellaneous Other Violations", "Disorderly Conduct", "Drunkeness", "Narcotic Drug Laws", "Disturbing the Peace", "Moving Traffic Violations", "Federal Offenses"]
+}

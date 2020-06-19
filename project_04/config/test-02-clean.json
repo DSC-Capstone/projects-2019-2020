@@ -1,0 +1,4 @@
+{
+    "indir": "test/loaded",
+    "outdir": "test/cleaned"
+}

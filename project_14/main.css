@@ -1,0 +1,17 @@
+body{
+  background-color: #ece9e6;
+  color: #333;
+  font-family: 'Georgia';
+  font-size:20;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  font-size: 18;
+}
+
+td.aligned_center{
+  text-align: center;
+}

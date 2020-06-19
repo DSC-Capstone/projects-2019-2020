@@ -1,0 +1,18 @@
+
+Tasks attempted:
+	- create Hindroid model for smaller datasets (Udai & Wesley)
+	- convert larger dataset to a graph (Shinu)
+
+Tasks completed:
+	- implemented node2vec for smaller datasets (80% done)
+	- convert large dataset to a graph (20%)
+
+Difficulties:
+	- node2vec needs some debugging, but it's almost there.
+	- the large dataset conversion to a graph looks to be computationally expensive.
+
+Attempting Next Week:
+	- finish node2vec implementation, training, and testing on smaller datasets (Udai)
+	- convert large dataset to graph (Wesley)
+	- make the template for visualization (Shinu)
+	- finish visualization (whole group)

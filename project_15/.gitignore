@@ -1,0 +1,13 @@
+# don't check-in data
+T2D_data/
+
+# don't check-in secrets
+.env
+
+# python files
+__pycache__
+
+#ignore all the notebook checkpoints 
+*.ipynb_checkpoints
+
+*.pyc

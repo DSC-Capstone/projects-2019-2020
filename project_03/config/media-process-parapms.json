@@ -1,0 +1,5 @@
+{
+    "infile": "./data/raw/all-the-news-2-1.csv",
+    "outfile": "./data/raw/all-the-news-2020-COVID-title.csv",
+
+}

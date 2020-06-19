@@ -1,0 +1,9 @@
+gensim
+multiprocess
+beautifulsoup4
+lxml
+scipy
+pathos
+p_tqdm
+plotly
+mklaren

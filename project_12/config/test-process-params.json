@@ -1,0 +1,6 @@
+{
+    "paths": ["test_data/raw/stops.csv", "test_data/raw/arrests.csv", "test_data/raw/crime.csv"],
+    "outpath": "test_data/cleaned",
+    "title": ["stops", "arrests", "crime"],
+    "cols": [["Stop Number","Stop Division","Sex Code","Descent Description","Stop Date","Stop Time","Year","Officer 1 Serial Number","Officer 1 Division Number","Division Description 1","Reporting District","Post Stop Activity Indicator","PredPol Deployed", "LASER Deployed"],["Report ID", "Arrest Date", "Time", "Area ID", "Area Name", "Reporting District", "Age", "Sex Code", "Descent Code","Charge Group Code", "Charge Group Description", "Arrest Type Code","Charge", "Charge Description", "Year", "PredPol Deployed","LASER Deployed", "Total"],["DR_NO","Date Rptd","Year","Area Name","Rpt Dist No","Crime Type","Crime Charge","Crm Cd Desc","Arrested","LAT","LON","PredPol Deployed","LASER Deployed"]]
+}

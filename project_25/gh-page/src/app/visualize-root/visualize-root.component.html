@@ -1,0 +1,13 @@
+<mat-grid-list cols='3' class='full-height' rowHeight='100%'>
+  <mat-grid-tile id='codeTile'>
+    <code-input (visualizeClick)='sendCode($event)'></code-input>
+  </mat-grid-tile>
+  <mat-grid-tile colspan='2'>
+    <output-results></output-results>
+  </mat-grid-tile>
+</mat-grid-list>
+<div class="overlay" *ngIf='loading'>
+  <div class="center">
+    <mat-spinner></mat-spinner>
+  </div>
+</div>

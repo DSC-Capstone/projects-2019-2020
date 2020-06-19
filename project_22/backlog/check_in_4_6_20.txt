@@ -1,0 +1,26 @@
+
+DSC 180B Weekly Checkin
+Date: 4/6/20
+
+1. Tasks from previous week
+	- meet with Aaron (to review proposal)
+	- revise proposal
+
+2. Completed Tasks:
+	- everything
+
+3. Difficulties/Obstacles:
+	- Have a question on how to deal with quantitative attributes.
+
+4. Next Week:
+	- Udai: Create code for generating datasets with strong keys (and varying noise)
+		- this is allow us to create "toy" datasets with varying noise to test the effectiveness of our model
+
+	- Shinu: Clean and perform EDA on our real-world datasets
+		- this will allow us to transition our model effectively onto "real-world" data.
+
+	- Wesley: Finalize Structure of our Heterogenous Graphs
+		- determine method for representing graphs (on disk)
+		- determine method for using quantitative attributes.
+
+		- This will allow us to address the issue of how to deal with quantitative attributes.

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<style>
+p{
+
+  margin-right: 110px;
+  margin-left: 110px;
+  color : grey;
+ 
+}
+
+h2{
+
+  margin-right: 90px;
+  margin-left: 90px;
+ 
+}
+
+h3{
+
+  margin-right: 90px;
+  margin-left: 90px;
+ 
+}
+
+ol{
+  margin-right: 110px;
+  margin-left: 110px;
+  color : grey;
+  
+  
+}
+  img{
+      margin-right: 110px;
+  margin-left: 110px;
+  }
+    
+</style>
+<body>
+
+<div class="w3-card-4">
+<div class="w3-container w3-theme w3-card" style="text-align:center">
+  <h1><strong>Does Police Officer Race Influence Stop Outcomes?</strong></h1>
+</div>
+  
+<div class="w3-container w3-text-theme">
+  <br>
+  <br>
+<h2 id="introduction">Introduction</h2>
+  </div>
+<p>
+In recent years, in San Diego and in many other cities, tensions between the cities&#39; police forces and its residents have risen. Claims of racial discrimination by police officers have led to numerous investigations and litigation. Studies of U.S. policing data, such as a recent investigation by researchers at San Diego State University, have uncovered instances of police officers treating people in similar situations differently.  It appears that race may play a part in those differing police actions. </p>
+<p>To expand on the studies conducted in this area, our research group is looking to investigate how a police officer’s race affects his or her decision-making process during traffic stops. Police are faced with many choices when monitoring motorists, such as whether or not to pull the driver over, to search the driver, or to cite and/or arrest the driver.  If race is not an important factor in influencing a police officer&#39;s actions, then these outcomes should be independent of the races of both the driver and the officer. To test such an assumption, we will examine traffic stops made under similar circumstances and analyze the outcomes of those stops to determine if the races of the police officer and the driver are a factor in the outcomes. If they are, this might indicate that race does play an important role in the behavior of police officers when conducting traffic stops.</p>
+<p>Data from South Carolina, Florida and Pittsburgh will be used in our analysis.</p>
+<div style="text-align:center"><img src="imgs/us.png" style="width:300px;height:200px;"/></div>
+
+<p>From our research, we hope to bring an awareness to the role that race, both of police officers and of drivers, plays in the outcome of traffic stops. Our hope is that awareness on behalf of the police departments would lead to an enhancement of general officer training around the issues of racial discrimination, thus making traffic stops more impartial.</p>
+<div class="w3-container w3-text-theme">
+  <h2 id="the-problem">The Problem</h2>
+  </div>
+<p>In our project , we are examining the findings from Antonovics and Knight in <em>A New Look at Racial Profiling</em>, in which the two authors investigated whether preference-based discrimination, as opposed to statistical discrimination, was responsible for the racial disparities seen in traffic stop data. In making this determination, the researchers investigated whether the race of the officer making the stop had an effect on the officer’s decision to search a driver who was pulled over. Their belief is that the experience of police officers over time will cause them to use the observable characteristic, race, as a surrogate for the unobservable characteristics that may cause differences in driving habits. In this report, the authors found that officers are more likely to pull over drivers whose race differs from their own and thus concluded that preference-based discrimination was a key factor in officers’ decisions to conduct searches after traffic stops. To expand on such analysis, our project hopes to investigate how the race of the driver and race of the police officer influence an officer&#39;s decision to initiate traffic stops and to search, cite or arrest a driver. Stop pairs by location are as follows:</p>
+<div style="text-align:center"><img src="imgs/combined.png" /></div>
+
+  <div class="w3-container w3-text-theme">
+<h2 id="data-description">Data Description</h2>
+  </div>
+<p>To ensure that our conclusions are not simply particular to a single police force, we will include data from multiple locations in our study. Florida, South Carolina, and Pittsburgh, Pennsylvania are three places that differ in geographic location as well as racial makeup. Including these locations in our analysis will allow us to make a more general conclusion as to whether race is a factor in policing and whether such discrimination is localized or more widespread.</p>
+<p>We obtained traffic stops data from these locations from the Stanford Open Policing Project, an organization created “to help researchers, journalists, and policymakers investigate and improve interactions between police and the public.” From these three locations, we obtained 16,555,906 traffic stops (South Carolina- 8,983,810 stops, Florida-  7,297,538 stops, Pittsburgh- 274,558 stops). After filtering out traffic stops with missing and/or invalid data, we kept 11,999,907 traffic stops (South Carolina- 8,930,556 stops, Florida- 2,865,736 stops, Pittsburgh- 203,615 stops). Our final dataset contained 72.5% of all the traffic stops. </p>
+<p>The first five traffic stops from each of the locations is shown below: </p>
+<div class="w3-container w3-text-theme">
+<h3 id="south-carolina">South Carolina</h3>
+</div>
+<div style="text-align:center"><img src="imgs/South_Carolina_TrafficStops.png" /></div>
+<div class="w3-container w3-text-theme">
+<h3 id="florida">Florida</h3>
+  </div>
+<div style="text-align:center"><img src="imgs/Florida_Traffic_Stop_Head.png" /></div>
+  <div class="w3-container w3-text-theme">
+<h3 id="pittsburgh">Pittsburgh</h3>
+  </div>
+<div style="text-align:center"><img src="imgs/Pittsburgh_Traffic_stops.png" /></div>
+
+
+<p>To get a sense of the proportion of stops that resulted in police action (e.g., a search was conducted, etc.), a table containing the proportion of post-stop outcomes that resulted in a search, citation and/or arrest are shown below:</p>
+<div style="text-align:center">
+<button id="one">Officer Race</button>
+<button id="two">Driver Race</button>
+<iframe id="iframe" src="https://infogram.com/copy-photography-1h706ekeek9765y?live" width = "366" height = "290"></iframe>
+
+<script>
+var buttonOfficer = document.getElementById("one");
+var buttonDriver = document.getElementById("two");
+var iframee = document.getElementById("iframe");
+
+buttonOfficer.addEventListener("click", buttonClick, false);
+buttonDriver.addEventListener("click", buttonClick, false);
+
+function buttonClick(e){
+    if(e.target.id === "one"){
+        iframee.src = "https://infogram.com/copy-photography-1h706ekeek9765y?live";
+    }else{
+        iframee.src = "https://infogram.com/photography-1hxj48gp79yr2vg?live";
+    } 
+};
+</script>
+</div>
+
+  <div class="w3-container w3-text-theme">
+<h2 id="analysis">Analysis</h2>
+    </div>
+<p>To determine whether the races of drivers and officers involved in a stop are a factor in the officer’s decision to pull a driver over, we will use the Veil of Darkness technique. This technique utilizes natural lighting, or the lack of it, so that researchers can compare the racial distribution of traffic stops made in daylight with that of stops made after dark. If there is an increase in stop rates for a specific officer/race pairing during the daylight, it can be shown that racial bias, as opposed to only racial disparity, exists in the initiation of traffic stops. </p>
+<p>To ensure that we isolate the effect that preference-based discrimination has on an officer’s decision to search, cite or arrest a driver, we must remove, or limit, the effect that other variables (e.g., location, time, stop cause) have on an officer&#39;s stop decisions. In our analysis, we will do this by employing propensity score analysis. Using this statistical matching technique will involve:</p>
+<ol>
+<li>Developing propensity score functions, which estimate the likelihood of a stop resulting in the driver being searched, cited and arrested. </li>
+<li>Computing a propensity score for each stop. </li>
+<li>Dividing the traffic stops into multiple groups based on the races of the driver and the officer involved in the stop. </li>
+<li>Matching stops from the above groups to form strata. </li>
+<li>Perform statistical testing (e.g., 1 for searched/cited/arrested and 0 for not searched/not cited/ not arrested) to draw conclusions about the effect of the race on post-stop outcomes.  </li>
+</ol>
+<p>This process is visually depicted below:  </p>
+<div style="text-align:center"><img src="imgs/prop_score.svg" style="width:500px;height:600px;"/></div>
+
+  <div class="w3-container w3-text-theme">
+<h2 id="conclusion">Conclusion</h2>
+  </div>
+<p>From our Veil of Darkness analysis, we concluded that driver/officer race pairings played a significant role in officers&#39; decisions to initiate traffic stops in Florida with a larger affect on the sub-population of only black and white, but did not play a significant role in officers&#39; decisions to initiate traffic stops in Pittsburgh. Due to time not being present in South Carolina&#39;s traffic stops data, we were not able to perform our Veil of Darkness analysis on South Carolina&#39;s traffic stops.</p>
+<p>Odds Ratio = (Varying race pairing in light / Same race pairing in light) / (Varying race pairing in lack of light / Same race pairing in lack of light)!
+<br></p>
+<p>Shown below is the statistics and outcome of race-pairings affecting stop rates</p>
+<div style="text-align:center"><img src="imgs/chart.analysis2.png" /></div>
+
+<p>The odds ratio of 1, &gt;1 and <1 suggests if racial pairings have an impact on the stops done by officer.
+<br>
+1 - Race pairings doesn’t affect the stops with variations of light.     &gt;1 - Varying race pairings are more likely to be stopped in day than night.       &lt;1 - Same race pairings are more likely to be stopped in day than night.</p>
+<p><br>
+Shown below is a chart specifying the post-stop outcomes which we found statistically significant for specific driver race pairings:</p>
+<div style="text-align:center"><img src="imgs/PSA_Outcome.svg" /></div>  
+
+<p>This chart can be read in two ways:</p>
+<ol>
+<li>Starting with officers and then considering drivers.   <ul>
+<li>For example, if we consider white officers (i.e, the first row), looking at the column corresponding to Asian drivers (i.e., the third column) tells us that white officers search and cite Asian drivers more than white officers search and cite white drivers. </li>
+</ul>
+</li>
+<li>Starting with drivers and then considering officers.   <ul>
+<li>For example, if we consider white drivers (i.e, the first columns), looking at the row corresponding to Asian officers (i.e., the third row) tells us that white drivers are searched and cited by Asian officers more than white drivers are searched and cited by white officers.</li>
+</ul>
+</li>
+</ol>
+<p>As can be seen in the chart above, our research found that preference-based discrimination is present in traffic stops and that police officers are more likely to search and arrest drivers outside their racial group. This research suggests that preference-based discrimination by police officers is not specific to a racial group; it is more widespread. However, due to the disproportionately high number of White police officers, minority drivers are more subject to such discrimination. </p>
+<div class="w3-container w3-text-theme">
+  <h2 id="next-steps">Next Steps</h2>
+  </div>
+<p>From this research, we hope to bring awareness to the role that race, both of the police officers and of the drivers, plays in the outcome of traffic stops. Our hope is that awareness on behalf of the police departments would lead to an enhancement of general officer training around the issues of racial discrimination, thus making traffic stops more impartial. </p>
+<p>Additional research using higher volumes of traffic stops and with more traffic stops variables could make our propensity score analysis more reliable. Furthermore, research analyzing the cost of traffic stop citations and length of time of traffic stop arrests could further inform us the extent to which officers are more lenient to drivers in their racial group. </p>
+</div>
+</body>
+</html>

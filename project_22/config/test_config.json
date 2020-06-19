@@ -1,0 +1,20 @@
+{
+	"outpath":"./data/gen",
+	"bins": 5,
+	"name_min_df": 0.00,
+	"text_min_df": 0.1,
+	"generated_graph_path": "./data/gen/abt_buy_graph.csv",
+	"groundTruth": "./test/Abt-Buy/abt_buy_perfectMapping.csv",
+	"testProp": 0.3,
+	"p": 1,
+	"q":1,
+	"numWalks": 500,
+	"adjustmentParam": 20,
+	"walkLength": 10,
+	"outputVectorSize": 300,
+	"negativeSamplingRate": 10,
+	"embedderOutputLocation": "./data/gen/embedderModel",
+	"modelOutputLocation": "./data/gen/predictionModel",
+	"resultOutputLocation": "./data/gen/results.txt"
+
+}

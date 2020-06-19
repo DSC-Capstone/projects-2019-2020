@@ -1,0 +1,5 @@
+{
+    "urls": ["https://data.lacity.org/api/views/ci25-wgt7/rows.csv?accessType=DOWNLOAD","https://data.lacity.org/api/views/yru6-6re4/rows.csv?accessType=DOWNLOAD", "https://data.lacity.org/api/views/63jg-8b9z/rows.csv?accessType=DOWNLOAD"],
+    "outpath": "data/raw",
+    "title": ["stops", "arrests", "crime"]
+}

@@ -1,0 +1,624 @@
+{
+    "Lcom/tutusw/onekeyvpn/EnterPassphrase;": [
+        "Lcom/tutusw/onekeyvpn/EnterPassphrase;->bindService()Z",
+        "Lcom/tutusw/onekeyvpn/EnterPassphrase;->getIntent()Landroid/content/Intent;",
+        "Lcom/tutusw/onekeyvpn/EnterPassphrase;->unbindService()V",
+        "Lcom/tutusw/onekeyvpn/EnterPassphrase;->getConfigFile()Ljava/io/File;",
+        "Lcom/tutusw/onekeyvpn/EnterPassphrase;->showDialog()V"
+    ],
+    "Landroid/content/Intent;": [
+        "Landroid/content/Intent;->getStringExtra()Ljava/lang/String;",
+        "Landroid/content/Intent;->putExtra()Landroid/content/Intent;",
+        "Landroid/content/Intent;->getIntExtra()I",
+        "Landroid/content/Intent;->getData()Landroid/net/Uri;",
+        "Landroid/content/Intent;->getAction()Ljava/lang/String;",
+        "Landroid/content/Intent;->toString()Ljava/lang/String;"
+    ],
+    "Landroid/net/Uri;": [
+        "Landroid/net/Uri;->getPath()Ljava/lang/String;",
+        "Landroid/net/Uri;->fromFile()Landroid/net/Uri;"
+    ],
+    "Landroid/app/Activity;": [
+        "Landroid/app/Activity;->onStop()V",
+        "Landroid/app/Activity;->onPrepareDialog()V",
+        "Landroid/app/Activity;->onCreate()V",
+        "Landroid/app/Activity;->onActivityResult()V",
+        "Landroid/app/Activity;->onCreateDialog()Landroid/app/Dialog;"
+    ],
+    "Landroid/util/Log;": [
+        "Landroid/util/Log;->a()I"
+    ],
+    "Landroid/app/AlertDialog$Builder;": [
+        "Landroid/app/AlertDialog$Builder;->setPositiveButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setSingleChoiceItems()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setNeutralButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setNegativeButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setTitle()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setView()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setIcon()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setMessage()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;"
+    ],
+    "Landroid/view/LayoutInflater;": [
+        "Landroid/view/LayoutInflater;->from()Landroid/view/LayoutInflater;",
+        "Landroid/view/LayoutInflater;->inflate()Landroid/view/View;"
+    ],
+    "Landroid/app/AlertDialog;": [
+        "Landroid/app/AlertDialog;->getButton()Landroid/widget/Button;",
+        "Landroid/app/AlertDialog;->setTitle()V",
+        "Landroid/app/AlertDialog;->setMessage()V",
+        "Landroid/app/AlertDialog;->findViewById()Landroid/view/View;"
+    ],
+    "Lcom/tutusw/onekeyvpn/Preferences;": [
+        "Lcom/tutusw/onekeyvpn/Preferences;->KEY_CONFIG_MGMT_PORT()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getUseInternalStorage()Z",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getFixHtcRoutes()Z",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getExternalStorage()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getModprobeAlternative()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->KEY_CONFIG_DNSCHANGE()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getOpenVpnEnabled()Z",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getExternalStorageAsFile()Ljava/io/File;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->configs()Ljava/util/ArrayList;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->KEY_CONFIG_DNS1()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getConfigName()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->KEY_SCRIPT_SECURITY_LEVEL()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getMgmtPort()I",
+        "Lcom/tutusw/onekeyvpn/Preferences;->KEY_VPN_DNS_ENABLE()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getLoadTunModuleCommand()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->setDns1()V",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getPathToBinaryAsFile()Ljava/io/File;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->KEY_CONFIG_NAME()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->KEY_CONFIG()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->KEY_VPN_DNS()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->KEY_CONFIG_NOTIFICATION_ID()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getConfigDir()Ljava/io/File;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getVpnDnsEnabled()Z",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getDoModprobeTun()Z",
+        "Lcom/tutusw/onekeyvpn/Preferences;->KEY_CONFIG_INTENDED_STATE()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getDns1()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getScriptSecurityLevel()I",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getPathToTun()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getNotificationId()I",
+        "Lcom/tutusw/onekeyvpn/Preferences;->getDnsChange()I",
+        "Lcom/tutusw/onekeyvpn/Preferences;->setMgmtPort()V"
+    ],
+    "Landroid/widget/TextView;": [
+        "Landroid/widget/TextView;->setText()V"
+    ],
+    "Landroid/widget/Button;": [
+        "Landroid/widget/Button;->setEnabled()V",
+        "Landroid/widget/Button;->setOnClickListener()V"
+    ],
+    "Lcom/tutusw/onekeyvpn/service/OpenVpnService$ServiceBinder;": [
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService$ServiceBinder;->getService()Lcom/tutusw/onekeyvpn/service/OpenVpnService;"
+    ],
+    "Landroid/preference/CheckBoxPreference;": [
+        "Landroid/preference/CheckBoxPreference;->setPersistent()V",
+        "Landroid/preference/CheckBoxPreference;->getDependency()Ljava/lang/String;",
+        "Landroid/preference/CheckBoxPreference;->getPreferenceManager()Landroid/preference/PreferenceManager;",
+        "Landroid/preference/CheckBoxPreference;->getSummary()Ljava/lang/CharSequence;",
+        "Landroid/preference/CheckBoxPreference;->setSummary()V",
+        "Landroid/preference/CheckBoxPreference;->setOnPreferenceChangeListener()V",
+        "Landroid/preference/CheckBoxPreference;->getSharedPreferences()Landroid/content/SharedPreferences;",
+        "Landroid/preference/CheckBoxPreference;->setEnabled()V",
+        "Landroid/preference/CheckBoxPreference;->setChecked()V"
+    ],
+    "Landroid/content/IntentFilter;": [
+        "Landroid/content/IntentFilter;->addAction()V"
+    ],
+    "Lcom/tutusw/onekeyvpn/DaemonEnabler;": [
+        "Lcom/tutusw/onekeyvpn/DaemonEnabler;->getHumanReadableNetworkState()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/DaemonEnabler;->getDependencyPreference()Landroid/preference/Preference;",
+        "Lcom/tutusw/onekeyvpn/DaemonEnabler;->pause()V",
+        "Lcom/tutusw/onekeyvpn/DaemonEnabler;->setOpenVpnService()V",
+        "Lcom/tutusw/onekeyvpn/DaemonEnabler;->isEnabledByDependency()Z",
+        "Lcom/tutusw/onekeyvpn/DaemonEnabler;->getHumanReadableDaemonState()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/DaemonEnabler;->resume()V"
+    ],
+    "Landroid/text/TextUtils;": [
+        "Landroid/text/TextUtils;->isEmpty()Z"
+    ],
+    "Landroid/preference/PreferenceManager;": [
+        "Landroid/preference/PreferenceManager;->findPreference()Landroid/preference/Preference;",
+        "Landroid/preference/PreferenceManager;->getDefaultSharedPreferences()Landroid/content/SharedPreferences;"
+    ],
+    "Ljava/lang/Integer;": [
+        "Ljava/lang/Integer;->parseInt()I",
+        "Ljava/lang/Integer;->intValue()I",
+        "Ljava/lang/Integer;->toString()Ljava/lang/String;",
+        "Ljava/lang/Integer;->valueOf()Ljava/lang/Integer;"
+    ],
+    "Ljava/lang/String;": [
+        "Ljava/lang/String;->equals()Z",
+        "Ljava/lang/String;->length()I",
+        "Ljava/lang/String;->indexOf()I",
+        "Ljava/lang/String;->matches()Z",
+        "Ljava/lang/String;->replaceAll()Ljava/lang/String;",
+        "Ljava/lang/String;->valueOf()Ljava/lang/String;",
+        "Ljava/lang/String;->split()[Ljava/lang/String;",
+        "Ljava/lang/String;->startsWith()Z",
+        "Ljava/lang/String;->replace()Ljava/lang/String;",
+        "Ljava/lang/String;->substring()Ljava/lang/String;",
+        "Ljava/lang/String;->getBytes()[B",
+        "Ljava/lang/String;->format()Ljava/lang/String;",
+        "Ljava/lang/String;->compareTo()I",
+        "Ljava/lang/String;->compareToIgnoreCase()I"
+    ],
+    "Landroid/preference/Preference;": [
+        "Landroid/preference/Preference;->shouldDisableDependents()Z"
+    ],
+    "Ljava/lang/StringBuilder;": [
+        "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+        "Ljava/lang/StringBuilder;->append()Ljava/lang/StringBuilder;"
+    ],
+    "Lcom/tutusw/onekeyvpn/service/OpenVpnService;": [
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->isServiceStarted()Z",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->daemonRestart()V",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->sendBroadcast()V",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->isDaemonStarted()Z",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->markServiceStopped()V",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->daemonQueryState()V",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->hasDaemonsStarted()Z",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->getSystemService()Ljava/lang/Object;",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->daemonAttach()V",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->startup()V",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->daemonStart()V",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->daemonStop()V",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->getFilesDir()Ljava/io/File;",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->shutdown()V",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->markServiceStarted()V",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->isVpnDnsActive()Z",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->getApplicationContext()Landroid/content/Context;",
+        "Lcom/tutusw/onekeyvpn/service/OpenVpnService;->sendStickyBroadcast()V"
+    ],
+    "Ljava/lang/Boolean;": [
+        "Ljava/lang/Boolean;->booleanValue()Z"
+    ],
+    "Landroid/content/SharedPreferences;": [
+        "Landroid/content/SharedPreferences;->getBoolean()Z",
+        "Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences;->getString()Ljava/lang/String;",
+        "Landroid/content/SharedPreferences;->getInt()I"
+    ],
+    "Landroid/content/SharedPreferences$Editor;": [
+        "Landroid/content/SharedPreferences$Editor;->commit()Z",
+        "Landroid/content/SharedPreferences$Editor;->putString()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->putInt()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->putBoolean()Landroid/content/SharedPreferences$Editor;"
+    ],
+    "Landroid/content/Context;": [
+        "Landroid/content/Context;->registerReceiver()Landroid/content/Intent;",
+        "Landroid/content/Context;->unregisterReceiver()V",
+        "Landroid/content/Context;->getFilesDir()Ljava/io/File;",
+        "Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;",
+        "Landroid/content/Context;->getPackageName()Ljava/lang/String;",
+        "Landroid/content/Context;->getSystemService()Ljava/lang/Object;",
+        "Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;",
+        "Landroid/content/Context;->startService()Landroid/content/ComponentName;"
+    ],
+    "Lcom/tutusw/onekeyvpn/OpenVpnSettings;": [
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->addPreferencesFromResource()V",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->copyAssets()V",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->startActivityForResult()V",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->findPreference()Landroid/preference/Preference;",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->execInstall()V",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->showDialog()V",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->setContentView()V",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->unbindService()V",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->getMenuInflater()Landroid/view/MenuInflater;",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->runOnUiThread()V",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->installVPN()V",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->remountSystem()V",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->bindService()Z",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->getSystemMount()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->getAssets()Landroid/content/res/AssetManager;",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->getSystemService()Ljava/lang/Object;",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->getResources()Landroid/content/res/Resources;",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->getFilesDir()Ljava/io/File;",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->updateInfo()V",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings;->startService()Landroid/content/ComponentName;"
+    ],
+    "Lcom/tutusw/onekeyvpn/OpenVpnSettings$SuExecutor;": [
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings$SuExecutor;->close()V",
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings$SuExecutor;->execute()V"
+    ],
+    "Ljava/io/File;": [
+        "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;",
+        "Ljava/io/File;->getName()Ljava/lang/String;",
+        "Ljava/io/File;->listFiles()[Ljava/io/File;",
+        "Ljava/io/File;->mkdirs()Z",
+        "Ljava/io/File;->getPath()Ljava/lang/String;",
+        "Ljava/io/File;->mkdir()Z",
+        "Ljava/io/File;->isDirectory()Z",
+        "Ljava/io/File;->delete()Z",
+        "Ljava/io/File;->getParentFile()Ljava/io/File;",
+        "Ljava/io/File;->exists()Z"
+    ],
+    "Ljava/io/LineNumberReader;": [
+        "Ljava/io/LineNumberReader;->readLine()Ljava/lang/String;",
+        "Ljava/io/LineNumberReader;->read()I",
+        "Ljava/io/LineNumberReader;->mark()V",
+        "Ljava/io/LineNumberReader;->reset()V",
+        "Ljava/io/LineNumberReader;->close()V"
+    ],
+    "Ljava/lang/Exception;": [
+        "Ljava/lang/Exception;->printStackTrace()V",
+        "Ljava/lang/Exception;->getMessage()Ljava/lang/String;"
+    ],
+    "Ljava/util/ArrayList;": [
+        "Ljava/util/ArrayList;->clear()V",
+        "Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/ArrayList;->addAll()Z",
+        "Ljava/util/ArrayList;->add()Z"
+    ],
+    "Ljava/util/Iterator;": [
+        "Ljava/util/Iterator;->hasNext()Z",
+        "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+    ],
+    "Landroid/preference/PreferenceCategory;": [
+        "Landroid/preference/PreferenceCategory;->addPreference()Z",
+        "Landroid/preference/PreferenceCategory;->getPreferenceCount()I",
+        "Landroid/preference/PreferenceCategory;->removeAll()V"
+    ],
+    "Landroid/preference/EditTextPreference;": [
+        "Landroid/preference/EditTextPreference;->setSummary()V",
+        "Landroid/preference/EditTextPreference;->getSharedPreferences()Landroid/content/SharedPreferences;",
+        "Landroid/preference/EditTextPreference;->setEnabled()V",
+        "Landroid/preference/EditTextPreference;->setOnPreferenceChangeListener()V",
+        "Landroid/preference/EditTextPreference;->setTitle()V",
+        "Landroid/preference/EditTextPreference;->setPersistent()V"
+    ],
+    "Landroid/app/ProgressDialog;": [
+        "Landroid/app/ProgressDialog;->setTitle()V",
+        "Landroid/app/ProgressDialog;->setMax()V",
+        "Landroid/app/ProgressDialog;->setProgress()V",
+        "Landroid/app/ProgressDialog;->setMessage()V",
+        "Landroid/app/ProgressDialog;->setCancelable()V",
+        "Landroid/app/ProgressDialog;->show()Landroid/app/ProgressDialog;",
+        "Landroid/app/ProgressDialog;->dismiss()V",
+        "Landroid/app/ProgressDialog;->setIndeterminate()V"
+    ],
+    "Lcom/tutusw/onekeyvpn/OpenVpnSettings$5;": [
+        "Lcom/tutusw/onekeyvpn/OpenVpnSettings$5;->start()V"
+    ],
+    "Landroid/telephony/TelephonyManager;": [
+        "Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;"
+    ],
+    "Ljava/io/OutputStream;": [
+        "Ljava/io/OutputStream;->close()V",
+        "Ljava/io/OutputStream;->write()V",
+        "Ljava/io/OutputStream;->flush()V"
+    ],
+    "Landroid/content/res/AssetManager;": [
+        "Landroid/content/res/AssetManager;->open()Ljava/io/InputStream;"
+    ],
+    "Ljava/io/InputStream;": [
+        "Ljava/io/InputStream;->close()V",
+        "Ljava/io/InputStream;->read()I"
+    ],
+    "Landroid/preference/PreferenceActivity;": [
+        "Landroid/preference/PreferenceActivity;->onOptionsItemSelected()Z",
+        "Landroid/preference/PreferenceActivity;->onPrepareOptionsMenu()Z",
+        "Landroid/preference/PreferenceActivity;->onPause()V",
+        "Landroid/preference/PreferenceActivity;->onActivityResult()V",
+        "Landroid/preference/PreferenceActivity;->onStart()V",
+        "Landroid/preference/PreferenceActivity;->onPrepareDialog()V",
+        "Landroid/preference/PreferenceActivity;->onCreate()V",
+        "Landroid/preference/PreferenceActivity;->onDestroy()V",
+        "Landroid/preference/PreferenceActivity;->onResume()V"
+    ],
+    "Lcom/tutusw/onekeyvpn/util/Preconditions;": [
+        "Lcom/tutusw/onekeyvpn/util/Preconditions;->check()Z"
+    ],
+    "Landroid/view/MenuInflater;": [
+        "Landroid/view/MenuInflater;->inflate()V"
+    ],
+    "Landroid/view/MenuItem;": [
+        "Landroid/view/MenuItem;->getItemId()I"
+    ],
+    "Lcom/tutusw/onekeyvpn/util/DnsUtil;": [
+        "Lcom/tutusw/onekeyvpn/util/DnsUtil;->getDns1()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/util/DnsUtil;->bumpDns()Ljava/lang/Integer;",
+        "Lcom/tutusw/onekeyvpn/util/DnsUtil;->setDns1()Ljava/lang/Integer;"
+    ],
+    "Landroid/content/res/Resources;": [
+        "Landroid/content/res/Resources;->getString()Ljava/lang/String;"
+    ],
+    "Lcom/tutusw/onekeyvpn/EnterUserPassword;": [
+        "Lcom/tutusw/onekeyvpn/EnterUserPassword;->getIntent()Landroid/content/Intent;",
+        "Lcom/tutusw/onekeyvpn/EnterUserPassword;->showDialog()V",
+        "Lcom/tutusw/onekeyvpn/EnterUserPassword;->bindService()Z",
+        "Lcom/tutusw/onekeyvpn/EnterUserPassword;->getConfigFile()Ljava/io/File;",
+        "Lcom/tutusw/onekeyvpn/EnterUserPassword;->unbindService()V"
+    ],
+    "Ljava/lang/Class;": [
+        "Ljava/lang/Class;->getName()Ljava/lang/String;"
+    ],
+    "Lcom/tutusw/onekeyvpn/ImportFiles;": [
+        "Lcom/tutusw/onekeyvpn/ImportFiles;->findViewById()Landroid/view/View;",
+        "Lcom/tutusw/onekeyvpn/ImportFiles;->showDialog()V",
+        "Lcom/tutusw/onekeyvpn/ImportFiles;->getPreferences()Landroid/content/SharedPreferences;",
+        "Lcom/tutusw/onekeyvpn/ImportFiles;->finish()V",
+        "Lcom/tutusw/onekeyvpn/ImportFiles;->validateSave()V",
+        "Lcom/tutusw/onekeyvpn/ImportFiles;->getApplicationContext()Landroid/content/Context;",
+        "Lcom/tutusw/onekeyvpn/ImportFiles;->setResult()V",
+        "Lcom/tutusw/onekeyvpn/ImportFiles;->setContentView()V"
+    ],
+    "Landroid/widget/Toast;": [
+        "Landroid/widget/Toast;->show()V",
+        "Landroid/widget/Toast;->makeText()Landroid/widget/Toast;"
+    ],
+    "Landroid/widget/EditText;": [
+        "Landroid/widget/EditText;->getText()Landroid/text/Editable;",
+        "Landroid/widget/EditText;->addTextChangedListener()V",
+        "Landroid/widget/EditText;->setText()V"
+    ],
+    "Landroid/widget/RadioGroup;": [
+        "Landroid/widget/RadioGroup;->check()V",
+        "Landroid/widget/RadioGroup;->getCheckedRadioButtonId()I"
+    ],
+    "Landroid/text/Editable;": [
+        "Landroid/text/Editable;->toString()Ljava/lang/String;"
+    ],
+    "Lcom/tutusw/onekeyvpn/util/Util;": [
+        "Lcom/tutusw/onekeyvpn/util/Util;->shellEscape()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/util/Util;->listFiles()[Ljava/io/File;",
+        "Lcom/tutusw/onekeyvpn/util/Util;->join()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/util/Util;->roundDecimalsToString()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/util/Util;->copy()V",
+        "Lcom/tutusw/onekeyvpn/util/Util;->waitForQuietly()I",
+        "Lcom/tutusw/onekeyvpn/util/Util;->closeQuietly()V"
+    ],
+    "Ljava/util/Arrays;": [
+        "Ljava/util/Arrays;->asList()Ljava/util/List;"
+    ],
+    "Lcom/tutusw/onekeyvpn/Notifications;": [
+        "Lcom/tutusw/onekeyvpn/Notifications;->cancel()V",
+        "Lcom/tutusw/onekeyvpn/Notifications;->notifyDisconnected()V",
+        "Lcom/tutusw/onekeyvpn/Notifications;->notifyConnected()V",
+        "Lcom/tutusw/onekeyvpn/Notifications;->sendPassphraseRequired()V",
+        "Lcom/tutusw/onekeyvpn/Notifications;->sendUsernamePasswordRequired()V",
+        "Lcom/tutusw/onekeyvpn/Notifications;->getNotificationManager()Landroid/app/NotificationManager;",
+        "Lcom/tutusw/onekeyvpn/Notifications;->notifyBytes()V"
+    ],
+    "Landroid/app/NotificationManager;": [
+        "Landroid/app/NotificationManager;->notify()V",
+        "Landroid/app/NotificationManager;->cancel()V"
+    ],
+    "Ljava/lang/System;": [
+        "Ljava/lang/System;->currentTimeMillis()J",
+        "Ljava/lang/System;->exit()V"
+    ],
+    "Landroid/app/PendingIntent;": [
+        "Landroid/app/PendingIntent;->getActivity()Landroid/app/PendingIntent;"
+    ],
+    "Landroid/app/Notification;": [
+        "Landroid/app/Notification;->setLatestEventInfo()V"
+    ],
+    "Lcom/tutusw/onekeyvpn/AdvancedSettings;": [
+        "Lcom/tutusw/onekeyvpn/AdvancedSettings;->getString()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/AdvancedSettings;->setContentView()V",
+        "Lcom/tutusw/onekeyvpn/AdvancedSettings;->findPreference()Landroid/preference/Preference;",
+        "Lcom/tutusw/onekeyvpn/AdvancedSettings;->addPreferencesFromResource()V",
+        "Lcom/tutusw/onekeyvpn/AdvancedSettings;->updateSummary()V"
+    ],
+    "Landroid/preference/ListPreference;": [
+        "Landroid/preference/ListPreference;->setSummary()V",
+        "Landroid/preference/ListPreference;->setOnPreferenceChangeListener()V",
+        "Landroid/preference/ListPreference;->getSharedPreferences()Landroid/content/SharedPreferences;"
+    ],
+    "Ljava/lang/ref/WeakReference;": [
+        "Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;"
+    ],
+    "Ljava/util/HashMap;": [
+        "Ljava/util/HashMap;->values()Ljava/util/Collection;",
+        "Ljava/util/HashMap;->containsKey()Z",
+        "Ljava/util/HashMap;->remove()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->put()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->get()Ljava/lang/Object;"
+    ],
+    "Lcom/tutusw/onekeyvpn/util/NetworkConnectivityListener;": [
+        "Lcom/tutusw/onekeyvpn/util/NetworkConnectivityListener;->startListening()V",
+        "Lcom/tutusw/onekeyvpn/util/NetworkConnectivityListener;->registerHandler()V",
+        "Lcom/tutusw/onekeyvpn/util/NetworkConnectivityListener;->stopListening()V"
+    ],
+    "Lcom/tutusw/onekeyvpn/service/DaemonMonitor;": [
+        "Lcom/tutusw/onekeyvpn/service/DaemonMonitor;->queryState()V",
+        "Lcom/tutusw/onekeyvpn/service/DaemonMonitor;->waitForTermination()V",
+        "Lcom/tutusw/onekeyvpn/service/DaemonMonitor;->start()V",
+        "Lcom/tutusw/onekeyvpn/service/DaemonMonitor;->reattach()Z",
+        "Lcom/tutusw/onekeyvpn/service/DaemonMonitor;->isAlive()Z",
+        "Lcom/tutusw/onekeyvpn/service/DaemonMonitor;->stop()V",
+        "Lcom/tutusw/onekeyvpn/service/DaemonMonitor;->restart()V",
+        "Lcom/tutusw/onekeyvpn/service/DaemonMonitor;->supplyUsernamePassword()V",
+        "Lcom/tutusw/onekeyvpn/service/DaemonMonitor;->supplyPassphrase()V"
+    ],
+    "Lcom/tutusw/onekeyvpn/Intents;": [
+        "Lcom/tutusw/onekeyvpn/Intents;->networkStateChanged()Landroid/content/Intent;",
+        "Lcom/tutusw/onekeyvpn/Intents;->daemonStateChanged()Landroid/content/Intent;"
+    ],
+    "Ljava/util/Collection;": [
+        "Ljava/util/Collection;->iterator()Ljava/util/Iterator;"
+    ],
+    "Landroid/app/Service;": [
+        "Landroid/app/Service;->onDestroy()V",
+        "Landroid/app/Service;->onCreate()V"
+    ],
+    "Lcom/tutusw/onekeyvpn/service/ManagementThread;": [
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->sendSignal()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->start()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->sendCommand()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->onEcho()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->onConnected()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->onPassword()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->onByteCount()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->onInfo()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->escape()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->onDisconnected()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->onFatal()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->handleResponse()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->onState()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->block()Z",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->monitor()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->onLog()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->sendCommandImmediately()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->sendState()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->onHold()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->updateHTCRoutes()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->sendPassphrase()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->handleRealtimeMessage()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->sleep()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->sendUserPassword()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->isAlive()Z",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->networkStateChanged()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread;->attach()Z"
+    ],
+    "Ljava/util/LinkedList;": [
+        "Ljava/util/LinkedList;->remove()Ljava/lang/Object;",
+        "Ljava/util/LinkedList;->add()Z",
+        "Ljava/util/LinkedList;->isEmpty()Z"
+    ],
+    "Lcom/tutusw/onekeyvpn/service/ManagementThread$Command;": [
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread$Command;->handleResponse()V",
+        "Lcom/tutusw/onekeyvpn/service/ManagementThread$Command;->getCommand()Ljava/lang/String;"
+    ],
+    "Ljava/net/Socket;": [
+        "Ljava/net/Socket;->close()V",
+        "Ljava/net/Socket;->isConnected()Z",
+        "Ljava/net/Socket;->getOutputStream()Ljava/io/OutputStream;",
+        "Ljava/net/Socket;->getInputStream()Ljava/io/InputStream;"
+    ],
+    "Ljava/util/concurrent/CountDownLatch;": [
+        "Ljava/util/concurrent/CountDownLatch;->countDown()V",
+        "Ljava/util/concurrent/CountDownLatch;->await()V"
+    ],
+    "Lcom/tutusw/onekeyvpn/util/TrafficStats;": [
+        "Lcom/tutusw/onekeyvpn/util/TrafficStats;->getDivideFactor()I",
+        "Lcom/tutusw/onekeyvpn/util/TrafficStats;->setStats()V",
+        "Lcom/tutusw/onekeyvpn/util/TrafficStats;->deltaPerSecond()I",
+        "Lcom/tutusw/onekeyvpn/util/TrafficStats;->toSmallInOutPerSecString()Ljava/lang/String;"
+    ],
+    "Lcom/tutusw/onekeyvpn/util/SystemPropertyUtil;": [
+        "Lcom/tutusw/onekeyvpn/util/SystemPropertyUtil;->getProperty()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/util/SystemPropertyUtil;->getIntProperty()Ljava/lang/Integer;",
+        "Lcom/tutusw/onekeyvpn/util/SystemPropertyUtil;->getProperties()Ljava/util/HashMap;",
+        "Lcom/tutusw/onekeyvpn/util/SystemPropertyUtil;->setProperty()V"
+    ],
+    "Landroid/os/Handler;": [
+        "Landroid/os/Handler;->obtainMessage()Landroid/os/Message;"
+    ],
+    "Landroid/os/Message;": [
+        "Landroid/os/Message;->sendToTarget()V"
+    ],
+    "Ljava/lang/Long;": [
+        "Ljava/lang/Long;->parseLong()J"
+    ],
+    "Ljava/io/PrintWriter;": [
+        "Ljava/io/PrintWriter;->flush()V",
+        "Ljava/io/PrintWriter;->println()V"
+    ],
+    "Ljava/net/InetAddress;": [
+        "Ljava/net/InetAddress;->getByAddress()Ljava/net/InetAddress;"
+    ],
+    "Ljava/io/IOException;": [
+        "Ljava/io/IOException;->printStackTrace()V",
+        "Ljava/io/IOException;->getMessage()Ljava/lang/String;",
+        "Ljava/io/IOException;->toString()Ljava/lang/String;"
+    ],
+    "Lcom/tutusw/onekeyvpn/util/Shell;": [
+        "Lcom/tutusw/onekeyvpn/util/Shell;->start()V",
+        "Lcom/tutusw/onekeyvpn/util/Shell;->onCmdStarted()V",
+        "Lcom/tutusw/onekeyvpn/util/Shell;->findBinary()Ljava/lang/String;",
+        "Lcom/tutusw/onekeyvpn/util/Shell;->isAlive()Z",
+        "Lcom/tutusw/onekeyvpn/util/Shell;->join()V",
+        "Lcom/tutusw/onekeyvpn/util/Shell;->run()V",
+        "Lcom/tutusw/onekeyvpn/util/Shell;->onCmdTerminated()V"
+    ],
+    "Ljava/lang/Math;": [
+        "Ljava/lang/Math;->random()D",
+        "Ljava/lang/Math;->ceil()D",
+        "Ljava/lang/Math;->round()J"
+    ],
+    "Lcom/tutusw/onekeyvpn/util/SystemPropertyUtil$GetAllProp;": [
+        "Lcom/tutusw/onekeyvpn/util/SystemPropertyUtil$GetAllProp;->run()V"
+    ],
+    "Lcom/tutusw/onekeyvpn/util/SystemPropertyUtil$GetProp;": [
+        "Lcom/tutusw/onekeyvpn/util/SystemPropertyUtil$GetProp;->run()V"
+    ],
+    "Lcom/tutusw/onekeyvpn/util/SystemPropertyUtil$SetProp;": [
+        "Lcom/tutusw/onekeyvpn/util/SystemPropertyUtil$SetProp;->run()V"
+    ],
+    "Landroid/content/pm/PackageManager;": [
+        "Landroid/content/pm/PackageManager;->getPackageInfo()Landroid/content/pm/PackageInfo;"
+    ],
+    "Landroid/content/pm/PackageManager$NameNotFoundException;": [
+        "Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V"
+    ],
+    "Landroid/content/res/AssetFileDescriptor;": [
+        "Landroid/content/res/AssetFileDescriptor;->close()V"
+    ],
+    "Ljava/io/Reader;": [
+        "Ljava/io/Reader;->close()V",
+        "Ljava/io/Reader;->read()I"
+    ],
+    "Ljava/io/Writer;": [
+        "Ljava/io/Writer;->close()V"
+    ],
+    "Ljava/lang/Runtime;": [
+        "Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;",
+        "Ljava/lang/Runtime;->exec()Ljava/lang/Process;"
+    ],
+    "Ljava/lang/Process;": [
+        "Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;",
+        "Ljava/lang/Process;->getErrorStream()Ljava/io/InputStream;",
+        "Ljava/lang/Process;->getOutputStream()Ljava/io/OutputStream;",
+        "Ljava/lang/Process;->waitFor()I"
+    ],
+    "Ljava/io/DataInputStream;": [
+        "Ljava/io/DataInputStream;->readLine()Ljava/lang/String;"
+    ],
+    "Ljava/nio/charset/Charset;": [
+        "Ljava/nio/charset/Charset;->forName()Ljava/nio/charset/Charset;"
+    ],
+    "Ljava/lang/CharSequence;": [
+        "Ljava/lang/CharSequence;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/util/List;": [
+        "Ljava/util/List;->iterator()Ljava/util/Iterator;"
+    ],
+    "Ljava/lang/Thread;": [
+        "Ljava/lang/Thread;->join()V"
+    ],
+    "Ljava/lang/Object;": [
+        "Ljava/lang/Object;->wait()V"
+    ],
+    "Lcom/tutusw/onekeyvpn/util/LoggerThread;": [
+        "Lcom/tutusw/onekeyvpn/util/LoggerThread;->onTerminate()V",
+        "Lcom/tutusw/onekeyvpn/util/LoggerThread;->setName()V",
+        "Lcom/tutusw/onekeyvpn/util/LoggerThread;->join()V",
+        "Lcom/tutusw/onekeyvpn/util/LoggerThread;->onLogLine()V",
+        "Lcom/tutusw/onekeyvpn/util/LoggerThread;->start()V"
+    ],
+    "Ljava/lang/ProcessBuilder;": [
+        "Ljava/lang/ProcessBuilder;->start()Ljava/lang/Process;",
+        "Ljava/lang/ProcessBuilder;->command()Ljava/util/List;"
+    ],
+    "Ljava/io/PrintStream;": [
+        "Ljava/io/PrintStream;->println()V",
+        "Ljava/io/PrintStream;->flush()V"
+    ],
+    "Ljava/util/regex/Pattern;": [
+        "Ljava/util/regex/Pattern;->compile()Ljava/util/regex/Pattern;",
+        "Ljava/util/regex/Pattern;->matcher()Ljava/util/regex/Matcher;"
+    ],
+    "Ljava/util/regex/Matcher;": [
+        "Ljava/util/regex/Matcher;->group()Ljava/lang/String;",
+        "Ljava/util/regex/Matcher;->find()Z"
+    ],
+    "Ljava/text/DateFormat;": [
+        "Ljava/text/DateFormat;->parse()Ljava/util/Date;"
+    ],
+    "Landroid/content/ComponentName;": [
+        "Landroid/content/ComponentName;->toString()Ljava/lang/String;"
+    ]
+}

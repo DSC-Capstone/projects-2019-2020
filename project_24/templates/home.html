@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  {% extends "template.html" %}
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/slate/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-idNH3UIOiZbCf8jxqu4iExnH34y5UovfW/Mg8T5WfNvoJolDvknoNqR69V2OexgF" 
+  crossorigin="anonymous">
+  
+    <meta charset="utf-8">
+    <title> {% block title %} Home {% endblock %} </title>
+  </head>
+  
+  <body>
+ 
+    {% block content %}
+    <div class="jumbotron">
+
+    <!--<div class="center-on-page">  -->
+    <h1> Restaurant Finder </h1>
+    <p> Which restaurant would you like to use today? </p>
+    
+    <br/>
+
+    <!--<form class="form-inline" action="{{ url_for('result') }}" method="POST">-->
+      <!--<div class="ml-container">-->
+      
+        <form action="{{ url_for('result')}}" method="POST">
+          
+          <p style="color:white; font-size: small;">Restaurant Name:</p>
+          <!-- <input type="text" name="listing"/> -->
+          <textarea name="listing" rows="1" cols="30"></textarea>
+          <br/>
+          
+          <p style="color:white; font-size: small;" >Location (city):</p>
+          <textarea name="city" rows="1" cols="30"></textarea>
+          <br/>
+            <!--<select name="comp_select" class="selectpicker form-control">-->
+          <p style="color:white; font-size: small;" >Would you like to find restaurants that...</p>
+
+              {% for o in data %}
+
+              <p style="color:white; font-size: small;text-align: left;align-content: center;"> 
+                <input type="checkbox" value="{{ o.name }}" name="mycheckbox">
+                {{ o.name }}?</p>
+
+              {% endfor %}
+
+            <!--</select>-->
+
+            <!--<form action="/" method="POST" >
+              Checkbox A<input type="checkbox" value="A" name="mycheckbox">
+              Checkbox B<input type="checkbox" value="B" name="mycheckbox">
+              Checkbox C<input type="checkbox" value="C" name="mycheckbox">
+              <!--<input type="submit">
+          </form>-->
+             <!--<p style="color:white; font-size: small;"> Checkbox A
+             <input type="checkbox" value="A" name="mycheckbox"></p>
+
+             <div style="color:white; font-size: small;"> Checkbox B 
+             <input type="checkbox" value="B" name="mycheckbox"></div>
+
+             <p style="color:white; font-size: small;"> Checkbox C 
+             <input type="checkbox" value="C" name="mycheckbox"></p>-->
+
+        <input type="submit" class="btn btn-primary" value="Go">
+        <!--<button type="submit" class="btn-info">Go</button>-->
+        
+        </form>
+  
+  
+      <!--</div>-->
+   
+        
+    </div>
+        
+      {% endblock %}
+      
+      </body>
+</html>

@@ -1,0 +1,41 @@
+<div class='detailed' *ngIf='report.hasOwnProperty("detailed") && report.errors.length === 0'>
+  <h1>Detailed Similarity Comparison</h1>
+  <div>
+    <mat-form-field class='padded'>
+      <mat-label>Select File 1</mat-label>
+      <mat-select [(value)]='file1' (selectionChange)='emitFileChange()'>
+        <mat-option *ngFor="let file of _columns" [value]="file">
+          {{file}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class='padded'>
+      <mat-label>Select File 2</mat-label>
+      <mat-select [(value)]='file2' (selectionChange)='emitFileChange()'>
+        <mat-option *ngFor="let file of _columns" [value]="file">
+          {{file}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <mat-table [dataSource]='report["detailed"][file1][file2]' *ngIf='file1 !== file2 && file1 !== "" && file2 !== "" && file1 !== undefined && file2 !== undefined && file1 !== null && file2 != null' class="mat-elevation-z8">
+    <ng-container matColumnDef="func1">
+      <mat-header-cell *matHeaderCellDef>File 1 Function</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element[0]}}</mat-cell>
+      <!-- <mat-footer-cell mat-footer-cell *matFooterCellDef>Overall Similarity (weighted)</mat-footer-cell> -->
+    </ng-container>
+    <ng-container matColumnDef="func2">
+      <mat-header-cell *matHeaderCellDef>File 2 Function</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element[1]}}</mat-cell>
+      <!-- <mat-footer-cell *matFooterCellDef></mat-footer-cell> -->
+    </ng-container>
+    <ng-container matColumnDef="sim">
+      <mat-header-cell *matHeaderCellDef>Similarity</mat-header-cell>
+      <mat-cell *matCellDef="let element" (click)='similarityClick.emit(element.slice(0, 2))' style='cursor: pointer'>{{element[2] !== -1 ? (element[2] | number:'1.0-2') : 'No APIs'}}</mat-cell>
+      <!-- <mat-footer-cell *matFooterCellDef>{{report.overall | number:'1.0-2'}}</mat-footer-cell> -->
+    </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    <!-- <mat-footer-row *matFooterRowDef='displayedColumns'></mat-footer-row> -->
+  </mat-table>
+</div>

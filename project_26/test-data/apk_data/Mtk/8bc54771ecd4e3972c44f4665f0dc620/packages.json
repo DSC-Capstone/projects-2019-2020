@@ -1,0 +1,1700 @@
+{
+    "Ljava/lang/StringBuilder;": [
+        "Ljava/lang/StringBuilder;->length()I",
+        "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+        "Ljava/lang/StringBuilder;->append()Ljava/lang/StringBuilder;"
+    ],
+    "Lcom/google/ads/util/a;": [
+        "Lcom/google/ads/util/a;->a()Z",
+        "Lcom/google/ads/util/a;->a()V"
+    ],
+    "Ljava/net/URL;": [
+        "Ljava/net/URL;->openStream()Ljava/io/InputStream;",
+        "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    ],
+    "Lcom/google/ads/util/AdUtil;": [
+        "Lcom/google/ads/util/AdUtil;->a()I",
+        "Lcom/google/ads/util/AdUtil;->a()Lorg/json/JSONArray;",
+        "Lcom/google/ads/util/AdUtil;->a()Lcom/google/ads/util/AdUtil$a;",
+        "Lcom/google/ads/util/AdUtil;->a()Ljava/util/HashMap;",
+        "Lcom/google/ads/util/AdUtil;->a()Landroid/util/DisplayMetrics;",
+        "Lcom/google/ads/util/AdUtil;->a()Lorg/json/JSONObject;",
+        "Lcom/google/ads/util/AdUtil;->a()Z",
+        "Lcom/google/ads/util/AdUtil;->a()Ljava/lang/String;",
+        "Lcom/google/ads/util/AdUtil;->a()V"
+    ],
+    "Ljava/net/HttpURLConnection;": [
+        "Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;",
+        "Ljava/net/HttpURLConnection;->getHeaderField()Ljava/lang/String;",
+        "Ljava/net/HttpURLConnection;->disconnect()V",
+        "Ljava/net/HttpURLConnection;->setRequestProperty()V",
+        "Ljava/net/HttpURLConnection;->setInstanceFollowRedirects()V",
+        "Ljava/net/HttpURLConnection;->getResponseCode()I",
+        "Ljava/net/HttpURLConnection;->connect()V"
+    ],
+    "Ljava/util/HashMap;": [
+        "Ljava/util/HashMap;->remove()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->clear()V",
+        "Ljava/util/HashMap;->isEmpty()Z",
+        "Ljava/util/HashMap;->put()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->size()I",
+        "Ljava/util/HashMap;->get()Ljava/lang/Object;"
+    ],
+    "Ld;": [
+        "Ld;->a()Lc;",
+        "Ld;->a()Lf;",
+        "Ld;->a()I",
+        "Ld;->a()Lcom/google/ads/AdSize;",
+        "Ld;->a()Lg;",
+        "Ld;->a()Lcom/google/ads/Ad;",
+        "Ld;->a()Ljava/lang/String;",
+        "Ld;->a()J",
+        "Ld;->a()Lh;",
+        "Ld;->a()Landroid/app/Activity;",
+        "Ld;->a()V",
+        "Ld;->a()Z"
+    ],
+    "Lc;": [
+        "Lc;->a()Ljava/lang/String;",
+        "Lc;->a()V"
+    ],
+    "Landroid/app/Activity;": [
+        "Landroid/app/Activity;->getSystemService()Ljava/lang/Object;",
+        "Landroid/app/Activity;->onKeyDown()Z",
+        "Landroid/app/Activity;->startActivity()V",
+        "Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;",
+        "Landroid/app/Activity;->onKeyMultiple()Z",
+        "Landroid/app/Activity;->onPause()V",
+        "Landroid/app/Activity;->onResume()V",
+        "Landroid/app/Activity;->onCreate()V",
+        "Landroid/app/Activity;->onWindowFocusChanged()V",
+        "Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;",
+        "Landroid/app/Activity;->getResources()Landroid/content/res/Resources;",
+        "Landroid/app/Activity;->onDestroy()V"
+    ],
+    "Landroid/webkit/WebView;": [
+        "Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;",
+        "Landroid/webkit/WebView;->requestFocus()Z",
+        "Landroid/webkit/WebView;->getContext()Landroid/content/Context;",
+        "Landroid/webkit/WebView;->loadDataWithBaseURL()V",
+        "Landroid/webkit/WebView;->onMeasure()V",
+        "Landroid/webkit/WebView;->setWebViewClient()V",
+        "Landroid/webkit/WebView;->loadUrl()V",
+        "Landroid/webkit/WebView;->setScrollBarStyle()V",
+        "Landroid/webkit/WebView;->stopLoading()V",
+        "Landroid/webkit/WebView;->setWillNotDraw()V",
+        "Landroid/webkit/WebView;->setVisibility()V",
+        "Landroid/webkit/WebView;->destroy()V"
+    ],
+    "Lcom/google/ads/AdRequest;": [
+        "Lcom/google/ads/AdRequest;->getRequestMap()Ljava/util/Map;",
+        "Lcom/google/ads/AdRequest;->addKeyword()V",
+        "Lcom/google/ads/AdRequest;->isTestDevice()Z"
+    ],
+    "Lf;": [
+        "Lf;->a()J",
+        "Lf;->a()Ljava/lang/String;",
+        "Lf;->a()Z",
+        "Lf;->a()V"
+    ],
+    "Ljava/lang/Long;": [
+        "Ljava/lang/Long;->longValue()J",
+        "Ljava/lang/Long;->valueOf()Ljava/lang/Long;",
+        "Ljava/lang/Long;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/util/Map;": [
+        "Ljava/util/Map;->put()Ljava/lang/Object;",
+        "Ljava/util/Map;->keySet()Ljava/util/Set;",
+        "Ljava/util/Map;->isEmpty()Z",
+        "Ljava/util/Map;->get()Ljava/lang/Object;"
+    ],
+    "Landroid/content/Context;": [
+        "Landroid/content/Context;->registerReceiver()Landroid/content/Intent;",
+        "Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;",
+        "Landroid/content/Context;->getDir()Ljava/io/File;",
+        "Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;",
+        "Landroid/content/Context;->getPackageName()Ljava/lang/String;",
+        "Landroid/content/Context;->getApplicationContext()Landroid/content/Context;",
+        "Landroid/content/Context;->getSystemService()Ljava/lang/Object;",
+        "Landroid/content/Context;->openFileOutput()Ljava/io/FileOutputStream;",
+        "Landroid/content/Context;->openFileInput()Ljava/io/FileInputStream;",
+        "Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;",
+        "Landroid/content/Context;->startService()Landroid/content/ComponentName;",
+        "Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;",
+        "Landroid/content/Context;->getSharedPreferences()Landroid/content/SharedPreferences;"
+    ],
+    "Landroid/content/pm/PackageManager;": [
+        "Landroid/content/pm/PackageManager;->checkPermission()I",
+        "Landroid/content/pm/PackageManager;->getPackageInfo()Landroid/content/pm/PackageInfo;",
+        "Landroid/content/pm/PackageManager;->getPackageArchiveInfo()Landroid/content/pm/PackageInfo;",
+        "Landroid/content/pm/PackageManager;->getReceiverInfo()Landroid/content/pm/ActivityInfo;",
+        "Landroid/content/pm/PackageManager;->queryIntentActivities()Ljava/util/List;",
+        "Landroid/content/pm/PackageManager;->resolveActivity()Landroid/content/pm/ResolveInfo;"
+    ],
+    "Lcom/google/ads/AdSize;": [
+        "Lcom/google/ads/AdSize;->getHeight()I",
+        "Lcom/google/ads/AdSize;->getWidth()I",
+        "Lcom/google/ads/AdSize;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/lang/Integer;": [
+        "Ljava/lang/Integer;->byteValue()B",
+        "Ljava/lang/Integer;->parseInt()I",
+        "Ljava/lang/Integer;->intValue()I",
+        "Ljava/lang/Integer;->valueOf()Ljava/lang/Integer;"
+    ],
+    "Ljava/lang/String;": [
+        "Ljava/lang/String;->toUpperCase()Ljava/lang/String;",
+        "Ljava/lang/String;->contains()Z",
+        "Ljava/lang/String;->toLowerCase()Ljava/lang/String;",
+        "Ljava/lang/String;->endsWith()Z",
+        "Ljava/lang/String;->length()I",
+        "Ljava/lang/String;->indexOf()I",
+        "Ljava/lang/String;->replaceAll()Ljava/lang/String;",
+        "Ljava/lang/String;->replace()Ljava/lang/String;",
+        "Ljava/lang/String;->toString()Ljava/lang/String;",
+        "Ljava/lang/String;->equals()Z",
+        "Ljava/lang/String;->equalsIgnoreCase()Z",
+        "Ljava/lang/String;->format()Ljava/lang/String;",
+        "Ljava/lang/String;->trim()Ljava/lang/String;",
+        "Ljava/lang/String;->charAt()C",
+        "Ljava/lang/String;->valueOf()Ljava/lang/String;",
+        "Ljava/lang/String;->split()[Ljava/lang/String;",
+        "Ljava/lang/String;->startsWith()Z",
+        "Ljava/lang/String;->lastIndexOf()I",
+        "Ljava/lang/String;->substring()Ljava/lang/String;",
+        "Ljava/lang/String;->getBytes()[B"
+    ],
+    "Lcom/google/ads/util/AdUtil$a;": [
+        "Lcom/google/ads/util/AdUtil$a;->ordinal()I"
+    ],
+    "Ljava/lang/Float;": [
+        "Ljava/lang/Float;->floatValue()F",
+        "Ljava/lang/Float;->parseFloat()F",
+        "Ljava/lang/Float;->valueOf()Ljava/lang/Float;"
+    ],
+    "Ljava/util/Locale;": [
+        "Ljava/util/Locale;->getDefault()Ljava/util/Locale;",
+        "Ljava/util/Locale;->getCountry()Ljava/lang/String;",
+        "Ljava/util/Locale;->getLanguage()Ljava/lang/String;"
+    ],
+    "Lb;": [
+        "Lb;->a()V"
+    ],
+    "Ljava/lang/Thread;": [
+        "Ljava/lang/Thread;->start()V",
+        "Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;",
+        "Ljava/lang/Thread;->sleep()V",
+        "Ljava/lang/Thread;->interrupt()V"
+    ],
+    "Ljava/lang/Object;": [
+        "Ljava/lang/Object;->wait()V",
+        "Ljava/lang/Object;->finalize()V",
+        "Ljava/lang/Object;->notify()V",
+        "Ljava/lang/Object;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/util/LinkedList;": [
+        "Ljava/util/LinkedList;->removeLast()Ljava/lang/Object;",
+        "Ljava/util/LinkedList;->add()Z",
+        "Ljava/util/LinkedList;->size()I",
+        "Ljava/util/LinkedList;->isEmpty()Z",
+        "Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/LinkedList;->clear()V",
+        "Ljava/util/LinkedList;->get()Ljava/lang/Object;"
+    ],
+    "Landroid/os/SystemClock;": [
+        "Landroid/os/SystemClock;->elapsedRealtime()J"
+    ],
+    "Lh;": [
+        "Lh;->a()V"
+    ],
+    "Lg;": [
+        "Lg;->setMeasuredDimension()V",
+        "Lg;->destroy()V",
+        "Lg;->isInEditMode()Z",
+        "Lg;->a()Lcom/google/ads/AdActivity;",
+        "Lg;->setWebViewClient()V",
+        "Lg;->stopLoading()V",
+        "Lg;->loadUrl()V",
+        "Lg;->getSettings()Landroid/webkit/WebSettings;",
+        "Lg;->getContext()Landroid/content/Context;",
+        "Lg;->setBackgroundColor()V",
+        "Lg;->setScrollBarStyle()V",
+        "Lg;->loadDataWithBaseURL()V",
+        "Lg;->setVisibility()V",
+        "Lg;->getParent()Landroid/view/ViewParent;",
+        "Lg;->a()V"
+    ],
+    "Landroid/widget/VideoView;": [
+        "Landroid/widget/VideoView;->stopPlayback()V",
+        "Landroid/widget/VideoView;->seekTo()V",
+        "Landroid/widget/VideoView;->setOnPreparedListener()V",
+        "Landroid/widget/VideoView;->setVisibility()V",
+        "Landroid/widget/VideoView;->setVideoPath()V",
+        "Landroid/widget/VideoView;->start()V",
+        "Landroid/widget/VideoView;->setOnCompletionListener()V",
+        "Landroid/widget/VideoView;->setOnErrorListener()V",
+        "Landroid/widget/VideoView;->pause()V"
+    ],
+    "Lcom/google/ads/AdActivity;": [
+        "Lcom/google/ads/AdActivity;->getVideoView()Landroid/widget/VideoView;",
+        "Lcom/google/ads/AdActivity;->getWindow()Landroid/view/Window;",
+        "Lcom/google/ads/AdActivity;->a()V",
+        "Lcom/google/ads/AdActivity;->setRequestedOrientation()V",
+        "Lcom/google/ads/AdActivity;->finish()V",
+        "Lcom/google/ads/AdActivity;->isShowing()Z",
+        "Lcom/google/ads/AdActivity;->setContentView()V",
+        "Lcom/google/ads/AdActivity;->getIntent()Landroid/content/Intent;",
+        "Lcom/google/ads/AdActivity;->launchAdActivity()V",
+        "Lcom/google/ads/AdActivity;->requestWindowFeature()Z",
+        "Lcom/google/ads/AdActivity;->getResources()Landroid/content/res/Resources;",
+        "Lcom/google/ads/AdActivity;->isFinishing()Z",
+        "Lcom/google/ads/AdActivity;->getApplicationContext()Landroid/content/Context;",
+        "Lcom/google/ads/AdActivity;->startActivity()V",
+        "Lcom/google/ads/AdActivity;->getOpeningAdWebView()Lg;",
+        "Lcom/google/ads/AdActivity;->showVideo()V"
+    ],
+    "La;": [
+        "La;->a()V",
+        "La;->a()Z"
+    ],
+    "Ljava/util/StringTokenizer;": [
+        "Ljava/util/StringTokenizer;->nextToken()Ljava/lang/String;",
+        "Ljava/util/StringTokenizer;->hasMoreTokens()Z"
+    ],
+    "Ljava/io/BufferedReader;": [
+        "Ljava/io/BufferedReader;->readLine()Ljava/lang/String;"
+    ],
+    "Ljava/util/Collections;": [
+        "Ljava/util/Collections;->unmodifiableMap()Ljava/util/Map;"
+    ],
+    "Lorg/json/JSONObject;": [
+        "Lorg/json/JSONObject;->put()Lorg/json/JSONObject;",
+        "Lorg/json/JSONObject;->toString()Ljava/lang/String;"
+    ],
+    "Landroid/net/Uri;": [
+        "Landroid/net/Uri;->isHierarchical()Z",
+        "Landroid/net/Uri;->getPath()Ljava/lang/String;",
+        "Landroid/net/Uri;->getScheme()Ljava/lang/String;",
+        "Landroid/net/Uri;->getAuthority()Ljava/lang/String;",
+        "Landroid/net/Uri;->toString()Ljava/lang/String;",
+        "Landroid/net/Uri;->getHost()Ljava/lang/String;",
+        "Landroid/net/Uri;->getEncodedQuery()Ljava/lang/String;",
+        "Landroid/net/Uri;->parse()Landroid/net/Uri;"
+    ],
+    "Li;": [
+        "Li;->a()V"
+    ],
+    "Ljava/lang/ref/WeakReference;": [
+        "Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;"
+    ],
+    "Landroid/webkit/WebSettings;": [
+        "Landroid/webkit/WebSettings;->setJavaScriptEnabled()V",
+        "Landroid/webkit/WebSettings;->setSupportZoom()V",
+        "Landroid/webkit/WebSettings;->setDefaultZoom()V",
+        "Landroid/webkit/WebSettings;->getUserAgentString()Ljava/lang/String;",
+        "Landroid/webkit/WebSettings;->setBuiltInZoomControls()V",
+        "Landroid/webkit/WebSettings;->setUserAgentString()V"
+    ],
+    "Landroid/view/View$MeasureSpec;": [
+        "Landroid/view/View$MeasureSpec;->getMode()I",
+        "Landroid/view/View$MeasureSpec;->getSize()I"
+    ],
+    "Landroid/content/res/Resources;": [
+        "Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;",
+        "Landroid/content/res/Resources;->getValue()V",
+        "Landroid/content/res/Resources;->openRawResourceFd()Landroid/content/res/AssetFileDescriptor;",
+        "Landroid/content/res/Resources;->openRawResource()Ljava/io/InputStream;"
+    ],
+    "Ljava/lang/Boolean;": [
+        "Ljava/lang/Boolean;->booleanValue()Z",
+        "Ljava/lang/Boolean;->valueOf()Ljava/lang/Boolean;"
+    ],
+    "Landroid/os/Bundle;": [
+        "Landroid/os/Bundle;->getSerializable()Ljava/io/Serializable;",
+        "Landroid/os/Bundle;->getString()Ljava/lang/String;",
+        "Landroid/os/Bundle;->keySet()Ljava/util/Set;",
+        "Landroid/os/Bundle;->putSerializable()V",
+        "Landroid/os/Bundle;->putString()V",
+        "Landroid/os/Bundle;->putInt()V"
+    ],
+    "Landroid/content/SharedPreferences;": [
+        "Landroid/content/SharedPreferences;->getLong()J",
+        "Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;"
+    ],
+    "Ljava/util/Iterator;": [
+        "Ljava/util/Iterator;->hasNext()Z",
+        "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+    ],
+    "Landroid/content/SharedPreferences$Editor;": [
+        "Landroid/content/SharedPreferences$Editor;->putLong()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->commit()Z"
+    ],
+    "Lcom/google/ads/AdListener;": [
+        "Lcom/google/ads/AdListener;->onReceiveAd()V",
+        "Lcom/google/ads/AdListener;->onPresentScreen()V",
+        "Lcom/google/ads/AdListener;->onFailedToReceiveAd()V",
+        "Lcom/google/ads/AdListener;->onLeaveApplication()V",
+        "Lcom/google/ads/AdListener;->onDismissScreen()V"
+    ],
+    "Landroid/os/Handler;": [
+        "Landroid/os/Handler;->removeCallbacks()V",
+        "Landroid/os/Handler;->postDelayed()Z",
+        "Landroid/os/Handler;->sendMessage()Z",
+        "Landroid/os/Handler;->post()Z",
+        "Landroid/os/Handler;->obtainMessage()Landroid/os/Message;"
+    ],
+    "Lcom/google/ads/AdView;": [
+        "Lcom/google/ads/AdView;->addView()V",
+        "Lcom/google/ads/AdView;->isInEditMode()Z",
+        "Lcom/google/ads/AdView;->setLayoutParams()V",
+        "Lcom/google/ads/AdView;->loadAd()V",
+        "Lcom/google/ads/AdView;->isRefreshing()Z",
+        "Lcom/google/ads/AdView;->isShown()Z",
+        "Lcom/google/ads/AdView;->a()Z",
+        "Lcom/google/ads/AdView;->a()V",
+        "Lcom/google/ads/AdView;->setGravity()V",
+        "Lcom/google/ads/AdView;->getResources()Landroid/content/res/Resources;",
+        "Lcom/google/ads/AdView;->getChildCount()I",
+        "Lcom/google/ads/AdView;->invalidate()V",
+        "Lcom/google/ads/AdView;->setAdListener()V"
+    ],
+    "Landroid/webkit/WebViewClient;": [
+        "Landroid/webkit/WebViewClient;->shouldOverrideUrlLoading()Z"
+    ],
+    "Landroid/view/MotionEvent;": [
+        "Landroid/view/MotionEvent;->getX()F",
+        "Landroid/view/MotionEvent;->getPointerId()I",
+        "Landroid/view/MotionEvent;->getY()F",
+        "Landroid/view/MotionEvent;->getAction()I",
+        "Landroid/view/MotionEvent;->getPointerCount()I"
+    ],
+    "Loms/GameEngine/GameView;": [
+        "Loms/GameEngine/GameView;->SetDraw()V",
+        "Loms/GameEngine/GameView;->onDestory()V",
+        "Loms/GameEngine/GameView;->getHolder()Landroid/view/SurfaceHolder;",
+        "Loms/GameEngine/GameView;->CreateThread()V",
+        "Loms/GameEngine/GameView;->setFocusable()V",
+        "Loms/GameEngine/GameView;->onResume()V",
+        "Loms/GameEngine/GameView;->onPause()V"
+    ],
+    "Landroid/view/SurfaceHolder;": [
+        "Landroid/view/SurfaceHolder;->addCallback()V"
+    ],
+    "Loms/GameEngine/C_Lib;": [
+        "Loms/GameEngine/C_Lib;->onResume()V",
+        "Loms/GameEngine/C_Lib;->SetScreenOffset()V",
+        "Loms/GameEngine/C_Lib;->getMessageMgr()Loms/GameEngine/C_MessageManager;",
+        "Loms/GameEngine/C_Lib;->getInput()Loms/GameEngine/InputInterface;",
+        "Loms/GameEngine/C_Lib;->SetCanvasScale()V",
+        "Loms/GameEngine/C_Lib;->onPause()V",
+        "Loms/GameEngine/C_Lib;->getGameCanvas()Loms/GameEngine/GameCanvas;",
+        "Loms/GameEngine/C_Lib;->SetGameView()V",
+        "Loms/GameEngine/C_Lib;->SetReflashSize()V",
+        "Loms/GameEngine/C_Lib;->getVBLCount()I",
+        "Loms/GameEngine/C_Lib;->WaitBLK()V",
+        "Loms/GameEngine/C_Lib;->ClearACT()V",
+        "Loms/GameEngine/C_Lib;->SetActivity()V",
+        "Loms/GameEngine/C_Lib;->setFrameReflashTime()V",
+        "Loms/GameEngine/C_Lib;->getMContext()Landroid/content/Context;",
+        "Loms/GameEngine/C_Lib;->ViewOpen()V",
+        "Loms/GameEngine/C_Lib;->InitCanvas()V",
+        "Loms/GameEngine/C_Lib;->ViewDark()V",
+        "Loms/GameEngine/C_Lib;->getMediaManager()Loms/GameEngine/MediaManager;",
+        "Loms/GameEngine/C_Lib;->GetActivity()Landroid/app/Activity;"
+    ],
+    "Loms/GameEngine/GameView$RanderThread;": [
+        "Loms/GameEngine/GameView$RanderThread;->resume()V",
+        "Loms/GameEngine/GameView$RanderThread;->setPriority()V",
+        "Loms/GameEngine/GameView$RanderThread;->join()V",
+        "Loms/GameEngine/GameView$RanderThread;->setRunning()V",
+        "Loms/GameEngine/GameView$RanderThread;->isAlive()Z",
+        "Loms/GameEngine/GameView$RanderThread;->start()V",
+        "Loms/GameEngine/GameView$RanderThread;->SetDraw()V"
+    ],
+    "Ljava/lang/InterruptedException;": [
+        "Ljava/lang/InterruptedException;->printStackTrace()V"
+    ],
+    "Landroid/view/SurfaceView;": [
+        "Landroid/view/SurfaceView;->onWindowVisibilityChanged()V"
+    ],
+    "Ljava/io/InputStream;": [
+        "Ljava/io/InputStream;->close()V",
+        "Ljava/io/InputStream;->skip()J",
+        "Ljava/io/InputStream;->available()I",
+        "Ljava/io/InputStream;->reset()V",
+        "Ljava/io/InputStream;->read()I"
+    ],
+    "Ljava/io/IOException;": [
+        "Ljava/io/IOException;->printStackTrace()V"
+    ],
+    "Loms/GameEngine/C_Vibrator;": [
+        "Loms/GameEngine/C_Vibrator;->InitVibrator()V",
+        "Loms/GameEngine/C_Vibrator;->Vibrate()V"
+    ],
+    "Landroid/os/Vibrator;": [
+        "Landroid/os/Vibrator;->vibrate()V"
+    ],
+    "Loms/GameEngine/GameMath;": [
+        "Loms/GameEngine/GameMath;->isPointInLine()Z",
+        "Loms/GameEngine/GameMath;->convertToUIX()I",
+        "Loms/GameEngine/GameMath;->convertToUIY()I",
+        "Loms/GameEngine/GameMath;->isPointInPolygon()Z",
+        "Loms/GameEngine/GameMath;->convertToRealX()I",
+        "Loms/GameEngine/GameMath;->CHKTouch()Z",
+        "Loms/GameEngine/GameMath;->convertToRealY()I"
+    ],
+    "Landroid/media/MediaRecorder;": [
+        "Landroid/media/MediaRecorder;->stop()V",
+        "Landroid/media/MediaRecorder;->release()V",
+        "Landroid/media/MediaRecorder;->setAudioSource()V",
+        "Landroid/media/MediaRecorder;->getMaxAmplitude()I",
+        "Landroid/media/MediaRecorder;->prepare()V",
+        "Landroid/media/MediaRecorder;->setOutputFile()V",
+        "Landroid/media/MediaRecorder;->start()V",
+        "Landroid/media/MediaRecorder;->setOutputFormat()V",
+        "Landroid/media/MediaRecorder;->setAudioEncoder()V"
+    ],
+    "Loms/GameEngine/SoundMeter;": [
+        "Loms/GameEngine/SoundMeter;->start()V",
+        "Loms/GameEngine/SoundMeter;->getAmplitude()D",
+        "Loms/GameEngine/SoundMeter;->stop()V"
+    ],
+    "Landroid/os/Environment;": [
+        "Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;",
+        "Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;"
+    ],
+    "Ljava/io/File;": [
+        "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;",
+        "Ljava/io/File;->toString()Ljava/lang/String;",
+        "Ljava/io/File;->listFiles()[Ljava/io/File;",
+        "Ljava/io/File;->list()[Ljava/lang/String;",
+        "Ljava/io/File;->createTempFile()Ljava/io/File;",
+        "Ljava/io/File;->isFile()Z",
+        "Ljava/io/File;->mkdirs()Z",
+        "Ljava/io/File;->isDirectory()Z",
+        "Ljava/io/File;->length()J",
+        "Ljava/io/File;->delete()Z",
+        "Ljava/io/File;->exists()Z"
+    ],
+    "Ljava/lang/IllegalStateException;": [
+        "Ljava/lang/IllegalStateException;->printStackTrace()V"
+    ],
+    "Landroid/util/Log;": [
+        "Landroid/util/Log;->a()I",
+        "Landroid/util/Log;->isLoggable()Z"
+    ],
+    "Ljava/lang/Exception;": [
+        "Ljava/lang/Exception;->printStackTrace()V",
+        "Ljava/lang/Exception;->getMessage()Ljava/lang/String;"
+    ],
+    "Ljava/lang/System;": [
+        "Ljava/lang/System;->getProperty()Ljava/lang/String;",
+        "Ljava/lang/System;->gc()V",
+        "Ljava/lang/System;->currentTimeMillis()J",
+        "Ljava/lang/System;->exit()V",
+        "Ljava/lang/System;->arraycopy()V"
+    ],
+    "Loms/GameEngine/TextManager;": [
+        "Loms/GameEngine/TextManager;->SetTextRotate()V",
+        "Loms/GameEngine/TextManager;->ScrollText()V",
+        "Loms/GameEngine/TextManager;->InitText()V",
+        "Loms/GameEngine/TextManager;->SetTextYVal()V",
+        "Loms/GameEngine/TextManager;->GetTextHeight()I",
+        "Loms/GameEngine/TextManager;->CloseAllText()V",
+        "Loms/GameEngine/TextManager;->GetTextYVal()I",
+        "Loms/GameEngine/TextManager;->setTextPixels()V",
+        "Loms/GameEngine/TextManager;->GetTextXVal()I",
+        "Loms/GameEngine/TextManager;->CloseText()V",
+        "Loms/GameEngine/TextManager;->GetBMPRamSize()J",
+        "Loms/GameEngine/TextManager;->getTextPixels()Z",
+        "Loms/GameEngine/TextManager;->LoadPicture()V",
+        "Loms/GameEngine/TextManager;->SetTextInc()V",
+        "Loms/GameEngine/TextManager;->SetBMPSizeOut()V",
+        "Loms/GameEngine/TextManager;->LoadText()V",
+        "Loms/GameEngine/TextManager;->OnDraw()V",
+        "Loms/GameEngine/TextManager;->SetTextScale()V",
+        "Loms/GameEngine/TextManager;->SetTextXVal()V",
+        "Loms/GameEngine/TextManager;->GetTextWidth()I",
+        "Loms/GameEngine/TextManager;->GetBitmapSize()I"
+    ],
+    "Landroid/graphics/Bitmap;": [
+        "Landroid/graphics/Bitmap;->getWidth()I",
+        "Landroid/graphics/Bitmap;->getPixels()V",
+        "Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;",
+        "Landroid/graphics/Bitmap;->getHeight()I",
+        "Landroid/graphics/Bitmap;->setPixels()V",
+        "Landroid/graphics/Bitmap;->createBitmap()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/Bitmap;->recycle()V"
+    ],
+    "Landroid/graphics/BitmapFactory;": [
+        "Landroid/graphics/BitmapFactory;->decodeStream()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/BitmapFactory;->decodeResource()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/BitmapFactory;->decodeByteArray()Landroid/graphics/Bitmap;"
+    ],
+    "Loms/GameEngine/PackageManager;": [
+        "Loms/GameEngine/PackageManager;->createBitmap()Landroid/graphics/Bitmap;",
+        "Loms/GameEngine/PackageManager;->GetPackageFactorB()S",
+        "Loms/GameEngine/PackageManager;->GetPackageType()B",
+        "Loms/GameEngine/PackageManager;->GetInvalidLeng()B",
+        "Loms/GameEngine/PackageManager;->GetPackageFactorA()S"
+    ],
+    "Landroid/content/res/AssetManager;": [
+        "Landroid/content/res/AssetManager;->open()Ljava/io/InputStream;"
+    ],
+    "Landroid/graphics/Canvas;": [
+        "Landroid/graphics/Canvas;->drawBitmap()V",
+        "Landroid/graphics/Canvas;->drawARGB()V"
+    ],
+    "Landroid/graphics/Matrix;": [
+        "Landroid/graphics/Matrix;->postRotate()Z",
+        "Landroid/graphics/Matrix;->setTranslate()V",
+        "Landroid/graphics/Matrix;->postScale()Z",
+        "Landroid/graphics/Matrix;->reset()V"
+    ],
+    "Loms/GameEngine/GameCanvas;": [
+        "Loms/GameEngine/GameCanvas;->CloseAllText()V",
+        "Loms/GameEngine/GameCanvas;->ClearACT()V",
+        "Loms/GameEngine/GameCanvas;->GetSpriteZHitF()I",
+        "Loms/GameEngine/GameCanvas;->GetSpriteYHitU()I",
+        "Loms/GameEngine/GameCanvas;->flush()V",
+        "Loms/GameEngine/GameCanvas;->GetScreenWidth()I",
+        "Loms/GameEngine/GameCanvas;->SetScreenSize()V",
+        "Loms/GameEngine/GameCanvas;->LoadText()V",
+        "Loms/GameEngine/GameCanvas;->FreeAllACT()V",
+        "Loms/GameEngine/GameCanvas;->SetScreenOffset()V",
+        "Loms/GameEngine/GameCanvas;->GetTextYVal()I",
+        "Loms/GameEngine/GameCanvas;->release()V",
+        "Loms/GameEngine/GameCanvas;->getUpdata()Z",
+        "Loms/GameEngine/GameCanvas;->ViewOpen()Z",
+        "Loms/GameEngine/GameCanvas;->GetViewRect()Landroid/graphics/Rect;",
+        "Loms/GameEngine/GameCanvas;->SetTextYVal()V",
+        "Loms/GameEngine/GameCanvas;->SetMaxLogicLayer()V",
+        "Loms/GameEngine/GameCanvas;->isReflash()Z",
+        "Loms/GameEngine/GameCanvas;->GetSpriteXHitR()I",
+        "Loms/GameEngine/GameCanvas;->GetSpriteZHitB()I",
+        "Loms/GameEngine/GameCanvas;->GetSpriteXHitL()I",
+        "Loms/GameEngine/GameCanvas;->LoadACT()Z",
+        "Loms/GameEngine/GameCanvas;->GetTextXVal()I",
+        "Loms/GameEngine/GameCanvas;->onDraw()V",
+        "Loms/GameEngine/GameCanvas;->GetScreenHeight()I",
+        "Loms/GameEngine/GameCanvas;->GetSpriteYHitD()I",
+        "Loms/GameEngine/GameCanvas;->ViewDark()Z",
+        "Loms/GameEngine/GameCanvas;->CHKACTTouch()Z",
+        "Loms/GameEngine/GameCanvas;->WriteSprite()I",
+        "Loms/GameEngine/GameCanvas;->SetViewRect()V"
+    ],
+    "Loms/GameEngine/C_MessageManager;": [
+        "Loms/GameEngine/C_MessageManager;->GetMessageQueueLength()I",
+        "Loms/GameEngine/C_MessageManager;->GetMessageQueue()Loms/GameEngine/C_MSG;",
+        "Loms/GameEngine/C_MessageManager;->RemoveAllMsgQueue()V",
+        "Loms/GameEngine/C_MessageManager;->SendMessage()V"
+    ],
+    "Loms/GameEngine/C_MSG;": [
+        "Loms/GameEngine/C_MSG;->GetMsgMessage()I",
+        "Loms/GameEngine/C_MSG;->SetMessage()V",
+        "Loms/GameEngine/C_MSG;->GetCursorY()I",
+        "Loms/GameEngine/C_MSG;->GetwParam()I",
+        "Loms/GameEngine/C_MSG;->GetMsgHWnd()I",
+        "Loms/GameEngine/C_MSG;->GetMsgTime()J",
+        "Loms/GameEngine/C_MSG;->GetCursorX()I"
+    ],
+    "Loms/GameEngine/TouchPannel;": [
+        "Loms/GameEngine/TouchPannel;->GetTouchUpX()I",
+        "Loms/GameEngine/TouchPannel;->GetTouchUpCount()I",
+        "Loms/GameEngine/TouchPannel;->CHKTouchDown()Z",
+        "Loms/GameEngine/TouchPannel;->ClearTouchMove()V",
+        "Loms/GameEngine/TouchPannel;->GetTouchDownX()I",
+        "Loms/GameEngine/TouchPannel;->GetTouchMoveY()I",
+        "Loms/GameEngine/TouchPannel;->CHKTouchUp()Z",
+        "Loms/GameEngine/TouchPannel;->SetTouchMove()V",
+        "Loms/GameEngine/TouchPannel;->SetTouchDown()V",
+        "Loms/GameEngine/TouchPannel;->GetTouchUpY()I",
+        "Loms/GameEngine/TouchPannel;->SetTouchUp()V",
+        "Loms/GameEngine/TouchPannel;->ClearTouchUp()V",
+        "Loms/GameEngine/TouchPannel;->CHKIsTouch()Z",
+        "Loms/GameEngine/TouchPannel;->CHKTouchMove()Z",
+        "Loms/GameEngine/TouchPannel;->ReadTouch()V",
+        "Loms/GameEngine/TouchPannel;->GetTouchMoveCount()I",
+        "Loms/GameEngine/TouchPannel;->GetTouchDownCount()I",
+        "Loms/GameEngine/TouchPannel;->ClearTouchDown()V",
+        "Loms/GameEngine/TouchPannel;->GetTouchDownY()I",
+        "Loms/GameEngine/TouchPannel;->GetTouchMoveX()I"
+    ],
+    "Loms/GameEngine/KeyBoard;": [
+        "Loms/GameEngine/KeyBoard;->CHKSingleKey()Z",
+        "Loms/GameEngine/KeyBoard;->onKeyUp()V",
+        "Loms/GameEngine/KeyBoard;->CHKUpKey()Z",
+        "Loms/GameEngine/KeyBoard;->ClearKeyValue()V",
+        "Loms/GameEngine/KeyBoard;->CHKSteadyKey()Z",
+        "Loms/GameEngine/KeyBoard;->ReadKeyBoard()V",
+        "Loms/GameEngine/KeyBoard;->onKeyDown()V"
+    ],
+    "Loms/GameEngine/SpriteManager;": [
+        "Loms/GameEngine/SpriteManager;->InitSprite()V",
+        "Loms/GameEngine/SpriteManager;->GetFileHead()V",
+        "Loms/GameEngine/SpriteManager;->LoadSpriteResInfo()Z",
+        "Loms/GameEngine/SpriteManager;->FreeAllACT()V",
+        "Loms/GameEngine/SpriteManager;->GetSpriteXHitR()I",
+        "Loms/GameEngine/SpriteManager;->FreeACT()V",
+        "Loms/GameEngine/SpriteManager;->GetSpriteHead()V",
+        "Loms/GameEngine/SpriteManager;->SetBMPSizeOut()V",
+        "Loms/GameEngine/SpriteManager;->GetACTCount()I",
+        "Loms/GameEngine/SpriteManager;->GetSpriteYHitD()I",
+        "Loms/GameEngine/SpriteManager;->CloseSpriteACTFile()V",
+        "Loms/GameEngine/SpriteManager;->WriteSprite()I",
+        "Loms/GameEngine/SpriteManager;->ReadSpriteResInfo()V",
+        "Loms/GameEngine/SpriteManager;->GetSpriteZHitB()I",
+        "Loms/GameEngine/SpriteManager;->OnDraw()Z",
+        "Loms/GameEngine/SpriteManager;->GetBitmapSize()I",
+        "Loms/GameEngine/SpriteManager;->LoadACT()V",
+        "Loms/GameEngine/SpriteManager;->GetSpriteBitmap()Landroid/graphics/Bitmap;",
+        "Loms/GameEngine/SpriteManager;->ClearACT()V",
+        "Loms/GameEngine/SpriteManager;->Init()V",
+        "Loms/GameEngine/SpriteManager;->GetSpriteSegSize()J",
+        "Loms/GameEngine/SpriteManager;->CHKACTTouch()Z",
+        "Loms/GameEngine/SpriteManager;->GetBMPRamSize()J",
+        "Loms/GameEngine/SpriteManager;->InitSpriteResInfo()V",
+        "Loms/GameEngine/SpriteManager;->LoadSpriteACTFile()Z",
+        "Loms/GameEngine/SpriteManager;->LoadACT()Z",
+        "Loms/GameEngine/SpriteManager;->InitSpriteACTFile()V",
+        "Loms/GameEngine/SpriteManager;->SetACTLibBeg()V",
+        "Loms/GameEngine/SpriteManager;->GetSpriteResID()I",
+        "Loms/GameEngine/SpriteManager;->GetSpriteZHitF()I",
+        "Loms/GameEngine/SpriteManager;->InitSpriteRes()V",
+        "Loms/GameEngine/SpriteManager;->GetSpriteXHitL()I",
+        "Loms/GameEngine/SpriteManager;->GetSpriteYHitU()I",
+        "Loms/GameEngine/SpriteManager;->InitACT()V"
+    ],
+    "Landroid/graphics/Paint;": [
+        "Landroid/graphics/Paint;->setColor()V"
+    ],
+    "Loms/GameEngine/MediaManager;": [
+        "Loms/GameEngine/MediaManager;->CH_SoundPlay()V",
+        "Loms/GameEngine/MediaManager;->CH_MediaIsPlaying()Z",
+        "Loms/GameEngine/MediaManager;->onPause()V",
+        "Loms/GameEngine/MediaManager;->soundStop()V",
+        "Loms/GameEngine/MediaManager;->setAllMediaVolume()V",
+        "Loms/GameEngine/MediaManager;->setAllSoundVolume()V",
+        "Loms/GameEngine/MediaManager;->SetSoundStopEn()V",
+        "Loms/GameEngine/MediaManager;->SetSoundEnable()V",
+        "Loms/GameEngine/MediaManager;->Init()V",
+        "Loms/GameEngine/MediaManager;->CH_MediaStop()V",
+        "Loms/GameEngine/MediaManager;->release()V",
+        "Loms/GameEngine/MediaManager;->CH_MediaPlay()V",
+        "Loms/GameEngine/MediaManager;->SetMediaEnable()V",
+        "Loms/GameEngine/MediaManager;->GetSoundStatus()Z",
+        "Loms/GameEngine/MediaManager;->GetMediaStatus()Z",
+        "Loms/GameEngine/MediaManager;->addSound()V",
+        "Loms/GameEngine/MediaManager;->onResume()V",
+        "Loms/GameEngine/MediaManager;->SetSystemVolume()V"
+    ],
+    "Loms/GameEngine/InputInterface;": [
+        "Loms/GameEngine/InputInterface;->CHKUpKey()Z",
+        "Loms/GameEngine/InputInterface;->GetTouchMoveY()I",
+        "Loms/GameEngine/InputInterface;->GetTouchMoveX()I",
+        "Loms/GameEngine/InputInterface;->GetTouchUpX()I",
+        "Loms/GameEngine/InputInterface;->CHKTouchDown()Z",
+        "Loms/GameEngine/InputInterface;->SetTouchDown()V",
+        "Loms/GameEngine/InputInterface;->onKeyDown()V",
+        "Loms/GameEngine/InputInterface;->ReadKeyBoard()V",
+        "Loms/GameEngine/InputInterface;->SetTouchUp()V",
+        "Loms/GameEngine/InputInterface;->SetScreenOffset()V",
+        "Loms/GameEngine/InputInterface;->onKeyUp()V",
+        "Loms/GameEngine/InputInterface;->CHKTouchMove()Z",
+        "Loms/GameEngine/InputInterface;->GetTouchUpY()I",
+        "Loms/GameEngine/InputInterface;->GetTouchDownX()I",
+        "Loms/GameEngine/InputInterface;->CHKTouchUp()Z",
+        "Loms/GameEngine/InputInterface;->ClearKeyValue()V",
+        "Loms/GameEngine/InputInterface;->GetTouchDownY()I",
+        "Loms/GameEngine/InputInterface;->SetTouchMove()V",
+        "Loms/GameEngine/InputInterface;->ReadTouch()V"
+    ],
+    "Loms/GameEngine/C_MultiTouch;": [
+        "Loms/GameEngine/C_MultiTouch;->handleMultiTouch()V",
+        "Loms/GameEngine/C_MultiTouch;->onTouchMove()V",
+        "Loms/GameEngine/C_MultiTouch;->SetScreenOffset()V",
+        "Loms/GameEngine/C_MultiTouch;->handleSDK8MultiTouch()V",
+        "Loms/GameEngine/C_MultiTouch;->onTouchDown()V",
+        "Loms/GameEngine/C_MultiTouch;->onTouchUp()V"
+    ],
+    "Loms/GameEngine/GameMedia;": [
+        "Loms/GameEngine/GameMedia;->load()Z",
+        "Loms/GameEngine/GameMedia;->setAllMediaVolume()V",
+        "Loms/GameEngine/GameMedia;->setAudioStreamType()V",
+        "Loms/GameEngine/GameMedia;->CH_SetLoop()V",
+        "Loms/GameEngine/GameMedia;->setMediaVolume()V",
+        "Loms/GameEngine/GameMedia;->stopAll()V",
+        "Loms/GameEngine/GameMedia;->CH_Resume()V",
+        "Loms/GameEngine/GameMedia;->pause()V",
+        "Loms/GameEngine/GameMedia;->stop()V",
+        "Loms/GameEngine/GameMedia;->setLoop()V",
+        "Loms/GameEngine/GameMedia;->CH_Release()V",
+        "Loms/GameEngine/GameMedia;->CH_Pause()V",
+        "Loms/GameEngine/GameMedia;->isPlaying()Z",
+        "Loms/GameEngine/GameMedia;->play()Z",
+        "Loms/GameEngine/GameMedia;->CH_Stop()V",
+        "Loms/GameEngine/GameMedia;->clearMediaMap()V",
+        "Loms/GameEngine/GameMedia;->resume()V",
+        "Loms/GameEngine/GameMedia;->CH_isPlaying()Z",
+        "Loms/GameEngine/GameMedia;->release()V",
+        "Loms/GameEngine/GameMedia;->CH_Play()V"
+    ],
+    "Landroid/media/MediaPlayer;": [
+        "Landroid/media/MediaPlayer;->prepare()V",
+        "Landroid/media/MediaPlayer;->start()V",
+        "Landroid/media/MediaPlayer;->setVolume()V",
+        "Landroid/media/MediaPlayer;->setDataSource()V",
+        "Landroid/media/MediaPlayer;->stop()V",
+        "Landroid/media/MediaPlayer;->isPlaying()Z",
+        "Landroid/media/MediaPlayer;->release()V",
+        "Landroid/media/MediaPlayer;->setAudioStreamType()V",
+        "Landroid/media/MediaPlayer;->seekTo()V",
+        "Landroid/media/MediaPlayer;->pause()V",
+        "Landroid/media/MediaPlayer;->setLooping()V",
+        "Landroid/media/MediaPlayer;->getCurrentPosition()I"
+    ],
+    "Landroid/content/res/AssetFileDescriptor;": [
+        "Landroid/content/res/AssetFileDescriptor;->getLength()J",
+        "Landroid/content/res/AssetFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;",
+        "Landroid/content/res/AssetFileDescriptor;->close()V",
+        "Landroid/content/res/AssetFileDescriptor;->getStartOffset()J"
+    ],
+    "Ljava/lang/IllegalArgumentException;": [
+        "Ljava/lang/IllegalArgumentException;->printStackTrace()V"
+    ],
+    "Loms/GameEngine/OS;": [
+        "Loms/GameEngine/OS;->determineAPI()V"
+    ],
+    "Ljava/lang/reflect/Array;": [
+        "Ljava/lang/reflect/Array;->newInstance()Ljava/lang/Object;"
+    ],
+    "Loms/GameEngine/C_MotionEventWrapper5;": [
+        "Loms/GameEngine/C_MotionEventWrapper5;->getX()F",
+        "Loms/GameEngine/C_MotionEventWrapper5;->getPointerCount()I",
+        "Loms/GameEngine/C_MotionEventWrapper5;->getPointerId()I",
+        "Loms/GameEngine/C_MotionEventWrapper5;->getY()F"
+    ],
+    "Loms/GameEngine/C_MotionEventWrapper8;": [
+        "Loms/GameEngine/C_MotionEventWrapper8;->getX()F",
+        "Loms/GameEngine/C_MotionEventWrapper8;->getPointerId()I",
+        "Loms/GameEngine/C_MotionEventWrapper8;->getY()F",
+        "Loms/GameEngine/C_MotionEventWrapper8;->getPointerCount()I"
+    ],
+    "Loms/GameEngine/GameEvent;": [
+        "Loms/GameEngine/GameEvent;->EVTCVT()V",
+        "Loms/GameEngine/GameEvent;->EVTHIT()V",
+        "Loms/GameEngine/GameEvent;->TouchEVTClr()V",
+        "Loms/GameEngine/GameEvent;->EVTCLR()V",
+        "Loms/GameEngine/GameEvent;->EVTRUN()V",
+        "Loms/GameEngine/GameEvent;->EVTACT()V",
+        "Loms/GameEngine/GameEvent;->EVTDIR()V",
+        "Loms/GameEngine/GameEvent;->CheckEVTFun()V"
+    ],
+    "Ljava/lang/Throwable;": [
+        "Ljava/lang/Throwable;->printStackTrace()V"
+    ],
+    "Landroid/media/AudioManager;": [
+        "Landroid/media/AudioManager;->getMode()I",
+        "Landroid/media/AudioManager;->getRingerMode()I",
+        "Landroid/media/AudioManager;->isSpeakerphoneOn()Z",
+        "Landroid/media/AudioManager;->setStreamVolume()V",
+        "Landroid/media/AudioManager;->getStreamVolume()I",
+        "Landroid/media/AudioManager;->isMusicActive()Z",
+        "Landroid/media/AudioManager;->getStreamMaxVolume()I"
+    ],
+    "Loms/GameEngine/GameSound;": [
+        "Loms/GameEngine/GameSound;->SetSoundStopEn()V",
+        "Loms/GameEngine/GameSound;->CH_PlayLoop()V",
+        "Loms/GameEngine/GameSound;->CH_SetRate()V",
+        "Loms/GameEngine/GameSound;->GetMapIdx()I",
+        "Loms/GameEngine/GameSound;->CH_Pause()V",
+        "Loms/GameEngine/GameSound;->addSound()V",
+        "Loms/GameEngine/GameSound;->CH_GetPlayedTime()I",
+        "Loms/GameEngine/GameSound;->playLoop()V",
+        "Loms/GameEngine/GameSound;->pause()V",
+        "Loms/GameEngine/GameSound;->setAllSoundVolume()V",
+        "Loms/GameEngine/GameSound;->setSoundVolume()V",
+        "Loms/GameEngine/GameSound;->removeAll()V",
+        "Loms/GameEngine/GameSound;->CH_Stop()V",
+        "Loms/GameEngine/GameSound;->stop()V",
+        "Loms/GameEngine/GameSound;->CH_Play()V",
+        "Loms/GameEngine/GameSound;->release()V",
+        "Loms/GameEngine/GameSound;->addLoopSound()V",
+        "Loms/GameEngine/GameSound;->removeSound()V",
+        "Loms/GameEngine/GameSound;->CH_Resume()V",
+        "Loms/GameEngine/GameSound;->setRate()V",
+        "Loms/GameEngine/GameSound;->GetPlayedTime()I",
+        "Loms/GameEngine/GameSound;->play()V",
+        "Loms/GameEngine/GameSound;->resume()V"
+    ],
+    "Loms/GameEngine/RESApp;": [
+        "Loms/GameEngine/RESApp;->getLength()I",
+        "Loms/GameEngine/RESApp;->CloseRes()V",
+        "Loms/GameEngine/RESApp;->OpenRes()V",
+        "Loms/GameEngine/RESApp;->ResRead()V"
+    ],
+    "Loms/GameEngine/SpriteManager$SpriteACTFILE;": [
+        "Loms/GameEngine/SpriteManager$SpriteACTFILE;->release()V"
+    ],
+    "Loms/GameEngine/SpriteResDEF;": [
+        "Loms/GameEngine/SpriteResDEF;->release()V"
+    ],
+    "Loms/GameEngine/SpriteDEF;": [
+        "Loms/GameEngine/SpriteDEF;->release()V"
+    ],
+    "Loms/GameEngine/GameSound$CSoundPlay;": [
+        "Loms/GameEngine/GameSound$CSoundPlay;->Stop()V",
+        "Loms/GameEngine/GameSound$CSoundPlay;->GetPlayedTime()I",
+        "Loms/GameEngine/GameSound$CSoundPlay;->Resume()V",
+        "Loms/GameEngine/GameSound$CSoundPlay;->Start()V",
+        "Loms/GameEngine/GameSound$CSoundPlay;->Pause()V"
+    ],
+    "Landroid/media/SoundPool;": [
+        "Landroid/media/SoundPool;->setRate()V",
+        "Landroid/media/SoundPool;->release()V",
+        "Landroid/media/SoundPool;->play()I",
+        "Landroid/media/SoundPool;->setLoop()V",
+        "Landroid/media/SoundPool;->unload()Z",
+        "Landroid/media/SoundPool;->pause()V",
+        "Landroid/media/SoundPool;->setVolume()V",
+        "Landroid/media/SoundPool;->stop()V",
+        "Landroid/media/SoundPool;->load()I",
+        "Landroid/media/SoundPool;->resume()V"
+    ],
+    "Loms/GameEngine/Debug;": [
+        "Loms/GameEngine/Debug;->print()V"
+    ],
+    "Ljava/io/DataInputStream;": [
+        "Ljava/io/DataInputStream;->read()I",
+        "Ljava/io/DataInputStream;->available()I",
+        "Ljava/io/DataInputStream;->close()V",
+        "Ljava/io/DataInputStream;->readUTF()Ljava/lang/String;",
+        "Ljava/io/DataInputStream;->readInt()I"
+    ],
+    "Ljava/io/DataOutputStream;": [
+        "Ljava/io/DataOutputStream;->write()V",
+        "Ljava/io/DataOutputStream;->close()V"
+    ],
+    "Ljava/io/FileNotFoundException;": [
+        "Ljava/io/FileNotFoundException;->printStackTrace()V"
+    ],
+    "Landroid/content/Intent;": [
+        "Landroid/content/Intent;->setDataAndType()Landroid/content/Intent;",
+        "Landroid/content/Intent;->getStringExtra()Ljava/lang/String;",
+        "Landroid/content/Intent;->setData()Landroid/content/Intent;",
+        "Landroid/content/Intent;->putExtra()Landroid/content/Intent;",
+        "Landroid/content/Intent;->getBundleExtra()Landroid/os/Bundle;",
+        "Landroid/content/Intent;->addFlags()Landroid/content/Intent;"
+    ],
+    "Lcom/MoreGames/API/MoreGames;": [
+        "Lcom/MoreGames/API/MoreGames;->startActivity()V",
+        "Lcom/MoreGames/API/MoreGames;->setContentView()V",
+        "Lcom/MoreGames/API/MoreGames;->getWindowManager()Landroid/view/WindowManager;"
+    ],
+    "Lcom/MoreGames/API/MoreGames$2;": [
+        "Lcom/MoreGames/API/MoreGames$2;->start()V"
+    ],
+    "Landroid/widget/RelativeLayout$LayoutParams;": [
+        "Landroid/widget/RelativeLayout$LayoutParams;->addRule()V"
+    ],
+    "Landroid/widget/ProgressBar;": [
+        "Landroid/widget/ProgressBar;->setLayoutParams()V"
+    ],
+    "Landroid/widget/RelativeLayout;": [
+        "Landroid/widget/RelativeLayout;->setKeepScreenOn()V",
+        "Landroid/widget/RelativeLayout;->removeAllViews()V",
+        "Landroid/widget/RelativeLayout;->addView()V",
+        "Landroid/widget/RelativeLayout;->removeView()V"
+    ],
+    "Landroid/view/WindowManager;": [
+        "Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;"
+    ],
+    "Landroid/view/Display;": [
+        "Landroid/view/Display;->getMetrics()V"
+    ],
+    "Ljava/net/URLEncoder;": [
+        "Ljava/net/URLEncoder;->encode()Ljava/lang/String;"
+    ],
+    "Ljava/util/Set;": [
+        "Ljava/util/Set;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/Set;->isEmpty()Z",
+        "Ljava/util/Set;->add()Z",
+        "Ljava/util/Set;->contains()Z"
+    ],
+    "Ljava/lang/Class;": [
+        "Ljava/lang/Class;->newInstance()Ljava/lang/Object;",
+        "Ljava/lang/Class;->getDeclaredMethod()Ljava/lang/reflect/Method;",
+        "Ljava/lang/Class;->forName()Ljava/lang/Class;",
+        "Ljava/lang/Class;->desiredAssertionStatus()Z",
+        "Ljava/lang/Class;->getConstructors()[Ljava/lang/reflect/Constructor;"
+    ],
+    "Landroid/content/BroadcastReceiver;": [
+        "Landroid/content/BroadcastReceiver;->onReceive()V"
+    ],
+    "Lcom/google/ads/InstallReceiver;": [
+        "Lcom/google/ads/InstallReceiver;->forwardIntent()V",
+        "Lcom/google/ads/InstallReceiver;->a()Ljava/lang/String;"
+    ],
+    "Landroid/view/Window;": [
+        "Landroid/view/Window;->addFlags()V",
+        "Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;",
+        "Landroid/view/Window;->setAttributes()V",
+        "Landroid/view/Window;->setFlags()V"
+    ],
+    "Landroid/widget/ImageButton;": [
+        "Landroid/widget/ImageButton;->setPadding()V",
+        "Landroid/widget/ImageButton;->setImageResource()V",
+        "Landroid/widget/ImageButton;->setBackgroundColor()V",
+        "Landroid/widget/ImageButton;->setOnClickListener()V"
+    ],
+    "Landroid/util/TypedValue;": [
+        "Landroid/util/TypedValue;->applyDimension()F"
+    ],
+    "Landroid/widget/FrameLayout;": [
+        "Landroid/widget/FrameLayout;->addView()V"
+    ],
+    "Le;": [
+        "Le;->a()Ljava/util/HashMap;",
+        "Le;->a()Landroid/os/Bundle;",
+        "Le;->a()Ljava/lang/String;"
+    ],
+    "Landroid/content/ActivityNotFoundException;": [
+        "Landroid/content/ActivityNotFoundException;->getMessage()Ljava/lang/String;"
+    ],
+    "Landroid/widget/LinearLayout;": [
+        "Landroid/widget/LinearLayout;->addView()V",
+        "Landroid/widget/LinearLayout;->setBackgroundColor()V",
+        "Landroid/widget/LinearLayout;->setGravity()V"
+    ],
+    "Lcom/google/ads/InterstitialAd;": [
+        "Lcom/google/ads/InterstitialAd;->isReady()Z"
+    ],
+    "Lcom/google/ads/AdRequest$Gender;": [
+        "Lcom/google/ads/AdRequest$Gender;->toString()Ljava/lang/String;"
+    ],
+    "Landroid/util/AttributeSet;": [
+        "Landroid/util/AttributeSet;->getAttributeBooleanValue()Z",
+        "Landroid/util/AttributeSet;->getAttributeValue()Ljava/lang/String;"
+    ],
+    "Landroid/widget/TextView;": [
+        "Landroid/widget/TextView;->setText()V",
+        "Landroid/widget/TextView;->setGravity()V",
+        "Landroid/widget/TextView;->setTextColor()V",
+        "Landroid/widget/TextView;->setBackgroundColor()V"
+    ],
+    "Lcom/google/ads/util/c;": [
+        "Lcom/google/ads/util/c;->a()I"
+    ],
+    "Landroid/provider/Settings$Secure;": [
+        "Landroid/provider/Settings$Secure;->getString()Ljava/lang/String;"
+    ],
+    "Landroid/location/Location;": [
+        "Landroid/location/Location;->getAccuracy()F",
+        "Landroid/location/Location;->getLongitude()D",
+        "Landroid/location/Location;->getTime()J",
+        "Landroid/location/Location;->getLatitude()D"
+    ],
+    "Ljava/security/MessageDigest;": [
+        "Ljava/security/MessageDigest;->update()V",
+        "Ljava/security/MessageDigest;->getInstance()Ljava/security/MessageDigest;",
+        "Ljava/security/MessageDigest;->digest()[B"
+    ],
+    "Lorg/json/JSONArray;": [
+        "Lorg/json/JSONArray;->put()Lorg/json/JSONArray;"
+    ],
+    "Ljavax/crypto/Cipher;": [
+        "Ljavax/crypto/Cipher;->getInstance()Ljavax/crypto/Cipher;",
+        "Ljavax/crypto/Cipher;->doFinal()[B",
+        "Ljavax/crypto/Cipher;->getIV()[B"
+    ],
+    "Lcom/google/ads/util/b;": [
+        "Lcom/google/ads/util/b;->a()Ljava/lang/String;"
+    ],
+    "Ljava/net/URLDecoder;": [
+        "Ljava/net/URLDecoder;->decode()Ljava/lang/String;"
+    ],
+    "Landroid/net/ConnectivityManager;": [
+        "Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;",
+        "Landroid/net/ConnectivityManager;->getAllNetworkInfo()[Landroid/net/NetworkInfo;"
+    ],
+    "Landroid/net/NetworkInfo;": [
+        "Landroid/net/NetworkInfo;->getSubtypeName()Ljava/lang/String;",
+        "Landroid/net/NetworkInfo;->getState()Landroid/net/NetworkInfo$State;",
+        "Landroid/net/NetworkInfo;->getType()I"
+    ],
+    "Ljava/util/List;": [
+        "Ljava/util/List;->size()I"
+    ],
+    "Landroid/content/IntentFilter;": [
+        "Landroid/content/IntentFilter;->addAction()V"
+    ],
+    "Lcom/google/ads/util/b$b;": [
+        "Lcom/google/ads/util/b$b;->a()Z"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Media;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Media;->StopAllSound()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Media;->PlaySound()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Media;->InitMedia()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Media;->MediaContrl()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Media;->SetMediaCrl()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelQuestion;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelQuestion;->setQuestionBlinkDelay()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelQuestion;->InitQuestionOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelQuestion;->JewelQuestionIsSame()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelQuestion;->InitQuestion()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelQuestion;->JewelchkType()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelQuestion;->JewelQuestionShow()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelQuestion;->JewelQuestionMain()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->jewelMapCHKIsClr()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->InitJewelMapBuf()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->chkJewelValid_row_Col()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->getJewelMapPos_Y()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->getJewelMapType()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->getJewelMapIdx()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->jewelMapIsFlag()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->JewelIsSameJewel_Col2()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->JewelIsSameJewel_Col1()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->setJewelEffect_Row()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->setJewelSpecial_A()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->jewelMapCHKIsSpecial_B()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->jewelMapCHKClr_Attr_B()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->jewelMapEqualFlag()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->setJewelEffect_Col()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->setJewelMapType()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->jewelCHKturnPos()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->getJewelMapPos_X()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->JewelIsSameJewel_Row2()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->JewelIsSameJewel_Row1()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->jewelMapClrCHKAll()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->jewelMapCHKClr_Attr_A()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->getJewelCtrl()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->getJewelMapPos_Row()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->getJewelMapPos_Col()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->setJewelMapSelTurn()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->setJewelMapAttr()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->chkJewelMapFlag()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->clrJewelMapFlag()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->JewelMapMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->jewelMapChangeVal()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->InitJewelMapOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->jewelMapCHKIsSpecial_A()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelMap;->setJewelMapIdx()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->BlinkExe00()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->EVTCLR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->blinkMoveCtrl()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->CHKEVTACTEnd()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->CreateBlink_b()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->CreateBlink()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->MakeEVENT()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->SetBlinkType()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->InitBlinkOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->SetEVTCtrl()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Blink;->BlinkExe01()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelEffect;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelEffect;->InitJewelEffectOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelEffect;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelEffect;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelEffect;->EVTCLR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelEffect;->JewelEffectExe00()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelEffect;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelEffect;->MakeEVENT()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelEffect;->CreateJewelEffect()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->ExecBTN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->calGameStage()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->BTNFun()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->setMusicStatus()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->ClearTouchDown()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->ScreenAdjustPos()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->chkTouchDown()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->Paid()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->setSoundStatus()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->setGameMode()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->Random()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->InitBTN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->adjustPos()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->More()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->AD()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->setAdAlign()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->showPauseSCR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->ReadTouchDown()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->setGameState()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->OpenAdmob()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->CloseAdmob()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_PUB;->Rate()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->JewelExe01()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->clrAllJewelEVT_A()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->JewelExe00()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->MakeJewel_Hidden()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->jewelCHKCtrl()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->MakeEVENT()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->SetEVTCtrl()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->jewelUpdatePos()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->jewelTouchMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->JewelFallCtrl()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->setJewelTurnSpeed()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->JewelShake()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->clrAllJewelEVT_B()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->setJewelBlitzClr()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->CreateJewel_Sub()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->getJewelEVTNullIdx()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->CHKEVTACTEnd()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->JewelFRMCtrl()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->setJewelSpecial_APtr()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->JewelExe02()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->chkJewelNoClear()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->JewelExe03()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->InitJewelOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->SetJewelType()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->MakeJewel_Puzzle()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->CreateJewel()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->setJewelFallStart()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->EVTCLR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->setJewelFallStop()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Jewel;->ExecEVT()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->EVTCLR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->setTurnSelBoxIdx()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->jewelSelBoxIsUpdatePos()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->JewelSelBoxExe00()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->MakeJewelSelBox()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->clrJewelSelBoxAll()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->clrJewelSelBox()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->CreateJewelSelBox()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->chkJewelSelBoxIsExist()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->getJewelSelBoxNum()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->InitJewelSelBoxOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSelBox;->MakeEVENT()Z"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->EVTCLR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->SetGameBTNType()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->setSoundBNTACT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->GameBTNExe01()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->CHKEVTACTEnd()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->GameBTNExe00()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->InitGameBTNOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->SetEVTCtrl()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->MakeEVENT()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameBTN;->CreateGameBTN()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->add_Process()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->GameInit()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->CLREVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->ClearACT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->ClearGameBTN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->add_GameStage()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->ReadTouch()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->GameMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->InitEVTBuff()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->InitEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->ExitEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->ExecEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneTask;->MsgLoop()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_HintBTN;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_HintBTN;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_HintBTN;->CreateHintArrow()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_HintBTN;->GameBTNExe00()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_HintBTN;->InitHintBTNOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_HintBTN;->CHKEVTACTEnd()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_HintBTN;->MakeEVENT()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_HintBTN;->SetHintType()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_HintBTN;->EVTCLR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_HintBTN;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_HintBTN;->ShowEVENT()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->PromptExe02()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->MakeEVENT()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->PromptExe01()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->PromptExe03()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->PromptExe00()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->SetEVTCtrl()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->InitPromptBTNOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->PromptCLR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->CreatePrompt()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->PromptExe04()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->CHKEVTACTEnd()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->EVTCLR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_Prompt;->SetPromptType()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameScore;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameScore;->CHKEVTACTEnd()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameScore;->MakeEVENT()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameScore;->InitGameScoreOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameScore;->EVTCLR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameScore;->getGameScoreLength()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameScore;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameScore;->getStageScore()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameScore;->GameScoreExe00()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameScore;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameScore;->CreateGameScore()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->setTimeBarBlinkDelay()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->TimeBarCurTOTar()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->getTimeBarCurY()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->getTimeBarCurX()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->ShowTimeBarBlink()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->setJewelShake()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->ShowTimeBar()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->TimeBarMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->ShowTimeBarDetonate()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->TimeBarMainShow()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->setTimebarState()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->setTimeBar_RewAndPun()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->setTimebarSpeed()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->ShowTimeBarBlaze()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->setTimebarCurTime()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_TimeBar;->TimeBarMainCtrl()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelTask;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelTask;->chkjewelTask()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelTask;->jewelTYPE_Change()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelTask;->setjewelTaskBlink()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelTask;->jewelTaskMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelTask;->CalCurTask()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelTask;->InitJewelTask()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelTask;->jewelTaskShow()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelTask;->jewelTask_AddScore()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameInfo;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameInfo;->getScoreLength()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameInfo;->ShowNum()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameInfo;->ShowTital()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameInfo;->ShowBankJewelEff()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameInfo;->showGameInfo()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameInfo;->calGameScore()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameInfo;->setGamePriseScore()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameInfo;->ShowBankInfo()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameInfo;->ShowBankCurSocre()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_GameInfo;->InitGameInfoOBJ()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->LoadInt()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->RecordPuzzleStage()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->checkInputFileSize()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->RecordQuestionScoreBank()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->RecordTaskStage()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->LoadBuff()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->RecordSpecialStage()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->RecordMusicStatus()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->RecordQuestionStage()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->ResetData()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->RecordClassicStage()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->RecordClassicScoreBank()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->RecordTaskScoreBank()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->LoadBln()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->LoadData()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->SaveBln()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->RecordRateFlag()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->UpdataData()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->SaveBuff()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->SaveInt()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->RecordSpecialScoreBank()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Save;->RecordSoundStatus()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Help;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Help;->getHelpCardType()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Help;->HelpCard()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Help;->showCard()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Featured;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Featured;->Init()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Featured;->showPauseSCR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_Featured;->Main()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->add_GameStage()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->InitEVTBuff()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->ClearACT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->GameMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->add_Process()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->GameInit()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->CLREVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->ExitEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->ClearGameBTN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->ReadTouch()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->MsgLoop()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->InitEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->ExecEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneQuestion;->EVTTouch()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_GameTime;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_GameTime;->TimeRun()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_GameTime;->setTimeState()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_GameTime;->TimeShow()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->ClearGameBTN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->GameInit()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->CHKGamePass()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->CLREVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->ExecEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->add_Process()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->MsgLoop()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->InitEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->ReadTouch()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->ExitEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->ClearACT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->JewelEVTCLR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->GameMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzle;->InitEVTBuff()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->clrBTNBlink()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->CreateMenuBTN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->MenuBTNExe00()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->MenuBTNExe02()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->MakeEVENT()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->CHKEVTACTEnd()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->InitMenuBTNOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->EVTCLR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->MenuBTNExe03()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->SetMenuBTNType()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->SetEVTCtrl()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->MenuBTNExe01()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_MenuBTN;->ExecEVT()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->setBTNMoveOut()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->MenuFadeOut()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->ClearACT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->ShowMenuStar()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->MenuFadeIn()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->CHKContinueSeled()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->setBTNSel()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->confirmBTNSel()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->MenuInit()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->ReadTouch()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->MsgLoop()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->ExecEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->CHKMenuSeled()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->MenuView()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->GameMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->ExitEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->sendReturnMSG()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->EVTTouch()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneMenu;->ShowEVENT()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_OPhoneApp$C_GameThread;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_OPhoneApp$C_GameThread;->resume()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_OPhoneApp$C_GameThread;->join()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_OPhoneApp$C_GameThread;->start()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LostTreasure;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LostTreasure;->onTouchEvent()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LostTreasure;->MsgLoop()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LostTreasure;->onKeyDown()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LostTreasure;->onKeyUp()Z"
+    ],
+    "Landroid/os/Message;": [
+        "Landroid/os/Message;->setData()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;->SetAdViewLayout()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;->getWindowManager()Landroid/view/WindowManager;",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;->startActivity()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;->moreGames()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;->FullScreen()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;->getAdAlign()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;->resumeMoreGames()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;->setContentView()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;->setAdVisibility()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;->clickMoreGames()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;->getWindow()Landroid/view/Window;",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/LostTreasure_Lite;->requestWindowFeature()Z"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_OPhoneApp;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_OPhoneApp;->onPause()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_OPhoneApp;->onKeyUp()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_OPhoneApp;->onTouchEvent()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_OPhoneApp;->onResume()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_OPhoneApp;->onKeyDown()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_OPhoneApp;->getCLib()Loms/GameEngine/C_Lib;",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_OPhoneApp;->onDestory()V"
+    ],
+    "Loms/GameEngine/DataAccess;": [
+        "Loms/GameEngine/DataAccess;->CloseOutputFile()V",
+        "Loms/GameEngine/DataAccess;->OpenInputFile()Z",
+        "Loms/GameEngine/DataAccess;->write()V",
+        "Loms/GameEngine/DataAccess;->OpenOutFile()Z",
+        "Loms/GameEngine/DataAccess;->CloseInputFile()V",
+        "Loms/GameEngine/DataAccess;->read()V"
+    ],
+    "Ljava/util/Random;": [
+        "Ljava/util/Random;->nextInt()I"
+    ],
+    "Ljava/lang/Math;": [
+        "Ljava/lang/Math;->atan2()D",
+        "Ljava/lang/Math;->cos()D",
+        "Ljava/lang/Math;->abs()I",
+        "Ljava/lang/Math;->sin()D",
+        "Ljava/lang/Math;->abs()J"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->MsgLoop2()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->InitEVTBuff()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->GameMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->CLREVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->ExecEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->InitEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->ExitEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->RatingNow()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->add_Process()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->ReadTouch()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->MsgLoop()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->ClearACT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->ClearGameBTN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneClassic;->GameInit()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LuckJewel;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LuckJewel;->LuckJewelMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LuckJewel;->makeLuckJewel()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LuckJewel;->LuckJewelShow()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSpecial;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSpecial;->InitSpecial()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSpecial;->jewelSpecailMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSpecial;->ShowStoneSpecialNum()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSpecial;->setSpecailBlinkDelay()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSpecial;->InitJewelSpecialOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_JewelSpecial;->JewelStoneFalled()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->SetPuzzleSelBTNMove()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->GameMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->ExecEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->ExitEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->ClearACT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->MsgLoop()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->GameInit()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->EVTTouch()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->PuzzleSelBTNMoveCtrl()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_ScenePuzzleSel;->ReadTouch()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_PuzzleSelBTN;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_PuzzleSelBTN;->CreatePuzzleSelBTN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_PuzzleSelBTN;->MakeEVENT()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_PuzzleSelBTN;->EVTCLR()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_PuzzleSelBTN;->InitPuzzleSelBTNOBJ()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_PuzzleSelBTN;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_PuzzleSelBTN;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/ui/C_PuzzleSelBTN;->ShowEVENT()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_TouchScroll;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_TouchScroll;->ReleaseScrollPower()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_TouchScroll;->CHKinputTouch()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_TouchScroll;->setScrollPowerInvalid()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_TouchScroll;->setScrollSit()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_TouchScroll;->ScrollPower_sub()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_TouchScroll;->touchScrollMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_TouchScroll;->ScrollPower_add()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;->chkTextScrollSide()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;->ReadTouch()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;->ExecEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;->GameInit()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;->BankMoveCtrl()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;->EVTTouch()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;->ExitEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;->GameMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneBank;->MsgLoop()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LoadRes;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LoadRes;->GameMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LoadRes;->GameInit()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_LoadRes;->ClearACT()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->CLREVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->ShowEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->ExecRUN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->GetScreenStoneNum()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->add_GameStage()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->GameMain()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->ClearACT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->ExecEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->MsgLoop()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->ExitEVENT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->ClearGameBTN()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->InitEVTBuff()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->ReadTouch()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->GameInit()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->add_Process()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->ExecEVT()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/C_SceneSpecial;->InitEVENT()V"
+    ],
+    "Ljava/io/PrintStream;": [
+        "Ljava/io/PrintStream;->println()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/ghu;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/ghu;->a()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/ghu;->a()I",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/ghu;->a()Z",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/ghu;->a()Ljava/lang/String;",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/ghu;->start()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/ghu;->a()J"
+    ],
+    "Ljava/util/ArrayList;": [
+        "Ljava/util/ArrayList;->size()I",
+        "Ljava/util/ArrayList;->add()Z",
+        "Ljava/util/ArrayList;->toString()Ljava/lang/String;",
+        "Ljava/util/ArrayList;->get()Ljava/lang/Object;"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/tcx;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/tcx;->a()Ljava/lang/String;",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/tcx;->a()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/ao;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/ao;->a()Z"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/v;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/v;->a()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/v;->a()Ljava/lang/String;",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/v;->a()Z"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/f;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/f;->start()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/k;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/k;->a()Z"
+    ],
+    "Ljava/lang/ClassLoader;": [
+        "Ljava/lang/ClassLoader;->getParent()Ljava/lang/ClassLoader;",
+        "Ljava/lang/ClassLoader;->getSystemClassLoader()Ljava/lang/ClassLoader;"
+    ],
+    "Landroid/os/Looper;": [
+        "Landroid/os/Looper;->prepare()V",
+        "Landroid/os/Looper;->loop()V"
+    ],
+    "Ldalvik/system/DexClassLoader;": [
+        "Ldalvik/system/DexClassLoader;->loadClass()Ljava/lang/Class;"
+    ],
+    "Ljava/lang/reflect/Constructor;": [
+        "Ljava/lang/reflect/Constructor;->newInstance()Ljava/lang/Object;"
+    ],
+    "Ljava/lang/reflect/Method;": [
+        "Ljava/lang/reflect/Method;->invoke()Ljava/lang/Object;",
+        "Ljava/lang/reflect/Method;->setAccessible()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/jdt;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/jdt;->a()B",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/jdt;->a()[B",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/jdt;->a()J",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/jdt;->a()V",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/jdt;->a()Ljava/lang/String;"
+    ],
+    "Ljava/lang/StringBuffer;": [
+        "Ljava/lang/StringBuffer;->append()Ljava/lang/StringBuffer;",
+        "Ljava/lang/StringBuffer;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/lang/Byte;": [
+        "Ljava/lang/Byte;->parseByte()B"
+    ],
+    "Ljavax/crypto/KeyGenerator;": [
+        "Ljavax/crypto/KeyGenerator;->getInstance()Ljavax/crypto/KeyGenerator;",
+        "Ljavax/crypto/KeyGenerator;->generateKey()Ljavax/crypto/SecretKey;"
+    ],
+    "Ljava/security/SecureRandom;": [
+        "Ljava/security/SecureRandom;->setSeed()V",
+        "Ljava/security/SecureRandom;->getInstance()Ljava/security/SecureRandom;"
+    ],
+    "Ljavax/crypto/SecretKey;": [
+        "Ljavax/crypto/SecretKey;->getEncoded()[B"
+    ],
+    "Landroid/telephony/TelephonyManager;": [
+        "Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/xln;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/xln;->a()Ljava/lang/String;",
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/xln;->a()V"
+    ],
+    "Landroid/app/Service;": [
+        "Landroid/app/Service;->onDestroy()V",
+        "Landroid/app/Service;->onStart()V",
+        "Landroid/app/Service;->onCreate()V"
+    ],
+    "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/efh;": [
+        "Lcom/RunnerGames/game/JewelsDeluxe_ADcccc/tuelluqs/efh;->stopSelf()V"
+    ],
+    "Ljava/io/OutputStream;": [
+        "Ljava/io/OutputStream;->close()V",
+        "Ljava/io/OutputStream;->write()V",
+        "Ljava/io/OutputStream;->flush()V"
+    ],
+    "Lorg/apache/http/params/HttpConnectionParams;": [
+        "Lorg/apache/http/params/HttpConnectionParams;->setSoTimeout()V",
+        "Lorg/apache/http/params/HttpConnectionParams;->setConnectionTimeout()V"
+    ],
+    "Lorg/apache/http/client/methods/HttpGet;": [
+        "Lorg/apache/http/client/methods/HttpGet;->addHeader()V"
+    ],
+    "Lorg/apache/http/impl/client/DefaultHttpClient;": [
+        "Lorg/apache/http/impl/client/DefaultHttpClient;->execute()Lorg/apache/http/HttpResponse;"
+    ],
+    "Lorg/apache/http/HttpResponse;": [
+        "Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;"
+    ],
+    "Lorg/apache/http/util/EntityUtils;": [
+        "Lorg/apache/http/util/EntityUtils;->toString()Ljava/lang/String;"
+    ],
+    "Lorg/apache/http/client/methods/HttpPost;": [
+        "Lorg/apache/http/client/methods/HttpPost;->setParams()V",
+        "Lorg/apache/http/client/methods/HttpPost;->setEntity()V"
+    ],
+    "Ljava/text/SimpleDateFormat;": [
+        "Ljava/text/SimpleDateFormat;->format()Ljava/lang/String;"
+    ]
+}

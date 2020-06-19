@@ -1,0 +1,23 @@
+{
+    "LogisticRegression": {
+        "C": 10,
+        "tol": 0.1
+     },
+    "KNeighborsClassifier": {
+        "n_neighbors": 1,
+        "p": 3
+    },
+    "SVC": {
+        "C": 10,
+        "tol": 0.1
+    },
+    "GaussianNB": {
+        "var_smoothing": 0.1
+    },
+    "RandomForestClassifier": {
+        "n_estimators": 200
+    },
+    "DecisionTreeClassifier": {
+        "class_weight": null
+    }
+}

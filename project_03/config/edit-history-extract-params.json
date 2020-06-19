@@ -1,0 +1,22 @@
+{
+    "data_dir": "/datasets/dsc180a-wi20-public/Wiki/group_data/calvin_leena_scott_sksksksk/data/", 
+    "fps": [],
+    "fp_header": "enwiki-",
+    "search_by_header": 1,
+    "article_list_fps": ["2019–20_coronavirus_pandemic_articles.csv"],
+    "file_type": "edit-history",
+    "domain_list": 
+    [
+        "en", 
+        "en.m"
+    ],
+    "delete_unzipped": 1,
+    "delete_zipped": 1,
+    "tags":
+    [
+        "page_title",
+        "timestamp",
+        "user",
+        "edit"
+    ]
+}

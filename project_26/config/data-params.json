@@ -1,0 +1,15 @@
+{
+    "categories": ["dating","business","beauty", "entertainment","productivity","tools"],
+    "scrape_data": 0,
+    "number_of_apps_per_cat": 50,
+    "outpath": "data",
+    "malware_categories":"all",
+    "malware_path": "/datasets/dsc180a-wi20-public/Malware/amd_data_smali/",
+    "num_malware_apps":50,
+    "re_read": 0,
+    "load_matrices":1,
+    "corr_coef":1
+}
+
+
+

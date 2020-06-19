@@ -1,0 +1,25 @@
+DSC 180B Weekly Checkin
+Date: 5/19/20
+
+1. Tasks from previous week
+	- Made the docker image (Wesley)
+	- Implemented node2vec (Udai)
+	- Started creating graphs on our large dataset (Shinu)
+	- Train and test our models on our datasets (Udai and Wesley)
+
+2. Completed/Incompleted Tasks:
+	- Made a docker image
+	- Implemented node2vec
+	- Train and tested our model on one of our small datasets
+	- The large graphs are yet to be completed. 
+
+3. Difficulties/Obstacles:
+	- Creating the docker image
+	- Debugging our implementation of node2vec
+	- Difficulties in storing the large graphs into disk. 
+
+4. This Week:
+	- Finish creating the large graphs (Shinu)
+	- Train and test our model on all the graphs (Udai and Wesley)
+	- Finish making the slides for our long presentation (Everyone)
+	- Work on the visualization and report (Everyone)

@@ -1,0 +1,14 @@
+data
+test-data/apps
+test-data/APIs
+test-data/Matrix_data
+test-data/output
+test-data/log.txt
+test-data/xml_files
+test-data/data\ structures
+test-data/Corr_coef
+test-data/xml_files
+Submissions
+.DS_Store
+__pycache__/
+.ipynb_checkpoints

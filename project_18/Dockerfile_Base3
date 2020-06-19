@@ -1,0 +1,3 @@
+FROM derrick56007/mirna_pre_t1d:latest
+
+RUN rm -rf /var/lib/apt/lists/*

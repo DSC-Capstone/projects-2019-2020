@@ -1,0 +1,16 @@
+#Avoid commiting hidden files
+.DS_Store
+.viminfo
+.cache
+.bashrc
+.conda
+
+#Avoid commiting project output
+/data/temp/*
+/data/log/*
+/data/out/*
+
+__pycache__/
+
+
+

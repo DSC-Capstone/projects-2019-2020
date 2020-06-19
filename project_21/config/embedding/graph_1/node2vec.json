@@ -1,0 +1,14 @@
+{
+"GRAPH_NAME": "graph_1.mat",
+"BATCH_SIZE": 256,
+"EMBEDDING_DIM": 128,
+"WALK_LENGTH": 100,
+"CONTEXT_SIZE": 10,
+"WALKS_PER_NODE": 10,
+"LEARNING_RATE": 0.01,
+"NUM_EPOCH": 5,
+"P": 1,
+"Q": 1,
+"CUDA": true,
+"EMBEDDING_NAME": "graph_1.npy"
+}

@@ -1,0 +1,49 @@
+<mat-card>
+  <mat-card-title>Code Input</mat-card-title>
+  <mat-card-content>
+    <mat-form-field style='width: 100%'>
+      <mat-label>Choose example for input 1</mat-label>
+      <mat-select (selectionChange)='handleExample($event)'>
+        <mat-option *ngFor="let example of examples; index as i" [value]="example.code">
+          {{example.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field style='width: 100%;font-family: "Courier New"'>
+      <mat-label *ngIf='!visualizeMode'>Code Input 1</mat-label>
+      <textarea matInput cdkTextareaAutosize cdkAutosizeMinRows="5" cdkAutosizeMaxRows="20" [(ngModel)]="code[0]" #codeView (keydown)="processTab($event)"></textarea>
+    </mat-form-field>
+    <span *ngIf='!visualizeMode'>
+      <mat-form-field style='width: 100%;'>
+        <mat-label>Choose example for input 2</mat-label>
+        <mat-select (selectionChange)='handleExample($event, 1)'>
+          <mat-option *ngFor="let example of examples; index as i" [value]="example.code">
+            {{example.name}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field style='width: 100%;font-family: "Courier New"'>
+        <mat-label>Code Input 2</mat-label>
+        <textarea matInput cdkTextareaAutosize cdkAutosizeMinRows="5" cdkAutosizeMaxRows="20" [(ngModel)]="code[1]" #codeView (keydown)="processTab($event, 1)"></textarea>
+      </mat-form-field>
+    </span>
+  </mat-card-content>
+  <mat-card-actions>
+    <div>
+      <mat-form-field class='padded'>
+        <mat-label *ngIf='visualizeMode'>Upload file to use</mat-label>
+        <mat-label *ngIf='!visualizeMode'>Input 1 file</mat-label>
+        <ngx-mat-file-input (change)='processFile($event)' accept='.py'></ngx-mat-file-input>
+      </mat-form-field>
+      <mat-form-field class='padded' *ngIf='!visualizeMode'>
+        <mat-label *ngIf='!visualizeMode'>Input 2 file</mat-label>
+        <ngx-mat-file-input (change)='processFile($event, 1)' accept='.py'></ngx-mat-file-input>
+      </mat-form-field>
+    </div>
+    <div>
+      <button mat-raised-button (click)="emitChanges(visualizeClick, code[0])" *ngIf='visualizeMode'>Visualize</button>
+      <button mat-raised-button (click)="emitChanges(reportClick, code)" *ngIf='!visualizeMode'>Get Report</button>
+      <button mat-raised-button routerLink="/check" routerLinkActive="active" *ngIf='!visualizeMode'>Multi-file upload</button>
+    </div>
+  </mat-card-actions>
+</mat-card>

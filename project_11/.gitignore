@@ -1,0 +1,9 @@
+# don't check-in data
+data
+
+# don't check-in secrets
+.env
+
+# python files
+__pycache__
+.ipynb_checkpoints

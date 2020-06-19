@@ -1,0 +1,8 @@
+{
+    "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+    "superdata": "super",
+    "otherdata": "other",
+    "datapath": "data",
+    "audiodir": "audio",
+    "vizpath": "viz"
+}

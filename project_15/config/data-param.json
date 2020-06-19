@@ -1,0 +1,8 @@
+{
+    "outpath": "T2D_data",
+    "study" : ["SaxenaR_17463246_GCST000028", 
+               "DupuisJ_20081858_GCST000571",
+               "WojcikGL_31217584_GCST008048",
+               "WoodAR_28490609_GCST004487",
+               "Bonas-GuarchS_29358691_GCST005413"]
+}

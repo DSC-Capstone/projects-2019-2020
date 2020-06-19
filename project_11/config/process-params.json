@@ -1,0 +1,4 @@
+{
+    "inpath" : "data/raw",
+    "outpath" : "data/cleaned"
+}

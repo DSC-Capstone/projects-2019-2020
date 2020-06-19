@@ -1,0 +1,13 @@
+multiprocess
+gensim
+beautifulsoup4
+lxml
+sqlalchemy
+p_tqdm
+fast-bert
+wordcloud
+Plotly
+cufflinks
+torchnet==0.0.4
+graphviz==0.8.4
+stellargraph

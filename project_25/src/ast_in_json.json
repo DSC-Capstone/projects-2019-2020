@@ -1,0 +1,626 @@
+{
+  "graph": {
+    "_PyType": "Module",
+    "body": [
+      {
+        "_PyType": "FunctionDef",
+        "args": {
+          "_PyType": "arguments",
+          "args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kwarg": null,
+          "kwonlyargs": [],
+          "vararg": null
+        },
+        "body": [
+          {
+            "_PyType": "Expr",
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "asin_column",
+                  "type": "udv"
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "select",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "product_data",
+                  "type": "udv"
+                }
+              },
+              "keywords": []
+            }
+          },
+          {
+            "_PyType": "Assign",
+            "targets": [
+              {
+                "_PyType": "Name",
+                "ctx": {
+                  "_PyType": "Store"
+                },
+                "id": "asin_",
+                "type": "udv"
+              }
+            ],
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "asin_column",
+                  "type": "udv"
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "select",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "product_data",
+                  "type": "udv"
+                }
+              },
+              "keywords": []
+            }
+          },
+          {
+            "_PyType": "Assign",
+            "targets": [
+              {
+                "_PyType": "Name",
+                "ctx": {
+                  "_PyType": "Store"
+                },
+                "id": "temp1",
+                "type": "udv"
+              }
+            ],
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "asin_column",
+                  "type": "udv"
+                },
+                {
+                  "_PyType": "Str",
+                  "s": "overall"
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "select",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "review_data",
+                  "type": "udv"
+                }
+              },
+              "keywords": []
+            }
+          },
+          {
+            "_PyType": "Assign",
+            "targets": [
+              {
+                "_PyType": "Name",
+                "ctx": {
+                  "_PyType": "Store"
+                },
+                "id": "asin_",
+                "type": "udv"
+              }
+            ],
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "temp1",
+                  "type": "udv"
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "join",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "asin_",
+                  "type": "udv"
+                }
+              },
+              "keywords": [
+                {
+                  "_PyType": "keyword",
+                  "arg": "how",
+                  "value": {
+                    "_PyType": "Str",
+                    "s": "left"
+                  }
+                },
+                {
+                  "_PyType": "keyword",
+                  "arg": "on",
+                  "value": {
+                    "_PyType": "Name",
+                    "ctx": {
+                      "_PyType": "Load"
+                    },
+                    "id": "asin_column",
+                    "type": "udv"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "_PyType": "Assign",
+            "targets": [
+              {
+                "_PyType": "Name",
+                "ctx": {
+                  "_PyType": "Store"
+                },
+                "id": "asin_",
+                "type": "udv"
+              }
+            ],
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "asin_column",
+                  "type": "udv"
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "groupby",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "asin_",
+                  "type": "udv"
+                }
+              },
+              "keywords": []
+            }
+          },
+          {
+            "_PyType": "Assign",
+            "targets": [
+              {
+                "_PyType": "Name",
+                "ctx": {
+                  "_PyType": "Store"
+                },
+                "id": "func1",
+                "type": "udv"
+              }
+            ],
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Str",
+                  "s": "overall"
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "count",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "F",
+                  "type": "udv"
+                }
+              },
+              "keywords": []
+            }
+          },
+          {
+            "_PyType": "Assign",
+            "targets": [
+              {
+                "_PyType": "Name",
+                "ctx": {
+                  "_PyType": "Store"
+                },
+                "id": "func2",
+                "type": "udv"
+              }
+            ],
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Str",
+                  "s": "overall"
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "avg",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "F",
+                  "type": "udv"
+                }
+              },
+              "keywords": []
+            }
+          },
+          {
+            "_PyType": "Assign",
+            "targets": [
+              {
+                "_PyType": "Name",
+                "ctx": {
+                  "_PyType": "Store"
+                },
+                "id": "asin_",
+                "type": "udv"
+              }
+            ],
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "func1",
+                  "type": "udv"
+                },
+                {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "func2",
+                  "type": "udv"
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "agg",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "asin_",
+                  "type": "udv"
+                }
+              },
+              "keywords": []
+            }
+          },
+          {
+            "_PyType": "Assign",
+            "targets": [
+              {
+                "_PyType": "Name",
+                "ctx": {
+                  "_PyType": "Store"
+                },
+                "id": "asin_",
+                "type": "udv"
+              }
+            ],
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Str",
+                  "s": "avg(overall)"
+                },
+                {
+                  "_PyType": "Str",
+                  "s": "meanRating"
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "withColumnRenamed",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "asin_",
+                  "type": "udv"
+                }
+              },
+              "keywords": []
+            }
+          },
+          {
+            "_PyType": "Assign",
+            "targets": [
+              {
+                "_PyType": "Name",
+                "ctx": {
+                  "_PyType": "Store"
+                },
+                "id": "asin_",
+                "type": "udv"
+              }
+            ],
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Str",
+                  "s": "count(overall)"
+                },
+                {
+                  "_PyType": "Str",
+                  "s": "countRating"
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "withColumnRenamed",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "asin_other",
+                  "type": "udv"
+                }
+              },
+              "keywords": []
+            }
+          },
+          {
+            "_PyType": "Assign",
+            "targets": [
+              {
+                "_PyType": "Name",
+                "ctx": {
+                  "_PyType": "Store"
+                },
+                "id": "temp2",
+                "type": "udv"
+              }
+            ],
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Compare",
+                  "comparators": [
+                    {
+                      "_PyType": "Num",
+                      "n": 0
+                    }
+                  ],
+                  "left": {
+                    "_PyType": "Attribute",
+                    "attr": "countRating",
+                    "ctx": {
+                      "_PyType": "Load"
+                    },
+                    "value": {
+                      "_PyType": "Name",
+                      "ctx": {
+                        "_PyType": "Load"
+                      },
+                      "id": "asin_",
+                      "type": "udv"
+                    }
+                  },
+                  "ops": [
+                    {
+                      "_PyType": "Eq"
+                    }
+                  ]
+                },
+                {
+                  "_PyType": "NameConstant",
+                  "value": null
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "when",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "F",
+                  "type": "udv"
+                }
+              },
+              "keywords": []
+            }
+          },
+          {
+            "_PyType": "Assign",
+            "targets": [
+              {
+                "_PyType": "Name",
+                "ctx": {
+                  "_PyType": "Store"
+                },
+                "id": "null_",
+                "type": "udv"
+              }
+            ],
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Attribute",
+                  "attr": "countRating",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "value": {
+                    "_PyType": "Name",
+                    "ctx": {
+                      "_PyType": "Load"
+                    },
+                    "id": "asin_",
+                    "type": "udv"
+                  }
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "otherwise",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "temp2",
+                  "type": "udv"
+                }
+              },
+              "keywords": []
+            }
+          },
+          {
+            "_PyType": "Assign",
+            "targets": [
+              {
+                "_PyType": "Name",
+                "ctx": {
+                  "_PyType": "Store"
+                },
+                "id": "asin_",
+                "type": "udv"
+              }
+            ],
+            "value": {
+              "_PyType": "Call",
+              "args": [
+                {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "count_rating_column",
+                  "type": "udv"
+                },
+                {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "null_",
+                  "type": "udv"
+                }
+              ],
+              "func": {
+                "_PyType": "Attribute",
+                "attr": "withColumn",
+                "ctx": {
+                  "_PyType": "Load"
+                },
+                "value": {
+                  "_PyType": "Name",
+                  "ctx": {
+                    "_PyType": "Load"
+                  },
+                  "id": "asin_",
+                  "type": "udv"
+                }
+              },
+              "keywords": []
+            }
+          }
+        ],
+        "decorator_list": [],
+        "name": "dummy",
+        "returns": null
+      }
+    ]
+  },
+  "imports": {}
+}

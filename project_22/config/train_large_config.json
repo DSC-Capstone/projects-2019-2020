@@ -1,0 +1,6 @@
+{
+	"outpath":"./data/gen",
+	"bins": 5,
+	"name_min_df": 0.00,
+	"text_min_df": 0.00
+}

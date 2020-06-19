@@ -1,0 +1,5 @@
+{
+    "rawpaths": ["test_data/raw/stops.csv", "test_data/raw/crime.csv", "test_data/raw/arrests.csv"],
+    "inpaths": ["test_data/cleaned/stops-processed.csv", "test_data/cleaned/crime-processed.csv", "test_data/cleaned/arrests-processed.csv"],
+    "outpaths": ["viz/EDA/Stops", "viz/EDA/Crime", "viz/EDA/Arrests"]
+}

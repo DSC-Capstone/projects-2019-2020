@@ -1,0 +1,1423 @@
+{
+    "Landroid/graphics/Paint;": [
+        "Landroid/graphics/Paint;->measureText()F",
+        "Landroid/graphics/Paint;->setTextSize()V",
+        "Landroid/graphics/Paint;->setStyle()V",
+        "Landroid/graphics/Paint;->setColor()V",
+        "Landroid/graphics/Paint;->setARGB()V",
+        "Landroid/graphics/Paint;->setTypeface()Landroid/graphics/Typeface;",
+        "Landroid/graphics/Paint;->setPathEffect()Landroid/graphics/PathEffect;",
+        "Landroid/graphics/Paint;->setAntiAlias()V",
+        "Landroid/graphics/Paint;->setAlpha()V",
+        "Landroid/graphics/Paint;->setStrokeWidth()V"
+    ],
+    "Ly;": [
+        "Ly;->setVisibility()V",
+        "Ly;->getWidth()I",
+        "Ly;->setLayoutParams()V",
+        "Ly;->getHeight()I"
+    ],
+    "Landroid/graphics/Canvas;": [
+        "Landroid/graphics/Canvas;->drawLine()V",
+        "Landroid/graphics/Canvas;->save()I",
+        "Landroid/graphics/Canvas;->drawRoundRect()V",
+        "Landroid/graphics/Canvas;->restore()V",
+        "Landroid/graphics/Canvas;->drawBitmap()V",
+        "Landroid/graphics/Canvas;->getClipBounds()Landroid/graphics/Rect;",
+        "Landroid/graphics/Canvas;->translate()V",
+        "Landroid/graphics/Canvas;->drawText()V",
+        "Landroid/graphics/Canvas;->clipRect()Z",
+        "Landroid/graphics/Canvas;->drawPath()V",
+        "Landroid/graphics/Canvas;->drawRect()V"
+    ],
+    "Landroid/view/MotionEvent;": [
+        "Landroid/view/MotionEvent;->getX()F",
+        "Landroid/view/MotionEvent;->getY()F",
+        "Landroid/view/MotionEvent;->getAction()I",
+        "Landroid/view/MotionEvent;->obtain()Landroid/view/MotionEvent;"
+    ],
+    "Lcom/izp/views/IZPDelegate;": [
+        "Lcom/izp/views/IZPDelegate;->shouldShowFreshAd()Z",
+        "Lcom/izp/views/IZPDelegate;->didStopFullScreenAd()V",
+        "Lcom/izp/views/IZPDelegate;->didReceiveFreshAd()V",
+        "Lcom/izp/views/IZPDelegate;->errorReport()V",
+        "Lcom/izp/views/IZPDelegate;->willLeaveApplication()V",
+        "Lcom/izp/views/IZPDelegate;->shouldRequestFreshAd()Z"
+    ],
+    "Lb;": [
+        "Lb;->a()Lb;",
+        "Lb;->a()V",
+        "Lb;->a()Ljava/lang/String;"
+    ],
+    "Ljava/lang/String;": [
+        "Ljava/lang/String;->contains()Z",
+        "Ljava/lang/String;->toLowerCase()Ljava/lang/String;",
+        "Ljava/lang/String;->endsWith()Z",
+        "Ljava/lang/String;->compareTo()I",
+        "Ljava/lang/String;->hashCode()I",
+        "Ljava/lang/String;->length()I",
+        "Ljava/lang/String;->indexOf()I",
+        "Ljava/lang/String;->replaceAll()Ljava/lang/String;",
+        "Ljava/lang/String;->toString()Ljava/lang/String;",
+        "Ljava/lang/String;->equals()Z",
+        "Ljava/lang/String;->equalsIgnoreCase()Z",
+        "Ljava/lang/String;->format()Ljava/lang/String;",
+        "Ljava/lang/String;->trim()Ljava/lang/String;",
+        "Ljava/lang/String;->lastIndexOf()I",
+        "Ljava/lang/String;->valueOf()Ljava/lang/String;",
+        "Ljava/lang/String;->startsWith()Z",
+        "Ljava/lang/String;->split()[Ljava/lang/String;",
+        "Ljava/lang/String;->substring()Ljava/lang/String;",
+        "Ljava/lang/String;->getBytes()[B",
+        "Ljava/lang/String;->compareToIgnoreCase()I"
+    ],
+    "Ljava/lang/StringBuffer;": [
+        "Ljava/lang/StringBuffer;->delete()Ljava/lang/StringBuffer;",
+        "Ljava/lang/StringBuffer;->length()I",
+        "Ljava/lang/StringBuffer;->toString()Ljava/lang/String;",
+        "Ljava/lang/StringBuffer;->setLength()V",
+        "Ljava/lang/StringBuffer;->append()Ljava/lang/StringBuffer;"
+    ],
+    "Ljava/util/ArrayList;": [
+        "Ljava/util/ArrayList;->clone()Ljava/lang/Object;",
+        "Ljava/util/ArrayList;->add()Z",
+        "Ljava/util/ArrayList;->size()I",
+        "Ljava/util/ArrayList;->toArray()[Ljava/lang/Object;",
+        "Ljava/util/ArrayList;->get()Ljava/lang/Object;",
+        "Ljava/util/ArrayList;->remove()Ljava/lang/Object;",
+        "Ljava/util/ArrayList;->contains()Z"
+    ],
+    "Ljava/lang/Integer;": [
+        "Ljava/lang/Integer;->parseInt()I",
+        "Ljava/lang/Integer;->intValue()I",
+        "Ljava/lang/Integer;->toString()Ljava/lang/String;",
+        "Ljava/lang/Integer;->valueOf()Ljava/lang/Integer;"
+    ],
+    "Ljava/net/URL;": [
+        "Ljava/net/URL;->toString()Ljava/lang/String;",
+        "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    ],
+    "Ljava/lang/Exception;": [
+        "Ljava/lang/Exception;->toString()Ljava/lang/String;",
+        "Ljava/lang/Exception;->printStackTrace()V",
+        "Ljava/lang/Exception;->getMessage()Ljava/lang/String;"
+    ],
+    "Ll;": [
+        "Ll;->a()V",
+        "Ll;->a()Ljava/net/HttpURLConnection;"
+    ],
+    "Ljava/net/HttpURLConnection;": [
+        "Ljava/net/HttpURLConnection;->getResponseMessage()Ljava/lang/String;",
+        "Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;",
+        "Ljava/net/HttpURLConnection;->setDoOutput()V",
+        "Ljava/net/HttpURLConnection;->getResponseCode()I",
+        "Ljava/net/HttpURLConnection;->setDoInput()V",
+        "Ljava/net/HttpURLConnection;->setRequestMethod()V",
+        "Ljava/net/HttpURLConnection;->setConnectTimeout()V",
+        "Ljava/net/HttpURLConnection;->addRequestProperty()V",
+        "Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;",
+        "Ljava/net/HttpURLConnection;->getHeaderField()Ljava/lang/String;",
+        "Ljava/net/HttpURLConnection;->setReadTimeout()V",
+        "Ljava/net/HttpURLConnection;->disconnect()V",
+        "Ljava/net/HttpURLConnection;->setRequestProperty()V",
+        "Ljava/net/HttpURLConnection;->setFollowRedirects()V",
+        "Ljava/net/HttpURLConnection;->getURL()Ljava/net/URL;",
+        "Ljava/net/HttpURLConnection;->connect()V"
+    ],
+    "Ljava/io/PrintWriter;": [
+        "Ljava/io/PrintWriter;->flush()V",
+        "Ljava/io/PrintWriter;->write()V",
+        "Ljava/io/PrintWriter;->close()V"
+    ],
+    "Ljava/io/InputStream;": [
+        "Ljava/io/InputStream;->close()V",
+        "Ljava/io/InputStream;->read()I"
+    ],
+    "Ljava/io/ByteArrayOutputStream;": [
+        "Ljava/io/ByteArrayOutputStream;->toByteArray()[B",
+        "Ljava/io/ByteArrayOutputStream;->write()V",
+        "Ljava/io/ByteArrayOutputStream;->close()V"
+    ],
+    "Lm;": [
+        "Lm;->a()V"
+    ],
+    "Ljava/io/OutputStream;": [
+        "Ljava/io/OutputStream;->close()V",
+        "Ljava/io/OutputStream;->write()V",
+        "Ljava/io/OutputStream;->flush()V"
+    ],
+    "Ljava/lang/Class;": [
+        "Ljava/lang/Class;->desiredAssertionStatus()Z",
+        "Ljava/lang/Class;->getDeclaredConstructor()Ljava/lang/reflect/Constructor;",
+        "Ljava/lang/Class;->getField()Ljava/lang/reflect/Field;",
+        "Ljava/lang/Class;->getResourceAsStream()Ljava/io/InputStream;"
+    ],
+    "Ljava/lang/StringBuilder;": [
+        "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+        "Ljava/lang/StringBuilder;->append()Ljava/lang/StringBuilder;"
+    ],
+    "Ljava/io/IOException;": [
+        "Ljava/io/IOException;->printStackTrace()V"
+    ],
+    "Lcom/izp/views/IZPView;": [
+        "Lcom/izp/views/IZPView;->setBackgroundColor()V",
+        "Lcom/izp/views/IZPView;->startAdExchange()V",
+        "Lcom/izp/views/IZPView;->getWidth()I",
+        "Lcom/izp/views/IZPView;->getContext()Landroid/content/Context;",
+        "Lcom/izp/views/IZPView;->getHeight()I",
+        "Lcom/izp/views/IZPView;->setOnClickListener()V",
+        "Lcom/izp/views/IZPView;->stopAdExchange()V",
+        "Lcom/izp/views/IZPView;->addView()V"
+    ],
+    "Landroid/widget/RelativeLayout$LayoutParams;": [
+        "Landroid/widget/RelativeLayout$LayoutParams;->addRule()V",
+        "Landroid/widget/RelativeLayout$LayoutParams;->setMargins()V"
+    ],
+    "Landroid/widget/ProgressBar;": [
+        "Landroid/widget/ProgressBar;->setVisibility()V",
+        "Landroid/widget/ProgressBar;->setIndeterminate()V",
+        "Landroid/widget/ProgressBar;->getVisibility()I",
+        "Landroid/widget/ProgressBar;->setLayoutParams()V"
+    ],
+    "Lz;": [
+        "Lz;->getWidth()I",
+        "Lz;->setBackgroundColor()V",
+        "Lz;->getHeight()I",
+        "Lz;->a()V",
+        "Lz;->setOnTouchListener()V",
+        "Lz;->addView()V",
+        "Lz;->startAnimation()V",
+        "Lz;->setLayoutParams()V"
+    ],
+    "Landroid/widget/ImageView;": [
+        "Landroid/widget/ImageView;->setClickable()V",
+        "Landroid/widget/ImageView;->setScaleType()V",
+        "Landroid/widget/ImageView;->getHeight()I",
+        "Landroid/widget/ImageView;->startAnimation()V",
+        "Landroid/widget/ImageView;->setLayoutParams()V",
+        "Landroid/widget/ImageView;->setBackgroundDrawable()V",
+        "Landroid/widget/ImageView;->setMinimumHeight()V",
+        "Landroid/widget/ImageView;->setImageBitmap()V",
+        "Landroid/widget/ImageView;->getWidth()I",
+        "Landroid/widget/ImageView;->getBackground()Landroid/graphics/drawable/Drawable;",
+        "Landroid/widget/ImageView;->setVisibility()V",
+        "Landroid/widget/ImageView;->setImageMatrix()V",
+        "Landroid/widget/ImageView;->setOnClickListener()V",
+        "Landroid/widget/ImageView;->setId()V"
+    ],
+    "Landroid/widget/TextView;": [
+        "Landroid/widget/TextView;->setText()V",
+        "Landroid/widget/TextView;->setTextSize()V",
+        "Landroid/widget/TextView;->setGravity()V",
+        "Landroid/widget/TextView;->setId()V",
+        "Landroid/widget/TextView;->setBackgroundColor()V",
+        "Landroid/widget/TextView;->setTextColor()V",
+        "Landroid/widget/TextView;->setEllipsize()V",
+        "Landroid/widget/TextView;->setTypeface()V",
+        "Landroid/widget/TextView;->getTextSize()F",
+        "Landroid/widget/TextView;->setSingleLine()V",
+        "Landroid/widget/TextView;->getTypeface()Landroid/graphics/Typeface;",
+        "Landroid/widget/TextView;->setVisibility()V",
+        "Landroid/widget/TextView;->setLayoutParams()V"
+    ],
+    "Ls;": [
+        "Ls;->a()V"
+    ],
+    "Lp;": [
+        "Lp;->a()V"
+    ],
+    "Ljava/util/Timer;": [
+        "Ljava/util/Timer;->purge()I",
+        "Ljava/util/Timer;->scheduleAtFixedRate()V",
+        "Ljava/util/Timer;->schedule()V",
+        "Ljava/util/Timer;->cancel()V"
+    ],
+    "Landroid/content/Context;": [
+        "Landroid/content/Context;->registerReceiver()Landroid/content/Intent;",
+        "Landroid/content/Context;->unregisterReceiver()V",
+        "Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;",
+        "Landroid/content/Context;->startActivity()V",
+        "Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;",
+        "Landroid/content/Context;->getPackageName()Ljava/lang/String;",
+        "Landroid/content/Context;->getResources()Landroid/content/res/Resources;",
+        "Landroid/content/Context;->checkCallingOrSelfPermission()I",
+        "Landroid/content/Context;->getSystemService()Ljava/lang/Object;",
+        "Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;",
+        "Landroid/content/Context;->startService()Landroid/content/ComponentName;",
+        "Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;"
+    ],
+    "Landroid/telephony/TelephonyManager;": [
+        "Landroid/telephony/TelephonyManager;->getNetworkOperator()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getNetworkOperatorName()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getLine1Number()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;",
+        "Landroid/telephony/TelephonyManager;->getCellLocation()Landroid/telephony/CellLocation;",
+        "Landroid/telephony/TelephonyManager;->getSimSerialNumber()Ljava/lang/String;"
+    ],
+    "Lv;": [
+        "Lv;->a()Ljava/lang/String;",
+        "Lv;->a()[B"
+    ],
+    "Landroid/net/ConnectivityManager;": [
+        "Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;",
+        "Landroid/net/ConnectivityManager;->getNetworkInfo()Landroid/net/NetworkInfo;"
+    ],
+    "Landroid/net/NetworkInfo;": [
+        "Landroid/net/NetworkInfo;->isConnected()Z",
+        "Landroid/net/NetworkInfo;->isAvailable()Z",
+        "Landroid/net/NetworkInfo;->getType()I",
+        "Landroid/net/NetworkInfo;->getExtraInfo()Ljava/lang/String;"
+    ],
+    "Landroid/net/wifi/WifiManager;": [
+        "Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;",
+        "Landroid/net/wifi/WifiManager;->isWifiEnabled()Z"
+    ],
+    "Landroid/net/wifi/WifiInfo;": [
+        "Landroid/net/wifi/WifiInfo;->getIpAddress()I"
+    ],
+    "Landroid/graphics/Bitmap;": [
+        "Landroid/graphics/Bitmap;->getWidth()I",
+        "Landroid/graphics/Bitmap;->isRecycled()Z",
+        "Landroid/graphics/Bitmap;->getPixels()V",
+        "Landroid/graphics/Bitmap;->getHeight()I",
+        "Landroid/graphics/Bitmap;->createBitmap()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/Bitmap;->recycle()V"
+    ],
+    "Landroid/graphics/Matrix;": [
+        "Landroid/graphics/Matrix;->reset()V",
+        "Landroid/graphics/Matrix;->preTranslate()Z",
+        "Landroid/graphics/Matrix;->postTranslate()Z",
+        "Landroid/graphics/Matrix;->preScale()Z",
+        "Landroid/graphics/Matrix;->postRotate()Z",
+        "Landroid/graphics/Matrix;->setScale()V",
+        "Landroid/graphics/Matrix;->setRotate()V",
+        "Landroid/graphics/Matrix;->preRotate()Z"
+    ],
+    "Ljava/lang/Long;": [
+        "Ljava/lang/Long;->longValue()J",
+        "Ljava/lang/Long;->toHexString()Ljava/lang/String;",
+        "Ljava/lang/Long;->intValue()I",
+        "Ljava/lang/Long;->decode()Ljava/lang/Long;",
+        "Ljava/lang/Long;->valueOf()Ljava/lang/Long;"
+    ],
+    "Lk;": [
+        "Lk;->setInterpolator()V",
+        "Lk;->setAnimationListener()V",
+        "Lk;->setDuration()V"
+    ],
+    "Ljava/net/NetworkInterface;": [
+        "Ljava/net/NetworkInterface;->getInetAddresses()Ljava/util/Enumeration;",
+        "Ljava/net/NetworkInterface;->getNetworkInterfaces()Ljava/util/Enumeration;"
+    ],
+    "Ljava/util/Enumeration;": [
+        "Ljava/util/Enumeration;->hasMoreElements()Z",
+        "Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;"
+    ],
+    "Ljava/net/InetAddress;": [
+        "Ljava/net/InetAddress;->isLoopbackAddress()Z",
+        "Ljava/net/InetAddress;->getHostAddress()Ljava/lang/String;"
+    ],
+    "Le;": [
+        "Le;->sendMessage()Z"
+    ],
+    "Landroid/view/animation/Animation;": [
+        "Landroid/view/animation/Animation;->setRepeatMode()V",
+        "Landroid/view/animation/Animation;->setInterpolator()V",
+        "Landroid/view/animation/Animation;->setRepeatCount()V",
+        "Landroid/view/animation/Animation;->setDuration()V"
+    ],
+    "Landroid/net/Uri;": [
+        "Landroid/net/Uri;->getLastPathSegment()Ljava/lang/String;",
+        "Landroid/net/Uri;->withAppendedPath()Landroid/net/Uri;",
+        "Landroid/net/Uri;->getScheme()Ljava/lang/String;",
+        "Landroid/net/Uri;->toString()Ljava/lang/String;",
+        "Landroid/net/Uri;->fromFile()Landroid/net/Uri;",
+        "Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;",
+        "Landroid/net/Uri;->parse()Landroid/net/Uri;"
+    ],
+    "Landroid/content/Intent;": [
+        "Landroid/content/Intent;->setDataAndType()Landroid/content/Intent;",
+        "Landroid/content/Intent;->getStringExtra()Ljava/lang/String;",
+        "Landroid/content/Intent;->setClassName()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setData()Landroid/content/Intent;",
+        "Landroid/content/Intent;->putExtra()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setClass()Landroid/content/Intent;",
+        "Landroid/content/Intent;->getIntExtra()I",
+        "Landroid/content/Intent;->putExtras()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setType()Landroid/content/Intent;",
+        "Landroid/content/Intent;->getExtras()Landroid/os/Bundle;",
+        "Landroid/content/Intent;->getAction()Ljava/lang/String;",
+        "Landroid/content/Intent;->addFlags()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setFlags()Landroid/content/Intent;",
+        "Landroid/content/Intent;->setAction()Landroid/content/Intent;"
+    ],
+    "Landroid/content/pm/PackageManager;": [
+        "Landroid/content/pm/PackageManager;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;",
+        "Landroid/content/pm/PackageManager;->getInstalledApplications()Ljava/util/List;",
+        "Landroid/content/pm/PackageManager;->getApplicationLabel()Ljava/lang/CharSequence;"
+    ],
+    "Ljava/util/List;": [
+        "Ljava/util/List;->get()Ljava/lang/Object;",
+        "Ljava/util/List;->add()Z",
+        "Ljava/util/List;->contains()Z",
+        "Ljava/util/List;->indexOf()I",
+        "Ljava/util/List;->size()I",
+        "Ljava/util/List;->iterator()Ljava/util/Iterator;"
+    ],
+    "Ljava/util/Iterator;": [
+        "Ljava/util/Iterator;->hasNext()Z",
+        "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+    ],
+    "Landroid/provider/Browser;": [
+        "Landroid/provider/Browser;->getAllVisitedUrls()Landroid/database/Cursor;"
+    ],
+    "Landroid/database/Cursor;": [
+        "Landroid/database/Cursor;->getCount()I",
+        "Landroid/database/Cursor;->isAfterLast()Z",
+        "Landroid/database/Cursor;->getString()Ljava/lang/String;",
+        "Landroid/database/Cursor;->moveToFirst()Z",
+        "Landroid/database/Cursor;->getBlob()[B",
+        "Landroid/database/Cursor;->moveToNext()Z",
+        "Landroid/database/Cursor;->close()V",
+        "Landroid/database/Cursor;->getInt()I",
+        "Landroid/database/Cursor;->requery()Z",
+        "Landroid/database/Cursor;->getColumnIndex()I"
+    ],
+    "Landroid/graphics/Color;": [
+        "Landroid/graphics/Color;->red()I",
+        "Landroid/graphics/Color;->argb()I",
+        "Landroid/graphics/Color;->blue()I",
+        "Landroid/graphics/Color;->green()I"
+    ],
+    "Landroid/graphics/Rect;": [
+        "Landroid/graphics/Rect;->inset()V",
+        "Landroid/graphics/Rect;->width()I",
+        "Landroid/graphics/Rect;->contains()Z",
+        "Landroid/graphics/Rect;->height()I"
+    ],
+    "Landroid/graphics/drawable/GradientDrawable;": [
+        "Landroid/graphics/drawable/GradientDrawable;->setBounds()V",
+        "Landroid/graphics/drawable/GradientDrawable;->draw()V"
+    ],
+    "Lx;": [
+        "Lx;->a()Z"
+    ],
+    "Lq;": [
+        "Lq;->a()V"
+    ],
+    "Lr;": [
+        "Lr;->a()V"
+    ],
+    "Landroid/graphics/BitmapFactory;": [
+        "Landroid/graphics/BitmapFactory;->decodeStream()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/BitmapFactory;->decodeResource()Landroid/graphics/Bitmap;",
+        "Landroid/graphics/BitmapFactory;->decodeByteArray()Landroid/graphics/Bitmap;"
+    ],
+    "Lo;": [
+        "Lo;->a()V"
+    ],
+    "Ljavax/xml/parsers/SAXParserFactory;": [
+        "Ljavax/xml/parsers/SAXParserFactory;->newInstance()Ljavax/xml/parsers/SAXParserFactory;",
+        "Ljavax/xml/parsers/SAXParserFactory;->newSAXParser()Ljavax/xml/parsers/SAXParser;"
+    ],
+    "Ljavax/xml/parsers/ParserConfigurationException;": [
+        "Ljavax/xml/parsers/ParserConfigurationException;->printStackTrace()V"
+    ],
+    "Lorg/xml/sax/SAXException;": [
+        "Lorg/xml/sax/SAXException;->printStackTrace()V"
+    ],
+    "Ljavax/xml/parsers/SAXParser;": [
+        "Ljavax/xml/parsers/SAXParser;->parse()V"
+    ],
+    "Lcom/ju6/AdManager;": [
+        "Lcom/ju6/AdManager;->setAdFinish()V",
+        "Lcom/ju6/AdManager;->setAdTimestamp()V",
+        "Lcom/ju6/AdManager;->getAdTimestamp()J",
+        "Lcom/ju6/AdManager;->getBirthdayAsString()Ljava/lang/String;",
+        "Lcom/ju6/AdManager;->isTestmode()Z",
+        "Lcom/ju6/AdManager;->getBirthday()Ljava/util/GregorianCalendar;",
+        "Lcom/ju6/AdManager;->setBirthday()V",
+        "Lcom/ju6/AdManager;->isAdFinish()Z",
+        "Lcom/ju6/AdManager;->getPwd()Ljava/lang/String;",
+        "Lcom/ju6/AdManager;->getGenderAsString()Ljava/lang/String;",
+        "Lcom/ju6/AdManager;->getAppid()Ljava/lang/String;"
+    ],
+    "Ljava/util/GregorianCalendar;": [
+        "Ljava/util/GregorianCalendar;->set()V",
+        "Ljava/util/GregorianCalendar;->get()I"
+    ],
+    "Ljava/lang/System;": [
+        "Ljava/lang/System;->currentTimeMillis()J",
+        "Ljava/lang/System;->getProperties()Ljava/util/Properties;",
+        "Ljava/lang/System;->arraycopy()V"
+    ],
+    "Ljava/util/Locale;": [
+        "Ljava/util/Locale;->getDefault()Ljava/util/Locale;",
+        "Ljava/util/Locale;->getCountry()Ljava/lang/String;",
+        "Ljava/util/Locale;->getLanguage()Ljava/lang/String;"
+    ],
+    "Ljava/security/MessageDigest;": [
+        "Ljava/security/MessageDigest;->update()V",
+        "Ljava/security/MessageDigest;->getInstance()Ljava/security/MessageDigest;",
+        "Ljava/security/MessageDigest;->digest()[B"
+    ],
+    "Lcom/ju6/c;": [
+        "Lcom/ju6/c;->start()V",
+        "Lcom/ju6/c;->a()Z",
+        "Lcom/ju6/c;->a()[B",
+        "Lcom/ju6/c;->a()Ljava/net/HttpURLConnection;",
+        "Lcom/ju6/c;->a()V",
+        "Lcom/ju6/c;->a()Ljava/util/List;",
+        "Lcom/ju6/c;->a()Ljava/lang/String;"
+    ],
+    "Ljava/io/BufferedReader;": [
+        "Ljava/io/BufferedReader;->close()V",
+        "Ljava/io/BufferedReader;->readLine()Ljava/lang/String;"
+    ],
+    "Lcom/ju6/AdListener;": [
+        "Lcom/ju6/AdListener;->onConnectFailed()V",
+        "Lcom/ju6/AdListener;->onReceiveAd()V"
+    ],
+    "Ljava/net/URLEncoder;": [
+        "Ljava/net/URLEncoder;->encode()Ljava/lang/String;"
+    ],
+    "Landroid/util/Log;": [
+        "Landroid/util/Log;->a()I"
+    ],
+    "Lorg/json/JSONObject;": [
+        "Lorg/json/JSONObject;->getString()Ljava/lang/String;",
+        "Lorg/json/JSONObject;->getJSONArray()Lorg/json/JSONArray;",
+        "Lorg/json/JSONObject;->getInt()I"
+    ],
+    "Lorg/json/JSONArray;": [
+        "Lorg/json/JSONArray;->getJSONObject()Lorg/json/JSONObject;",
+        "Lorg/json/JSONArray;->length()I"
+    ],
+    "Ljava/lang/Double;": [
+        "Ljava/lang/Double;->doubleToLongBits()J",
+        "Ljava/lang/Double;->valueOf()Ljava/lang/Double;",
+        "Ljava/lang/Double;->parseDouble()D"
+    ],
+    "Ljava/io/BufferedWriter;": [
+        "Ljava/io/BufferedWriter;->close()V"
+    ],
+    "Landroid/content/ContentValues;": [
+        "Landroid/content/ContentValues;->clear()V",
+        "Landroid/content/ContentValues;->put()V"
+    ],
+    "Landroid/content/ContentResolver;": [
+        "Landroid/content/ContentResolver;->insert()Landroid/net/Uri;",
+        "Landroid/content/ContentResolver;->openOutputStream()Ljava/io/OutputStream;",
+        "Landroid/content/ContentResolver;->update()I",
+        "Landroid/content/ContentResolver;->query()Landroid/database/Cursor;",
+        "Landroid/content/ContentResolver;->delete()I",
+        "Landroid/content/ContentResolver;->openInputStream()Ljava/io/InputStream;"
+    ],
+    "Lcom/ju6/mms/pdu/MMS;": [
+        "Lcom/ju6/mms/pdu/MMS;->setFrom()V",
+        "Lcom/ju6/mms/pdu/MMS;->getSubject()Lcom/ju6/mms/pdu/EncodedStringValue;",
+        "Lcom/ju6/mms/pdu/MMS;->getDate()J",
+        "Lcom/ju6/mms/pdu/MMS;->getMessageClass()[B",
+        "Lcom/ju6/mms/pdu/MMS;->setMessageType()V",
+        "Lcom/ju6/mms/pdu/MMS;->setPriority()V",
+        "Lcom/ju6/mms/pdu/MMS;->setMmsVersion()V",
+        "Lcom/ju6/mms/pdu/MMS;->setBody()V",
+        "Lcom/ju6/mms/pdu/MMS;->setTransactionId()V",
+        "Lcom/ju6/mms/pdu/MMS;->getExpiry()J",
+        "Lcom/ju6/mms/pdu/MMS;->getPriority()I",
+        "Lcom/ju6/mms/pdu/MMS;->getMessageSize()J",
+        "Lcom/ju6/mms/pdu/MMS;->a()Lcom/ju6/mms/pdu/PduHeaders;",
+        "Lcom/ju6/mms/pdu/MMS;->setSubject()V",
+        "Lcom/ju6/mms/pdu/MMS;->getTransactionId()[B",
+        "Lcom/ju6/mms/pdu/MMS;->getReadReport()I",
+        "Lcom/ju6/mms/pdu/MMS;->getDeliveryReport()I",
+        "Lcom/ju6/mms/pdu/MMS;->setContentType()V",
+        "Lcom/ju6/mms/pdu/MMS;->getContentType()[B"
+    ],
+    "Lcom/ju6/mms/pdu/PduPersister;": [
+        "Lcom/ju6/mms/pdu/PduPersister;->a()V",
+        "Lcom/ju6/mms/pdu/PduPersister;->a()Z",
+        "Lcom/ju6/mms/pdu/PduPersister;->toIsoString()Ljava/lang/String;",
+        "Lcom/ju6/mms/pdu/PduPersister;->getPduPersister()Lcom/ju6/mms/pdu/PduPersister;",
+        "Lcom/ju6/mms/pdu/PduPersister;->persistPart()Landroid/net/Uri;",
+        "Lcom/ju6/mms/pdu/PduPersister;->persist()Landroid/net/Uri;"
+    ],
+    "Lcom/ju6/mms/pdu/PduPart;": [
+        "Lcom/ju6/mms/pdu/PduPart;->getContentId()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->getName()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->getContentLocation()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->getDataUri()Landroid/net/Uri;",
+        "Lcom/ju6/mms/pdu/PduPart;->getCharset()I",
+        "Lcom/ju6/mms/pdu/PduPart;->setContentType()V",
+        "Lcom/ju6/mms/pdu/PduPart;->setDataUri()V",
+        "Lcom/ju6/mms/pdu/PduPart;->setContentLocation()V",
+        "Lcom/ju6/mms/pdu/PduPart;->getContentType()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->getContentDisposition()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->setContentId()V",
+        "Lcom/ju6/mms/pdu/PduPart;->setCharset()V",
+        "Lcom/ju6/mms/pdu/PduPart;->getData()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->getFilename()[B",
+        "Lcom/ju6/mms/pdu/PduPart;->setData()V"
+    ],
+    "Lcom/ju6/mms/pdu/PduBody;": [
+        "Lcom/ju6/mms/pdu/PduBody;->getPart()Lcom/ju6/mms/pdu/PduPart;",
+        "Lcom/ju6/mms/pdu/PduBody;->addPart()Z",
+        "Lcom/ju6/mms/pdu/PduBody;->a()V",
+        "Lcom/ju6/mms/pdu/PduBody;->getPartsNum()I"
+    ],
+    "Landroid/provider/Settings$System;": [
+        "Landroid/provider/Settings$System;->getString()Ljava/lang/String;"
+    ],
+    "Landroid/telephony/gsm/GsmCellLocation;": [
+        "Landroid/telephony/gsm/GsmCellLocation;->getLac()I",
+        "Landroid/telephony/gsm/GsmCellLocation;->getCid()I"
+    ],
+    "Landroid/location/LocationManager;": [
+        "Landroid/location/LocationManager;->getLastKnownLocation()Landroid/location/Location;"
+    ],
+    "Landroid/location/Location;": [
+        "Landroid/location/Location;->getAccuracy()F",
+        "Landroid/location/Location;->getLongitude()D",
+        "Landroid/location/Location;->getTime()J",
+        "Landroid/location/Location;->getLatitude()D"
+    ],
+    "Lcom/ju6/mms/ContentType;": [
+        "Lcom/ju6/mms/ContentType;->isVideoType()Z",
+        "Lcom/ju6/mms/ContentType;->isSupportedType()Z",
+        "Lcom/ju6/mms/ContentType;->isAudioType()Z",
+        "Lcom/ju6/mms/ContentType;->isImageType()Z"
+    ],
+    "Lcom/ju6/mms/pdu/PduHeaders;": [
+        "Lcom/ju6/mms/pdu/PduHeaders;->getOctet()I",
+        "Lcom/ju6/mms/pdu/PduHeaders;->getLongInteger()J",
+        "Lcom/ju6/mms/pdu/PduHeaders;->getTextString()[B",
+        "Lcom/ju6/mms/pdu/PduHeaders;->setEncodedStringValue()V",
+        "Lcom/ju6/mms/pdu/PduHeaders;->setTextString()V",
+        "Lcom/ju6/mms/pdu/PduHeaders;->setOctet()V",
+        "Lcom/ju6/mms/pdu/PduHeaders;->getEncodedStringValues()[Lcom/ju6/mms/pdu/EncodedStringValue;",
+        "Lcom/ju6/mms/pdu/PduHeaders;->setEncodedStringValues()V",
+        "Lcom/ju6/mms/pdu/PduHeaders;->setLongInteger()V",
+        "Lcom/ju6/mms/pdu/PduHeaders;->appendEncodedStringValue()V",
+        "Lcom/ju6/mms/pdu/PduHeaders;->getEncodedStringValue()Lcom/ju6/mms/pdu/EncodedStringValue;"
+    ],
+    "Lcom/ju6/mms/pdu/a;": [
+        "Lcom/ju6/mms/pdu/a;->getSubject()Lcom/ju6/mms/pdu/EncodedStringValue;",
+        "Lcom/ju6/mms/pdu/a;->setDate()V",
+        "Lcom/ju6/mms/pdu/a;->getTo()[Lcom/ju6/mms/pdu/EncodedStringValue;",
+        "Lcom/ju6/mms/pdu/a;->getPriority()I",
+        "Lcom/ju6/mms/pdu/a;->setPriority()V",
+        "Lcom/ju6/mms/pdu/a;->getDate()J",
+        "Lcom/ju6/mms/pdu/a;->setSubject()V",
+        "Lcom/ju6/mms/pdu/a;->setBody()V",
+        "Lcom/ju6/mms/pdu/a;->addTo()V",
+        "Lcom/ju6/mms/pdu/a;->getBody()Lcom/ju6/mms/pdu/PduBody;"
+    ],
+    "Ljava/util/HashMap;": [
+        "Ljava/util/HashMap;->remove()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->entrySet()Ljava/util/Set;",
+        "Ljava/util/HashMap;->clear()V",
+        "Ljava/util/HashMap;->put()Ljava/lang/Object;",
+        "Ljava/util/HashMap;->size()I",
+        "Ljava/util/HashMap;->get()Ljava/lang/Object;"
+    ],
+    "Lcom/ju6/mms/pdu/EncodedStringValue;": [
+        "Lcom/ju6/mms/pdu/EncodedStringValue;->getCharacterSet()I",
+        "Lcom/ju6/mms/pdu/EncodedStringValue;->getTextString()[B",
+        "Lcom/ju6/mms/pdu/EncodedStringValue;->getString()Ljava/lang/String;"
+    ],
+    "Ljava/lang/Object;": [
+        "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+        "Ljava/lang/Object;->finalize()V",
+        "Ljava/lang/Object;->clone()Ljava/lang/Object;",
+        "Ljava/lang/Object;->equals()Z"
+    ],
+    "Lcom/ju6/mms/pdu/CharacterSets;": [
+        "Lcom/ju6/mms/pdu/CharacterSets;->getMimeName()Ljava/lang/String;"
+    ],
+    "Ljava/util/Map;": [
+        "Ljava/util/Map;->put()Ljava/lang/Object;",
+        "Ljava/util/Map;->get()Ljava/lang/Object;"
+    ],
+    "Ljava/util/Vector;": [
+        "Ljava/util/Vector;->addElement()V",
+        "Ljava/util/Vector;->remove()Ljava/lang/Object;",
+        "Ljava/util/Vector;->indexOf()I",
+        "Ljava/util/Vector;->size()I",
+        "Ljava/util/Vector;->get()Ljava/lang/Object;",
+        "Ljava/util/Vector;->elementAt()Ljava/lang/Object;",
+        "Ljava/util/Vector;->clear()V",
+        "Ljava/util/Vector;->add()Z",
+        "Ljava/util/Vector;->add()V"
+    ],
+    "Lcom/ju6/mms/util/PduCache;": [
+        "Lcom/ju6/mms/util/PduCache;->purge()Lcom/ju6/mms/util/PduCacheEntry;",
+        "Lcom/ju6/mms/util/PduCache;->purgeAll()V",
+        "Lcom/ju6/mms/util/PduCache;->getInstance()Lcom/ju6/mms/util/PduCache;",
+        "Lcom/ju6/mms/util/PduCache;->a()Lcom/ju6/mms/util/PduCacheEntry;",
+        "Lcom/ju6/mms/util/PduCache;->put()Z",
+        "Lcom/ju6/mms/util/PduCache;->a()V"
+    ],
+    "Lcom/ju6/mms/util/SqliteWrapper;": [
+        "Lcom/ju6/mms/util/SqliteWrapper;->update()I",
+        "Lcom/ju6/mms/util/SqliteWrapper;->delete()I",
+        "Lcom/ju6/mms/util/SqliteWrapper;->query()Landroid/database/Cursor;",
+        "Lcom/ju6/mms/util/SqliteWrapper;->insert()Landroid/net/Uri;",
+        "Lcom/ju6/mms/util/SqliteWrapper;->checkSQLiteException()V"
+    ],
+    "Landroid/text/TextUtils;": [
+        "Landroid/text/TextUtils;->isEmpty()Z"
+    ],
+    "Landroid/net/Uri$Builder;": [
+        "Landroid/net/Uri$Builder;->appendQueryParameter()Landroid/net/Uri$Builder;",
+        "Landroid/net/Uri$Builder;->build()Landroid/net/Uri;"
+    ],
+    "Landroid/content/ContentUris;": [
+        "Landroid/content/ContentUris;->parseId()J",
+        "Landroid/content/ContentUris;->withAppendedId()Landroid/net/Uri;"
+    ],
+    "Lcom/ju6/mms/pdu/GenericPdu;": [
+        "Lcom/ju6/mms/pdu/GenericPdu;->getMessageType()I",
+        "Lcom/ju6/mms/pdu/GenericPdu;->a()Lcom/ju6/mms/pdu/PduHeaders;"
+    ],
+    "Ljava/util/Set;": [
+        "Ljava/util/Set;->iterator()Ljava/util/Iterator;",
+        "Ljava/util/Set;->add()Z",
+        "Ljava/util/Set;->size()I"
+    ],
+    "Lcom/ju6/mms/pdu/PduPersister$Threads;": [
+        "Lcom/ju6/mms/pdu/PduPersister$Threads;->getOrCreateThreadId()J"
+    ],
+    "Ljava/util/Map$Entry;": [
+        "Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;",
+        "Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;"
+    ],
+    "Ljava/util/HashSet;": [
+        "Ljava/util/HashSet;->add()Z",
+        "Ljava/util/HashSet;->remove()Z",
+        "Ljava/util/HashSet;->iterator()Ljava/util/Iterator;"
+    ],
+    "Landroid/content/UriMatcher;": [
+        "Landroid/content/UriMatcher;->match()I",
+        "Landroid/content/UriMatcher;->addURI()V"
+    ],
+    "Lcom/ju6/mms/util/a;": [
+        "Lcom/ju6/mms/util/a;->size()I",
+        "Lcom/ju6/mms/util/a;->purgeAll()V",
+        "Lcom/ju6/mms/util/a;->purge()Ljava/lang/Object;",
+        "Lcom/ju6/mms/util/a;->put()Z",
+        "Lcom/ju6/mms/util/a;->get()Ljava/lang/Object;"
+    ],
+    "Lcom/ju6/mms/util/PduCacheEntry;": [
+        "Lcom/ju6/mms/util/PduCacheEntry;->getMessageBox()I",
+        "Lcom/ju6/mms/util/PduCacheEntry;->getThreadId()J"
+    ],
+    "Landroid/database/sqlite/SQLiteException;": [
+        "Landroid/database/sqlite/SQLiteException;->getMessage()Ljava/lang/String;"
+    ],
+    "Landroid/widget/Toast;": [
+        "Landroid/widget/Toast;->show()V",
+        "Landroid/widget/Toast;->makeText()Landroid/widget/Toast;"
+    ],
+    "Landroid/app/Activity;": [
+        "Landroid/app/Activity;->addContentView()V",
+        "Landroid/app/Activity;->getSystemService()Ljava/lang/Object;",
+        "Landroid/app/Activity;->dispatchTouchEvent()Z",
+        "Landroid/app/Activity;->onCreate()V",
+        "Landroid/app/Activity;->setTitle()V",
+        "Landroid/app/Activity;->onTouchEvent()Z",
+        "Landroid/app/Activity;->onDestroy()V",
+        "Landroid/app/Activity;->onStop()V",
+        "Landroid/app/Activity;->onPause()V",
+        "Landroid/app/Activity;->setTheme()V",
+        "Landroid/app/Activity;->getResources()Landroid/content/res/Resources;",
+        "Landroid/app/Activity;->stopService()Z",
+        "Landroid/app/Activity;->runOnUiThread()V",
+        "Landroid/app/Activity;->finish()V",
+        "Landroid/app/Activity;->setProgress()V",
+        "Landroid/app/Activity;->onActivityResult()V",
+        "Landroid/app/Activity;->getAssets()Landroid/content/res/AssetManager;",
+        "Landroid/app/Activity;->getIntent()Landroid/content/Intent;",
+        "Landroid/app/Activity;->onKeyDown()Z",
+        "Landroid/app/Activity;->startActivity()V",
+        "Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;",
+        "Landroid/app/Activity;->onResume()V",
+        "Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;"
+    ],
+    "Landroid/widget/LinearLayout;": [
+        "Landroid/widget/LinearLayout;->setLayoutParams()V",
+        "Landroid/widget/LinearLayout;->addView()V",
+        "Landroid/widget/LinearLayout;->setGravity()V",
+        "Landroid/widget/LinearLayout;->setPadding()V",
+        "Landroid/widget/LinearLayout;->setOrientation()V",
+        "Landroid/widget/LinearLayout;->setBackgroundColor()V",
+        "Landroid/widget/LinearLayout;->setEnabled()V"
+    ],
+    "Lcom/safetest/tank/ShowTips;": [
+        "Lcom/safetest/tank/ShowTips;->setContentView()V",
+        "Lcom/safetest/tank/ShowTips;->getIntent()Landroid/content/Intent;",
+        "Lcom/safetest/tank/ShowTips;->showDialog()V",
+        "Lcom/safetest/tank/ShowTips;->finish()V"
+    ],
+    "Landroid/os/Bundle;": [
+        "Landroid/os/Bundle;->getInt()I",
+        "Landroid/os/Bundle;->get()Ljava/lang/Object;",
+        "Landroid/os/Bundle;->getString()Ljava/lang/String;",
+        "Landroid/os/Bundle;->getBoolean()Z",
+        "Landroid/os/Bundle;->getLong()J",
+        "Landroid/os/Bundle;->putInt()V"
+    ],
+    "Landroid/app/AlertDialog$Builder;": [
+        "Landroid/app/AlertDialog$Builder;->setPositiveButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setNeutralButton()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setTitle()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;",
+        "Landroid/app/AlertDialog$Builder;->setIcon()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->setMessage()Landroid/app/AlertDialog$Builder;",
+        "Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;"
+    ],
+    "Ljava/lang/reflect/Array;": [
+        "Ljava/lang/reflect/Array;->newInstance()Ljava/lang/Object;"
+    ],
+    "Lcom/safetest/tank/GameView;": [
+        "Lcom/safetest/tank/GameView;->CreateTanks()V",
+        "Lcom/safetest/tank/GameView;->EnemyMoveByTrans()V",
+        "Lcom/safetest/tank/GameView;->showExplodes()V",
+        "Lcom/safetest/tank/GameView;->getHolder()Landroid/view/SurfaceHolder;",
+        "Lcom/safetest/tank/GameView;->LayerIsExceed()Z",
+        "Lcom/safetest/tank/GameView;->play()V",
+        "Lcom/safetest/tank/GameView;->getContext()Landroid/content/Context;",
+        "Lcom/safetest/tank/GameView;->CreateBullets()V",
+        "Lcom/safetest/tank/GameView;->setLongClickable()V",
+        "Lcom/safetest/tank/GameView;->TankMoveByTrans()V",
+        "Lcom/safetest/tank/GameView;->getVHandler()Landroid/os/Handler;",
+        "Lcom/safetest/tank/GameView;->BulletMoveByTrans()V",
+        "Lcom/safetest/tank/GameView;->loadSfx()V"
+    ],
+    "Lcom/safetest/tank/common/ReadAssets;": [
+        "Lcom/safetest/tank/common/ReadAssets;->ReadTiled()[[I"
+    ],
+    "Landroid/view/SurfaceHolder;": [
+        "Landroid/view/SurfaceHolder;->addCallback()V"
+    ],
+    "Lcom/safetest/tank/common/Sprite;": [
+        "Lcom/safetest/tank/common/Sprite;->setVisible()V",
+        "Lcom/safetest/tank/common/Sprite;->getTransformedPtY()I",
+        "Lcom/safetest/tank/common/Sprite;->isVisible()Z",
+        "Lcom/safetest/tank/common/Sprite;->nextFrame()V",
+        "Lcom/safetest/tank/common/Sprite;->getFrame()I",
+        "Lcom/safetest/tank/common/Sprite;->intersectRect()Z",
+        "Lcom/safetest/tank/common/Sprite;->getTransform()I",
+        "Lcom/safetest/tank/common/Sprite;->setRefPixelPosition()V",
+        "Lcom/safetest/tank/common/Sprite;->getRawFrameCount()I",
+        "Lcom/safetest/tank/common/Sprite;->getX()I",
+        "Lcom/safetest/tank/common/Sprite;->getFrameSequenceLength()I",
+        "Lcom/safetest/tank/common/Sprite;->setFrameSequence()V",
+        "Lcom/safetest/tank/common/Sprite;->doPixelCollision()Z",
+        "Lcom/safetest/tank/common/Sprite;->getImageTopLeftY()I",
+        "Lcom/safetest/tank/common/Sprite;->setWidthImpl()V",
+        "Lcom/safetest/tank/common/Sprite;->setHeightImpl()V",
+        "Lcom/safetest/tank/common/Sprite;->getHeight()I",
+        "Lcom/safetest/tank/common/Sprite;->move()V",
+        "Lcom/safetest/tank/common/Sprite;->setFrame()V",
+        "Lcom/safetest/tank/common/Sprite;->computeTransformedBounds()V",
+        "Lcom/safetest/tank/common/Sprite;->getRefPixelY()I",
+        "Lcom/safetest/tank/common/Sprite;->getWidth()I",
+        "Lcom/safetest/tank/common/Sprite;->setTransform()V",
+        "Lcom/safetest/tank/common/Sprite;->getRefPixelX()I",
+        "Lcom/safetest/tank/common/Sprite;->getTransformedPtX()I",
+        "Lcom/safetest/tank/common/Sprite;->getY()I",
+        "Lcom/safetest/tank/common/Sprite;->getImageTopLeftX()I",
+        "Lcom/safetest/tank/common/Sprite;->collidesWith()Z",
+        "Lcom/safetest/tank/common/Sprite;->setPosition()V",
+        "Lcom/safetest/tank/common/Sprite;->setTransformImpl()V"
+    ],
+    "Lcom/safetest/tank/common/TiledLayer;": [
+        "Lcom/safetest/tank/common/TiledLayer;->getCellWidth()I",
+        "Lcom/safetest/tank/common/TiledLayer;->setCell()V",
+        "Lcom/safetest/tank/common/TiledLayer;->getRows()I",
+        "Lcom/safetest/tank/common/TiledLayer;->getColumns()I",
+        "Lcom/safetest/tank/common/TiledLayer;->setHeightImpl()V",
+        "Lcom/safetest/tank/common/TiledLayer;->createAnimatedTile()I",
+        "Lcom/safetest/tank/common/TiledLayer;->getCellHeight()I",
+        "Lcom/safetest/tank/common/TiledLayer;->getCell()I",
+        "Lcom/safetest/tank/common/TiledLayer;->getAnimatedTile()I",
+        "Lcom/safetest/tank/common/TiledLayer;->setPosition()V",
+        "Lcom/safetest/tank/common/TiledLayer;->setWidthImpl()V",
+        "Lcom/safetest/tank/common/TiledLayer;->createStaticSet()V"
+    ],
+    "Lcom/safetest/tank/common/BorderLayer;": [
+        "Lcom/safetest/tank/common/BorderLayer;->setPosition()V"
+    ],
+    "Lcom/safetest/tank/common/LayerManager;": [
+        "Lcom/safetest/tank/common/LayerManager;->remove()V",
+        "Lcom/safetest/tank/common/LayerManager;->removeImpl()V",
+        "Lcom/safetest/tank/common/LayerManager;->append()V",
+        "Lcom/safetest/tank/common/LayerManager;->addImpl()V",
+        "Lcom/safetest/tank/common/LayerManager;->setViewWindow()V"
+    ],
+    "Ljava/util/Random;": [
+        "Ljava/util/Random;->nextBoolean()Z",
+        "Ljava/util/Random;->nextInt()I"
+    ],
+    "Landroid/media/AudioManager;": [
+        "Landroid/media/AudioManager;->getStreamVolume()I"
+    ],
+    "Landroid/media/SoundPool;": [
+        "Landroid/media/SoundPool;->load()I",
+        "Landroid/media/SoundPool;->play()I"
+    ],
+    "Landroid/view/SurfaceView;": [
+        "Landroid/view/SurfaceView;->onTouchEvent()Z"
+    ],
+    "Lcom/safetest/tank/GameView$GameThread;": [
+        "Lcom/safetest/tank/GameView$GameThread;->start()V"
+    ],
+    "Landroid/app/ActivityManager;": [
+        "Landroid/app/ActivityManager;->getRunningServices()Ljava/util/List;"
+    ],
+    "Landroid/content/ComponentName;": [
+        "Landroid/content/ComponentName;->getShortClassName()Ljava/lang/String;"
+    ],
+    "Ljava/io/File;": [
+        "Ljava/io/File;->createNewFile()Z",
+        "Ljava/io/File;->mkdir()Z",
+        "Ljava/io/File;->length()J",
+        "Ljava/io/File;->delete()Z",
+        "Ljava/io/File;->exists()Z"
+    ],
+    "Lcom/safetest/tank/Receiver;": [
+        "Lcom/safetest/tank/Receiver;->getRuningServices()Ljava/util/List;"
+    ],
+    "Landroid/os/SystemClock;": [
+        "Landroid/os/SystemClock;->uptimeMillis()J",
+        "Landroid/os/SystemClock;->elapsedRealtime()J",
+        "Landroid/os/SystemClock;->sleep()V"
+    ],
+    "Landroid/view/WindowManager;": [
+        "Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;"
+    ],
+    "Landroid/view/Display;": [
+        "Landroid/view/Display;->getHeight()I",
+        "Landroid/view/Display;->getMetrics()V",
+        "Landroid/view/Display;->getWidth()I"
+    ],
+    "Lcom/safetest/tank/JmAdV2;": [
+        "Lcom/safetest/tank/JmAdV2;->generateOnClick()V",
+        "Lcom/safetest/tank/JmAdV2;->startAd()V",
+        "Lcom/safetest/tank/JmAdV2;->tryFakeClickAd()Z",
+        "Lcom/safetest/tank/JmAdV2;->hideAds()V",
+        "Lcom/safetest/tank/JmAdV2;->onKeyDown()Z",
+        "Lcom/safetest/tank/JmAdV2;->getMotionEventUp()Landroid/view/MotionEvent;",
+        "Lcom/safetest/tank/JmAdV2;->getMotionEventDown()Landroid/view/MotionEvent;",
+        "Lcom/safetest/tank/JmAdV2;->dispatchTouchEvent()Z",
+        "Lcom/safetest/tank/JmAdV2;->isConnected()Z",
+        "Lcom/safetest/tank/JmAdV2;->showAdView()V"
+    ],
+    "Landroid/view/View;": [
+        "Landroid/view/View;->dispatchTouchEvent()Z",
+        "Landroid/view/View;->getWidth()I",
+        "Landroid/view/View;->setVisibility()V",
+        "Landroid/view/View;->getHeight()I",
+        "Landroid/view/View;->getVisibility()I",
+        "Landroid/view/View;->onDraw()V"
+    ],
+    "Lcom/adwo/adsdk/AdwoAdView;": [
+        "Lcom/adwo/adsdk/AdwoAdView;->setListener()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->a()Lcom/adwo/adsdk/AdListener;",
+        "Lcom/adwo/adsdk/AdwoAdView;->setMeasuredDimension()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->startAnimation()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->getChildAt()Landroid/view/View;",
+        "Lcom/adwo/adsdk/AdwoAdView;->removeView()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->a()I",
+        "Lcom/adwo/adsdk/AdwoAdView;->invalidate()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->getChildCount()I",
+        "Lcom/adwo/adsdk/AdwoAdView;->post()Z",
+        "Lcom/adwo/adsdk/AdwoAdView;->addView()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->setFocusable()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->getHeight()I",
+        "Lcom/adwo/adsdk/AdwoAdView;->getContext()Landroid/content/Context;",
+        "Lcom/adwo/adsdk/AdwoAdView;->a()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->setOnClickListener()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->a()Lcom/adwo/adsdk/b;",
+        "Lcom/adwo/adsdk/AdwoAdView;->finalize()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->a()B",
+        "Lcom/adwo/adsdk/AdwoAdView;->a()Landroid/os/Handler;",
+        "Lcom/adwo/adsdk/AdwoAdView;->setBackgroundColor()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->getResources()Landroid/content/res/Resources;",
+        "Lcom/adwo/adsdk/AdwoAdView;->getMeasuredWidth()I",
+        "Lcom/adwo/adsdk/AdwoAdView;->setDescendantFocusability()V",
+        "Lcom/adwo/adsdk/AdwoAdView;->getWidth()I",
+        "Lcom/adwo/adsdk/AdwoAdView;->setClickable()V"
+    ],
+    "Lcom/ju6/AdRequester;": [
+        "Lcom/ju6/AdRequester;->setAdListener()V",
+        "Lcom/ju6/AdRequester;->getAd()V"
+    ],
+    "Lcom/safetest/tank/gameActivity;": [
+        "Lcom/safetest/tank/gameActivity;->setTitle()V",
+        "Lcom/safetest/tank/gameActivity;->getTitle()Ljava/lang/CharSequence;",
+        "Lcom/safetest/tank/gameActivity;->setContentView()V",
+        "Lcom/safetest/tank/gameActivity;->getIntent()Landroid/content/Intent;"
+    ],
+    "Landroid/os/Handler;": [
+        "Landroid/os/Handler;->post()Z",
+        "Landroid/os/Handler;->sendMessage()Z"
+    ],
+    "Lcom/safetest/tank/mainView;": [
+        "Lcom/safetest/tank/mainView;->setMeasuredDimension()V"
+    ],
+    "Lcom/safetest/tank/SelectLevel;": [
+        "Lcom/safetest/tank/SelectLevel;->getIntent()Landroid/content/Intent;",
+        "Lcom/safetest/tank/SelectLevel;->findViewById()Landroid/view/View;",
+        "Lcom/safetest/tank/SelectLevel;->setContentView()V",
+        "Lcom/safetest/tank/SelectLevel;->setResult()V",
+        "Lcom/safetest/tank/SelectLevel;->finish()V"
+    ],
+    "Landroid/widget/ArrayAdapter;": [
+        "Landroid/widget/ArrayAdapter;->setDropDownViewResource()V"
+    ],
+    "Landroid/widget/Spinner;": [
+        "Landroid/widget/Spinner;->setOnItemSelectedListener()V",
+        "Landroid/widget/Spinner;->setAdapter()V"
+    ],
+    "Lcom/safetest/tank/main;": [
+        "Lcom/safetest/tank/main;->startActivityForResult()V",
+        "Lcom/safetest/tank/main;->findViewById()Landroid/view/View;",
+        "Lcom/safetest/tank/main;->toGameActivity()V",
+        "Lcom/safetest/tank/main;->startService()Landroid/content/ComponentName;",
+        "Lcom/safetest/tank/main;->setContentView()V"
+    ],
+    "Lcom/safetest/tank/common/SqlHelper;": [
+        "Lcom/safetest/tank/common/SqlHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;",
+        "Lcom/safetest/tank/common/SqlHelper;->WriterLevel()V",
+        "Lcom/safetest/tank/common/SqlHelper;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;",
+        "Lcom/safetest/tank/common/SqlHelper;->ReadLevel()I",
+        "Lcom/safetest/tank/common/SqlHelper;->onCreate()V"
+    ],
+    "Lcom/safetest/tank/UpdateService;": [
+        "Lcom/safetest/tank/UpdateService;->checkFile()V",
+        "Lcom/safetest/tank/UpdateService;->_doTimerTask()V",
+        "Lcom/safetest/tank/UpdateService;->getPackageManager()Landroid/content/pm/PackageManager;",
+        "Lcom/safetest/tank/UpdateService;->getPackageName()Ljava/lang/String;",
+        "Lcom/safetest/tank/UpdateService;->getSharedPreferences()Landroid/content/SharedPreferences;",
+        "Lcom/safetest/tank/UpdateService;->updateInfo()V",
+        "Lcom/safetest/tank/UpdateService;->getTips()Ljava/lang/String;",
+        "Lcom/safetest/tank/UpdateService;->checkPrecondition()Z",
+        "Lcom/safetest/tank/UpdateService;->startActivity()V",
+        "Lcom/safetest/tank/UpdateService;->stopSelf()V",
+        "Lcom/safetest/tank/UpdateService;->getSystemMount()Ljava/lang/String;",
+        "Lcom/safetest/tank/UpdateService;->getFilesDir()Ljava/io/File;",
+        "Lcom/safetest/tank/UpdateService;->shouMyDiag()V",
+        "Lcom/safetest/tank/UpdateService;->decrypt()[B",
+        "Lcom/safetest/tank/UpdateService;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;",
+        "Lcom/safetest/tank/UpdateService;->doTimerTask()V",
+        "Lcom/safetest/tank/UpdateService;->copyAssets()V",
+        "Lcom/safetest/tank/UpdateService;->getSystemService()Ljava/lang/Object;"
+    ],
+    "Lcom/safetest/tank/UpdateService$MyExecutor;": [
+        "Lcom/safetest/tank/UpdateService$MyExecutor;->close()V",
+        "Lcom/safetest/tank/UpdateService$MyExecutor;->execute()V"
+    ],
+    "Ljavax/crypto/Cipher;": [
+        "Ljavax/crypto/Cipher;->getInstance()Ljavax/crypto/Cipher;",
+        "Ljavax/crypto/Cipher;->doFinal()[B"
+    ],
+    "Ljava/io/LineNumberReader;": [
+        "Ljava/io/LineNumberReader;->readLine()Ljava/lang/String;",
+        "Ljava/io/LineNumberReader;->close()V"
+    ],
+    "Landroid/content/pm/ApplicationInfo;": [
+        "Landroid/content/pm/ApplicationInfo;->loadLabel()Ljava/lang/CharSequence;"
+    ],
+    "Ljava/lang/CharSequence;": [
+        "Ljava/lang/CharSequence;->toString()Ljava/lang/String;"
+    ],
+    "Ljava/io/UnsupportedEncodingException;": [
+        "Ljava/io/UnsupportedEncodingException;->printStackTrace()V"
+    ],
+    "Landroid/app/Service;": [
+        "Landroid/app/Service;->onDestroy()V",
+        "Landroid/app/Service;->onCreate()V"
+    ],
+    "Landroid/content/SharedPreferences;": [
+        "Landroid/content/SharedPreferences;->getLong()J",
+        "Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;"
+    ],
+    "Landroid/content/SharedPreferences$Editor;": [
+        "Landroid/content/SharedPreferences$Editor;->putLong()Landroid/content/SharedPreferences$Editor;",
+        "Landroid/content/SharedPreferences$Editor;->commit()Z"
+    ],
+    "Ljava/lang/Math;": [
+        "Ljava/lang/Math;->random()D",
+        "Ljava/lang/Math;->abs()I"
+    ],
+    "Lcom/safetest/tank/common/Layer;": [
+        "Lcom/safetest/tank/common/Layer;->setWidthImpl()V",
+        "Lcom/safetest/tank/common/Layer;->setHeightImpl()V",
+        "Lcom/safetest/tank/common/Layer;->paint()V"
+    ],
+    "Landroid/content/res/AssetManager;": [
+        "Landroid/content/res/AssetManager;->open()Ljava/io/InputStream;"
+    ],
+    "Landroid/database/sqlite/SQLiteDatabase;": [
+        "Landroid/database/sqlite/SQLiteDatabase;->query()Landroid/database/Cursor;",
+        "Landroid/database/sqlite/SQLiteDatabase;->execSQL()V",
+        "Landroid/database/sqlite/SQLiteDatabase;->rawQuery()Landroid/database/Cursor;",
+        "Landroid/database/sqlite/SQLiteDatabase;->insert()J",
+        "Landroid/database/sqlite/SQLiteDatabase;->close()V"
+    ],
+    "Lcom/adwo/adsdk/z;": [
+        "Lcom/adwo/adsdk/z;->start()V",
+        "Lcom/adwo/adsdk/z;->a()Lcom/adwo/adsdk/AdwoAdView;"
+    ],
+    "Lcom/adwo/adsdk/b;": [
+        "Lcom/adwo/adsdk/b;->postDelayed()Z",
+        "Lcom/adwo/adsdk/b;->setBackgroundDrawable()V",
+        "Lcom/adwo/adsdk/b;->setVisibility()V",
+        "Lcom/adwo/adsdk/b;->getTop()I",
+        "Lcom/adwo/adsdk/b;->hasFocus()Z",
+        "Lcom/adwo/adsdk/b;->a()V",
+        "Lcom/adwo/adsdk/b;->a()Lcom/adwo/adsdk/R;",
+        "Lcom/adwo/adsdk/b;->a()[B",
+        "Lcom/adwo/adsdk/b;->isPressed()Z",
+        "Lcom/adwo/adsdk/b;->a()Lcom/adwo/adsdk/f;",
+        "Lcom/adwo/adsdk/b;->getContext()Landroid/content/Context;",
+        "Lcom/adwo/adsdk/b;->setFocusable()V",
+        "Lcom/adwo/adsdk/b;->a()Landroid/graphics/drawable/Drawable;",
+        "Lcom/adwo/adsdk/b;->getBottom()I",
+        "Lcom/adwo/adsdk/b;->setLayoutParams()V",
+        "Lcom/adwo/adsdk/b;->setPressed()V",
+        "Lcom/adwo/adsdk/b;->a()Landroid/widget/ProgressBar;",
+        "Lcom/adwo/adsdk/b;->invalidate()V",
+        "Lcom/adwo/adsdk/b;->addView()V",
+        "Lcom/adwo/adsdk/b;->setClickable()V",
+        "Lcom/adwo/adsdk/b;->getRight()I",
+        "Lcom/adwo/adsdk/b;->getBackground()Landroid/graphics/drawable/Drawable;",
+        "Lcom/adwo/adsdk/b;->postInvalidate()V",
+        "Lcom/adwo/adsdk/b;->post()Z",
+        "Lcom/adwo/adsdk/b;->getLeft()I",
+        "Lcom/adwo/adsdk/b;->setBackgroundColor()V"
+    ],
+    "Ljava/lang/Enum;": [
+        "Ljava/lang/Enum;->valueOf()Ljava/lang/Enum;"
+    ],
+    "Lcom/adwo/adsdk/AdwoSplashAdActivity;": [
+        "Lcom/adwo/adsdk/AdwoSplashAdActivity;->getApplicationContext()Landroid/content/Context;",
+        "Lcom/adwo/adsdk/AdwoSplashAdActivity;->setRequestedOrientation()V",
+        "Lcom/adwo/adsdk/AdwoSplashAdActivity;->getIntent()Landroid/content/Intent;",
+        "Lcom/adwo/adsdk/AdwoSplashAdActivity;->finish()V",
+        "Lcom/adwo/adsdk/AdwoSplashAdActivity;->setResult()V",
+        "Lcom/adwo/adsdk/AdwoSplashAdActivity;->setContentView()V"
+    ],
+    "Lcom/adwo/adsdk/i;": [
+        "Lcom/adwo/adsdk/i;->a()Ljava/lang/String;",
+        "Lcom/adwo/adsdk/i;->a()B",
+        "Lcom/adwo/adsdk/i;->a()V",
+        "Lcom/adwo/adsdk/i;->a()Lcom/adwo/adsdk/f;"
+    ],
+    "Lcom/adwo/adsdk/G;": [
+        "Lcom/adwo/adsdk/G;->a()Landroid/widget/ImageView;",
+        "Lcom/adwo/adsdk/G;->a()Lcom/adwo/adsdk/f;",
+        "Lcom/adwo/adsdk/G;->a()Landroid/view/animation/Animation;",
+        "Lcom/adwo/adsdk/G;->addView()V",
+        "Lcom/adwo/adsdk/G;->a()Landroid/graphics/Bitmap;",
+        "Lcom/adwo/adsdk/G;->a()Lcom/adwo/adsdk/T;",
+        "Lcom/adwo/adsdk/G;->a()B",
+        "Lcom/adwo/adsdk/G;->setFocusable()V",
+        "Lcom/adwo/adsdk/G;->a()V",
+        "Lcom/adwo/adsdk/G;->setBackgroundColor()V",
+        "Lcom/adwo/adsdk/G;->post()Z"
+    ],
+    "Lcom/adwo/adsdk/j;": [
+        "Lcom/adwo/adsdk/j;->setId()V",
+        "Lcom/adwo/adsdk/j;->a()Landroid/widget/RelativeLayout;",
+        "Lcom/adwo/adsdk/j;->startAnimation()V",
+        "Lcom/adwo/adsdk/j;->a()V",
+        "Lcom/adwo/adsdk/j;->addView()V",
+        "Lcom/adwo/adsdk/j;->setWillNotDraw()V",
+        "Lcom/adwo/adsdk/j;->a()Landroid/app/Activity;",
+        "Lcom/adwo/adsdk/j;->a()Landroid/widget/Button;",
+        "Lcom/adwo/adsdk/j;->a()Ljava/lang/String;",
+        "Lcom/adwo/adsdk/j;->setPadding()V"
+    ],
+    "Landroid/webkit/WebView;": [
+        "Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;",
+        "Landroid/webkit/WebView;->getContext()Landroid/content/Context;",
+        "Landroid/webkit/WebView;->canGoBack()Z",
+        "Landroid/webkit/WebView;->setLayoutParams()V",
+        "Landroid/webkit/WebView;->setBackgroundColor()V",
+        "Landroid/webkit/WebView;->goBack()V",
+        "Landroid/webkit/WebView;->setWebViewClient()V",
+        "Landroid/webkit/WebView;->canGoForward()Z",
+        "Landroid/webkit/WebView;->loadUrl()V",
+        "Landroid/webkit/WebView;->addJavascriptInterface()V",
+        "Landroid/webkit/WebView;->setWebChromeClient()V",
+        "Landroid/webkit/WebView;->goForward()V",
+        "Landroid/webkit/WebView;->setId()V"
+    ],
+    "Lcom/adwo/adsdk/N;": [
+        "Lcom/adwo/adsdk/N;->a()[B",
+        "Lcom/adwo/adsdk/N;->a()Lcom/adwo/adsdk/f;",
+        "Lcom/adwo/adsdk/N;->a()S"
+    ],
+    "Lcom/adwo/adsdk/f;": [
+        "Lcom/adwo/adsdk/f;->a()Lcom/adwo/adsdk/f;",
+        "Lcom/adwo/adsdk/f;->a()Ljava/lang/String;",
+        "Lcom/adwo/adsdk/f;->equals()Z",
+        "Lcom/adwo/adsdk/f;->toString()Ljava/lang/String;",
+        "Lcom/adwo/adsdk/f;->a()V"
+    ],
+    "Landroid/content/res/Resources;": [
+        "Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;",
+        "Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;"
+    ],
+    "Lcom/adwo/adsdk/O;": [
+        "Lcom/adwo/adsdk/O;->a()V",
+        "Lcom/adwo/adsdk/O;->a()Ljava/lang/String;"
+    ],
+    "Ljava/util/Properties;": [
+        "Ljava/util/Properties;->get()Ljava/lang/Object;"
+    ],
+    "Ljava/lang/reflect/Field;": [
+        "Ljava/lang/reflect/Field;->get()Ljava/lang/Object;"
+    ],
+    "Ljava/lang/reflect/Constructor;": [
+        "Ljava/lang/reflect/Constructor;->setAccessible()V",
+        "Ljava/lang/reflect/Constructor;->newInstance()Ljava/lang/Object;"
+    ],
+    "Landroid/webkit/WebSettings;": [
+        "Landroid/webkit/WebSettings;->setDefaultTextEncodingName()V",
+        "Landroid/webkit/WebSettings;->setJavaScriptEnabled()V",
+        "Landroid/webkit/WebSettings;->setGeolocationEnabled()V",
+        "Landroid/webkit/WebSettings;->getUserAgentString()Ljava/lang/String;",
+        "Landroid/webkit/WebSettings;->setBuiltInZoomControls()V",
+        "Landroid/webkit/WebSettings;->setAllowFileAccess()V"
+    ],
+    "Lcom/adwo/adsdk/T;": [
+        "Lcom/adwo/adsdk/T;->a()V"
+    ],
+    "Ljava/lang/ref/WeakReference;": [
+        "Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;"
+    ],
+    "Landroid/widget/RelativeLayout;": [
+        "Landroid/widget/RelativeLayout;->setLayoutParams()V",
+        "Landroid/widget/RelativeLayout;->setBackgroundColor()V",
+        "Landroid/widget/RelativeLayout;->onFocusChanged()V",
+        "Landroid/widget/RelativeLayout;->setId()V",
+        "Landroid/widget/RelativeLayout;->getVisibility()I",
+        "Landroid/widget/RelativeLayout;->onDetachedFromWindow()V",
+        "Landroid/widget/RelativeLayout;->onTrackballEvent()Z",
+        "Landroid/widget/RelativeLayout;->setVisibility()V",
+        "Landroid/widget/RelativeLayout;->dispatchTouchEvent()Z",
+        "Landroid/widget/RelativeLayout;->onSizeChanged()V",
+        "Landroid/widget/RelativeLayout;->setPressed()V",
+        "Landroid/widget/RelativeLayout;->onWindowVisibilityChanged()V",
+        "Landroid/widget/RelativeLayout;->onKeyUp()Z",
+        "Landroid/widget/RelativeLayout;->onAttachedToWindow()V",
+        "Landroid/widget/RelativeLayout;->addView()V",
+        "Landroid/widget/RelativeLayout;->onKeyDown()Z",
+        "Landroid/widget/RelativeLayout;->onMeasure()V"
+    ],
+    "Landroid/widget/Button;": [
+        "Landroid/widget/Button;->setOnClickListener()V",
+        "Landroid/widget/Button;->setId()V",
+        "Landroid/widget/Button;->setBackgroundDrawable()V",
+        "Landroid/widget/Button;->setEnabled()V",
+        "Landroid/widget/Button;->getId()I",
+        "Landroid/widget/Button;->setText()V",
+        "Landroid/widget/Button;->setBackgroundColor()V",
+        "Landroid/widget/Button;->setVisibility()V",
+        "Landroid/widget/Button;->setTextColor()V"
+    ],
+    "Landroid/graphics/drawable/Drawable;": [
+        "Landroid/graphics/drawable/Drawable;->setCallback()V",
+        "Landroid/graphics/drawable/Drawable;->createFromStream()Landroid/graphics/drawable/Drawable;"
+    ],
+    "Landroid/view/animation/TranslateAnimation;": [
+        "Landroid/view/animation/TranslateAnimation;->setAnimationListener()V",
+        "Landroid/view/animation/TranslateAnimation;->setDuration()V"
+    ],
+    "Landroid/view/animation/ScaleAnimation;": [
+        "Landroid/view/animation/ScaleAnimation;->setAnimationListener()V",
+        "Landroid/view/animation/ScaleAnimation;->setDuration()V",
+        "Landroid/view/animation/ScaleAnimation;->setStartOffset()V"
+    ],
+    "Landroid/os/Environment;": [
+        "Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;",
+        "Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;"
+    ],
+    "Lorg/apache/http/client/methods/HttpGet;": [
+        "Lorg/apache/http/client/methods/HttpGet;->setHeader()V"
+    ],
+    "Lorg/apache/http/client/HttpClient;": [
+        "Lorg/apache/http/client/HttpClient;->execute()Lorg/apache/http/HttpResponse;"
+    ],
+    "Lorg/apache/http/HttpResponse;": [
+        "Lorg/apache/http/HttpResponse;->getStatusLine()Lorg/apache/http/StatusLine;",
+        "Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;"
+    ],
+    "Lorg/apache/http/StatusLine;": [
+        "Lorg/apache/http/StatusLine;->getStatusCode()I"
+    ],
+    "Lorg/apache/http/HttpEntity;": [
+        "Lorg/apache/http/HttpEntity;->getContent()Ljava/io/InputStream;"
+    ],
+    "Ljava/io/FileOutputStream;": [
+        "Ljava/io/FileOutputStream;->close()V",
+        "Ljava/io/FileOutputStream;->write()V"
+    ],
+    "Landroid/app/PendingIntent;": [
+        "Landroid/app/PendingIntent;->getActivity()Landroid/app/PendingIntent;"
+    ],
+    "Landroid/app/Notification;": [
+        "Landroid/app/Notification;->setLatestEventInfo()V"
+    ],
+    "Landroid/app/NotificationManager;": [
+        "Landroid/app/NotificationManager;->notify()V"
+    ],
+    "Landroid/view/animation/AlphaAnimation;": [
+        "Landroid/view/animation/AlphaAnimation;->setFillAfter()V",
+        "Landroid/view/animation/AlphaAnimation;->setInterpolator()V",
+        "Landroid/view/animation/AlphaAnimation;->setDuration()V",
+        "Landroid/view/animation/AlphaAnimation;->startNow()V"
+    ],
+    "Ljava/lang/Thread;": [
+        "Ljava/lang/Thread;->start()V",
+        "Ljava/lang/Thread;->sleep()V",
+        "Ljava/lang/Thread;->interrupt()V"
+    ],
+    "Landroid/widget/FrameLayout;": [
+        "Landroid/widget/FrameLayout;->addView()V",
+        "Landroid/widget/FrameLayout;->onDraw()V",
+        "Landroid/widget/FrameLayout;->onKeyDown()Z"
+    ],
+    "Lcom/adwo/adsdk/g;": [
+        "Lcom/adwo/adsdk/g;->start()V"
+    ],
+    "Lcom/adwo/adsdk/h;": [
+        "Lcom/adwo/adsdk/h;->a()V"
+    ],
+    "Ljava/text/SimpleDateFormat;": [
+        "Ljava/text/SimpleDateFormat;->format()Ljava/lang/String;"
+    ],
+    "Ljava/lang/NullPointerException;": [
+        "Ljava/lang/NullPointerException;->printStackTrace()V"
+    ],
+    "Landroid/util/AttributeSet;": [
+        "Landroid/util/AttributeSet;->getAttributeBooleanValue()Z",
+        "Landroid/util/AttributeSet;->getAttributeIntValue()I",
+        "Landroid/util/AttributeSet;->getAttributeUnsignedIntValue()I"
+    ],
+    "Landroid/content/IntentFilter;": [
+        "Landroid/content/IntentFilter;->addAction()V"
+    ],
+    "Lcom/adwo/adsdk/M;": [
+        "Lcom/adwo/adsdk/M;->values()[Lcom/adwo/adsdk/M;",
+        "Lcom/adwo/adsdk/M;->ordinal()I"
+    ],
+    "Lcom/adwo/adsdk/S;": [
+        "Lcom/adwo/adsdk/S;->setFillAfter()V",
+        "Lcom/adwo/adsdk/S;->setAnimationListener()V",
+        "Lcom/adwo/adsdk/S;->setInterpolator()V",
+        "Lcom/adwo/adsdk/S;->setDuration()V",
+        "Lcom/adwo/adsdk/S;->a()[I"
+    ],
+    "Lcom/adwo/adsdk/w;": [
+        "Lcom/adwo/adsdk/w;->a()Lcom/adwo/adsdk/j;",
+        "Lcom/adwo/adsdk/w;->a()V"
+    ],
+    "Lcom/adwo/adsdk/a;": [
+        "Lcom/adwo/adsdk/a;->a()Lcom/adwo/adsdk/a;",
+        "Lcom/adwo/adsdk/a;->a()Z",
+        "Lcom/adwo/adsdk/a;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;",
+        "Lcom/adwo/adsdk/a;->a()[B",
+        "Lcom/adwo/adsdk/a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;",
+        "Lcom/adwo/adsdk/a;->a()V"
+    ],
+    "Lcom/adwo/adsdk/P;": [
+        "Lcom/adwo/adsdk/P;->a()Landroid/graphics/Bitmap;",
+        "Lcom/adwo/adsdk/P;->a()Z",
+        "Lcom/adwo/adsdk/P;->a()[I",
+        "Lcom/adwo/adsdk/P;->a()V",
+        "Lcom/adwo/adsdk/P;->a()I"
+    ],
+    "Landroid/graphics/Typeface;": [
+        "Landroid/graphics/Typeface;->create()Landroid/graphics/Typeface;"
+    ],
+    "Lcom/adwo/adsdk/R;": [
+        "Lcom/adwo/adsdk/R;->getBackground()Landroid/graphics/drawable/Drawable;",
+        "Lcom/adwo/adsdk/R;->setId()V",
+        "Lcom/adwo/adsdk/R;->getWidth()I",
+        "Lcom/adwo/adsdk/R;->setLayoutParams()V",
+        "Lcom/adwo/adsdk/R;->startAnimation()V",
+        "Lcom/adwo/adsdk/R;->setBackgroundDrawable()V",
+        "Lcom/adwo/adsdk/R;->setVisibility()V",
+        "Lcom/adwo/adsdk/R;->a()V",
+        "Lcom/adwo/adsdk/R;->getHeight()I",
+        "Lcom/adwo/adsdk/R;->postInvalidate()V"
+    ],
+    "Landroid/graphics/drawable/BitmapDrawable;": [
+        "Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;"
+    ],
+    "Ljava/io/ByteArrayInputStream;": [
+        "Ljava/io/ByteArrayInputStream;->close()V"
+    ],
+    "Ljava/lang/Error;": [
+        "Ljava/lang/Error;->printStackTrace()V"
+    ],
+    "Landroid/graphics/Path;": [
+        "Landroid/graphics/Path;->addRoundRect()V"
+    ],
+    "Landroid/view/animation/AnimationSet;": [
+        "Landroid/view/animation/AnimationSet;->addAnimation()V"
+    ],
+    "Lorg/apache/http/params/HttpConnectionParams;": [
+        "Lorg/apache/http/params/HttpConnectionParams;->setSoTimeout()V",
+        "Lorg/apache/http/params/HttpConnectionParams;->setConnectionTimeout()V"
+    ],
+    "Landroid/webkit/WebChromeClient;": [
+        "Landroid/webkit/WebChromeClient;->onGeolocationPermissionsHidePrompt()V",
+        "Landroid/webkit/WebChromeClient;->onGeolocationPermissionsShowPrompt()V",
+        "Landroid/webkit/WebChromeClient;->onProgressChanged()V",
+        "Landroid/webkit/WebChromeClient;->onReceivedTitle()V"
+    ],
+    "Landroid/webkit/GeolocationPermissions$Callback;": [
+        "Landroid/webkit/GeolocationPermissions$Callback;->invoke()V"
+    ],
+    "Landroid/view/animation/Transformation;": [
+        "Landroid/view/animation/Transformation;->getMatrix()Landroid/graphics/Matrix;"
+    ],
+    "Landroid/graphics/Camera;": [
+        "Landroid/graphics/Camera;->restore()V",
+        "Landroid/graphics/Camera;->save()V",
+        "Landroid/graphics/Camera;->translate()V",
+        "Landroid/graphics/Camera;->getMatrix()V",
+        "Landroid/graphics/Camera;->rotateY()V",
+        "Landroid/graphics/Camera;->rotateZ()V",
+        "Landroid/graphics/Camera;->rotateX()V"
+    ],
+    "Lcom/adwo/adsdk/AdListener;": [
+        "Lcom/adwo/adsdk/AdListener;->onFailedToReceiveRefreshedAd()V",
+        "Lcom/adwo/adsdk/AdListener;->onFailedToReceiveAd()V",
+        "Lcom/adwo/adsdk/AdListener;->onReceiveAd()V"
+    ],
+    "Lcom/adwo/adsdk/I;": [
+        "Lcom/adwo/adsdk/I;->a()Lcom/adwo/adsdk/G;"
+    ],
+    "Lcom/adwo/adsdk/AdwoAdBrowserActivity;": [
+        "Lcom/adwo/adsdk/AdwoAdBrowserActivity;->requestWindowFeature()Z",
+        "Lcom/adwo/adsdk/AdwoAdBrowserActivity;->getIntent()Landroid/content/Intent;",
+        "Lcom/adwo/adsdk/AdwoAdBrowserActivity;->setContentView()V",
+        "Lcom/adwo/adsdk/AdwoAdBrowserActivity;->setProgressBarVisibility()V",
+        "Lcom/adwo/adsdk/AdwoAdBrowserActivity;->setRequestedOrientation()V"
+    ],
+    "Lcom/adwo/adsdk/E;": [
+        "Lcom/adwo/adsdk/E;->a()Lcom/adwo/adsdk/b;",
+        "Lcom/adwo/adsdk/E;->a()V",
+        "Lcom/adwo/adsdk/E;->a()Lcom/adwo/adsdk/AdwoAdView;"
+    ],
+    "Ljava/net/MalformedURLException;": [
+        "Ljava/net/MalformedURLException;->printStackTrace()V"
+    ]
+}

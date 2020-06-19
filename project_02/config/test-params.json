@@ -1,0 +1,8 @@
+{
+    "num_files_download": 1,
+    "data_dir": "./data",
+    "articles": ["Blizzard_Entertainment", "American_League_Championship_Series"],
+    "metadate": "20200401",
+    "num_articles_to_process": 500,
+    "min_revisions" : 500
+}

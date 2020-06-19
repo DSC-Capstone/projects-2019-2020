@@ -1,0 +1,33 @@
+<div id='container' *ngIf='_visualizeMode'></div>
+<div class='overall' *ngIf='_report.hasOwnProperty("errors")'>
+  <h1>Overall</h1>
+  <mat-table [dataSource]='_report["overview"]["data"]' *ngIf='_report.hasOwnProperty("overview") && !_visualizeMode && !_report.errors.length' class="mat-elevation-z8" matSort>
+    <ng-container matColumnDef="name" sticky>
+      <mat-header-cell *matHeaderCellDef>File 1, File 2</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element[0]}}</mat-cell>
+    </ng-container>
+    <ng-container *ngFor="let col of _columns; let i = index" [matColumnDef]='col'>
+      <mat-header-cell *matHeaderCellDef mat-sort-header>{{col}}</mat-header-cell>
+      <mat-cell *matCellDef="let element; let j = index" (click)='cellClick(j, i)' class="pointer">{{element[i + 1] !== -1 ? (element[i + 1] | number:'1.0-2') : 'No APIs'}}</mat-cell>
+    </ng-container>
+    <!-- <ng-container matColumnDef="func1">
+      <mat-header-cell *matHeaderCellDef>File 1 Function</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element[0]}}</mat-cell>
+      <mat-footer-cell mat-footer-cell *matFooterCellDef>Overall Similarity (weighted)</mat-footer-cell>
+    </ng-container>
+    <ng-container matColumnDef="func2">
+      <mat-header-cell *matHeaderCellDef>File 2 Function</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element[1]}}</mat-cell>
+      <mat-footer-cell *matFooterCellDef></mat-footer-cell>
+    </ng-container>
+    <ng-container matColumnDef="sim">
+      <mat-header-cell *matHeaderCellDef>Similarity</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element[2] | number:'1.0-2'}}</mat-cell>
+      <mat-footer-cell *matFooterCellDef>{{_report.overall | number:'1.0-2'}}</mat-footer-cell>
+    </ng-container> -->
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    <!-- <mat-footer-row *matFooterRowDef='displayedColumns'></mat-footer-row> -->
+  </mat-table>
+  <div *ngIf='_report.errors.length !== 0'>Comparison error: perhaps an input has no functions?</div>
+</div>

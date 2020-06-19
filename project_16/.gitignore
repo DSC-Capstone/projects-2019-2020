@@ -1,0 +1,18 @@
+# don't check in notebook checkpoints
+.ipynb_checkpoints
+
+# don't check-in data
+data
+
+# don't check-in notebook simulated data
+notebooks/simulated_data.csv
+
+# don't check-in secrets
+.env
+
+# python files
+__pycache__
+
+# mac files
+.DS_Store
+*/DS_Store

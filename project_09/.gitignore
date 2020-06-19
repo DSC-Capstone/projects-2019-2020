@@ -1,0 +1,10 @@
+# don't check-in data
+image
+archive
+webpage
+
+# don't check-in secrets
+
+
+# python files
+__pycache__

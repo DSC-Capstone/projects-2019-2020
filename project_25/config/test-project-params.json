@@ -1,0 +1,8 @@
+{"p_thresh_hold": 0.5, "boilder_plate": false,"data_dir":"data",
+ "output_file":"output.txt",
+ "output_dir": "./result",
+ "threshold":1,
+ "output_type":"save_print",
+ "output_mode": "complex"
+
+}

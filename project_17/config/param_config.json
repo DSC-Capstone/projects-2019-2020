@@ -1,0 +1,18 @@
+{
+    "chrome_driver_location" : "chromedriver.exe",
+    "headless" : true,
+    "data_dict": "references/data_dictionary.csv",
+    "file_names" : ["Q1.csv"],
+    "sort_using" : ["Size", "Project"],
+    "sort_direction": ["uP", "up"],
+    "samples": [10],
+    "time_wait" : 2,
+    "implicit_wait" : 3,
+    "after_sort_wait" : 5,
+    "download_wait" : 60,
+    "manual_csv_files" : ["Q1.csv"],
+    "download_inds" : ["0-10"],
+    "keep_tar" : false,
+    "tar_dir" : "testdata/tars",
+    "maf_dir": "testdata/mafs"
+}

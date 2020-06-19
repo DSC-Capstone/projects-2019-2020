@@ -1,0 +1,8 @@
+{
+	"row_num": 10000,
+    "col_num": 10,
+    "strong_col_num": 3,
+    "randomness_param": 0,
+    "saveLoc": "./data/gen",
+    "maxCategories": 30
+}

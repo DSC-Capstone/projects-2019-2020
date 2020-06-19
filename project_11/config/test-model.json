@@ -1,0 +1,13 @@
+{
+    "indir": "test/cleaned",
+    "outdir": "test/out",
+    "ohe_cols": [
+        "county_name",
+        "time",
+        "vehicle_registration_state",
+        "violation"],
+    "strata_1" : "white/black",
+    "strata_2" : "white/white",
+    "ps_threshold" : 0.1,
+    "alpha" : 0.05
+}

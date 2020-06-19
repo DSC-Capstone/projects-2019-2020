@@ -1,0 +1,24 @@
+FROM derrick56007/mirna_pre_t1d:base1
+
+RUN apt-get install -y software-properties-common
+
+RUN add-apt-repository ppa:deadsnakes/ppa
+
+RUN apt-get -y dist-upgrade
+
+RUN apt-get update -y
+
+RUN apt-get install -y python3.6
+
+RUN apt-get install -y python3-pip
+
+RUN ln -s /usr/bin/python3 /usr/bin/python && \
+    ln -s /usr/bin/pip3 /usr/bin/pip
+
+RUN pip install -r /app/requirements.txt
+
+RUN apt-get install -y dos2unix
+
+RUN rm -rf /var/lib/apt/lists/*
+
+ENTRYPOINT []

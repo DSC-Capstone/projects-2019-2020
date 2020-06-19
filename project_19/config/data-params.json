@@ -1,0 +1,4 @@
+{
+    "files": [["1vvI3AQJvRLx7IsSnH_PJF7SgGUDiq70t","samples.covar.zip"], ["1x1RxZ1VhDFFyef6Dqqu4PuHTdNGDIiXN","adgwas.map.zip"],["18NJGcAJWLu0Ub0GKY9Ghus82nIgrbEy5", "adgwas.ped-1.zip"], ["1FVni0naKpmYXU0zEzcZk3fUZlC2y0dTW", "9gene.zip"], ["1IMZvRj0WHmHqi58ZvzhvoetXp9M5TKiq","meta_data.zip"]],
+    "metal": "http://csg.sph.umich.edu/abecasis/Metal/download/Linux-metal.tar.gz"
+}

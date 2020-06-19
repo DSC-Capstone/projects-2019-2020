@@ -1,0 +1,6 @@
+{
+  "data_category" : ["Simple Nucleotide Variation", 1],
+  "data_format" : ["maf", 1],
+  "cases.project.project_id" : ["TCGA-BRCA", 1],
+  "access" : ["open", 1]
+}

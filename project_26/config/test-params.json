@@ -1,0 +1,15 @@
+{
+    "categories": ["dating"],
+    "scrape_data": 0,
+    "number_of_apps_per_cat": 5,
+    "outpath": "test-data",
+    "malware_categories":["Andup","Mtk","Koler","DroidKungFu"],
+    "malware_path": "/datasets/dsc180a-wi20-public/Malware/amd_data_smali/",
+    "num_malware_apps":5,
+    "re_read": 0,
+    "load_matrices":0,
+    "corr_coef":0
+}
+
+
+

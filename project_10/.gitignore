@@ -1,0 +1,10 @@
+*.csv
+*.txt
+.DS_Store
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+**/*.ipynb_checkpoints/
+
+!sd_population.csv
+!data/test
+!requirements.txt

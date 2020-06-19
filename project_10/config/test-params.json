@@ -1,0 +1,17 @@
+{
+    "start_date": [
+      [2014,7,8]
+    ],
+    "end_date": [
+      [2014,11,8]
+    ],
+    "keyword": [
+      ["Ray Rice"]
+    ],
+    "years" : [
+      2014
+    ],
+    "ripa_suffixes" : [],
+    "ripa_columns" : [],
+    "outpath" : "/data/test"
+  }

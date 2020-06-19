@@ -1,0 +1,22 @@
+# don't check-in data
+data/
+
+*.ipynb_checkpoints
+
+# dont check in M functions from download
+/src/light_dump_extractor
+/src/M_calculator
+
+# don't check-in environment
+.env
+
+.DS_Store
+
+#ignore log files
+*.log
+
+#ignore swp files
+*.swp
+
+# python files
+__pycache__

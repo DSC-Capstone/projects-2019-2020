@@ -1,0 +1,239 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0005_ds172_2010_block'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2010
+Geographic level: Block (by State--County--Census Tract)
+Extent:           California
+Dataset:          2010 Census: SF 1a - P & H Tables [Blocks & Larger Areas]
+   NHGIS code:    2010_SF1a
+   NHGIS ID:      ds172
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+ 
+Tables:
+ 
+1. Race
+   Universe:    Total population
+   Source code: P3
+   NHGIS code:  H7X
+ 
+2. Hispanic or Latino Origin by Race
+   Universe:    Total population
+   Source code: P5
+   NHGIS code:  H7Z
+ 
+3. Sex by Age
+   Universe:    Total population
+   Source code: P12
+   NHGIS code:  H76
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        BLOCKA:      Block Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Reservation with Trust Lands; reservation only Code
+        TRUSTA:      American Indian Reservation with Trust Lands; trust lands only Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        TTRACTA:     Tribal Census Tract Code
+        TBLKGRPA:    Tribal Block Group Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        CSAA:        Combined Statistical Area Code
+        NECTAA:      New England City and Town Area Code
+        NECTADIVA:   NECTA Division Code
+        CNECTAA:     Combined New England City and Town Area Code
+        UAA:         Urban Area Code
+        URBRURALA:   Urban/Rural Code
+        CDA:         Congressional District (111th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit Zip Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        NAME:        Area Name-Legal/Statistical Area Description (LSAD) Term-Part Indicator
+        SABINSA:     School Attendance Area Code
+ 
+Breakdown:
+    Geographic Subarea: Total area (00)
+ 
+    Table 1:     Race
+    Universe:    Total population
+    Source code: P3
+    NHGIS code:  H7X
+        H7X001:      Total
+        H7X002:      White alone
+        H7X003:      Black or African American alone
+        H7X004:      American Indian and Alaska Native alone
+        H7X005:      Asian alone
+        H7X006:      Native Hawaiian and Other Pacific Islander alone
+        H7X007:      Some Other Race alone
+        H7X008:      Two or More Races
+ 
+    Table 2:     Hispanic or Latino Origin by Race
+    Universe:    Total population
+    Source code: P5
+    NHGIS code:  H7Z
+        H7Z001:      Total
+        H7Z002:      Not Hispanic or Latino
+        H7Z003:      Not Hispanic or Latino: White alone
+        H7Z004:      Not Hispanic or Latino: Black or African American alone
+        H7Z005:      Not Hispanic or Latino: American Indian and Alaska Native alone
+        H7Z006:      Not Hispanic or Latino: Asian alone
+        H7Z007:      Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        H7Z008:      Not Hispanic or Latino: Some Other Race alone
+        H7Z009:      Not Hispanic or Latino: Two or More Races
+        H7Z010:      Hispanic or Latino
+        H7Z011:      Hispanic or Latino: White alone
+        H7Z012:      Hispanic or Latino: Black or African American alone
+        H7Z013:      Hispanic or Latino: American Indian and Alaska Native alone
+        H7Z014:      Hispanic or Latino: Asian alone
+        H7Z015:      Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        H7Z016:      Hispanic or Latino: Some Other Race alone
+        H7Z017:      Hispanic or Latino: Two or More Races
+ 
+    Table 3:     Sex by Age
+    Universe:    Total population
+    Source code: P12
+    NHGIS code:  H76
+        H76001:      Total
+        H76002:      Male
+        H76003:      Male: Under 5 years
+        H76004:      Male: 5 to 9 years
+        H76005:      Male: 10 to 14 years
+        H76006:      Male: 15 to 17 years
+        H76007:      Male: 18 and 19 years
+        H76008:      Male: 20 years
+        H76009:      Male: 21 years
+        H76010:      Male: 22 to 24 years
+        H76011:      Male: 25 to 29 years
+        H76012:      Male: 30 to 34 years
+        H76013:      Male: 35 to 39 years
+        H76014:      Male: 40 to 44 years
+        H76015:      Male: 45 to 49 years
+        H76016:      Male: 50 to 54 years
+        H76017:      Male: 55 to 59 years
+        H76018:      Male: 60 and 61 years
+        H76019:      Male: 62 to 64 years
+        H76020:      Male: 65 and 66 years
+        H76021:      Male: 67 to 69 years
+        H76022:      Male: 70 to 74 years
+        H76023:      Male: 75 to 79 years
+        H76024:      Male: 80 to 84 years
+        H76025:      Male: 85 years and over
+        H76026:      Female
+        H76027:      Female: Under 5 years
+        H76028:      Female: 5 to 9 years
+        H76029:      Female: 10 to 14 years
+        H76030:      Female: 15 to 17 years
+        H76031:      Female: 18 and 19 years
+        H76032:      Female: 20 years
+        H76033:      Female: 21 years
+        H76034:      Female: 22 to 24 years
+        H76035:      Female: 25 to 29 years
+        H76036:      Female: 30 to 34 years
+        H76037:      Female: 35 to 39 years
+        H76038:      Female: 40 to 44 years
+        H76039:      Female: 45 to 49 years
+        H76040:      Female: 50 to 54 years
+        H76041:      Female: 55 to 59 years
+        H76042:      Female: 60 and 61 years
+        H76043:      Female: 62 to 64 years
+        H76044:      Female: 65 and 66 years
+        H76045:      Female: 67 to 69 years
+        H76046:      Female: 70 to 74 years
+        H76047:      Female: 75 to 79 years
+        H76048:      Female: 80 to 84 years
+        H76049:      Female: 85 years and over
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 14.0 
+        [Database]. Minneapolis, MN: IPUMS. 2019. 
+        http://doi.org/10.18128/D050.V14.0
+
+    * Publications and research reports employing school attendance areas data 
+      (either tabular or GIS) must cite it appropriately. The citation should 
+      include the following:
+
+        The College of William and Mary and the Minnesota Population Center.
+        School Attendance Boundary Information System (SABINS): Version 1.0.
+        Minneapolis, MN: University of Minnesota 2011.
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+    * If possible, citations involving school attendance areas should also include
+      the URL for the SABINS site:
+
+        http://www.sabinsdata.org/.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

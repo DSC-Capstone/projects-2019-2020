@@ -1,0 +1,22 @@
+
+Attempted Tasks:
+	– Train baselines Models (Wesley)
+	– Clean real dataset and transform in a usable format (Shinu)
+	– Generate Heterogenous Graphs (Udai)
+
+Completed:
+	- Train Baseline Models (100%)
+	- Create Heterogenous Graphs (50%)
+	- Clean dataset (50%)
+
+Difficulties:
+	- We found that our medical dataset, even without cleaning achieved high performance with the baseline.
+	- With minimal effort on a Naive Bayes classifier, passing in the columns as features resulted in very high accuracy.
+	- We expected the baseline model to perform poorly because of the heavy inbalance of the dataset, but the F1-score is high, at 0.97.
+	- Because of this, we are somewhat questioning our data source and/or how reasonable our approach of using a graph is for this task.
+
+Tasks for coming week:
+	- Finishing code to convert a dataset from tabular form to a heterogenous graph (Udai)
+	- Implementing Hindroid model on the medical dataset & new dataset (Udai & Wesley)
+	- Finding a new dataset & performing EDA on that (Shinu)
+	- Running Baselines on new dataset (Wesley)

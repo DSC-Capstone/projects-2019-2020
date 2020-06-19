@@ -1,0 +1,75 @@
+<html>
+   <head>
+      <title>dui</title>
+      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
+      <script src = "https://code.highcharts.com/highcharts.js"></script> 
+   </head>
+   
+   <body>
+      <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto"></div>
+      <script language = "JavaScript">
+         $(document).ready(function() {
+            var title = {
+               text: 'DUI Rate by Year'   
+            };
+            var subtitle = {
+               text: 'California vs South Dakota'
+            };
+            var xAxis = {
+            title: {
+                  text: 'Year'
+               },
+               categories: ['2015', '2016', '2017', '2018']
+            };
+            var yAxis = {
+            	min:0,
+               title: {
+                  text: 'Rate'
+               },
+               plotLines: [{
+                  value: 0,
+                  width: 1,
+                  color: '#808080'
+               }]
+            };   
+
+            var legend = {
+               layout: 'vertical',
+               align: 'center',
+               verticalAlign: 'top',
+               borderWidth: 0
+            };
+            var series =  [{
+                 name: 'California',
+                  data: [0.074049,0.072018,0.070302,0.072407],
+                  color:'#942c80'
+               }, 
+               {
+                 name: 'South Dakota',
+                  data: [0.043674,0.039207,0.040239,0.037562],
+                  color:'#fa815f'
+               }
+            ];
+            var plotOptions = {
+               line: {
+                  marker: {
+                     enabled: false}
+         }
+            };
+
+            var json = {};
+            json.title = title;
+            json.subtitle = subtitle;
+            json.xAxis = xAxis;
+            json.yAxis = yAxis;
+            json.plotOptions = plotOptions;
+            json.legend = legend;
+            json.series = series;
+            
+            $('#container').highcharts(json);
+         });
+      </script>
+   </body>
+   
+</html>

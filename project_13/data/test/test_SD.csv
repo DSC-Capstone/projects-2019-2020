@@ -1,0 +1,1191 @@
+,AccidentSeqID,AccidentDateTime,DrugUseDesc,AlcoholUseDesc,DRUG,ALCOHOL,DUI,MONTH,YEAR
+8881,246435,5/19/2018 9:08:00 PM,Wild animal hit,Wild animal hit,0,0,False,5,2018
+5259,207121,3/25/2016 3:26:00 PM,None used,None used,0,0,False,3,2016
+26054,220213,12/15/2016 6:37:00 PM,Drugs used,Alcohol used,1,1,True,12,2016
+2629,242604,2/5/2018 8:36:00 AM,None used,None used,0,0,False,2,2018
+7101,245382,4/3/2018 8:48:00 AM,Not applicable,Not applicable,0,0,False,4,2018
+4827,206821,1/18/2016 10:40:00 AM,Not applicable,Not applicable,0,0,False,1,2016
+8290,209005,5/12/2016 6:50:00 PM,None used,None used,0,0,False,5,2016
+1093,186219,1/22/2015 11:07:00 AM,None used,None used,0,0,False,1,2015
+10211,192122,5/25/2015 1:05:00 PM,Not applicable,Not applicable,0,0,False,5,2015
+11613,192975,6/28/2015 4:20:00 PM,None used,None used,0,0,False,6,2015
+15115,195105,7/17/2015 10:45:00 AM,None used,None used,0,0,False,7,2015
+27504,258081,12/31/2018 12:49:00 AM,Unknown,Unknown,0,0,False,12,2018
+23682,200437,11/5/2015 5:51:00 PM,None used,None used,0,0,False,11,2015
+26923,239131,12/4/2017 6:36:00 PM,None used,None used,0,0,False,12,2017
+4954,224456,3/10/2017 11:57:00 AM,None used,None used,0,0,False,3,2017
+18468,197059,9/5/2015 4:06:00 PM,None used,None used,0,0,False,9,2015
+25627,219910,12/12/2016 3:31:00 PM,None used,None used,0,0,False,12,2016
+31205,264348,12/28/2018 3:46:00 PM,None used,None used,0,0,False,12,2018
+12905,248836,4/20/2018 10:38:00 PM,None used,None used,0,0,False,4,2018
+5545,224827,3/17/2017 8:19:00 PM,Wild animal hit,Wild animal hit,0,0,False,3,2017
+17184,232855,8/5/2017 2:16:00 AM,None used,Alcohol used,0,1,True,8,2017
+19792,234211,9/13/2017 5:29:00 PM,None used,None used,0,0,False,9,2017
+21364,198873,10/18/2015 11:38:00 AM,None used,None used,0,0,False,10,2015
+30770,263874,9/6/2018 5:34:00 PM,None used,None used,0,0,False,9,2018
+13308,230341,7/2/2017 2:00:00 PM,None used,None used,0,0,False,7,2017
+18159,215012,9/21/2016 2:02:00 PM,None used,Alcohol used,0,1,True,9,2016
+9296,209619,5/24/2016 8:30:00 AM,None used,None used,0,0,False,5,2016
+24757,201389,11/24/2015 7:32:00 PM,None used,None used,0,0,False,11,2015
+29746,240665,12/15/2017 12:01:00 AM,Unknown,Unknown,0,0,False,12,2017
+1575,186757,2/4/2015 6:07:00 PM,Not applicable,Not applicable,0,0,False,2,2015
+17639,251643,8/21/2018 6:00:00 PM,None used,None used,0,0,False,8,2018
+25138,238086,11/16/2017 2:39:00 PM,None used,None used,0,0,False,11,2017
+7516,245580,4/21/2018 8:40:00 PM,Wild animal hit,Wild animal hit,0,0,False,4,2018
+18035,214957,9/20/2016 5:36:00 PM,None used,None used,0,0,False,9,2016
+10797,210565,6/6/2016 5:10:00 AM,Wild animal hit,Wild animal hit,0,0,False,6,2016
+1991,242205,1/8/2018 11:45:00 AM,None used,None used,0,0,False,1,2018
+26057,202192,11/20/2015 7:04:00 AM,None used,None used,0,0,False,11,2015
+5864,189478,4/2/2015 8:00:00 PM,None used,None used,0,0,False,4,2015
+621,185701,1/9/2015 1:12:00 PM,None used,None used,0,0,False,1,2015
+423,221467,1/10/2017 9:57:00 AM,None used,None used,0,0,False,1,2017
+15132,195050,7/31/2015 7:20:00 PM,None used,None used,0,0,False,7,2015
+23444,255568,11/14/2018 10:10:00 AM,None used,None used,0,0,False,11,2018
+16161,213842,8/5/2016 5:00:00 PM,None used,None used,0,0,False,8,2016
+17298,232888,8/19/2017 7:35:00 PM,Drugs used,None used,1,0,True,8,2017
+26307,202036,12/20/2015 7:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,12,2015
+1992,205087,2/10/2016 6:49:00 AM,None used,None used,0,0,False,2,2016
+6533,207899,4/9/2016 5:22:00 PM,None used,None used,0,0,False,4,2016
+9587,228268,3/8/2017 3:11:00 AM,Unknown,Unknown,0,0,False,3,2017
+14760,212976,7/28/2016 1:52:00 PM,None used,Alcohol used,0,1,True,7,2016
+1080,204283,1/26/2016 6:55:00 AM,None used,None used,0,0,False,1,2016
+25602,201732,12/5/2015 6:20:00 AM,Wild animal hit,Wild animal hit,0,0,False,12,2015
+22615,199738,10/25/2015 8:30:00 AM,Not applicable,Not applicable,0,0,False,10,2015
+7923,226293,4/26/2017 5:29:00 AM,None used,None used,0,0,False,4,2017
+24128,237328,11/7/2017 6:32:00 PM,None used,None used,0,0,False,11,2017
+177,185295,1/5/2015 2:50:00 PM,Unknown,Unknown,0,0,False,1,2015
+19271,234061,9/13/2017 1:22:00 AM,None used,Alcohol used,0,1,True,9,2017
+29648,262268,11/13/2018 3:47:00 PM,None used,None used,0,0,False,11,2018
+11339,210869,6/16/2016 8:25:00 AM,None used,None used,0,0,False,6,2016
+5314,189156,3/27/2015 8:26:00 PM,Wild animal hit,Wild animal hit,0,0,False,3,2015
+2061,242275,1/22/2018 7:47:00 AM,None used,None used,0,0,False,1,2018
+2109,187033,2/4/2015 12:16:00 PM,None used,None used,0,0,False,2,2015
+28372,259298,10/9/2018 4:50:00 PM,None used,None used,0,0,False,10,2018
+18730,197202,9/30/2015 4:20:00 PM,Not reported,Not reported,0,0,False,9,2015
+16682,232534,8/17/2017 10:43:00 AM,None used,None used,0,0,False,8,2017
+7137,190230,3/18/2015 3:18:00 PM,None used,None used,0,0,False,3,2015
+6785,225576,4/6/2017 5:44:00 PM,None used,None used,0,0,False,4,2017
+743,204165,1/8/2016 3:51:00 PM,None used,None used,0,0,False,1,2016
+14991,250019,8/7/2018 4:20:00 PM,Unknown,Unknown,0,0,False,8,2018
+6747,245134,1/12/2018 1:42:00 PM,None used,None used,0,0,False,1,2018
+4435,206646,3/14/2016 8:03:00 PM,None used,None used,0,0,False,3,2016
+7560,245555,4/17/2018 8:03:00 AM,None used,None used,0,0,False,4,2018
+8332,209027,5/12/2016 8:14:00 AM,None used,None used,0,0,False,5,2016
+7583,190499,5/7/2015 5:00:00 PM,None used,None used,0,0,False,5,2015
+3288,205931,3/1/2016 3:20:00 PM,None used,None used,0,0,False,3,2016
+16299,232327,8/7/2017 5:55:00 AM,None used,None used,0,0,False,8,2017
+29993,241881,12/28/2017 1:50:00 PM,Unknown,None used,0,0,False,12,2017
+28482,203984,12/31/2015 7:40:00 PM,None used,None used,0,0,False,12,2015
+5962,207573,3/18/2016 7:48:00 AM,None used,None used,0,0,False,3,2016
+7637,245666,4/25/2018 5:11:00 PM,None used,None used,0,0,False,4,2018
+14225,249837,7/31/2018 4:15:00 PM,None used,None used,0,0,False,7,2018
+624,241443,1/11/2018 8:05:00 AM,None used,None used,0,0,False,1,2018
+17068,214346,9/7/2016 6:28:00 AM,Wild animal hit,Wild animal hit,0,0,False,9,2016
+20591,234811,9/29/2017 7:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,9,2017
+17317,251399,8/31/2018 12:37:00 PM,Not reported,Not reported,0,0,False,8,2018
+22410,199576,11/3/2015 9:19:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2015
+20603,216522,10/19/2016 11:43:00 PM,None used,None used,0,0,False,10,2016
+28755,239689,12/21/2017 1:57:00 PM,None used,None used,0,0,False,12,2017
+26522,220487,12/19/2016 7:55:00 AM,None used,None used,0,0,False,12,2016
+3060,242832,2/10/2018 3:14:00 PM,Not applicable,Not applicable,0,0,False,2,2018
+13881,249404,5/9/2018 10:49:00 AM,Not reported,Not reported,0,0,False,5,2018
+3246,223475,2/11/2017 6:50:00 PM,None used,None used,0,0,False,2,2017
+3413,188009,2/28/2015 10:30:00 AM,None used,None used,0,0,False,2,2015
+27404,257724,12/30/2018 9:53:00 PM,None used,None used,0,0,False,12,2018
+10425,192269,6/16/2015 5:33:00 PM,None used,None used,0,0,False,6,2015
+15835,213540,8/15/2016 8:30:00 PM,Wild animal hit,Wild animal hit,0,0,False,8,2016
+28927,260362,10/18/2018 5:42:00 PM,None used,None used,0,0,False,10,2018
+7170,208329,4/22/2016 3:43:00 PM,None used,None used,0,0,False,4,2016
+7865,226257,1/16/2017 12:00:00 AM,Not applicable,Not applicable,0,0,False,1,2017
+26601,257556,12/20/2018 6:16:00 PM,Wild animal hit,Wild animal hit,0,0,False,12,2018
+16307,232328,8/7/2017 6:45:00 PM,None used,None used,0,0,False,8,2017
+5165,244143,3/9/2018 7:23:00 AM,Wild animal hit,Wild animal hit,0,0,False,3,2018
+23654,236914,11/6/2017 4:00:00 PM,None used,None used,0,0,False,11,2017
+10439,228802,5/28/2017 7:29:00 PM,None used,None used,0,0,False,5,2017
+10121,247271,6/8/2018 7:03:00 PM,Unknown,Unknown,0,0,False,6,2018
+28596,259807,4/20/2018 9:03:00 PM,Wild animal hit,Wild animal hit,0,0,False,4,2018
+25505,219945,12/10/2016 6:30:00 PM,Not applicable,Unknown,0,0,False,12,2016
+24963,201204,12/6/2015 5:10:00 PM,Wild animal hit,Wild animal hit,0,0,False,12,2015
+18909,215470,9/27/2016 7:40:00 AM,Wild animal hit,Wild animal hit,0,0,False,9,2016
+4904,224377,3/7/2017 9:48:00 AM,None used,None used,0,0,False,3,2017
+11995,248403,4/9/2018 11:32:00 AM,None used,None used,0,0,False,4,2018
+7764,190622,5/9/2015 8:40:00 AM,None used,None used,0,0,False,5,2015
+28265,259177,10/12/2018 4:48:00 PM,None used,None used,0,0,False,10,2018
+17791,233173,8/21/2017 5:46:00 PM,None used,None used,0,0,False,8,2017
+16657,196025,8/24/2015 7:00:00 AM,None used,None used,0,0,False,8,2015
+12704,193669,6/9/2015 2:31:00 PM,None used,None used,0,0,False,6,2015
+24320,200939,11/8/2015 10:55:00 PM,None used,Alcohol used,0,1,True,11,2015
+15182,195115,8/15/2015 6:40:00 AM,None used,Alcohol used,0,1,True,8,2015
+27840,239712,12/2/2017 5:30:00 AM,Wild animal hit,Wild animal hit,0,0,False,12,2017
+9534,209833,5/26/2016 5:35:00 PM,None used,None used,0,0,False,5,2016
+19545,197724,10/11/2015 8:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2015
+14634,194874,8/6/2015 5:39:00 PM,None used,None used,0,0,False,8,2015
+11595,211067,6/5/2016 10:25:00 PM,Wild animal hit,Wild animal hit,0,0,False,6,2016
+19274,197491,10/6/2015 6:11:00 PM,Not reported,Not reported,0,0,False,10,2015
+13913,194449,7/7/2015 11:30:00 AM,None used,None used,0,0,False,7,2015
+13424,212198,7/19/2016 7:08:00 PM,None used,None used,0,0,False,7,2016
+24828,219397,12/5/2016 7:50:00 AM,None used,None used,0,0,False,12,2016
+20222,253377,10/12/2018 7:15:00 AM,None used,None used,0,0,False,10,2018
+491,185624,1/6/2015 2:45:00 PM,None used,None used,0,0,False,1,2015
+12234,193434,7/11/2015 12:56:00 PM,None used,None used,0,0,False,7,2015
+17696,251774,8/28/2018 3:55:00 PM,None used,None used,0,0,False,8,2018
+140,241093,1/5/2018 7:55:00 AM,None used,None used,0,0,False,1,2018
+6421,225365,3/15/2017 3:38:00 PM,Not applicable,Not applicable,0,0,False,3,2017
+5294,224681,3/17/2017 5:11:00 PM,Not applicable,Not applicable,0,0,False,3,2017
+15922,195588,7/15/2015 8:49:00 AM,Not applicable,Not applicable,0,0,False,7,2015
+26739,202536,12/12/2015 5:10:00 PM,Not applicable,Not applicable,0,0,False,12,2015
+22151,199417,11/3/2015 1:03:00 PM,Unknown,Unknown,0,0,False,11,2015
+27978,203364,12/7/2015 1:27:00 PM,None used,None used,0,0,False,12,2015
+25445,201610,12/8/2015 6:20:00 AM,Wild animal hit,Wild animal hit,0,0,False,12,2015
+24813,255865,10/23/2018 6:30:00 PM,None used,None used,0,0,False,10,2018
+8717,209277,5/13/2016 10:42:00 AM,None used,None used,0,0,False,5,2016
+28470,203974,12/31/2015 3:28:00 PM,None used,None used,0,0,False,12,2015
+21254,198858,10/22/2015 8:25:00 AM,None used,None used,0,0,False,10,2015
+10265,210259,6/8/2016 5:36:00 PM,None used,None used,0,0,False,6,2016
+7672,190558,5/2/2015 4:15:00 AM,None used,None used,0,0,False,5,2015
+25465,219840,12/11/2016 5:12:00 PM,None used,None used,0,0,False,12,2016
+24733,237234,11/9/2017 6:10:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2017
+19869,197976,9/23/2015 3:16:00 PM,None used,None used,0,0,False,9,2015
+5734,224909,3/19/2017 10:55:00 AM,Unknown,Unknown,0,0,False,3,2017
+18651,233716,9/5/2017 7:51:00 AM,None used,None used,0,0,False,9,2017
+4100,223935,2/25/2017 12:30:00 AM,None used,None used,0,0,False,2,2017
+4185,243319,2/20/2018 7:40:00 AM,None used,None used,0,0,False,2,2018
+5207,207033,3/24/2016 2:00:00 PM,None used,None used,0,0,False,3,2016
+5636,189345,2/28/2015 2:51:00 PM,None used,None used,0,0,False,2,2015
+10242,228721,5/25/2017 7:35:00 PM,None used,None used,0,0,False,5,2017
+18449,197051,9/4/2015 12:18:00 AM,None used,None used,0,0,False,9,2015
+23000,255081,10/23/2018 7:24:00 AM,None used,None used,0,0,False,10,2018
+30066,262794,11/28/2018 12:13:00 PM,None used,None used,0,0,False,11,2018
+3739,188208,1/15/2015 12:34:00 PM,None used,None used,0,0,False,1,2015
+13560,230749,4/25/2017 6:58:00 PM,Not reported,Not reported,0,0,False,4,2017
+5346,244230,2/27/2018 7:05:00 PM,None used,Alcohol used,0,1,True,2,2018
+25463,201655,12/5/2015 10:38:00 AM,None used,None used,0,0,False,12,2015
+21396,217003,10/21/2016 3:20:00 PM,None used,None used,0,0,False,10,2016
+30361,263416,12/5/2018 2:11:00 PM,None used,None used,0,0,False,12,2018
+13992,194435,7/22/2015 6:30:00 AM,Wild animal hit,Wild animal hit,0,0,False,7,2015
+16523,214039,8/27/2016 11:18:00 AM,None used,None used,0,0,False,8,2016
+27883,258418,5/13/2018 8:34:00 PM,Wild animal hit,Wild animal hit,0,0,False,5,2018
+3385,206047,2/22/2016 1:15:00 PM,None used,None used,0,0,False,2,2016
+19019,215536,9/23/2016 5:50:00 AM,Wild animal hit,Wild animal hit,0,0,False,9,2016
+4778,243910,3/5/2018 9:09:00 AM,None used,None used,0,0,False,3,2018
+15447,231805,8/2/2017 8:11:00 PM,None used,None used,0,0,False,8,2017
+5619,244325,3/5/2018 8:30:00 AM,None used,None used,0,0,False,3,2018
+9153,191397,5/19/2015 10:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,5,2015
+16591,195977,8/25/2015 7:26:00 PM,Wild animal hit,Wild animal hit,0,0,False,8,2015
+11526,248022,5/2/2018 11:24:00 AM,None used,None used,0,0,False,5,2018
+28118,223055,12/30/2016 5:39:00 PM,None used,None used,0,0,False,12,2016
+25911,220091,12/15/2016 12:22:00 AM,Not applicable,Not applicable,0,0,False,12,2016
+23626,255601,10/9/2018 12:57:00 PM,None used,None used,0,0,False,10,2018
+26912,239123,12/4/2017 6:48:00 PM,None used,None used,0,0,False,12,2017
+22076,217500,11/8/2016 1:25:00 PM,None used,None used,0,0,False,11,2016
+14973,231466,7/24/2017 2:00:00 PM,None used,None used,0,0,False,7,2017
+4892,224425,3/4/2017 12:01:00 AM,Wild animal hit,Wild animal hit,0,0,False,3,2017
+10678,247435,3/13/2018 5:17:00 PM,None used,None used,0,0,False,3,2018
+9540,191819,6/7/2015 7:10:00 AM,Wild animal hit,Wild animal hit,0,0,False,6,2015
+25907,238504,11/22/2017 4:12:00 PM,None used,None used,0,0,False,11,2017
+30262,263258,11/23/2018 8:00:00 PM,None used,Alcohol used,0,1,True,11,2018
+11121,192694,6/24/2015 6:45:00 AM,Wild animal hit,Wild animal hit,0,0,False,6,2015
+21929,217418,10/27/2016 9:57:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2016
+9383,227983,4/10/2017 2:35:00 PM,None used,None used,0,0,False,4,2017
+20147,253098,7/23/2018 6:45:00 AM,None used,None used,0,0,False,7,2018
+22814,218028,11/10/2016 5:37:00 PM,None used,None used,0,0,False,11,2016
+5179,189065,2/6/2015 11:59:00 AM,Drugs used,Alcohol used,1,1,True,2,2015
+17668,197084,9/13/2015 12:14:00 PM,None used,None used,0,0,False,9,2015
+23526,255515,11/9/2018 8:23:00 AM,Wild animal hit,Wild animal hit,0,0,False,11,2018
+20813,234855,9/30/2017 7:15:00 PM,Wild animal hit,Wild animal hit,0,0,False,9,2017
+5570,224846,3/21/2017 9:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,3,2017
+17962,233286,9/1/2017 5:55:00 PM,Not reported,Not reported,0,0,False,9,2017
+8989,227759,5/5/2017 10:02:00 PM,Wild animal hit,Wild animal hit,0,0,False,5,2017
+21545,198994,11/3/2015 5:39:00 PM,Unknown,Unknown,0,0,False,11,2015
+23794,236964,11/3/2017 7:30:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2017
+26390,202258,11/19/2015 7:06:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2015
+15989,195634,8/28/2015 7:22:00 AM,Wild animal hit,Wild animal hit,0,0,False,8,2015
+2381,222929,2/3/2017 10:34:00 PM,None used,Alcohol used,0,1,True,2,2017
+9559,246773,5/24/2018 3:30:00 PM,None used,None used,0,0,False,5,2018
+19293,234075,9/18/2017 11:00:00 AM,None used,None used,0,0,False,9,2017
+13786,230614,6/25/2017 4:30:00 PM,Unknown,Unknown,0,0,False,6,2017
+10964,192609,5/24/2015 10:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,5,2015
+11519,248019,5/2/2018 7:55:00 AM,None used,Alcohol used,0,1,True,5,2018
+3407,223442,2/7/2017 5:20:00 PM,None used,None used,0,0,False,2,2017
+5416,189214,3/19/2015 3:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,3,2015
+14265,249873,8/1/2018 7:24:00 AM,Not applicable,Not applicable,0,0,False,8,2018
+22212,235899,10/18/2017 11:49:00 AM,None used,None used,0,0,False,10,2017
+19729,234379,9/21/2017 8:07:00 PM,Wild animal hit,Wild animal hit,0,0,False,9,2017
+19028,252451,7/16/2018 3:54:00 PM,None used,None used,0,0,False,7,2018
+17944,233295,8/31/2017 3:23:00 PM,None used,None used,0,0,False,8,2017
+9012,227967,2/23/2017 9:02:00 AM,Not applicable,Not applicable,0,0,False,2,2017
+34,185172,1/2/2015 1:09:00 PM,None used,None used,0,0,False,1,2015
+5871,225051,3/22/2017 6:21:00 AM,None used,None used,0,0,False,3,2017
+22015,199259,10/23/2015 7:43:00 AM,Not reported,Not reported,0,0,False,10,2015
+16959,214284,9/2/2016 7:17:00 AM,Not applicable,Not applicable,0,0,False,9,2016
+17715,233124,8/25/2017 5:13:00 PM,None used,None used,0,0,False,8,2017
+23903,255825,11/18/2018 12:44:00 AM,None used,None used,0,0,False,11,2018
+25973,202094,12/15/2015 12:19:00 AM,None used,None used,0,0,False,12,2015
+17808,214799,9/17/2016 12:37:00 PM,None used,None used,0,0,False,9,2016
+7444,190434,5/5/2015 1:44:00 PM,None used,None used,0,0,False,5,2015
+641,203845,1/14/2016 6:14:00 PM,Wild animal hit,Wild animal hit,0,0,False,1,2016
+18861,252498,9/27/2018 2:01:00 PM,None used,None used,0,0,False,9,2018
+7312,208411,4/23/2016 12:14:00 PM,None used,None used,0,0,False,4,2016
+29103,240063,12/29/2017 10:20:00 AM,None used,None used,0,0,False,12,2017
+26045,257100,12/14/2018 11:30:00 AM,Unknown,Unknown,0,0,False,12,2018
+5549,207251,3/9/2016 9:24:00 AM,None used,None used,0,0,False,3,2016
+23814,255218,11/17/2018 12:45:00 AM,None used,None used,0,0,False,11,2018
+8868,246379,5/1/2018 6:57:00 AM,Wild animal hit,Wild animal hit,0,0,False,5,2018
+16047,195710,8/28/2015 4:29:00 AM,None used,None used,0,0,False,8,2015
+1081,186119,1/26/2015 8:16:00 PM,Unknown,Alcohol used,0,1,True,1,2015
+19055,215548,10/3/2016 5:02:00 PM,None used,None used,0,0,False,10,2016
+6907,245190,4/2/2018 9:00:00 AM,None used,None used,0,0,False,4,2018
+18595,215279,9/27/2016 5:44:00 PM,None used,None used,0,0,False,9,2016
+11050,229232,6/10/2017 7:51:00 AM,None used,None used,0,0,False,6,2017
+25466,238228,11/24/2017 11:08:00 AM,None used,None used,0,0,False,11,2017
+663,185728,1/10/2015 6:28:00 PM,Not reported,Not reported,0,0,False,1,2015
+3394,188000,3/3/2015 5:46:00 AM,None used,None used,0,0,False,3,2015
+4327,224107,3/2/2017 8:07:00 PM,None used,None used,0,0,False,3,2017
+601,221674,1/13/2017 7:59:00 AM,None used,None used,0,0,False,1,2017
+9625,228291,3/31/2017 2:01:00 PM,None used,None used,0,0,False,3,2017
+27639,203124,12/26/2015 9:50:00 AM,None used,None used,0,0,False,12,2015
+15316,195173,8/17/2015 2:30:00 PM,None used,None used,0,0,False,8,2015
+828,221832,1/9/2017 9:31:00 AM,None used,None used,0,0,False,1,2017
+16949,196192,8/12/2015 8:14:00 PM,None used,None used,0,0,False,8,2015
+1674,242055,1/20/2018 9:15:00 PM,None used,None used,0,0,False,1,2018
+8090,190878,5/8/2015 2:56:00 PM,Not applicable,Not applicable,0,0,False,5,2015
+985,186153,1/19/2015 5:20:00 AM,None used,None used,0,0,False,1,2015
+22143,235858,10/22/2017 8:56:00 AM,None used,None used,0,0,False,10,2017
+1305,241357,1/11/2018 6:20:00 PM,Wild animal hit,Wild animal hit,0,0,False,1,2018
+6184,225258,3/22/2017 7:16:00 PM,None used,None used,0,0,False,3,2017
+1464,241982,1/16/2018 3:10:00 PM,None used,None used,0,0,False,1,2018
+28213,259041,10/8/2018 7:51:00 PM,None used,None used,0,0,False,10,2018
+28287,259194,10/14/2018 12:06:00 AM,None used,None used,0,0,False,10,2018
+3693,206115,2/8/2016 1:31:00 PM,None used,None used,0,0,False,2,2016
+24325,219120,10/7/2016 5:52:00 PM,Not applicable,Not applicable,0,0,False,10,2016
+9460,191681,4/22/2015 5:13:00 PM,None used,None used,0,0,False,4,2015
+3786,188233,3/3/2015 7:30:00 PM,Wild animal hit,Wild animal hit,0,0,False,3,2015
+14483,194695,8/8/2015 5:51:00 PM,Unknown,Unknown,0,0,False,8,2015
+10196,247187,3/16/2018 5:15:00 PM,None used,None used,0,0,False,3,2018
+22938,236377,10/24/2017 3:23:00 PM,None used,None used,0,0,False,10,2017
+21291,253858,10/19/2018 6:48:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2018
+18935,233839,7/10/2017 8:21:00 AM,Not applicable,Not applicable,0,0,False,7,2017
+229,240466,1/2/2018 12:16:00 PM,None used,None used,0,0,False,1,2018
+29274,261201,11/3/2018 2:37:00 PM,None used,None used,0,0,False,11,2018
+25867,238477,11/24/2017 1:10:00 PM,None used,None used,0,0,False,11,2017
+25707,238387,11/21/2017 12:33:00 PM,None used,None used,0,0,False,11,2017
+6480,189736,4/16/2015 10:10:00 PM,Unknown,Unknown,0,0,False,4,2015
+14898,194916,8/10/2015 9:08:00 PM,None used,Alcohol used,0,1,True,8,2015
+190,185306,1/1/2015 6:57:00 PM,Wild animal hit,Wild animal hit,0,0,False,1,2015
+2502,187297,1/6/2015 5:54:00 AM,None used,None used,0,0,False,1,2015
+25104,201456,11/12/2015 5:31:00 PM,Unknown,Unknown,0,0,False,11,2015
+25759,257089,12/7/2018 1:49:00 PM,None used,None used,0,0,False,12,2018
+25730,238399,11/22/2017 10:26:00 AM,None used,None used,0,0,False,11,2017
+29982,241802,7/6/2017 7:30:00 AM,None used,None used,0,0,False,7,2017
+12526,229906,6/19/2017 12:00:00 AM,Unknown,Unknown,0,0,False,6,2017
+14488,194699,8/3/2015 7:00:00 PM,None used,None used,0,0,False,8,2015
+23946,218865,11/15/2016 5:20:00 PM,Unknown,Unknown,0,0,False,11,2016
+6151,225227,3/27/2017 12:06:00 PM,None used,None used,0,0,False,3,2017
+656,185733,1/11/2015 12:15:00 AM,None used,None used,0,0,False,1,2015
+9564,228252,5/18/2017 9:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,5,2017
+15327,231721,8/2/2017 7:30:00 PM,Wild animal hit,Wild animal hit,0,0,False,8,2017
+27317,221020,12/23/2016 11:41:00 AM,Not reported,Not reported,0,0,False,12,2016
+8415,246148,5/10/2018 5:44:00 AM,Wild animal hit,Wild animal hit,0,0,False,5,2018
+27889,203312,11/19/2015 5:45:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2015
+6105,244683,3/27/2018 7:47:00 AM,None used,None used,0,0,False,3,2018
+7564,190488,4/30/2015 11:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,4,2015
+26239,257210,8/15/2018 5:55:00 AM,None used,None used,0,0,False,8,2018
+19782,252857,8/22/2018 11:07:00 PM,Not applicable,Not applicable,0,0,False,8,2018
+15326,195182,8/17/2015 10:27:00 PM,Unknown,Unknown,0,0,False,8,2015
+22885,254782,9/12/2018 4:25:00 PM,None used,None used,0,0,False,9,2018
+11210,247974,6/6/2018 2:14:00 PM,None used,None used,0,0,False,6,2018
+3665,188157,3/7/2015 12:08:00 PM,None used,None used,0,0,False,3,2015
+8231,190906,5/15/2015 3:07:00 PM,None used,None used,0,0,False,5,2015
+6759,245142,2/20/2018 12:10:00 PM,None used,None used,0,0,False,2,2018
+142,241068,1/4/2018 6:57:00 AM,None used,Alcohol used,0,1,True,1,2018
+19403,252700,7/11/2018 10:50:00 AM,Not applicable,Not applicable,0,0,False,7,2018
+22298,235984,10/12/2017 11:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2017
+13335,249073,7/9/2018 2:00:00 PM,None used,None used,0,0,False,7,2018
+17698,233111,8/27/2017 4:30:00 PM,None used,None used,0,0,False,8,2017
+27282,239396,12/2/2017 6:15:00 PM,Wild animal hit,Wild animal hit,0,0,False,12,2017
+2102,205365,1/11/2016 7:14:00 PM,None used,None used,0,0,False,1,2016
+26680,239017,12/6/2017 6:10:00 AM,None used,None used,0,0,False,12,2017
+4962,188909,2/25/2015 10:02:00 AM,None used,None used,0,0,False,2,2015
+6106,207489,3/12/2016 1:36:00 PM,None used,None used,0,0,False,3,2016
+22842,236010,10/23/2017 4:20:00 PM,None used,None used,0,0,False,10,2017
+1968,241890,1/27/2018 7:25:00 PM,None used,None used,0,0,False,1,2018
+11449,248094,6/11/2018 3:35:00 PM,None used,None used,0,0,False,6,2018
+2036,187020,2/1/2015 5:00:00 PM,Unknown,Unknown,0,0,False,2,2015
+16266,250823,5/21/2018 8:46:00 AM,None used,None used,0,0,False,5,2018
+17949,214905,9/20/2016 5:23:00 PM,None used,None used,0,0,False,9,2016
+14816,194836,8/1/2015 3:10:00 PM,None used,None used,0,0,False,8,2015
+11527,229292,6/10/2017 2:45:00 PM,None used,None used,0,0,False,6,2017
+20769,253701,10/20/2018 3:41:00 PM,None used,None used,0,0,False,10,2018
+19092,252528,7/9/2018 10:30:00 AM,None used,None used,0,0,False,7,2018
+24652,237815,9/21/2017 5:36:00 PM,Unknown,Unknown,0,0,False,9,2017
+15958,195601,7/21/2015 4:53:00 PM,None used,None used,0,0,False,7,2015
+16329,213905,8/19/2016 2:51:00 PM,Not reported,Not reported,0,0,False,8,2016
+17550,251624,6/14/2018 9:43:00 AM,None used,None used,0,0,False,6,2018
+10567,228757,5/22/2017 2:20:00 PM,None used,None used,0,0,False,5,2017
+8705,227750,5/6/2017 4:25:00 PM,None used,None used,0,0,False,5,2017
+31465,265853,12/30/2018 2:52:00 PM,None used,None used,0,0,False,12,2018
+15559,231901,7/27/2017 10:02:00 PM,Not applicable,Not applicable,0,0,False,7,2017
+29058,207916,9/19/2015 10:05:00 AM,None used,None used,0,0,False,9,2015
+20718,253624,10/21/2018 6:45:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2018
+25841,220060,12/14/2016 11:41:00 AM,None used,None used,0,0,False,12,2016
+28814,204591,12/15/2015 3:25:00 AM,None used,None used,0,0,False,12,2015
+25689,201811,11/1/2015 8:13:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2015
+2760,223119,2/7/2017 3:32:00 PM,None used,None used,0,0,False,2,2017
+18294,197001,9/22/2015 4:19:00 PM,None used,None used,0,0,False,9,2015
+10026,191975,4/25/2015 10:13:00 PM,None used,None used,0,0,False,4,2015
+11874,211241,6/20/2016 7:55:00 AM,Not reported,Not reported,0,0,False,6,2016
+21202,216907,10/24/2016 6:30:00 PM,None used,None used,0,0,False,10,2016
+25314,201585,11/14/2015 2:53:00 PM,Not reported,Not reported,0,0,False,11,2015
+9584,209797,5/26/2016 6:00:00 AM,None used,None used,0,0,False,5,2016
+17930,251875,6/20/2018 4:35:00 PM,None used,None used,0,0,False,6,2018
+7048,225663,4/10/2017 8:38:00 AM,None used,None used,0,0,False,4,2017
+125,221180,1/1/2017 3:30:00 AM,Not reported,Not reported,0,0,False,1,2017
+1872,186802,1/2/2015 3:30:00 PM,None used,None used,0,0,False,1,2015
+5209,207107,3/24/2016 8:10:00 PM,None used,None used,0,0,False,3,2016
+17,202922,1/2/2016 11:04:00 AM,None used,None used,0,0,False,1,2016
+29432,261531,11/6/2018 3:44:00 PM,None used,None used,0,0,False,11,2018
+17015,196220,8/12/2015 11:26:00 AM,None used,None used,0,0,False,8,2015
+23628,218602,11/20/2016 6:15:00 AM,Wild animal hit,Wild animal hit,0,0,False,11,2016
+18349,233376,8/31/2017 5:15:00 AM,None used,None used,0,0,False,8,2017
+18907,233825,9/12/2017 10:24:00 AM,None used,None used,0,0,False,9,2017
+12641,248802,7/13/2018 7:05:00 AM,Wild animal hit,Wild animal hit,0,0,False,7,2018
+18804,197273,10/2/2015 3:00:00 PM,None used,None used,0,0,False,10,2015
+8767,209282,5/11/2016 9:45:00 AM,None used,None used,0,0,False,5,2016
+7,202891,1/3/2016 4:41:00 PM,None used,None used,0,0,False,1,2016
+7825,226171,3/25/2017 1:00:00 AM,None used,Alcohol used,0,1,True,3,2017
+18801,215400,10/1/2016 4:42:00 PM,None used,None used,0,0,False,10,2016
+8620,209219,5/12/2016 3:55:00 PM,None used,None used,0,0,False,5,2016
+14633,212923,8/7/2016 5:02:00 PM,None used,None used,0,0,False,8,2016
+8641,191137,4/28/2015 7:30:00 AM,Wild animal hit,Wild animal hit,0,0,False,4,2015
+23086,218246,11/3/2016 7:28:00 PM,None used,None used,0,0,False,11,2016
+16714,232559,8/1/2017 5:35:00 PM,Not applicable,Not applicable,0,0,False,8,2017
+23627,218601,11/15/2016 2:35:00 AM,Unknown,Unknown,0,0,False,11,2016
+22662,236215,9/15/2017 8:52:00 PM,None used,None used,0,0,False,9,2017
+25483,256599,11/28/2018 4:25:00 PM,None used,None used,0,0,False,11,2018
+26642,202431,12/23/2015 2:34:00 PM,None used,None used,0,0,False,12,2015
+5500,244311,3/6/2018 9:43:00 AM,None used,None used,0,0,False,3,2018
+3476,243114,2/7/2018 5:35:00 PM,None used,None used,0,0,False,2,2018
+6566,207946,4/11/2016 4:45:00 PM,None used,None used,0,0,False,4,2016
+13527,212265,7/8/2016 3:02:00 PM,None used,None used,0,0,False,7,2016
+1126,186278,1/19/2015 10:56:00 AM,None used,None used,0,0,False,1,2015
+1151,241815,1/16/2018 7:55:00 AM,None used,None used,0,0,False,1,2018
+18244,215091,9/22/2016 12:08:00 PM,None used,None used,0,0,False,9,2016
+21882,217340,10/24/2016 8:20:00 AM,None used,None used,0,0,False,10,2016
+22366,199509,10/31/2015 5:12:00 PM,None used,None used,0,0,False,10,2015
+16173,250753,8/18/2018 11:25:00 AM,Wild animal hit,Wild animal hit,0,0,False,8,2018
+16554,195935,8/20/2015 8:43:00 PM,None used,None used,0,0,False,8,2015
+25153,219646,12/2/2016 4:51:00 PM,None used,None used,0,0,False,12,2016
+4270,206560,2/19/2016 8:22:00 AM,None used,None used,0,0,False,2,2016
+26807,239090,12/3/2017 11:30:00 AM,None used,None used,0,0,False,12,2017
+9659,209822,5/31/2016 6:43:00 PM,None used,None used,0,0,False,5,2016
+15501,231788,7/30/2017 9:15:00 PM,Wild animal hit,Wild animal hit,0,0,False,7,2017
+15720,250569,8/19/2018 2:05:00 PM,None used,None used,0,0,False,8,2018
+24162,200698,11/7/2015 7:18:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2015
+4860,224407,3/7/2017 4:46:00 PM,None used,None used,0,0,False,3,2017
+15449,231806,8/1/2017 7:50:00 PM,None used,None used,0,0,False,8,2017
+28959,260546,10/26/2018 2:51:00 PM,None used,None used,0,0,False,10,2018
+14353,212744,7/31/2016 1:41:00 PM,None used,None used,0,0,False,7,2016
+14794,249981,5/11/2018 4:30:00 AM,None used,None used,0,0,False,5,2018
+19581,197740,10/9/2015 3:33:00 PM,None used,None used,0,0,False,10,2015
+21284,235343,10/11/2017 7:53:00 AM,None used,None used,0,0,False,10,2017
+26560,220498,12/8/2016 3:49:00 PM,None used,None used,0,0,False,12,2016
+22178,199350,11/8/2015 5:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2015
+22642,217980,11/9/2016 11:19:00 AM,None used,None used,0,0,False,11,2016
+23679,218689,11/17/2016 4:59:00 PM,None used,None used,0,0,False,11,2016
+441,203701,1/14/2016 11:40:00 AM,Not reported,Not reported,0,0,False,1,2016
+1746,222519,1/5/2017 8:00:00 AM,None used,None used,0,0,False,1,2017
+27940,203227,11/30/2015 5:33:00 AM,None used,Alcohol used,0,1,True,11,2015
+5337,244224,3/9/2018 12:06:00 PM,None used,None used,0,0,False,3,2018
+26808,239091,12/3/2017 5:30:00 PM,None used,Alcohol used,0,1,True,12,2017
+11053,229234,6/9/2017 4:50:00 PM,Drugs used,None used,1,0,True,6,2017
+16827,196154,8/10/2015 7:48:00 AM,None used,None used,0,0,False,8,2015
+9718,191773,5/1/2015 10:00:00 PM,Not applicable,Not applicable,0,0,False,5,2015
+15238,231675,7/27/2017 5:11:00 PM,None used,None used,0,0,False,7,2017
+29073,260734,10/29/2018 6:45:00 AM,None used,None used,0,0,False,10,2018
+27376,202963,12/30/2015 12:02:00 PM,None used,None used,0,0,False,12,2015
+19234,197575,9/13/2015 5:06:00 PM,None used,None used,0,0,False,9,2015
+10823,247784,6/7/2018 3:10:00 PM,None used,None used,0,0,False,6,2018
+4209,206377,2/16/2016 1:50:00 PM,None used,None used,0,0,False,2,2016
+14989,231520,7/24/2017 4:57:00 PM,Not applicable,Not applicable,0,0,False,7,2017
+20625,253553,7/14/2018 7:31:00 PM,Unknown,None used,0,0,False,7,2018
+20076,197917,10/10/2015 2:30:00 AM,Unknown,Alcohol used,0,1,True,10,2015
+23783,218765,11/19/2016 4:56:00 AM,Wild animal hit,Wild animal hit,0,0,False,11,2016
+11942,193245,5/23/2015 4:44:00 PM,None used,None used,0,0,False,5,2015
+12780,193737,7/17/2015 9:58:00 AM,None used,None used,0,0,False,7,2015
+3951,206455,3/2/2016 9:25:00 AM,None used,None used,0,0,False,3,2016
+17176,196324,8/5/2015 11:51:00 AM,None used,None used,0,0,False,8,2015
+5916,189511,4/5/2015 3:23:00 PM,None used,None used,0,0,False,4,2015
+22993,254926,11/7/2018 6:14:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2018
+26776,202499,11/8/2015 8:23:00 PM,None used,None used,0,0,False,11,2015
+30881,263994,12/27/2018 7:07:00 PM,None used,Alcohol used,0,1,True,12,2018
+2117,187040,2/10/2015 7:22:00 AM,None used,None used,0,0,False,2,2015
+2009,242221,1/26/2018 7:13:00 AM,Not reported,Not reported,0,0,False,1,2018
+18409,233412,8/28/2017 1:15:00 PM,None used,None used,0,0,False,8,2017
+12796,248752,4/26/2018 1:38:00 PM,None used,None used,0,0,False,4,2018
+18648,197170,9/30/2015 9:45:00 AM,Wild animal hit,Wild animal hit,0,0,False,9,2015
+28969,207651,12/27/2015 12:11:00 AM,Wild animal hit,Wild animal hit,0,0,False,12,2015
+23284,200259,11/19/2015 5:26:00 PM,None used,None used,0,0,False,11,2015
+10388,228786,5/27/2017 9:35:00 AM,None used,None used,0,0,False,5,2017
+14710,194784,8/1/2015 3:54:00 PM,None used,None used,0,0,False,8,2015
+2645,205440,2/20/2016 11:54:00 AM,None used,None used,0,0,False,2,2016
+12564,230107,6/24/2017 5:13:00 PM,None used,None used,0,0,False,6,2017
+15293,250291,5/28/2018 1:06:00 PM,None used,None used,0,0,False,5,2018
+25893,238490,11/5/2017 2:46:00 PM,Unknown,Unknown,0,0,False,11,2017
+16704,195974,9/4/2015 5:47:00 PM,Unknown,Unknown,0,0,False,9,2015
+19307,234082,9/13/2017 6:20:00 PM,None used,None used,0,0,False,9,2017
+20947,253710,10/13/2018 6:05:00 PM,None used,None used,0,0,False,10,2018
+15742,250655,8/19/2018 11:55:00 AM,None used,None used,0,0,False,8,2018
+20156,253103,7/23/2018 10:30:00 AM,None used,None used,0,0,False,7,2018
+13076,211909,7/8/2016 10:00:00 PM,None used,Unknown,0,0,False,7,2016
+21846,254282,10/30/2018 7:00:00 AM,None used,None used,0,0,False,10,2018
+7102,245383,4/14/2018 2:38:00 AM,Unknown,Unknown,0,0,False,4,2018
+20594,253447,10/1/2018 8:26:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2018
+17350,196411,9/8/2015 1:36:00 PM,Not reported,Not reported,0,0,False,9,2015
+15785,213607,8/20/2016 4:16:00 PM,None used,None used,0,0,False,8,2016
+1913,205038,1/6/2016 1:45:00 PM,None used,None used,0,0,False,1,2016
+7043,190187,3/17/2015 2:07:00 PM,None used,None used,0,0,False,3,2015
+6215,189693,4/10/2015 4:51:00 PM,Not reported,Not reported,0,0,False,4,2015
+15028,195019,7/15/2015 11:42:00 AM,Not applicable,Not applicable,0,0,False,7,2015
+8346,190942,5/15/2015 1:13:00 PM,Not applicable,Not applicable,0,0,False,5,2015
+9010,246488,3/22/2018 7:51:00 AM,Not reported,Not reported,0,0,False,3,2018
+15300,213298,8/11/2016 3:31:00 PM,None used,None used,0,0,False,8,2016
+7501,245598,4/6/2018 11:49:00 PM,Wild animal hit,Wild animal hit,0,0,False,4,2018
+26668,202406,11/20/2015 2:54:00 PM,None used,None used,0,0,False,11,2015
+5806,189447,4/8/2015 8:06:00 AM,None used,None used,0,0,False,4,2015
+16347,213947,8/26/2016 2:27:00 PM,None used,None used,0,0,False,8,2016
+17211,251290,6/15/2018 4:49:00 PM,None used,None used,0,0,False,6,2018
+21211,235288,10/2/2017 1:14:00 PM,None used,None used,0,0,False,10,2017
+25408,256722,11/8/2018 7:36:00 AM,None used,None used,0,0,False,11,2018
+27541,221146,12/29/2016 1:14:00 PM,None used,None used,0,0,False,12,2016
+30959,264042,12/28/2018 1:46:00 PM,None used,None used,0,0,False,12,2018
+5472,207234,3/7/2016 4:42:00 PM,None used,None used,0,0,False,3,2016
+4966,224464,3/9/2017 11:34:00 AM,None used,None used,0,0,False,3,2017
+10080,247132,5/30/2018 3:51:00 PM,None used,None used,0,0,False,5,2018
+22636,236192,10/26/2017 1:58:00 AM,Wild animal hit,Wild animal hit,0,0,False,10,2017
+1643,204941,1/5/2016 3:15:00 PM,None used,None used,0,0,False,1,2016
+11056,192641,6/18/2015 5:25:00 AM,None used,None used,0,0,False,6,2015
+3839,243286,2/13/2018 4:42:00 PM,None used,None used,0,0,False,2,2018
+28999,260602,10/25/2018 1:17:00 PM,None used,None used,0,0,False,10,2018
+19387,197553,10/3/2015 4:45:00 AM,Wild animal hit,Wild animal hit,0,0,False,10,2015
+15760,213586,5/4/2016 2:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,5,2016
+14774,231305,7/20/2017 11:23:00 AM,None used,None used,0,0,False,7,2017
+10092,210137,6/6/2016 12:46:00 PM,None used,None used,0,0,False,6,2016
+21434,217037,10/31/2016 7:56:00 AM,Wild animal hit,Wild animal hit,0,0,False,10,2016
+15467,213336,8/16/2016 4:30:00 PM,None used,None used,0,0,False,8,2016
+1722,222503,1/12/2017 4:26:00 PM,None used,None used,0,0,False,1,2017
+19139,252667,10/1/2018 7:09:00 PM,Unknown,Alcohol used,0,1,True,10,2018
+4773,243907,2/28/2018 4:21:00 PM,None used,None used,0,0,False,2,2018
+28762,239698,12/21/2017 3:15:00 PM,None used,None used,0,0,False,12,2017
+805,221808,1/12/2017 5:50:00 AM,None used,None used,0,0,False,1,2017
+6134,225196,3/31/2017 11:48:00 AM,None used,None used,0,0,False,3,2017
+19026,197293,10/3/2015 8:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2015
+10602,192412,6/18/2015 7:17:00 PM,Not applicable,Not applicable,0,0,False,6,2015
+15083,250125,3/7/2018 3:44:00 PM,Unknown,Unknown,0,0,False,3,2018
+24043,255802,11/13/2018 10:10:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2018
+4566,206657,2/24/2016 8:30:00 PM,None used,None used,0,0,False,2,2016
+29406,261509,12/12/2018 5:40:00 PM,None used,None used,0,0,False,12,2018
+8300,246090,3/17/2018 3:00:00 PM,None used,None used,0,0,False,3,2018
+18756,233669,9/10/2017 8:25:00 PM,Wild animal hit,Wild animal hit,0,0,False,9,2017
+4612,188731,2/15/2015 11:02:00 AM,None used,None used,0,0,False,2,2015
+6156,207607,4/4/2016 8:41:00 AM,Not reported,Not reported,0,0,False,4,2016
+2192,205116,2/11/2016 6:55:00 AM,None used,None used,0,0,False,2,2016
+2888,187519,2/5/2015 7:38:00 AM,None used,None used,0,0,False,2,2015
+9960,228351,5/17/2017 3:25:00 PM,None used,None used,0,0,False,5,2017
+394,203570,1/12/2016 5:15:00 PM,None used,None used,0,0,False,1,2016
+18971,233854,9/13/2017 3:46:00 PM,None used,None used,0,0,False,9,2017
+23519,255579,11/11/2018 5:25:00 PM,None used,None used,0,0,False,11,2018
+23091,218261,11/4/2016 9:46:00 PM,None used,None used,0,0,False,11,2016
+26847,238716,12/7/2017 9:55:00 AM,None used,None used,0,0,False,12,2017
+25005,256371,11/28/2018 1:47:00 PM,None used,None used,0,0,False,11,2018
+437,203669,1/12/2016 12:30:00 AM,None used,None used,0,0,False,1,2016
+285,203483,1/6/2016 3:59:00 PM,Not reported,Not reported,0,0,False,1,2016
+16268,250824,5/21/2018 10:31:00 AM,None used,None used,0,0,False,5,2018
+11014,192642,6/16/2015 11:46:00 PM,None used,None used,0,0,False,6,2015
+9762,209968,5/26/2016 1:13:00 PM,None used,None used,0,0,False,5,2016
+23162,236568,10/26/2017 5:30:00 PM,None used,None used,0,0,False,10,2017
+26377,257118,12/4/2018 7:25:00 AM,None used,None used,0,0,False,12,2018
+22589,217943,11/10/2016 4:11:00 PM,None used,None used,0,0,False,11,2016
+7628,226090,1/20/2017 4:30:00 AM,Wild animal hit,Wild animal hit,0,0,False,1,2017
+27549,257883,10/24/2018 6:30:00 AM,Wild animal hit,Wild animal hit,0,0,False,10,2018
+21993,217473,11/3/2016 7:28:00 AM,Not reported,Not reported,0,0,False,11,2016
+11913,193152,6/14/2015 7:30:00 PM,Wild animal hit,Wild animal hit,0,0,False,6,2015
+24850,256194,11/20/2018 5:53:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2018
+3871,243301,2/14/2018 5:25:00 PM,None used,None used,0,0,False,2,2018
+25158,256408,12/5/2018 8:56:00 AM,None used,None used,0,0,False,12,2018
+9281,246790,5/24/2018 12:55:00 PM,None used,None used,0,0,False,5,2018
+9527,191825,5/24/2015 3:42:00 PM,None used,None used,0,0,False,5,2015
+14917,231498,7/26/2017 3:12:00 AM,None used,None used,0,0,False,7,2017
+16710,195983,9/5/2015 3:05:00 AM,Unknown,Alcohol used,0,1,True,9,2015
+19531,252782,7/14/2018 9:55:00 PM,None used,None used,0,0,False,7,2018
+16492,251205,8/29/2018 6:36:00 PM,None used,None used,0,0,False,8,2018
+5251,244098,3/5/2018 2:01:00 PM,None used,None used,0,0,False,3,2018
+18488,252194,9/20/2018 7:47:00 AM,None used,None used,0,0,False,9,2018
+11233,248032,6/22/2018 12:00:00 PM,None used,None used,0,0,False,6,2018
+10301,228732,5/22/2017 5:30:00 PM,None used,None used,0,0,False,5,2017
+20803,216671,10/22/2016 1:07:00 PM,None used,None used,0,0,False,10,2016
+12667,230152,6/12/2017 9:20:00 PM,Wild animal hit,Wild animal hit,0,0,False,6,2017
+27557,221159,12/21/2016 3:54:00 PM,None used,None used,0,0,False,12,2016
+29454,240745,12/30/2017 11:49:00 AM,None used,None used,0,0,False,12,2017
+412,203581,1/4/2016 3:46:00 PM,None used,None used,0,0,False,1,2016
+23891,237039,11/2/2017 6:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,11,2017
+1075,204280,1/23/2016 10:00:00 AM,Not applicable,Not applicable,0,0,False,1,2016
+9375,191512,4/29/2015 7:40:00 AM,None used,None used,0,0,False,4,2015
+12293,211557,7/7/2016 4:09:00 PM,None used,None used,0,0,False,7,2016
+23323,236531,11/1/2017 6:31:00 AM,Wild animal hit,Wild animal hit,0,0,False,11,2017
+17834,251848,8/26/2018 9:57:00 PM,Wild animal hit,Wild animal hit,0,0,False,8,2018
+26109,201921,12/16/2015 8:30:00 PM,None used,None used,0,0,False,12,2015
+18418,233579,9/7/2017 6:04:00 PM,None used,None used,0,0,False,9,2017
+17335,214473,8/29/2016 12:00:00 AM,Unknown,Unknown,0,0,False,8,2016
+17031,214296,9/4/2016 5:33:00 PM,None used,None used,0,0,False,9,2016
+7542,208544,4/27/2016 4:15:00 PM,None used,None used,0,0,False,4,2016
+22676,199625,11/7/2015 9:50:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2015
+24895,219495,12/5/2016 9:34:00 AM,None used,None used,0,0,False,12,2016
+5586,207211,3/20/2016 2:00:00 AM,None used,Alcohol used,0,1,True,3,2016
+25743,238406,11/22/2017 7:34:00 PM,Not applicable,Not applicable,0,0,False,11,2017
+11546,192941,5/1/2015 1:32:00 PM,None used,None used,0,0,False,5,2015
+25422,256725,11/28/2018 4:23:00 PM,Drugs used,None used,1,0,True,11,2018
+19358,215750,10/7/2016 8:55:00 AM,None used,None used,0,0,False,10,2016
+31487,265865,12/31/2018 11:44:00 AM,None used,None used,0,0,False,12,2018
+4585,206689,3/12/2016 5:24:00 AM,Unknown,Unknown,0,0,False,3,2016
+17481,233008,8/24/2017 5:53:00 AM,None used,None used,0,0,False,8,2017
+8062,226395,4/25/2017 12:03:00 PM,None used,None used,0,0,False,4,2017
+18072,196857,9/1/2015 7:43:00 PM,Not applicable,Not applicable,0,0,False,9,2015
+12978,211965,7/4/2016 3:18:00 PM,None used,None used,0,0,False,7,2016
+12776,211824,7/10/2016 8:21:00 AM,Wild animal hit,Wild animal hit,0,0,False,7,2016
+24003,237089,11/12/2017 8:30:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2017
+2444,187383,2/13/2015 6:50:00 PM,None used,None used,0,0,False,2,2015
+23257,218366,11/19/2016 6:45:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2016
+25370,237550,11/20/2017 2:12:00 PM,None used,None used,0,0,False,11,2017
+29254,240575,12/28/2017 6:26:00 PM,None used,None used,0,0,False,12,2017
+2633,205419,2/19/2016 4:28:00 PM,None used,None used,0,0,False,2,2016
+1371,222266,1/12/2017 7:30:00 AM,None used,None used,0,0,False,1,2017
+1462,204682,1/24/2016 10:57:00 AM,None used,None used,0,0,False,1,2016
+463,221537,1/9/2017 1:10:00 AM,Wild animal hit,Wild animal hit,0,0,False,1,2017
+7817,208705,5/3/2016 10:04:00 PM,None used,None used,0,0,False,5,2016
+27656,221264,12/28/2016 2:40:00 PM,None used,None used,0,0,False,12,2016
+27579,221215,12/29/2016 4:23:00 PM,None used,None used,0,0,False,12,2016
+28329,203787,12/28/2015 3:51:00 PM,None used,None used,0,0,False,12,2015
+8645,226578,5/3/2017 5:45:00 PM,None used,None used,0,0,False,5,2017
+6881,208158,4/18/2016 11:23:00 AM,None used,None used,0,0,False,4,2016
+18429,215180,8/21/2016 1:30:00 PM,Wild animal hit,Wild animal hit,0,0,False,8,2016
+4971,188886,3/14/2015 2:12:00 AM,Not applicable,Not applicable,0,0,False,3,2015
+22600,254704,10/31/2018 4:57:00 AM,Wild animal hit,Wild animal hit,0,0,False,10,2018
+27760,258192,12/29/2018 9:29:00 PM,Wild animal hit,Wild animal hit,0,0,False,12,2018
+10263,210258,6/8/2016 5:23:00 PM,None used,None used,0,0,False,6,2016
+24224,237129,11/6/2017 4:12:00 PM,None used,None used,0,0,False,11,2017
+2651,187367,1/7/2015 8:51:00 AM,None used,None used,0,0,False,1,2015
+27710,203188,12/17/2015 3:48:00 PM,Not applicable,Not applicable,0,0,False,12,2015
+27339,239456,12/8/2017 12:46:00 AM,None used,None used,0,0,False,12,2017
+5207,189088,3/25/2015 8:30:00 AM,Wild animal hit,Wild animal hit,0,0,False,3,2015
+11329,247871,4/2/2018 8:15:00 AM,Unknown,None used,0,0,False,4,2018
+7786,208700,5/3/2016 5:04:00 AM,Wild animal hit,Wild animal hit,0,0,False,5,2016
+3964,243486,2/19/2018 6:15:00 AM,Not reported,Not reported,0,0,False,2,2018
+10105,228574,5/25/2017 3:26:00 PM,None used,None used,0,0,False,5,2017
+5702,207365,4/1/2016 10:00:00 AM,None used,None used,0,0,False,4,2016
+22806,199860,11/15/2015 10:45:00 AM,None used,None used,0,0,False,11,2015
+29930,262668,11/18/2018 6:39:00 PM,None used,None used,0,0,False,11,2018
+9876,210009,5/31/2016 10:57:00 AM,Wild animal hit,Wild animal hit,0,0,False,5,2016
+13190,249088,7/14/2018 12:00:00 AM,Unknown,Unknown,0,0,False,7,2018
+24466,256066,8/16/2018 5:59:00 PM,Not applicable,Not applicable,0,0,False,8,2018
+8463,226640,4/25/2017 3:17:00 PM,None used,None used,0,0,False,4,2017
+23653,200449,11/23/2015 10:22:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2015
+2304,222716,1/24/2017 6:20:00 PM,None used,None used,0,0,False,1,2017
+10007,228405,5/16/2017 7:42:00 AM,None used,None used,0,0,False,5,2017
+20664,216534,10/16/2016 9:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,10,2016
+16381,232381,8/9/2017 4:43:00 PM,Unknown,Unknown,0,0,False,8,2017
+20608,216525,10/20/2016 7:02:00 AM,None used,None used,0,0,False,10,2016
+27094,202650,12/26/2015 10:15:00 PM,None used,None used,0,0,False,12,2015
+17999,252015,9/4/2018 4:56:00 PM,None used,None used,0,0,False,9,2018
+1378,222268,1/16/2017 4:00:00 PM,None used,None used,0,0,False,1,2017
+21437,217059,9/20/2016 6:53:00 AM,None used,None used,0,0,False,9,2016
+12643,211766,7/12/2016 3:03:00 PM,None used,None used,0,0,False,7,2016
+19176,234004,9/12/2017 9:44:00 AM,None used,None used,0,0,False,9,2017
+23919,218825,11/11/2016 6:50:00 PM,None used,None used,0,0,False,11,2016
+23837,255255,11/14/2018 6:10:00 PM,None used,None used,0,0,False,11,2018
+19553,215860,10/8/2016 9:02:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2016
+4935,188895,2/17/2015 9:19:00 AM,None used,None used,0,0,False,2,2015
+27491,239488,12/8/2017 3:57:00 PM,None used,None used,0,0,False,12,2017
+17280,196394,8/22/2015 7:45:00 PM,None used,None used,0,0,False,8,2015
+28313,203781,12/22/2015 11:43:00 AM,None used,None used,0,0,False,12,2015
+15154,231628,7/30/2017 10:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,7,2017
+21096,216810,10/27/2016 7:20:00 AM,Wild animal hit,Wild animal hit,0,0,False,10,2016
+21039,234982,10/2/2017 6:36:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2017
+9443,246733,5/30/2018 5:32:00 PM,None used,None used,0,0,False,5,2018
+4196,188481,3/8/2015 10:00:00 PM,Drugs used,Alcohol used,1,1,True,3,2015
+14506,212828,7/11/2016 10:18:00 AM,Unknown,None used,0,0,False,7,2016
+20892,235052,10/2/2017 7:21:00 AM,None used,None used,0,0,False,10,2017
+16812,196141,8/9/2015 9:30:00 AM,None used,None used,0,0,False,8,2015
+10785,247475,3/14/2018 7:49:00 AM,None used,None used,0,0,False,3,2018
+18260,233347,9/1/2017 9:14:00 PM,None used,None used,0,0,False,9,2017
+28401,203916,12/30/2015 8:17:00 AM,None used,None used,0,0,False,12,2015
+25291,256572,12/5/2018 3:50:00 PM,Wild animal hit,Wild animal hit,0,0,False,12,2018
+1330,241847,1/16/2018 7:59:00 PM,None used,None used,0,0,False,1,2018
+14064,212593,7/27/2016 4:13:00 AM,Wild animal hit,Wild animal hit,0,0,False,7,2016
+25992,238562,11/29/2017 3:38:00 PM,None used,None used,0,0,False,11,2017
+8846,191231,4/24/2015 1:24:00 PM,None used,None used,0,0,False,4,2015
+6440,189837,3/1/2015 1:15:00 PM,None used,None used,0,0,False,3,2015
+10765,192503,5/17/2015 9:51:00 AM,None used,None used,0,0,False,5,2015
+28889,240374,12/24/2017 9:40:00 AM,None used,None used,0,0,False,12,2017
+23828,200615,11/25/2015 7:42:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2015
+13737,230839,7/4/2017 12:00:00 PM,Not reported,Not reported,0,0,False,7,2017
+13973,194399,8/1/2015 9:15:00 PM,None used,None used,0,0,False,8,2015
+24626,201145,11/21/2015 8:30:00 AM,Unknown,None used,0,0,False,11,2015
+4909,224386,3/6/2017 4:36:00 PM,None used,None used,0,0,False,3,2017
+17439,214562,9/12/2016 10:54:00 AM,None used,None used,0,0,False,9,2016
+10412,228604,5/19/2017 1:57:00 PM,Unknown,Unknown,0,0,False,5,2017
+25414,201625,12/11/2015 3:12:00 PM,None used,None used,0,0,False,12,2015
+12680,248671,4/16/2018 12:03:00 PM,None used,None used,0,0,False,4,2018
+15321,213317,8/12/2016 7:56:00 AM,None used,None used,0,0,False,8,2016
+8937,209417,5/13/2016 5:24:00 AM,None used,None used,0,0,False,5,2016
+10988,192632,5/28/2015 7:15:00 AM,None used,None used,0,0,False,5,2015
+9381,246624,5/22/2018 1:00:00 AM,None used,None used,0,0,False,5,2018
+12945,248955,7/14/2018 11:19:00 PM,Wild animal hit,Wild animal hit,0,0,False,7,2018
+5869,225050,3/21/2017 6:53:00 PM,None used,None used,0,0,False,3,2017
+24734,201332,12/4/2015 11:12:00 AM,None used,None used,0,0,False,12,2015
+29250,240573,12/28/2017 5:56:00 PM,None used,None used,0,0,False,12,2017
+31096,264182,12/18/2018 1:06:00 PM,None used,None used,0,0,False,12,2018
+27233,257631,9/25/2018 1:50:00 PM,None used,None used,0,0,False,9,2018
+18921,252509,9/25/2018 8:31:00 AM,None used,None used,0,0,False,9,2018
+17711,251751,2/22/2018 2:00:00 PM,None used,None used,0,0,False,2,2018
+4139,243355,2/16/2018 6:28:00 PM,None used,None used,0,0,False,2,2018
+9502,228195,5/6/2017 7:06:00 PM,None used,None used,0,0,False,5,2017
+7009,208219,3/31/2016 7:19:00 AM,None used,None used,0,0,False,3,2016
+26763,202501,12/27/2015 9:17:00 AM,Not reported,Not reported,0,0,False,12,2015
+18560,233676,9/4/2017 4:40:00 PM,None used,None used,0,0,False,9,2017
+26851,220671,12/25/2016 12:10:00 AM,None used,None used,0,0,False,12,2016
+3776,188227,1/19/2015 5:59:00 AM,None used,None used,0,0,False,1,2015
+18641,252268,9/23/2018 10:20:00 AM,None used,None used,0,0,False,9,2018
+23669,200532,11/4/2015 8:48:00 PM,None used,None used,0,0,False,11,2015
+12128,248576,7/7/2018 10:11:00 AM,None used,None used,0,0,False,7,2018
+13182,193984,6/15/2015 6:11:00 PM,None used,None used,0,0,False,6,2015
+23394,255360,11/8/2018 8:08:00 AM,None used,None used,0,0,False,11,2018
+3868,188279,1/20/2015 4:55:00 PM,None used,None used,0,0,False,1,2015
+9351,227970,5/4/2017 3:03:00 PM,Not reported,Not reported,0,0,False,5,2017
+19368,252685,9/28/2018 12:58:00 PM,Unknown,Unknown,0,0,False,9,2018
+3186,223394,1/4/2017 7:43:00 AM,None used,None used,0,0,False,1,2017
+10324,192261,6/15/2015 3:25:00 PM,None used,None used,0,0,False,6,2015
+1678,222472,1/23/2017 5:20:00 PM,None used,None used,0,0,False,1,2017
+21119,253826,10/21/2018 8:05:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2018
+8275,246079,4/23/2018 12:21:00 AM,Not applicable,Not applicable,0,0,False,4,2018
+24481,237627,11/15/2017 3:00:00 PM,None used,Alcohol used,0,1,True,11,2017
+12401,248507,4/11/2018 3:40:00 PM,None used,None used,0,0,False,4,2018
+19344,197533,9/24/2015 1:05:00 PM,None used,None used,0,0,False,9,2015
+24112,200584,11/20/2015 4:03:00 PM,None used,None used,0,0,False,11,2015
+713,221779,1/13/2017 8:12:00 AM,None used,None used,0,0,False,1,2017
+12316,229957,6/23/2017 9:59:00 PM,Wild animal hit,Wild animal hit,0,0,False,6,2017
+1426,241920,1/20/2018 2:55:00 PM,None used,Alcohol used,0,1,True,1,2018
+1965,222662,1/26/2017 5:13:00 PM,Not reported,Not reported,0,0,False,1,2017
+3229,242968,2/8/2018 6:41:00 PM,None used,None used,0,0,False,2,2018
+16376,195851,8/25/2015 8:36:00 AM,None used,None used,0,0,False,8,2015
+17270,251558,9/8/2018 10:35:00 PM,None used,Alcohol used,0,1,True,9,2018
+6398,225351,3/31/2017 5:57:00 PM,Not applicable,Not applicable,0,0,False,3,2017
+8588,191103,4/20/2015 3:22:00 PM,None used,None used,0,0,False,4,2015
+2817,223189,2/8/2017 5:28:00 PM,None used,None used,0,0,False,2,2017
+17099,196269,9/3/2015 3:53:00 PM,None used,None used,0,0,False,9,2015
+21206,216910,10/27/2016 5:05:00 AM,None used,None used,0,0,False,10,2016
+2706,223095,1/13/2017 6:36:00 PM,Wild animal hit,Wild animal hit,0,0,False,1,2017
+12140,211405,7/5/2016 4:15:00 PM,Unknown,Unknown,0,0,False,7,2016
+9609,228277,3/15/2017 8:20:00 AM,None used,None used,0,0,False,3,2017
+16379,232380,8/9/2017 3:13:00 AM,None used,Alcohol used,0,1,True,8,2017
+20413,216398,10/17/2016 7:15:00 AM,None used,None used,0,0,False,10,2016
+4748,188809,1/6/2015 9:50:00 AM,Drugs used,None used,1,0,True,1,2015
+12593,248643,4/16/2018 6:47:00 AM,None used,None used,0,0,False,4,2018
+26654,202415,12/23/2015 8:19:00 AM,None used,None used,0,0,False,12,2015
+1970,222629,1/26/2017 6:50:00 PM,None used,None used,0,0,False,1,2017
+5266,189127,2/10/2015 6:44:00 AM,None used,None used,0,0,False,2,2015
+2127,242313,1/25/2018 6:25:00 PM,None used,None used,0,0,False,1,2018
+16722,195996,8/30/2015 8:40:00 PM,None used,None used,0,0,False,8,2015
+1065,204271,1/25/2016 2:15:00 PM,None used,None used,0,0,False,1,2016
+14610,194861,8/7/2015 10:35:00 AM,None used,None used,0,0,False,8,2015
+13600,249249,5/3/2018 5:56:00 PM,None used,None used,0,0,False,5,2018
+26546,238932,11/30/2017 6:39:00 PM,Not applicable,Not applicable,0,0,False,11,2017
+14437,212792,7/21/2016 12:57:00 PM,None used,None used,0,0,False,7,2016
+8440,226611,5/3/2017 9:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,5,2017
+2244,222686,1/27/2017 2:53:00 PM,Not reported,Not reported,0,0,False,1,2017
+26433,202267,11/20/2015 8:08:00 AM,None used,None used,0,0,False,11,2015
+19084,252523,7/9/2018 7:40:00 AM,None used,None used,0,0,False,7,2018
+10712,228916,6/3/2017 6:06:00 PM,None used,None used,0,0,False,6,2017
+16989,196255,9/10/2015 9:36:00 PM,None used,Alcohol used,0,1,True,9,2015
+413,241359,1/4/2018 4:53:00 PM,None used,None used,0,0,False,1,2018
+30156,262840,11/23/2018 8:41:00 PM,Unknown,Unknown,0,0,False,11,2018
+12081,193302,6/4/2015 5:23:00 PM,None used,None used,0,0,False,6,2015
+27706,258020,12/26/2018 1:39:00 PM,None used,None used,0,0,False,12,2018
+7652,245674,4/25/2018 3:33:00 PM,None used,None used,0,0,False,4,2018
+9917,209946,5/31/2016 9:15:00 AM,None used,None used,0,0,False,5,2016
+13320,230358,7/3/2017 9:30:00 PM,Unknown,Unknown,0,0,False,7,2017
+28462,259494,10/10/2018 1:38:00 PM,None used,None used,0,0,False,10,2018
+21570,235453,10/13/2017 9:40:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2017
+12787,211773,7/4/2016 4:05:00 PM,Wild animal hit,Wild animal hit,0,0,False,7,2016
+15750,213582,8/19/2016 9:02:00 AM,Not reported,Not reported,0,0,False,8,2016
+18846,215436,9/30/2016 4:58:00 PM,None used,None used,0,0,False,9,2016
+20401,253229,7/24/2018 3:29:00 PM,Not applicable,Not applicable,0,0,False,7,2018
+18325,233518,9/6/2017 12:43:00 PM,None used,None used,0,0,False,9,2017
+19364,215768,10/7/2016 1:04:00 PM,Unknown,None used,0,0,False,10,2016
+4243,188507,1/30/2015 12:17:00 PM,None used,None used,0,0,False,1,2015
+29085,207942,5/4/2015 8:10:00 AM,None used,None used,0,0,False,5,2015
+18896,252444,7/10/2018 5:21:00 PM,None used,None used,0,0,False,7,2018
+8416,226599,5/1/2017 11:12:00 AM,None used,None used,0,0,False,5,2017
+11508,193147,5/26/2015 6:35:00 AM,None used,None used,0,0,False,5,2015
+3741,223731,2/5/2017 5:33:00 AM,None used,Alcohol used,0,1,True,2,2017
+15713,195421,8/20/2015 12:09:00 AM,Wild animal hit,Wild animal hit,0,0,False,8,2015
+27447,239065,12/8/2017 11:46:00 AM,None used,None used,0,0,False,12,2017
+7013,190171,3/14/2015 4:51:00 PM,None used,None used,0,0,False,3,2015
+23473,200218,8/3/2015 10:00:00 AM,None used,None used,0,0,False,8,2015
+18598,215229,9/26/2016 7:10:00 PM,Wild animal hit,Wild animal hit,0,0,False,9,2016
+19006,215523,10/2/2016 1:26:00 PM,None used,None used,0,0,False,10,2016
+21823,254189,10/26/2018 6:10:00 AM,Wild animal hit,Wild animal hit,0,0,False,10,2018
+9642,246961,5/31/2018 3:48:00 PM,None used,None used,0,0,False,5,2018
+5799,189444,3/31/2015 6:19:00 AM,None used,None used,0,0,False,3,2015
+4713,188822,2/17/2015 6:54:00 PM,Unknown,Unknown,0,0,False,2,2015
+17878,214864,9/15/2016 3:13:00 PM,None used,None used,0,0,False,9,2016
+10513,228840,5/27/2017 11:44:00 AM,None used,None used,0,0,False,5,2017
+5329,244192,3/6/2018 1:24:00 PM,None used,None used,0,0,False,3,2018
+119,241080,1/5/2018 7:29:00 AM,None used,None used,0,0,False,1,2018
+17814,233167,8/28/2017 3:43:00 PM,None used,None used,0,0,False,8,2017
+10019,191969,4/15/2015 9:28:00 AM,None used,None used,0,0,False,4,2015
+8631,191131,4/22/2015 4:55:00 PM,None used,None used,0,0,False,4,2015
+2058,222644,1/10/2017 6:25:00 PM,None used,None used,0,0,False,1,2017
+6641,245056,4/6/2018 8:17:00 AM,None used,None used,0,0,False,4,2018
+7010,225733,4/9/2017 1:58:00 PM,None used,None used,0,0,False,4,2017
+23777,236623,10/16/2017 8:20:00 AM,None used,None used,0,0,False,10,2017
+27508,239502,12/5/2017 9:33:00 AM,None used,None used,0,0,False,12,2017
+9739,228361,5/19/2017 5:50:00 PM,None used,None used,0,0,False,5,2017
+14390,249934,8/2/2018 3:55:00 AM,None used,Alcohol used,0,1,True,8,2018
+27297,220991,12/22/2016 3:29:00 PM,None used,None used,0,0,False,12,2016
+23147,254851,11/9/2018 6:20:00 AM,Wild animal hit,Wild animal hit,0,0,False,11,2018
+12091,193305,6/5/2015 2:17:00 PM,None used,None used,0,0,False,6,2015
+17661,251769,6/18/2018 6:44:00 PM,None used,None used,0,0,False,6,2018
+47,221099,1/2/2017 4:30:00 PM,None used,None used,0,0,False,1,2017
+12157,229668,6/16/2017 4:50:00 AM,Wild animal hit,Wild animal hit,0,0,False,6,2017
+7708,208622,5/2/2016 10:09:00 PM,Wild animal hit,Wild animal hit,0,0,False,5,2016
+28261,259173,10/13/2018 10:32:00 AM,None used,None used,0,0,False,10,2018
+9071,191347,5/27/2015 8:45:00 PM,None used,None used,0,0,False,5,2015
+21047,253688,8/3/2018 10:27:00 AM,None used,None used,0,0,False,8,2018
+3223,223392,2/3/2017 7:13:00 AM,None used,None used,0,0,False,2,2017
+8345,246102,5/5/2018 3:54:00 PM,None used,None used,0,0,False,5,2018
+5439,207195,3/4/2016 4:40:00 PM,None used,None used,0,0,False,3,2016
+18741,215359,9/28/2016 4:00:00 PM,None used,None used,0,0,False,9,2016
+4052,223907,2/24/2017 5:47:00 PM,None used,None used,0,0,False,2,2017
+13156,230316,7/2/2017 12:48:00 AM,None used,None used,0,0,False,7,2017
+6230,189688,4/15/2015 3:24:00 PM,None used,None used,0,0,False,4,2015
+17718,251747,6/13/2018 10:30:00 AM,Wild animal hit,Wild animal hit,0,0,False,6,2018
+6138,189664,3/7/2015 1:50:00 AM,None used,None used,0,0,False,3,2015
+8704,246339,5/14/2018 11:31:00 AM,Not applicable,Not applicable,0,0,False,5,2018
+14998,231516,7/24/2017 9:29:00 PM,Not reported,Not reported,0,0,False,7,2017
+11192,229297,6/6/2017 5:10:00 PM,None used,None used,0,0,False,6,2017
+19634,252934,10/8/2018 5:05:00 PM,None used,None used,0,0,False,10,2018
+20688,216594,10/21/2016 12:34:00 PM,None used,None used,0,0,False,10,2016
+22339,199528,11/7/2015 6:10:00 PM,None used,None used,0,0,False,11,2015
+28898,260346,10/17/2018 11:25:00 AM,None used,None used,0,0,False,10,2018
+5827,244481,3/10/2018 8:35:00 PM,None used,None used,0,0,False,3,2018
+21479,235443,10/8/2017 3:30:00 PM,None used,None used,0,0,False,10,2017
+10357,210283,6/9/2016 5:05:00 PM,None used,None used,0,0,False,6,2016
+27433,202993,12/27/2015 1:00:00 PM,None used,None used,0,0,False,12,2015
+4174,188463,1/16/2015 11:19:00 AM,Not reported,Not reported,0,0,False,1,2015
+23639,255613,11/16/2018 2:15:00 PM,None used,None used,0,0,False,11,2018
+873,204398,1/24/2016 10:59:00 AM,None used,None used,0,0,False,1,2016
+17763,251792,9/11/2018 7:26:00 PM,Unknown,None used,0,0,False,9,2018
+20372,253511,10/7/2018 5:16:00 AM,Unknown,Unknown,0,0,False,10,2018
+26043,202110,12/13/2015 9:21:00 PM,None used,None used,0,0,False,12,2015
+3813,188268,1/19/2015 7:54:00 AM,None used,None used,0,0,False,1,2015
+22711,199665,11/10/2015 5:30:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2015
+13815,212450,7/26/2016 3:22:00 PM,None used,None used,0,0,False,7,2016
+16890,251106,6/17/2018 4:25:00 AM,None used,None used,0,0,False,6,2018
+11565,193179,5/22/2015 11:33:00 AM,None used,None used,0,0,False,5,2015
+3347,205920,2/4/2016 8:09:00 AM,None used,None used,0,0,False,2,2016
+24739,256251,11/29/2018 11:53:00 AM,None used,None used,0,0,False,11,2018
+8907,227905,5/9/2017 5:25:00 PM,None used,None used,0,0,False,5,2017
+23449,255571,11/13/2018 11:10:00 AM,None used,None used,0,0,False,11,2018
+15723,195432,8/21/2015 10:52:00 AM,None used,None used,0,0,False,8,2015
+21199,253865,10/23/2018 11:03:00 AM,None used,None used,0,0,False,10,2018
+19282,215705,9/28/2016 4:05:00 PM,Not reported,Not reported,0,0,False,9,2016
+27379,202968,12/29/2015 9:00:00 PM,None used,None used,0,0,False,12,2015
+23615,255090,11/15/2018 6:15:00 PM,None used,None used,0,0,False,11,2018
+14887,213044,8/7/2016 12:45:00 AM,None used,None used,0,0,False,8,2016
+21801,235617,10/13/2017 11:14:00 AM,None used,None used,0,0,False,10,2017
+10549,228853,6/4/2017 7:28:00 AM,Unknown,Unknown,0,0,False,6,2017
+20408,234759,9/25/2017 1:00:00 PM,None used,None used,0,0,False,9,2017
+963,241669,1/11/2018 11:51:00 AM,None used,None used,0,0,False,1,2018
+15615,250536,8/16/2018 1:18:00 PM,None used,None used,0,0,False,8,2018
+5975,189522,4/8/2015 4:59:00 PM,None used,None used,0,0,False,4,2015
+3577,188107,1/8/2015 5:59:00 PM,None used,None used,0,0,False,1,2015
+17068,196198,8/24/2015 1:53:00 AM,Not reported,Not reported,0,0,False,8,2015
+21306,198865,10/29/2015 5:22:00 PM,None used,None used,0,0,False,10,2015
+2561,187334,2/3/2015 5:20:00 PM,None used,None used,0,0,False,2,2015
+1114,221864,1/18/2017 6:09:00 AM,Wild animal hit,Wild animal hit,0,0,False,1,2017
+7984,226352,4/28/2017 9:26:00 AM,None used,None used,0,0,False,4,2017
+13532,194196,6/24/2015 5:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,6,2015
+20409,198290,10/5/2015 11:41:00 AM,None used,None used,0,0,False,10,2015
+520,203856,1/16/2016 11:30:00 AM,None used,None used,0,0,False,1,2016
+21636,198967,10/23/2015 12:45:00 AM,None used,None used,0,0,False,10,2015
+14106,249797,7/28/2018 3:16:00 AM,Wild animal hit,Wild animal hit,0,0,False,7,2018
+1408,204665,1/26/2016 4:05:00 PM,None used,None used,0,0,False,1,2016
+17471,214586,9/13/2016 12:06:00 PM,Wild animal hit,Wild animal hit,0,0,False,9,2016
+22462,217807,11/7/2016 6:59:00 AM,Wild animal hit,Wild animal hit,0,0,False,11,2016
+15782,232031,7/3/2017 8:44:00 PM,Unknown,Alcohol used,0,1,True,7,2017
+20318,253403,9/11/2018 10:30:00 AM,None used,None used,0,0,False,9,2018
+8158,190831,3/29/2015 12:04:00 PM,Not applicable,Not applicable,0,0,False,3,2015
+2198,187093,2/13/2015 7:52:00 AM,None used,None used,0,0,False,2,2015
+6998,190164,4/29/2015 1:24:00 PM,None used,None used,0,0,False,4,2015
+30180,262872,11/29/2018 2:03:00 PM,None used,None used,0,0,False,11,2018
+7759,190565,5/9/2015 1:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,5,2015
+7200,225848,4/3/2017 4:42:00 AM,None used,None used,0,0,False,4,2017
+7058,190194,4/25/2015 2:45:00 PM,None used,None used,0,0,False,4,2015
+25156,219641,11/9/2016 5:03:00 AM,Wild animal hit,Wild animal hit,0,0,False,11,2016
+8764,209279,5/18/2016 9:55:00 PM,Wild animal hit,Wild animal hit,0,0,False,5,2016
+16009,195644,8/27/2015 12:20:00 PM,None used,None used,0,0,False,8,2015
+25419,219873,12/10/2016 12:52:00 PM,None used,None used,0,0,False,12,2016
+15461,195261,8/7/2015 6:08:00 PM,None used,None used,0,0,False,8,2015
+3514,188080,1/8/2015 12:43:00 PM,None used,None used,0,0,False,1,2015
+22330,217731,11/12/2016 6:30:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2016
+26895,202686,12/18/2015 5:15:00 PM,None used,None used,0,0,False,12,2015
+29245,261074,11/2/2018 6:50:00 AM,None used,None used,0,0,False,11,2018
+11628,248183,4/17/2018 5:18:00 PM,None used,None used,0,0,False,4,2018
+20613,253446,10/14/2018 11:40:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2018
+21874,217401,11/4/2016 3:39:00 PM,None used,None used,0,0,False,11,2016
+23309,255262,11/10/2018 7:46:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2018
+16970,214300,9/3/2016 5:04:00 PM,None used,None used,0,0,False,9,2016
+12274,248461,4/9/2018 1:50:00 PM,None used,None used,0,0,False,4,2018
+9314,227935,4/30/2017 1:15:00 PM,None used,None used,0,0,False,4,2017
+25252,237603,11/13/2017 8:25:00 AM,None used,None used,0,0,False,11,2017
+20944,198614,10/27/2015 7:54:00 AM,Not applicable,Not applicable,0,0,False,10,2015
+10447,192280,4/6/2015 3:28:00 PM,None used,None used,0,0,False,4,2015
+1993,242205,1/8/2018 11:45:00 AM,None used,None used,0,0,False,1,2018
+15345,195241,8/17/2015 10:47:00 AM,None used,None used,0,0,False,8,2015
+11737,248234,6/29/2018 2:34:00 PM,None used,None used,0,0,False,6,2018
+4394,243637,2/25/2018 10:05:00 PM,Wild animal hit,Wild animal hit,0,0,False,2,2018
+14724,249923,5/15/2018 6:43:00 AM,None used,None used,0,0,False,5,2018
+28757,204473,12/25/2015 10:44:00 PM,None used,None used,0,0,False,12,2015
+8219,246034,5/3/2018 2:47:00 PM,None used,None used,0,0,False,5,2018
+10615,192384,6/11/2015 9:51:00 AM,None used,None used,0,0,False,6,2015
+28810,260135,10/23/2018 5:29:00 PM,None used,None used,0,0,False,10,2018
+14398,231112,7/14/2017 9:38:00 PM,None used,None used,0,0,False,7,2017
+5380,224729,3/17/2017 6:17:00 AM,Wild animal hit,Wild animal hit,0,0,False,3,2017
+24767,255824,11/26/2018 3:45:00 PM,None used,None used,0,0,False,11,2018
+11162,210807,6/21/2016 3:00:00 PM,None used,None used,0,0,False,6,2016
+27146,257992,12/30/2018 8:21:00 PM,None used,None used,0,0,False,12,2018
+6156,189618,3/23/2015 7:30:00 PM,Wild animal hit,Wild animal hit,0,0,False,3,2015
+11423,210986,6/24/2016 4:36:00 PM,None used,None used,0,0,False,6,2016
+8986,246474,5/21/2018 10:26:00 AM,None used,None used,0,0,False,5,2018
+22501,254505,11/2/2018 12:58:00 PM,None used,None used,0,0,False,11,2018
+21691,199101,10/20/2015 2:52:00 PM,None used,None used,0,0,False,10,2015
+29746,262444,11/14/2018 8:30:00 AM,None used,None used,0,0,False,11,2018
+22384,217766,11/11/2016 9:26:00 AM,None used,None used,0,0,False,11,2016
+23355,255001,10/23/2018 3:42:00 PM,None used,None used,0,0,False,10,2018
+24691,237843,10/17/2017 3:06:00 PM,None used,None used,0,0,False,10,2017
+10676,210514,6/8/2016 3:47:00 PM,None used,None used,0,0,False,6,2016
+22703,218004,11/11/2016 3:38:00 PM,None used,None used,0,0,False,11,2016
+26943,257387,12/26/2018 2:42:00 PM,None used,None used,0,0,False,12,2018
+13602,194258,7/28/2015 9:15:00 PM,Wild animal hit,Wild animal hit,0,0,False,7,2015
+30967,264046,9/8/2018 7:23:00 PM,None used,None used,0,0,False,9,2018
+15109,250360,8/5/2018 9:14:00 PM,None used,None used,0,0,False,8,2018
+22831,235995,10/23/2017 7:40:00 AM,Wild animal hit,Wild animal hit,0,0,False,10,2017
+11182,192761,6/6/2015 10:35:00 PM,Wild animal hit,Wild animal hit,0,0,False,6,2015
+27308,220996,12/22/2016 6:47:00 PM,Not applicable,Not applicable,0,0,False,12,2016
+9631,228294,5/13/2017 7:03:00 PM,Not applicable,Not applicable,0,0,False,5,2017
+5464,189241,2/20/2015 1:12:00 PM,None used,None used,0,0,False,2,2015
+1646,186831,1/31/2015 4:18:00 PM,None used,None used,0,0,False,1,2015
+25694,238380,11/20/2017 5:52:00 PM,None used,None used,0,0,False,11,2017
+16609,214097,8/29/2016 5:25:00 AM,Wild animal hit,Wild animal hit,0,0,False,8,2016
+6118,244694,3/2/2018 7:52:00 AM,None used,None used,0,0,False,3,2018
+7578,208555,4/18/2016 7:15:00 AM,Wild animal hit,Wild animal hit,0,0,False,4,2016
+25640,256792,12/7/2018 6:56:00 AM,None used,None used,0,0,False,12,2018
+4597,206697,3/11/2016 12:06:00 AM,None used,None used,0,0,False,3,2016
+28675,259936,10/20/2018 7:43:00 AM,None used,None used,0,0,False,10,2018
+22272,217672,11/13/2016 9:50:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2016
+30429,263471,12/13/2018 7:24:00 AM,Unknown,Unknown,0,0,False,12,2018
+18264,196984,9/21/2015 5:30:00 AM,Not applicable,Unknown,0,0,False,9,2015
+15323,213322,8/12/2016 11:37:00 AM,None used,None used,0,0,False,8,2016
+1044,241724,1/16/2018 7:53:00 AM,None used,None used,0,0,False,1,2018
+25684,219965,12/2/2016 10:30:00 PM,Wild animal hit,Wild animal hit,0,0,False,12,2016
+17426,214555,9/7/2016 7:17:00 AM,Wild animal hit,Wild animal hit,0,0,False,9,2016
+28659,204249,12/16/2015 10:24:00 PM,Not applicable,Not applicable,0,0,False,12,2015
+30907,264008,12/27/2018 4:02:00 PM,None used,None used,0,0,False,12,2018
+27157,202759,12/30/2015 7:59:00 AM,None used,None used,0,0,False,12,2015
+16050,195699,8/7/2015 9:15:00 PM,None used,None used,0,0,False,8,2015
+20190,198074,9/29/2015 5:44:00 AM,None used,None used,0,0,False,9,2015
+14063,194504,7/2/2015 2:19:00 AM,None used,None used,0,0,False,7,2015
+22763,235939,10/26/2017 2:30:00 PM,None used,None used,0,0,False,10,2017
+21935,235690,10/17/2017 8:30:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2017
+16121,232283,8/7/2017 2:58:00 PM,None used,None used,0,0,False,8,2017
+22578,199744,11/13/2015 2:44:00 PM,None used,None used,0,0,False,11,2015
+13909,212469,7/27/2016 11:45:00 AM,None used,None used,0,0,False,7,2016
+16040,250841,8/21/2018 12:42:00 PM,Unknown,Unknown,0,0,False,8,2018
+15647,250559,8/14/2018 7:54:00 PM,None used,None used,0,0,False,8,2018
+1757,186897,2/7/2015 4:26:00 PM,None used,None used,0,0,False,2,2015
+28126,258825,10/6/2018 2:25:00 PM,None used,None used,0,0,False,10,2018
+25537,219783,12/7/2016 1:50:00 PM,None used,None used,0,0,False,12,2016
+7248,208357,4/17/2016 9:59:00 PM,None used,None used,0,0,False,4,2016
+12375,211495,6/26/2016 6:50:00 PM,None used,None used,0,0,False,6,2016
+15567,231886,8/3/2017 9:40:00 AM,Unknown,Unknown,0,0,False,8,2017
+27692,258013,12/23/2018 2:09:00 AM,None used,Alcohol used,0,1,True,12,2018
+21895,217365,11/3/2016 5:00:00 AM,Unknown,None used,0,0,False,11,2016
+12437,193523,4/25/2015 1:02:00 AM,Unknown,Unknown,0,0,False,4,2015
+25025,201367,12/1/2015 8:10:00 AM,None used,None used,0,0,False,12,2015
+19680,252816,10/3/2018 11:02:00 AM,None used,None used,0,0,False,10,2018
+5727,189402,3/7/2015 1:52:00 AM,Not applicable,Not applicable,0,0,False,3,2015
+16020,195655,8/29/2015 3:18:00 PM,None used,None used,0,0,False,8,2015
+25417,256614,12/5/2018 5:45:00 PM,Wild animal hit,Wild animal hit,0,0,False,12,2018
+20329,253410,10/10/2018 5:50:00 PM,None used,None used,0,0,False,10,2018
+14968,250335,8/4/2018 3:47:00 PM,None used,None used,0,0,False,8,2018
+18614,233689,9/8/2017 4:44:00 PM,Unknown,None used,0,0,False,9,2017
+16096,232209,8/2/2017 7:30:00 AM,Wild animal hit,Wild animal hit,0,0,False,8,2017
+9560,228249,5/13/2017 6:24:00 PM,None used,None used,0,0,False,5,2017
+13251,249216,7/14/2018 5:30:00 PM,None used,Alcohol used,0,1,True,7,2018
+10210,247300,5/19/2018 12:27:00 PM,None used,None used,0,0,False,5,2018
+9037,209400,5/20/2016 11:20:00 PM,None used,None used,0,0,False,5,2016
+14629,212921,8/5/2016 4:48:00 PM,None used,None used,0,0,False,8,2016
+16114,250785,6/2/2018 9:32:00 AM,None used,None used,0,0,False,6,2018
+3399,243062,2/10/2018 6:12:00 PM,Not reported,Not reported,0,0,False,2,2018
+26891,220730,11/23/2016 11:28:00 AM,None used,None used,0,0,False,11,2016
+8043,245953,4/18/2018 7:54:00 AM,None used,None used,0,0,False,4,2018
+22952,218163,11/17/2016 11:11:00 AM,None used,None used,0,0,False,11,2016
+2306,242425,2/1/2018 3:45:00 PM,None used,None used,0,0,False,2,2018
+21513,198953,10/24/2015 1:38:00 PM,None used,None used,0,0,False,10,2015
+13729,230868,7/11/2017 1:05:00 PM,None used,None used,0,0,False,7,2017
+3606,243193,2/1/2018 4:57:00 PM,None used,None used,0,0,False,2,2018
+10364,228771,5/27/2017 11:00:00 AM,None used,None used,0,0,False,5,2017
+17004,196214,8/12/2015 1:15:00 PM,None used,None used,0,0,False,8,2015
+18933,233837,9/9/2017 10:13:00 AM,None used,None used,0,0,False,9,2017
+8360,226562,5/4/2017 3:00:00 PM,None used,None used,0,0,False,5,2017
+28913,260354,10/18/2018 7:46:00 AM,None used,None used,0,0,False,10,2018
+4014,243524,2/17/2018 5:32:00 PM,None used,None used,0,0,False,2,2018
+2959,242794,2/5/2018 12:34:00 PM,None used,None used,0,0,False,2,2018
+26143,238639,11/26/2017 12:08:00 PM,None used,None used,0,0,False,11,2017
+2879,223155,1/27/2017 4:29:00 PM,Not reported,Not reported,0,0,False,1,2017
+11200,210780,6/15/2016 2:05:00 PM,None used,None used,0,0,False,6,2016
+149,185244,1/3/2015 12:05:00 PM,None used,None used,0,0,False,1,2015
+7895,245842,4/16/2018 8:20:00 PM,Unknown,Unknown,0,0,False,4,2018
+10285,192133,5/10/2015 3:25:00 PM,None used,None used,0,0,False,5,2015
+25700,201863,10/22/2015 4:51:00 PM,None used,None used,0,0,False,10,2015
+16267,232233,8/8/2017 6:05:00 PM,None used,None used,0,0,False,8,2017
+9550,209840,5/27/2016 3:56:00 PM,None used,None used,0,0,False,5,2016
+22721,236256,10/23/2017 4:50:00 PM,None used,None used,0,0,False,10,2017
+8290,190968,4/12/2015 10:23:00 AM,None used,None used,0,0,False,4,2015
+9958,192190,6/9/2015 4:23:00 PM,None used,None used,0,0,False,6,2015
+20352,198235,10/21/2015 4:32:00 PM,None used,None used,0,0,False,10,2015
+17508,232964,8/26/2017 4:15:00 PM,None used,None used,0,0,False,8,2017
+22637,236193,10/21/2017 6:50:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2017
+25795,220041,12/13/2016 3:19:00 PM,None used,None used,0,0,False,12,2016
+24824,237898,8/16/2017 5:30:00 AM,Wild animal hit,Wild animal hit,0,0,False,8,2017
+1851,205033,1/5/2016 6:14:00 PM,None used,None used,0,0,False,1,2016
+964,241669,1/11/2018 11:51:00 AM,None used,None used,0,0,False,1,2018
+8809,226689,5/1/2017 11:00:00 AM,None used,None used,0,0,False,5,2017
+7565,245556,4/24/2018 7:30:00 AM,Wild animal hit,Wild animal hit,0,0,False,4,2018
+2651,223074,2/3/2017 8:06:00 AM,None used,None used,0,0,False,2,2017
+27316,239416,12/12/2017 4:37:00 PM,Wild animal hit,Wild animal hit,0,0,False,12,2017
+2623,187436,2/18/2015 6:40:00 PM,Wild animal hit,Wild animal hit,0,0,False,2,2015
+11282,229334,6/6/2017 8:37:00 PM,None used,None used,0,0,False,6,2017
+16513,195925,8/6/2015 7:49:00 AM,None used,None used,0,0,False,8,2015
+24841,219388,12/3/2016 5:38:00 PM,Drugs used,None used,1,0,True,12,2016
+19675,234361,9/18/2017 5:01:00 PM,None used,None used,0,0,False,9,2017
+15074,213154,8/11/2016 12:13:00 PM,None used,None used,0,0,False,8,2016
+8279,246082,5/7/2018 4:06:00 PM,None used,None used,0,0,False,5,2018
+14699,231396,7/20/2017 3:45:00 PM,None used,None used,0,0,False,7,2017
+28054,203448,11/19/2015 11:34:00 AM,Wild animal hit,Wild animal hit,0,0,False,11,2015
+16118,213815,8/7/2016 6:59:00 AM,Wild animal hit,Wild animal hit,0,0,False,8,2016
+2219,205166,2/15/2016 9:05:00 PM,None used,Alcohol used,0,1,True,2,2016
+23497,200452,11/23/2015 8:10:00 AM,None used,None used,0,0,False,11,2015
+11218,229314,6/7/2017 5:21:00 PM,Not applicable,Not applicable,0,0,False,6,2017
+29567,261816,11/8/2018 1:50:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2018
+5901,225022,3/24/2017 11:36:00 PM,Unknown,Alcohol used,0,1,True,3,2017
+4349,188571,3/17/2015 5:15:00 PM,None used,None used,0,0,False,3,2015
+19904,234475,9/19/2017 4:00:00 PM,None used,None used,0,0,False,9,2017
+26266,202248,11/10/2015 5:35:00 PM,None used,None used,0,0,False,11,2015
+30303,263304,12/3/2018 7:48:00 PM,None used,None used,0,0,False,12,2018
+14417,212740,7/17/2016 7:09:00 PM,None used,Alcohol used,0,1,True,7,2016
+21777,217303,10/25/2016 4:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,10,2016
+14153,231064,7/5/2017 10:34:00 AM,None used,None used,0,0,False,7,2017
+3752,223737,2/22/2017 4:04:00 PM,None used,None used,0,0,False,2,2017
+14745,194895,8/2/2015 3:10:00 AM,None used,None used,0,0,False,8,2015
+18379,215110,9/24/2016 9:25:00 PM,Wild animal hit,Wild animal hit,0,0,False,9,2016
+10129,228511,5/27/2017 10:17:00 PM,Wild animal hit,Wild animal hit,0,0,False,5,2017
+24171,218999,11/29/2016 2:55:00 PM,None used,None used,0,0,False,11,2016
+23760,218748,11/20/2016 12:27:00 AM,Unknown,Alcohol used,0,1,True,11,2016
+2252,222883,1/31/2017 3:28:00 PM,None used,None used,0,0,False,1,2017
+20710,198321,10/20/2015 8:30:00 AM,Wild animal hit,Wild animal hit,0,0,False,10,2015
+4289,243630,2/24/2018 11:42:00 AM,None used,None used,0,0,False,2,2018
+16027,232135,8/4/2017 2:27:00 AM,None used,Alcohol used,0,1,True,8,2017
+7855,226250,4/26/2017 4:00:00 AM,None used,None used,0,0,False,4,2017
+4744,188807,2/9/2015 6:22:00 PM,None used,None used,0,0,False,2,2015
+16143,195712,8/11/2015 2:33:00 PM,Not applicable,Not applicable,0,0,False,8,2015
+14957,250254,8/8/2018 12:37:00 PM,Not applicable,Not applicable,0,0,False,8,2018
+17332,196410,9/15/2015 8:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,9,2015
+6533,244982,4/3/2018 3:16:00 PM,None used,None used,0,0,False,4,2018
+17148,251270,6/14/2018 3:49:00 PM,None used,None used,0,0,False,6,2018
+12707,211799,3/2/2016 4:40:00 PM,None used,None used,0,0,False,3,2016
+16856,251057,8/17/2018 7:50:00 AM,None used,None used,0,0,False,8,2018
+29619,240438,12/29/2017 12:00:00 PM,None used,None used,0,0,False,12,2017
+8519,191070,4/17/2015 4:58:00 PM,None used,None used,0,0,False,4,2015
+14510,212831,8/4/2016 10:45:00 AM,None used,None used,0,0,False,8,2016
+30832,263932,12/17/2018 3:28:00 PM,None used,None used,0,0,False,12,2018
+19001,197265,9/18/2015 1:41:00 PM,None used,None used,0,0,False,9,2015
+12878,248926,7/11/2018 4:39:00 PM,None used,None used,0,0,False,7,2018
+5768,189421,3/2/2015 4:15:00 PM,None used,None used,0,0,False,3,2015
+11225,192790,6/23/2015 1:03:00 AM,None used,None used,0,0,False,6,2015
+18870,252499,9/25/2018 8:10:00 PM,None used,None used,0,0,False,9,2018
+23861,236741,11/4/2017 8:08:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2017
+4964,188910,3/21/2015 12:48:00 PM,None used,None used,0,0,False,3,2015
+7523,208535,4/27/2016 2:53:00 PM,None used,None used,0,0,False,4,2016
+149,203260,1/5/2016 9:09:00 AM,None used,None used,0,0,False,1,2016
+26287,220234,12/16/2016 12:00:00 PM,None used,None used,0,0,False,12,2016
+3520,206030,3/1/2016 5:19:00 PM,None used,None used,0,0,False,3,2016
+1833,186970,2/9/2015 8:02:00 AM,None used,None used,0,0,False,2,2015
+1391,204489,1/28/2016 10:11:00 AM,None used,None used,0,0,False,1,2016
+24661,201170,12/2/2015 6:50:00 PM,Wild animal hit,Wild animal hit,0,0,False,12,2015
+21473,253987,10/27/2018 3:45:00 PM,None used,None used,0,0,False,10,2018
+1825,242138,1/22/2018 2:06:00 AM,None used,None used,0,0,False,1,2018
+17758,196642,9/15/2015 4:54:00 PM,None used,None used,0,0,False,9,2015
+26349,202282,12/15/2015 6:46:00 AM,None used,None used,0,0,False,12,2015
+9761,228239,5/15/2017 8:45:00 PM,Wild animal hit,Wild animal hit,0,0,False,5,2017
+8880,191308,5/19/2015 2:57:00 PM,None used,None used,0,0,False,5,2015
+10671,210510,5/19/2016 9:45:00 AM,Wild animal hit,Wild animal hit,0,0,False,5,2016
+14169,249551,2/1/2018 10:17:00 PM,None used,None used,0,0,False,2,2018
+27964,258562,11/16/2018 5:45:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2018
+11561,229303,6/9/2017 6:33:00 PM,Wild animal hit,Wild animal hit,0,0,False,6,2017
+17388,214534,9/11/2016 8:34:00 PM,None used,None used,0,0,False,9,2016
+16348,213948,8/28/2016 2:07:00 AM,Not applicable,Not applicable,0,0,False,8,2016
+3242,223438,2/11/2017 6:27:00 PM,None used,None used,0,0,False,2,2017
+14956,213094,8/10/2016 7:38:00 AM,None used,None used,0,0,False,8,2016
+22588,199751,11/11/2015 2:42:00 PM,None used,None used,0,0,False,11,2015
+10071,210067,5/30/2016 10:18:00 AM,None used,None used,0,0,False,5,2016
+4709,206784,2/16/2016 5:19:00 PM,Not applicable,Not applicable,0,0,False,2,2016
+17397,214510,9/5/2016 6:20:00 PM,None used,None used,0,0,False,9,2016
+4068,223886,2/14/2017 1:20:00 PM,None used,None used,0,0,False,2,2017
+29564,261814,11/8/2018 10:40:00 AM,None used,None used,0,0,False,11,2018
+1530,222381,1/25/2017 8:35:00 AM,Not applicable,Not applicable,0,0,False,1,2017
+24260,201162,11/30/2015 12:20:00 PM,None used,None used,0,0,False,11,2015
+21095,198645,10/14/2015 7:52:00 AM,None used,None used,0,0,False,10,2015
+15045,250080,5/25/2018 3:00:00 PM,None used,None used,0,0,False,5,2018
+14117,231061,7/13/2017 6:10:00 PM,None used,None used,0,0,False,7,2017
+8791,209313,5/9/2016 12:28:00 PM,None used,None used,0,0,False,5,2016
+5248,189118,2/10/2015 5:50:00 AM,None used,None used,0,0,False,2,2015
+25372,201674,12/11/2015 12:47:00 PM,None used,None used,0,0,False,12,2015
+24924,237283,11/11/2017 7:40:00 PM,None used,Alcohol used,0,1,True,11,2017
+22193,254393,8/29/2018 8:24:00 AM,None used,None used,0,0,False,8,2018
+4604,224256,3/7/2017 3:00:00 PM,Unknown,Unknown,0,0,False,3,2017
+28870,260325,12/10/2018 6:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,12,2018
+13925,249464,4/30/2018 5:23:00 PM,None used,None used,0,0,False,4,2018
+17208,232806,5/31/2017 2:32:00 PM,Drugs used,None used,1,0,True,5,2017
+21385,253961,10/25/2018 4:05:00 PM,None used,None used,0,0,False,10,2018
+20606,198372,10/19/2015 7:25:00 AM,Wild animal hit,Wild animal hit,0,0,False,10,2015
+26355,257508,12/20/2018 2:59:00 AM,None used,None used,0,0,False,12,2018
+1108,222110,1/15/2017 7:09:00 PM,None used,Alcohol used,0,1,True,1,2017
+8160,190832,3/2/2015 5:13:00 PM,Not applicable,Not applicable,0,0,False,3,2015
+10401,247424,3/14/2018 2:00:00 PM,None used,None used,0,0,False,3,2018
+14828,194840,8/9/2015 3:27:00 PM,Unknown,None used,0,0,False,8,2015
+12753,193727,7/17/2015 12:25:00 PM,None used,None used,0,0,False,7,2015
+19232,252552,9/22/2018 3:29:00 PM,Unknown,Alcohol used,0,1,True,9,2018
+20648,198495,10/23/2015 11:05:00 PM,None used,None used,0,0,False,10,2015
+27746,258180,12/8/2018 9:03:00 PM,None used,None used,0,0,False,12,2018
+7983,190640,4/8/2015 3:37:00 PM,Not reported,Not reported,0,0,False,4,2015
+18850,233768,8/18/2017 10:20:00 AM,Unknown,Unknown,0,0,False,8,2017
+96,241071,1/1/2018 12:00:00 AM,Not applicable,Not applicable,0,0,False,1,2018
+8924,246394,5/12/2018 3:20:00 PM,None used,None used,0,0,False,5,2018
+3050,242862,2/5/2018 3:46:00 PM,None used,None used,0,0,False,2,2018
+25497,238252,11/18/2017 2:56:00 PM,Not applicable,Not applicable,0,0,False,11,2017
+19730,215986,10/8/2016 7:13:00 AM,None used,None used,0,0,False,10,2016
+8543,246163,5/8/2018 2:40:00 PM,None used,None used,0,0,False,5,2018
+20702,198409,10/8/2015 11:24:00 AM,None used,None used,0,0,False,10,2015
+19025,252432,9/19/2018 8:24:00 PM,Wild animal hit,Wild animal hit,0,0,False,9,2018
+25976,256985,9/28/2018 7:05:00 PM,None used,None used,0,0,False,9,2018
+16384,195830,8/29/2015 11:47:00 AM,None used,None used,0,0,False,8,2015
+8000,245898,4/1/2018 5:05:00 AM,Wild animal hit,Wild animal hit,0,0,False,4,2018
+25401,256609,11/23/2018 5:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,11,2018
+26562,257249,11/28/2018 8:30:00 AM,None used,None used,0,0,False,11,2018
+5033,224507,3/11/2017 11:53:00 AM,None used,None used,0,0,False,3,2017
+27264,202803,12/17/2015 1:30:00 PM,None used,None used,0,0,False,12,2015
+15778,195372,7/21/2015 5:15:00 PM,None used,None used,0,0,False,7,2015
+404,221480,1/9/2017 5:10:00 AM,None used,None used,0,0,False,1,2017
+13225,230555,7/7/2017 11:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,7,2017
+18721,233642,8/27/2017 11:30:00 AM,Not reported,Not reported,0,0,False,8,2017
+26732,220623,12/23/2016 2:00:00 PM,None used,None used,0,0,False,12,2016
+6743,208076,2/15/2016 7:20:00 AM,None used,None used,0,0,False,2,2016
+19178,234005,9/12/2017 11:11:00 AM,None used,None used,0,0,False,9,2017
+19103,197504,9/16/2015 7:18:00 AM,None used,None used,0,0,False,9,2015
+2989,205743,2/25/2016 6:35:00 PM,Wild animal hit,Wild animal hit,0,0,False,2,2016
+21746,235421,10/6/2017 3:50:00 PM,Unknown,None used,0,0,False,10,2017
+16728,214168,8/31/2016 8:00:00 PM,Wild animal hit,Wild animal hit,0,0,False,8,2016
+17987,233268,9/3/2017 5:21:00 PM,Wild animal hit,Wild animal hit,0,0,False,9,2017
+6034,244641,3/22/2018 7:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,3,2018
+13344,249096,4/7/2018 4:17:00 PM,None used,None used,0,0,False,4,2018
+21734,199013,11/2/2015 8:30:00 AM,None used,None used,0,0,False,11,2015
+16883,251102,8/15/2018 5:00:00 PM,Unknown,Unknown,0,0,False,8,2018
+15323,231718,7/14/2017 3:00:00 AM,None used,Alcohol used,0,1,True,7,2017
+9181,228008,5/4/2017 5:04:00 PM,None used,None used,0,0,False,5,2017
+13802,249741,5/28/2018 5:50:00 PM,None used,None used,0,0,False,5,2018
+9426,191579,6/4/2015 2:36:00 AM,Unknown,Unknown,0,0,False,6,2015
+14802,249985,5/23/2018 5:37:00 PM,None used,None used,0,0,False,5,2018
+26614,257565,12/19/2018 8:39:00 PM,Wild animal hit,Wild animal hit,0,0,False,12,2018
+18497,215234,9/24/2016 2:39:00 PM,None used,None used,0,0,False,9,2016
+18036,251895,4/30/2018 2:01:00 PM,None used,None used,0,0,False,4,2018
+9377,228138,5/13/2017 11:01:00 PM,None used,None used,0,0,False,5,2017
+2248,222880,1/29/2017 4:05:00 PM,None used,None used,0,0,False,1,2017
+5302,207128,1/31/2016 11:28:00 AM,Unknown,Unknown,0,0,False,1,2016
+7435,225983,4/22/2017 8:57:00 PM,None used,None used,0,0,False,4,2017
+13316,249300,7/22/2018 8:10:00 AM,None used,None used,0,0,False,7,2018
+25722,257139,12/7/2018 2:30:00 PM,None used,None used,0,0,False,12,2018
+11099,229077,5/14/2017 8:50:00 PM,None used,None used,0,0,False,5,2017
+12163,193348,7/9/2015 1:44:00 AM,Wild animal hit,Wild animal hit,0,0,False,7,2015
+9880,247078,4/27/2018 2:07:00 PM,None used,None used,0,0,False,4,2018
+11688,193214,7/1/2015 7:00:00 PM,None used,None used,0,0,False,7,2015
+13463,249307,7/21/2018 5:45:00 PM,None used,None used,0,0,False,7,2018
+6536,207903,4/9/2016 10:26:00 PM,None used,None used,0,0,False,4,2016
+4909,244017,3/6/2018 8:40:00 AM,None used,None used,0,0,False,3,2018
+8696,209233,5/17/2016 10:32:00 AM,None used,None used,0,0,False,5,2016
+18024,233244,8/24/2017 2:30:00 AM,Not applicable,Not applicable,0,0,False,8,2017
+25633,219917,12/12/2016 4:11:00 PM,None used,None used,0,0,False,12,2016
+16840,196172,8/10/2015 4:55:00 PM,None used,None used,0,0,False,8,2015
+12573,211711,7/12/2016 10:28:00 AM,None used,None used,0,0,False,7,2016
+14094,231048,7/13/2017 11:09:00 AM,None used,None used,0,0,False,7,2017
+29877,262629,11/10/2018 10:22:00 AM,None used,None used,0,0,False,11,2018
+27088,239248,12/5/2017 8:43:00 AM,None used,None used,0,0,False,12,2017
+23798,255732,11/16/2018 2:21:00 PM,Not applicable,Not applicable,0,0,False,11,2018
+20087,216254,8/5/2016 1:34:00 PM,Unknown,Unknown,0,0,False,8,2016
+27092,239246,12/7/2017 3:21:00 PM,None used,None used,0,0,False,12,2017
+18273,197003,9/24/2015 6:00:00 AM,Wild animal hit,Wild animal hit,0,0,False,9,2015
+13113,193947,7/23/2015 5:50:00 AM,Wild animal hit,Wild animal hit,0,0,False,7,2015
+2052,205354,1/9/2016 12:44:00 PM,None used,None used,0,0,False,1,2016
+4814,206811,3/19/2016 12:39:00 PM,None used,None used,0,0,False,3,2016
+15213,195395,7/12/2015 6:31:00 PM,Not applicable,Not applicable,0,0,False,7,2015
+27586,203067,11/30/2015 1:32:00 PM,None used,None used,0,0,False,11,2015
+470,221517,1/11/2017 8:45:00 AM,None used,None used,0,0,False,1,2017
+25710,238389,11/21/2017 2:19:00 PM,None used,None used,0,0,False,11,2017
+8072,190866,5/7/2015 3:41:00 PM,None used,None used,0,0,False,5,2015
+10290,192136,5/10/2015 4:29:00 PM,None used,None used,0,0,False,5,2015
+27997,203384,12/5/2015 4:09:00 PM,None used,None used,0,0,False,12,2015
+7157,190241,3/19/2015 2:47:00 PM,None used,None used,0,0,False,3,2015
+12353,230015,6/20/2017 3:31:00 PM,None used,None used,0,0,False,6,2017
+1157,241172,1/10/2018 12:00:00 PM,None used,None used,0,0,False,1,2018
+24551,200989,11/11/2015 5:14:00 PM,None used,None used,0,0,False,11,2015
+14274,212676,7/28/2016 7:58:00 AM,None used,None used,0,0,False,7,2016
+29148,240519,12/26/2017 7:07:00 AM,None used,None used,0,0,False,12,2017
+11921,248318,7/1/2018 11:26:00 AM,None used,None used,0,0,False,7,2018
+14053,249508,5/16/2018 4:58:00 PM,None used,None used,0,0,False,5,2018
+28361,203871,12/28/2015 6:18:00 PM,None used,None used,0,0,False,12,2015
+22154,254373,8/25/2018 10:20:00 PM,None used,None used,0,0,False,8,2018
+27405,202970,12/26/2015 11:40:00 AM,None used,None used,0,0,False,12,2015
+21718,235370,10/2/2017 5:24:00 PM,None used,None used,0,0,False,10,2017
+26584,220473,12/11/2016 9:35:00 AM,None used,None used,0,0,False,12,2016
+7185,225782,4/13/2017 3:56:00 PM,None used,None used,0,0,False,4,2017
+9432,246827,5/30/2018 8:37:00 AM,None used,None used,0,0,False,5,2018
+25190,256461,11/29/2018 5:45:00 PM,Wild animal hit,Wild animal hit,0,0,False,11,2018
+28073,203475,11/20/2015 8:00:00 AM,None used,None used,0,0,False,11,2015
+13873,194370,7/31/2015 7:32:00 PM,Drugs used,Alcohol used,1,1,True,7,2015
+11115,210769,6/7/2016 5:13:00 PM,None used,None used,0,0,False,6,2016
+6529,189896,4/17/2015 7:05:00 PM,None used,None used,0,0,False,4,2015
+20808,216662,10/22/2016 1:20:00 PM,Not applicable,Not applicable,0,0,False,10,2016
+5712,207376,3/30/2016 1:56:00 PM,None used,None used,0,0,False,3,2016
+4680,188772,3/23/2015 7:15:00 AM,None used,None used,0,0,False,3,2015
+27502,239496,12/13/2017 4:49:00 PM,None used,None used,0,0,False,12,2017
+8283,190963,4/11/2015 5:06:00 PM,None used,None used,0,0,False,4,2015
+23309,236666,10/16/2017 8:25:00 PM,Wild animal hit,Wild animal hit,0,0,False,10,2017
+14497,250132,7/21/2018 6:31:00 PM,None used,None used,0,0,False,7,2018
+11208,192820,6/26/2015 3:26:00 PM,None used,None used,0,0,False,6,2015
+2117,242308,1/25/2018 10:56:00 AM,None used,None used,0,0,False,1,2018
+12850,193826,7/12/2015 3:12:00 PM,None used,None used,0,0,False,7,2015
+19233,252553,9/26/2018 7:20:00 PM,Wild animal hit,Wild animal hit,0,0,False,9,2018
+18125,233464,8/30/2017 6:04:00 PM,None used,None used,0,0,False,8,2017
+8868,191258,5/20/2015 5:53:00 AM,Wild animal hit,Wild animal hit,0,0,False,5,2015
+14307,194657,8/6/2015 9:56:00 AM,None used,None used,0,0,False,8,2015
+16886,232629,8/17/2017 5:08:00 PM,Not applicable,Not applicable,0,0,False,8,2017

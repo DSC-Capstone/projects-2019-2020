@@ -1,0 +1,143 @@
+---
+title: "MAF_Analysis"
+author: "Alexandra"
+date: "4/16/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Import Statements
+
+```{r maf}
+library(maftools)
+
+```
+
+## Load Files
+
+
+```{r pressure, echo=FALSE}
+#path to TCGA LAML MAF file
+# Endoderm
+kidney = read.maf("kidney_muse.maf.gz")
+
+# Ectoderm 
+breast = read.maf("breast_muse.maf.gz")
+skin = read.maf("skin_muse.maf.gz")
+
+
+#Mesoderm
+stomach = read.maf("stomach_muse.maf.gz")
+lung = read.maf("lung_muse.maf.gz")
+lungscan = read.maf("lung_varscan.maf.gz")
+
+```
+
+
+```{r pressure, echo=FALSE}
+# Comparing mutated genes
+#Endoderm
+
+# Ectoderm
+getGeneSummary(breast)
+getGeneSummary(skin)
+# Mesoderm
+getGeneSummary(stomach)
+getGeneSummary(lung)
+getGeneSummary(kidney)
+
+```
+
+```{r pressure, echo=FALSE}
+# Comparing mutated genes using Gene Cloud
+# Endoderm
+geneCloud(input = kidney, minMut = 9)
+# Ectoderm
+geneCloud(input = breast, minMut = 25)
+geneCloud(input = skin, minMut = 145)
+#Mesoderm
+geneCloud(input = lung, minMut = 90)
+geneCloud(input = stomach, minMut = 60)
+```
+
+
+# Plotting: Summary
+```{r pressure, echo=FALSE}
+# Endoderm
+
+# Ectoderm
+plotmafSummary(maf = breast, rmOutlier = TRUE, addStat = 'median', dashboard = TRUE)
+plotmafSummary(maf = skin, rmOutlier = TRUE, addStat = 'median', dashboard = TRUE)
+
+#Mesoderm
+plotmafSummary(maf = lung, rmOutlier = TRUE, addStat = 'median', dashboard = TRUE)
+plotmafSummary(maf = kidney, rmOutlier = TRUE, addStat = 'median', dashboard = TRUE)
+plotmafSummary(maf = stomach, rmOutlier = TRUE, addStat = 'median', dashboard = TRUE)
+```
+
+# Plotting: oncoplots: Better representation of maf file
+```{r pressure, echo=FALSE}
+# Endoderm
+oncoplot(maf = kidney, top = 10, removeNonMutated = TRUE)
+# Ectoderm
+oncoplot(maf = breast, top = 10, removeNonMutated = TRUE)
+oncoplot(maf = skin, top = 10, removeNonMutated = TRUE)
+
+# Mesoderm
+oncoplot(maf = lung, top = 10, removeNonMutated = TRUE)
+oncoplot(maf = stomach, top = 10, removeNonMutated = TRUE)
+```
+#classifies SNPs into Transitions and Transversions and returns a list of summarized tables in various ways
+```{r pressure, echo=FALSE}
+# Endoderm
+kidney.titv = titv(maf = kidney, plot = FALSE, useSyn = TRUE)
+plotTiTv(res = kidney.titv)
+#Ectoder 
+breast.titv = titv(maf = breast, plot = FALSE, useSyn = TRUE)
+plotTiTv(res = breast.titv)
+skin.titv = titv(maf = skin, plot = FALSE, useSyn = TRUE)
+plotTiTv(res = skin.titv)
+#Mesoderm
+stomach.titv = titv(maf = stomach, plot = FALSE, useSyn = TRUE)
+plotTiTv(res = stomach.titv)
+lung.titv = titv(maf = lung, plot = FALSE, useSyn = TRUE)
+plotTiTv(res = lung.titv)
+
+
+```
+
+# Rainfall Parts: Cancer genomes, especially solid tumors are characterized by genomic loci with localized hyper-mutations 5. Such hyper mutated genomic regions can be visualized by plotting inter variant distance on a linear genomic scale. 
+```{r pressure, echo=FALSE}
+# Ecoderm
+coad.rf = rainfallPlot(maf = kidney, detectChangePoints = TRUE, fontSize = 12, pointSize = 0.6)
+# Endoderm
+coad.rf = rainfallPlot(maf = breast, detectChangePoints = TRUE, fontSize = 12, pointSize = 0.6)
+skin.rf = rainfallPlot(maf = skin, detectChangePoints = TRUE, fontSize = 12, pointSize = 0.6)
+# Mesoderm
+lung.rf = rainfallPlot(maf = lung, detectChangePoints = TRUE, fontSize = 12, pointSize = 0.6)
+kidney.rf = rainfallPlot(maf = stomach, detectChangePoints = TRUE, fontSize = 12, pointSize = 0.6)
+```
+
+# Many disease causing genes in cancer are co-occurring or show strong exclusiveness in their mutation pattern. Such mutually exclusive or co-occurring set of genes can be detected using somaticInteractions
+```{r pressure, echo=FALSE}
+#exclusive/co-occurance event analysis on top 10 mutated genes. 
+somaticInteractions(maf = skin, top = 25, pvalue = c(0.05, 0.1))
+
+```
+
+# normalization of genes
+dataNorm <- TCGAbiolinks::TCGAanalyze_Normalization(tabDF = ski, geneInfo = geneInfo,
+method = "geneLength")
+# quantile filter of genes
+dataFilt <- TCGAanalyze_Filtering(tabDF = dataBRCA, method = "quantile", qnt.cut =  0.25)
+# Principal Component Analysis plot for ntop selected DEGs
+    # selection of normal samples "NT"
+    group1 <- TCGAquery_SampleTypes(colnames(dataFilt), typesample = c("NT"))
+    # selection of normal samples "TP"
+    group2 <- TCGAquery_SampleTypes(colnames(dataFilt), typesample = c("TP"))
+pca <- TCGAvisualize_PCA(dataFilt,dataDEGsFiltLevel, ntopgenes = 200, group1, group2)
+if (!(is.null(dev.list()["RStudioGD"]))){dev.off()}
+

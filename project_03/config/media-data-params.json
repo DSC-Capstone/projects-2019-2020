@@ -1,0 +1,7 @@
+{
+    "URLs": [
+        "https://www.dropbox.com/s/cn2utnr5ipathhh/all-the-news-2-1.zip"
+    ],
+    "outpath": "./data/raw/",
+    "wget_fmt": "wget %s -O %s"
+}

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="./website_data/engagement_scores.json"></script>
+        <style>
+          .collapsible {
+            background-color: #777;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+          }
+
+          .active, .collapsible:hover {
+            background-color: #555;
+          }
+
+          .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f1;
+          }
+        </style>
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        body {
+          font: 16px Arial;
+          margin: 5%;
+        }
+
+        /*the container must be positioned relative:*/
+        .autocomplete {
+          position: relative;
+          display: inline-block;
+        }
+
+        input {
+          border: 1px solid transparent;
+          background-color: #f1f1f1;
+          padding: 10px;
+          font-size: 16px;
+        }
+
+        input[type=text] {
+          background-color: #f1f1f1;
+          width: 100%;
+        }
+
+        input[type=submit] {
+          background-color: DodgerBlue;
+          color: #fff;
+          cursor: pointer;
+        }
+
+        .autocomplete-items {
+          position: absolute;
+          border: 1px solid #d4d4d4;
+          border-bottom: none;
+          border-top: none;
+          z-index: 99;
+          /*position the autocomplete items to be the same width as the container:*/
+          top: 100%;
+          left: 0;
+          right: 0;
+        }
+
+        .autocomplete-items div {
+          padding: 10px;
+          cursor: pointer;
+          background-color: #fff;
+          border-bottom: 1px solid #d4d4d4;
+        }
+
+        /*when hovering an item:*/
+        .autocomplete-items div:hover {
+          background-color: #e9e9e9;
+        }
+
+        /*when navigating through the items using the arrow keys:*/
+        .autocomplete-active {
+          background-color: DodgerBlue !important;
+          color: #ffffff;
+        }
+        </style>
+    </head>
+
+    <body>
+
+    <h2>DSC 180B Wikipedia Article Engagement Score Tool</h2>
+
+    <p>By: Jonathan Lin, Kenny Zhu, Salma Shaikh</p>
+
+    <p>Our project examines user engagement in Wikipedia and how that engagement fares in the scope of the supply and demand of content on Wikipedia. Some important definitions to note: </p>
+      <p><b>User engagement:</b> how users or viewers of content interact with the given content </p>
+      <p><b>Supply:</b> We characterize the supply of Wikipedia content as edit history data which gives us factors such as how much the byte size of a page has changed over time and how many edits a Wikipedia page has undergone</p>
+      <p><b>Demand:</b> We characterize the demand of Wikipedia content as Wikipedia page views data, which gives us the factor of how many users are consuming the information on a given Wikipedia page</p>
+
+    <br>
+    <h3>Type In an Article Name Below</h3>
+    <!--Make sure the form has the autocomplete function switched off:-->
+    <form autocomplete="off">
+        <div class="autocomplete" style="width:300px;">
+            <input id="myInput" type="text" placeholder="Article Name">
+        </div>
+    </form>
+
+    <div id="linechart_div" style="margin-top: 30px; height:30%"></div>
+    <br>
+
+    <button type="button" class="collapsible">How To Use This Tool</button>
+    <div class="content">
+      <p>Directions for navigating the site: <br><br>
+        Type in the name of an article from the list provided into the search bar. Your search will generate a graph depicting the Editor Score over time (supply), the Content Score over time (demand), and the overall Engagement Score over time for the article.<br><br>
+
+        Description for each graph/score: <br> <br>
+
+        Editor Engagement: The editor engagement score encompasses engagement with the factors of the total number of edits, number of unique editors, and average byte size for each article for a given month. It indicates how much editor engagement has occurred, which alters the supply of content on a Wikipedia page <br><br>
+
+        Content Engagement: The content engagement score encompasses engagement involving the amount of views a page receives on a given month. It indicates how much viewership a page receives, which indicates the demand for the given topic of a Wikipedia page.
+        </p>
+
+    </div>
+    <button type="button" class="collapsible">Editor Engagment Score (Supply)</button>
+    <div class="content">
+      <p>Editor score formula</p>
+      <img src="website_data/editor_score.png" alt="Italian Trulli" style="width:500px">
+    </div>
+    <button type="button" class="collapsible">Content Engagement Score (Demand)</button>
+    <div class="content">
+      <p>Content score formula</p>
+      <img src="website_data/content_score.png" alt="Italian Trulli" style="width:500px">
+    </div>
+    <button type="button" class="collapsible">Combined Engagement Score</button>
+    <div class="content">
+      <p> To get our join user engagement score for an article per month, we combined our two scores: <br> <br>
+        Overall_Score = Editor_Score * Content_Score <br> <br>
+
+      For a given month, we now have a way of characterizing user engagement for a specific Wikipedia article using this formula. <br>
+
+      Notice that compared to the editor engagement and content engagement score graphs, the combined graphs show that there is a reduction in noise and an emphasis in the spikes that appeared in the graphs of the separate scores. The editor engagement score captures every single minor change in content, so its score alone is almost an overstatement of how engaging an article is. Minimizing some of that excess noise was important in creating our overall user engagement score.
+      We can also see that there aren’t many points where both page views and byte size of the page increase and/or change. This also indicates what the supply and demand of a page’s content looks like. We can see that there isn’t always a perfectly equal contribution of supply and demand on a page, which is reflective of the real world we live in.
+      </p>
+    </div>
+    <button type="button" class="collapsible">Suggested Articles</button>
+    <div class="content">
+      <p>Suggested Wikipedia articles to look at: <br><br>
+
+        <b>American League Championship Series (MLB Championship):</b> You can clearly see the cyclical spikes in engagement that are correlated to the MLB Championship seasons. We would expect to see higher viewership and a larger amount of contributions to the Wikipedia page during each season.<br><br>
+
+        <b>Blizzard Entertainment:</b> You can clearly see the significant spike in engagement that is correlated with the news event in October 2019 when Blizzard Entertainment employees staged a walkout to protest the ban of an employee who voiced support for the Hong Kong protests during an official event.<br><br>
+        </p>
+    </div>
+
+    <p></p>
+
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+      </script>
+
+    <script>
+        google.charts.load('current', {'packages':['line']});
+        // google.charts.setOnLoadCallback(drawChart);
+
+        function drawEngagement(article_title) {
+
+            console.log("DRAWING ENGAGEMENT ")
+            console.log(article_title)
+            var dataGraph = new google.visualization.DataTable();
+
+            dataGraph.addColumn('datetime', 'Time');
+            dataGraph.addColumn('number', 'Editor Score');
+            dataGraph.addColumn('number', 'Content Score');
+            dataGraph.addColumn('number', 'Engagement Score');
+
+            data[article_title].forEach(function updateGraph(l) {
+                dataGraph.addRow(
+                        [new Date(l[0]), l[1], l[2] , l[3] ]
+                );
+            })
+
+            var options = {
+                chart: {
+                  title: article_title,
+                  subtitle: 'Engagement Score'
+              }
+            };
+
+            var graph = new google.charts.Line(document.getElementById('linechart_div'));
+
+            graph.draw(dataGraph, google.charts.Line.convertOptions(options));
+        }
+
+        function autocomplete(inp, arr) {
+          /*the autocomplete function takes two arguments,
+          the text field element and an array of possible autocompleted values:*/
+          var currentFocus;
+          /*execute a function when someone writes in the text field:*/
+          inp.addEventListener("input", function(e) {
+              var a, b, i, val = this.value;
+              /*close any already open lists of autocompleted values*/
+              closeAllLists();
+              if (!val) { return false;}
+              currentFocus = -1;
+              /*create a DIV element that will contain the items (values):*/
+              a = document.createElement("DIV");
+              a.setAttribute("id", this.id + "autocomplete-list");
+              a.setAttribute("class", "autocomplete-items");
+              /*append the DIV element as a child of the autocomplete container:*/
+              this.parentNode.appendChild(a);
+              /*for each item in the array...*/
+              for (i = 0; i < arr.length; i++) {
+                /*check if the item starts with the same letters as the text field value:*/
+                if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                  /*create a DIV element for each matching element:*/
+                  b = document.createElement("DIV");
+                  /*make the matching letters bold:*/
+                  b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+                  b.innerHTML += arr[i].substr(val.length);
+                  /*insert a input field that will hold the current array item's value:*/
+                  b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                  /*execute a function when someone clicks on the item value (DIV element):*/
+                  b.addEventListener("click", function(e) {
+                      /*insert the value for the autocomplete text field:*/
+                      inp.value = this.getElementsByTagName("input")[0].value;
+                      drawEngagement(inp.value)
+                      /*close the list of autocompleted values,
+                      (or any other open lists of autocompleted values:*/
+                      closeAllLists();
+                  });
+                  a.appendChild(b);
+                }
+              }
+          });
+
+          /*execute a function presses a key on the keyboard:*/
+          inp.addEventListener("keydown", function(e) {
+              var x = document.getElementById(this.id + "autocomplete-list");
+              if (x) x = x.getElementsByTagName("div");
+              if (e.keyCode == 40) {
+                /*If the arrow DOWN key is pressed,
+                increase the currentFocus variable:*/
+                currentFocus++;
+                /*and and make the current item more visible:*/
+                addActive(x);
+              } else if (e.keyCode == 38) { //up
+                /*If the arrow UP key is pressed,
+                decrease the currentFocus variable:*/
+                currentFocus--;
+                /*and and make the current item more visible:*/
+                addActive(x);
+              } else if (e.keyCode == 13) {
+                /*If the ENTER key is pressed, prevent the form from being submitted,*/
+                e.preventDefault();
+                if (currentFocus > -1) {
+                  /*and simulate a click on the "active" item:*/
+                  if (x) x[currentFocus].click();
+                }
+              }
+          });
+
+          function addActive(x) {
+            /*a function to classify an item as "active":*/
+            if (!x) return false;
+            /*start by removing the "active" class on all items:*/
+            removeActive(x);
+            if (currentFocus >= x.length) currentFocus = 0;
+            if (currentFocus < 0) currentFocus = (x.length - 1);
+            /*add class "autocomplete-active":*/
+            x[currentFocus].classList.add("autocomplete-active");
+          }
+
+          function removeActive(x) {
+            /*a function to remove the "active" class from all autocomplete items:*/
+            for (var i = 0; i < x.length; i++) {
+              x[i].classList.remove("autocomplete-active");
+            }
+          }
+
+          function closeAllLists(elmnt) {
+            /*close all autocomplete lists in the document,
+            except the one passed as an argument:*/
+            var x = document.getElementsByClassName("autocomplete-items");
+            for (var i = 0; i < x.length; i++) {
+              if (elmnt != x[i] && elmnt != inp) {
+                x[i].parentNode.removeChild(x[i]);
+              }
+            }
+          }
+
+          /*execute a function when someone clicks in the document:*/
+          document.addEventListener("click", function (e) {
+              closeAllLists(e.target);
+          });
+      }
+
+        var article_titles = ['Anarchism', 'Autism', 'Albedo', 'A', 'Alabama', 'Achilles', 'Abraham_Lincoln', 'Aristotle', 'Academy_Award_for_Best_Production_Design', 'Academy_Awards', 'Altruism', 'Ayn_Rand', 'Algeria', 'List_of_Atlas_Shrugged_characters', 'Anthropology', 'Alchemy', 'Alien', 'Astronomer', 'ASCII', 'Animation', 'Apollo', 'Andre_Agassi', 'Afroasiatic_languages', 'Andorra', 'American_Football_Conference', 'Animal_Farm', 'Amphibian', 'Alaska', 'Agriculture', 'Aldous_Huxley', 'Algae', 'Analysis_of_variance', 'Alkane', 'America_the_Beautiful', 'Assistive_technology', 'Abacus', 'Acid', 'Asphalt', 'Apollo_11', 'Apollo_8', 'Astronaut', 'A_Modest_Proposal', 'Alkali_metal', 'Alphabet', 'Atomic_number', 'Anatomy', 'Andrei_Tarkovsky', 'Ambiguity', 'Aardvark', 'Adobe', 'Adventure', 'Asia', 'Aruba', 'Articles_of_Confederation', 'Atlantic_Ocean', 'Arthur_Schopenhauer', 'Angola', 'Android_(robot)', 'Alberta', 'Talk:Animal', 'Albert_Einstein', 'Afghanistan', 'Albania', 'Allah', 'Azerbaijan', 'Amateur_astronomy', 'Aikido', 'Art', 'Abortion', 'American_Revolutionary_War', 'Ampere', 'Talk:American_football', 'Algorithm', 'Mouthwash', 'Alexander_the_Great', 'Asteroids_(video_game)', 'Asteroid', 'Aries_(constellation)', 'Aquarius_(constellation)', 'Anime', 'Ankara', 'Arabic', 'Alfred_Hitchcock', 'Anaconda', 'Talk:Afghanistan/Archive_6', 'Altaic_languages', 'Axiom_of_choice', 'Attila', 'Aegean_Sea', 'A_Clockwork_Orange_(novel)', 'Amsterdam', 'Audi', 'Aircraft', 'Alfred_Nobel', 'Alexander_Graham_Bell', 'Anatolia', 'Apple_Inc.', 'American_Civil_War', 'Andy_Warhol', 'Akira_Kurosawa', 'Ancient_Egypt', 'Motor_neuron_disease', 'ABBA', 'MessagePad', 'Anna_Kournikova', 'Agnosticism', 'Argon', 'Arsenic', 'Antimony', 'Americium', 'Astatine', 'Atom', 'Aluminium', 'Anglican_Communion', 'Archipelago', 'Author', 'Angst', 'Anxiety', 'A._A._Milne', 'Axiom', 'The_Amazing_Spider-Man', 'Antigua_and_Barbuda', 'Albert_Speer', 'Asteraceae', 'Axon', 'Ataxia', 'Ada_Lovelace', 'Alps', 'Albert_Camus', 'Agatha_Christie', 'The_Plague', 'Absolute_value', 'Hercule_Poirot', 'Miss_Marple', 'April', 'August', 'Aaron', 'April_6', 'April_12', 'April_15', 'April_30', 'August_22', 'August_27', 'Alcohol', 'Achill_Island', 'Allen_Ginsberg', 'August_6', 'Anatoly_Karpov', 'Auto_racing', 'Anarcho-capitalism', 'Talk:Anarcho-capitalism', 'August_9', 'Aristophanes', 'Albert_Schweitzer', 'Austrian_School', 'Abscess', 'Aarhus', "All_Souls'_Day", 'Almond', 'Antisemitism', 'Azerbaijani_Armed_Forces', 'Talk:Antisemitism/Archive_20', 'Armed_Forces_of_Armenia', 'Foreign_relations_of_Armenia', 'August_13', 'Avicenna', 'The_Ashes', 'Analysis', 'Abner_Doubleday', 'Amplitude_modulation', 'Assembly_line', 'Adelaide', 'August_2', 'Accordion', 'Artificial_intelligence', 'Anaximander', 'Architect', 'Abbreviation', 'Aphrodite', 'April_1', 'Aleister_Crowley', 'Afterlife', 'Athena', 'Alloy', 'Angle', 'Acoustics', 'American_Sign_Language', 'Alternate_history', 'Atomic_orbital', 'Amino_acid', 'Alan_Turing', 'Area', 'Astronomical_unit', 'Artist', 'Anglicanism', 'Athens', 'Anguilla', 'Alexander_Mackenzie_(politician)', 'Talk:Algorithm', 'Ashoka', 'American_(word)', 'Ada_(programming_language)', 'Alfonso_Cuarón', 'Arianism', 'August_1', 'Antoninus_Pius', 'August_3', 'Advanced_Encryption_Standard', 'April_26', 'Analytical_Engine', 'Augustus', 'List_of_governors_of_Alabama', 'Apocrypha', 'Antarctic_Treaty_System', 'Ames,_Iowa', 'Abalone', 'Arminianism', 'The_Alan_Parsons_Project', 'Abbey', 'Antimatter', 'August_7', 'August_8', 'April_16', 'Americans_with_Disabilities_Act_of_1990', 'Apple_I', 'Apatosaurus', 'Allosaurus', 'AK-47', 'Andes', 'Anchor', 'Anagram', 'André-Marie_Ampère', 'Ammonia', 'Amethyst', 'Albertosaurus', 'Assembly_language', 'Ambrose', 'Amber', 'Army', 'Arachnophobia', 'Talk:Alan_Turing', 'Amazing_Grace', 'AOL', 'Anno_Domini', 'Alcuin', 'Amine', 'April_29', 'August_14', 'Absolute_zero', 'Adiabatic_process', 'Animism', 'Antonio_Vivaldi', 'Adrian', 'Abraham', 'Abraxas', 'August_15', 'Acacia_sensu_lato', 'Acapulco', 'August_16', 'APL_(programming_language)', 'ALGOL', 'AWK', 'Apollo_program', 'Assault', 'August_17', 'August_12', 'Alfred_Russel_Wallace', 'Australian_Labor_Party', 'August_18', 'August_19', 'August_21', 'August_25', 'Aachen', 'Agate', 'Aspirin', 'Ahmed_I', 'Ainu_people', 'Acropolis', 'Acupuncture', 'Aeneas', 'April_13', 'Amaranth', 'Agamemnon', 'Agrippina_the_Younger', 'American_Chinese_cuisine', 'Ahmad_Shah_Durrani', 'Akkadian_Empire', 'Ajax_the_Great', 'Ajax', 'Albertus_Magnus', 'Afonso_de_Albuquerque', 'Alexander_III_of_Russia', 'Alexander', 'Andrew_Jackson', 'Andrew_Johnson', 'Aleksandr_Solzhenitsyn', 'Aberdeen', 'August_23', 'August_24', 'Antipope', 'Aquaculture', 'Kolmogorov_complexity', 'April_28', 'Alfred_the_Great', 'Algiers', 'Ibn_al-Haytham', 'Almoravid_dynasty', 'Aloe', 'Age_of_consent', 'Afonso_I_of_Portugal', 'Alfonso_XIII_of_Spain', 'Amazons', 'Ambergris', 'Amazon_River', 'April_22', 'August_31', 'Abu_Bakr', 'Andaman_Islands', 'Apollo_13', 'Apollo_7', 'Apollo_9', 'Arthritis', 'April_2', 'Acetylene', 'August_28', 'Arabic_numerals', 'April_9', 'Alexander_Selkirk', 'Anti-ballistic_missile', 'August_29', 'August_30', 'Acre', 'Adenosine_triphosphate', 'Antibiotic', 'Arnold_Schwarzenegger', 'Amway', 'Adam_Smith', 'Talk:Austrian_School', 'Antoine_Lavoisier', 'April_18', 'April_23', 'Amitabh_Bachchan', 'Allegory', 'Allotropy', 'Augustin-Louis_Cauchy', 'Archimedes', 'Alternative_medicine', 'Geography_of_Africa', 'Approval_voting', 'Arizona_State_University', 'April_14', 'Talk:Aikido', 'Astoria,_Oregon', 'Art_Deco', 'ASCII_art', 'Talk:Assault_rifle', 'American_English', 'Australian_English', 'American_Airlines_Flight_77', 'Allele', 'Antimicrobial_resistance', 'Antigen', 'Al-Qaeda', 'Talk:Aluminium', 'Alessandro_Volta', 'Andromeda_(mythology)', 'Arkansas', 'Alexander_Fleming', 'Andrew_Carnegie', 'Airline', 'Australian_Democrats', 'Australian_Capital_Territory', 'Ally_McBeal', 'American_Civil_Liberties_Union', 'Adobe_Inc.', 'Alexander_Technique', 'Apparent_magnitude', 'Absolute_magnitude', 'Apollo_1', 'Apollo_10', 'Apollo_12', 'Apollo_14', 'Apollo_15', 'Apollo_16', 'Apollo_17', 'American_Revolution', 'April_17', 'Alpha_Centauri', 'Amiga', 'Abel_Tasman', 'August_5', 'Algebraic_geometry', 'Austin,_Texas', 'Talk:Arabic', 'Auschwitz_concentration_camp', 'Archery', 'Alvar_Aalto', 'Comparison_of_American_and_British_English', 'Talk:Comparison_of_American_and_British_English', 'Arbor_Day', 'Aeschylus', 'Andrew_Wiles', 'Anne_Brontë', 'Augustine_of_Hippo', 'Acting', 'Delian_League', 'Ares', 'Alexander_Grothendieck', 'Alcoholics_Anonymous', 'Array_data_structure', 'Advance_Australia_Fair', 'Amerigo_Vespucci', 'Auguste_Rodin', 'Talk:HIV/AIDS', 'Ann_Arbor,_Michigan', 'Act_of_Settlement_1701', 'Aircraft_hijacking', 'Acropolis_of_Athens', 'Adam_Weishaupt', 'Aeronautics', 'Auguste_and_Louis_Lumière', 'Acts_of_the_Apostles', 'Assyria', 'Aphasia', 'Aorta', 'Asterix', 'Arizona_Cardinals', 'Atlanta_Falcons', 'Heathenry_in_the_United_States', 'IBM_AIX', 'Apple_II_series', 'AVL_tree', 'Astrology', 'Ani_DiFranco', 'Arizona_Diamondbacks', 'Aesthetics', 'Ark_of_the_Covenant', 'Angles', 'Lists_of_animated_television_series', 'Atlanta_Braves', 'Atari_ST', 'Aaliyah', 'Armour', 'Armoured_fighting_vehicle', 'All_Quiet_on_the_Western_Front', 'African_Americans', 'Afrikaans', 'ABC', 'Arsenal_F.C.', 'American_cuisine', 'Ahmad_Shah_Massoud', 'Atlantis', 'Autobiography', 'Arabs', 'Armadillo', 'Antisemitism_in_the_Arab_world', 'August_11', 'Arcology', 'April_5', 'April_20', 'April_19', 'Amstrad_CPC', 'Arabic_alphabet', 'Arctic_fox', 'Folklore_of_the_United_States', 'Talk:Adam_Smith', "Sid_Meier's_Alpha_Centauri", 'Abu_Sayyaf', 'Armenian_language', 'Aircraft_carrier', 'Argentine_cuisine', 'April_8', 'Ad_hominem', 'Atari', 'Acadia_University', 'Antonio_Salieri', 'Analgesic', 'Apostolic_succession', 'Chemistry_of_ascorbic_acid', 'AFC_Ajax', 'Arthur_Eddington', 'April_3', 'AZ_Alkmaar', 'Adrenal_gland', 'Talk:Abraham_Lincoln', 'Aramaic', 'Actinide', 'Arthur_Miller', 'Anita_Hill', 'August_10', 'Area_51', 'April_27', 'Ayahuasca', 'Archbishop_of_Canterbury', 'American_Football_League', 'A.S._Roma', 'Antibody', 'Aston_Martin', 'Albert_Pike', 'Abdul_Rashid_Dostum', 'Andhra_Pradesh', 'Accelerated_Graphics_Port', 'American_Airlines', 'Antidepressant', 'Analog_television', 'April_11', 'Adhesive', 'Anthony_Hopkins', 'Advanced_Micro_Devices', 'Albrecht_Dürer', 'Australian_rules_football', 'Aon_(company)', 'Analytical_chemistry', 'A_cappella', 'Alicante', 'August_4', 'Ann_Widdecombe', 'Aurangzeb', 'Analog_computer', 'Alberto_Giacometti', 'Acceleration', 'Conservation_and_restoration_of_cultural_heritage', 'Anton_Chekhov', 'Apoptosis', 'Anal_sex', 'American_Quarter_Horse', 'Abaddon', 'Arc_de_Triomphe', 'April_21', 'Anthroposophy', 'Aurochs', 'Asynchronous_transfer_mode', 'Anus', 'African_National_Congress', 'Amphetamine', 'Artillery', 'Asian_Development_Bank', 'Airbus_A300', 'Alexandra', 'Alexander_Kerensky', 'Talk:Art', 'Agent_Orange', 'Arthur_Phillip', 'April_10', 'André_the_Giant', 'Apache_HTTP_Server', 'Accounting', 'Ant', 'Adware', 'Ajanta_Caves', 'Ajmer', 'Abdulaziz', 'Antacid', 'Aberdare', 'Amy_Grant', 'Aberdeen,_South_Dakota', 'Abergavenny', 'Anders_Celsius', 'Adam_Carolla', 'April_25', 'April_24', 'April_7', 'Andalusia', 'Azad_Kashmir', 'Arabian_Sea', 'Aspartame', 'AutoCAD', 'Asexual_reproduction', 'Alkene', 'ACE_inhibitor', 'Air_conditioner', 'Parallel_ATA', 'Atari_2600', 'Atari_5200', 'Atari_7800', 'Atari_Jaguar', 'Atari_Lynx', 'Ahiṃsā', 'Andrei_Sakharov', 'Astrobiology', 'Anthropic_principle', 'Australian_Army', 'Active_Directory', 'Aragonese_language', 'Aerodynamics', 'Ash', 'Alphabet_song', 'A_Vindication_of_the_Rights_of_Woman', 'Afghan_Hound', 'Acrylic_paint', 'Angular_momentum', 'Plum_pudding_model', 'Atomic_theory', 'Aung_San_Suu_Kyi', 'Talk:Artificial_intelligence', 'Advertising', 'Archaeoastronomy', 'Antipsychotic', 'Augustine_of_Canterbury', 'Active_Server_Pages', 'Amoxicillin', 'A_Wizard_of_Earthsea', 'Alex_Lifeson', 'Artemis', 'Arbeit_macht_frei', 'Albinism_in_humans', 'Amr_Diab', 'Anaïs_Nin', 'AIM_(software)', 'Ackermann_function', 'Albanians', 'Association_for_Computing_Machinery', 'Talk:Axiom_of_choice', 'Anabaptism', 'And_did_those_feet_in_ancient_time', 'A_Little_Night_Music', 'Ariel_Sharon', 'Alkali', 'Talk:Astrology', 'Convex_uniform_honeycomb', 'Assassination', 'Alcoholism', 'Abstraction', 'Talk:Arab–Israeli_conflict', 'Austria-Hungary', 'Abracadabra', 'Acts_of_Union_1707', 'Amputation', 'Anemometer', 'Archaeopteryx', 'Adrian_Lamo', 'Associate_Justice_of_the_Supreme_Court_of_the_United_States', 'Al_Capp', "ʻAbdu'l-Bahá", 'Anubis', 'Aleut', 'Acid–base_reaction', 'Autumn', 'Alameda,_California', 'Accrington', 'Armageddon', 'Athlon', 'Muslim_conquests_of_Afghanistan', 'Durrani_Empire', 'Arcturus', 'Albert_Brooks', 'Antares', 'Aldebaran', 'Australian_Broadcasting_Corporation', 'Alexandria', 'Alexandria,_Louisiana', 'Akira_Toriyama', 'Asymptote', 'Ariane_5', 'Abu_Zubaydah', 'Arithmetic', 'Adolphe_Sax', 'Atlanta', "A_Doll's_House", 'AIM-120_AMRAAM', 'Lockheed_AC-130', 'Arbitrage', 'ACF_Fiorentina', 'Afrobeat', 'Alien_and_Sedition_Acts', 'A._E._Housman', 'Talk:Augusto_Pinochet', 'Attribution_of_recent_climate_change', 'Al_Capone', 'Amplifier_figures_of_merit', 'Army_of_Darkness', 'Athanasius_of_Alexandria', 'Azores', 'Outback', 'Anthony_the_Great', 'Amygdalin', "Apostles'_Creed", 'Agar', 'Acid_rain', 'Arlo_Guthrie', 'Antioxidant', 'Brass', 'Bonn', 'Ballroom_dance', 'The_Birth_of_a_Nation', 'Baltic_Sea', 'The_Bronx', 'Belgium', 'Blues', 'Berlin', 'Benjamin_Lee_Whorf', 'Bill_Clinton', 'Talk:Bill_Clinton', 'Blue_law', 'Beer', 'Bit', 'Byte', 'The_Beverly_Hillbillies', 'Beryllium', 'Wikipedia_talk:WikiProject_Elements', 'Britney_Spears', 'Brazil', 'Black_Forest', 'Black_Sea', 'Bible', 'British_Columbia', 'Gautama_Buddha', 'Talk:Gautama_Buddha', 'Bridge', 'Board_game', 'Bead', 'Baruch_Spinoza', 'Bird', '...Baby_One_More_Time_(album)', 'Bulgaria', 'Bryozoa', 'Beavis_and_Butt-Head', 'Bulletin_board_system', 'Blindness', 'Symphony_No._9_(Beethoven)', 'Talk:Ludwig_van_Beethoven/Archive_3', 'Bomber', 'Cue_sports', 'Bursa', 'The_Bahamas', 'Bangladesh', 'Barbados', 'Belarus', 'Belize', 'Benin', 'Bermuda', 'Bolivia', 'Bosnia_and_Herzegovina', 'Botswana', 'Brunei', 'British_Virgin_Islands', 'Burkina_Faso', 'Armed_Forces_of_Bosnia_and_Herzegovina', 'Geography_of_Brazil', 'Politics_of_Brazil', 'Economy_of_Brazil', 'Brazilian_Armed_Forces', 'Economy_of_Bulgaria', 'Bulgarian_Armed_Forces', 'Bosporus', 'Brussels', 'Bell_(disambiguation)', 'Bell_Labs', 'Bjarne_Stroustrup', 'Brain', 'Byzantium', 'Talk:Byzantine_Empire/Archive_7', 'Berlin_Wall', 'Breakdance', 'Bhangra_(music)', 'Beastie_Boys', 'British_Isles', 'Basque_language', 'Benny_Andersson', 'Bluetooth', 'Boney_M.', 'Britain', 'Blade_Runner', 'Bill_Gates', 'Boron', 'Bromine', 'Barium', 'Bauxite', 'Bavaria', 'Brandenburg', 'Bundestag', 'BMW', 'Bornholm', 'Book', 'Bal_Thackeray', 'Body', 'Bitola', 'Battle_of_Bosworth_Field', 'Books_of_the_Bible', 'List_of_Major_League_Baseball_career_total_bases_leaders', 'Binary-coded_decimal', 'Bauhaus', 'Beowulf', 'Blazing_Saddles', 'Brigitte_Bardot', 'Banjo', 'Baseball', 'Talk:Baseball', 'History_of_baseball_in_the_United_States', 'Major_League_Baseball_Most_Valuable_Player_Award', 'Major_League_Baseball_Rookie_of_the_Year_Award', 'National_League_Championship_Series', 'American_League_Championship_Series', '2001_World_Series', 'Talk:Bacteria', 'Bernard_Montgomery', 'Benjamin_Disraeli', 'Binomial_distribution', 'British_and_Irish_Lions', 'Talk:Bible', 'Bass_guitar', 'Talk:Bass_guitar', 'Basketball', 'Ball', 'Binary_relation', 'Braille', 'Bastille_Day', 'Blue_Velvet_(film)', 'Bagpipes', 'Biochemistry', 'Badminton', 'Baroque', 'Boolean_algebra_(structure)', 'British', 'Bandwidth_(signal_processing)', 'Bodhisattva', 'Buckingham_Palace', 'British_Airways', 'Bicycle', '2001_United_Kingdom_general_election', 'Book_of_Mormon', 'Baptists', 'Blackjack', 'Buffalo,_New_York', 'Benjamin_Franklin', 'Bram_Stoker', 'Billion_(disambiguation)', 'Contract_bridge', 'Boat', 'Blood', 'Benoit_Mandelbrot', 'Benedict_of_Nursia', 'Battle_of_Pharsalus', 'Bigfoot', 'Bing_Crosby', 'BASIC', 'List_of_Byzantine_emperors', 'Butterfly_effect', 'Buckminster_Fuller', 'Bill_Watterson', 'Black', 'Bletchley_Park', 'Bede', 'Bubble_tea', 'Battle_of_Blenheim', 'Battleship', 'Battlecruiser', 'Bob_Hawke', 'Baldr', 'Blaise_Pascal', 'Binary_prefix', 'National_Baseball_Hall_of_Fame_and_Museum', 'Brainfuck', 'Bishop', 'Bordeaux', 'Bone', 'Benzoic_acid', 'Blythe_Danner', 'Bouldering', 'Boiling_point', 'Big_Bang', 'Bock', 'Bantu_languages', 'Bus', 'Bali', 'Bulgarian_language', 'Brown_University', 'Bertrand_Russell', 'Talk:Bertrand_Russell', 'Boeing_767', 'Bill_Walsh_(American_football_coach)', 'Bronze', 'Benelux', 'Babe_Ruth', 'British_English', 'Battle', 'Botany', 'Bacillus_thuringiensis', 'Bacteriophage', "Barnard's_Star", 'Boötes', 'Bassoon', 'Bipedalism', 'Bootstrapping', 'Bioinformatics', 'Brian_De_Palma', 'North_American_B-25_Mitchell', 'Bobby_Charlton', 'Barry_Lyndon', 'Cell_(biology)', 'Buffy_the_Vampire_Slayer_(film)', 'Barter', 'Berthe_Morisot', 'Barnard_College', 'Benedictines', 'Bayezid_I', 'Boxing', 'Talk:Basketball', 'Bollywood', 'Talk:Bollywood', 'Bowls', 'Baháʼí_Faith', 'Big_Brother_(Nineteen_Eighty-Four)', 'Binary_search_algorithm', 'Belle_and_Sebastian', 'Battle_of_Peleliu', 'Battle_of_Stalingrad', 'Bodhidharma', 'Talk:Buddhism', 'Baltimore_Ravens', 'British_National_Party', 'Baptism', 'Bocce', 'Beltane', 'Talk:Boston', 'Bethlehem', 'Benjamin', 'Black_Sabbath', 'Buffalo_Bills', 'Big_Dig', 'Binary_search_tree', 'Binary_tree', 'Blackadder', 'Backgammon', 'Book_of_Joshua', 'Book_of_Daniel', 'Batman', 'Boston_Red_Sox', 'Baltimore_Orioles', 'Bastarnae', 'Bohemia', 'BBC_Radio_1', 'Battle_of_Waterloo', 'Boomerang', 'Bodybuilding', 'Biological_warfare', 'Book_of_Isaiah', 'Brian_Lara', 'Beagle', 'Buffer_overflow', 'Bug', 'Barry_Bonds', 'Book_of_Numbers', 'Book_of_Judges', 'Books_of_Samuel', 'Book_of_Revelation', 'Books_of_Kings', 'Book_of_Ruth', 'Book_of_Esther', 'Rail_transport_in_Great_Britain', 'British_Rail', 'Book_of_Job', 'Book_of_Proverbs', 'Book_of_Ezekiel', 'Big_Brother_(franchise)', 'Bristol_City_F.C.', 'Bioterrorism', 'Northrop_Grumman_B-2_Spirit', 'Beaver', 'Bear', 'Bald_eagle', 'Brown_bear', 'Biathlon', 'Buddy_Holly', 'Brewing', 'Talk:Baháʼí_Faith', 'BASE_jumping', 'Beauty', 'Brownian_motion', 'Barcelona', 'Bandy', 'Booker_Prize', 'Book_of_Jonah', 'Talk:Liberal_Democrats_(UK)', 'Buddhist_philosophy', 'Billy_Bob_Thornton', 'The_Big_O', 'BIOS', 'Bose–Einstein_condensate', 'Beer–Lambert_law', 'The_Beach_Boys', 'BC', 'Beatrix_Potter', 'Liberal_Party_(UK)', 'Bank_of_England', 'Bakelite', 'Bean', 'Talk:Book_of_Mormon', 'Breast', 'Talk:Breast', 'Baghdad', 'British_thermal_unit', 'Bugatti', 'Band', 'Black_Death', 'Biotechnology', 'Battle_of_Poitiers', 'Bongo_(antelope)', 'Bunyip', 'Boone,_North_Carolina', 'Banshee', 'Boudica', 'Borneo', 'Ballpoint_pen', 'Brick', 'Béla_Bartók', 'Bill_Haley', 'Bipolar_disorder', 'Burt_Lancaster', 'Bra–ket_notation', 'Blue', 'BDSM', 'Bash_(Unix_shell)', 'Blizzard', 'Bikini', 'Babur', 'Bernard_of_Clairvaux', 'Bishkek', 'Braveheart', 'Battle_of_Jutland', 'Baku', 'Balalaika', 'Blind_Lemon_Jefferson', 'Blackbeard', 'Ballad', 'Blue_Öyster_Cult', 'Bacterial_vaginosis', 'Bud_Selig', 'Bison', 'Talk:Berlin', 'Björn_Borg', 'Battle_of_the_Nile', 'Barnabas', 'Boeing_747', 'Battle_of_Agincourt', 'Bronze_Age', 'BBC_News_(TV_channel)', 'Bill_Oddie', 'Broadway_(Manhattan)', 'Brian_Boitano', 'Bombardier_Inc.', 'Talk:British_Isles', 'BT_Group', 'Breton_language', 'Billy_Crystal', 'Black_hole', 'Beta_decay', 'Blitzkrieg', 'The_Beano', 'Bee', 'Basques', 'Bookkeeping', 'Bézier_curve', 'Boris_Pasternak', 'Binomial_coefficient', 'Bruce_Campbell', 'Boy_band', 'B-tree', 'British_Museum', 'Binomial_theorem', 'Boxing_Day', 'Balochistan,_Pakistan', 'William_M._Tweed', 'Big_Apple', 'Berber_languages', 'Bankruptcy', 'Bessel_function', 'Boolean_satisfiability_problem', 'Bob_Jones_University', 'British_Empire', 'Batman_(1989_film)', 'Batman_(1966_film)', 'Batman_Returns', 'Batman_&_Robin_(film)', 'Batman_Forever', 'Batman:_Year_One', 'Talk:Batman', 'Black_people', 'Plague_(disease)', 'Brasília', 'Borzoi', 'Basenji', 'Brit_milah', 'Business_ethics', 'Building_society', 'Branch_Davidians', 'Benzodiazepine', 'Talk:Benzodiazepine', 'Body_mass_index', 'Barry_Goldwater', 'Babylon_5', 'Biome', 'Behavior', 'Battle_of_Marathon', 'Balance_of_trade', 'Biosphere', 'Balfour_Declaration', 'Black_Hand_(Serbia)', 'Board_of_directors', 'Balkan_Wars', 'Buffalo', 'Biomedical_engineering', 'Balkans', 'Bohr_model', 'Blood_alcohol_content', 'Barrister', 'Battle_of_Gettysburg', 'Budweiser', 'Bermuda_Triangle', 'Berkeley,_California', 'Bengal', 'B._F._Skinner', 'Bill', 'Bob_Knight', 'Black_metal', 'Blizzard_Entertainment', 'Robert_Bellarmine', 'Bildungsroman', 'Bachelor', 'Background_radiation', 'British_Army', 'Bayesian_probability', 'Bert_Bell', 'Bob_Costas', 'Talk:Bipolar_disorder', 'Bamberg', 'Bill_Mumy', 'Beryl', 'Basel', 'Ben_Nevis', 'Bacardi', 'Black_and_Tans', 'Bunsen_burner', 'Blue_whale', 'Bolsheviks', 'Brass_instrument', 'Blood_libel', 'Blue_Angels', 'Born_again', 'Rockwell_B-1_Lancer', 'Book_of_Common_Prayer', 'Talk:Blood_libel', 'Birmingham_Small_Arms_Company', 'Bovril', 'Bernoulli_number', 'Bubble_Bobble', 'Bill_Bixby', 'Boer', 'Bronze_Star_Medal', 'Ballarat', 'Bohdan_Khmelnytsky', 'Battle_of_Okinawa', 'Brabham', 'Boeing_B-17_Flying_Fortress', 'Talk:Benito_Mussolini', 'Battle_of_Actium', 'Zebrafish', 'Battle_of_Adwa', 'Bjørn_Lomborg', 'Talk:Black_metal', 'Brisbane_Broncos', 'Brisbane_Lions', 'Bloody_Sunday_(1972)', 'Talk:Bloody_Sunday_(1972)', 'Bo_Diddley', 'Bela_Lugosi', 'Biathlon_World_Championships', 'Inedia', 'Belfast', 'Brigham_Young', 'Bill_Bryson', 'Bentley', 'Chordate', 'Charlize_Theron', 'Chess', 'Charlie_Chaplin', 'The_World_Factbook', 'Country', 'Copenhagen', 'Combinatorics', 'Calculus', 'Communication', 'Classics', 'Chemistry', 'Cytoplasm', 'Christ_(title)', 'Central_Europe', 'Geography_of_Canada', 'Demographics_of_Canada', 'Politics_of_Canada', 'Economy_of_Canada', 'Canada–United_States_relations', 'Talk:Canada', 'Christianity', 'Computing', 'Casino', 'Khmer_language', 'Central_processing_unit', 'Carnivora', 'Colombia', 'Citizen_Kane', 'Code', 'Chondrichthyes', 'Carl_Linnaeus', 'Coast', 'Country_music', 'Cold_War_(1947–1953)', 'Constitution', 'Common_law', 'Celtic_music', 'Constellation', 'Car_(disambiguation)', 'Printer_(computing)', 'Copyright', 'Talk:Copyright', 'Catalan_language', 'Classical_period_(music)', 'Character_encoding', 'Carbon', 'Computer_data_storage', 'Chemical_equilibrium', 'Software', 'Personal_computer_hardware', 'Computer_programming', 'Crouching_Tiger,_Hidden_Dragon', 'Charlemagne', 'Carbon_nanotube', 'Czech_Republic', 'Czechoslovakia', 'Computer_science', 'Creationism', 'Colloid', 'Chinese', 'Riding_shotgun', 'Talk:List_of_sovereign_states', 'Cooking', 'Talk:Communism/Archive_8', 'Card_game', 'Video_game', 'Cambrian', 'Concrete', 'Coitus_interruptus', 'Condom', 'Cladistics', 'Calendar', 'Physical_cosmology', 'Inflation_(cosmology)', 'Cultural_anthropology', 'Conversion_of_units', 'City', 'Chris_Morris_(satirist)', 'Colorado', 'Carboniferous', 'Comoros', 'China', 'Talk:Cladistics', 'California', 'Columbia_River', 'Contra_dance', 'Coin_collecting', 'Capitalism', 'Talk:Capitalism', 'Cardiology', 'Capcom', 'History_of_Cambodia', 'Geography_of_Cambodia', 'Capricornus', 'Cameroon', 'Cayman_Islands', 'Central_African_Republic', 'Chad', 'Chile', 'History_of_Chile', 'Economy_of_Chile', 'Christmas_Island', 'Clipperton_Island', 'Cocos_(Keeling)_Islands', 'Conspiracy_theory', 'Costa_Rica', 'Economy_of_Costa_Rica', 'Croatia', 'History_of_Croatia', 'Demographics_of_Croatia', 'Economy_of_Croatia', 'Republic_of_Croatia_Armed_Forces', 'History_of_Cuba', 'Economy_of_Cuba', 'Foreign_relations_of_Cuba', 'Cyprus', 'Economy_of_Cyprus', 'Talk:Cyprus', 'Cretaceous', 'Creutzfeldt–Jakob_disease', 'Canal', 'Cognitive_science', 'Copula_(linguistics)', 'Christopher_Columbus', 'Chemist', 'Cypress_Hill', 'Combustion', 'Cyrillic_script', 'Channel_Islands', 'Comedy_film', 'Cult_film', 'Constantinople', 'Columbus', 'Cornwall', 'Constitutional_monarchy', 'Computer_networking', 'Caspar_David_Friedrich', 'Courtney_Love', 'Human_cannibalism', 'Chemical_element', 'Consciousness', 'Currency', 'Central_bank', 'Chlorine', 'Calcium', 'Chromium', 'Cymbal', 'Cadmium', 'Californium', 'Corporate_title', 'Cambridge,_Massachusetts', 'College', 'Claude_Shannon', 'Community', 'Community_college', 'Charles_Babbage', 'Cross-dressing', 'Channel_Tunnel', 'Cyberpunk', 'Comic_strip', 'Collectivism', 'Nepeta', 'Chicano', 'Canary_Islands', 'Chuck_D', 'Coma', 'Cape_Breton_Island', 'Cthulhu_Mythos', 'Chariots_of_Fire', 'Consequentialism', 'Conscription', 'Cervix', 'Compiler', 'Castrato', 'Cognitive_behavioral_therapy', 'Chinese_language', 'Talk:Columbia_River', 'Talk:Cannabis', 'History_of_China', 'Civil_engineering', 'Çatalhöyük', 'Clement_Attlee', 'Catullus', 'List_of_country_calling_codes', 'Christopher_Marlowe', 'Caving', 'Cave', 'Chinese_numerals', 'Computer_program', 'Crime', 'California_Institute_of_Technology', 'Talk:Cretaceous–Paleogene_extinction_event', 'Celebrity', 'Charles_Baudelaire', 'Casey_at_the_Bat', 'Classical_guitar', 'C._S._Lewis', 'Cenozoic', 'Confucianism', 'Chinese_philosophy', 'Confucius', 'Complex_number', 'Talk:Chinese_language', 'Cryptozoology', 'Craig_Charles', 'County_Mayo', 'County_Fermanagh', 'Economy_of_Colombia', 'History_of_Colombia', 'Economy_of_the_Czech_Republic', 'Climbing', 'Continuity_Irish_Republican_Army', 'Congo', 'Copenhagen_interpretation', 'Council_of_Europe', 'Council_of_the_European_Union', 'Category_theory', 'Canada_Day', 'Coronary_artery_disease', 'Caesium', 'Century', 'Cardiff', 'Charles_Dickens', 'Capital_punishment', 'Chalcogen', 'Carbon_dioxide', 'Cheers', 'Counterpoint', 'Cyanide', 'Catalysis', 'Circumference', 'Celtic_languages', 'Color', 'Clown', 'Cycling', 'Carbohydrate', 'CSS_Virginia', 'The_Church_of_Jesus_Christ_of_Latter-day_Saints', 'Talk:The_Church_of_Jesus_Christ_of_Latter-day_Saints', 'History_of_The_Church_of_Jesus_Christ_of_Latter-day_Saints', 'Christian_eschatology', 'Chicago_White_Sox', 'Columbus,_Ohio', 'Cleveland', 'Church_of_England', 'Circe', 'Canadian_Pacific_Railway', 'Cognitive_psychology', 'Comet', 'Compost', 'Capoeira', 'Carbon_sink', 'Charles_Tupper', 'Coal', 'Traditional_Chinese_medicine', 'Chemical_bond', 'Cell', 'Climate', 'Computer_worm', 'Cathode-ray_tube', 'Crystal', 'C_(programming_language)', 'Calvinism', 'Celibacy', 'Coalition_government', 'Chemical_engineering', 'List_of_comedians', 'Compact_space', 'Cicero', 'Continental_drift', 'Commodores', 'Collagen', 'Calvin_and_Hobbes', 'Craps', 'Talk:Calvin_and_Hobbes', 'Carl_von_Clausewitz', 'Common_Lisp', 'Talk:Color', 'Common_Era', 'Chechnya', 'Canonization', 'Carboxylic_acid', 'Chernobyl', 'Cyan', 'Cream', 'CN_Tower', 'Chain_rule', 'P_versus_NP_problem', 'Charles_Sanders_Peirce', 'Central_America', 'Continuous_function', 'Carl_Friedrich_Gauss', 'Talk:Charles_Darwin', 'Cornish_language', 'Charybdis', 'Carbon_monoxide', 'Claudius', 'Cecil_B._DeMille', 'Cantonese_cuisine', 'Chuck_Yeager', 'Cajun_cuisine', 'Cologne', 'Calvin_Coolidge', 'Electric_current', 'Chinese_room', 'Talk:Chinese_room', 'Circle', 'Cardinal_(Catholic_Church)', 'Claudio_Monteverdi', 'Colossus_computer', 'Canadian_Shield', 'Comic_book', 'Cell_nucleus', 'Christmas', 'Covalent_bond', 'Colorado_Springs,_Colorado', 'Professional_certification', 'List_of_cartoonists', 'Civilization', 'Civilization_(video_game)', 'Claude_Debussy', 'Cultural_imperialism', 'Chemical_reaction', 'Cube']
+
+        /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+        autocomplete(document.getElementById("myInput"), article_titles);
+    </script>
+
+    </body>
+</html>

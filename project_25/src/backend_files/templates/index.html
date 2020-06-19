@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Python AST Visualizer</title>
+  <link rel="stylesheet" href="static/css/vtree.css" type="text/css"/>
+  <script src="static/js/vtree.min.js"></script>
+  <script type="text/javascript" defer>
+    window.addEventListener('load', () => {
+      let vt, d3_msg = d3.select('#error-msg')
+
+      document.querySelector('#python-src').onkeydown = function (e) {
+        if (e.key === 'Tab') {
+          let val = this.value, start = this.selectionStart, end = this.selectionEnd
+          this.value = val.substring(0, start) + '\t' + val.substring(end)
+          this.selectionStart = this.selectionEnd = start + 1
+          return false
+        }
+      }
+
+      vt = vtree(document.getElementById('container'))
+
+      vt.mode(vt.MODE_PYTHON_AST).data({"body": [{"_PyType": "Import", "names": [{"_PyType": "alias", "name": "pandas", "asname": "pd"}]}, {"body": [{"_PyType": "Return", "value": {"_PyType": "BinOp", "op": {"_PyType": "Add"}, "right": {"_PyType": "Num", "n": 1}, "left": {"_PyType": "Name", "id": "d", "type": "udv"}}}], "_PyType": "FunctionDef", "args": {"_PyType": "arguments", "args": [{"_PyType": "Name", "id": "d", "type": "udv"}], "kwarg": null, "defaults": [], "vararg": null}, "name": "c", "decorator_list": []}, {"args": [], "func": {"_PyType": "Attribute", "attr": "DataFrame", "value": {"_PyType": "Name", "id": "pandas"}}, "keywords": [], "_PyType": "Call"}, {"args": [{"elts": [{"elts": [{"_PyType": "Num", "n": 1}, {"_PyType": "Num", "n": 2}, {"_PyType": "Num", "n": 3}], "_PyType": "List"}, {"elts": [{"_PyType": "Num", "n": 4}, {"_PyType": "Num", "n": 5}, {"_PyType": "Num", "n": 6}], "_PyType": "List"}], "_PyType": "List"}], "func": {"_PyType": "Attribute", "attr": "DataFrame", "value": {"_PyType": "Name", "id": "pandas"}}, "keywords": [], "_PyType": "Call"}, {"keywords": [], "_PyType": "Call", "args": [], "func": {"_PyType": "Attribute", "attr": "sum", "value": {}}}, {"keywords": [], "_PyType": "Call", "args": [], "func": {"_PyType": "Attribute", "attr": "mean", "value": {}}}, {"args": [], "func": {"_PyType": "Name", "id": "b", "type": "udv"}, "keywords": [], "_PyType": "Call"}, {"args": [], "func": {"_PyType": "Name", "id": "c", "type": "udf"}, "keywords": [], "_PyType": "Call"}, {"args": [{"_PyType": "Num", "n": 1}, {"_PyType": "Num", "n": 2}, {"_PyType": "Num", "n": 3}], "func": {"_PyType": "Name", "id": "sum", "type": "built_in"}, "keywords": [], "_PyType": "Call"}], "_PyType": "Module"}).conf('showArrayNode', false).update()
+
+      let importStr = 'pd > pandas'
+      document.querySelector('#imports').innerHTML = importStr
+
+      function showHandler() {
+        vt.conf(this.value, this.checked).update()
+
+        if (this.value === 'showColumn0' && this.checked === false) {
+          document.getElementById('showColumn1').checked = true
+        } else if (this.value === 'showColumn1' && this.checked === false) {
+          document.getElementById('showColumn0').checked = true
+        }
+      }
+
+      document.getElementById('showArrayNode').onclick = showHandler
+      document.getElementById('showLinkName').onclick = showHandler
+      document.getElementById('showColumn0').onclick = showHandler
+      document.getElementById('showColumn1').onclick = showHandler
+
+      document.getElementById('visualize-button').addEventListener('click', () => {
+        d3.json('ast2json').header('Content-Type', 'application/x-www-form-urlencoded')
+          .post(`input=${encodeURIComponent(document.getElementById('python-src').value)}&normalize=${document.querySelector('#normalize').checked}&ctx=${document.querySelector('#ctx').checked}`, (error, data) => {
+            if (error) {
+              d3_msg.text(`${error.status}: ${error.statusText}`)
+              return
+            }
+
+            d3_msg.text('')
+
+            vt.conf('maxNameLen', 32)
+            vt.conf('maxValueLen', 32)
+
+            vt.data(data.graph)
+            vt.update()
+
+            let importStr = ''
+            for (let [k, v] of Object.entries(data.imports)) {
+	      importStr += `${k} > ${v}<br />`
+	    }
+	    document.querySelector('#imports').innerHTML = importStr.length ? importStr : '(None detected)'
+          })
+      })
+    })
+  </script>
+</head>
+<body>
+<h1>Python AST Visualizer</h1>
+<div>
+		<textarea id="python-src" rows="8" cols="80">
+# demonstration of preprocessing and normalizing imports
+import pandas as pd
+a = pd.DataFrame()
+
+# demonstration of normalization of chained calls
+pd.DataFrame([[1, 2, 3], [4, 5, 6]]).sum().mean()
+
+# demonstration of UDF, UDV, built-in/package methods differentiation
+def c(d):
+	return d + 1
+# e.g. we called b = function_returner()
+b()
+c()
+sum(1, 2, 3)</textarea>
+</div>
+<p id="error-msg" style="color: red;"/>
+<div>
+  <fieldset>
+    <legend>Functions</legend>
+    <input id="visualize-button" type="button" value="Visualize">
+    <input type='checkbox' id='normalize' checked /><label for='normalize'>Normalize Functions</label>
+    <input type='checkbox' id='ctx' /><label for='ctx'>Show ctx nodes</label>
+  </fieldset>
+  <fieldset style='display:none'>
+    <legend>Visibility</legend>
+    <input id="showArrayNode" type="checkbox" value="showArrayNode" /><label for="showArrayNode">Array
+    Node&nbsp;&nbsp;</label>
+    <input id="showLinkName" type="checkbox" value="showLinkName" checked><label for="showLinkName">Link Name&nbsp;&nbsp;</label>
+    <input id="showColumn0" type="checkbox" value="showColumn0" checked /><label for="showColumn0">Column
+    1&nbsp;&nbsp;</label>
+    <input id="showColumn1" type="checkbox" value="showColumn1" checked /><label for="showColumn1">Column
+    2&nbsp;&nbsp;</label>
+  </fieldset>
+  <fieldset style='overflow-y:auto'>
+    <legend>Processed imports</legend>
+    <span id='imports' />
+  </fieldset>
+</div>
+<div style='clear:both'></div>
+<div id="container" style='padding-top:.5em'></div>
+</body>
+</html>

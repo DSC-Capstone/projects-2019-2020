@@ -1,0 +1,6 @@
+{
+    "data_dir": "/datasets/dsc180a-wi20-public/Wiki/group_data/calvin_leena_scott_sksksksk/data/",
+    "pageview_fp": "pageviews-20200421-120000.csv",
+    "covid_fp": "2019–20_coronavirus_pandemic_articles_graph.csv",
+    "save_fp": "image-20200421-120000.svg"
+}

@@ -1,0 +1,20 @@
+Weekly Check-in 2 (4/14):
+
+1. Tasks Attempted:
+	- Making code for generating artifical datasets
+	- Defining how to represent continous data.
+	- Performing EDA on our medical dataset
+
+2. Completed:
+	- Everything
+
+3. Obstacles:
+	- We found a high amount of missing data witin our medical dataset
+	- The medical dataset is large, so we anticipate needing to make our code very scalable.
+
+4. Coming Week:
+	– Generate Heterogenous Graphs (Udai) 
+	– Train baselines Models (Wesley)
+		∗ perform tests over a subset of generated datasets
+	– Clean real dataset and transform in a usable format (Shinu)
+	– Stretch Goal: Train/Evaluate Hindroid Model using our data (everyone)

@@ -1,0 +1,163 @@
+---
+title: "MAF_Analysis"
+author: "Alexandra"
+date: "4/16/2020"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Import Statements
+
+```{r maf}
+library(maftools)
+
+```
+
+```{r, echo=FALSE}
+# Comparing mutated genes
+# Ectoderm
+getGeneSummary(ectoderm)
+
+#Mesoderm
+getGeneSummary(mesoderm)
+
+#Endoderm
+getGeneSummary(endoderm)
+```
+
+```{r, echo=FALSE}
+# Comparing mutated genes using Gene Cloud
+
+# Ectoderm
+geneCloud(input = ectoderm, minMut = 200)
+# Mesoderm
+geneCloud(input = mesoderm, minMut = 200)
+# Endoderm
+geneCloud(input = endoderm, minMut = 200)
+
+```
+
+
+# Plotting: Summary
+```{r, echo=FALSE}
+
+# Ectoderm
+plotmafSummary(maf = ectoderm, rmOutlier = TRUE, addStat = 'median', dashboard = TRUE)
+# Mesoderm
+plotmafSummary(maf = mesoderm, rmOutlier = TRUE, addStat = 'median', dashboard = TRUE)
+# Endoderm
+plotmafSummary(maf = endoderm, rmOutlier = TRUE, addStat = 'median', dashboard = TRUE)
+
+
+```
+
+# Plotting: oncoplots: Better representation of maf file
+```{r, echo=FALSE}
+
+# Ectoderm
+oncoplot(maf = ectoderm, top = 10, removeNonMutated = TRUE)
+# Mesoderm
+oncoplot(maf = mesoderm, top = 10, removeNonMutated = TRUE)
+# Endoderm
+oncoplot(maf = endoderm, top = 10, removeNonMutated = TRUE)
+
+```
+#classifies SNPs into Transitions and Transversions and returns a list of summarized tables in various ways
+```{r, echo=FALSE}
+
+#Ectoderm
+ectoderm.titv = titv(maf = ectoderm, plot = FALSE, useSyn = TRUE)
+plotTiTv(res = ectoderm.titv)
+
+#Mesoderm
+mesoderm.titv = titv(maf = mesoderm, plot = FALSE, useSyn = TRUE)
+plotTiTv(res = mesoderm.titv)
+
+#Ectoderm
+endoderm.titv = titv(maf = endoderm, plot = FALSE, useSyn = TRUE)
+plotTiTv(res = endoderm.titv)
+```
+
+# Rainfall Parts: Cancer genomes, especially solid tumors are characterized by genomic loci with localized hyper-mutations 5. Such hyper mutated genomic regions can be visualized by plotting inter variant distance on a linear genomic scale. 
+```{r, echo=FALSE}
+# Ectoderm
+ecto.rf = rainfallPlot(maf = ectoderm, detectChangePoints = TRUE, fontSize = 12, pointSize = 0.6)
+
+# Mesoderm
+meso.rf = rainfallPlot(maf = mesoderm, detectChangePoints = TRUE, fontSize = 12, pointSize = 0.6)
+
+# Endoderm
+endo.rf = rainfallPlot(maf = endoderm, detectChangePoints = TRUE, fontSize = 12, pointSize = 0.6)
+```
+
+# Many disease causing genes in cancer are co-occurring or show strong exclusiveness in their mutation pattern. Such mutually exclusive or co-occurring set of genes can be detected using somaticInteractions
+```{r, echo=FALSE}
+#exclusive/co-occurance event analysis on top 10 mutated genes. 
+# Ectoderm
+somaticInteractions(maf = ectoderm, top = 25, pvalue = c(0.05, 0.1))
+# Mesoderm
+somaticInteractions(maf = mesoderm, top = 25, pvalue = c(0.05, 0.1))
+# Endoderm
+somaticInteractions(maf = endoderm, top = 25, pvalue = c(0.05, 0.1))
+
+```
+```{r, echo=FALSE}
+# Ectoderm 
+ectoderm.sig = oncodrive(maf = ectoderm,  minMut = 5, pvalMethod = 'zscore')
+head(ectoderm.sig)
+plotOncodrive(res = ectoderm.sig, fdrCutOff = 0.1, useFraction = TRUE)
+# Endoderm
+mesoderm.sig = oncodrive(maf = mesoderm,  minMut = 5, pvalMethod = 'zscore')
+head(mesoderm.sig)
+plotOncodrive(res = mesoderm.sig, fdrCutOff = 0.1, useFraction = TRUE)
+# Endoderm
+endoderm.sig = oncodrive(maf = endoderm,  minMut = 5, pvalMethod = 'zscore')
+head(endoderm.sig)
+plotOncodrive(res = endoderm.sig, fdrCutOff = 0.1, useFraction = TRUE)
+```
+
+Protein Analysis 
+```{r, echo=FALSE}
+# Ectoderm
+ectoderm.pfam = pfamDomains(maf = ectoderm, top = 10)
+ectoderm.pfam$proteinSummary[,1:7, with = FALSE]
+ectoderm.pfam$domainSummary[,1:3, with = FALSE]
+# Mesoderm
+mesoderm.pfam = pfamDomains(maf = mesoderm, top = 10)
+mesoderm.pfam$proteinSummary[,1:7, with = FALSE]
+mesoderm.pfam$domainSummary[,1:3, with = FALSE]
+# Endoderm
+endoderm.pfam = pfamDomains(maf = endoderm, top = 10)
+endoderm.pfam$proteinSummary[,1:7, with = FALSE]
+endoderm.pfam$domainSummary[,1:3, with = FALSE]
+```
+
+
+OncogenicPathways(maf = ectoderm)
+# Comparing Germlayers 
+```{r, echo=FALSE}
+ecto.vs.endo <- mafCompare(m1 = ectoderm, m2 = endoderm, m1Name = 'Ectoderm', m2Name = 'Endoderm', minMut = 5)
+print(ecto.vs.endo)
+ecto.vs.meso <- mafCompare(m1 = ectoderm, m2 = mesoderm, m1Name = 'Ectoderm', m2Name = 'Mesoderm', minMut = 5)
+print(ecto.vs.meso)
+endo.vs.meso <- mafCompare(m1 = endoderm, m2 = mesoderm, m1Name = 'Endoderm', m2Name = 'Mesoderm', minMut = 5)
+print(endo.vs.meso)
+```
+
+
+ectoderm.sig = extractSignatures(mat = ectoderm, n = 3)
+ectoderm.se = signatureEnrichment(maf = ectoderm, sig_res = ectoderm.sig)
+plotEnrichmentResults(enrich_res = ectoderm.se, pVal = 0.05)
+
+laml.mutload = tcgaCompare(maf = laml, cohortName = 'Example-LAML')
+```
+
+
+
