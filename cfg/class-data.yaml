@@ -19,6 +19,7 @@ project_01:
     \ of how skewed it is towards a certain race, we would not consider this racial\
     \ bias within the Oscars since they are being consistent with the breakdown in\
     \ the industry."
+  domain: domain_01
   names: Rebecca Hu, Emily Kwan, Poonam Varkhedi
   repo: https://github.com/HuRebecca/wiki-capstone
   title: 'Racial Bias in Film Awards Shows: Oscars & Golden Globes'
@@ -46,6 +47,7 @@ project_10:
     \ Hispanic and Black drivers\u2019 stop rates will increase following a negative\
     \ race related media story, when compared to their stop rates before said event,\
     \ and their stop rates in similar seasonal time frames."
+  domain: domain_03
   names: Nathan Au, Huda Ahmed, Thomas Evans-Barton
   repo: https://github.com/n2au/Fair-Policing-Capstone
   title: Analyzing the Media's Effect on SD Police Traffic Stops
@@ -66,6 +68,7 @@ project_11:
     \ score matching analyses, we show that police officers, regardless of their race,\
     \ are more likely to stop, search and arrest drivers whose race is different from\
     \ their own."
+  domain: domain_03
   names: Jared Andrews, Hetsvi Navnitlal, Cole Richmond
   repo: https://github.com/colerichmond/DSC180B-Capstone
   title: Does the Race of a Police Officer Influence Traffic Stop Outcomes?
@@ -79,6 +82,7 @@ project_12:
     focuses on data from LAPD who has used Predpol since 2013. The results of our
     study will determine whether Predpol has an effect on crime and explore which
     crimes, areas, and people are most affected by the system.
+  domain: domain_03
   names: Luis Diaz, Stephanie Moore, Julian Yeh
   repo: https://github.com/luismdiaz01/DSC180B
   title: Is Predictive Policing Preventative? An analysis of predictive policing systems
@@ -101,6 +105,7 @@ project_13:
     \ Having applied the model, we demonstrated the difference after RML in California\
     \ is statistically significant, while considering possible confounders, such as\
     \ urbanization and time."
+  domain: domain_03
   names: Yingwen Zhang, Bo Hu, Jialin Shan
   repo: https://github.com/boh016/fair_policing
   title: Effects of Recreational Marijuana Legalization on Traffic Collisions in California
@@ -124,6 +129,7 @@ project_14:
     \ from The Cancer Genome Atlas (TCGA) which is an online repository of cancer\
     \ data. To understand how we analyze the genetic differences, we would introduce\
     \ some important terminology that are helpful."
+  domain: domain_04
   names: Siqi Huang, Noah Inada, Yifei Ning
   repo: https://github.com/siqihuang47/dsc180b_visualization
   title: 'Genetic Differences Between Glioblastoma Multiforme and Low-Grade Glioma
@@ -146,6 +152,7 @@ project_15:
     coding gene and is somewhat correlated with type 2 diabetes. KCNQ1 is a protein
     that supports the creation of potassium channels and is also somewhat believed
     to be correlated with type 2 diabetes.
+  domain: domain_04
   names: Kelvin Nguyen, Fernie Qin
   repo: https://github.com/ktn104/DSC180BPipeline
   title: Meta-Analysis to find Genes related to T2Ds
@@ -166,6 +173,7 @@ project_16:
     \ Forest, and Gaussian Naive Bayes, compare in their ability to effectively predict\
     \ disease risk and how they may offer alternate and possibly better methods over\
     \ traditional techniques."
+  domain: domain_04
   names: Michael Sorenson, Enrique Sanchez, Allston Fojas
   repo: https://github.com/esanchez01/PredictingDisease
   title: Predicting Disease Risk Through Machine Learning
@@ -191,6 +199,7 @@ project_17:
     \ genes associated with poor survival for one gene, two-gene, and three-gene combinations.\
     \ In conclusion, the survival rates for mesoderm and endoderm were less related\
     \ than other combinations of layers."
+  domain: domain_04
   names: Eric Jiang, Alexandra Keamy, Shonak Shah, Samantha De-La-Torre
   repo: https://github.com/ajkeamy/Clustering-Germ-Layers
   title: Cancer Survivability & Genetic Mutations across Germ Layers
@@ -209,6 +218,7 @@ project_18:
     \ with reduced insulin production, a decrease in the protein FOXP3 which is correlated\
     \ with increased autoimmunity, as well as other miRNA correlated with symptoms\
     \ of Type-1 diabetes such as changes in vision possibly leading to blindness."
+  domain: domain_04
   names: Pete Sheurpukdi, Derrick Liu
   repo: https://github.com/Derrick56007/miRNA_preT1Diabetes
   title: Evaluating miRNA as Biomarkers for pre-Type 1 Diabetes
@@ -226,6 +236,7 @@ project_19:
     on two genes (CR1 and PICALM) out of the nine we tested on. We also found four
     genes (CSNK1E, CACNG2, SLC17A6, LINGO2) that showed significant associations during
     the hypothesis test. However, none of the four genes were accepted in the meta-analysis.
+  domain: domain_04
   names: Haoshu Qin, Zhuoyuan Ren, Haoming Zhang
   repo: https://github.com/TonyZhanghm/DSC180B_Genome_01
   title: Genome-wide association studies on Alzheimers Disease
@@ -237,6 +248,7 @@ project_02:
     We examine the amount of page views and the edit history of Wikipedia pages in
     the English Wikipedia as a way to holistically evaluate the user engagement with
     different Wikipedia articles.
+  domain: domain_01
   names: Kenny Zhu, Jonathan Lin, Salma Shaikh
   repo: https://github.com/Jwlin17/DSC180B
   title: User Engagement in Wikipedia
@@ -251,6 +263,7 @@ project_20:
     proved they are able to capture a longer chain of relationships between APIs.
     We show that using these different graph embedding techniques can still achieve
     similar accuracies to that of HinDroid's.
+  domain: domain_05
   names: Yuxin Zou, Jeff Liao, Zheng Tang
   repo: https://github.com/davidzyx/HinDroid-with-Embeddings
   title: Exploration of Graph Embedding Techniques in HinDroid
@@ -270,6 +283,7 @@ project_21:
     \ who write hateful posts and the posts they interact with, and that\u2019s why\
     \ we believe our approach of constructing the graphs will work well in hateful\
     \ post classification."
+  domain: domain_05
   names: Chengyu Chen, Shuibenyang Yuan, Yanyu Tao, Yu-Chun Chen
   repo: https://github.com/syeehyn/hinreddit
   title: 'HinReddit: Understanding Hate and Conflict in Reddit Communities'
@@ -288,6 +302,7 @@ project_22:
     only surpasses the baseline model for a single dataset. However, we also found
     that our model tends to beats the naive model as our datasets scale up with our
     modeling achieving an accuracy of 79% compared to the 59% for the baseline.
+  domain: domain_05
   names: Wesley Kwan, Ittoop Shibu, Udaikaran Singh
   repo: https://github.com/UdaikaranSingh/recordLinkage
   title: Heterogenous Graph Embedding for Record Linkage
@@ -306,6 +321,7 @@ project_23:
     results. Additionally, we attempt to understand, through model explainability
     practices, the inner mechanisms of the complex model to better understand possible
     inaccuracies which may arise in creating a scaled version of a HIN approach.
+  domain: domain_05
   names: Umang Saraf, Daniel Alemu, Liam Mccarthy
   repo: https://github.com/umangsaraf/malware-detection
   title: Improving and Explaining HinDroid
@@ -328,12 +344,14 @@ project_24:
     which they think matter most for their particular needs. We are developing this
     user-customizable, content-based restaurant recommender system so that you can
     decide for yourself which parts of your dining experience matter most.
+  domain: domain_05
   names: Lindsey Doyle, David Thierry, Daniel Hartmann
   repo: https://github.com/lpdoyle/Habits
   title: The Food Chain - A Personalized Restaurant Recommender System
   website: http://team05.pythonanywhere.com/
 project_25:
   abstract: "We recognized that code plagiarism is a serious issue in undergraduate programming courses and attempted to tackle it. Unlike the current string matching based algorithm, we developed an algorithm to compare the <a href=\"https://en.wikipedia.org/wiki/Abstract_syntax_tree\">Abstract Syntax Tree</a> of source codes and then calculate a similarity score that captures a deeper semantic of the source codes than the widely used anti-plagiarism system <a href=\"https://theory.stanford.edu/~aiken/moss/\">MOSS</a>. Additionally, we are able to filter out the influence of template codes and thus reduce the false-positive rate. We have wrapped up the algorithm into a functional website, in which you can upload your codes or select from our example codes to interact with us and receive an immediate result."
+  domain: domain_05
   names: Xiao Wang, Zoe Li, Sizhu Chen, Kevin Zhou
   repo: https://github.com/zhuoranzoeli/CodeHonestly
   title: CodeHonestly - Advanced Python Code Plagiarism Checker
@@ -357,12 +375,14 @@ project_26:
     to benign to see if we could trick our model into predicting malware apps as benign.
     To understand how specific apps affected our classification output, we analysed
     the SVM weights of our model and looked into how apps cluster together using tSNE.
+  domain: domain_05
   names: Nancy Vuong, Karan Sunil, Kevin Elkin
   repo: https://github.com/karans04/Malware-Category-Detection
   title: Malware Category Detection
   website: https://nancyvuong.github.io/dsc180b_website/
 project_27:
   abstract: Nowadays, Android is dominating the smartphone market as an open source and customizable operating system. Many hackers targeted Android applications by disseminating malwares, posing serious threats to users. Historically, mobile security products such as Norton and Lookout, are heavily relied upon as major defense against such threats. Recently, many machine learning based methods have been invented for malware detection. A successful one of them is creating features from a Heterogeneous Information Network (HinDroid). However, it is confined in such a way that it ignores more comprehensive information which can be extracted from graph representation. In this project, we will explore different meta-paths and incorporate various graph embedding methods in the task of malware prediction. We propose to build upon our previous work in HinDroid replication, more specifically we will attempt to use deep learning graph embedding techniques. The success of this project will not only be determined by the performance of our final model but more importantly the evaluation of different graph embedding methods and further reasoning on the result.
+  domain: domain_05
   names: Shuliang Mai, Xuanyu Wu, Bo Zhang
   repo: https://github.com/zhangbo1997/Graph-Based-Malware-Prediction
   title: Android Malware Detection with metapath2vec
@@ -375,6 +395,7 @@ project_03:
     we are investigating which one is the most trustworthy and unbiased information
     source regarding to COVID-19, whether it is a traditional newspaper, or it is
     Wikipedia.
+  domain: domain_01
   names: Leena Elamrawy, Shanjiaoyang Huang, Calvin Tam
   repo: https://github.com/SchootHuang/DSC180B-Coronavirus-Wikipedia
   title: Investigating the Trustworthiness of Wikipedia and the Media in the Scope
@@ -404,6 +425,7 @@ project_04:
     \ its raga. By applying the frequency/occurrence of each note, as well as the\
     \ patterns that each raga produces, as features to our classification model, we\
     \ were able to generate accurate classifications given an audio clip."
+  domain: domain_02
   names: Sruthi Vedantham, Saveree Joshipura
   repo: https://github.com/sruthiv98/DSC180B
   title: 'Name That Raga: An Analysis and Classification of Indian Classical Music'
@@ -416,6 +438,7 @@ project_05:
     \ preview thumbnail that can contribute to a video\u2019s success. We believe\
     \ that there are features in YouTube thumbnails that can be extracted and used\
     \ to identify what makes a video more appealing to potential viewers."
+  domain: domain_02
   names: Saieashwar Mukund, Chase Oden, Matthew Widjaja, Christopher Wynne
   repo: https://github.com/codencoding/Red-Means-Go
   title: 'Red Means Go: Analyzing YouTube Thumbnail Trends.'
@@ -431,6 +454,7 @@ project_06:
     adaptation of GANS. The results show that finer selective masking performs better
     inpainting results than block selections. With more domain knowledge, GANs can
     perform closer approximate reconstructions of images.
+  domain: domain_02
   names: Emmanuel Diaz
   repo: https://github.com/Emmanuel-Diaz/DSC180B-Project
   title: 'RestoreNet: Quantifying Image Restoration of World War II Images'
@@ -440,6 +464,7 @@ project_07:
     \ which includes both generative art and natural clustering. The data set is a\
     \ sample of roughly 3000 Minecraft skins, a 64x64 RGBA image, that is wrapped on\
     \ top of each player\u2019s character and can be seen in game."
+  domain: domain_02
   names: Nicholas Smith
   repo: https://github.com/KoreanJ/MineSkins
   title: MineSkins
@@ -463,6 +488,7 @@ project_08:
     \ such as shot detection, spectral transformations, and text analysis, this project\
     \ offers a complete discussion of the concept of attention-getting in advertising\
     \ from an analytical viewpoint."
+  domain: domain_02
   names: Chatson Frankenberg, William Bates
   repo: https://github.com/Wbates2012/SuperBowlCapstone
   title: What Makes a Super Bowl Commercial Super?
@@ -478,6 +504,7 @@ project_09:
     \ generated CNN feature vectors of each image, and graphed it using UMAP, and\
     \ it didn\u2019t show any clusters as well. We also do a comparison of RGB histograms\
     \ for each cover to find its most similar book cover."
+  domain: domain_02
   names: Eric Wang, Jenny Luc
   repo: https://github.com/JennyLuc/IlliterateBot
   title: Book Cover Reader
