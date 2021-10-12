@@ -112,7 +112,7 @@ numpy==1.18.1
 oauthlib==3.0.1
 okpy==1.14.18
 olefile==0.46
-opencv-contrib-python-headless==3.4.5.20
+opencv-contrib-python-headless==3.4.7.28
 packaging==19.0
 pamela==1.0.0
 pandas==1.0.1
