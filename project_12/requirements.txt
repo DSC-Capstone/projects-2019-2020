@@ -105,7 +105,7 @@ kiwisolver==1.1.0
 libarchive-c==2.8
 llvmlite==0.29.0
 locket==0.2.0
-lxml==4.4.1
+lxml==4.6.5
 Mako==1.0.14
 mapclassify==2.2.0
 Markdown==3.1.1
