@@ -108,7 +108,7 @@ nose==1.3.7
 notebook==6.0.0
 numba==0.45.1
 numexpr==2.6.9
-numpy==1.18.1
+numpy==1.22.0
 oauthlib==3.0.1
 okpy==1.14.18
 olefile==0.46
