@@ -7,7 +7,7 @@ decorator==4.4.2
 idna==2.9
 imageio==2.8.0
 kiwisolver==1.2.0
-lxml==4.5.0
+lxml==4.9.1
 matplotlib==3.2.1
 networkx==2.4
 numpy==1.18.3
