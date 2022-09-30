@@ -85,7 +85,7 @@ jedi==0.14.1
 jeepney==0.4.2
 Jinja2==2.10.1
 jmespath==0.9.4
-joblib==0.13.2
+joblib==1.2.0
 jplephem==2.12
 json5==0.8.5
 jsonnet==0.14.0
